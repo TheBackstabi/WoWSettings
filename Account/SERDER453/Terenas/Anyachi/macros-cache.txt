@@ -1,0 +1,8 @@
+VER 3 0100000000000002 "CS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Counterspell
+END
+VER 3 0100000000000001 "Poly" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Polymorph
+END

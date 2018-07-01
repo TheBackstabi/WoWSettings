@@ -1,0 +1,46 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0211,
+	["LastPlayerFullName"] = "Calithil-Hydraxis",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["Artifacts"] = {
+		[128820] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 51,
+					["Type"] = "Fire",
+				}, -- [1]
+				{
+					["ItemLevel"] = 42,
+					["Type"] = "Arcane",
+				}, -- [2]
+				{
+					["ItemLevel"] = 45,
+					["Type"] = "Fire",
+				}, -- [3]
+			},
+			["Name"] = "Felo'melorn",
+		},
+		[128862] = {
+			["Relics"] = {
+				{
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["ItemLevel"] = 45,
+					["Type"] = "Arcane",
+				}, -- [2]
+				{
+					["Type"] = "Frost",
+				}, -- [3]
+			},
+			["Name"] = "Ebonchill, Greatstaff of Alodi",
+		},
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MAGE",
+	["LastAdded"] = 1,
+}

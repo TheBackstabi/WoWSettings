@@ -1,0 +1,8 @@
+VER 3 0100000000000002 "Flame" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@cursor][@player] Sigil of Flame
+END
+VER 3 0100000000000001 "kInf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@player][] Infernal Strike
+END

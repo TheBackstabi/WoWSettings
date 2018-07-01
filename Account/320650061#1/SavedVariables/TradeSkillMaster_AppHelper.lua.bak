@@ -1,0 +1,18 @@
+
+TradeSkillMaster_AppHelperDB = {
+	["blackMarket"] = {
+	},
+	["analytics"] = {
+		["data"] = {
+		},
+		["updateTime"] = 0,
+	},
+	["wowToken"] = {
+		["US"] = {
+			["data"] = 170234,
+			["key"] = 11443767,
+			["updateTime"] = 1508209608,
+		},
+	},
+	["region"] = "US",
+}

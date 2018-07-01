@@ -1,0 +1,35 @@
+
+WoWGatheringNodesConfig = {
+	["profileKeys"] = {
+		["Calithil - Hydraxis"] = "Default",
+		["Bagofsticks - Hydraxis"] = "Default",
+		["Pillowaifu - Hydraxis"] = "Default",
+		["Backstabi - Argent Dawn"] = "Default",
+		["Frostshocki - Hydraxis"] = "Default",
+		["Necroticks - Hydraxis"] = "Default",
+		["Moosebrew - Hydraxis"] = "Default",
+		["Anyachi - Terenas"] = "Default",
+		["Aubade - Ghostlands"] = "Default",
+		["Scrublordxo - Terenas"] = "Default",
+		["Liviko - Wyrmrest Accord"] = "Default",
+		["Anyatsu - Terenas"] = "Default",
+		["Skivvix - Ghostlands"] = "Default",
+		["Backstabi - Proudmoore"] = "Default",
+		["Purpleslurp - Terenas"] = "Default",
+		["Backstabi - Ghostlands"] = "Default",
+		["Ramlethall - Tichondrius"] = "Default",
+		["Edgelordxo - Hydraxis"] = "Default",
+		["Tekkita - Alleria"] = "Default",
+		["Anyatsu - Korgath"] = "Default",
+		["Backstabi - Korgath"] = "Default",
+		["Spetis - Ghostlands"] = "Default",
+		["Tarrengerd - Terenas"] = "Default",
+		["Backstabi - Hydraxis"] = "Default",
+		["Aestrin - Ghostlands"] = "Default",
+		["Livika - Wyrmrest Accord"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,27 @@
+
+AucAdvancedFilterBasic_IgnoreList = {
+	["Ghostlands"] = {
+		["List"] = {
+		},
+	},
+	["Tichondrius"] = {
+		["List"] = {
+		},
+	},
+	["Hydraxis"] = {
+		["List"] = {
+		},
+	},
+	["Proudmoore"] = {
+		["List"] = {
+		},
+	},
+	["Wyrmrest Accord"] = {
+		["List"] = {
+		},
+	},
+	["Terenas"] = {
+		["List"] = {
+		},
+	},
+}

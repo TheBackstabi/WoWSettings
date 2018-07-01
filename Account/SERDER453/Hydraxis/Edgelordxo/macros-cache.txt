@@ -1,0 +1,48 @@
+VER 3 0100000000000007 "Banish" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm,nodead][] Banish
+END
+VER 3 010000000000000B "Doom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Summon Infernal; Summon Doomguard
+/use Berserking
+END
+VER 3 0100000000000003 "E" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Shadow Bolt
+/petattack [nomod]
+/petfollow [mod]
+END
+VER 3 0100000000000008 "Enslave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm,nodead][] Enslave Demon
+END
+VER 3 0100000000000001 "Fear" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Fear
+END
+VER 3 0100000000000006 "Havoc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Havoc
+END
+VER 3 0100000000000004 "Heals" "INV_MISC_QUESTIONMARK"
+/cast Healthstone
+/cast Dark Regeneration
+END
+VER 3 0100000000000002 "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Command Demon
+END
+VER 3 010000000000000C "Pet" "INV_MISC_QUESTIONMARK"
+/petattack [nomod]
+/petfollow [mod:shift]
+END
+VER 3 0100000000000009 "Sb:SS" "INV_MISC_QUESTIONMARK"
+/cast Soulburn
+/cast Soul Swap
+END
+VER 3 010000000000000A "Sear" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,help,nodead][@Qqkachoo] Sear Magic(Special Ability)
+END
+VER 3 0100000000000005 "Tele" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Demonic Circle: Summon; Demonic Circle: Teleport
+END

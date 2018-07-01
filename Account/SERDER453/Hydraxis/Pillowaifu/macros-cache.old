@@ -1,0 +1,68 @@
+VER 3 010000000000005C "ARMS_AoE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Cleave; Slam
+END
+VER 3 010000000000005E "ARMS_WheelieBin" "INV_MISC_QUESTIONMARK"
+#showtooltip Bladestorm
+/use Battle Cry
+/use Bladestorm
+END
+VER 3 0100000000000049 "CDs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Recklessness
+/cast Avatar
+END
+VER 3 010000000000004C "Charge" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Charge
+/cast [nomod] Heroic Throw
+END
+VER 3 0100000000000054 "CS" "INV_MISC_QUESTIONMARK"
+/cast Colossus Smash
+/use 13
+/cast Bloodbath
+END
+VER 3 010000000000005B "ddd" "INV_MISC_QUESTIONMARK"
+/click ExtraActionButton1
+END
+VER 3 0100000000000059 "E" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Devastate
+/cast [mod:shift] Heroic Strike
+END
+VER 3 0100000000000055 "Int3" "INV_MISC_QUESTIONMARK"
+/cast [@party3] Intervene
+END
+VER 3 010000000000004E "Intervene" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][@mouseover,exists,help,nodead][] Intervene
+END
+VER 3 0100000000000050 "Intimidating" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Intimidating Shout
+END
+VER 3 010000000000005D "Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@cursor][] Heroic Leap
+END
+VER 3 010000000000004B "Pummel" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Pummel
+END
+VER 3 0100000000000053 "Rage" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Whirlwind; Slam
+END
+VER 3 0100000000000051 "Stance" "INV_MISC_QUESTIONMARK"
+/cast [stance:1] Defensive Stance; Battle Stance
+END
+VER 3 010000000000004A "Stormbolt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Storm Bolt
+END
+VER 3 0100000000000058 "Taunt" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,harm,nodead][] Taunt
+END
+VER 3 010000000000005A "Throw" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,harm,nodead][] Heroic Throw
+END
+VER 3 0100000000000057 "Vigil" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help,nodead][] Vigilance
+END

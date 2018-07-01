@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Focus" "INV_MISC_QUESTIONMARK"
+/clearfocus
+/focus [@mouseover,help,nodead][]
+END

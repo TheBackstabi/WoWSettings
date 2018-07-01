@@ -1,0 +1,16 @@
+VER 3 0100000000000011 "Levi" "INV_MISC_QUESTIONMARK"
+/cancelaura Levitate
+/cast Levitate
+END
+VER 3 0100000000000015 "PRI_DiscDamage" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Smite; [talent:1/3] Schism; [talent:4/1] Power Word: Solace; Smite
+END
+VER 3 010000000000001A "PRI_HealIGuess" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@mouseover,help][mod:shift] Power Word: Radiance; [@mouseover,help][] Plea
+END
+VER 3 0100000000000014 "PRI_Mend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@party1,exists][mod:ctrl,@party2,exists][@mouseover,help,nodead][] Shadow Mend
+END

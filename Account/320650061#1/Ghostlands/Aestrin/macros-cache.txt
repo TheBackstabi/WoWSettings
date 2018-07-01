@@ -1,0 +1,48 @@
+VER 3 010000000000000B "Bacon" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Beacon of Light
+END
+VER 3 0100000000000011 "BoP" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Hand of Protection
+END
+VER 3 0100000000000008 "Cleanse" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Cleanse
+END
+VER 3 0100000000000003 "Divine Light" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Divine Light
+END
+VER 3 010000000000000C "Flash" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Flash of Light
+END
+VER 3 0100000000000004 "Holy Light" "INV_MISC_QUESTIONMARK"
+/cast  [@mouseover,help,nodead][] Holy Light
+END
+VER 3 0100000000000007 "Lay" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Lay on Hands
+END
+VER 3 010000000000000E "PrismSingle" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Holy Prism
+END
+VER 3 0100000000000010 "Purity" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Hand of Purity
+END
+VER 3 0100000000000012 "R" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Divine Storm; Templar's Verdict
+END
+VER 3 0100000000000005 "Radiance" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Holy Radiance
+END
+VER 3 010000000000000A "Sac" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Hand of Sacrifice
+END
+VER 3 010000000000000D "Salv" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Hand of Salvation
+END
+VER 3 0100000000000009 "Shock" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][@player] Holy Shock
+END
+VER 3 010000000000000F "SS" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,help,nodead][] Sacred Shield
+END
+VER 3 0100000000000006 "WoG" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,help,nodead][] Word of Glory
+END

@@ -1,0 +1,117 @@
+
+PUIDB = {
+	["profileKeys"] = {
+		["Frostshocki - Hydraxis"] = "Frostshocki - Hydraxis",
+		["Bagofsticks - Hydraxis"] = "Bagofsticks - Hydraxis",
+		["Skaal - Durotan"] = "Skaal - Durotan",
+		["Pillowaifu - Hydraxis"] = "Pillowaifu - Hydraxis",
+		["Tarrengerd - Terenas"] = "Default",
+		["Calithil - Hydraxis"] = "Default",
+		["Scrublordxo - Durotan"] = "Default",
+		["Scrublordxo - Terenas"] = "Default",
+	},
+	["profiles"] = {
+		["Calithil - Hydraxis"] = {
+		},
+		["Bagofsticks - Hydraxis"] = {
+		},
+		["Pillowaifu - Hydraxis"] = {
+		},
+		["Frostshocki - Hydraxis"] = {
+			["UnitFrames"] = {
+				["target"] = {
+					["y"] = -125.000007629395,
+					["x"] = 300,
+					["scale"] = 1.3,
+					["ref"] = "CENTER",
+				},
+				["player"] = {
+					["y"] = -125.000007629395,
+					["x"] = -300,
+					["scale"] = 1.3,
+					["ref"] = "CENTER",
+				},
+				["party"] = {
+					["y"] = "150",
+					["x"] = "-300",
+					["scale"] = 1.5,
+					["ref"] = "CENTER",
+				},
+				["focus"] = {
+					["y"] = "-200",
+					["x"] = "-250",
+					["scale"] = 1.3,
+					["ref"] = "CENTER",
+				},
+			},
+		},
+		["Default"] = {
+			["UnitFrames"] = {
+				["party"] = {
+					["y"] = "150",
+					["x"] = "-300",
+					["scale"] = 1.5,
+					["ref"] = "CENTER",
+				},
+				["focus"] = {
+					["y"] = "-200",
+					["x"] = "-250",
+					["scale"] = 1.3,
+					["ref"] = "CENTER",
+				},
+				["target"] = {
+					["y"] = -125.000007629395,
+					["x"] = 300,
+					["scale"] = 1.3,
+					["ref"] = "CENTER",
+				},
+				["player"] = {
+					["y"] = -125.000007629395,
+					["x"] = -300,
+					["scale"] = 1.3,
+					["ref"] = "CENTER",
+				},
+			},
+			["fps"] = true,
+			["ActionBars"] = {
+				["CastBar"] = {
+					["y"] = "275",
+				},
+			},
+		},
+		["Scrublordxo - Durotan"] = {
+		},
+		["Tarrengerd - Terenas"] = {
+		},
+		["Skaal - Durotan"] = {
+		},
+		["SativTest"] = {
+			["UnitFrames"] = {
+				["target"] = {
+					["y"] = 55.3077087402344,
+					["x"] = -246.718002319336,
+					["ref"] = "CENTER",
+				},
+				["party"] = {
+					["y"] = -275,
+					["x"] = 120,
+					["ref"] = "TOPLEFT",
+					["scale"] = 1.5,
+				},
+				["player"] = {
+					["y"] = 125.000007629395,
+					["x"] = -350.000030517578,
+					["ref"] = "CENTER",
+				},
+				["focus"] = {
+					["y"] = 125,
+					["x"] = -500,
+					["ref"] = "CENTER",
+				},
+			},
+			["fps"] = true,
+		},
+		["Scrublordxo - Terenas"] = {
+		},
+	},
+}

@@ -1,0 +1,53 @@
+VER 3 010000000000006B "Bash" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Mighty Bash
+END
+VER 3 0100000000000077 "Boom" "INV_MISC_QUESTIONMARK"
+/cast !Moonkin Form
+END
+VER 3 010000000000006F "Cat" "INV_MISC_QUESTIONMARK"
+/cast !Cat Form
+END
+VER 3 0100000000000073 "Cleanse" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:ctrl,@party2][@mouseover,exists,help,nodead][] Nature's Cure
+END
+VER 3 0100000000000071 "ClearForm" "INV_MISC_QUESTIONMARK"
+/cancelaura Cat Form
+/cancelaura Bear Form
+END
+VER 3 0100000000000068 "Clone" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Cyclone
+END
+VER 3 0100000000000076 "DoTs" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Moonfire; Sunfire
+END
+VER 3 0100000000000069 "Frenzy" "INV_MISC_QUESTIONMARK"
+/castsequence Bear Form, Berserk, Frenzied Regeneration
+END
+VER 3 010000000000007A "Growth" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,help,nodead][] Wild Growth
+END
+VER 3 0100000000000072 "Mushroom" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Wild Mushroom: Bloom; Wild Mushroom
+END
+VER 3 0100000000000075 "Nukes" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Starfire; Wrath
+END
+VER 3 0100000000000078 "Soothe" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Soothe
+END
+VER 3 0100000000000079 "Stampede" "INV_MISC_QUESTIONMARK"
+/cast Stampeding Roar
+/cancelaura Bear Form
+/cancelaura Cat Form
+END
+VER 3 0100000000000070 "Stealth" "INV_MISC_QUESTIONMARK"
+/cast !Prowl
+END
+VER 3 010000000000006A "Tranq" "INV_MISC_QUESTIONMARK"
+/cast Berserking
+/cast Tranquility
+END
+VER 3 010000000000006E "Travel" "INV_MISC_QUESTIONMARK"
+/cast [nomod] !Travel Form
+/cancelaura [mod:shift] Travel Form
+END

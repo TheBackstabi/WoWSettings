@@ -1,0 +1,23 @@
+VER 3 0100000000000006 "Coc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Life Cocoon
+END
+VER 3 0100000000000002 "Eff" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Effuse
+END
+VER 3 0100000000000003 "Env" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Enveloping Mist
+END
+VER 3 0100000000000007 "Follow" "INV_MISC_QUESTIONMARK"
+/follow Backstabi
+END
+VER 3 0100000000000004 "Font" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Essence Font
+END
+VER 3 0100000000000001 "Viv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Vivify
+END

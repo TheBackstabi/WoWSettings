@@ -1,0 +1,73 @@
+VER 3 010000000000004F "Blind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,harm][] Blind
+END
+VER 3 010000000000004D "Dance" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Dance
+/use 13
+/cast Shadow Dance
+END
+VER 3 0100000000000058 "DanceAmbush" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Hemorrhage; [stance:2/3][mod:ctrl] Ambush; Backstab
+/cast [stance] Premeditation
+/cast [stance] Pick Pocket
+END
+VER 3 010000000000005A "Evasion" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Evasion
+/use Shieldtronic Shield
+END
+VER 3 0100000000000048 "Evis" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:ctrl] Crimson Tempest; [mod:shift] Rupture; Eviscerate
+/cancelaura Hand of Protection
+END
+VER 3 010000000000005D "FSap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,harm,nodead][] Sap
+END
+VER 3 0100000000000050 "Gouge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Gouge
+END
+VER 3 0100000000000051 "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Kick
+END
+VER 3 010000000000004B "Kidney" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [mod:shift,@focus] Redirect, Kidney Shot; Kidney Shot
+END
+VER 3 0100000000000052 "Shiv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,harm][] Shiv
+END
+VER 3 0100000000000049 "SnD" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] Recuperate; Premeditation
+/cast Premeditation
+/cast [mod:shift] Recuperate; Slice and Dice
+END
+VER 3 0100000000000055 "SpamSap" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] Vanish; [stance] Sap; Stealth
+/cleartarget [stance]
+/targetenemyplayer [stance]
+/cast [stance] Sap
+/cancelaura [mod:shift] Subterfuge
+/cast [mod:shift] Vanish; !Stealth
+/stopattack
+END
+VER 3 010000000000005B "Step" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:4/2] Shadowstep; Burst of Speed
+/cast [mod:shift,@focus,harm,nodead][@mouseover,nodead][talent:4/2] Shadowstep; Burst of Speed
+/cast [mod:shift,@focus,harm,nodead] Kick
+END
+VER 3 0100000000000059 "Tricks" "INV_MISC_QUESTIONMARK"
+/cast [@Disscourged,exists][@Icefyre,exists][@Pippens,exists][@Keeiril,exists][@Vezok,exists][@Samblade,exists][@Xaeres,exists][@Windflury,exists][@Rentrak,exists][@Hexenmaster,exists][] Tricks of the Trade
+END
+VER 3 010000000000005F "Vendetta" "INV_MISC_QUESTIONMARK"
+#showtooltip Vendetta
+/cast Shadow Reflection
+/cast Vendetta
+/use 13
+END

@@ -1,0 +1,79 @@
+VER 3 000000000000000A "/focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Ghost Wolf
+/target focus
+END
+VER 3 0000000000000017 "barkskins" "INV_MACE_1H_PANDARAID_D_03"
+/cast barkskin
+/cast Ironbark
+/cast Lifeblood
+/cast Cenarion Ward
+END
+VER 3 0000000000000015 "bear bash bear" "INV_Misc_QuestionMark"
+#showtooltip Bash(Bear Form)
+/Castsequence Bear Form(Shapeshift), Enrage(Bear Form), Bash(Bear Form)
+END
+VER 3 000000000000001A "Body and Mind " "INV_PET_BATTLEPETTRAINING"
+/target Xan
+/cast Body and Mind
+/target focus
+END
+VER 3 0000000000000004 "Camera" "Ability_Creature_Cursed_02"
+/console cameradistancemaxfactor 50
+END
+VER 3 0000000000000003 "Cluck" "Spell_Magic_PolymorphChicken"
+/chicken
+END
+VER 3 0000000000000018 "CollectMeRC" "INV_PET_BABYBLIZZARDBEAR"
+/cm rc
+END
+VER 3 0000000000000019 "CollectMeRM" "ABILITY_MOUNT_BIGBLIZZARDBEAR"
+/cm rm
+END
+VER 3 000000000000001C "dance" "ACHIEVEMENT_GUILDPERK_MASSRESURRECTION"
+/dance
+END
+VER 3 0000000000000002 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Purify;  [@mouseover,exists,mod:ctrl] Dispel Magic; [@mouseover,exists,mod:shift] Purify
+END
+VER 3 0000000000000011 "extra action" "Ability_Creature_Cursed_01"
+/click ExtraActionButton1
+END
+VER 3 000000000000001B "extra action but" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/click extraactionbutton1
+END
+VER 3 000000000000001F "Feater" "236217"
+/cast [@player] Angelic Feather
+/stopcasting
+END
+VER 3 0000000000000013 "Follow" "Ability_Creature_Cursed_04"
+/follow
+END
+VER 3 000000000000001D "Ice Nova" "SPELL_MAGE_ICENOVA"
+#showtooltip
+/cast [@target, harm] Ice Nova
+END
+VER 3 0000000000000007 "Kiss" "Spell_Shaman_BlessingOfTheEternals"
+/kiss
+END
+VER 3 000000000000001E "Kneel" "SPELL_MISC_PETHEAL"
+/kneel
+END
+VER 3 000000000000000E "Light well" "Spell_Holy_Rune"
+/Raid
+A light well has been placed for your use
+END
+VER 3 0000000000000012 "ROLL" "spell_Shaman_Measuredinsight"
+/roll
+END
+VER 3 0000000000000008 "specail attack b" "INV_Misc_QuestionMark"
+/run DraenorZoneAbilityFrame:Show()
+END
+VER 3 0000000000000016 "tranq and run" "ACHIEVEMENT_GUILDPERK_CASHFLOW_RANK2"
+/cast Spiritwalker's Grace
+/cast Nature's Vigil
+/cast Tranquility
+END
+VER 3 0000000000000014 "tree tranq" "Ability_Ambush"
+END

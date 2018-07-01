@@ -1,0 +1,4 @@
+
+ClassicQuestLogCollapsedHeaders = {
+	["Frostfire Ridge"] = true,
+}

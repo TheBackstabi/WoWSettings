@@ -1,0 +1,44 @@
+
+sArenaDB = {
+	["CastingBar"] = {
+		["Scale"] = 1,
+	},
+	["Scale"] = 1,
+	["AuraWatch"] = {
+		["Enabled"] = true,
+		["FontSize"] = 8,
+		["Alpha"] = 0.5,
+	},
+	["ClassColours"] = {
+		["Frame"] = false,
+		["Health"] = true,
+		["Name"] = true,
+	},
+	["TestMode"] = false,
+	["HideStatusText"] = false,
+	["Version"] = "1.2.1",
+	["Position"] = {
+		"RIGHT", -- [1]
+		"RIGHT", -- [2]
+		-150, -- [3]
+		100, -- [4]
+	},
+	["DRTracker"] = {
+		["Enabled"] = true,
+		["Position"] = {
+			-70, -- [1]
+			20, -- [2]
+		},
+		["Scale"] = 1,
+		["CooldownFontSize"] = 7,
+		["GrowRight"] = false,
+	},
+	["Trinkets"] = {
+		["Scale"] = 1,
+		["AlwaysShow"] = true,
+		["CooldownFontSize"] = 7,
+		["Enabled"] = true,
+	},
+	["GrowUpwards"] = false,
+	["Lock"] = false,
+}

@@ -1,0 +1,53 @@
+VER 3 010000000000000C "Asphyx" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Asphyxiate
+END
+VER 3 0100000000000005 "CancelConv" "INV_MISC_QUESTIONMARK"
+/cancelaura Conversion
+END
+VER 3 0100000000000010 "Coil" "INV_MISC_QUESTIONMARK"
+/cast Death Coil
+/cast Blood Tap
+END
+VER 3 0100000000000009 "CoilMinion" "INV_MISC_QUESTIONMARK"
+/cast [@pet] Death Coil
+END
+VER 3 0100000000000004 "Conv" "INV_MISC_QUESTIONMARK"
+/cast !Conversion
+END
+VER 3 010000000000000B "FocusGnaw" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Gnaw
+END
+VER 3 010000000000000D "FocusGrip" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Death Grip
+END
+VER 3 010000000000000E "FocusKick" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Mind Freeze
+END
+VER 3 010000000000000A "Gnaw" "INV_MISC_QUESTIONMARK"
+/cast [@target] Gnaw
+END
+VER 3 0100000000000008 "LichHeal" "INV_MISC_QUESTIONMARK"
+/cast !Lichborne
+/cast [@Spetis] Death Coil
+END
+VER 3 0100000000000011 "PetSac" "INV_MISC_QUESTIONMARK"
+/cast Raise Dead
+/cast Death Pact
+END
+VER 3 0100000000000003 "Pres" "INV_MISC_QUESTIONMARK"
+/cast Blood Presence
+/cast Frost Presence
+END
+VER 3 010000000000000F "SimFocus" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Dark Simulacrum
+END
+VER 3 0100000000000007 "UHPres" "INV_MISC_QUESTIONMARK"
+/cast Unholy Presence
+/cast Blood Presence
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1ET[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Spe[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

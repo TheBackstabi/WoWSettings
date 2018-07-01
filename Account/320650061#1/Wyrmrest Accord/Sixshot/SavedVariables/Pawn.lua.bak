@@ -1,0 +1,25 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0213,
+	["LastPlayerFullName"] = "Sixshot-Wyrmrest Accord",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128808] = {
+			["Relics"] = {
+				{
+					["Type"] = "Wind",
+				}, -- [1]
+				{
+					["Type"] = "Iron",
+				}, -- [2]
+			},
+			["Name"] = "Talonclaw, Spear of the Wild Gods",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "HUNTER",
+	["LastAdded"] = 1,
+}

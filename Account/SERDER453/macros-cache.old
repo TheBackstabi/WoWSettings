@@ -1,0 +1,486 @@
+VER 3 00000000000000C8 "!!ARTIFACT_FRAME" "INV_MISC_QUESTIONMARK"
+#showtooltip 16
+/run if ArtifactFrame and ArtifactFrame:IsShown() then HideUIPanel(ArtifactFrame) else SocketInventoryItem(16) end
+END
+VER 3 00000000000000DA "!MAGEFOOD" "INV_MISC_QUESTIONMARK"
+/use Conjured Mana Fritter
+END
+VER 3 00000000000000CA "@Mill_Cast" "INV_MISC_QUESTIONMARK"
+/run local f,l,n=AuM or CreateFrame("Button","AuM",nil,"SecureActionButtonTemplate") f:SetAttribute("type","macro") l,n=FnH() if l then f:SetAttribute("macrotext","/cast Milling\n/use "..l) SetMacroItem("@Mill_Cast",n) end
+/click AuM
+END
+VER 3 00000000000000C7 "@Mill_Setup" "INV_MISC_QUESTIONMARK"
+/run function FnH() for i=0,4 do for j=1,GetContainerNumSlots(i) do local t={GetItemInfo(GetContainerItemLink(i,j) or 0)} if t[7]=="Herb" and select(2,GetContainerItemInfo(i,j))>=5 then return i.." "..j,t[1] end end end end
+END
+VER 3 00000000000000B3 "_DaggerBuy" "133789"
+/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find("Brutal Gladiator's Mutilator") then BuyMerchantItem(i, 1)end end end
+END
+VER 3 00000000000000B5 "_DaggerSell" "133785"
+/run local bag, slot for bag=0, 4 do for slot=0,GetContainerNumSlots(bag) do local link=GetContainerItemLink(bag, slot) if link and link:find("Brutal Gladiator's Mutilator") then UseContainerItem(bag, slot) end end end
+END
+VER 3 000000000000009F "_HS" "INV_MISC_QUESTIONMARK"
+/use Healthstone
+END
+VER 3 00000000000000A2 "_Reset" "INV_MISC_QUESTIONMARK"
+/script ResetInstances()
+END
+VER 3 00000000000000C6 "_StopCasting" "INV_MACE_03"
+/stopcasting
+/stopcasting
+END
+VER 3 00000000000000C5 "_TABBIND" "INV_SWORD_04"
+/run local tve,tvp,a="TARGETNEARESTENEMY" tvp=tve.."PLAYER" a=GetBindingAction("TAB")==tve and tvp or tve SetBinding("TAB",a) SaveBindings(GetCurrentBindingSet()) print("Tab is now:",_G["BINDING_NAME_"..a])
+END
+VER 3 000000000000010E "DH_Flame" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@cursor][@player] Sigil of Flame
+END
+VER 3 0000000000000111 "DH_Healing" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Soul Cleave; Spirit Bomb
+END
+VER 3 0000000000000113 "DH_Meta" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@cursor][@player] Metamorphosis
+END
+VER 3 0000000000000110 "DH_Misery" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@cursor][@player] Sigil of Misery
+END
+VER 3 000000000000010F "DH_Silence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@cursor][@player] Sigil of Silence
+END
+VER 3 0000000000000112 "DH_Slam" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@player][] Infernal Strike
+END
+VER 3 0000000000000115 "DRU_AoE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Thrash; Swipe
+END
+VER 3 00000000000000F1 "DRU_Bash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Mighty Bash
+END
+VER 3 00000000000000F2 "DRU_Beam" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Solar Beam
+END
+VER 3 00000000000000FC "DRU_Berserk" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Berserk
+/use Berserking
+END
+VER 3 0000000000000121 "DRU_Bloom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Lifebloom
+END
+VER 3 00000000000000F9 "DRU_CancelForm" "134357"
+/cancelaura Cat Form
+/cancelaura Bear Form
+/cancelaura Travel Form
+/cancelaura Moonkin Form
+END
+VER 3 00000000000000EB "DRU_Cat" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Cat Form
+END
+VER 3 00000000000000F4 "DRU_Decurse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Remove Corruption
+END
+VER 3 00000000000000F7 "DRU_DoT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Sunfire(Solar); Moonfire
+END
+VER 3 00000000000000FB "DRU_FAoE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Thrash; Swipe
+END
+VER 3 00000000000000FA "DRU_Feral" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Rip; Ferocious Bite
+END
+VER 3 000000000000008A "DRU_FeralCharge" "INV_MISC_QUESTIONMARK"
+/cancelaura [mod:shift][mod:alt] Cat Form
+/cancelaura [mod:shift][mod:alt] Bear Form
+/cancelaura [mod:shift][mod:alt] Travel Form
+/cast [mod:shift,@party1][mod:alt,@party2][] Wild Charge
+END
+VER 3 00000000000000F0 "DRU_Heals" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@mouseover,exists][mod:shift] Regrowth; [@mouseover,exists][] Healing Touch
+END
+VER 3 00000000000000F5 "DRU_Inner" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Innervate
+END
+VER 3 00000000000000ED "DRU_NoForm" "INV_MISC_QUESTIONMARK"
+/cancelaura Cat Form
+/cancelaura Bear Form
+END
+VER 3 00000000000000F8 "DRU_Prowl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Prowl
+/cancelaura [mod:shift] Prowl
+END
+VER 3 0000000000000120 "DRU_Reg" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Regrowth
+END
+VER 3 0000000000000087 "DRU_Rejuv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Rejuvenation
+END
+VER 3 00000000000000F3 "DRU_Swift" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Swiftmend
+END
+VER 3 00000000000000F6 "DRU_Travel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Travel Form
+/cancelaura [mod:shift] Travel Form
+END
+VER 3 00000000000000D5 "ELE_DropStun" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] 
+END
+VER 3 00000000000000DD "HNT_Misdirection" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus,help,nodead][@mouseover,help,nodead][] Misdirection
+END
+VER 3 00000000000000B4 "Kneel" "INV_MISC_QUESTIONMARK"
+/kneel
+/say I am Potato
+END
+VER 3 000000000000005E "LOCK_Burst" "INV_MISC_QUESTIONMARK"
+/cast Dark Soul
+/use 13
+END
+VER 3 0000000000000065 "LOCK_Coil" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus,talent:2/2][talent:2/2] Mortal Coil; [talent:2/1] Howl of Terror; Shadowfury
+END
+VER 3 000000000000005D "LOCK_Funnel/Caut" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Cauterize Master; Health Funnel
+END
+VER 3 00000000000000E7 "LOK_FEAR" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Fear
+END
+VER 3 00000000000000E8 "LOK_PETBURST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Felstorm
+END
+VER 3 00000000000000EE "MAG_E" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Scorch; Fireball
+END
+VER 3 00000000000000E1 "MNK_Detox" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Detox
+END
+VER 3 0000000000000114 "MNK_Effuse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Effuse
+END
+VER 3 00000000000000DF "MNK_Kicks" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Blackout Kick; Rising Sun Kick
+END
+VER 3 00000000000000E0 "MNK_Renew" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Renewing Mist
+END
+VER 3 00000000000000E2 "MNK_Spin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Spinning Crane Kick
+END
+VER 3 00000000000000E5 "MNK_T1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:1/1] Chi Burst; [talent:1/2] Zen Pulse; Mistwalk
+END
+VER 3 00000000000000EA "PAL_Cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][]Cleanse Toxins
+END
+VER 3 00000000000000E9 "PAL_TAUNT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][] Hand of Reckoning
+END
+VER 3 0000000000000116 "PRE_Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][@focus,help,nodead][] Power Word: Shield
+END
+VER 3 0000000000000101 "PRI_AoE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Prayer of Healing
+END
+VER 3 0000000000000109 "PRI_Chast" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Holy Word: Chastise
+END
+VER 3 0000000000000106 "PRI_Control" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Mind Control
+END
+VER 3 00000000000000C9 "PRI_DPen" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][@target] Penance
+END
+VER 3 0000000000000054 "PRI_Ev/Pain" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Shadow Word: Pain; Archangel
+END
+VER 3 0000000000000108 "PRI_Feather" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@player][] Angelic Feather
+END
+VER 3 00000000000000FD "PRI_Flash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][@focus,help,nodead][] Flash Heal
+END
+VER 3 0000000000000107 "PRI_Guard" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Guardian Spirit
+END
+VER 3 000000000000010B "PRI_Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Heal
+END
+VER 3 000000000000010D "PRI_HWep" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Light of T'uure
+END
+VER 3 0000000000000100 "PRI_Mass" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@cursor][] Mass Dispel
+END
+VER 3 0000000000000102 "PRI_Mend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead]r[] Prayer of Mending
+END
+VER 3 0000000000000117 "PRI_Plea" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Plea
+END
+VER 3 0000000000000105 "PRI_Purge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Dispel Magic
+END
+VER 3 000000000000010A "PRI_Purify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Purify
+END
+VER 3 000000000000011A "PRI_Rad" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Power Word: Radiance
+END
+VER 3 00000000000000FF "PRI_Renew" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Renew
+END
+VER 3 0000000000000103 "PRI_Sanct" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@cursor][] Holy Word: Sanctify
+END
+VER 3 000000000000010C "PRI_Seren" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Holy Word: Serenity
+END
+VER 3 0000000000000118 "PRI_Shining" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][@focus,help,nodead]][] Shining Force
+END
+VER 3 0000000000000119 "PRI_Supp" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Pain Suppression
+END
+VER 3 0000000000000104 "PRI_Troll" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Leap of Faith
+END
+VER 3 00000000000000C1 "ROG_Ambush" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Ambush
+/cast Pick Pocket
+END
+VER 3 00000000000000AF "ROG_Blind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,harm,nodead][] Blind
+END
+VER 3 000000000000007A "ROG_CS" "INV_MISC_QUESTIONMARK"
+#showtooltip Cheap Shot
+/cast !Pick Pocket
+/cast !Stealth
+/cast [mod:shift,@focus][] Cheap Shot
+END
+VER 3 00000000000000DC "ROG_Dance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostance] Shadow Dance
+/cast [mod:shift] Shuriken Storm; Shadowstrike
+END
+VER 3 00000000000000B6 "ROG_DFA" "INV_MISC_QUESTIONMARK"
+#showtooltip Death from Above
+/use 13
+/use Winning Hand
+/cast Death from Above
+END
+VER 3 00000000000000C4 "ROG_Env" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Rupture; Envenom
+END
+VER 3 00000000000000CB "ROG_Eyes" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,harm,nodead][] Between the Eyes
+END
+VER 3 00000000000000C0 "ROG_FOK" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Fan of Knives
+/startattack
+END
+VER 3 00000000000000CF "ROG_FOKSUB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Shuriken Storm
+/startattack
+END
+VER 3 00000000000000B2 "ROG_FSap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,harm,nodead][] Sap
+END
+VER 3 000000000000007C "ROG_Garrote" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,harm,nodead][] Garrote
+/cast !Stealth
+/cast !Pick Pocket
+END
+VER 3 00000000000000AD "ROG_Gouge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,harm,nodead][] Gouge
+END
+VER 3 00000000000000D1 "ROG_Grapple" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@cursor][] Grappling Hook
+END
+VER 3 00000000000000CC "ROG_Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Healthstone; Crimson Vial
+END
+VER 3 00000000000000AE "ROG_Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,harm,nodead][] Kick
+END
+VER 3 00000000000000A7 "ROG_Kidney" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Kidney Shot
+END
+VER 3 00000000000000BC "ROG_Leech" "INV_MISC_QUESTIONMARK"
+/cast Leeching Poison
+END
+VER 3 0000000000000076 "ROG_Mobility" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][mod:ctrl,@party1][mod:alt,@party2][] Shadowstep
+/cast [mod:shift,@focus] Kick
+END
+VER 3 0000000000000096 "ROG_Pootilate" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] Hemorrhage; Mutilate
+/cast Pick Pocket
+/cast [mod:shift] Hemorrhage; Mutilate
+/stopattack [stance]
+END
+VER 3 00000000000000B0 "ROG_Q" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostance] !Stealth
+/cast [mod:shift,@focus,harm,nodead][] Cheap Shot
+END
+VER 3 00000000000000A8 "ROG_Shiv" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Shiv
+END
+VER 3 00000000000000CE "ROG_SINF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,talent:6/3] Exsanguinate; [talent:7/2] Marked for Death; [talent:6/3] Exsanguinate
+END
+VER 3 00000000000000A6 "ROG_SS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,talent:1/1] Ghostly Strike; Saber Slash
+END
+VER 3 00000000000000AC "ROG_Stealth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cleartarget [stance]
+/targetenemyplayer [stance]
+/cast [mod:shift] Vanish; [nostance] Stealth; Sap
+/stopattack
+END
+VER 3 00000000000000AA "ROG_SubE" "INV_MISC_QUESTIONMARK"
+#showtooltip [stance] Shadowstrike; Backstab
+/cast [stance] Shadowstrike; Backstab
+/startattack [nostealth]
+/use [stance] Pick Pocket
+END
+VER 3 00000000000000D0 "ROG_SUBR" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Nightblade; Eviscerate
+END
+VER 3 00000000000000DB "ROG_Symb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Symbols of Death
+/cast !Stealth
+END
+VER 3 00000000000000CD "ROG_TotT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,help,nodead][@mouseover,help,nodead][] Tricks of the Trade
+END
+VER 3 000000000000011C "SHA_CHain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Chain heal
+END
+VER 3 00000000000000D6 "SHA_DropStun" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player,talent:3/1] Lightning Surge Totem; Earthgrab Totem
+END
+VER 3 00000000000000D8 "SHA_EleCD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Elemental Mastery
+/use Blood Fury
+END
+VER 3 00000000000000D7 "SHA_EleMast" "INV_MISC_QUESTIONMARK"
+#showtooltip Elemental Mastery
+/use 13
+/use 14
+/use Elemental Mastery
+END
+VER 3 00000000000000D4 "SHA_Lightning" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Chain Lightning; Lightning Bolt
+END
+VER 3 000000000000011F "SHA_Purify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Purify Spirit
+END
+VER 3 00000000000000D3 "SHA_Quake" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@cursor][] Earthquake
+END
+VER 3 00000000000000D2 "SHA_Stun" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@cursor,talent:3/1][talent:3/1] Lightning Surge Totem; [mod:shift,@cursor][] Earthgrab Totem
+END
+VER 3 000000000000011B "SHA_Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Healing Surge
+END
+VER 3 000000000000011D "SHA_Tide" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Riptide
+END
+VER 3 000000000000011E "SHA_Wave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Healing Wave
+END
+VER 3 00000000000000BD "SHAM_Shocks" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Flame Shock; Frost Shock
+END
+VER 3 00000000000000C3 "WAR_Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Taunt
+END

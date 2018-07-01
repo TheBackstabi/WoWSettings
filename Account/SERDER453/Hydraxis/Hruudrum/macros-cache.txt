@@ -1,0 +1,43 @@
+VER 3 0100000000000024 "Breakaway" "INV_MISC_QUESTIONMARK"
+/petpassive
+/stopattack
+/stopcasting
+/stopattack
+/stopcasting
+END
+VER 3 0100000000000023 "Freedom" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,help,nodead][] Master's Call
+END
+VER 3 010000000000001F "Frost Traps" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Freezing Trap; Ice Trap
+END
+VER 3 0100000000000018 "Gens" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Multi-Shot; Arcane Shot
+END
+VER 3 010000000000001A "MD" "INV_MISC_QUESTIONMARK"
+/cast [@target,exists,help,nodead][@pet,nodead][] Misdirection
+END
+VER 3 0100000000000021 "Mend" "INV_MISC_QUESTIONMARK"
+/cast Mend Pet
+/petpassive [mod:shift]
+END
+VER 3 0100000000000025 "Revive" "INV_MISC_QUESTIONMARK"
+/cast Revive Pet
+/petpassive
+END
+VER 3 0100000000000019 "Sac" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover] Roar of Sacrifice(Cunning Ability)
+/cast Cower
+/cast Dash
+END
+VER 3 0100000000000017 "Sting" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/stopcasting
+/cast [mod:shift,@focus][] Wyvern Sting
+END
+VER 3 010000000000001B "Trap" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/stopcasting
+/cast [mod:shift,@focus][] Scatter Shot
+END

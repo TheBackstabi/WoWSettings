@@ -1,0 +1,4610 @@
+
+_detalhes_database = {
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Default",
+	["last_realversion"] = 119,
+	["ignore_nicktag"] = false,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.008285,
+							["spec"] = 266,
+							["damage_from"] = {
+								["Edgelordxo"] = true,
+							},
+							["targets"] = {
+								["Training Dummy"] = 131196684,
+							},
+							["pets"] = {
+								"Jhuufaran <Edgelordxo>", -- [1]
+								"Dreadstalker <Edgelordxo>", -- [2]
+								"Felguard <Edgelordxo>", -- [3]
+								"Wild Imp <Edgelordxo>", -- [4]
+								"Doomguard <Edgelordxo>", -- [5]
+							},
+							["friendlyfire"] = {
+								["Edgelordxo"] = {
+									["spells"] = {
+										[1454] = 184920,
+										[111400] = 38953,
+									},
+									["total"] = 223873,
+								},
+							},
+							["end_time"] = 1496853557,
+							["friendlyfire_total"] = 223873,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 39764960.008285,
+							["colocacao"] = 1,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 131196684.008285,
+							["classe"] = "WARLOCK",
+							["on_hold"] = false,
+							["nome"] = "Edgelordxo",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[86040] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 1077570,
+										["g_amt"] = 0,
+										["n_max"] = 98667,
+										["targets"] = {
+											["Training Dummy"] = 6271965,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5194395,
+										["n_min"] = 74000,
+										["g_dmg"] = 0,
+										["counter"] = 64,
+										["total"] = 6271965,
+										["c_max"] = 197334,
+										["id"] = 86040,
+										["r_dmg"] = 0,
+										["spellschool"] = 36,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 58,
+										["r_amt"] = 0,
+										["c_min"] = 170725,
+									},
+									[157695] = {
+										["c_amt"] = 22,
+										["b_amt"] = 0,
+										["c_dmg"] = 5029130,
+										["g_amt"] = 0,
+										["n_max"] = 164100,
+										["targets"] = {
+											["Training Dummy"] = 16576101,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11546971,
+										["n_min"] = 67896,
+										["g_dmg"] = 0,
+										["counter"] = 119,
+										["total"] = 16576101,
+										["c_max"] = 285392,
+										["id"] = 157695,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 97,
+										["r_amt"] = 0,
+										["c_min"] = 135793,
+									},
+									[603] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 2172323,
+										["g_amt"] = 0,
+										["n_max"] = 313886,
+										["targets"] = {
+											["Training Dummy"] = 14169841,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11997518,
+										["n_min"] = 271540,
+										["g_dmg"] = 0,
+										["counter"] = 46,
+										["total"] = 14169841,
+										["c_max"] = 543081,
+										["id"] = 603,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 42,
+										["r_amt"] = 0,
+										["c_min"] = 543080,
+									},
+									[193439] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 141570,
+										["g_amt"] = 0,
+										["n_max"] = 19689,
+										["targets"] = {
+											["Training Dummy"] = 944110,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 802540,
+										["n_min"] = 17032,
+										["g_dmg"] = 0,
+										["counter"] = 48,
+										["total"] = 944110,
+										["c_max"] = 39376,
+										["id"] = 193439,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 44,
+										["r_amt"] = 0,
+										["c_min"] = 34064,
+									},
+									[159238] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 202593,
+										["g_amt"] = 0,
+										["n_max"] = 20260,
+										["targets"] = {
+											["Training Dummy"] = 1802943,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1600350,
+										["n_min"] = 10128,
+										["g_dmg"] = 0,
+										["counter"] = 147,
+										["total"] = 1802943,
+										["c_max"] = 40519,
+										["id"] = 159238,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 142,
+										["r_amt"] = 0,
+										["c_min"] = 40518,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-90-07046B4B",
+							["last_dps"] = 300824.959950021,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 179105.008285,
+							["start_time"] = 1496853110,
+							["delay"] = 0,
+							["last_event"] = 1496853549,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.003093,
+							["serial"] = "Pet-0-3018-1-25362-17252-01020E1431",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 29972673,
+							},
+							["end_time"] = 1496853546,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29972673.003093,
+							["dps_started"] = false,
+							["total"] = 29972673.003093,
+							["classe"] = "PET",
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Jhuufaran <Edgelordxo>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 36,
+										["b_amt"] = 0,
+										["c_dmg"] = 3039451,
+										["g_amt"] = 0,
+										["n_max"] = 47914,
+										["targets"] = {
+											["Training Dummy"] = 14256578,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11217127,
+										["n_min"] = 33324,
+										["g_dmg"] = 0,
+										["counter"] = 297,
+										["total"] = 14256578,
+										["c_max"] = 95827,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 261,
+										["r_amt"] = 0,
+										["c_min"] = 66648,
+									}, -- [1]
+									[30213] = {
+										["c_amt"] = 12,
+										["b_amt"] = 0,
+										["c_dmg"] = 1648393,
+										["g_amt"] = 0,
+										["n_max"] = 76662,
+										["targets"] = {
+											["Training Dummy"] = 8632104,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6983711,
+										["n_min"] = 53318,
+										["g_dmg"] = 0,
+										["counter"] = 114,
+										["total"] = 8632104,
+										["c_max"] = 153323,
+										["id"] = 30213,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 102,
+										["r_amt"] = 0,
+										["c_min"] = 106637,
+									},
+									[89753] = {
+										["c_amt"] = 12,
+										["b_amt"] = 0,
+										["c_dmg"] = 1377250,
+										["g_amt"] = 0,
+										["n_max"] = 62288,
+										["targets"] = {
+											["Training Dummy"] = 7050667,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5673417,
+										["n_min"] = 43321,
+										["g_dmg"] = 0,
+										["counter"] = 112,
+										["total"] = 7050667,
+										["c_max"] = 124575,
+										["id"] = 89753,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 100,
+										["r_amt"] = 0,
+										["c_min"] = 107768,
+									},
+									[30153] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33324,
+										["targets"] = {
+											["Training Dummy"] = 33324,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 33324,
+										["n_min"] = 33324,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 33324,
+										["c_max"] = 0,
+										["id"] = 30153,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003093,
+							["start_time"] = 1496853110,
+							["delay"] = 0,
+							["last_event"] = 1496853542,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.001694,
+							["serial"] = "Creature-0-3018-1-25362-17252-0000382A7B",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 23016776,
+							},
+							["end_time"] = 1496853546,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 23016776.001694,
+							["dps_started"] = false,
+							["total"] = 23016776.001694,
+							["classe"] = "PET",
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Felguard <Edgelordxo>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 11,
+										["b_amt"] = 0,
+										["c_dmg"] = 1831269,
+										["g_amt"] = 0,
+										["n_max"] = 95827,
+										["targets"] = {
+											["Training Dummy"] = 7749109,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5917840,
+										["n_min"] = 66648,
+										["g_dmg"] = 0,
+										["counter"] = 79,
+										["total"] = 7749109,
+										["c_max"] = 191654,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 68,
+										["r_amt"] = 0,
+										["c_min"] = 133296,
+									}, -- [1]
+									[30153] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 266592,
+										["g_amt"] = 0,
+										["n_max"] = 77042,
+										["targets"] = {
+											["Training Dummy"] = 476930,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 210338,
+										["n_min"] = 66648,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 476930,
+										["c_max"] = 133296,
+										["id"] = 30153,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 133296,
+									},
+									[89753] = {
+										["c_amt"] = 9,
+										["b_amt"] = 0,
+										["c_dmg"] = 1994986,
+										["g_amt"] = 0,
+										["n_max"] = 124575,
+										["targets"] = {
+											["Training Dummy"] = 8549809,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6554823,
+										["n_min"] = 86642,
+										["g_dmg"] = 0,
+										["counter"] = 70,
+										["total"] = 8549809,
+										["c_max"] = 249150,
+										["id"] = 89753,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 61,
+										["r_amt"] = 0,
+										["c_min"] = 200309,
+									},
+									[30213] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 837198,
+										["g_amt"] = 0,
+										["n_max"] = 153323,
+										["targets"] = {
+											["Training Dummy"] = 6240928,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5403730,
+										["n_min"] = 106637,
+										["g_dmg"] = 0,
+										["counter"] = 43,
+										["total"] = 6240928,
+										["c_max"] = 306646,
+										["id"] = 30213,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 40,
+										["r_amt"] = 0,
+										["c_min"] = 265276,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001694,
+							["start_time"] = 1496853412,
+							["delay"] = 1496853511,
+							["last_event"] = 1496853511,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.003486,
+							["serial"] = "Vehicle-0-3018-1-25362-98035-0000382A79",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 16731314,
+							},
+							["end_time"] = 1496853546,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 16731314.003486,
+							["dps_started"] = false,
+							["total"] = 16731314.003486,
+							["classe"] = "PET",
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Dreadstalker <Edgelordxo>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 43,
+										["b_amt"] = 0,
+										["c_dmg"] = 2284674,
+										["g_amt"] = 0,
+										["n_max"] = 30128,
+										["targets"] = {
+											["Training Dummy"] = 12356853,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10072179,
+										["n_min"] = 20953,
+										["g_dmg"] = 0,
+										["counter"] = 422,
+										["total"] = 12356853,
+										["c_max"] = 60255,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 379,
+										["r_amt"] = 0,
+										["c_min"] = 41907,
+									}, -- [1]
+									[205196] = {
+										["c_amt"] = 11,
+										["b_amt"] = 0,
+										["c_dmg"] = 1611104,
+										["g_amt"] = 0,
+										["n_max"] = 81199,
+										["targets"] = {
+											["Training Dummy"] = 4374461,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2763357,
+										["n_min"] = 70244,
+										["g_dmg"] = 0,
+										["counter"] = 48,
+										["total"] = 4374461,
+										["c_max"] = 162398,
+										["id"] = 205196,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 37,
+										["r_amt"] = 0,
+										["c_min"] = 140488,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003486,
+							["start_time"] = 1496853144,
+							["delay"] = 1496853447,
+							["last_event"] = 1496853538,
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.008481,
+							["serial"] = "Creature-0-3018-1-25362-99737-0000382A79",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 14657638,
+							},
+							["end_time"] = 1496853546,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 14657638.008481,
+							["dps_started"] = false,
+							["total"] = 14657638.008481,
+							["classe"] = "PET",
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Wild Imp <Edgelordxo>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[104318] = {
+										["c_amt"] = 133,
+										["b_amt"] = 0,
+										["c_dmg"] = 2610073,
+										["g_amt"] = 0,
+										["n_max"] = 11202,
+										["targets"] = {
+											["Training Dummy"] = 14657638,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12047565,
+										["n_min"] = 7430,
+										["g_dmg"] = 0,
+										["counter"] = 1364,
+										["total"] = 14657638,
+										["c_max"] = 22354,
+										["id"] = 104318,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1231,
+										["r_amt"] = 0,
+										["c_min"] = 15025,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008481,
+							["start_time"] = 1496853115,
+							["delay"] = 0,
+							["last_event"] = 1496853544,
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.002261,
+							["serial"] = "Creature-0-3018-1-25362-11859-0000382A94",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 7053323,
+							},
+							["end_time"] = 1496853546,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7053323.002261,
+							["dps_started"] = false,
+							["total"] = 7053323.002261,
+							["classe"] = "PET",
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Doomguard <Edgelordxo>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[85692] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 2469704,
+										["g_amt"] = 0,
+										["n_max"] = 195218,
+										["targets"] = {
+											["Training Dummy"] = 7053323,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4583619,
+										["n_min"] = 135776,
+										["g_dmg"] = 0,
+										["counter"] = 35,
+										["total"] = 7053323,
+										["c_max"] = 390436,
+										["id"] = 85692,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 28,
+										["r_amt"] = 0,
+										["c_min"] = 337766,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002261,
+							["start_time"] = 1496853479,
+							["delay"] = 1496853534,
+							["last_event"] = 1496853534,
+						}, -- [6]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 5,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Edgelordxo"] = true,
+							},
+							["pets"] = {
+								"Doomguard <Edgelordxo>", -- [1]
+								"Jhuufaran <Edgelordxo>", -- [2]
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["totalover"] = 391791.002641,
+							["total_without_pet"] = 242547.002641,
+							["total"] = 242547.002641,
+							["targets_absorbs"] = {
+								["Jhuufaran <Edgelordxo>"] = 44768,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-90-07046B4B",
+							["totalabsorb"] = 44768.002641,
+							["last_hps"] = 556.143571059073,
+							["targets"] = {
+								["Edgelordxo"] = 290217,
+								["Jhuufaran <Edgelordxo>"] = 44768,
+							},
+							["totalover_without_pet"] = 0.002641,
+							["healing_taken"] = 197779.002641,
+							["fight_component"] = true,
+							["end_time"] = 1496853546,
+							["targets_overheal"] = {
+								["Edgelordxo"] = 92438,
+							},
+							["nome"] = "Edgelordxo",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 44768,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3698,
+										["targets"] = {
+											["Jhuufaran <Edgelordxo>"] = 44768,
+										},
+										["n_min"] = 1298,
+										["counter"] = 16,
+										["overheal"] = 0,
+										["total"] = 44768,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Jhuufaran <Edgelordxo>"] = 44768,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 44768,
+										["n_amt"] = 16,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108447] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Edgelordxo"] = 92438,
+										},
+										["n_max"] = 14794,
+										["targets"] = {
+											["Edgelordxo"] = 197779,
+										},
+										["n_min"] = 224,
+										["counter"] = 46,
+										["overheal"] = 92438,
+										["total"] = 197779,
+										["c_max"] = 0,
+										["id"] = 108447,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 197779,
+										["n_amt"] = 46,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1496853484,
+							["custom"] = 0,
+							["last_event"] = 1496853515,
+							["spec"] = 266,
+							["totaldenied"] = 0.002641,
+							["delay"] = 1496853515,
+							["tipo"] = 2,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.007314,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["start_time"] = 1496853546,
+							["targets"] = {
+							},
+							["healing_from"] = {
+								["Edgelordxo"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["end_time"] = 1496853546,
+							["classe"] = "PET",
+							["totalover"] = 0.007314,
+							["total_without_pet"] = 0.007314,
+							["totalover_without_pet"] = 0.007314,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.007314,
+							["serial"] = "Pet-0-3018-1-25362-17252-01020E1431",
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Jhuufaran <Edgelordxo>",
+							["healing_taken"] = 44768.007314,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.007314,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.004754,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Doomguard <Edgelordxo>"] = 299353,
+							},
+							["targets"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[22987] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Doomguard <Edgelordxo>"] = 299353,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Doomguard <Edgelordxo>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 3,
+										["overheal"] = 299353,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 22987,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+							},
+							["healing_taken"] = 0.004754,
+							["totalover"] = 299353.004754,
+							["total_without_pet"] = 0.004754,
+							["start_time"] = 1496853545,
+							["totalover_without_pet"] = 0.004754,
+							["classe"] = "PET",
+							["total"] = 0.004754,
+							["end_time"] = 1496853546,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Doomguard <Edgelordxo>",
+							["heal_enemy_amt"] = 0,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Creature-0-3018-1-25362-11859-0000382A94",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.004754,
+							["delay"] = 1496853508,
+							["last_event"] = 1496853508,
+						}, -- [3]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 5,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 480151.00623,
+							["resource"] = 0.00623,
+							["targets"] = {
+								["Edgelordxo"] = 480151,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 480151.00623,
+							["nome"] = "Edgelordxo",
+							["spec"] = 266,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1496853549,
+							["alternatepower"] = 0.00623,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193318] = {
+										["id"] = 193318,
+										["total"] = 34,
+										["targets"] = {
+											["Edgelordxo"] = 34,
+										},
+										["counter"] = 46,
+									},
+									[194379] = {
+										["id"] = 194379,
+										["total"] = 5,
+										["targets"] = {
+											["Edgelordxo"] = 5,
+										},
+										["counter"] = 6,
+									},
+									[1454] = {
+										["id"] = 1454,
+										["total"] = 480000,
+										["targets"] = {
+											["Edgelordxo"] = 480000,
+										},
+										["counter"] = 10,
+									},
+									[196300] = {
+										["id"] = 196300,
+										["total"] = 112,
+										["targets"] = {
+											["Edgelordxo"] = 112,
+										},
+										["counter"] = 119,
+									},
+								},
+							},
+							["serial"] = "Player-90-07046B4B",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 5,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[159238] = {
+										["uptime"] = 127,
+										["activedamt"] = 0,
+										["id"] = 159238,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[603] = {
+										["uptime"] = 424,
+										["activedamt"] = 2,
+										["id"] = 603,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 1853,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[89766] = {
+										["id"] = 89766,
+										["targets"] = {
+											["Training Dummy"] = 5,
+										},
+										["counter"] = 5,
+									},
+								},
+							},
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[193440] = {
+										["uptime"] = 17,
+										["activedamt"] = 6,
+										["id"] = 193440,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[182057] = {
+										["uptime"] = 160,
+										["activedamt"] = 8,
+										["id"] = 182057,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[205146] = {
+										["uptime"] = 171,
+										["activedamt"] = 18,
+										["id"] = 205146,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[108366] = {
+										["uptime"] = 435,
+										["activedamt"] = 1,
+										["id"] = 108366,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[111400] = {
+										["uptime"] = 7,
+										["activedamt"] = 3,
+										["id"] = 111400,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[193396] = {
+										["actived_at"] = 1496853534,
+										["uptime"] = 371,
+										["activedamt"] = 12,
+										["id"] = 193396,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[60478] = {
+										["uptime"] = 75,
+										["activedamt"] = 3,
+										["id"] = 60478,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[108446] = {
+										["uptime"] = 587,
+										["activedamt"] = 462,
+										["id"] = 108446,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[26297] = {
+										["uptime"] = 30,
+										["activedamt"] = 3,
+										["id"] = 26297,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 551,
+							["cc_done"] = 5.008351,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 266,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[18540] = 3,
+								[157695] = 119,
+								[119914] = 8,
+								[1454] = 10,
+								[104316] = 24,
+								[193440] = 6,
+								[111898] = 5,
+								[193396] = 35,
+								[111400] = 3,
+								[26297] = 3,
+								[105174] = 32,
+							},
+							["cc_done_targets"] = {
+								["Training Dummy"] = 5,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1496854437,
+							["nome"] = "Edgelordxo",
+							["pets"] = {
+								"Jhuufaran <Edgelordxo>", -- [1]
+								"Dreadstalker <Edgelordxo>", -- [2]
+								"Wild Imp <Edgelordxo>", -- [3]
+								"Felguard <Edgelordxo>", -- [4]
+								"Doomguard <Edgelordxo>", -- [5]
+							},
+							["serial"] = "Player-90-07046B4B",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Jhuufaran <Edgelordxo>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["fight_component"] = true,
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[30213] = 114,
+								[89753] = 56,
+							},
+							["serial"] = "Pet-0-3018-1-25362-17252-01020E1431",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Dreadstalker <Edgelordxo>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[215111] = 48,
+								[205196] = 48,
+							},
+							["serial"] = "Vehicle-0-3018-1-25362-98035-0000382A79",
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Wild Imp <Edgelordxo>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[104318] = 1364,
+							},
+							["serial"] = "Creature-0-3018-1-25362-99737-0000382A79",
+							["last_event"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["classe"] = "PET",
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Felguard <Edgelordxo>",
+							["cc_done_targets"] = {
+								["Training Dummy"] = 5,
+							},
+							["pets"] = {
+							},
+							["cc_done"] = 5.005382,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[89766] = {
+										["id"] = 89766,
+										["targets"] = {
+											["Training Dummy"] = 5,
+										},
+										["counter"] = 5,
+									},
+								},
+							},
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[30213] = 40,
+								[30151] = 5,
+								[89766] = 5,
+								[89753] = 35,
+								[89751] = 5,
+							},
+							["serial"] = "Creature-0-3018-1-25362-17252-0000382A7B",
+							["last_event"] = 1496853485,
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Doomguard <Edgelordxo>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[22987] = 3,
+								[85692] = 35,
+							},
+							["serial"] = "Creature-0-3018-1-25362-11859-0000382A94",
+							["last_event"] = 0,
+						}, -- [6]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Edgelordxo"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Training Dummy",
+				["combat_counter"] = 16,
+				["playing_solo"] = true,
+				["totals"] = {
+					131196683.965028, -- [1]
+					242546.994353, -- [2]
+					{
+						0, -- [1]
+						[0] = 480144.987708,
+						["alternatepower"] = 0,
+						[3] = 6,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Edgelordxo"] = 242547.002641,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Edgelordxo"] = 130888084.015643,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 77351.297,
+				["combat_id"] = 5,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "11:39:06",
+				["data_inicio"] = "11:31:50",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					40033601, -- [1]
+					242547, -- [2]
+					{
+						0, -- [1]
+						[0] = 480151,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 76915.174,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.008856,
+							["total"] = 108088569.008856,
+							["damage_from"] = {
+								["Edgelordxo"] = true,
+							},
+							["targets"] = {
+								["Training Dummy"] = 108088569,
+							},
+							["pets"] = {
+								"Jhuufaran <Edgelordxo>", -- [1]
+								"Dreadstalker <Edgelordxo>", -- [2]
+								"Wild Imp <Edgelordxo>", -- [3]
+								"Felguard <Edgelordxo>", -- [4]
+								"Doomguard <Edgelordxo>", -- [5]
+							},
+							["classe"] = "WARLOCK",
+							["last_dps"] = 262505.723057182,
+							["friendlyfire_total"] = 147936,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 39443278.008856,
+							["last_event"] = 1496789845,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1496789847,
+							["damage_taken"] = 118352.008856,
+							["fight_component"] = true,
+							["nome"] = "Edgelordxo",
+							["spec"] = 266,
+							["grupo"] = true,
+							["custom"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									[159238] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20260,
+										["targets"] = {
+											["Training Dummy"] = 1721903,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1721903,
+										["n_min"] = 10128,
+										["g_dmg"] = 0,
+										["counter"] = 147,
+										["total"] = 1721903,
+										["c_max"] = 0,
+										["id"] = 159238,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 147,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[157695] = {
+										["c_amt"] = 21,
+										["b_amt"] = 0,
+										["c_dmg"] = 4865595,
+										["g_amt"] = 0,
+										["n_max"] = 156966,
+										["targets"] = {
+											["Training Dummy"] = 16843015,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11977420,
+										["n_min"] = 67897,
+										["g_dmg"] = 0,
+										["counter"] = 124,
+										["total"] = 16843015,
+										["c_max"] = 285392,
+										["id"] = 157695,
+										["r_dmg"] = 0,
+										["c_min"] = 148138,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 103,
+										["a_dmg"] = 0,
+										["spellschool"] = 127,
+									},
+									[603] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 4683407,
+										["g_amt"] = 0,
+										["n_max"] = 313886,
+										["targets"] = {
+											["Training Dummy"] = 14768252,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10084845,
+										["n_min"] = 172166,
+										["g_dmg"] = 0,
+										["counter"] = 44,
+										["total"] = 14768252,
+										["c_max"] = 627771,
+										["id"] = 603,
+										["r_dmg"] = 0,
+										["c_min"] = 543080,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 36,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[86040] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 900194,
+										["g_amt"] = 0,
+										["n_max"] = 98667,
+										["targets"] = {
+											["Training Dummy"] = 6110108,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5209914,
+										["n_min"] = 21340,
+										["g_dmg"] = 0,
+										["counter"] = 68,
+										["total"] = 6110108,
+										["c_max"] = 197334,
+										["id"] = 86040,
+										["r_dmg"] = 0,
+										["c_min"] = 42682,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 62,
+										["a_dmg"] = 0,
+										["spellschool"] = 36,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+								["Edgelordxo"] = {
+									["total"] = 147936,
+									["spells"] = {
+										[1454] = 147936,
+									},
+								},
+							},
+							["start_time"] = 1496789435,
+							["serial"] = "Player-90-07046B4B",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.003768,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 22582205,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.003768,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 22582205.003768,
+							["last_event"] = 1496789830,
+							["dps_started"] = false,
+							["total"] = 22582205.003768,
+							["delay"] = 1496789830,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Jhuufaran <Edgelordxo>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 28,
+										["b_amt"] = 0,
+										["c_dmg"] = 2282869,
+										["g_amt"] = 0,
+										["n_max"] = 47914,
+										["targets"] = {
+											["Training Dummy"] = 11589590,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9306721,
+										["n_min"] = 33324,
+										["g_dmg"] = 0,
+										["counter"] = 255,
+										["total"] = 11589590,
+										["c_max"] = 95827,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 66648,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 227,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[30213] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 1301060,
+										["g_amt"] = 0,
+										["n_max"] = 76662,
+										["targets"] = {
+											["Training Dummy"] = 6797922,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5496862,
+										["n_min"] = 53318,
+										["g_dmg"] = 0,
+										["counter"] = 94,
+										["total"] = 6797922,
+										["c_max"] = 153323,
+										["id"] = 30213,
+										["r_dmg"] = 0,
+										["c_min"] = 106637,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 84,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[89753] = {
+										["c_amt"] = 9,
+										["b_amt"] = 0,
+										["c_dmg"] = 921625,
+										["g_amt"] = 0,
+										["n_max"] = 62288,
+										["targets"] = {
+											["Training Dummy"] = 4128045,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3206420,
+										["n_min"] = 43321,
+										["g_dmg"] = 0,
+										["counter"] = 70,
+										["total"] = 4128045,
+										["c_max"] = 124574,
+										["id"] = 89753,
+										["r_dmg"] = 0,
+										["c_min"] = 86642,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 61,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[30153] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 66648,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Training Dummy"] = 66648,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 66648,
+										["c_max"] = 66648,
+										["id"] = 30153,
+										["r_dmg"] = 0,
+										["c_min"] = 66648,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1496789847,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1496789451,
+							["serial"] = "Pet-0-3132-1-10750-17252-01020E1431",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.007909,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 17161884,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.007909,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 17161884.007909,
+							["last_event"] = 1496789842,
+							["dps_started"] = false,
+							["total"] = 17161884.007909,
+							["delay"] = 1496789735,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Felguard <Edgelordxo>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 822341,
+										["g_amt"] = 0,
+										["n_max"] = 95827,
+										["targets"] = {
+											["Training Dummy"] = 5036741,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4214400,
+										["n_min"] = 66648,
+										["g_dmg"] = 0,
+										["counter"] = 57,
+										["total"] = 5036741,
+										["c_max"] = 191654,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 133296,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 52,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[30213] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 1868928,
+										["g_amt"] = 0,
+										["n_max"] = 153323,
+										["targets"] = {
+											["Training Dummy"] = 4696898,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2827970,
+										["n_min"] = 106637,
+										["g_dmg"] = 0,
+										["counter"] = 29,
+										["total"] = 4696898,
+										["c_max"] = 306646,
+										["id"] = 30213,
+										["r_dmg"] = 0,
+										["c_min"] = 213274,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 22,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[89753] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 2016539,
+										["g_amt"] = 0,
+										["n_max"] = 124575,
+										["targets"] = {
+											["Training Dummy"] = 7140865,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5124326,
+										["n_min"] = 86642,
+										["g_dmg"] = 0,
+										["counter"] = 56,
+										["total"] = 7140865,
+										["c_max"] = 249149,
+										["id"] = 89753,
+										["r_dmg"] = 0,
+										["c_min"] = 173285,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 46,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[30153] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 77042,
+										["targets"] = {
+											["Training Dummy"] = 287380,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 287380,
+										["n_min"] = 66648,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 287380,
+										["c_max"] = 0,
+										["id"] = 30153,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1496789847,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1496789735,
+							["serial"] = "Creature-0-3132-1-10750-17252-00003731CC",
+							["classe"] = "PET",
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.002413,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 13705950,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.002413,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13705950.002413,
+							["last_event"] = 1496789825,
+							["dps_started"] = false,
+							["total"] = 13705950.002413,
+							["delay"] = 1496789825,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Dreadstalker <Edgelordxo>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 40,
+										["b_amt"] = 0,
+										["c_dmg"] = 2029797,
+										["g_amt"] = 0,
+										["n_max"] = 30128,
+										["targets"] = {
+											["Training Dummy"] = 10077742,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8047945,
+										["n_min"] = 20953,
+										["g_dmg"] = 0,
+										["counter"] = 350,
+										["total"] = 10077742,
+										["c_max"] = 60255,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 41907,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 310,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[205196] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 1049150,
+										["g_amt"] = 0,
+										["n_max"] = 81200,
+										["targets"] = {
+											["Training Dummy"] = 3628208,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2579058,
+										["n_min"] = 70244,
+										["g_dmg"] = 0,
+										["counter"] = 42,
+										["total"] = 3628208,
+										["c_max"] = 162398,
+										["id"] = 205196,
+										["r_dmg"] = 0,
+										["c_min"] = 140489,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 35,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1496789847,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1496789501,
+							["serial"] = "Vehicle-0-3132-1-10750-98035-00003731C1",
+							["classe"] = "PET",
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.005844,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 11744672,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.005844,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 11744672.005844,
+							["last_event"] = 1496789833,
+							["dps_started"] = false,
+							["total"] = 11744672.005844,
+							["delay"] = 1496789833,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Wild Imp <Edgelordxo>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[104318] = {
+										["c_amt"] = 128,
+										["b_amt"] = 0,
+										["c_dmg"] = 2374719,
+										["g_amt"] = 0,
+										["n_max"] = 11204,
+										["targets"] = {
+											["Training Dummy"] = 11744672,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9369953,
+										["n_min"] = 7414,
+										["g_dmg"] = 0,
+										["counter"] = 1147,
+										["total"] = 11744672,
+										["c_max"] = 22315,
+										["id"] = 104318,
+										["r_dmg"] = 0,
+										["c_min"] = 14885,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1019,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1496789847,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1496789455,
+							["serial"] = "Creature-0-3132-1-10750-55659-00013731BF",
+							["classe"] = "PET",
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.005721,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 3450580,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.005721,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3450580.005721,
+							["last_event"] = 1496789746,
+							["dps_started"] = false,
+							["total"] = 3450580.005721,
+							["delay"] = 1496789746,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Doomguard <Edgelordxo>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[85692] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 675532,
+										["g_amt"] = 0,
+										["n_max"] = 168884,
+										["targets"] = {
+											["Training Dummy"] = 3450580,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2775048,
+										["n_min"] = 135777,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 3450580,
+										["c_max"] = 337766,
+										["id"] = 85692,
+										["r_dmg"] = 0,
+										["c_min"] = 337766,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 18,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1496789847,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1496789806,
+							["serial"] = "Creature-0-3132-1-10750-11859-00003731EB",
+							["classe"] = "PET",
+						}, -- [6]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Edgelordxo"] = 44577,
+							},
+							["pets"] = {
+								"Doomguard <Edgelordxo>", -- [1]
+								"Jhuufaran <Edgelordxo>", -- [2]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 194255.006781,
+							["total_without_pet"] = 144828.006781,
+							["total"] = 144828.006781,
+							["targets_absorbs"] = {
+								["Jhuufaran <Edgelordxo>"] = 29584,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-90-07046B4B",
+							["totalabsorb"] = 29584.006781,
+							["last_hps"] = 351.731741733596,
+							["targets"] = {
+								["Edgelordxo"] = 159821,
+								["Jhuufaran <Edgelordxo>"] = 29584,
+							},
+							["totalover_without_pet"] = 0.006781,
+							["healing_taken"] = 115244.006781,
+							["fight_component"] = true,
+							["end_time"] = 1496789847,
+							["tipo"] = 2,
+							["nome"] = "Edgelordxo",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 29584,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3698,
+										["targets"] = {
+											["Jhuufaran <Edgelordxo>"] = 29584,
+										},
+										["n_min"] = 3698,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 29584,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Jhuufaran <Edgelordxo>"] = 29584,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 8,
+										["n_curado"] = 29584,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[108447] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Edgelordxo"] = 44577,
+										},
+										["n_max"] = 14587,
+										["targets"] = {
+											["Edgelordxo"] = 115244,
+										},
+										["n_min"] = 38,
+										["counter"] = 28,
+										["overheal"] = 44577,
+										["total"] = 115244,
+										["c_max"] = 0,
+										["id"] = 108447,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 28,
+										["n_curado"] = 115244,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Edgelordxo"] = true,
+							},
+							["spec"] = 266,
+							["custom"] = 0,
+							["last_event"] = 1496789791,
+							["totaldenied"] = 0.006781,
+							["start_time"] = 1496789799,
+							["delay"] = 1496789791,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Edgelordxo"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007086,
+							["total_without_pet"] = 0.007086,
+							["total"] = 0.007086,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3132-1-10750-17252-01020E1431",
+							["totalabsorb"] = 0.007086,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.007086,
+							["healing_taken"] = 29584.007086,
+							["fight_component"] = true,
+							["end_time"] = 1496789847,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Jhuufaran <Edgelordxo>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.007086,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1496789847,
+							["delay"] = 0,
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 149678.002295,
+							["total_without_pet"] = 0.002295,
+							["total"] = 0.002295,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3132-1-10750-11859-00003731EB",
+							["totalabsorb"] = 0.002295,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.002295,
+							["healing_taken"] = 0.002295,
+							["end_time"] = 1496789847,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Doomguard <Edgelordxo>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[22987] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Doomguard <Edgelordxo>"] = 149678,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Doomguard <Edgelordxo>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 149678,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 22987,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 0,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["targets_overheal"] = {
+								["Doomguard <Edgelordxo>"] = 149678,
+							},
+							["totaldenied"] = 0.002295,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 1496789722,
+							["start_time"] = 1496789846,
+							["delay"] = 1496789722,
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["received"] = 336151.008443,
+							["resource"] = 0.008443,
+							["targets"] = {
+								["Edgelordxo"] = 336151,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 336151.008443,
+							["nome"] = "Edgelordxo",
+							["spec"] = 266,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1496789845,
+							["alternatepower"] = 0.008443,
+							["spells"] = {
+								["_ActorTable"] = {
+									[193318] = {
+										["id"] = 193318,
+										["total"] = 34,
+										["targets"] = {
+											["Edgelordxo"] = 34,
+										},
+										["counter"] = 43,
+									},
+									[1454] = {
+										["id"] = 1454,
+										["total"] = 336000,
+										["targets"] = {
+											["Edgelordxo"] = 336000,
+										},
+										["counter"] = 7,
+									},
+									[196300] = {
+										["id"] = 196300,
+										["total"] = 117,
+										["targets"] = {
+											["Edgelordxo"] = 117,
+										},
+										["counter"] = 124,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-90-07046B4B",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[159238] = {
+										["uptime"] = 124,
+										["activedamt"] = 0,
+										["id"] = 159238,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[603] = {
+										["uptime"] = 406,
+										["activedamt"] = 0,
+										["id"] = 603,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 1431,
+							["cc_done_spells"] = {
+								["_ActorTable"] = {
+									[89766] = {
+										["id"] = 89766,
+										["targets"] = {
+											["Training Dummy"] = 4,
+										},
+										["counter"] = 4,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[205146] = {
+										["uptime"] = 153,
+										["activedamt"] = 14,
+										["id"] = 205146,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[60478] = {
+										["uptime"] = 50,
+										["activedamt"] = 2,
+										["id"] = 60478,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108366] = {
+										["uptime"] = 411,
+										["activedamt"] = 1,
+										["id"] = 108366,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[193396] = {
+										["uptime"] = 242,
+										["activedamt"] = 19,
+										["id"] = 193396,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[182057] = {
+										["uptime"] = 141,
+										["activedamt"] = 7,
+										["id"] = 182057,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[108446] = {
+										["actived_at"] = 1496853034,
+										["uptime"] = 434,
+										["activedamt"] = 456,
+										["id"] = 108446,
+										["targets"] = {
+										},
+										["actived"] = true,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 530,
+							["cc_done"] = 4.003238,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 266,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[111898] = 4,
+								[1454] = 8,
+								[119914] = 8,
+								[193396] = 20,
+								[18540] = 2,
+								[104316] = 21,
+								[105174] = 34,
+								[157695] = 124,
+							},
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1496853034,
+							["pets"] = {
+								"Jhuufaran <Edgelordxo>", -- [1]
+								"Dreadstalker <Edgelordxo>", -- [2]
+								"Wild Imp <Edgelordxo>", -- [3]
+								"Felguard <Edgelordxo>", -- [4]
+								"Doomguard <Edgelordxo>", -- [5]
+							},
+							["nome"] = "Edgelordxo",
+							["serial"] = "Player-90-07046B4B",
+							["cc_done_targets"] = {
+								["Training Dummy"] = 4,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Jhuufaran <Edgelordxo>",
+							["spell_cast"] = {
+								[30213] = 94,
+								[134477] = 1,
+								[89753] = 35,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3132-1-10750-17252-01020E1431",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Dreadstalker <Edgelordxo>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[215111] = 42,
+								[205196] = 42,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3132-1-10750-98035-00003731C1",
+							["tipo"] = 4,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Wild Imp <Edgelordxo>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[104318] = 1147,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3132-1-10750-55659-0001B731BF",
+							["tipo"] = 4,
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["cc_done_targets"] = {
+								["Training Dummy"] = 4,
+							},
+							["cc_done"] = 4.001721,
+							["nome"] = "Felguard <Edgelordxo>",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["ownerName"] = "Edgelordxo",
+							["cc_done_spells"] = {
+								["_ActorTable"] = {
+									[89766] = {
+										["id"] = 89766,
+										["targets"] = {
+											["Training Dummy"] = 4,
+										},
+										["counter"] = 4,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["classe"] = "PET",
+							["last_event"] = 1496789816,
+							["serial"] = "Creature-0-3132-1-10750-17252-00003731CC",
+							["spell_cast"] = {
+								[30213] = 28,
+								[30151] = 4,
+								[89766] = 4,
+								[89753] = 28,
+								[89751] = 4,
+							},
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Doomguard <Edgelordxo>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[22987] = 2,
+								[85692] = 20,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3132-1-10750-11859-00003731EB",
+							["tipo"] = 4,
+						}, -- [6]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 4,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Edgelordxo"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Training Dummy",
+				["combat_counter"] = 14,
+				["playing_solo"] = true,
+				["totals"] = {
+					108088568.960587, -- [1]
+					144827.998183, -- [2]
+					{
+						0, -- [1]
+						[0] = 336150.987489,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Edgelordxo"] = 108088569.008856,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Edgelordxo"] = 144828.006781,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 13652.108,
+				["combat_id"] = 4,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["frags"] = {
+					["Water Snake"] = 1,
+				},
+				["data_fim"] = "17:57:27",
+				["data_inicio"] = "17:50:35",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					39620798, -- [1]
+					144828, -- [2]
+					{
+						0, -- [1]
+						[0] = 336151,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 13240.351,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.004735,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 33324,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Jhuufaran <Edgelordxo>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004735,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 33324.004735,
+							["damage_taken"] = 0.004735,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Edgelordxo",
+							["spec"] = 266,
+							["grupo"] = true,
+							["last_dps"] = 7575.3591122961,
+							["end_time"] = 1496789421,
+							["colocacao"] = 1,
+							["last_event"] = 1496789416,
+							["on_hold"] = false,
+							["start_time"] = 1496789416,
+							["serial"] = "Player-90-07046B4B",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.006347,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 33324,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.006347,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 33324.006347,
+							["last_event"] = 1496789416,
+							["dps_started"] = false,
+							["total"] = 33324.006347,
+							["delay"] = 0,
+							["ownerName"] = "Edgelordxo",
+							["nome"] = "Jhuufaran <Edgelordxo>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[30153] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33324,
+										["targets"] = {
+											["Training Dummy"] = 33324,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 33324,
+										["n_min"] = 33324,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 33324,
+										["c_max"] = 0,
+										["id"] = 30153,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1496789421,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1496789416,
+							["serial"] = "Pet-0-3132-1-10750-17252-01020E1431",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Edgelordxo"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Training Dummy",
+				["combat_counter"] = 13,
+				["playing_solo"] = true,
+				["totals"] = {
+					33323.9823230001, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00687500000000085,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Edgelordxo"] = 33324.004735,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 13225.968,
+				["combat_id"] = 3,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "17:50:21",
+				["data_inicio"] = "17:50:16",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 13221.569,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [3]
+		},
+	},
+	["last_day"] = "07",
+	["combat_counter"] = 17,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["animate"] = false,
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["level"] = 1,
+			["dps"] = 0,
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["author"] = "Details! Team",
+			["realm_history"] = {
+			},
+			["realm_lastamt"] = 0,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300, -- [1]
+				500.000030517578, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["use_spark"] = true,
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 4.577636718750e-005,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.05175781250e-005,
+				["x"] = 3.05175781250e-005,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
+			["author"] = "Details! Team",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["force_font_outline"] = "",
+	["character_data"] = {
+		["logons"] = 4,
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["savedbuffs"] = {
+	},
+	["tabela_instancias"] = {
+	},
+	["combat_id"] = 5,
+	["savedStyles"] = {
+	},
+	["last_instance_time"] = 0,
+	["cached_talents"] = {
+		["Player-90-07046B4B"] = {
+			22477, -- [1]
+			21694, -- [2]
+			19294, -- [3]
+			22479, -- [4]
+			22041, -- [5]
+			19291, -- [6]
+			19286, -- [7]
+		},
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1300,
+					["totalabsorbed"] = 0.025624,
+					["tipo"] = 1,
+					["damage_from"] = {
+						["Edgelordxo"] = true,
+					},
+					["targets"] = {
+						["Training Dummy"] = 238742173,
+					},
+					["pets"] = {
+						"Jhuufaran <Edgelordxo> <Edgelordxo>", -- [1]
+						"Dreadstalker <Edgelordxo> <Edgelordxo>", -- [2]
+						"Wild Imp <Edgelordxo> <Edgelordxo>", -- [3]
+						"Felguard <Edgelordxo> <Edgelordxo>", -- [4]
+						"Doomguard <Edgelordxo> <Edgelordxo>", -- [5]
+					},
+					["classe"] = "WARLOCK",
+					["dps_started"] = false,
+					["friendlyfire_total"] = 371809,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 78665158.025624,
+					["damage_taken"] = 297457.025624,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1496789847,
+					["last_dps"] = 281575.426977429,
+					["total"] = 238742173.025624,
+					["nome"] = "Edgelordxo",
+					["spec"] = 266,
+					["grupo"] = true,
+					["custom"] = 0,
+					["spells"] = {
+						["_ActorTable"] = {
+							[86040] = {
+								["c_amt"] = 12,
+								["b_amt"] = 0,
+								["c_dmg"] = 1977764,
+								["g_amt"] = 0,
+								["n_max"] = 98667,
+								["targets"] = {
+									["Training Dummy"] = 12382073,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10404309,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 132,
+								["total"] = 12382073,
+								["c_max"] = 197334,
+								["id"] = 86040,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 120,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[157695] = {
+								["c_amt"] = 43,
+								["b_amt"] = 0,
+								["c_dmg"] = 9894725,
+								["g_amt"] = 0,
+								["n_max"] = 164100,
+								["targets"] = {
+									["Training Dummy"] = 33419116,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 23524391,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 243,
+								["total"] = 33419116,
+								["c_max"] = 285392,
+								["id"] = 157695,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 200,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[603] = {
+								["c_amt"] = 12,
+								["b_amt"] = 0,
+								["c_dmg"] = 6855730,
+								["g_amt"] = 0,
+								["n_max"] = 313886,
+								["targets"] = {
+									["Training Dummy"] = 28395013,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 21539283,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 88,
+								["total"] = 28395013,
+								["c_max"] = 627771,
+								["id"] = 603,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 76,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[193439] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 141570,
+								["g_amt"] = 0,
+								["n_max"] = 19689,
+								["targets"] = {
+									["Training Dummy"] = 944110,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 802540,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 48,
+								["total"] = 944110,
+								["c_max"] = 39376,
+								["id"] = 193439,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 44,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[159238] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 202593,
+								["g_amt"] = 0,
+								["n_max"] = 20260,
+								["targets"] = {
+									["Training Dummy"] = 3524846,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3322253,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 294,
+								["total"] = 3524846,
+								["c_max"] = 40519,
+								["id"] = 159238,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 289,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["colocacao"] = 1,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+						["Edgelordxo"] = {
+							["total"] = 371809,
+							["spells"] = {
+								[1454] = 184920,
+								[111400] = 38953,
+							},
+						},
+					},
+					["start_time"] = 1496788996,
+					["serial"] = "Player-90-07046B4B",
+					["on_hold"] = false,
+				}, -- [1]
+				{
+					["flag_original"] = 4369,
+					["totalabsorbed"] = 0.012267,
+					["end_time"] = 1496853546,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Training Dummy"] = 52554878,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 0.012267,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 52554878.012267,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["total"] = 52554878.012267,
+					["friendlyfire"] = {
+					},
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Jhuufaran <Edgelordxo> <Edgelordxo>",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 64,
+								["b_amt"] = 0,
+								["c_dmg"] = 5322320,
+								["g_amt"] = 0,
+								["n_max"] = 47914,
+								["targets"] = {
+									["Training Dummy"] = 25846168,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 20523848,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 552,
+								["total"] = 25846168,
+								["c_max"] = 95827,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 488,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[30213] = {
+								["c_amt"] = 22,
+								["b_amt"] = 0,
+								["c_dmg"] = 2949453,
+								["g_amt"] = 0,
+								["n_max"] = 76662,
+								["targets"] = {
+									["Training Dummy"] = 15430026,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 12480573,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 208,
+								["total"] = 15430026,
+								["c_max"] = 153323,
+								["id"] = 30213,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 186,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[89753] = {
+								["c_amt"] = 21,
+								["b_amt"] = 0,
+								["c_dmg"] = 2298875,
+								["g_amt"] = 0,
+								["n_max"] = 62288,
+								["targets"] = {
+									["Training Dummy"] = 11178712,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8879837,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 182,
+								["total"] = 11178712,
+								["c_max"] = 124575,
+								["id"] = 89753,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 161,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[30153] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 66648,
+								["g_amt"] = 0,
+								["n_max"] = 33324,
+								["targets"] = {
+									["Training Dummy"] = 99972,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 33324,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 99972,
+								["c_max"] = 66648,
+								["id"] = 30153,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_dps"] = 0,
+					["delay"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1496853107,
+					["serial"] = "Pet-0-3132-1-10750-17252-01020E1431",
+					["last_event"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 8465,
+					["totalabsorbed"] = 0.018041,
+					["end_time"] = 1496853546,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Training Dummy"] = 40178660,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 0.018041,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 40178660.018041,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["total"] = 40178660.018041,
+					["friendlyfire"] = {
+					},
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Felguard <Edgelordxo> <Edgelordxo>",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 16,
+								["b_amt"] = 0,
+								["c_dmg"] = 2653610,
+								["g_amt"] = 0,
+								["n_max"] = 95827,
+								["targets"] = {
+									["Training Dummy"] = 12785850,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10132240,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 136,
+								["total"] = 12785850,
+								["c_max"] = 191654,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 120,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[30213] = {
+								["c_amt"] = 10,
+								["b_amt"] = 0,
+								["c_dmg"] = 2706126,
+								["g_amt"] = 0,
+								["n_max"] = 153323,
+								["targets"] = {
+									["Training Dummy"] = 10937826,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8231700,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 72,
+								["total"] = 10937826,
+								["c_max"] = 306646,
+								["id"] = 30213,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 62,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[89753] = {
+								["c_amt"] = 19,
+								["b_amt"] = 0,
+								["c_dmg"] = 4011525,
+								["g_amt"] = 0,
+								["n_max"] = 124575,
+								["targets"] = {
+									["Training Dummy"] = 15690674,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 11679149,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 126,
+								["total"] = 15690674,
+								["c_max"] = 249150,
+								["id"] = 89753,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 107,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[30153] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 266592,
+								["g_amt"] = 0,
+								["n_max"] = 77042,
+								["targets"] = {
+									["Training Dummy"] = 764310,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 497718,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 764310,
+								["c_max"] = 133296,
+								["id"] = 30153,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 7,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_dps"] = 0,
+					["delay"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1496853409,
+					["serial"] = "Creature-0-3132-1-10750-17252-00003731CC",
+					["last_event"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 8465,
+					["totalabsorbed"] = 0.010306,
+					["end_time"] = 1496853546,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Training Dummy"] = 30437264,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 0.010306,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 30437264.010306,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["total"] = 30437264.010306,
+					["friendlyfire"] = {
+					},
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Dreadstalker <Edgelordxo> <Edgelordxo>",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 83,
+								["b_amt"] = 0,
+								["c_dmg"] = 4314471,
+								["g_amt"] = 0,
+								["n_max"] = 30128,
+								["targets"] = {
+									["Training Dummy"] = 22434595,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 18120124,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 772,
+								["total"] = 22434595,
+								["c_max"] = 60255,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 689,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[205196] = {
+								["c_amt"] = 18,
+								["b_amt"] = 0,
+								["c_dmg"] = 2660254,
+								["g_amt"] = 0,
+								["n_max"] = 81200,
+								["targets"] = {
+									["Training Dummy"] = 8002669,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5342415,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 90,
+								["total"] = 8002669,
+								["c_max"] = 162398,
+								["id"] = 205196,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 72,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_dps"] = 0,
+					["delay"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1496853141,
+					["serial"] = "Vehicle-0-3132-1-10750-98035-00003731C1",
+					["last_event"] = 0,
+				}, -- [4]
+				{
+					["flag_original"] = 8465,
+					["totalabsorbed"] = 0.020118,
+					["end_time"] = 1496853546,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Training Dummy"] = 26402310,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 0.020118,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 26402310.020118,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["total"] = 26402310.020118,
+					["friendlyfire"] = {
+					},
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Wild Imp <Edgelordxo> <Edgelordxo>",
+					["spells"] = {
+						["_ActorTable"] = {
+							[104318] = {
+								["c_amt"] = 261,
+								["b_amt"] = 0,
+								["c_dmg"] = 4984792,
+								["g_amt"] = 0,
+								["n_max"] = 11204,
+								["targets"] = {
+									["Training Dummy"] = 26402310,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 21417518,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2511,
+								["total"] = 26402310,
+								["c_max"] = 22354,
+								["id"] = 104318,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2250,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_dps"] = 0,
+					["delay"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1496853112,
+					["serial"] = "Creature-0-3132-1-10750-55659-00013731BF",
+					["last_event"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 8465,
+					["totalabsorbed"] = 0.01498,
+					["end_time"] = 1496853546,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Training Dummy"] = 10503903,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 0.01498,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 10503903.01498,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["total"] = 10503903.01498,
+					["friendlyfire"] = {
+					},
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Doomguard <Edgelordxo> <Edgelordxo>",
+					["spells"] = {
+						["_ActorTable"] = {
+							[85692] = {
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 3145236,
+								["g_amt"] = 0,
+								["n_max"] = 195218,
+								["targets"] = {
+									["Training Dummy"] = 10503903,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7358667,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 55,
+								["total"] = 10503903,
+								["c_max"] = 390436,
+								["id"] = 85692,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 46,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_dps"] = 0,
+					["delay"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1496853476,
+					["serial"] = "Creature-0-3132-1-10750-11859-00003731EB",
+					["last_event"] = 0,
+				}, -- [6]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+						["Edgelordxo"] = true,
+					},
+					["pets"] = {
+						"Doomguard <Edgelordxo> <Edgelordxo>", -- [1]
+						"Jhuufaran <Edgelordxo> <Edgelordxo>", -- [2]
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "WARLOCK",
+					["totalover"] = 586046.01159,
+					["total_without_pet"] = 387375.01159,
+					["total"] = 387375.01159,
+					["targets_absorbs"] = {
+						["Jhuufaran <Edgelordxo>"] = 44768,
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-90-07046B4B",
+					["totalabsorb"] = 74352.01159,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Edgelordxo"] = 290217,
+						["Jhuufaran <Edgelordxo>"] = 44768,
+					},
+					["totalover_without_pet"] = 0.01159,
+					["healing_taken"] = 313023.01159,
+					["fight_component"] = true,
+					["end_time"] = 1496789847,
+					["targets_overheal"] = {
+						["Edgelordxo"] = 92438,
+					},
+					["nome"] = "Edgelordxo",
+					["spells"] = {
+						["_ActorTable"] = {
+							[108366] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 74352,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 3698,
+								["targets"] = {
+									["Jhuufaran <Edgelordxo>"] = 74352,
+								},
+								["n_min"] = 0,
+								["counter"] = 24,
+								["overheal"] = 0,
+								["total"] = 74352,
+								["c_max"] = 0,
+								["id"] = 108366,
+								["targets_absorbs"] = {
+									["Jhuufaran <Edgelordxo>"] = 74352,
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 24,
+								["n_curado"] = 74352,
+								["m_amt"] = 0,
+								["absorbed"] = 0,
+							},
+							[108447] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Edgelordxo"] = 137015,
+								},
+								["n_max"] = 14794,
+								["targets"] = {
+									["Edgelordxo"] = 313023,
+								},
+								["n_min"] = 0,
+								["counter"] = 74,
+								["overheal"] = 137015,
+								["total"] = 313023,
+								["c_max"] = 0,
+								["id"] = 108447,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 74,
+								["n_curado"] = 313023,
+								["m_amt"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["last_event"] = 0,
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.01159,
+					["start_time"] = 1496789734,
+					["delay"] = 0,
+					["spec"] = 266,
+				}, -- [1]
+				{
+					["flag_original"] = 8465,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 449031.009441,
+					["total_without_pet"] = 0.009441,
+					["total"] = 0.009441,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3132-1-10750-11859-00003731EB",
+					["totalabsorb"] = 0.009441,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.009441,
+					["healing_taken"] = 0.009441,
+					["end_time"] = 1496853546,
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Doomguard <Edgelordxo> <Edgelordxo>",
+					["spells"] = {
+						["_ActorTable"] = {
+							[22987] = {
+								["c_amt"] = 1,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Doomguard <Edgelordxo>"] = 449031,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Doomguard <Edgelordxo>"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 5,
+								["overheal"] = 449031,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 22987,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 4,
+								["n_curado"] = 0,
+								["m_amt"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["targets_overheal"] = {
+						["Doomguard <Edgelordxo>"] = 449031,
+					},
+					["classe"] = "PET",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["totaldenied"] = 0.009441,
+					["start_time"] = 1496853542,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [2]
+				{
+					["flag_original"] = 4369,
+					["targets_overheal"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.012732,
+					["total_without_pet"] = 0.012732,
+					["total"] = 0.012732,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Pet-0-3132-1-10750-17252-01020E1431",
+					["totalabsorb"] = 0.012732,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.012732,
+					["healing_taken"] = 29584.012732,
+					["fight_component"] = true,
+					["end_time"] = 1496789847,
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Jhuufaran <Edgelordxo> <Edgelordxo>",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["totaldenied"] = 0.012732,
+					["healing_from"] = {
+						["Edgelordxo"] = true,
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["start_time"] = 1496789844,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [3]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 816301.021884,
+					["resource"] = 0.030327,
+					["targets"] = {
+						["Edgelordxo"] = 480150,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "WARLOCK",
+					["fight_component"] = true,
+					["total"] = 816301.021884,
+					["nome"] = "Edgelordxo",
+					["spec"] = 266,
+					["grupo"] = true,
+					["flag_original"] = 1297,
+					["tipo"] = 3,
+					["alternatepower"] = 0.021884,
+					["last_event"] = 0,
+					["serial"] = "Player-90-07046B4B",
+					["spells"] = {
+						["_ActorTable"] = {
+							[193318] = {
+								["id"] = 193318,
+								["total"] = 67,
+								["targets"] = {
+									["Edgelordxo"] = 33,
+								},
+								["counter"] = 87,
+							},
+							[194379] = {
+								["id"] = 194379,
+								["total"] = 5,
+								["targets"] = {
+									["Edgelordxo"] = 5,
+								},
+								["counter"] = 6,
+							},
+							[1454] = {
+								["id"] = 1454,
+								["total"] = 816000,
+								["targets"] = {
+									["Edgelordxo"] = 480000,
+								},
+								["counter"] = 17,
+							},
+							[196300] = {
+								["id"] = 196300,
+								["total"] = 229,
+								["targets"] = {
+									["Edgelordxo"] = 112,
+								},
+								["counter"] = 243,
+							},
+						},
+						["tipo"] = 7,
+					},
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[159238] = {
+								["uptime"] = 251,
+								["id"] = 159238,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[603] = {
+								["uptime"] = 830,
+								["id"] = 603,
+								["activedamt"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["pets"] = {
+						"Jhuufaran <Edgelordxo> <Edgelordxo>", -- [1]
+						"Dreadstalker <Edgelordxo> <Edgelordxo>", -- [2]
+						"Wild Imp <Edgelordxo> <Edgelordxo>", -- [3]
+						"Felguard <Edgelordxo> <Edgelordxo>", -- [4]
+						"Doomguard <Edgelordxo> <Edgelordxo>", -- [5]
+					},
+					["cc_done_spells"] = {
+						["_ActorTable"] = {
+							[89766] = {
+								["id"] = 89766,
+								["targets"] = {
+									["Training Dummy"] = 9,
+								},
+								["counter"] = 9,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["classe"] = "WARLOCK",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[193440] = {
+								["uptime"] = 17,
+								["id"] = 193440,
+								["activedamt"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[182057] = {
+								["uptime"] = 301,
+								["id"] = 182057,
+								["activedamt"] = 15,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[205146] = {
+								["uptime"] = 324,
+								["id"] = 205146,
+								["activedamt"] = 32,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[108366] = {
+								["uptime"] = 846,
+								["id"] = 108366,
+								["activedamt"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[26297] = {
+								["uptime"] = 30,
+								["id"] = 26297,
+								["activedamt"] = 3,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[193396] = {
+								["uptime"] = 613,
+								["actived_at"] = 1496853534,
+								["id"] = 193396,
+								["activedamt"] = 31,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[60478] = {
+								["uptime"] = 125,
+								["id"] = 60478,
+								["activedamt"] = 5,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[108446] = {
+								["uptime"] = 815,
+								["counter"] = 0,
+								["id"] = 108446,
+								["activedamt"] = 880,
+								["targets"] = {
+								},
+								["actived_at"] = 2993643367,
+							},
+							[111400] = {
+								["uptime"] = 7,
+								["id"] = 111400,
+								["activedamt"] = 3,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 1081,
+					["cc_done"] = 9.018302,
+					["nome"] = "Edgelordxo",
+					["spec"] = 266,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[18540] = 5,
+						[157695] = 243,
+						[119914] = 16,
+						[1454] = 18,
+						[104316] = 45,
+						[26297] = 3,
+						[193440] = 6,
+						[105174] = 66,
+						[111400] = 3,
+						[111898] = 9,
+						[193396] = 55,
+					},
+					["last_event"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["cc_done_targets"] = {
+						["Training Dummy"] = 9,
+					},
+					["buff_uptime"] = 3078,
+					["serial"] = "Player-90-07046B4B",
+					["debuff_uptime_targets"] = {
+					},
+				}, -- [1]
+				{
+					["flag_original"] = 4369,
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Jhuufaran <Edgelordxo> <Edgelordxo>",
+					["fight_component"] = true,
+					["pets"] = {
+					},
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["tipo"] = 4,
+					["serial"] = "Pet-0-3132-1-10750-17252-01020E1431",
+					["spell_cast"] = {
+						[30213] = 94,
+						[134477] = 1,
+						[89753] = 35,
+					},
+				}, -- [2]
+				{
+					["flag_original"] = 8465,
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Dreadstalker <Edgelordxo> <Edgelordxo>",
+					["pets"] = {
+					},
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["spell_cast"] = {
+						[215111] = 90,
+						[205196] = 90,
+					},
+					["serial"] = "Vehicle-0-3132-1-10750-98035-00003731C1",
+					["classe"] = "PET",
+				}, -- [3]
+				{
+					["flag_original"] = 8465,
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Wild Imp <Edgelordxo> <Edgelordxo>",
+					["pets"] = {
+					},
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["spell_cast"] = {
+						[104318] = 2511,
+					},
+					["serial"] = "Creature-0-3132-1-10750-55659-0001B731BF",
+					["classe"] = "PET",
+				}, -- [4]
+				{
+					["flag_original"] = 8465,
+					["spell_cast"] = {
+						[30213] = 68,
+						[30151] = 9,
+						[89766] = 9,
+						[89753] = 63,
+						[89751] = 9,
+					},
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Felguard <Edgelordxo> <Edgelordxo>",
+					["last_event"] = 0,
+					["pets"] = {
+					},
+					["cc_done"] = 9.013197,
+					["cc_done_spells"] = {
+						["_ActorTable"] = {
+							[89766] = {
+								["id"] = 89766,
+								["targets"] = {
+									["Training Dummy"] = 9,
+								},
+								["counter"] = 9,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["classe"] = "PET",
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3132-1-10750-17252-00003731CC",
+					["cc_done_targets"] = {
+						["Training Dummy"] = 9,
+					},
+				}, -- [5]
+				{
+					["flag_original"] = 8465,
+					["ownerName"] = "Edgelordxo",
+					["nome"] = "Doomguard <Edgelordxo> <Edgelordxo>",
+					["pets"] = {
+					},
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["spell_cast"] = {
+						[22987] = 5,
+						[85692] = 55,
+					},
+					["serial"] = "Creature-0-3132-1-10750-11859-00003731EB",
+					["classe"] = "PET",
+				}, -- [6]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 12,
+		["totals"] = {
+			398819188.047744, -- [1]
+			387375.022735, -- [2]
+			{
+				0, -- [1]
+				[0] = 816301.014673,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+		},
+		["end_time"] = 77351.297,
+		["totals_grupo"] = {
+			238742173.017141, -- [1]
+			387375.009422, -- [2]
+			{
+				0, -- [1]
+				[0] = 816301.014673,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = "11:39:06",
+		["overall_enemy_name"] = "Training Dummy",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 436.123000000007,
+				["name"] = "Training Dummy",
+				["clock"] = "11:31:50",
+			}, -- [1]
+			{
+				["elapsed"] = 411.757,
+				["name"] = "Training Dummy",
+				["clock"] = "17:50:35",
+			}, -- [2]
+		},
+		["start_time"] = 76503.417,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["data_inicio"] = "17:50:35",
+	},
+	["last_version"] = "v7.2.0.3703",
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				[3] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -445.498794555664,
+					["x"] = 650.000610351563,
+					["w"] = 205.999954223633,
+					["h"] = 130.999984741211,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				1, -- [1]
+			},
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -445.498794555664,
+					["x"] = 854.0009765625,
+					["w"] = 202.000213623047,
+					["h"] = 130.999984741211,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1498084433,
+		["last_version"] = 8,
+	},
+	["last_instance_id"] = 0,
+	["cached_specs"] = {
+		["Player-5-0AB8E7F4"] = 73,
+		["Player-90-07046B4B"] = 266,
+	},
+}

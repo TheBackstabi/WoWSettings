@@ -1,0 +1,27 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Calithil - Hydraxis"] = "Default",
+		["Bagofsticks - Hydraxis"] = "Default",
+		["Xandraah - Ghostlands"] = "Default",
+		["Pillowaifu - Hydraxis"] = "Default",
+		["Frostshocki - Hydraxis"] = "Default",
+		["Haehyun - Tichondrius"] = "Default",
+		["Edgelordxo - Hydraxis"] = "Default",
+		["Scrublordxo - Terenas"] = "Default",
+		["Scrublordxo - Durotan"] = "Default",
+		["Backstabi - Proudmoore"] = "Default",
+		["Ramlethall - Tichondrius"] = "Default",
+		["Skyelyn - Proudmoore"] = "Default",
+		["Tekkuto - Hydraxis"] = "Default",
+		["Akuugoromi - Tichondrius"] = "Default",
+		["Tarrengerd - Terenas"] = "Default",
+		["Backstabi - Hydraxis"] = "Default",
+		["Aestrin - Ghostlands"] = "Default",
+		["Skaal - Durotan"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

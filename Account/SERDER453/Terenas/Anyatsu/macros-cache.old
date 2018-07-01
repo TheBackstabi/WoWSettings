@@ -1,0 +1,68 @@
+VER 3 0100000000000002 "Arb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Summon Gargoyle
+/use Blood Fury
+END
+VER 3 0100000000000008 "Asphyx" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Asphyxiate
+END
+VER 3 0100000000000011 "DoT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Death's Caress; Blood Boil
+END
+VER 3 010000000000000E "E" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,talent:7/3] Soul Reaper; Scourge Strike
+/use Kil'jaeden's Burning Wish
+END
+VER 3 010000000000000B "Freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Chains of Ice
+END
+VER 3 0100000000000007 "GnawStun" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Gnaw
+END
+VER 3 0100000000000004 "Grip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Death Grip
+END
+VER 3 0100000000000010 "Honor3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [pvptalent:3/2,mod:shift,@focus][pvptalent:3/2] Dark Simulacrum; [pvptalent:3/3,mod:shift,@player][pvptalent:3/3] Anti-Magic Zone
+END
+VER 3 010000000000000A "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Mind Freeze
+END
+VER 3 010000000000000D "Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Leap
+END
+VER 3 0100000000000006 "PetControl" "132165"
+/petattack [nomod]
+/petfollow [mod:shift]
+END
+VER 3 0100000000000009 "PetDef" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Corpse Shield
+/use Huddle
+END
+VER 3 0100000000000001 "Rez" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,dead][] Raise Ally
+END
+VER 3 010000000000000C "Sim" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Dark Simulacrum
+END
+VER 3 010000000000000F "Trans" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Dark Transformation
+/use Blighted Rune Weapon
+END
+VER 3 0100000000000005 "Walk" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use !Wraith Walk
+END

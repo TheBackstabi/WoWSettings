@@ -1,0 +1,25 @@
+
+PandariaTreasuresDB = {
+	["profileKeys"] = {
+		["Calithil - Hydraxis"] = "Default",
+		["Bagofsticks - Hydraxis"] = "Default",
+		["Xandraah - Ghostlands"] = "Default",
+		["Pillowaifu - Hydraxis"] = "Default",
+		["Scrublordxo - Terenas"] = "Default",
+		["Aestrin - Ghostlands"] = "Default",
+		["Ramlethall - Tichondrius"] = "Default",
+		["Backstabi - Proudmoore"] = "Default",
+		["Frostshocki - Hydraxis"] = "Default",
+		["Haehyun - Tichondrius"] = "Default",
+		["Skyelyn - Proudmoore"] = "Default",
+		["Tekkuto - Hydraxis"] = "Default",
+		["Tarrengerd - Terenas"] = "Default",
+		["Backstabi - Hydraxis"] = "Default",
+		["Edgelordxo - Hydraxis"] = "Default",
+		["Akuugoromi - Tichondrius"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

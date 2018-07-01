@@ -1,0 +1,39 @@
+VER 3 010000000000000D "Blind" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Blind
+END
+VER 3 0100000000000015 "Disarm" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Dismantle
+END
+VER 3 010000000000001F "Evis" "INV_MISC_QUESTIONMARK"
+/cast [mod:ctrl] Crimson Tempest; [mod:shift] Rupture; Eviscerate
+END
+VER 3 010000000000000C "Gouge" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Gouge
+END
+VER 3 0100000000000012 "Kick" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Kick
+END
+VER 3 0100000000000013 "Sap" "INV_MISC_QUESTIONMARK"
+/cast [@focus,exists,harm,nodead][] Sap
+END
+VER 3 0100000000000020 "SnD" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Recuperate; Slice and Dice
+/cast Premeditation
+END
+VER 3 010000000000001E "SS" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] Revealing Strike; [stance] Ambush; Sinister Strike
+/cast !Pick Pocket
+/cast [mod:shift] Revealing Strike; [stance] Ambush; Sinister Strike
+END
+VER 3 0100000000000014 "SSap" "INV_MISC_QUESTIONMARK"
+/cleartarget
+/targetenemyplayer
+/cancelaura [mod:shift] Subterfuge
+/cast [mod:shift] Vanish; Sap
+END
+VER 3 010000000000000B "Stealth" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] !Vanish; [combat, nomod] !Shadowmeld; !Stealth
+END
+VER 3 010000000000001C "ToTKet" "INV_MISC_QUESTIONMARK"
+/cast [@Ketya,exists,help,nodead][@mouseover,exists,help,nodead][] Tricks of the Trade
+END

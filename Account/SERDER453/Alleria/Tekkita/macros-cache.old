@@ -1,0 +1,71 @@
+VER 3 0100000000000001 "Focus" "INV_MISC_QUESTIONMARK"
+/clearfocus
+/focus [@mouseover,help,nodead][]
+END
+VER 3 0100000000000002 "M1" "INV_MISC_QUESTIONMARK"
+/way 54.5 33.5
+/way 37.4 32.2
+/way 50 20.9 
+/way 47.1 61.7
+/way 53.4 27.9
+/way 59.7 38.6 
+/way 67 33.7
+/way 60 54
+/way 29.9 36
+/way 44.1 59.8
+/way 60.1 53.2
+/way 45.5 17.2
+/way 51 61
+/way 44.1 59.8
+/way 60 49
+/way 57.5 26.6
+/way 49.93 32.95
+END
+VER 3 0100000000000003 "M2" "INV_MISC_QUESTIONMARK"
+/way 47.2 33.0
+/way) 37.4 32.2 
+/way 36.0 36.0
+/way 34.8 35.3
+/way 29.9 36.0 
+/way) 42.2 8.5
+/way 43.0 18.0
+/way 45.5 17.2 
+/way 50.0 20.9 
+/way 61 30
+/way 52.29 25.24
+/way 53.08 36.03
+/way 59.08 44.88
+/way 34.85 17.14
+/way 56 40
+/way 67 46
+/way 67 52
+END
+VER 3 0100000000000004 "M3" "INV_MISC_QUESTIONMARK"
+/way 48.7 48.5
+/way 50.4 7.8
+/way 65.49 42.47
+/way 59.37 38.33
+/way 46.95 48.93
+/way 42.4 8.8
+/way 45.7 9.2
+/way 64.8 37.9
+/way 61.1 38.9
+/way 52 71
+/way 62 54
+/way 68 23
+/way 35 22
+/way 58.7 45
+/way 57.9 42.6
+/way 62.53 52.36
+/way 52.41 13.44
+END
+VER 3 0100000000000005 "M4" "INV_MISC_QUESTIONMARK"
+/way 38.76 9.29
+/way 68.19 24.03
+/way 65.4 29.5
+/way 45.5 45.4
+/way 54.1 27.6
+/way 40.3 32.8
+/way 50.73 49.89
+/way 51.4 37.6
+END

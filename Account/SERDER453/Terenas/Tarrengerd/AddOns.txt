@@ -1,0 +1,8 @@
+ElvUI: enabled
+ElvUI_Config: enabled
+DBM-Core: enabled
+PowerInterface: disabled
+TipTac: disabled
+TipTacItemRef: disabled
+TipTacOptions: disabled
+TipTacTalents: disabled

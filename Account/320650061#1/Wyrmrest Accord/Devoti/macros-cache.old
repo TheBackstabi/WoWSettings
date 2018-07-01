@@ -1,0 +1,56 @@
+VER 3 0100000000000001 "Bacon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Beacon of Light
+END
+VER 3 0100000000000002 "Bestow" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Bestow Faith
+END
+VER 3 0100000000000004 "Cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Cleanse
+END
+VER 3 0100000000000008 "DPSCleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Cleanse Toxins
+END
+VER 3 0100000000000005 "Flash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Flash of Light
+END
+VER 3 0100000000000003 "Freedom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Blessing of Freedom
+END
+VER 3 010000000000000E "Hands" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Lay on Hands
+END
+VER 3 0100000000000009 "HoJ" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Hammer of Justice
+END
+VER 3 0100000000000006 "HolyLight" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Holy Light
+END
+VER 3 010000000000000A "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Rebuke
+END
+VER 3 010000000000000C "Mar" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Light of the Martyr
+END
+VER 3 010000000000000B "Prot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Blessing of Protection
+END
+VER 3 010000000000000D "Sac" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Blessing of Sacrifice
+END
+VER 3 0100000000000007 "Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Holy Shock
+END

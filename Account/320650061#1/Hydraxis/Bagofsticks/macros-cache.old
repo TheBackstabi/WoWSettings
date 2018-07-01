@@ -1,0 +1,69 @@
+VER 3 0100000000000003 "Bubble" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@party1][mod:ctrl,@party2][@mouseover,help,nodead][] Power Word: Shield
+END
+VER 3 0100000000000007 "Dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Dispel Magic
+END
+VER 3 010000000000000A "Flash" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:alt,@party2][@mouseover,exists,help,nodead][] Flash Heal
+END
+VER 3 0100000000000008 "Flay" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Mind Sear; Mind Flay
+END
+VER 3 0100000000000006 "Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@party1][mod:alt,@party2][@mouseover,exists,help,nodead][] Leap of Faith
+END
+VER 3 0100000000000011 "Levi" "INV_MISC_QUESTIONMARK"
+/cancelaura Levitate
+/cast Levitate
+END
+VER 3 0100000000000005 "PoM" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:alt,@party2][@mouseover,exists,help,nodead][] Prayer of Mending
+END
+VER 3 0100000000000015 "PRI_DiscDamage" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Smite; [talent:1/3] Schism; [talent:4/1] Power Word: Solace; Smite
+END
+VER 3 0100000000000019 "PRI_DiscT6" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/1] Clarity of Will; [talent:6/2] Divine Star; Halo
+END
+VER 3 0100000000000018 "PRI_HDamage" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Smite; Holy Fire
+END
+VER 3 010000000000001A "PRI_HealIGuess" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@mouseover,help][mod:shift] Power Word: Radiance; [@mouseover,help][] Plea
+END
+VER 3 0100000000000014 "PRI_Mend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@party1,exists][mod:ctrl,@party2,exists][@mouseover,help,nodead][] Shadow Mend
+END
+VER 3 0100000000000016 "PRI_Purify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@party1][mod:alt,@party2][@mouseover,help,nodead][] Purify
+END
+VER 3 0100000000000013 "PRI_Purify2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@party2,exists][] Purify Disease
+END
+VER 3 0100000000000012 "PRI_PurifyMain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@party2,exists][@mouseover,help,nodead][] Purify Disease
+END
+VER 3 0100000000000004 "Renew" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:alt,@party2][@mouseover,exists,help,nodead][] Renew
+END
+VER 3 010000000000000D "Shackle" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm,nodead][] Shackle Undead
+END
+VER 3 0100000000000001 "Silence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Silence
+END

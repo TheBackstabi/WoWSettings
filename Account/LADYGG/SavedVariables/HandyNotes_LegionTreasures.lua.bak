@@ -1,0 +1,55 @@
+
+HandyNotes_LegionTreasuresDB = {
+	["profileKeys"] = {
+		["Calithil - Hydraxis"] = "Calithil - Hydraxis",
+		["Bagofsticks - Hydraxis"] = "Bagofsticks - Hydraxis",
+		["Xandraah - Ghostlands"] = "Xandraah - Ghostlands",
+		["Pillowaifu - Hydraxis"] = "Pillowaifu - Hydraxis",
+		["Scrublordxo - Terenas"] = "Scrublordxo - Terenas",
+		["Aestrin - Ghostlands"] = "Aestrin - Ghostlands",
+		["Ramlethall - Tichondrius"] = "Ramlethall - Tichondrius",
+		["Backstabi - Proudmoore"] = "Backstabi - Proudmoore",
+		["Frostshocki - Hydraxis"] = "Frostshocki - Hydraxis",
+		["Haehyun - Tichondrius"] = "Haehyun - Tichondrius",
+		["Skyelyn - Proudmoore"] = "Skyelyn - Proudmoore",
+		["Tekkuto - Hydraxis"] = "Tekkuto - Hydraxis",
+		["Tarrengerd - Terenas"] = "Tarrengerd - Terenas",
+		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
+		["Edgelordxo - Hydraxis"] = "Edgelordxo - Hydraxis",
+		["Akuugoromi - Tichondrius"] = "Akuugoromi - Tichondrius",
+	},
+	["profiles"] = {
+		["Calithil - Hydraxis"] = {
+		},
+		["Bagofsticks - Hydraxis"] = {
+		},
+		["Xandraah - Ghostlands"] = {
+		},
+		["Pillowaifu - Hydraxis"] = {
+		},
+		["Scrublordxo - Terenas"] = {
+		},
+		["Aestrin - Ghostlands"] = {
+		},
+		["Ramlethall - Tichondrius"] = {
+		},
+		["Backstabi - Proudmoore"] = {
+		},
+		["Frostshocki - Hydraxis"] = {
+		},
+		["Haehyun - Tichondrius"] = {
+		},
+		["Skyelyn - Proudmoore"] = {
+		},
+		["Tekkuto - Hydraxis"] = {
+		},
+		["Tarrengerd - Terenas"] = {
+		},
+		["Backstabi - Hydraxis"] = {
+		},
+		["Edgelordxo - Hydraxis"] = {
+		},
+		["Akuugoromi - Tichondrius"] = {
+		},
+	},
+}

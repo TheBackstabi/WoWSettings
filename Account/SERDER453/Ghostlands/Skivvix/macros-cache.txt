@@ -1,0 +1,74 @@
+VER 3 010000000000000E "Beam" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Solar Beam
+END
+VER 3 0100000000000002 "Bear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Bear Form
+END
+VER 3 0100000000000001 "Cat" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Cat Form
+END
+VER 3 0100000000000011 "Clone" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shidft,@focus][] Cyclone
+END
+VER 3 010000000000000C "Decurse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help,nodead][mod:shift,@party1][mod:ctrl,@party2][] Remove Corruption
+END
+VER 3 0100000000000010 "Faerie" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/3] Typhoon; [mod:shift,@focus][] Faerie Swarm
+END
+VER 3 0100000000000003 "Form" "INV_MISC_QUESTIONMARK"
+/cancelaura Cat Form
+/cancelaura Bear Form
+/cancelaura Travel Form
+/cancelaura Moonkin Form
+END
+VER 3 0100000000000007 "Moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostance:4] !Moonkin Form; Moonfire
+END
+VER 3 0100000000000004 "Moonkin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Moonkin Form
+END
+VER 3 0100000000000012 "Prowl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Prowl
+END
+VER 3 010000000000000F "Rebirth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help,dead][] Rebirth
+END
+VER 3 010000000000000A "Rejuv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help,nodead][] Rejuvenation
+END
+VER 3 010000000000000B "Root" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [mod:shift,@focus] Entangling Roots, Solar Beam; Entangling Roots
+END
+VER 3 0100000000000008 "Starfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostance:4] !Moonkin Form; Starfire
+END
+VER 3 0100000000000009 "Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostance:4] !Moonkin Form; Starsurge
+END
+VER 3 010000000000000D "Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help,nodead][] Healing Touch
+END
+VER 3 0100000000000005 "Travel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Travel Form
+END
+VER 3 0100000000000006 "Wrath" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostance:4] !Moonkin Form; Wrath
+END

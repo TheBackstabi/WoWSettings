@@ -1,0 +1,34 @@
+VER 3 0100000000000017 "3Mins" "INV_MISC_QUESTIONMARK"
+/cast Icy Veins
+/use 13
+END
+VER 3 010000000000001B "AP" "INV_MISC_QUESTIONMARK"
+/cast Arcane Power
+/cast Mirror Images
+END
+VER 3 0100000000000014 "Block" "INV_MISC_QUESTIONMARK"
+/cast [nomod] !Ice Block
+/cancelaura [mod:shift] Ice Block
+END
+VER 3 0100000000000018 "Bolt" "INV_MISC_QUESTIONMARK"
+/cast [@target] Frostbolt
+/petattack [nomod]
+/petpassive [mod:shift]
+END
+VER 3 0100000000000010 "CS" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Counterspell
+END
+VER 3 0100000000000015 "Orb" "INV_MISC_QUESTIONMARK"
+/cast Frozen Orb
+/use 13
+END
+VER 3 010000000000001C "Pet" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift][nopet] Summon Water Elemental
+/cast Freeze
+END
+VER 3 010000000000001A "PetPass" "INV_MISC_QUESTIONMARK"
+/petpassive
+END
+VER 3 0100000000000012 "Poly" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Polymorph
+END

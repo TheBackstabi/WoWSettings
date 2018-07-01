@@ -1,0 +1,608 @@
+
+BeanCounterDB = {
+	["Ghostlands"] = {
+		["Xandraah"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Aestrin"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+	},
+	["Tichondrius"] = {
+		["Haehyun"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+		["Ramlethall"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+		["Akuugoromi"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+	},
+	["Proudmoore"] = {
+		["Backstabi"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Skyelyn"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+	},
+	["Terenas"] = {
+		["Tarrengerd"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+		["Scrublordxo"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+	},
+	["Hydraxis"] = {
+		["Backstabi"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Frostshocki"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Calithil"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Tekkuto"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Bagofsticks"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+		["Edgelordxo"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Pillowaifu"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+	},
+}
+BeanCounterDBSettings = {
+	["configator.left"] = 560.000061035156,
+	["util.beancounter.ButtonuseDateCheck"] = false,
+	["Ghostlands"] = {
+		["Xandraah"] = {
+			["tasks.sortArray"] = 1510862048,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1510862048,
+			["wealth"] = 1030144525,
+			["tasks.prunePostedDB"] = 1510862048,
+			["mailbox"] = {
+			},
+		},
+		["Aestrin"] = {
+			["tasks.sortArray"] = 1509648732,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1509648732,
+			["wealth"] = 51680173,
+			["tasks.prunePostedDB"] = 1510527678,
+			["mailbox"] = {
+			},
+		},
+	},
+	["Tichondrius"] = {
+		["Haehyun"] = {
+			["tasks.sortArray"] = 1508347564,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1508347564,
+			["wealth"] = 4712,
+			["tasks.prunePostedDB"] = 1509800159,
+			["mailbox"] = {
+			},
+		},
+		["Ramlethall"] = {
+			["tasks.sortArray"] = 1509904794,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509904794,
+			["wealth"] = 211448332,
+			["tasks.prunePostedDB"] = 1510250189,
+			["mailbox"] = {
+			},
+		},
+		["Akuugoromi"] = {
+			["tasks.sortArray"] = 1509869478,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509869478,
+			["wealth"] = 3043911,
+			["tasks.prunePostedDB"] = 1509277727,
+			["mailbox"] = {
+			},
+		},
+	},
+	["Hydraxis"] = {
+		["Backstabi"] = {
+			["tasks.sortArray"] = 1510358879,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1510358879,
+			["wealth"] = 82310024,
+			["tasks.prunePostedDB"] = 1509344399,
+			["mailbox"] = {
+			},
+		},
+		["Frostshocki"] = {
+			["tasks.sortArray"] = 1510450924,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1510450924,
+			["wealth"] = 138609858,
+			["tasks.prunePostedDB"] = 1510450924,
+			["mailbox"] = {
+			},
+		},
+		["Calithil"] = {
+			["tasks.sortArray"] = 1509953729,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509953729,
+			["wealth"] = 368747901,
+			["tasks.prunePostedDB"] = 1510315665,
+			["mailbox"] = {
+			},
+		},
+		["Tekkuto"] = {
+			["tasks.sortArray"] = 1509850524,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509850524,
+			["wealth"] = 88649312,
+			["tasks.prunePostedDB"] = 1509859414,
+			["mailbox"] = {
+			},
+		},
+		["Bagofsticks"] = {
+			["tasks.sortArray"] = 1509931666,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509931666,
+			["wealth"] = 297683132,
+			["tasks.prunePostedDB"] = 1510498527,
+			["mailbox"] = {
+			},
+		},
+		["Edgelordxo"] = {
+			["tasks.sortArray"] = 1509707464,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509707464,
+			["wealth"] = 37707198,
+			["tasks.prunePostedDB"] = 1510561140,
+			["mailbox"] = {
+			},
+		},
+		["Pillowaifu"] = {
+			["tasks.sortArray"] = 1509895111,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509895111,
+			["wealth"] = 117235000,
+			["tasks.prunePostedDB"] = 1510676839,
+			["mailbox"] = {
+			},
+		},
+	},
+	["Proudmoore"] = {
+		["Backstabi"] = {
+			["tasks.sortArray"] = 1509587801,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1509587801,
+			["wealth"] = 349642277,
+			["tasks.prunePostedDB"] = 1510323340,
+			["mailbox"] = {
+			},
+		},
+		["Skyelyn"] = {
+			["tasks.sortArray"] = 1510837851,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1510837851,
+			["wealth"] = 4188824645,
+			["tasks.prunePostedDB"] = 1510837851,
+			["mailbox"] = {
+			},
+		},
+	},
+	["Terenas"] = {
+		["Tarrengerd"] = {
+			["tasks.sortArray"] = 1509963563,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509963563,
+			["wealth"] = 1034538019,
+			["tasks.prunePostedDB"] = 1510656138,
+			["mailbox"] = {
+			},
+		},
+		["Scrublordxo"] = {
+			["tasks.sortArray"] = 1509885407,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1509885407,
+			["wealth"] = 504403141,
+			["tasks.prunePostedDB"] = 1510353842,
+			["mailbox"] = {
+			},
+		},
+	},
+	["configator.top"] = 764.999816894531,
+}
+BeanCounterDBNames = {
+}
+BeanCounterAccountDB = nil
+BeanCounterMailPatch = nil

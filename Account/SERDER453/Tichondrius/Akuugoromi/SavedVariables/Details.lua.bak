@@ -1,0 +1,7425 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["last_instance_time"] = 1503635142,
+	["active_profile"] = "Default",
+	["last_day"] = "25",
+	["ignore_nicktag"] = false,
+	["last_version"] = "v7.2.5.4436",
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["showamount"] = false,
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["enabled"] = true,
+			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["author"] = "Details! Team",
+			["realm_history"] = {
+			},
+			["realm_lastamt"] = 0,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300, -- [1]
+				500.000030517578, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["font_size"] = 10,
+			["main_frame_locked"] = false,
+			["use_spark"] = true,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["arrow_anchor_y"] = 0,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["y"] = 4.577636718750e-005,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.05175781250e-005,
+				["x"] = 3.05175781250e-005,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["character_data"] = {
+		["logons"] = 2,
+	},
+	["last_realversion"] = 124,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 154,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002261,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Umbrafen Oracle"] = true,
+							},
+							["targets"] = {
+								["Umbrafen Oracle"] = 1919,
+							},
+							["total"] = 1919.002261,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1919.002261,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1503637690,
+							["friendlyfire_total"] = 0,
+							["spec"] = 251,
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Umbrafen Oracle"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["EVADE"] = 3,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[49184] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 523,
+										["targets"] = {
+											["Umbrafen Oracle"] = 523,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 523,
+										["n_min"] = 523,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 523,
+										["c_max"] = 0,
+										["EVADE"] = 1,
+										["id"] = 49184,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[49020] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Umbrafen Oracle"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["EVADE"] = 1,
+										["id"] = 49020,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[55095] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 349,
+										["targets"] = {
+											["Umbrafen Oracle"] = 1396,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1396,
+										["n_min"] = 349,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 1396,
+										["c_max"] = 0,
+										["EVADE"] = 1,
+										["id"] = 55095,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-11-0AD4AF4D",
+							["last_dps"] = 147.615558538462,
+							["custom"] = 0,
+							["last_event"] = 1503637689,
+							["damage_taken"] = 6447.002261,
+							["start_time"] = 1503637677,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 154,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 154,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 151.005866,
+							["resource"] = 7.005866,
+							["targets"] = {
+								["Akuugoromi"] = 151,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEATHKNIGHT",
+							["total"] = 151.005866,
+							["nome"] = "Akuugoromi",
+							["spec"] = 251,
+							["grupo"] = true,
+							["resource_type"] = 12,
+							["flag_original"] = 1297,
+							["last_event"] = 1503637867,
+							["alternatepower"] = 0.005866,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[49184] = {
+										["id"] = 49184,
+										["total"] = 30,
+										["targets"] = {
+											["Akuugoromi"] = 30,
+										},
+										["counter"] = 4,
+									},
+									[49020] = {
+										["id"] = 49020,
+										["total"] = 120,
+										["targets"] = {
+											["Akuugoromi"] = 120,
+										},
+										["counter"] = 6,
+									},
+									[193486] = {
+										["id"] = 193486,
+										["total"] = 1,
+										["targets"] = {
+											["Akuugoromi"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 154,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[55095] = {
+										["activedamt"] = 0,
+										["id"] = 55095,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 42,
+							["classe"] = "DEATHKNIGHT",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[101568] = {
+										["activedamt"] = 1,
+										["id"] = 101568,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[212552] = {
+										["activedamt"] = 1,
+										["id"] = 212552,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93825] = {
+										["activedamt"] = 1,
+										["id"] = 93825,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 13,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 251,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[49184] = 1,
+								[49020] = 1,
+								[212552] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1503637690,
+							["nome"] = "Akuugoromi",
+							["pets"] = {
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 154,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Akuugoromi"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Umbrafen Oracle",
+				["combat_counter"] = 394,
+				["playing_solo"] = true,
+				["totals"] = {
+					1918.992749, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 151,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Akuugoromi"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							317, -- [3]
+							1503637853.674, -- [4]
+							14004, -- [5]
+							"Umbrafen Oracle", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							3, -- [2]
+							5397, -- [3]
+							1503637873.368, -- [4]
+							8607, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Akuugoromi"] = 2519.054516,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Akuugoromi"] = 55386.056461,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 34442.097,
+				["combat_id"] = 154,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "00:08:11",
+				["data_inicio"] = "00:07:57",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1919, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 151,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 34428.725,
+				["contra"] = "Umbrafen Oracle",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 153,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007798,
+							["total"] = 9318.007798,
+							["damage_from"] = {
+								["Umbrafen Oracle"] = true,
+							},
+							["targets"] = {
+								["Umbrafen Seer"] = 3204,
+								["Umbrafen Oracle"] = 6114,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "DEATHKNIGHT",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9318.007798,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1503637643,
+							["on_hold"] = false,
+							["spec"] = 251,
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 297,
+										["targets"] = {
+											["Umbrafen Oracle"] = 297,
+											["Umbrafen Seer"] = 152,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 449,
+										["n_min"] = 152,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 449,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[237680] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 418,
+										["targets"] = {
+											["Umbrafen Oracle"] = 418,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 418,
+										["n_min"] = 418,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 418,
+										["c_max"] = 0,
+										["id"] = 237680,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[50401] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 93,
+										["g_amt"] = 0,
+										["n_max"] = 49,
+										["targets"] = {
+											["Umbrafen Oracle"] = 145,
+											["Umbrafen Seer"] = 141,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 193,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 286,
+										["c_max"] = 93,
+										["id"] = 50401,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 93,
+									},
+									[49998] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 892,
+										["targets"] = {
+											["Umbrafen Oracle"] = 892,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 892,
+										["n_min"] = 892,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 892,
+										["c_max"] = 0,
+										["id"] = 49998,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[55095] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 349,
+										["targets"] = {
+											["Umbrafen Oracle"] = 349,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 349,
+										["n_min"] = 349,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 349,
+										["c_max"] = 0,
+										["id"] = 55095,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[66198] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 671,
+										["targets"] = {
+											["Umbrafen Oracle"] = 671,
+											["Umbrafen Seer"] = 641,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1312,
+										["n_min"] = 641,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1312,
+										["c_max"] = 0,
+										["id"] = 66198,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[49184] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 524,
+										["targets"] = {
+											["Umbrafen Seer"] = 524,
+											["Umbrafen Oracle"] = 523,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1047,
+										["n_min"] = 523,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1047,
+										["c_max"] = 0,
+										["id"] = 49184,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[196771] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 181,
+										["targets"] = {
+											["Umbrafen Oracle"] = 1410,
+											["Umbrafen Seer"] = 357,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1767,
+										["n_min"] = 175,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 1767,
+										["c_max"] = 0,
+										["id"] = 196771,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[222024] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1409,
+										["targets"] = {
+											["Umbrafen Oracle"] = 1409,
+											["Umbrafen Seer"] = 1389,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2798,
+										["n_min"] = 1389,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2798,
+										["c_max"] = 0,
+										["id"] = 222024,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-11-0AD4AF4D",
+							["last_dps"] = 931.8007798,
+							["custom"] = 0,
+							["last_event"] = 1503637642,
+							["damage_taken"] = 1897.007798,
+							["start_time"] = 1503637636,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 153,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Akuugoromi"] = 2640,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["totalover"] = 2640.006317,
+							["total_without_pet"] = 1897.006317,
+							["total"] = 1897.006317,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-11-0AD4AF4D",
+							["totalabsorb"] = 0.006317,
+							["last_hps"] = 189.7006317,
+							["targets"] = {
+								["Akuugoromi"] = 3970,
+							},
+							["totalover_without_pet"] = 0.006317,
+							["healing_taken"] = 1897.006317,
+							["fight_component"] = true,
+							["end_time"] = 1503637643,
+							["healing_from"] = {
+								["Akuugoromi"] = true,
+							},
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Akuugoromi"] = 735,
+										},
+										["n_max"] = 284,
+										["targets"] = {
+											["Akuugoromi"] = 965,
+										},
+										["n_min"] = 0,
+										["counter"] = 6,
+										["overheal"] = 735,
+										["total"] = 965,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 965,
+										["n_amt"] = 6,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[45470] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Akuugoromi"] = 1905,
+										},
+										["n_max"] = 932,
+										["targets"] = {
+											["Akuugoromi"] = 932,
+										},
+										["n_min"] = 932,
+										["counter"] = 1,
+										["overheal"] = 1905,
+										["total"] = 932,
+										["c_max"] = 0,
+										["id"] = 45470,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 932,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1503637640,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 251,
+							["totaldenied"] = 0.006317,
+							["delay"] = 0,
+							["last_event"] = 1503637642,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 153,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 81.001807,
+							["resource"] = 0.001807,
+							["targets"] = {
+								["Akuugoromi"] = 81,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEATHKNIGHT",
+							["fight_component"] = true,
+							["total"] = 81.001807,
+							["nome"] = "Akuugoromi",
+							["spec"] = 251,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1503637677,
+							["alternatepower"] = 0.001807,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[49184] = {
+										["id"] = 49184,
+										["total"] = 30,
+										["targets"] = {
+											["Akuugoromi"] = 30,
+										},
+										["counter"] = 3,
+									},
+									[196770] = {
+										["id"] = 196770,
+										["total"] = 10,
+										["targets"] = {
+											["Akuugoromi"] = 10,
+										},
+										["counter"] = 1,
+									},
+									[49020] = {
+										["id"] = 49020,
+										["total"] = 40,
+										["targets"] = {
+											["Akuugoromi"] = 40,
+										},
+										["counter"] = 2,
+									},
+									[193486] = {
+										["id"] = 193486,
+										["total"] = 1,
+										["targets"] = {
+											["Akuugoromi"] = 1,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 153,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[51714] = {
+										["activedamt"] = 0,
+										["id"] = 51714,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 3,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[211793] = {
+										["activedamt"] = 0,
+										["id"] = 211793,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 3,
+										["refreshamt"] = 6,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[55095] = {
+										["activedamt"] = 0,
+										["id"] = 55095,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 25,
+							["classe"] = "DEATHKNIGHT",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[47528] = {
+										["id"] = 47528,
+										["interrompeu_oque"] = {
+											[9739] = 1,
+										},
+										["targets"] = {
+											["Umbrafen Seer"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93825] = {
+										["activedamt"] = 1,
+										["id"] = 93825,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[59052] = {
+										["activedamt"] = 1,
+										["id"] = 59052,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196770] = {
+										["activedamt"] = 1,
+										["id"] = 196770,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[101568] = {
+										["activedamt"] = 2,
+										["id"] = 101568,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["interrompeu_oque"] = {
+								[9739] = 1,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 10,
+							["interrupt_targets"] = {
+								["Umbrafen Seer"] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 251,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[49020] = 2,
+								[49998] = 1,
+								[47528] = 1,
+								[196771] = 5,
+								[49184] = 1,
+								[211793] = 5,
+								[196770] = 1,
+							},
+							["interrupt"] = 1.007428,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1503637643,
+							["nome"] = "Akuugoromi",
+							["pets"] = {
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 153,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Akuugoromi"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Umbrafen Oracle",
+				["combat_counter"] = 390,
+				["playing_solo"] = true,
+				["totals"] = {
+					9317.994501, -- [1]
+					1897, -- [2]
+					{
+						0, -- [1]
+						[0] = 81,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Akuugoromi"] = 2716.022163,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Akuugoromi"] = 21741.024513,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 34394.74,
+				["combat_id"] = 153,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Umbrafen Oracle"] = 2,
+					["Umbrafen Seer"] = 1,
+				},
+				["data_fim"] = "00:07:23",
+				["data_inicio"] = "00:07:17",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					9318, -- [1]
+					1897, -- [2]
+					{
+						0, -- [1]
+						[0] = 81,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 34387.812,
+				["contra"] = "Umbrafen Oracle",
+				["TimeData"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 152,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005078,
+							["total"] = 24257.005078,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Kaliri Matriarch"] = true,
+								["Haal'eshi Windwalker"] = true,
+								["Male Kaliri Hatchling"] = true,
+								["Kaliri Swooper"] = true,
+							},
+							["targets"] = {
+								["Kaliri Swooper"] = 4370,
+								["Kaliri Matriarch"] = 3506,
+								["Male Kaliri Hatchling"] = 5069,
+								["Haal'eshi Windwalker"] = 11312,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "DEATHKNIGHT",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24257.005078,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1503636929,
+							["on_hold"] = false,
+							["spec"] = 251,
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 324,
+										["g_amt"] = 0,
+										["n_max"] = 324,
+										["targets"] = {
+											["Kaliri Matriarch"] = 648,
+											["Kaliri Swooper"] = 301,
+											["Haal'eshi Windwalker"] = 1085,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1710,
+										["n_min"] = 160,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 2034,
+										["c_max"] = 324,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 324,
+									}, -- [1]
+									[66188] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 382,
+										["targets"] = {
+											["Kaliri Swooper"] = 382,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 382,
+										["n_min"] = 382,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 382,
+										["c_max"] = 0,
+										["id"] = 66188,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[50401] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 195,
+										["g_amt"] = 0,
+										["n_max"] = 52,
+										["targets"] = {
+											["Kaliri Swooper"] = 146,
+											["Kaliri Matriarch"] = 192,
+											["Male Kaliri Hatchling"] = 97,
+											["Haal'eshi Windwalker"] = 493,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 733,
+										["n_min"] = 45,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 928,
+										["c_max"] = 100,
+										["id"] = 50401,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 95,
+									},
+									[222024] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 5586,
+										["g_amt"] = 0,
+										["n_max"] = 1396,
+										["targets"] = {
+											["Kaliri Swooper"] = 2705,
+											["Kaliri Matriarch"] = 1370,
+											["Male Kaliri Hatchling"] = 4257,
+											["Haal'eshi Windwalker"] = 2699,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5445,
+										["n_min"] = 1303,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 11031,
+										["c_max"] = 2881,
+										["id"] = 222024,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 2705,
+									},
+									[49184] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2282,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 4898,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4898,
+										["n_min"] = 523,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 4898,
+										["c_max"] = 0,
+										["id"] = 49184,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[66198] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1296,
+										["g_amt"] = 0,
+										["n_max"] = 715,
+										["targets"] = {
+											["Kaliri Matriarch"] = 1296,
+											["Male Kaliri Hatchling"] = 715,
+											["Haal'eshi Windwalker"] = 1316,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2031,
+										["n_min"] = 647,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3327,
+										["c_max"] = 1296,
+										["id"] = 66198,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 1296,
+									},
+									[49998] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 836,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 821,
+											["Kaliri Swooper"] = 836,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1657,
+										["n_min"] = 821,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1657,
+										["c_max"] = 0,
+										["id"] = 49998,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["serial"] = "Player-11-0AD4AF4D",
+							["last_dps"] = 1155.09547990476,
+							["custom"] = 0,
+							["last_event"] = 1503637028,
+							["damage_taken"] = 9560.005078,
+							["start_time"] = 1503636908,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 152,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Akuugoromi"] = 2799,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["totalover"] = 2799.007653,
+							["total_without_pet"] = 6277.007653,
+							["total"] = 6277.007653,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-11-0AD4AF4D",
+							["totalabsorb"] = 0.007653,
+							["last_hps"] = 330.368823842105,
+							["targets"] = {
+								["Akuugoromi"] = 7942,
+							},
+							["totalover_without_pet"] = 0.007653,
+							["healing_taken"] = 6277.007653,
+							["fight_component"] = true,
+							["end_time"] = 1503636929,
+							["healing_from"] = {
+								["Akuugoromi"] = true,
+							},
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Akuugoromi"] = 1349,
+										},
+										["n_max"] = 284,
+										["targets"] = {
+											["Akuugoromi"] = 2055,
+										},
+										["n_min"] = 284,
+										["counter"] = 12,
+										["overheal"] = 1349,
+										["total"] = 2055,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2055,
+										["n_amt"] = 12,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[45470] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Akuugoromi"] = 1450,
+										},
+										["n_max"] = 2836,
+										["targets"] = {
+											["Akuugoromi"] = 4222,
+										},
+										["n_min"] = 1386,
+										["counter"] = 2,
+										["overheal"] = 1450,
+										["total"] = 4222,
+										["c_max"] = 0,
+										["id"] = 45470,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 4222,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1503636910,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 251,
+							["totaldenied"] = 0.007653,
+							["delay"] = 0,
+							["last_event"] = 1503636928,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 152,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 247.0076,
+							["resource"] = 10.0076,
+							["targets"] = {
+								["Akuugoromi"] = 247,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEATHKNIGHT",
+							["fight_component"] = true,
+							["total"] = 247.0076,
+							["nome"] = "Akuugoromi",
+							["spec"] = 251,
+							["grupo"] = true,
+							["resource_type"] = 9,
+							["flag_original"] = 1297,
+							["last_event"] = 1503637636,
+							["alternatepower"] = 0.0076,
+							["spells"] = {
+								["_ActorTable"] = {
+									[193486] = {
+										["id"] = 193486,
+										["total"] = 3,
+										["targets"] = {
+											["Akuugoromi"] = 3,
+										},
+										["counter"] = 3,
+									},
+									[49020] = {
+										["id"] = 49020,
+										["total"] = 200,
+										["targets"] = {
+											["Akuugoromi"] = 200,
+										},
+										["counter"] = 10,
+									},
+									[207062] = {
+										["id"] = 207062,
+										["total"] = 1,
+										["targets"] = {
+											["Akuugoromi"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[49184] = {
+										["id"] = 49184,
+										["total"] = 43,
+										["targets"] = {
+											["Akuugoromi"] = 43,
+										},
+										["counter"] = 5,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 152,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[51714] = {
+										["activedamt"] = 0,
+										["id"] = 51714,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 6,
+										["refreshamt"] = 10,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[55095] = {
+										["activedamt"] = 0,
+										["id"] = 55095,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 70,
+							["classe"] = "DEATHKNIGHT",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93825] = {
+										["activedamt"] = 1,
+										["id"] = 93825,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[59052] = {
+										["activedamt"] = 3,
+										["id"] = 59052,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 3,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[51124] = {
+										["activedamt"] = 1,
+										["id"] = 51124,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231428] = {
+										["activedamt"] = 0,
+										["id"] = 231428,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[101568] = {
+										["activedamt"] = 3,
+										["id"] = 101568,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 3,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 8,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 251,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[49184] = 3,
+								[49576] = 1,
+								[49020] = 5,
+								[49998] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1503637206,
+							["nome"] = "Akuugoromi",
+							["pets"] = {
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 152,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Akuugoromi"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Haal'eshi Windwalker",
+				["combat_counter"] = 367,
+				["playing_solo"] = true,
+				["totals"] = {
+					24256.9404, -- [1]
+					6277, -- [2]
+					{
+						0, -- [1]
+						[0] = 244,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 3,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Akuugoromi"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							1850, -- [3]
+							1503637245.388, -- [4]
+							12154, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Akuugoromi"] = 12894.122007,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Akuugoromi"] = 121452.094818,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 33957.826,
+				["combat_id"] = 152,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Kaliri Swooper"] = 1,
+					["Kaliri Matriarch"] = 1,
+					["Male Kaliri Hatchling"] = 1,
+					["Haal'eshi Windwalker"] = 3,
+				},
+				["data_fim"] = "00:00:07",
+				["data_inicio"] = "23:55:09",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					24257, -- [1]
+					6277, -- [2]
+					{
+						0, -- [1]
+						[0] = 244,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 3,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 33660.562,
+				["contra"] = "Haal'eshi Windwalker",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 152,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005078,
+							["total"] = 24257.005078,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Kaliri Matriarch"] = true,
+								["Haal'eshi Windwalker"] = true,
+								["Male Kaliri Hatchling"] = true,
+								["Kaliri Swooper"] = true,
+							},
+							["targets"] = {
+								["Kaliri Swooper"] = 4370,
+								["Kaliri Matriarch"] = 3506,
+								["Male Kaliri Hatchling"] = 5069,
+								["Haal'eshi Windwalker"] = 11312,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "DEATHKNIGHT",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24257.005078,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1503636929,
+							["on_hold"] = false,
+							["spec"] = 251,
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 324,
+										["g_amt"] = 0,
+										["n_max"] = 324,
+										["targets"] = {
+											["Kaliri Matriarch"] = 648,
+											["Kaliri Swooper"] = 301,
+											["Haal'eshi Windwalker"] = 1085,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1710,
+										["n_min"] = 160,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 2034,
+										["c_max"] = 324,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 324,
+									}, -- [1]
+									[66188] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 382,
+										["targets"] = {
+											["Kaliri Swooper"] = 382,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 382,
+										["n_min"] = 382,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 382,
+										["c_max"] = 0,
+										["id"] = 66188,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[50401] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 195,
+										["g_amt"] = 0,
+										["n_max"] = 52,
+										["targets"] = {
+											["Kaliri Swooper"] = 146,
+											["Kaliri Matriarch"] = 192,
+											["Male Kaliri Hatchling"] = 97,
+											["Haal'eshi Windwalker"] = 493,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 733,
+										["n_min"] = 45,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 928,
+										["c_max"] = 100,
+										["id"] = 50401,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 95,
+									},
+									[222024] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 5586,
+										["g_amt"] = 0,
+										["n_max"] = 1396,
+										["targets"] = {
+											["Kaliri Swooper"] = 2705,
+											["Kaliri Matriarch"] = 1370,
+											["Male Kaliri Hatchling"] = 4257,
+											["Haal'eshi Windwalker"] = 2699,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5445,
+										["n_min"] = 1303,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 11031,
+										["c_max"] = 2881,
+										["id"] = 222024,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 2705,
+									},
+									[49184] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2282,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 4898,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4898,
+										["n_min"] = 523,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 4898,
+										["c_max"] = 0,
+										["id"] = 49184,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[66198] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1296,
+										["g_amt"] = 0,
+										["n_max"] = 715,
+										["targets"] = {
+											["Kaliri Matriarch"] = 1296,
+											["Male Kaliri Hatchling"] = 715,
+											["Haal'eshi Windwalker"] = 1316,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2031,
+										["n_min"] = 647,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3327,
+										["c_max"] = 1296,
+										["id"] = 66198,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 1296,
+									},
+									[49998] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 836,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 821,
+											["Kaliri Swooper"] = 836,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1657,
+										["n_min"] = 821,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1657,
+										["c_max"] = 0,
+										["id"] = 49998,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["serial"] = "Player-11-0AD4AF4D",
+							["last_dps"] = 1155.09547990476,
+							["custom"] = 0,
+							["last_event"] = 1503637028,
+							["damage_taken"] = 9560.005078,
+							["start_time"] = 1503636908,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 152,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Akuugoromi"] = 2799,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["totalover"] = 2799.007653,
+							["total_without_pet"] = 6277.007653,
+							["total"] = 6277.007653,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-11-0AD4AF4D",
+							["totalabsorb"] = 0.007653,
+							["last_hps"] = 330.368823842105,
+							["targets"] = {
+								["Akuugoromi"] = 7942,
+							},
+							["totalover_without_pet"] = 0.007653,
+							["healing_taken"] = 6277.007653,
+							["fight_component"] = true,
+							["end_time"] = 1503636929,
+							["healing_from"] = {
+								["Akuugoromi"] = true,
+							},
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Akuugoromi"] = 1349,
+										},
+										["n_max"] = 284,
+										["targets"] = {
+											["Akuugoromi"] = 2055,
+										},
+										["n_min"] = 284,
+										["counter"] = 12,
+										["overheal"] = 1349,
+										["total"] = 2055,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2055,
+										["n_amt"] = 12,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[45470] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Akuugoromi"] = 1450,
+										},
+										["n_max"] = 2836,
+										["targets"] = {
+											["Akuugoromi"] = 4222,
+										},
+										["n_min"] = 1386,
+										["counter"] = 2,
+										["overheal"] = 1450,
+										["total"] = 4222,
+										["c_max"] = 0,
+										["id"] = 45470,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 4222,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1503636910,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 251,
+							["totaldenied"] = 0.007653,
+							["delay"] = 0,
+							["last_event"] = 1503636928,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 152,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 247.0076,
+							["resource"] = 10.0076,
+							["targets"] = {
+								["Akuugoromi"] = 247,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DEATHKNIGHT",
+							["fight_component"] = true,
+							["total"] = 247.0076,
+							["nome"] = "Akuugoromi",
+							["spec"] = 251,
+							["grupo"] = true,
+							["resource_type"] = 9,
+							["flag_original"] = 1297,
+							["last_event"] = 1503637636,
+							["alternatepower"] = 0.0076,
+							["spells"] = {
+								["_ActorTable"] = {
+									[193486] = {
+										["id"] = 193486,
+										["total"] = 3,
+										["targets"] = {
+											["Akuugoromi"] = 3,
+										},
+										["counter"] = 3,
+									},
+									[49020] = {
+										["id"] = 49020,
+										["total"] = 200,
+										["targets"] = {
+											["Akuugoromi"] = 200,
+										},
+										["counter"] = 10,
+									},
+									[207062] = {
+										["id"] = 207062,
+										["total"] = 1,
+										["targets"] = {
+											["Akuugoromi"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[49184] = {
+										["id"] = 49184,
+										["total"] = 43,
+										["targets"] = {
+											["Akuugoromi"] = 43,
+										},
+										["counter"] = 5,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 152,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[51714] = {
+										["activedamt"] = 0,
+										["id"] = 51714,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 6,
+										["refreshamt"] = 10,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[55095] = {
+										["activedamt"] = 0,
+										["id"] = 55095,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 70,
+							["classe"] = "DEATHKNIGHT",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93825] = {
+										["activedamt"] = 1,
+										["id"] = 93825,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[59052] = {
+										["activedamt"] = 3,
+										["id"] = 59052,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 3,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[51124] = {
+										["activedamt"] = 1,
+										["id"] = 51124,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231428] = {
+										["activedamt"] = 0,
+										["id"] = 231428,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[101568] = {
+										["activedamt"] = 3,
+										["id"] = 101568,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 3,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 8,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 251,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[49184] = 3,
+								[49576] = 1,
+								[49020] = 5,
+								[49998] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1503637206,
+							["nome"] = "Akuugoromi",
+							["pets"] = {
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 152,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Akuugoromi"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Haal'eshi Windwalker",
+				["combat_counter"] = 367,
+				["playing_solo"] = true,
+				["totals"] = {
+					24256.9404, -- [1]
+					6277, -- [2]
+					{
+						0, -- [1]
+						[0] = 244,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 3,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Akuugoromi"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							1850, -- [3]
+							1503637245.388, -- [4]
+							12154, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Akuugoromi"] = 12894.122007,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Akuugoromi"] = 121452.094818,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 33957.826,
+				["combat_id"] = 152,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Kaliri Swooper"] = 1,
+					["Kaliri Matriarch"] = 1,
+					["Male Kaliri Hatchling"] = 1,
+					["Haal'eshi Windwalker"] = 3,
+				},
+				["data_fim"] = "00:00:07",
+				["data_inicio"] = "23:55:09",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					24257, -- [1]
+					6277, -- [2]
+					{
+						0, -- [1]
+						[0] = 244,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 3,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 33660.562,
+				["contra"] = "Haal'eshi Windwalker",
+				["TimeData"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 151,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006859,
+							["total"] = 11038.006859,
+							["damage_from"] = {
+								["Haal'eshi Windwalker"] = true,
+								["Male Kaliri Hatchling"] = true,
+								["Kaliri Swooper"] = true,
+							},
+							["targets"] = {
+								["Haal'eshi Windwalker"] = 3505,
+								["Kaliri Swooper"] = 7533,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "DEATHKNIGHT",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 11038.006859,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1503636794,
+							["on_hold"] = false,
+							["spec"] = 251,
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 1,
+										["c_dmg"] = 312,
+										["g_amt"] = 0,
+										["n_max"] = 314,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 364,
+											["Kaliri Swooper"] = 1083,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1135,
+										["n_min"] = 153,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1447,
+										["c_max"] = 312,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 211,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 312,
+									}, -- [1]
+									[50401] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 255,
+											["Kaliri Swooper"] = 446,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 701,
+										["n_min"] = 45,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 701,
+										["c_max"] = 0,
+										["id"] = 50401,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 14,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[66196] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 605,
+										["targets"] = {
+											["Kaliri Swooper"] = 605,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 605,
+										["n_min"] = 605,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 605,
+										["c_max"] = 0,
+										["id"] = 66196,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[222024] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1346,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 1327,
+											["Kaliri Swooper"] = 1346,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2673,
+										["n_min"] = 1327,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2673,
+										["c_max"] = 0,
+										["id"] = 222024,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[222026] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1395,
+										["targets"] = {
+											["Kaliri Swooper"] = 2554,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2554,
+										["n_min"] = 1159,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2554,
+										["c_max"] = 0,
+										["id"] = 222026,
+										["r_dmg"] = 0,
+										["spellschool"] = 16,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[49998] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 877,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 877,
+											["Kaliri Swooper"] = 843,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1720,
+										["n_min"] = 843,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1720,
+										["c_max"] = 0,
+										["id"] = 49998,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[66198] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 682,
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 682,
+											["Kaliri Swooper"] = 656,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1338,
+										["n_min"] = 656,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1338,
+										["c_max"] = 0,
+										["id"] = 66198,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-11-0AD4AF4D",
+							["last_dps"] = 1103.8006859,
+							["custom"] = 0,
+							["last_event"] = 1503636828,
+							["damage_taken"] = 1755.006859,
+							["start_time"] = 1503636787,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 151,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Akuugoromi"] = 6150,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["totalover"] = 6150.006551,
+							["total_without_pet"] = 1226.006551,
+							["total"] = 1226.006551,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-11-0AD4AF4D",
+							["totalabsorb"] = 0.006551,
+							["last_hps"] = 122.6006551,
+							["targets"] = {
+								["Akuugoromi"] = 6808,
+							},
+							["totalover_without_pet"] = 0.006551,
+							["healing_taken"] = 1226.006551,
+							["fight_component"] = true,
+							["end_time"] = 1503636794,
+							["healing_from"] = {
+								["Akuugoromi"] = true,
+							},
+							["nome"] = "Akuugoromi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[45470] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Akuugoromi"] = 5051,
+										},
+										["n_max"] = 327,
+										["targets"] = {
+											["Akuugoromi"] = 622,
+										},
+										["n_min"] = 295,
+										["counter"] = 2,
+										["overheal"] = 5051,
+										["total"] = 622,
+										["c_max"] = 0,
+										["id"] = 45470,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 622,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Akuugoromi"] = 1099,
+										},
+										["n_max"] = 284,
+										["targets"] = {
+											["Akuugoromi"] = 604,
+										},
+										["n_min"] = 2,
+										["counter"] = 6,
+										["overheal"] = 1099,
+										["total"] = 604,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 604,
+										["n_amt"] = 6,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1503636789,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 251,
+							["totaldenied"] = 0.006551,
+							["delay"] = 0,
+							["last_event"] = 1503636794,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 151,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 37.007632,
+							["resource"] = 7.007632,
+							["targets"] = {
+								["Akuugoromi"] = 37,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 6,
+							["classe"] = "DEATHKNIGHT",
+							["fight_component"] = true,
+							["total"] = 37.007632,
+							["nome"] = "Akuugoromi",
+							["spec"] = 251,
+							["grupo"] = true,
+							["resource_type"] = 4,
+							["flag_original"] = 1297,
+							["last_event"] = 1503636860,
+							["alternatepower"] = 0.007632,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193486] = {
+										["id"] = 193486,
+										["total"] = 4,
+										["targets"] = {
+											["Akuugoromi"] = 4,
+										},
+										["counter"] = 4,
+									},
+									[49184] = {
+										["id"] = 49184,
+										["total"] = 33,
+										["targets"] = {
+											["Akuugoromi"] = 33,
+										},
+										["counter"] = 4,
+									},
+								},
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 151,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[51714] = {
+										["activedamt"] = 0,
+										["id"] = 51714,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 3,
+										["refreshamt"] = 11,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 21,
+							["classe"] = "DEATHKNIGHT",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[47528] = {
+										["id"] = 47528,
+										["interrompeu_oque"] = {
+											[9532] = 2,
+										},
+										["targets"] = {
+											["Haal'eshi Windwalker"] = 2,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[51124] = {
+										["activedamt"] = 1,
+										["id"] = 51124,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[101568] = {
+										["activedamt"] = 3,
+										["id"] = 101568,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 3,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93825] = {
+										["activedamt"] = 1,
+										["id"] = 93825,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["interrompeu_oque"] = {
+								[9532] = 2,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 6,
+							["interrupt_targets"] = {
+								["Haal'eshi Windwalker"] = 2,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 251,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[47528] = 1,
+								[49143] = 2,
+								[49998] = 2,
+								[49020] = 1,
+							},
+							["interrupt"] = 2.005359,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1503636827,
+							["nome"] = "Akuugoromi",
+							["pets"] = {
+							},
+							["serial"] = "Player-11-0AD4AF4D",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 151,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Akuugoromi"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Kaliri Swooper",
+				["combat_counter"] = 352,
+				["playing_solo"] = true,
+				["totals"] = {
+					11037.985753, -- [1]
+					1226, -- [2]
+					{
+						0, -- [1]
+						[0] = 34,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 3,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 2,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Akuugoromi"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							266, -- [3]
+							1503636798.947, -- [4]
+							14004, -- [5]
+							"Male Kaliri Hatchling", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							263, -- [3]
+							1503636888.034, -- [4]
+							14004, -- [5]
+							"Male Kaliri Hatchling", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Akuugoromi"] = 7484.093712,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Akuugoromi"] = 75068.084217,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 33546.197,
+				["combat_id"] = 151,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Haal'eshi Windwalker"] = 1,
+					["Kaliri Swooper"] = 2,
+				},
+				["data_fim"] = "23:53:15",
+				["data_inicio"] = "23:53:08",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					11038, -- [1]
+					1226, -- [2]
+					{
+						0, -- [1]
+						[0] = 34,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 3,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 2,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 33539.343,
+				["contra"] = "Kaliri Swooper",
+				["TimeData"] = {
+				},
+			}, -- [5]
+		},
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["tabela_instancias"] = {
+	},
+	["combat_id"] = 154,
+	["savedStyles"] = {
+	},
+	["combat_counter"] = 405,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 0.040734,
+					["damage_from"] = {
+						["Hellfire Imp"] = true,
+						["Shadowmoon Adept"] = true,
+						["Shadowmoon Technician"] = true,
+						["Felguard Annihilator"] = true,
+						["Shadowmoon Warlock"] = true,
+						["Hellfire Familiar"] = true,
+					},
+					["targets"] = {
+						["Nascent Fel Orc"] = 1106,
+						["Felguard Brute"] = 1837,
+						["Fel Orc Neophyte"] = 1471,
+						["Shadowmoon Technician"] = 2019,
+						["Hellfire Familiar"] = 1289,
+						["Felguard Annihilator"] = 1287,
+						["Shadowmoon Warlock"] = 2577,
+						["Shadowmoon Summoner"] = 1471,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 13057.040734,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["total"] = 13057.040734,
+					["classe"] = "PRIEST",
+					["end_time"] = 1503635253,
+					["nome"] = "Seyun-Azralon",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[14914] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 2577,
+								["g_amt"] = 0,
+								["n_max"] = 1106,
+								["targets"] = {
+									["Nascent Fel Orc"] = 1106,
+									["Felguard Brute"] = 1837,
+									["Fel Orc Neophyte"] = 1471,
+									["Shadowmoon Technician"] = 2019,
+									["Hellfire Familiar"] = 1289,
+									["Felguard Annihilator"] = 1287,
+									["Shadowmoon Warlock"] = 2577,
+									["Shadowmoon Summoner"] = 1471,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10480,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 24,
+								["total"] = 13057,
+								["c_max"] = 2212,
+								["id"] = 14914,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 22,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 257,
+					["serial"] = "Player-3209-0977AE1D",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1503635219,
+					["delay"] = 0,
+					["damage_taken"] = 16644.040734,
+				}, -- [1]
+				{
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 0.061268,
+					["damage_from"] = {
+						["Laughing Skull Legionnaire"] = true,
+						["Fel Orc Neophyte"] = true,
+						["Shadowmoon Adept"] = true,
+						["Laughing Skull Enforcer"] = true,
+						["Shadowmoon Warlock"] = true,
+						["Shadowmoon Summoner"] = true,
+						["Shadowmoon Technician"] = true,
+						["Hellfire Familiar"] = true,
+						["Laughing Skull Rogue"] = true,
+						["Felguard Brute"] = true,
+						["Felguard Annihilator"] = true,
+						["Hellfire Imp"] = true,
+						["Nascent Fel Orc"] = true,
+					},
+					["targets"] = {
+						["Laughing Skull Legionnaire"] = 13340,
+						["Fel Orc Neophyte"] = 11715,
+						["Shadowmoon Adept"] = 28700,
+						["Laughing Skull Enforcer"] = 16161,
+						["Shadowmoon Warlock"] = 29004,
+						["Shadowmoon Summoner"] = 11783,
+						["Shadowmoon Technician"] = 20909,
+						["Hellfire Familiar"] = 2362,
+						["Felguard Brute"] = 9920,
+						["Laughing Skull Rogue"] = 5770,
+						["Felguard Annihilator"] = 14156,
+						["Hellfire Imp"] = 4391,
+						["Nascent Fel Orc"] = 29472,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 197683.061268,
+					["end_time"] = 1503635253,
+					["isTank"] = true,
+					["dps_started"] = false,
+					["total"] = 197683.061268,
+					["classe"] = "DEATHKNIGHT",
+					["avoidance"] = {
+						["overall"] = {
+							["DODGE"] = 0,
+							["FULL_ABSORB_AMT"] = 0,
+							["BLOCKED_AMT"] = 0,
+							["BLOCKED_HITS"] = 0,
+							["FULL_ABSORBED"] = 0,
+							["ALL"] = 0,
+							["PARTIAL_ABSORBED"] = 0,
+							["PARRY"] = 0,
+							["PARTIAL_ABSORB_AMT"] = 0,
+							["ABSORB"] = 0,
+							["ABSORB_AMT"] = 0,
+							["FULL_HIT"] = 0,
+							["HITS"] = 0,
+							["FULL_HIT_AMT"] = 0,
+						},
+					},
+					["nome"] = "Mirithi-Lightbringer",
+					["spec"] = 250,
+					["grupo"] = true,
+					["friendlyfire"] = {
+					},
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 2652,
+								["g_amt"] = 0,
+								["n_max"] = 355,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 1318,
+									["Fel Orc Neophyte"] = 951,
+									["Shadowmoon Technician"] = 1400,
+									["Laughing Skull Enforcer"] = 982,
+									["Shadowmoon Warlock"] = 3097,
+									["Shadowmoon Summoner"] = 991,
+									["Felguard Brute"] = 1031,
+									["Hellfire Familiar"] = 306,
+									["Laughing Skull Rogue"] = 681,
+									["Felguard Annihilator"] = 1734,
+									["Shadowmoon Adept"] = 3534,
+									["Nascent Fel Orc"] = 1273,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 14646,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 48,
+								["total"] = 17298,
+								["c_max"] = 724,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 44,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[52212] = {
+								["c_amt"] = 26,
+								["b_amt"] = 0,
+								["c_dmg"] = 5398,
+								["g_amt"] = 0,
+								["n_max"] = 104,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 414,
+									["Fel Orc Neophyte"] = 2077,
+									["Shadowmoon Technician"] = 1558,
+									["Laughing Skull Enforcer"] = 1556,
+									["Shadowmoon Warlock"] = 2696,
+									["Shadowmoon Summoner"] = 2177,
+									["Shadowmoon Adept"] = 2285,
+									["Hellfire Familiar"] = 1140,
+									["Laughing Skull Rogue"] = 520,
+									["Felguard Brute"] = 726,
+									["Felguard Annihilator"] = 934,
+									["Hellfire Imp"] = 724,
+									["Nascent Fel Orc"] = 726,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 12135,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 143,
+								["total"] = 17533,
+								["c_max"] = 208,
+								["id"] = 52212,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 117,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[50842] = {
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["c_dmg"] = 12005,
+								["g_amt"] = 0,
+								["n_max"] = 858,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 3428,
+									["Fel Orc Neophyte"] = 5145,
+									["Shadowmoon Adept"] = 11145,
+									["Laughing Skull Enforcer"] = 3429,
+									["Shadowmoon Warlock"] = 10289,
+									["Shadowmoon Summoner"] = 3430,
+									["Shadowmoon Technician"] = 13717,
+									["Felguard Brute"] = 1714,
+									["Laughing Skull Rogue"] = 858,
+									["Felguard Annihilator"] = 6002,
+									["Hellfire Imp"] = 2572,
+									["Nascent Fel Orc"] = 15432,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 65156,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 83,
+								["total"] = 77161,
+								["c_max"] = 1715,
+								["id"] = 50842,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 76,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[206930] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 2832,
+								["g_amt"] = 0,
+								["n_max"] = 782,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 700,
+									["Fel Orc Neophyte"] = 684,
+									["Shadowmoon Adept"] = 2822,
+									["Laughing Skull Enforcer"] = 4211,
+									["Shadowmoon Warlock"] = 1457,
+									["Shadowmoon Summoner"] = 736,
+									["Felguard Annihilator"] = 2272,
+									["Hellfire Familiar"] = 729,
+									["Hellfire Imp"] = 752,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 11531,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 14363,
+								["c_max"] = 1457,
+								["id"] = 206930,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 16,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[195182] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 4686,
+								["g_amt"] = 0,
+								["n_max"] = 1226,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 1139,
+									["Fel Orc Neophyte"] = 2231,
+									["Shadowmoon Technician"] = 1208,
+									["Laughing Skull Enforcer"] = 3315,
+									["Shadowmoon Warlock"] = 8260,
+									["Felguard Brute"] = 2334,
+									["Felguard Annihilator"] = 2243,
+									["Shadowmoon Adept"] = 4270,
+									["Nascent Fel Orc"] = 5543,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 25857,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 25,
+								["total"] = 30543,
+								["c_max"] = 2354,
+								["id"] = 195182,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 23,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[55078] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 1715,
+								["g_amt"] = 0,
+								["n_max"] = 172,
+								["targets"] = {
+									["Hellfire Imp"] = 343,
+									["Fel Orc Neophyte"] = 343,
+									["Shadowmoon Adept"] = 1887,
+									["Laughing Skull Enforcer"] = 343,
+									["Shadowmoon Warlock"] = 686,
+									["Shadowmoon Summoner"] = 343,
+									["Shadowmoon Technician"] = 688,
+									["Felguard Annihilator"] = 515,
+									["Laughing Skull Legionnaire"] = 343,
+									["Nascent Fel Orc"] = 514,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4290,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 30,
+								["total"] = 6005,
+								["c_max"] = 343,
+								["id"] = 55078,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 25,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[49998] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 15021,
+								["g_amt"] = 0,
+								["n_max"] = 2022,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 5627,
+									["Shadowmoon Technician"] = 2022,
+									["Laughing Skull Enforcer"] = 1716,
+									["Shadowmoon Warlock"] = 1859,
+									["Shadowmoon Summoner"] = 3873,
+									["Laughing Skull Rogue"] = 3621,
+									["Felguard Brute"] = 3743,
+									["Shadowmoon Adept"] = 1812,
+									["Nascent Fel Orc"] = 5573,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 14825,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 29846,
+								["c_max"] = 3873,
+								["id"] = 49998,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 8,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[50401] = {
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 829,
+								["g_amt"] = 0,
+								["n_max"] = 54,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 371,
+									["Fel Orc Neophyte"] = 284,
+									["Shadowmoon Technician"] = 316,
+									["Laughing Skull Enforcer"] = 609,
+									["Shadowmoon Warlock"] = 660,
+									["Shadowmoon Summoner"] = 233,
+									["Felguard Brute"] = 372,
+									["Hellfire Familiar"] = 187,
+									["Laughing Skull Rogue"] = 90,
+									["Felguard Annihilator"] = 456,
+									["Shadowmoon Adept"] = 945,
+									["Nascent Fel Orc"] = 411,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4105,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 97,
+								["total"] = 4934,
+								["c_max"] = 99,
+								["id"] = 50401,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 88,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-3694-07F498EF",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1503635047,
+					["delay"] = 0,
+					["damage_taken"] = 130347.061268,
+				}, -- [2]
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 7253.082154,
+					["damage_from"] = {
+						["Tunneler"] = true,
+						["Fel Orc Neophyte"] = true,
+						["Shadowmoon Technician"] = true,
+						["Umbrafen Oracle"] = true,
+						["Laughing Skull Enforcer"] = true,
+						["Kaliri Swooper"] = true,
+						["Shadowmoon Adept"] = true,
+						["Environment (Falling)"] = true,
+						["Kaliri Matriarch"] = true,
+						["Laughing Skull Rogue"] = true,
+						["Stonescythe Alpha"] = true,
+						["Stonescythe Whelp"] = true,
+						["Felguard Annihilator"] = true,
+						["Male Kaliri Hatchling"] = true,
+						["Haal'eshi Windwalker"] = true,
+					},
+					["targets"] = {
+						["Fel Orc Neophyte"] = 10401,
+						["Shadowmoon Technician"] = 27271,
+						["Laughing Skull Rogue"] = 6918,
+						["Kaliri Matriarch"] = 7012,
+						["Male Kaliri Hatchling"] = 10138,
+						["Nascent Fel Orc"] = 15612,
+						["Hellfire Imp"] = 4118,
+						["Umbrafen Oracle"] = 1919,
+						["Shadowmoon Adept"] = 32629,
+						["Haal'eshi Windwalker"] = 22624,
+						["Laughing Skull Enforcer"] = 24573,
+						["Shadowmoon Warlock"] = 39848,
+						["Hellfire Familiar"] = 11052,
+						["Stonescythe Whelp"] = 23726,
+						["Felguard Brute"] = 1220,
+						["Tunneler"] = 3754,
+						["Laughing Skull Legionnaire"] = 14638,
+						["Stonescythe Alpha"] = 8929,
+						["Felguard Annihilator"] = 19934,
+						["Shadowmoon Summoner"] = 12131,
+						["Kaliri Swooper"] = 8740,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["classe"] = "DEATHKNIGHT",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 307187.082154,
+					["friendlyfire_total"] = 0,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["total"] = 307187.082154,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1503635253,
+					["nome"] = "Akuugoromi",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 12,
+								["b_amt"] = 1,
+								["c_dmg"] = 5510,
+								["g_amt"] = 0,
+								["n_max"] = 331,
+								["targets"] = {
+									["Fel Orc Neophyte"] = 717,
+									["Shadowmoon Technician"] = 2054,
+									["Laughing Skull Rogue"] = 486,
+									["Kaliri Matriarch"] = 1296,
+									["Nascent Fel Orc"] = 894,
+									["Laughing Skull Legionnaire"] = 1049,
+									["Shadowmoon Adept"] = 3112,
+									["Umbrafen Oracle"] = 0,
+									["Laughing Skull Enforcer"] = 1638,
+									["Shadowmoon Warlock"] = 3662,
+									["Hellfire Familiar"] = 444,
+									["Stonescythe Whelp"] = 2799,
+									["Haal'eshi Windwalker"] = 2170,
+									["Shadowmoon Summoner"] = 1748,
+									["Stonescythe Alpha"] = 1239,
+									["Hellfire Imp"] = 307,
+									["Felguard Annihilator"] = 1574,
+									["Tunneler"] = 305,
+									["Kaliri Swooper"] = 602,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 20586,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 104,
+								["total"] = 26096,
+								["c_max"] = 617,
+								["EVADE"] = 3,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 8,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 222,
+								["n_amt"] = 81,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[49184] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 4999,
+								["g_amt"] = 0,
+								["n_max"] = 2282,
+								["targets"] = {
+									["Umbrafen Oracle"] = 523,
+									["Laughing Skull Legionnaire"] = 2648,
+									["Fel Orc Neophyte"] = 494,
+									["Shadowmoon Adept"] = 4144,
+									["Haal'eshi Windwalker"] = 9796,
+									["Laughing Skull Enforcer"] = 4249,
+									["Shadowmoon Warlock"] = 10294,
+									["Shadowmoon Summoner"] = 3111,
+									["Stonescythe Whelp"] = 2680,
+									["Stonescythe Alpha"] = 523,
+									["Hellfire Imp"] = 494,
+									["Hellfire Familiar"] = 1975,
+									["Felguard Brute"] = 494,
+									["Felguard Annihilator"] = 2470,
+									["Shadowmoon Technician"] = 5434,
+									["Nascent Fel Orc"] = 1990,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 46320,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 47,
+								["total"] = 51319,
+								["c_max"] = 3952,
+								["id"] = 49184,
+								["r_dmg"] = 0,
+								["EVADE"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 44,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[222024] = {
+								["c_amt"] = 11,
+								["b_amt"] = 0,
+								["c_dmg"] = 29578,
+								["g_amt"] = 0,
+								["n_max"] = 1435,
+								["targets"] = {
+									["Haal'eshi Windwalker"] = 5398,
+									["Hellfire Imp"] = 1362,
+									["Fel Orc Neophyte"] = 1266,
+									["Shadowmoon Technician"] = 5472,
+									["Shadowmoon Adept"] = 3757,
+									["Laughing Skull Enforcer"] = 5267,
+									["Shadowmoon Warlock"] = 9583,
+									["Hellfire Familiar"] = 5060,
+									["Stonescythe Whelp"] = 3914,
+									["Kaliri Matriarch"] = 2740,
+									["Kaliri Swooper"] = 5410,
+									["Stonescythe Alpha"] = 4044,
+									["Laughing Skull Legionnaire"] = 6260,
+									["Felguard Annihilator"] = 5257,
+									["Male Kaliri Hatchling"] = 8514,
+									["Nascent Fel Orc"] = 1239,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 44965,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 45,
+								["total"] = 74543,
+								["c_max"] = 2881,
+								["id"] = 222024,
+								["r_dmg"] = 0,
+								["a_dmg"] = 1301,
+								["m_crit"] = 0,
+								["a_amt"] = 1,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 34,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[55095] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 3489,
+								["g_amt"] = 0,
+								["n_max"] = 381,
+								["targets"] = {
+									["Fel Orc Neophyte"] = 988,
+									["Shadowmoon Technician"] = 1416,
+									["Laughing Skull Rogue"] = 329,
+									["Nascent Fel Orc"] = 658,
+									["Laughing Skull Legionnaire"] = 737,
+									["Shadowmoon Adept"] = 2372,
+									["Laughing Skull Enforcer"] = 660,
+									["Shadowmoon Warlock"] = 1396,
+									["Hellfire Familiar"] = 329,
+									["Stonescythe Whelp"] = 2126,
+									["Umbrafen Oracle"] = 1396,
+									["Stonescythe Alpha"] = 697,
+									["Hellfire Imp"] = 329,
+									["Tunneler"] = 359,
+									["Felguard Annihilator"] = 659,
+									["Shadowmoon Summoner"] = 330,
+									["Felguard Brute"] = 330,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 11622,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 40,
+								["total"] = 15111,
+								["c_max"] = 737,
+								["id"] = 55095,
+								["r_dmg"] = 0,
+								["EVADE"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 34,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[66196] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 651,
+								["targets"] = {
+									["Tunneler"] = 651,
+									["Fel Orc Neophyte"] = 557,
+									["Shadowmoon Adept"] = 582,
+									["Shadowmoon Technician"] = 626,
+									["Shadowmoon Summoner"] = 604,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3020,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 3020,
+								["c_max"] = 0,
+								["id"] = 66196,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[66198] = {
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 11725,
+								["g_amt"] = 0,
+								["n_max"] = 715,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 3218,
+									["Shadowmoon Technician"] = 1420,
+									["Haal'eshi Windwalker"] = 2632,
+									["Laughing Skull Enforcer"] = 3199,
+									["Shadowmoon Warlock"] = 3305,
+									["Hellfire Familiar"] = 1928,
+									["Stonescythe Whelp"] = 1348,
+									["Kaliri Matriarch"] = 2592,
+									["Shadowmoon Adept"] = 1865,
+									["Stonescythe Alpha"] = 652,
+									["Hellfire Imp"] = 655,
+									["Felguard Annihilator"] = 2044,
+									["Male Kaliri Hatchling"] = 1430,
+									["Nascent Fel Orc"] = 680,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 15243,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 32,
+								["total"] = 26968,
+								["c_max"] = 1420,
+								["id"] = 66198,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 23,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[49998] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 3415,
+								["g_amt"] = 0,
+								["n_max"] = 901,
+								["targets"] = {
+									["Fel Orc Neophyte"] = 825,
+									["Shadowmoon Technician"] = 824,
+									["Laughing Skull Enforcer"] = 825,
+									["Shadowmoon Warlock"] = 2678,
+									["Stonescythe Whelp"] = 3403,
+									["Kaliri Swooper"] = 1672,
+									["Laughing Skull Rogue"] = 811,
+									["Felguard Annihilator"] = 1652,
+									["Shadowmoon Adept"] = 2413,
+									["Haal'eshi Windwalker"] = 1642,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 13330,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 16745,
+								["c_max"] = 1777,
+								["id"] = 49998,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 16,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[49020] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Umbrafen Oracle"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 49020,
+								["r_dmg"] = 0,
+								["EVADE"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[66188] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 721,
+								["g_amt"] = 0,
+								["n_max"] = 393,
+								["targets"] = {
+									["Fel Orc Neophyte"] = 343,
+									["Shadowmoon Technician"] = 381,
+									["Laughing Skull Enforcer"] = 328,
+									["Shadowmoon Warlock"] = 721,
+									["Stonescythe Whelp"] = 1846,
+									["Laughing Skull Rogue"] = 388,
+									["Felguard Annihilator"] = 389,
+									["Shadowmoon Adept"] = 369,
+									["Kaliri Swooper"] = 764,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4808,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 14,
+								["total"] = 5529,
+								["c_max"] = 721,
+								["id"] = 66188,
+								["r_dmg"] = 0,
+								["a_dmg"] = 721,
+								["m_crit"] = 0,
+								["a_amt"] = 1,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 13,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[196771] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["c_dmg"] = 2714,
+								["g_amt"] = 0,
+								["n_max"] = 351,
+								["targets"] = {
+									["Tunneler"] = 717,
+									["Fel Orc Neophyte"] = 332,
+									["Shadowmoon Adept"] = 3545,
+									["Laughing Skull Rogue"] = 1160,
+									["Shadowmoon Warlock"] = 2192,
+									["Shadowmoon Summoner"] = 2247,
+									["Stonescythe Whelp"] = 3234,
+									["Laughing Skull Enforcer"] = 3201,
+									["Stonescythe Alpha"] = 1582,
+									["Shadowmoon Technician"] = 1336,
+									["Nascent Fel Orc"] = 1162,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 17994,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 112,
+								["total"] = 20708,
+								["c_max"] = 362,
+								["id"] = 196771,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 104,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[222026] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 4697,
+								["g_amt"] = 0,
+								["n_max"] = 1365,
+								["targets"] = {
+									["Stonescythe Whelp"] = 1365,
+									["Tunneler"] = 1208,
+									["Fel Orc Neophyte"] = 2279,
+									["Shadowmoon Adept"] = 2390,
+									["Hellfire Familiar"] = 1081,
+									["Nascent Fel Orc"] = 1156,
+									["Shadowmoon Technician"] = 3654,
+									["Shadowmoon Summoner"] = 1165,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 9601,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 14298,
+								["c_max"] = 2418,
+								["id"] = 222026,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 8,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[237680] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 9577,
+								["g_amt"] = 0,
+								["n_max"] = 1581,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 395,
+									["Fel Orc Neophyte"] = 2370,
+									["Shadowmoon Adept"] = 7136,
+									["Laughing Skull Enforcer"] = 4346,
+									["Shadowmoon Warlock"] = 4741,
+									["Shadowmoon Summoner"] = 2465,
+									["Tunneler"] = 418,
+									["Laughing Skull Rogue"] = 3556,
+									["Felguard Brute"] = 396,
+									["Shadowmoon Technician"] = 3951,
+									["Felguard Annihilator"] = 5136,
+									["Hellfire Imp"] = 790,
+									["Nascent Fel Orc"] = 7507,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 33630,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 64,
+								["total"] = 43207,
+								["c_max"] = 3161,
+								["id"] = 237680,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 58,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[50401] = {
+								["c_amt"] = 17,
+								["b_amt"] = 0,
+								["c_dmg"] = 1615,
+								["g_amt"] = 0,
+								["n_max"] = 54,
+								["targets"] = {
+									["Fel Orc Neophyte"] = 230,
+									["Shadowmoon Technician"] = 703,
+									["Laughing Skull Rogue"] = 188,
+									["Kaliri Matriarch"] = 384,
+									["Male Kaliri Hatchling"] = 194,
+									["Nascent Fel Orc"] = 326,
+									["Laughing Skull Legionnaire"] = 331,
+									["Shadowmoon Adept"] = 944,
+									["Laughing Skull Enforcer"] = 860,
+									["Shadowmoon Warlock"] = 1276,
+									["Hellfire Familiar"] = 235,
+									["Stonescythe Whelp"] = 1011,
+									["Haal'eshi Windwalker"] = 986,
+									["Stonescythe Alpha"] = 192,
+									["Hellfire Imp"] = 181,
+									["Tunneler"] = 96,
+									["Felguard Annihilator"] = 753,
+									["Shadowmoon Summoner"] = 461,
+									["Kaliri Swooper"] = 292,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8028,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 185,
+								["total"] = 9643,
+								["c_max"] = 114,
+								["id"] = 50401,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 168,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 251,
+					["serial"] = "Player-11-0AD4AF4D",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1503634990,
+					["delay"] = 0,
+					["damage_taken"] = 59635.082154,
+				}, -- [3]
+				{
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 0.055397,
+					["damage_from"] = {
+						["Nascent Fel Orc"] = true,
+						["Shadowmoon Technician"] = true,
+						["Fel Orc Neophyte"] = true,
+						["Shadowmoon Adept"] = true,
+					},
+					["targets"] = {
+						["Laughing Skull Legionnaire"] = 2040,
+						["Fel Orc Neophyte"] = 19318,
+						["Shadowmoon Adept"] = 24539,
+						["Laughing Skull Enforcer"] = 15524,
+						["Shadowmoon Warlock"] = 15026,
+						["Shadowmoon Summoner"] = 11270,
+						["Shadowmoon Technician"] = 9088,
+						["Hellfire Familiar"] = 8171,
+						["Felguard Brute"] = 4983,
+						["Laughing Skull Rogue"] = 1392,
+						["Felguard Annihilator"] = 21524,
+						["Hellfire Imp"] = 161,
+						["Nascent Fel Orc"] = 11215,
+					},
+					["pets"] = {
+						"Bonethief <Aerion-Cenarius> <Aerion-Cenarius>", -- [1]
+					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 130577.055397,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["total"] = 144251.055397,
+					["classe"] = "DEATHKNIGHT",
+					["end_time"] = 1503635253,
+					["nome"] = "Aerion-Cenarius",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 5,
+								["b_amt"] = 1,
+								["c_dmg"] = 3537,
+								["g_amt"] = 0,
+								["n_max"] = 418,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 365,
+									["Fel Orc Neophyte"] = 1487,
+									["Shadowmoon Technician"] = 1231,
+									["Laughing Skull Enforcer"] = 1495,
+									["Shadowmoon Warlock"] = 1611,
+									["Shadowmoon Summoner"] = 1221,
+									["Felguard Brute"] = 413,
+									["Hellfire Familiar"] = 1121,
+									["Felguard Annihilator"] = 1163,
+									["Shadowmoon Adept"] = 1121,
+									["Nascent Fel Orc"] = 508,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8199,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 26,
+								["total"] = 11736,
+								["c_max"] = 817,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 508,
+								["n_amt"] = 21,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[191587] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 2519,
+								["g_amt"] = 0,
+								["n_max"] = 315,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 314,
+									["Fel Orc Neophyte"] = 2204,
+									["Shadowmoon Technician"] = 944,
+									["Laughing Skull Rogue"] = 315,
+									["Shadowmoon Summoner"] = 943,
+									["Laughing Skull Enforcer"] = 944,
+									["Felguard Annihilator"] = 1258,
+									["Shadowmoon Adept"] = 2202,
+									["Nascent Fel Orc"] = 1890,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8495,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 31,
+								["total"] = 11014,
+								["c_max"] = 630,
+								["id"] = 191587,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 27,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[85948] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 7520,
+								["g_amt"] = 0,
+								["n_max"] = 2071,
+								["targets"] = {
+									["Felguard Brute"] = 2040,
+									["Fel Orc Neophyte"] = 1779,
+									["Shadowmoon Technician"] = 2024,
+									["Laughing Skull Enforcer"] = 1866,
+									["Shadowmoon Warlock"] = 3948,
+									["Shadowmoon Summoner"] = 2039,
+									["Felguard Annihilator"] = 7956,
+									["Hellfire Familiar"] = 3646,
+									["Shadowmoon Adept"] = 5548,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 23326,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 14,
+								["total"] = 30846,
+								["c_max"] = 3833,
+								["id"] = 85948,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 12,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[207311] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 1772,
+								["g_amt"] = 0,
+								["n_max"] = 892,
+								["targets"] = {
+									["Felguard Annihilator"] = 865,
+									["Laughing Skull Enforcer"] = 892,
+									["Fel Orc Neophyte"] = 2616,
+									["Shadowmoon Warlock"] = 840,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3441,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 5213,
+								["c_max"] = 1772,
+								["id"] = 207311,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[191685] = {
+								["c_amt"] = 19,
+								["b_amt"] = 0,
+								["c_dmg"] = 8818,
+								["g_amt"] = 0,
+								["n_max"] = 450,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 225,
+									["Fel Orc Neophyte"] = 6817,
+									["Shadowmoon Adept"] = 4269,
+									["Laughing Skull Enforcer"] = 3104,
+									["Shadowmoon Warlock"] = 1653,
+									["Shadowmoon Summoner"] = 1880,
+									["Shadowmoon Technician"] = 2241,
+									["Felguard Brute"] = 900,
+									["Felguard Annihilator"] = 2475,
+									["Laughing Skull Rogue"] = 469,
+									["Nascent Fel Orc"] = 3315,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 18530,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 112,
+								["total"] = 27348,
+								["c_max"] = 900,
+								["id"] = 191685,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 93,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[49998] = {
+								["c_amt"] = 2,
+								["b_amt"] = 1,
+								["c_dmg"] = 4514,
+								["g_amt"] = 0,
+								["n_max"] = 1139,
+								["targets"] = {
+									["Felguard Annihilator"] = 3487,
+									["Fel Orc Neophyte"] = 1796,
+									["Shadowmoon Adept"] = 1011,
+									["Hellfire Familiar"] = 2166,
+									["Laughing Skull Enforcer"] = 3162,
+									["Shadowmoon Warlock"] = 1128,
+									["Shadowmoon Summoner"] = 1108,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 9344,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 13858,
+								["c_max"] = 2348,
+								["id"] = 49998,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 750,
+								["n_amt"] = 9,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[207267] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 2291,
+								["g_amt"] = 0,
+								["n_max"] = 382,
+								["targets"] = {
+									["Felguard Annihilator"] = 1909,
+									["Fel Orc Neophyte"] = 1145,
+									["Shadowmoon Adept"] = 5343,
+									["Nascent Fel Orc"] = 3434,
+									["Laughing Skull Enforcer"] = 1528,
+									["Shadowmoon Warlock"] = 1526,
+									["Shadowmoon Summoner"] = 1145,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 13739,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 39,
+								["total"] = 16030,
+								["c_max"] = 764,
+								["id"] = 207267,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 36,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[52212] = {
+								["c_amt"] = 11,
+								["b_amt"] = 0,
+								["c_dmg"] = 2673,
+								["g_amt"] = 0,
+								["n_max"] = 122,
+								["targets"] = {
+									["Felguard Brute"] = 364,
+									["Shadowmoon Adept"] = 2307,
+									["Laughing Skull Rogue"] = 608,
+									["Shadowmoon Warlock"] = 1459,
+									["Shadowmoon Summoner"] = 1094,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3159,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 37,
+								["total"] = 5832,
+								["c_max"] = 243,
+								["id"] = 52212,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 26,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[194311] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 675,
+								["targets"] = {
+									["Shadowmoon Warlock"] = 675,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 675,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 675,
+								["c_max"] = 0,
+								["id"] = 194311,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[77575] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 1290,
+								["g_amt"] = 0,
+								["n_max"] = 162,
+								["targets"] = {
+									["Hellfire Imp"] = 161,
+									["Fel Orc Neophyte"] = 161,
+									["Shadowmoon Technician"] = 805,
+									["Laughing Skull Enforcer"] = 322,
+									["Shadowmoon Warlock"] = 806,
+									["Shadowmoon Summoner"] = 323,
+									["Hellfire Familiar"] = 161,
+									["Felguard Brute"] = 323,
+									["Nascent Fel Orc"] = 644,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2416,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 19,
+								["total"] = 3706,
+								["c_max"] = 323,
+								["id"] = 77575,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 15,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[47632] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 944,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 944,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 944,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 944,
+								["c_max"] = 0,
+								["id"] = 47632,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[50401] = {
+								["c_amt"] = 11,
+								["b_amt"] = 0,
+								["c_dmg"] = 1189,
+								["g_amt"] = 0,
+								["n_max"] = 58,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 56,
+									["Fel Orc Neophyte"] = 383,
+									["Shadowmoon Technician"] = 216,
+									["Laughing Skull Enforcer"] = 546,
+									["Shadowmoon Warlock"] = 550,
+									["Shadowmoon Summoner"] = 215,
+									["Felguard Brute"] = 111,
+									["Hellfire Familiar"] = 329,
+									["Felguard Annihilator"] = 592,
+									["Shadowmoon Adept"] = 325,
+									["Nascent Fel Orc"] = 52,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2186,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 51,
+								["total"] = 3375,
+								["c_max"] = 115,
+								["id"] = 50401,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 40,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 252,
+					["serial"] = "Player-1168-0827BD6D",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1503635062,
+					["delay"] = 0,
+					["damage_taken"] = 26393.055397,
+				}, -- [4]
+				{
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 0.029086,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Hellfire Imp"] = 1181,
+						["Fel Orc Neophyte"] = 3801,
+						["Shadowmoon Technician"] = 5138,
+						["Nascent Fel Orc"] = 4693,
+						["Laughing Skull Rogue"] = 2363,
+						["Shadowmoon Warlock"] = 3801,
+						["Shadowmoon Summoner"] = 1181,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 22158.029086,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["total"] = 22158.029086,
+					["classe"] = "WARLOCK",
+					["end_time"] = 1503635253,
+					["nome"] = "Meabraçaamor-Azralon",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[42223] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 891,
+								["g_amt"] = 0,
+								["n_max"] = 446,
+								["targets"] = {
+									["Nascent Fel Orc"] = 892,
+									["Shadowmoon Technician"] = 1337,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1338,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 2229,
+								["c_max"] = 891,
+								["id"] = 42223,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[29722] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 2363,
+								["g_amt"] = 0,
+								["n_max"] = 1181,
+								["targets"] = {
+									["Hellfire Imp"] = 1181,
+									["Laughing Skull Rogue"] = 2363,
+									["Shadowmoon Summoner"] = 1181,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2362,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 4725,
+								["c_max"] = 2363,
+								["id"] = 29722,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[152108] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3801,
+								["targets"] = {
+									["Shadowmoon Technician"] = 3801,
+									["Fel Orc Neophyte"] = 3801,
+									["Shadowmoon Warlock"] = 3801,
+									["Nascent Fel Orc"] = 3801,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 15204,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 15204,
+								["c_max"] = 0,
+								["id"] = 152108,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["on_hold"] = false,
+					["spec"] = 267,
+					["serial"] = "Player-3209-0977AE44",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1503635228,
+					["delay"] = 0,
+					["damage_taken"] = 0.029086,
+				}, -- [5]
+				{
+					["flag_original"] = 4370,
+					["totalabsorbed"] = 0.058027,
+					["last_dps"] = 0,
+					["damage_from"] = {
+						["Nascent Fel Orc"] = true,
+						["Shadowmoon Warlock"] = true,
+						["Shadowmoon Technician"] = true,
+					},
+					["targets"] = {
+						["Laughing Skull Legionnaire"] = 136,
+						["Fel Orc Neophyte"] = 930,
+						["Shadowmoon Technician"] = 1627,
+						["Laughing Skull Enforcer"] = 1665,
+						["Shadowmoon Warlock"] = 830,
+						["Shadowmoon Summoner"] = 1302,
+						["Felguard Brute"] = 832,
+						["Hellfire Familiar"] = 748,
+						["Felguard Annihilator"] = 1819,
+						["Shadowmoon Adept"] = 2413,
+						["Nascent Fel Orc"] = 1372,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 13674.058027,
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 13674.058027,
+					["delay"] = 0,
+					["ownerName"] = "Aerion-Cenarius",
+					["nome"] = "Bonethief <Aerion-Cenarius> <Aerion-Cenarius>",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 1393,
+								["g_amt"] = 0,
+								["n_max"] = 145,
+								["targets"] = {
+									["Laughing Skull Legionnaire"] = 136,
+									["Fel Orc Neophyte"] = 406,
+									["Shadowmoon Technician"] = 722,
+									["Laughing Skull Enforcer"] = 816,
+									["Shadowmoon Warlock"] = 289,
+									["Shadowmoon Summoner"] = 579,
+									["Felguard Brute"] = 289,
+									["Hellfire Familiar"] = 408,
+									["Felguard Annihilator"] = 721,
+									["Shadowmoon Adept"] = 1224,
+									["Nascent Fel Orc"] = 678,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4875,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 40,
+								["total"] = 6268,
+								["c_max"] = 290,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 35,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[91776] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 2123,
+								["g_amt"] = 0,
+								["n_max"] = 181,
+								["targets"] = {
+									["Felguard Brute"] = 543,
+									["Fel Orc Neophyte"] = 508,
+									["Shadowmoon Technician"] = 905,
+									["Laughing Skull Enforcer"] = 849,
+									["Shadowmoon Warlock"] = 541,
+									["Shadowmoon Summoner"] = 723,
+									["Hellfire Familiar"] = 340,
+									["Felguard Annihilator"] = 1081,
+									["Shadowmoon Adept"] = 1189,
+									["Nascent Fel Orc"] = 678,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5234,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 36,
+								["total"] = 7357,
+								["c_max"] = 362,
+								["id"] = 91776,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 30,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[91800] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 17,
+								["targets"] = {
+									["Felguard Annihilator"] = 17,
+									["Fel Orc Neophyte"] = 16,
+									["Nascent Fel Orc"] = 16,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 49,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 49,
+								["c_max"] = 0,
+								["id"] = 91800,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["friendlyfire_total"] = 0,
+					["end_time"] = 1503635600,
+					["damage_taken"] = 1690.058027,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1503635573,
+					["serial"] = "Pet-0-3783-542-24685-26125-01027C4A3D",
+				}, -- [6]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1298,
+					["targets_overheal"] = {
+						["Aerion-Cenarius"] = 35274,
+					},
+					["pets"] = {
+						"Bonethief <Aerion-Cenarius> <Aerion-Cenarius>", -- [1]
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 35274.06611,
+					["total_without_pet"] = 5482.06611,
+					["total"] = 5482.06611,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1168-0827BD6D",
+					["totalabsorb"] = 0.06611,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Aerion-Cenarius"] = 7992,
+					},
+					["totalover_without_pet"] = 0.06611,
+					["healing_taken"] = 22777.06611,
+					["end_time"] = 1503635253,
+					["healing_from"] = {
+						["Aerion-Cenarius"] = true,
+						["Seyun-Azralon"] = true,
+					},
+					["nome"] = "Aerion-Cenarius",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[45470] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Aerion-Cenarius"] = 27735,
+								},
+								["n_max"] = 2216,
+								["targets"] = {
+									["Aerion-Cenarius"] = 2901,
+								},
+								["n_min"] = 0,
+								["counter"] = 13,
+								["overheal"] = 27735,
+								["total"] = 2901,
+								["c_max"] = 0,
+								["id"] = 45470,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 2901,
+								["n_amt"] = 13,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Aerion-Cenarius"] = 7539,
+								},
+								["n_max"] = 267,
+								["targets"] = {
+									["Aerion-Cenarius"] = 2581,
+								},
+								["n_min"] = 0,
+								["counter"] = 38,
+								["overheal"] = 7539,
+								["total"] = 2581,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 2581,
+								["n_amt"] = 38,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1503635158,
+					["classe"] = "DEATHKNIGHT",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 252,
+					["totaldenied"] = 0.06611,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 1298,
+					["targets_overheal"] = {
+						["Mirithi-Lightbringer"] = 3254,
+						["Aerion-Cenarius"] = 4749,
+						["Bonethief <Aerion-Cenarius>"] = 2542,
+						["Akuugoromi"] = 3992,
+						["Seyun-Azralon"] = 10176,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 24713.049591,
+					["total_without_pet"] = 129827.049591,
+					["total"] = 129827.049591,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-3209-0977AE1D",
+					["totalabsorb"] = 0.049591,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Mirithi-Lightbringer"] = 74893,
+						["Aerion-Cenarius"] = 22044,
+						["Seyun-Azralon"] = 18918,
+						["Bonethief <Aerion-Cenarius>"] = 2678,
+						["Akuugoromi"] = 28902,
+					},
+					["totalover_without_pet"] = 0.049591,
+					["healing_taken"] = 13745.049591,
+					["fight_component"] = true,
+					["end_time"] = 1503635253,
+					["healing_from"] = {
+						["Seyun-Azralon"] = true,
+					},
+					["nome"] = "Seyun-Azralon",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[33110] = {
+								["c_amt"] = 5,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Mirithi-Lightbringer"] = 503,
+									["Seyun-Azralon"] = 2325,
+									["Akuugoromi"] = 240,
+									["Aerion-Cenarius"] = 498,
+								},
+								["n_max"] = 776,
+								["targets"] = {
+									["Seyun-Azralon"] = 0,
+									["Mirithi-Lightbringer"] = 11589,
+									["Akuugoromi"] = 2861,
+									["Aerion-Cenarius"] = 4153,
+								},
+								["n_min"] = 0,
+								["counter"] = 23,
+								["overheal"] = 3566,
+								["total"] = 18603,
+								["c_max"] = 2016,
+								["id"] = 33110,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 7479,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 11124,
+								["n_amt"] = 18,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[2061] = {
+								["c_amt"] = 6,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Mirithi-Lightbringer"] = 2751,
+									["Seyun-Azralon"] = 5173,
+									["Aerion-Cenarius"] = 4251,
+									["Akuugoromi"] = 3752,
+								},
+								["n_max"] = 2733,
+								["targets"] = {
+									["Aerion-Cenarius"] = 10464,
+									["Seyun-Azralon"] = 13745,
+									["Mirithi-Lightbringer"] = 59474,
+									["Akuugoromi"] = 19371,
+								},
+								["n_min"] = 0,
+								["counter"] = 50,
+								["overheal"] = 15927,
+								["total"] = 103054,
+								["c_max"] = 4205,
+								["id"] = 2061,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 19618,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 83436,
+								["n_amt"] = 44,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[34861] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Seyun-Azralon"] = 2678,
+									["Bonethief <Aerion-Cenarius>"] = 2542,
+								},
+								["n_max"] = 2678,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 2678,
+									["Aerion-Cenarius"] = 2678,
+									["Seyun-Azralon"] = 0,
+									["Bonethief <Aerion-Cenarius>"] = 136,
+									["Akuugoromi"] = 2678,
+								},
+								["n_min"] = 0,
+								["counter"] = 5,
+								["overheal"] = 5220,
+								["total"] = 8170,
+								["c_max"] = 0,
+								["id"] = 34861,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 8170,
+								["n_amt"] = 5,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1503635077,
+					["classe"] = "PRIEST",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 257,
+					["totaldenied"] = 0.049591,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 1298,
+					["healing_from"] = {
+						["Seyun-Azralon"] = true,
+						["Mirithi-Lightbringer"] = true,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "DEATHKNIGHT",
+					["totalover"] = 13555.067868,
+					["total_without_pet"] = 33317.067868,
+					["total"] = 33317.067868,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["isTank"] = true,
+					["serial"] = "Player-3694-07F498EF",
+					["totalabsorb"] = 0.067868,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Mirithi-Lightbringer"] = 39600,
+					},
+					["totalover_without_pet"] = 0.067868,
+					["healing_taken"] = 107058.067868,
+					["fight_component"] = true,
+					["end_time"] = 1503635253,
+					["start_time"] = 1503635136,
+					["nome"] = "Mirithi-Lightbringer",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[45470] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Mirithi-Lightbringer"] = 12134,
+								},
+								["n_max"] = 2629,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 18299,
+								},
+								["n_min"] = 0,
+								["counter"] = 14,
+								["overheal"] = 12134,
+								["total"] = 18299,
+								["c_max"] = 0,
+								["id"] = 45470,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 18299,
+								["n_amt"] = 14,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[55078] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Mirithi-Lightbringer"] = 26,
+								},
+								["n_max"] = 445,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 6281,
+								},
+								["n_min"] = 0,
+								["counter"] = 30,
+								["overheal"] = 26,
+								["total"] = 6281,
+								["c_max"] = 0,
+								["id"] = 55078,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 6281,
+								["n_amt"] = 30,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Mirithi-Lightbringer"] = 1395,
+								},
+								["n_max"] = 723,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 8737,
+								},
+								["n_min"] = 0,
+								["counter"] = 23,
+								["overheal"] = 1395,
+								["total"] = 8737,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 8737,
+								["n_amt"] = 23,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["targets_overheal"] = {
+						["Mirithi-Lightbringer"] = 13555,
+					},
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["spec"] = 250,
+					["totaldenied"] = 0.067868,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [3]
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+						["Akuugoromi"] = true,
+						["Seyun-Azralon"] = true,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "DEATHKNIGHT",
+					["totalover"] = 64041.087311,
+					["total_without_pet"] = 27820.087311,
+					["total"] = 27820.087311,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-11-0AD4AF4D",
+					["totalabsorb"] = 0.087311,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Akuugoromi"] = 40889,
+					},
+					["totalover_without_pet"] = 0.087311,
+					["healing_taken"] = 52730.087311,
+					["fight_component"] = true,
+					["end_time"] = 1503635253,
+					["targets_overheal"] = {
+						["Akuugoromi"] = 64041,
+					},
+					["nome"] = "Akuugoromi",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Akuugoromi"] = 20150,
+								},
+								["n_max"] = 284,
+								["targets"] = {
+									["Akuugoromi"] = 11310,
+								},
+								["n_min"] = 0,
+								["counter"] = 112,
+								["overheal"] = 20150,
+								["total"] = 11310,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 11310,
+								["n_amt"] = 112,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[45470] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Akuugoromi"] = 43891,
+								},
+								["n_max"] = 2836,
+								["targets"] = {
+									["Akuugoromi"] = 16510,
+								},
+								["n_min"] = 0,
+								["counter"] = 22,
+								["overheal"] = 43891,
+								["total"] = 16510,
+								["c_max"] = 0,
+								["id"] = 45470,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 16510,
+								["n_amt"] = 22,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1503635076,
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["spec"] = 251,
+					["totaldenied"] = 0.087311,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [4]
+				{
+					["flag_original"] = 1298,
+					["totalabsorb"] = 0.010171,
+					["last_hps"] = 0,
+					["targets_overheal"] = {
+						["Meabraçaamor-Azralon"] = 240,
+					},
+					["targets"] = {
+					},
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[108366] = {
+								["c_amt"] = 2,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Meabraçaamor-Azralon"] = 240,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Meabraçaamor-Azralon"] = -240,
+								},
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 240,
+								["total"] = -240,
+								["c_max"] = 0,
+								["id"] = 108366,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = -240,
+								["m_crit"] = 0,
+								["c_min"] = -120,
+								["m_amt"] = 0,
+								["n_curado"] = 0,
+								["n_amt"] = 0,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["pets"] = {
+					},
+					["totalover_without_pet"] = 0.010171,
+					["healing_from"] = {
+					},
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 240.010171,
+					["total_without_pet"] = 0.010171,
+					["healing_taken"] = 0.010171,
+					["iniciar_hps"] = false,
+					["classe"] = "WARLOCK",
+					["total"] = 0.010171,
+					["start_time"] = 1503635269,
+					["end_time"] = 1503635274,
+					["nome"] = "Meabraçaamor-Azralon",
+					["targets_absorbs"] = {
+					},
+					["grupo"] = true,
+					["spec"] = 267,
+					["heal_enemy"] = {
+					},
+					["serial"] = "Player-3209-0977AE44",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["on_hold"] = false,
+					["totaldenied"] = 0.010171,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 4370,
+					["healing_from"] = {
+						["Seyun-Azralon"] = true,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "PET",
+					["totalover"] = 0.007969,
+					["total_without_pet"] = 0.007969,
+					["total"] = 0.007969,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Pet-0-3783-542-24685-26125-01027C4A3D",
+					["totalabsorb"] = 0.007969,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.007969,
+					["healing_taken"] = 136.007969,
+					["targets_overheal"] = {
+					},
+					["fight_component"] = true,
+					["end_time"] = 1503635330,
+					["ownerName"] = "Aerion-Cenarius",
+					["nome"] = "Bonethief <Aerion-Cenarius> <Aerion-Cenarius>",
+					["heal_enemy_amt"] = 0,
+					["last_event"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["start_time"] = 1503635327,
+					["totaldenied"] = 0.007969,
+					["delay"] = 0,
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+						},
+					},
+				}, -- [6]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 697.050072,
+					["resource"] = 16.050072,
+					["targets"] = {
+						["Mirithi-Lightbringer"] = 697,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "DEATHKNIGHT",
+					["fight_component"] = true,
+					["total"] = 697.050072,
+					["nome"] = "Mirithi-Lightbringer",
+					["spec"] = 250,
+					["grupo"] = true,
+					["tipo"] = 3,
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[206930] = {
+								["id"] = 206930,
+								["total"] = 195,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 195,
+								},
+								["counter"] = 13,
+							},
+							[188290] = {
+								["id"] = 188290,
+								["total"] = 48,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 48,
+								},
+								["counter"] = 48,
+							},
+							[43265] = {
+								["id"] = 43265,
+								["total"] = 20,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 20,
+								},
+								["counter"] = 2,
+							},
+							[195182] = {
+								["id"] = 195182,
+								["total"] = 398,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 398,
+								},
+								["counter"] = 20,
+							},
+							[210738] = {
+								["id"] = 210738,
+								["total"] = 36,
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 36,
+								},
+								["counter"] = 18,
+							},
+						},
+					},
+					["flag_original"] = 1298,
+					["last_event"] = 0,
+					["alternatepower"] = 0.050072,
+					["isTank"] = true,
+					["serial"] = "Player-3694-07F498EF",
+				}, -- [1]
+				{
+					["received"] = 390.088375,
+					["resource"] = 79.088375,
+					["targets"] = {
+						["Akuugoromi"] = 390,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 1,
+					["resource_type"] = 5,
+					["classe"] = "DEATHKNIGHT",
+					["total"] = 390.088375,
+					["nome"] = "Akuugoromi",
+					["spec"] = 251,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[49020] = {
+								["id"] = 49020,
+								["total"] = 220,
+								["targets"] = {
+									["Akuugoromi"] = 220,
+								},
+								["counter"] = 11,
+							},
+							[196770] = {
+								["id"] = 196770,
+								["total"] = 20,
+								["targets"] = {
+									["Akuugoromi"] = 20,
+								},
+								["counter"] = 2,
+							},
+							[193486] = {
+								["id"] = 193486,
+								["total"] = 20,
+								["targets"] = {
+									["Akuugoromi"] = 20,
+								},
+								["counter"] = 20,
+							},
+							[49184] = {
+								["id"] = 49184,
+								["total"] = 111,
+								["targets"] = {
+									["Akuugoromi"] = 111,
+								},
+								["counter"] = 13,
+							},
+							[207062] = {
+								["id"] = 207062,
+								["total"] = 4,
+								["targets"] = {
+									["Akuugoromi"] = 4,
+								},
+								["counter"] = 4,
+							},
+							[195617] = {
+								["id"] = 195617,
+								["total"] = 15,
+								["targets"] = {
+									["Akuugoromi"] = 15,
+								},
+								["counter"] = 3,
+							},
+						},
+					},
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["last_event"] = 0,
+					["alternatepower"] = 0.088375,
+					["serial"] = "Player-11-0AD4AF4D",
+				}, -- [2]
+				{
+					["received"] = 293.056838,
+					["resource"] = 34.056838,
+					["targets"] = {
+						["Aerion-Cenarius"] = 293,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "DEATHKNIGHT",
+					["resource_type"] = 7,
+					["total"] = 293.056838,
+					["nome"] = "Aerion-Cenarius",
+					["spec"] = 252,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[195757] = {
+								["id"] = 195757,
+								["total"] = 30,
+								["targets"] = {
+									["Aerion-Cenarius"] = 30,
+								},
+								["counter"] = 41,
+							},
+							[77575] = {
+								["id"] = 77575,
+								["total"] = 133,
+								["targets"] = {
+									["Aerion-Cenarius"] = 133,
+								},
+								["counter"] = 14,
+							},
+							[207311] = {
+								["id"] = 207311,
+								["total"] = 20,
+								["targets"] = {
+									["Aerion-Cenarius"] = 20,
+								},
+								["counter"] = 2,
+							},
+							[85948] = {
+								["id"] = 85948,
+								["total"] = 100,
+								["targets"] = {
+									["Aerion-Cenarius"] = 100,
+								},
+								["counter"] = 5,
+							},
+							[43265] = {
+								["id"] = 43265,
+								["total"] = 10,
+								["targets"] = {
+									["Aerion-Cenarius"] = 10,
+								},
+								["counter"] = 1,
+							},
+						},
+					},
+					["tipo"] = 3,
+					["flag_original"] = 1298,
+					["last_event"] = 0,
+					["alternatepower"] = 0.056838,
+					["serial"] = "Player-1168-0827BD6D",
+				}, -- [3]
+				{
+					["received"] = 824.025677,
+					["resource"] = 0.025677,
+					["targets"] = {
+						["Seyun-Azralon"] = 824,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "PRIEST",
+					["fight_component"] = true,
+					["total"] = 824.025677,
+					["nome"] = "Seyun-Azralon",
+					["spec"] = 257,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[126467] = {
+								["id"] = 126467,
+								["total"] = 824,
+								["targets"] = {
+									["Seyun-Azralon"] = 824,
+								},
+								["counter"] = 4,
+							},
+						},
+					},
+					["tipo"] = 3,
+					["flag_original"] = 1298,
+					["last_event"] = 0,
+					["alternatepower"] = 0.025677,
+					["serial"] = "Player-3209-0977AE1D",
+				}, -- [4]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[5740] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 5740,
+								["uptime"] = 3,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[157736] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 4,
+								["id"] = 157736,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 230,
+					["classe"] = "WARLOCK",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[108366] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 108366,
+								["uptime"] = 26,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 11,
+								["appliedamt"] = 11,
+								["id"] = 186406,
+								["uptime"] = 204,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[5740] = {
+								["actived_at"] = 3007270903,
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 5740,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime"] = 3,
+					["nome"] = "Meabraçaamor-Azralon",
+					["spec"] = 267,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[29722] = 7,
+						[116858] = 1,
+						[152108] = 2,
+						[5740] = 2,
+						[42223] = 4,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["last_event"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["serial"] = "Player-3209-0977AE44",
+					["tipo"] = 4,
+				}, -- [1]
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[206930] = {
+								["refreshamt"] = 2,
+								["activedamt"] = 0,
+								["appliedamt"] = 15,
+								["id"] = 206930,
+								["uptime"] = 18,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51714] = {
+								["refreshamt"] = 47,
+								["activedamt"] = 0,
+								["appliedamt"] = 48,
+								["id"] = 51714,
+								["uptime"] = 75,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[55078] = {
+								["actived_at"] = 1503635285,
+								["refreshamt"] = 25,
+								["activedamt"] = -1,
+								["appliedamt"] = 57,
+								["id"] = 55078,
+								["uptime"] = 72,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51399] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 5,
+								["id"] = 51399,
+								["uptime"] = 14,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[43265] = {
+								["actived_at"] = 7518177387,
+								["refreshamt"] = 0,
+								["activedamt"] = -2,
+								["appliedamt"] = 5,
+								["id"] = 43265,
+								["uptime"] = 44,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["pets"] = {
+					},
+					["classe"] = "DEATHKNIGHT",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[219788] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 15,
+								["appliedamt"] = 15,
+								["id"] = 219788,
+								["uptime"] = 175,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 11,
+								["appliedamt"] = 11,
+								["id"] = 186406,
+								["uptime"] = 204,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[55233] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 55233,
+								["uptime"] = 9,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[180612] = {
+								["refreshamt"] = 12,
+								["activedamt"] = 16,
+								["appliedamt"] = 16,
+								["id"] = 180612,
+								["uptime"] = 60,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[195181] = {
+								["refreshamt"] = 51,
+								["activedamt"] = 12,
+								["appliedamt"] = 12,
+								["id"] = 195181,
+								["uptime"] = 200,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[81141] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 81141,
+								["uptime"] = 18,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188290] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 188290,
+								["uptime"] = 54,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 223,
+					["nome"] = "Mirithi-Lightbringer",
+					["spec"] = 250,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[206930] = 14,
+						[188290] = 8,
+						[43265] = 5,
+						[50842] = 30,
+						[49576] = 4,
+						[49998] = 14,
+						[195182] = 24,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["buff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime"] = 720,
+					["isTank"] = true,
+					["serial"] = "Player-3694-07F498EF",
+					["last_event"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[194310] = {
+								["refreshamt"] = 28,
+								["activedamt"] = 0,
+								["appliedamt"] = 14,
+								["id"] = 194310,
+								["uptime"] = 14,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[196782] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 20,
+								["id"] = 196782,
+								["uptime"] = 40,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[43265] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 43265,
+								["uptime"] = 9,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[208278] = {
+								["refreshamt"] = 83,
+								["activedamt"] = 0,
+								["appliedamt"] = 57,
+								["id"] = 208278,
+								["uptime"] = 63,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51714] = {
+								["refreshamt"] = 21,
+								["activedamt"] = 0,
+								["appliedamt"] = 30,
+								["id"] = 51714,
+								["uptime"] = 31,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[191587] = {
+								["refreshamt"] = 83,
+								["activedamt"] = 0,
+								["appliedamt"] = 57,
+								["id"] = 191587,
+								["uptime"] = 72,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 348,
+					["classe"] = "DEATHKNIGHT",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 11,
+								["appliedamt"] = 11,
+								["id"] = 186406,
+								["uptime"] = 204,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188290] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 188290,
+								["uptime"] = 9,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[180612] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 180612,
+								["uptime"] = 23,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[101568] = {
+								["refreshamt"] = 7,
+								["activedamt"] = 19,
+								["appliedamt"] = 19,
+								["id"] = 101568,
+								["uptime"] = 90,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51460] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 51460,
+								["uptime"] = 22,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime"] = 229,
+					["nome"] = "Aerion-Cenarius",
+					["spec"] = 252,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[43265] = 2,
+						[188290] = 2,
+						[77575] = 18,
+						[207311] = 5,
+						[85948] = 14,
+						[49998] = 13,
+						[47541] = 2,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["serial"] = "Player-1168-0827BD6D",
+					["last_event"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[211793] = {
+								["refreshamt"] = 77,
+								["activedamt"] = 0,
+								["appliedamt"] = 33,
+								["id"] = 211793,
+								["uptime"] = 40,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[207165] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 207165,
+								["uptime"] = 1,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[55095] = {
+								["refreshamt"] = 26,
+								["activedamt"] = 0,
+								["appliedamt"] = 75,
+								["id"] = 55095,
+								["uptime"] = 115,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51714] = {
+								["refreshamt"] = 114,
+								["activedamt"] = 0,
+								["appliedamt"] = 65,
+								["id"] = 51714,
+								["uptime"] = 77,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["pets"] = {
+					},
+					["classe"] = "DEATHKNIGHT",
+					["interrupt_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[47528] = {
+								["id"] = 47528,
+								["interrompeu_oque"] = {
+									[32197] = 2,
+									[12739] = 1,
+									[30853] = 1,
+								},
+								["targets"] = {
+									["Shadowmoon Warlock"] = 3,
+									["Shadowmoon Summoner"] = 1,
+								},
+								["counter"] = 4,
+							},
+						},
+					},
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[93825] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 16,
+								["appliedamt"] = 16,
+								["id"] = 93825,
+								["uptime"] = 288,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[196770] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 196770,
+								["uptime"] = 46,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[212552] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 212552,
+								["uptime"] = 3,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[101568] = {
+								["refreshamt"] = 32,
+								["activedamt"] = 38,
+								["appliedamt"] = 38,
+								["id"] = 101568,
+								["uptime"] = 232,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[231428] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["uptime"] = 0,
+								["id"] = 231428,
+								["actived_at"] = 1503636075,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[180612] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 180612,
+								["uptime"] = 27,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[59052] = {
+								["refreshamt"] = 3,
+								["activedamt"] = 18,
+								["appliedamt"] = 18,
+								["id"] = 59052,
+								["uptime"] = 43,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 16,
+								["appliedamt"] = 16,
+								["id"] = 186406,
+								["uptime"] = 288,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51124] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 10,
+								["appliedamt"] = 10,
+								["id"] = 51124,
+								["uptime"] = 19,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["interrompeu_oque"] = {
+						[32197] = 2,
+						[12739] = 1,
+						[30853] = 1,
+					},
+					["debuff_uptime"] = 233,
+					["nome"] = "Akuugoromi",
+					["spec"] = 251,
+					["grupo"] = true,
+					["buff_uptime"] = 946,
+					["spell_cast"] = {
+						[49184] = 44,
+						[49020] = 44,
+						[47528] = 4,
+						[196770] = 6,
+						[212552] = 1,
+						[49998] = 22,
+						[196771] = 52,
+						[49576] = 2,
+						[49143] = 10,
+						[211793] = 52,
+					},
+					["interrupt_targets"] = {
+						["Shadowmoon Warlock"] = 3,
+						["Shadowmoon Summoner"] = 1,
+					},
+					["interrupt"] = 4.023907,
+					["last_event"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["serial"] = "Player-11-0AD4AF4D",
+					["tipo"] = 4,
+				}, -- [4]
+				{
+					["flag_original"] = 1298,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[14914] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 8,
+								["id"] = 14914,
+								["uptime"] = 17,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["dispell"] = 2.012061,
+					["buff_uptime"] = 121,
+					["classe"] = "PRIEST",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[45242] = {
+								["refreshamt"] = 2,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 45242,
+								["uptime"] = 16,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[586] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 586,
+								["uptime"] = 17,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[121557] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 121557,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[41635] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 41635,
+								["uptime"] = 73,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["dispell_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[527] = {
+								["dispell"] = 2,
+								["id"] = 527,
+								["dispell_oque"] = {
+									[32197] = 2,
+								},
+								["targets"] = {
+									["Mirithi-Lightbringer"] = 2,
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 17,
+					["dispell_oque"] = {
+						[32197] = 2,
+					},
+					["dispell_targets"] = {
+						["Mirithi-Lightbringer"] = 2,
+					},
+					["nome"] = "Seyun-Azralon",
+					["spec"] = 257,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[586] = 2,
+						[33076] = 8,
+						[527] = 2,
+						[34861] = 1,
+						[14914] = 7,
+						[2061] = 50,
+						[121536] = 3,
+						[121557] = 1,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["serial"] = "Player-3209-0977AE1D",
+					["last_event"] = 0,
+				}, -- [5]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 285,
+		["totals"] = {
+			933592.553047, -- [1]
+			196446.251129, -- [2]
+			{
+				0.005866, -- [1]
+				[0] = 2167.164301,
+				["alternatepower"] = 0,
+				[3] = 1.016182,
+				[6] = 36.016126,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 4.023907,
+				["dispell"] = 2.012061,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["end_time"] = 34442.097,
+		["data_inicio"] = "23:27:09",
+		["frags"] = {
+		},
+		["data_fim"] = "00:08:11",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 13.372000000003,
+				["name"] = "Umbrafen Oracle",
+				["clock"] = "00:07:57",
+			}, -- [1]
+			{
+				["elapsed"] = 297.264000000003,
+				["name"] = "Haal'eshi Windwalker",
+				["clock"] = "23:55:09",
+			}, -- [2]
+			{
+				["elapsed"] = 20.4680000000008,
+				["name"] = "Haal'eshi Windwalker",
+				["clock"] = "23:55:09",
+			}, -- [3]
+			{
+				["elapsed"] = 19.7149999999965,
+				["name"] = "Stonescythe Whelp",
+				["clock"] = "23:41:16",
+			}, -- [4]
+			{
+				["elapsed"] = 10.6749999999956,
+				["name"] = "Stonescythe Whelp",
+				["clock"] = "23:40:40",
+			}, -- [5]
+			{
+				["elapsed"] = 25.0010000000002,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:32:55",
+			}, -- [6]
+			{
+				["elapsed"] = 13,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:32:28",
+			}, -- [7]
+			{
+				["elapsed"] = 13.0080000000016,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:32:01",
+			}, -- [8]
+			{
+				["elapsed"] = 44.2829999999995,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:30:54",
+			}, -- [9]
+			{
+				["elapsed"] = 10.0059999999976,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:30:40",
+			}, -- [10]
+			{
+				["elapsed"] = 18.0080000000016,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:29:43",
+			}, -- [11]
+			{
+				["elapsed"] = 18.0059999999976,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:29:16",
+			}, -- [12]
+			{
+				["elapsed"] = 12.9989999999998,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:28:37",
+			}, -- [13]
+			{
+				["elapsed"] = 10.002999999997,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:27:56",
+			}, -- [14]
+			{
+				["elapsed"] = 15.9989999999998,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:27:38",
+			}, -- [15]
+			{
+				["elapsed"] = 23.9989999999998,
+				["name"] = "Trash Cleanup",
+				["clock"] = "23:27:09",
+			}, -- [16]
+		},
+		["start_time"] = 33876.291,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["totals_grupo"] = {
+			684336.241761, -- [1]
+			196446.258641, -- [2]
+			{
+				0.005866, -- [1]
+				[0] = 2167.164301,
+				["alternatepower"] = 0,
+				[3] = 1.016182,
+				[6] = 36.016126,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 4.023907,
+				["dispell"] = 2.012061,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+	},
+	["force_font_outline"] = "",
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				[3] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -445.498794555664,
+					["x"] = 650.000610351563,
+					["w"] = 205.999954223633,
+					["h"] = 130.999984741211,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				1, -- [1]
+			},
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -445.498794555664,
+					["x"] = 854.0009765625,
+					["w"] = 202.000213623047,
+					["h"] = 130.999984741211,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1504921147,
+		["last_version"] = 9,
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["cached_talents"] = {
+		["Player-3694-07F498EF"] = {
+			19166, -- [1]
+			19218, -- [2]
+			19221, -- [3]
+			22014, -- [4]
+		},
+		["Player-3661-07C54E1E"] = {
+			22459, -- [1]
+			22442, -- [2]
+			22447, -- [3]
+			22465, -- [4]
+		},
+		["Player-3209-092F8A0F"] = {
+			22357, -- [1]
+			21963, -- [2]
+			19275, -- [3]
+			19272, -- [4]
+		},
+		["Player-3209-09778A8D"] = {
+			22328, -- [1]
+			22316, -- [2]
+			22440, -- [3]
+			19769, -- [4]
+		},
+		["Player-1171-08263047"] = {
+			22279, -- [1]
+			22495, -- [2]
+			22318, -- [3]
+			21998, -- [4]
+		},
+		["Player-3209-0977AE44"] = {
+			22039, -- [1]
+			21181, -- [2]
+			19285, -- [3]
+			22480, -- [4]
+		},
+		["Player-1168-0827BD6D"] = {
+			22025, -- [1]
+			22028, -- [2]
+			22520, -- [3]
+			22526, -- [4]
+		},
+		["Player-3209-0977AE1D"] = {
+			19754, -- [1]
+			22315, -- [2]
+			22095, -- [3]
+		},
+		["Player-11-0AD4AF4D"] = {
+			22019, -- [1]
+			22521, -- [2]
+			22018, -- [3]
+			22517, -- [4]
+		},
+		["Player-3683-09C12892"] = {
+			22453, -- [1]
+			22458, -- [2]
+			22906, -- [3]
+			22444, -- [4]
+		},
+		["Player-3683-0A4B8D1B"] = {
+			19754, -- [1]
+			22315, -- [2]
+			22562, -- [3]
+			21750, -- [4]
+		},
+		["Player-3683-0A45C7BB"] = {
+			22424, -- [1]
+			18577, -- [2]
+			22420, -- [3]
+			22159, -- [4]
+		},
+		["Player-151-07C5EDB2"] = {
+			19217, -- [1]
+			19218, -- [2]
+			22134, -- [3]
+		},
+		["Player-162-09722354"] = {
+			22558, -- [1]
+			22594, -- [2]
+			21811, -- [3]
+			22434, -- [4]
+		},
+		["Player-162-097578FB"] = {
+		},
+		["Player-3683-0A3A11B6"] = {
+			22118, -- [1]
+			19238, -- [2]
+			19241, -- [3]
+			22121, -- [4]
+		},
+	},
+	["last_instance_id"] = 542,
+	["cached_specs"] = {
+		["Player-11-0AD4AF4D"] = 251,
+	},
+}

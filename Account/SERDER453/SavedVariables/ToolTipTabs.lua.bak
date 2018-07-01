@@ -1,0 +1,10 @@
+
+ToolTipTabsDB = {
+	["profileKeys"] = {
+		["Scrublordxo - Terenas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

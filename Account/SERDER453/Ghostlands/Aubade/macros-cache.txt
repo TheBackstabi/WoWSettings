@@ -1,0 +1,42 @@
+VER 3 010000000000000A "Binding" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,noharm,nodead] Binding Heal
+END
+VER 3 0100000000000003 "Bubble" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:ctrl,@party2][@mouseover,exists,help,nodead][] Power Word: Shield
+END
+VER 3 010000000000000F "Burst" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Shadow Word: Death; Devouring Plague
+END
+VER 3 0100000000000011 "Flash" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:ctrl,@party2][@mouseover,exists,help,nodead][] Flash Heal
+END
+VER 3 0100000000000009 "GHeal" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,noharm,nodead][] Greater heal
+END
+VER 3 0100000000000006 "LesHeal" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,noharm,nodead][] Heal
+END
+VER 3 0100000000000004 "Levi" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover, exists, noharm, nodead][] Levitate
+END
+VER 3 0100000000000005 "Pen" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,noharm,nodead][] Penance
+END
+VER 3 0100000000000007 "PrayerMend" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:ctrl,@party2][@mouseover,exists,help,nodead][] Prayer of Mending
+END
+VER 3 0100000000000008 "PS" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,noharm,nodead][] Pain Suppression
+END
+VER 3 0100000000000002 "Renew" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:ctrl,@party2][@mouseover,exists,help,nodead][] Renew
+END
+VER 3 0100000000000010 "Silence" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Silence
+END
+VER 3 010000000000000D "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000E "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Aub[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

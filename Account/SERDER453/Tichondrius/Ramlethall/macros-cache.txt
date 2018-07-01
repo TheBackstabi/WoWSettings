@@ -1,0 +1,14 @@
+VER 3 0100000000000003 "Imp" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Imprison
+END
+VER 3 0100000000000004 "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Consume Magic
+END
+VER 3 0100000000000002 "P U R P L E" "INV_MISC_QUESTIONMARK"
+/ra P U R P L E
+END
+VER 3 0100000000000001 "R E L E A S E" "INV_MISC_QUESTIONMARK"
+/ra D O N T   R E L E A S E   Y O U   M O N G O L O I D
+END

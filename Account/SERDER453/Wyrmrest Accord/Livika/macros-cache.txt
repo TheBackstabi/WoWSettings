@@ -1,0 +1,13 @@
+VER 3 0100000000000003 "3Min" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Summon Infernal; Summon Doomguard
+END
+VER 3 0100000000000001 "Passive" "644389"
+/dismount
+/petfollow [mod:shift]
+/petattack [nomod]
+END
+VER 3 0100000000000002 "Stone" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Soulstone
+END

@@ -1,0 +1,75 @@
+VER 3 0100000000000014 "_CDCS" "INV_MISC_QUESTIONMARK"
+#showtooltip Counterspell
+END
+VER 3 0100000000000013 "_CDDeep" "INV_MISC_QUESTIONMARK"
+#showtooltip Deep Freeze
+END
+VER 3 0100000000000007 "Block" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/stopcasting
+/cast !Ice Block
+/cancelaura [mod:shift] Ice Block
+END
+VER 3 010000000000000A "Bolt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@target] Frostbolt
+/petattack [nomod]
+/petpassive [mod:shift]
+END
+VER 3 010000000000000B "Cast Bar" "INV_MISC_QUESTIONMARK"
+/script CastingBarFrame:ClearAllPoints(); CastingBarFrame:SetPoint("CENTER",0,-200)
+END
+VER 3 0100000000000001 "CS" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/stopcasting
+/cast [mod:shift,@focus][] Counterspell
+END
+VER 3 0100000000000005 "Decurse" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@party1][mod:alt,@party2][@mouseover,exists,help,nodead][] Remove Curse
+END
+VER 3 0100000000000010 "Deep" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus,exists,harm,nodead][] Deep Freeze
+END
+VER 3 0100000000000008 "Fire" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Scorch; Fireball
+END
+VER 3 0100000000000002 "Freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip [nopet] Summon Water Elemental; Freeze
+/dismount
+/cast [mod:shift][nopet] Summon Water Elemental; Freeze
+/petpassive [mod:shift]
+END
+VER 3 0100000000000012 "Jaw" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Frostjaw
+END
+VER 3 0100000000000011 "Nova" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice Nova
+/cast [@target, harm] Ice Nova
+END
+VER 3 0100000000000004 "Poly" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Polymorph
+END
+VER 3 010000000000000E "Root" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/petpassive
+/cast Frost Nova
+END
+VER 3 0100000000000006 "Slow" "INV_MISC_QUESTIONMARK"
+/cancelaura Slow Fall
+/cast Slow Fall
+END
+VER 3 010000000000000F "SS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/cast [mod:shift,@focus][] Spellsteal
+END
+VER 3 0100000000000009 "Veins" "INV_MISC_QUESTIONMARK"
+/cast Icy Veins
+/use 13
+END
+VER 3 0100000000000015 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END

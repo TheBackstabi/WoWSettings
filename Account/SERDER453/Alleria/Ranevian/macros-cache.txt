@@ -1,0 +1,18 @@
+VER 3 0100000000000001 "Attack" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nomod]Concussive Shot
+/petattack [nomod]
+/petpassive [mod:shift]
+END
+VER 3 0100000000000003 "MK_Attack" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nomod] Aimed Shot
+/petattack [nomod]
+/petpassive [mod:shift]
+END
+VER 3 0100000000000002 "SV_Clip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Wing Clip
+/petattack [nomod]
+/petpassive [mod:shift]
+END

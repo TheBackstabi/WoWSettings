@@ -1,0 +1,3594 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 12,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006198,
+							["damage_from"] = {
+								["Protector Dorinar"] = true,
+								["Ashenvale Scout"] = true,
+							},
+							["targets"] = {
+								["Protector Dorinar"] = 3360,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "MONK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3360.006198,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1518131716,
+							["friendlyfire_total"] = 0,
+							["spec"] = 269,
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 155,
+										["g_amt"] = 0,
+										["n_max"] = 76,
+										["targets"] = {
+											["Protector Dorinar"] = 268,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 113,
+										["n_min"] = 37,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 268,
+										["c_max"] = 155,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 155,
+									}, -- [1]
+									[117418] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1149,
+										["g_amt"] = 0,
+										["n_max"] = 573,
+										["targets"] = {
+											["Protector Dorinar"] = 1722,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 573,
+										["n_min"] = 573,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1722,
+										["c_max"] = 1149,
+										["id"] = 117418,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 1149,
+									},
+									[100780] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 163,
+										["targets"] = {
+											["Protector Dorinar"] = 324,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 324,
+										["n_min"] = 161,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 324,
+										["c_max"] = 0,
+										["id"] = 100780,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[185099] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 824,
+										["targets"] = {
+											["Protector Dorinar"] = 824,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 824,
+										["n_min"] = 824,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 824,
+										["c_max"] = 0,
+										["id"] = 185099,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[196608] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 148,
+										["g_amt"] = 0,
+										["n_max"] = 74,
+										["targets"] = {
+											["Protector Dorinar"] = 222,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 74,
+										["n_min"] = 74,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 222,
+										["c_max"] = 148,
+										["id"] = 196608,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 148,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 3360.006198,
+							["serial"] = "Player-90-080AC50C",
+							["last_dps"] = 336.0006198,
+							["custom"] = 0,
+							["last_event"] = 1518131710,
+							["damage_taken"] = 120.006198,
+							["start_time"] = 1518131706,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 12,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Moosebrew"] = 346,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "MONK",
+							["totalover"] = 346.003001,
+							["total_without_pet"] = 127.003001,
+							["total"] = 127.003001,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-90-080AC50C",
+							["totalabsorb"] = 0.003001,
+							["last_hps"] = 12.7003001,
+							["targets"] = {
+								["Moosebrew"] = 148,
+							},
+							["totalover_without_pet"] = 0.003001,
+							["healing_taken"] = 127.003001,
+							["fight_component"] = true,
+							["end_time"] = 1518131716,
+							["healing_from"] = {
+								["Moosebrew"] = true,
+							},
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[196608] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Moosebrew"] = 244,
+										},
+										["n_max"] = 74,
+										["targets"] = {
+											["Moosebrew"] = 127,
+										},
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 244,
+										["total"] = 127,
+										["c_max"] = 0,
+										["id"] = 196608,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 127,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Moosebrew"] = 102,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Moosebrew"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 102,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1518131708,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 269,
+							["totaldenied"] = 0.003001,
+							["delay"] = 0,
+							["last_event"] = 1518131714,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 12,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 2.005061,
+							["resource"] = 0.005061,
+							["targets"] = {
+								["Moosebrew"] = 2,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "MONK",
+							["fight_component"] = true,
+							["total"] = 2.005061,
+							["nome"] = "Moosebrew",
+							["spec"] = 269,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1518131708,
+							["alternatepower"] = 0.005061,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[100780] = {
+										["id"] = 100780,
+										["total"] = 2,
+										["targets"] = {
+											["Moosebrew"] = 2,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 12,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[196608] = {
+										["activedamt"] = 0,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[115804] = {
+										["activedamt"] = 0,
+										["id"] = 115804,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 22,
+							["classe"] = "MONK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[196608] = {
+										["activedamt"] = 1,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[130283] = {
+										["activedamt"] = 1,
+										["id"] = 130283,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[113656] = {
+										["activedamt"] = 1,
+										["id"] = 113656,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 269,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[100780] = 1,
+								[113656] = 1,
+								[107428] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1518131716,
+							["nome"] = "Moosebrew",
+							["pets"] = {
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 12,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Moosebrew"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Protector Dorinar",
+				["combat_counter"] = 140,
+				["playing_solo"] = true,
+				["totals"] = {
+					3359.982567, -- [1]
+					127, -- [2]
+					{
+						0, -- [1]
+						[0] = 2,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Moosebrew"] = 495.012405,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Moosebrew"] = 6933.014281,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1796583.532,
+				["combat_id"] = 12,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Protector Dorinar"] = 1,
+				},
+				["data_fim"] = "18:15:16",
+				["data_inicio"] = "18:15:06",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3360, -- [1]
+					127, -- [2]
+					{
+						0, -- [1]
+						[0] = 2,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1796573.768,
+				["contra"] = "Protector Dorinar",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 11,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004108,
+							["damage_from"] = {
+								["Ashenvale Scout"] = true,
+							},
+							["targets"] = {
+								["Ashenvale Scout"] = 4270,
+							},
+							["total"] = 4270.004108,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "MONK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4270.004108,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1518131694,
+							["friendlyfire_total"] = 0,
+							["spec"] = 269,
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 79,
+										["targets"] = {
+											["Ashenvale Scout"] = 342,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 342,
+										["n_min"] = 37,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 342,
+										["c_max"] = 0,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[100784] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 2387,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ashenvale Scout"] = 2387,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2387,
+										["c_max"] = 1194,
+										["id"] = 100784,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 1193,
+									},
+									[100780] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 163,
+										["targets"] = {
+											["Ashenvale Scout"] = 489,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 489,
+										["n_min"] = 163,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 489,
+										["c_max"] = 0,
+										["id"] = 100780,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[185099] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 830,
+										["targets"] = {
+											["Ashenvale Scout"] = 830,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 830,
+										["n_min"] = 830,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 830,
+										["c_max"] = 0,
+										["id"] = 185099,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[196608] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 149,
+										["g_amt"] = 0,
+										["n_max"] = 73,
+										["targets"] = {
+											["Ashenvale Scout"] = 222,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 73,
+										["n_min"] = 73,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 222,
+										["c_max"] = 149,
+										["id"] = 196608,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 149,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-90-080AC50C",
+							["last_dps"] = 427.0004108,
+							["custom"] = 0,
+							["last_event"] = 1518131693,
+							["damage_taken"] = 514.004108,
+							["start_time"] = 1518131686,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 11,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "MONK",
+							["totalover"] = 0.002678,
+							["total_without_pet"] = 428.002678,
+							["total"] = 428.002678,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-90-080AC50C",
+							["totalabsorb"] = 0.002678,
+							["last_hps"] = 57.6124213218179,
+							["targets"] = {
+								["Moosebrew"] = 428,
+							},
+							["totalover_without_pet"] = 0.002678,
+							["healing_taken"] = 428.002678,
+							["fight_component"] = true,
+							["end_time"] = 1518131694,
+							["healing_from"] = {
+								["Moosebrew"] = true,
+							},
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[196608] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 74,
+										["targets"] = {
+											["Moosebrew"] = 222,
+										},
+										["n_min"] = 74,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 222,
+										["c_max"] = 0,
+										["id"] = 196608,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 222,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 52,
+										["targets"] = {
+											["Moosebrew"] = 206,
+										},
+										["n_min"] = 51,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 206,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 206,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1518131688,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 269,
+							["totaldenied"] = 0.002678,
+							["delay"] = 0,
+							["last_event"] = 1518131693,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 11,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 8.008274,
+							["resource"] = 0.008274,
+							["targets"] = {
+								["Moosebrew"] = 8,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "MONK",
+							["fight_component"] = true,
+							["total"] = 8.008274,
+							["nome"] = "Moosebrew",
+							["spec"] = 269,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1518131706,
+							["alternatepower"] = 0.008274,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[100780] = {
+										["id"] = 100780,
+										["total"] = 8,
+										["targets"] = {
+											["Moosebrew"] = 8,
+										},
+										["counter"] = 4,
+									},
+								},
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 11,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[196608] = {
+										["activedamt"] = 0,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[115804] = {
+										["activedamt"] = 0,
+										["id"] = 115804,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 16,
+							["classe"] = "MONK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[130283] = {
+										["activedamt"] = 1,
+										["id"] = 130283,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196608] = {
+										["activedamt"] = 1,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 269,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[107428] = 1,
+								[100784] = 2,
+								[100780] = 3,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1518131694,
+							["nome"] = "Moosebrew",
+							["pets"] = {
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 11,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Moosebrew"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Ashenvale Scout",
+				["combat_counter"] = 139,
+				["playing_solo"] = true,
+				["totals"] = {
+					4269.990585, -- [1]
+					428, -- [2]
+					{
+						0, -- [1]
+						[0] = 8,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Moosebrew"] = {
+						{
+							true, -- [1]
+							78578, -- [2]
+							6, -- [3]
+							1518131696.467, -- [4]
+							2534, -- [5]
+							"Ashenvale Scout", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							78578, -- [2]
+							6, -- [3]
+							1518131699.46, -- [4]
+							2534, -- [5]
+							"Ashenvale Scout", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							78578, -- [2]
+							6, -- [3]
+							1518131702.373, -- [4]
+							2534, -- [5]
+							"Ashenvale Scout", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							78578, -- [2]
+							7, -- [3]
+							1518131705.463, -- [4]
+							2533, -- [5]
+							"Ashenvale Scout", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 5,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Moosebrew"] = 428.002678,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Moosebrew"] = 4270.004108,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1796561.133,
+				["combat_id"] = 11,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Ashenvale Scout"] = 2,
+				},
+				["data_fim"] = "18:14:54",
+				["data_inicio"] = "18:14:46",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					4270, -- [1]
+					428, -- [2]
+					{
+						0, -- [1]
+						[0] = 8,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1796552.969,
+				["contra"] = "Ashenvale Scout",
+				["TimeData"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 10,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007331,
+							["damage_from"] = {
+								["Ashenvale Scout"] = true,
+							},
+							["targets"] = {
+								["Ashenvale Scout"] = 1814,
+							},
+							["total"] = 1814.007331,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "MONK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1814.007331,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1518131684,
+							["friendlyfire_total"] = 0,
+							["spec"] = 269,
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 78,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ashenvale Scout"] = 78,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 78,
+										["c_max"] = 78,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 78,
+									}, -- [1]
+									[117418] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1157,
+										["g_amt"] = 0,
+										["n_max"] = 579,
+										["targets"] = {
+											["Ashenvale Scout"] = 1736,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 579,
+										["n_min"] = 579,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1736,
+										["c_max"] = 1157,
+										["id"] = 117418,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 1157,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-90-080AC50C",
+							["last_dps"] = 181.4007331,
+							["custom"] = 0,
+							["last_event"] = 1518131678,
+							["damage_taken"] = 270.007331,
+							["start_time"] = 1518131677,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 10,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Moosebrew"] = 101,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "MONK",
+							["totalover"] = 101.001755,
+							["total_without_pet"] = 255.001755,
+							["total"] = 255.001755,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-90-080AC50C",
+							["totalabsorb"] = 0.001755,
+							["last_hps"] = 39.5474185788447,
+							["targets"] = {
+								["Moosebrew"] = 326,
+							},
+							["totalover_without_pet"] = 0.001755,
+							["healing_taken"] = 255.001755,
+							["fight_component"] = true,
+							["end_time"] = 1518131684,
+							["healing_from"] = {
+								["Moosebrew"] = true,
+							},
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[196608] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Moosebrew"] = 101,
+										},
+										["n_max"] = 75,
+										["targets"] = {
+											["Moosebrew"] = 152,
+										},
+										["n_min"] = 3,
+										["counter"] = 4,
+										["overheal"] = 101,
+										["total"] = 152,
+										["c_max"] = 0,
+										["id"] = 196608,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 152,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 52,
+										["targets"] = {
+											["Moosebrew"] = 103,
+										},
+										["n_min"] = 51,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 103,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 103,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1518131677,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 269,
+							["totaldenied"] = 0.001755,
+							["delay"] = 0,
+							["last_event"] = 1518131682,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 10,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 10,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[116189] = {
+										["activedamt"] = 0,
+										["id"] = 116189,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 17,
+							["classe"] = "MONK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[196608] = {
+										["activedamt"] = 1,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[130283] = {
+										["activedamt"] = 1,
+										["id"] = 130283,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[113656] = {
+										["activedamt"] = 1,
+										["id"] = 113656,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 3,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 269,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[113656] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1518131684,
+							["nome"] = "Moosebrew",
+							["pets"] = {
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 10,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Moosebrew"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Ashenvale Scout",
+				["combat_counter"] = 138,
+				["playing_solo"] = true,
+				["totals"] = {
+					1813.997715, -- [1]
+					255, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Moosebrew"] = {
+						{
+							true, -- [1]
+							78578, -- [2]
+							7, -- [3]
+							1518131685.622, -- [4]
+							2533, -- [5]
+							"Ashenvale Scout", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Moosebrew"] = 255.001755,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Moosebrew"] = 1814.007331,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1796551.01,
+				["combat_id"] = 10,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Ashenvale Oak"] = 1,
+					["Ashenvale Scout"] = 1,
+				},
+				["data_fim"] = "18:14:44",
+				["data_inicio"] = "18:14:36",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1814, -- [1]
+					255, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1796542.852,
+				["contra"] = "Ashenvale Scout",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 9,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004411,
+							["total"] = 3526.004411,
+							["damage_from"] = {
+								["Protector Arminon"] = true,
+							},
+							["targets"] = {
+								["Protector Arminon"] = 3526,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "MONK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3526.004411,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1518131634,
+							["on_hold"] = false,
+							["spec"] = 269,
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 35,
+										["targets"] = {
+											["Protector Arminon"] = 35,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 35,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 35,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[117418] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 574,
+										["targets"] = {
+											["Protector Arminon"] = 2869,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2869,
+										["n_min"] = 573,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 2869,
+										["c_max"] = 0,
+										["id"] = 117418,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[196608] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 296,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Protector Arminon"] = 296,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 296,
+										["c_max"] = 148,
+										["id"] = 196608,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 148,
+									},
+									[100780] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 163,
+										["targets"] = {
+											["Protector Arminon"] = 326,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 326,
+										["n_min"] = 163,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 326,
+										["c_max"] = 0,
+										["id"] = 100780,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-90-080AC50C",
+							["last_dps"] = 352.6004411,
+							["custom"] = 0,
+							["last_event"] = 1518131633,
+							["damage_taken"] = 216.004411,
+							["start_time"] = 1518131628,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 9,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Moosebrew"] = 110,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "MONK",
+							["totalover"] = 110.005187,
+							["total_without_pet"] = 216.005187,
+							["total"] = 216.005187,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-90-080AC50C",
+							["totalabsorb"] = 0.005187,
+							["last_hps"] = 21.6005187,
+							["targets"] = {
+								["Moosebrew"] = 252,
+							},
+							["totalover_without_pet"] = 0.005187,
+							["healing_taken"] = 216.005187,
+							["fight_component"] = true,
+							["end_time"] = 1518131634,
+							["healing_from"] = {
+								["Moosebrew"] = true,
+							},
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[196608] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Moosebrew"] = 74,
+										},
+										["n_max"] = 75,
+										["targets"] = {
+											["Moosebrew"] = 149,
+										},
+										["n_min"] = 0,
+										["counter"] = 3,
+										["overheal"] = 74,
+										["total"] = 149,
+										["c_max"] = 0,
+										["id"] = 196608,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 149,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Moosebrew"] = 36,
+										},
+										["n_max"] = 51,
+										["targets"] = {
+											["Moosebrew"] = 67,
+										},
+										["n_min"] = 16,
+										["counter"] = 2,
+										["overheal"] = 36,
+										["total"] = 67,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 67,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1518131630,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 269,
+							["totaldenied"] = 0.005187,
+							["delay"] = 0,
+							["last_event"] = 1518131634,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 9,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 4.003612,
+							["resource"] = 0.003612,
+							["targets"] = {
+								["Moosebrew"] = 4,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "MONK",
+							["fight_component"] = true,
+							["total"] = 4.003612,
+							["nome"] = "Moosebrew",
+							["spec"] = 269,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1518131655,
+							["alternatepower"] = 0.003612,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[100780] = {
+										["id"] = 100780,
+										["total"] = 4,
+										["targets"] = {
+											["Moosebrew"] = 4,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 9,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[116189] = {
+										["activedamt"] = 0,
+										["id"] = 116189,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196608] = {
+										["activedamt"] = 0,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "MONK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[196608] = {
+										["activedamt"] = 1,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[130283] = {
+										["activedamt"] = 1,
+										["id"] = 130283,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[113656] = {
+										["activedamt"] = 1,
+										["id"] = 113656,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 269,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[100780] = 1,
+								[113656] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1518131634,
+							["nome"] = "Moosebrew",
+							["pets"] = {
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 9,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Moosebrew"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Protector Arminon",
+				["combat_counter"] = 135,
+				["playing_solo"] = true,
+				["totals"] = {
+					3525.987404, -- [1]
+					216, -- [2]
+					{
+						0, -- [1]
+						[0] = 3.995258,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Moosebrew"] = 526.012061,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Moosebrew"] = 7693.015164,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1796501.151,
+				["combat_id"] = 9,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Protector Arminon"] = 1,
+				},
+				["data_fim"] = "18:13:54",
+				["data_inicio"] = "18:13:48",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3526, -- [1]
+					216, -- [2]
+					{
+						0, -- [1]
+						[0] = 4,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1796495.013,
+				["contra"] = "Protector Arminon",
+				["TimeData"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 8,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003317,
+							["damage_from"] = {
+								["Protector Endolar"] = true,
+							},
+							["targets"] = {
+								["Protector Endolar"] = 3442,
+							},
+							["total"] = 3442.003317,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "MONK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3442.003317,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1518131573,
+							["friendlyfire_total"] = 0,
+							["spec"] = 269,
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 300,
+										["g_amt"] = 0,
+										["n_max"] = 78,
+										["targets"] = {
+											["Protector Arminon"] = 0,
+											["Ashenvale Scout"] = 0,
+											["Protector Endolar"] = 559,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 259,
+										["n_min"] = 36,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 559,
+										["c_max"] = 154,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 146,
+									}, -- [1]
+									[100784] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 593,
+										["targets"] = {
+											["Protector Endolar"] = 1186,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1186,
+										["n_min"] = 593,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1186,
+										["c_max"] = 0,
+										["id"] = 100784,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[100780] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 326,
+										["g_amt"] = 0,
+										["n_max"] = 163,
+										["targets"] = {
+											["Protector Endolar"] = 650,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 324,
+										["n_min"] = 161,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 650,
+										["c_max"] = 326,
+										["id"] = 100780,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 326,
+									},
+									[185099] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 824,
+										["targets"] = {
+											["Protector Endolar"] = 824,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 824,
+										["n_min"] = 824,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 824,
+										["c_max"] = 0,
+										["id"] = 185099,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[196608] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 75,
+										["targets"] = {
+											["Protector Endolar"] = 223,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 223,
+										["n_min"] = 74,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 223,
+										["c_max"] = 0,
+										["id"] = 196608,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-90-080AC50C",
+							["last_dps"] = 344.2003317,
+							["custom"] = 0,
+							["last_event"] = 1518131628,
+							["damage_taken"] = 259.003317,
+							["start_time"] = 1518131565,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 8,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Moosebrew"] = 366,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "MONK",
+							["totalover"] = 366.001841,
+							["total_without_pet"] = 259.001841,
+							["total"] = 259.001841,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-90-080AC50C",
+							["totalabsorb"] = 0.001841,
+							["last_hps"] = 25.9001841,
+							["targets"] = {
+								["Moosebrew"] = 522,
+							},
+							["totalover_without_pet"] = 0.001841,
+							["healing_taken"] = 259.001841,
+							["fight_component"] = true,
+							["end_time"] = 1518131573,
+							["healing_from"] = {
+								["Moosebrew"] = true,
+							},
+							["nome"] = "Moosebrew",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[196608] = {
+										["c_amt"] = 2,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Moosebrew"] = 263,
+										},
+										["n_max"] = 58,
+										["targets"] = {
+											["Moosebrew"] = 259,
+										},
+										["n_min"] = 56,
+										["counter"] = 5,
+										["overheal"] = 263,
+										["total"] = 259,
+										["c_max"] = 59,
+										["id"] = 196608,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 88,
+										["m_crit"] = 0,
+										["c_min"] = 29,
+										["m_amt"] = 0,
+										["n_curado"] = 171,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Moosebrew"] = 103,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Moosebrew"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 103,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1518131565,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 269,
+							["totaldenied"] = 0.001841,
+							["delay"] = 0,
+							["last_event"] = 1518131573,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 8,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 10.004758,
+							["resource"] = 0.004758,
+							["targets"] = {
+								["Moosebrew"] = 10,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "MONK",
+							["fight_component"] = true,
+							["total"] = 10.004758,
+							["nome"] = "Moosebrew",
+							["spec"] = 269,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1518131628,
+							["alternatepower"] = 0.004758,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[100780] = {
+										["id"] = 100780,
+										["total"] = 10,
+										["targets"] = {
+											["Moosebrew"] = 10,
+										},
+										["counter"] = 5,
+									},
+								},
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 8,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[196608] = {
+										["activedamt"] = 0,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[115804] = {
+										["activedamt"] = 0,
+										["id"] = 115804,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[255723] = {
+										["activedamt"] = -1,
+										["id"] = 255723,
+										["targets"] = {
+										},
+										["actived_at"] = 1518131564,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 20,
+							["classe"] = "MONK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[196608] = {
+										["activedamt"] = 1,
+										["id"] = 196608,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[130283] = {
+										["activedamt"] = 1,
+										["id"] = 130283,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[255654] = {
+										["activedamt"] = 0,
+										["id"] = 255654,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 15,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 269,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[107428] = 1,
+								[100784] = 2,
+								[100780] = 3,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1518131573,
+							["nome"] = "Moosebrew",
+							["pets"] = {
+							},
+							["serial"] = "Player-90-080AC50C",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 8,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Moosebrew"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Protector Endolar",
+				["combat_counter"] = 130,
+				["playing_solo"] = true,
+				["totals"] = {
+					3441.9857, -- [1]
+					259, -- [2]
+					{
+						0, -- [1]
+						[0] = 9.991452,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Moosebrew"] = 817.013743,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Moosebrew"] = 11420.019339,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 1796440.344,
+				["combat_id"] = 8,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Protector Endolar"] = 1,
+					["Ashenvale Oak"] = 1,
+				},
+				["data_fim"] = "18:12:53",
+				["data_inicio"] = "18:12:43",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3442, -- [1]
+					259, -- [2]
+					{
+						0, -- [1]
+						[0] = 10,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1796430.078,
+				["contra"] = "Protector Endolar",
+				["TimeData"] = {
+				},
+			}, -- [5]
+		},
+	},
+	["combat_counter"] = 142,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				[3] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -444.499031066895,
+					["x"] = 649.000732421875,
+					["w"] = 205.999954223633,
+					["h"] = 130.999938964844,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+				1, -- [1]
+			},
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -444.499031066895,
+					["x"] = 853.001098632813,
+					["w"] = 202.000213623047,
+					["h"] = 130.999938964844,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["cached_talents"] = {
+		["Player-90-080AC50C"] = {
+			22091, -- [1]
+		},
+	},
+	["last_instance_id"] = 0,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Default",
+	["last_realversion"] = 128,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["animate"] = false,
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["level"] = 1,
+			["dps"] = 0,
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["author"] = "Details! Team",
+			["realm_history"] = {
+			},
+			["realm_lastamt"] = 0,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300, -- [1]
+				500.000030517578, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["use_spark"] = true,
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 4.577636718750e-005,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.05175781250e-005,
+				["x"] = 3.05175781250e-005,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
+			["author"] = "Details! Team",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1519070126,
+		["last_version"] = 9,
+	},
+	["ignore_nicktag"] = false,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_version"] = "v7.3.0.5231",
+	["combat_id"] = 12,
+	["savedStyles"] = {
+	},
+	["last_instance_time"] = 0,
+	["last_day"] = "08",
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.023801,
+					["damage_from"] = {
+						["Environment (Falling)"] = true,
+						["Severed Druid"] = true,
+						["Mannoroc Lasher"] = true,
+						["Severed Keeper"] = true,
+						["Protector Endolar"] = true,
+					},
+					["targets"] = {
+						["Protector Endolar"] = 3442,
+						["Severed Druid"] = 1899,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 5341.023801,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["total"] = 5341.023801,
+					["classe"] = "MONK",
+					["end_time"] = 1518130516,
+					["nome"] = "Moosebrew",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 366,
+								["g_amt"] = 0,
+								["n_max"] = 78,
+								["targets"] = {
+									["Protector Endolar"] = 559,
+									["Severed Druid"] = 164,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 357,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 723,
+								["c_max"] = 154,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 7,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[196608] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 75,
+								["targets"] = {
+									["Protector Endolar"] = 223,
+									["Severed Druid"] = 64,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 287,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 287,
+								["c_max"] = 0,
+								["id"] = 196608,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[100780] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 612,
+								["g_amt"] = 0,
+								["n_max"] = 163,
+								["targets"] = {
+									["Protector Endolar"] = 650,
+									["Severed Druid"] = 429,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 467,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 1079,
+								["c_max"] = 326,
+								["id"] = 100780,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[100784] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 593,
+								["targets"] = {
+									["Protector Endolar"] = 1186,
+									["Severed Druid"] = 520,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1706,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 1706,
+								["c_max"] = 0,
+								["id"] = 100784,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[185099] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 824,
+								["targets"] = {
+									["Protector Endolar"] = 824,
+									["Severed Druid"] = 722,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1546,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 1546,
+								["c_max"] = 0,
+								["id"] = 185099,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["on_hold"] = false,
+					["spec"] = 269,
+					["serial"] = "Player-90-080AC50C",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1518130500,
+					["delay"] = 0,
+					["damage_taken"] = 780.023801,
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["Moosebrew"] = 366,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 366.012429,
+					["total_without_pet"] = 419.012429,
+					["total"] = 419.012429,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-90-080AC50C",
+					["totalabsorb"] = 0.012429,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Moosebrew"] = 682,
+					},
+					["totalover_without_pet"] = 0.012429,
+					["healing_taken"] = 419.012429,
+					["fight_component"] = true,
+					["end_time"] = 1518131175,
+					["healing_from"] = {
+						["Moosebrew"] = true,
+					},
+					["nome"] = "Moosebrew",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[196608] = {
+								["c_amt"] = 2,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Moosebrew"] = 263,
+								},
+								["n_max"] = 65,
+								["targets"] = {
+									["Moosebrew"] = 324,
+								},
+								["n_min"] = 0,
+								["counter"] = 6,
+								["overheal"] = 263,
+								["total"] = 324,
+								["c_max"] = 59,
+								["id"] = 196608,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 88,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 236,
+								["n_amt"] = 4,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Moosebrew"] = 103,
+								},
+								["n_max"] = 48,
+								["targets"] = {
+									["Moosebrew"] = 95,
+								},
+								["n_min"] = 0,
+								["counter"] = 4,
+								["overheal"] = 103,
+								["total"] = 95,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 95,
+								["n_amt"] = 4,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1518131161,
+					["classe"] = "MONK",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 269,
+					["totaldenied"] = 0.012429,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 20.014139,
+					["resource"] = 0.014139,
+					["targets"] = {
+						["Moosebrew"] = 20,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "MONK",
+					["fight_component"] = true,
+					["total"] = 20.014139,
+					["nome"] = "Moosebrew",
+					["spec"] = 269,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[100780] = {
+								["id"] = 100780,
+								["total"] = 20,
+								["targets"] = {
+									["Moosebrew"] = 20,
+								},
+								["counter"] = 11,
+							},
+						},
+					},
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["last_event"] = 0,
+					["alternatepower"] = 0.014139,
+					["serial"] = "Player-90-080AC50C",
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[255723] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 0,
+								["activedamt"] = -1,
+								["uptime"] = 0,
+								["id"] = 255723,
+								["actived_at"] = 1518131564,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[196608] = {
+								["refreshamt"] = 3,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 196608,
+								["uptime"] = 11,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[116189] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 116189,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[115804] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 115804,
+								["uptime"] = 9,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["pets"] = {
+					},
+					["classe"] = "MONK",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[129552] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 129552,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[196608] = {
+								["refreshamt"] = 4,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 196608,
+								["uptime"] = 14,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[130283] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 130283,
+								["uptime"] = 31,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[255654] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 255654,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 20,
+					["nome"] = "Moosebrew",
+					["spec"] = 269,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[107428] = 2,
+						[100784] = 3,
+						[100780] = 5,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["last_event"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["buff_uptime"] = 60,
+					["serial"] = "Player-90-080AC50C",
+					["tipo"] = 4,
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 103,
+		["totals"] = {
+			7585.025685, -- [1]
+			419.00847, -- [2]
+			{
+				14.00605, -- [1]
+				[0] = 6.002473,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["end_time"] = 1796440.344,
+		["data_inicio"] = "17:55:01",
+		["frags"] = {
+		},
+		["data_fim"] = "18:12:53",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 10.2660000000615,
+				["type"] = 0,
+				["name"] = "Protector Endolar",
+				["clock"] = "18:12:43",
+			}, -- [1]
+			{
+				["elapsed"] = 481.024999999907,
+				["type"] = 0,
+				["name"] = "Severed Druid",
+				["clock"] = "17:58:14",
+			}, -- [2]
+			{
+				["elapsed"] = 15.2770000000019,
+				["type"] = 0,
+				["name"] = "Mannoroc Lasher",
+				["clock"] = "17:55:01",
+			}, -- [3]
+		},
+		["start_time"] = 1795933.776,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["totals_grupo"] = {
+			5341.015689, -- [1]
+			419.00847, -- [2]
+			{
+				14.00605, -- [1]
+				[0] = 6.004758,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+	},
+	["character_data"] = {
+		["logons"] = 4,
+	},
+	["force_font_outline"] = "",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-90-080AC50C"] = 269,
+		["Player-3661-07C7D90A"] = 259,
+	},
+}

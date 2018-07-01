@@ -1,0 +1,7 @@
+VER 3 0100000000000002 "CheckInsig" "INV_MISC_QUESTIONMARK"
+#showtooltip Zaxxis Insignia
+END
+VER 3 0100000000000001 "Pros" "INV_MISC_QUESTIONMARK"
+/use Prospecting
+/use Adamantite Ore
+END

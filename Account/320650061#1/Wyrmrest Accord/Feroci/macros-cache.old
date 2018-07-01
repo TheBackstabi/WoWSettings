@@ -1,0 +1,14 @@
+VER 3 0100000000000004 "BR" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Rebirth
+END
+VER 3 0100000000000002 "Follow" "INV_MISC_QUESTIONMARK"
+/follow Backstabi
+END
+VER 3 0100000000000003 "Leather" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] Jormungar Scale; [mod:alt] Icy Dragonscale; [mod:ctrl] Arctic Fur; Borean Leather
+END
+VER 3 0100000000000001 "Reg" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Regrowth
+END

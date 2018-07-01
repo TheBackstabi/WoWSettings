@@ -1,0 +1,45 @@
+VER 3 0100000000000012 "Coil" "INV_MISC_QUESTIONMARK"
+/cast [@player] Death Coil
+END
+VER 3 0100000000000015 "Conv" "INV_MISC_QUESTIONMARK"
+/cast [nomod] !Conversion
+/cancelaura [mod:shift] Conversion
+END
+VER 3 0100000000000019 "DamageCoil" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@pet][] Death Coil
+/cast Blood Tap
+END
+VER 3 010000000000000F "Death" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Death Strike; Obliterate
+END
+VER 3 0100000000000014 "Garg" "INV_MISC_QUESTIONMARK"
+/cast Unholy Frenzy
+/cast Summon Gargoyle
+END
+VER 3 0100000000000010 "Grip" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Death Grip
+END
+VER 3 0100000000000011 "Heal" "INV_MISC_QUESTIONMARK"
+/cast Raise Dead
+/cast Death Pact
+END
+VER 3 0100000000000009 "Kick" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus,exists,harm,nodead][] Mind Freeze
+END
+VER 3 0100000000000018 "Necro" "INV_MISC_QUESTIONMARK"
+/cast Necrotic Strike
+/cast Blood Tap
+END
+VER 3 0100000000000016 "Q" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Outbreak; Plague Strike
+END
+VER 3 0100000000000013 "Sim" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Dark Simulacrum
+END
+VER 3 010000000000000C "Stance Dance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence Unholy Presence, Blood Presence
+END
+VER 3 010000000000000E "Strang" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,@focus][] Strangulate
+END

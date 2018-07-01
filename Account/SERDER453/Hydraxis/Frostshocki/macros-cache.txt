@@ -1,0 +1,59 @@
+VER 3 0100000000000063 "Ascend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Ascendance
+/cast Blood Fury
+END
+VER 3 010000000000006A "Cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@party1][mod:ctrl,@party2][@mouseover,exists,help,nodead][] Cleanse Spirit
+END
+VER 3 010000000000006D "EleCast" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift] Chain Lightning; Elemental Blast
+END
+VER 3 0100000000000064 "Frost" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Frost Shock; Spirit Walk
+END
+VER 3 010000000000005A "Heals" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Healing Rain; Healing Stream Totem
+END
+VER 3 010000000000005C "Hex" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Hex
+END
+VER 3 010000000000005B "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:ctrl] Solar Beam; [mod:shift,@focus][] Wind Shear
+END
+VER 3 0100000000000061 "Lash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Bloodlust; Stormlash Totem
+END
+VER 3 0100000000000066 "Pets" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Feral Spirit
+/cast Ancestral Guidance
+/cast Blood Fury
+END
+VER 3 010000000000006B "Purge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@focus][] Purge
+END
+VER 3 0100000000000068 "Shocks" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Earth Shock; Flame Shock
+END
+VER 3 010000000000005D "Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,@party1][mod:ctrl,@party2][@mouseover,exists,help][] Healing Surge
+END
+VER 3 0100000000000069 "Unleash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Unleash Elements
+/startattack
+END
+VER 3 0100000000000062 "Wolf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Water Walking; Ghost Wolf
+END

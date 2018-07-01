@@ -1,0 +1,9 @@
+VER 3 0100000000000001 "Passive" "644389"
+/petpassive [mod:shift]
+/petattack [nomod]
+/dismount
+END
+VER 3 0100000000000002 "Stone" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Soulstone
+END
