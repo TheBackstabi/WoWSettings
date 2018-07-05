@@ -1,3 +1,4 @@
 WeakAuras: enabled
 PowerInterface: disabled
 TipTac: disabled
+ElvUI_SLE: disabled

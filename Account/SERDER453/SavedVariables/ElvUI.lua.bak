@@ -30,10 +30,10 @@ ElvDB = {
 		["Anyachi - Terenas"] = "Default",
 		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
-		["Holishocki - Terenas"] = "Default",
+		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Backstabi - Korgath"] = "Default",
 		["Tarrengerd - Terenas"] = "Default",
-		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
+		["Holishocki - Terenas"] = "Default",
 		["Scrublordxo - Durotan"] = "Default",
 		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
 	},
@@ -49,7 +49,7 @@ ElvDB = {
 			["Tarrengerd"] = 400665394,
 			["Scrublordxo"] = 477699028,
 			["Anyachi"] = 1269508,
-			["Anyatsu"] = 177895006,
+			["Anyatsu"] = 177907406,
 			["Holishocki"] = 57510,
 			["Purpleslurp"] = 78757339,
 		},
@@ -69,22 +69,22 @@ ElvDB = {
 		["Hydraxis"] = {
 			["Backstabi"] = 82309934,
 			["Frostshocki"] = 141043822,
-			["Bagofsticks"] = 297119738,
+			["Bagofsticks"] = 297215779,
 			["Necroticks"] = 60365678,
 			["Moosebrew"] = 68197,
 			["Hruudrum"] = 50975622,
-			["Tekkuto"] = 88649312,
+			["Tekkuto"] = 101890132,
 			["Calithil"] = 354446600,
 			["Edgelordxo"] = 60920392,
 			["Pillowaifu"] = 245825113,
+		},
+		["Durotan"] = {
+			["Scrublordxo"] = 579939771,
 		},
 		["Tichondrius"] = {
 			["Haehyun"] = 4712,
 			["Ramlethall"] = 363777811,
 			["Akuugoromi"] = 3043911,
-		},
-		["Durotan"] = {
-			["Scrublordxo"] = 579939771,
 		},
 		["Alleria"] = {
 			["Ranevian"] = 7271,
@@ -137,8 +137,8 @@ ElvDB = {
 			["actionbar"] = {
 				["backdropSpacingConverted"] = true,
 			},
-			["hideTutorial"] = true,
 			["thinBorderColorSet"] = true,
+			["hideTutorial"] = true,
 		},
 		["Ranevian - Alleria"] = {
 			["currentTutorial"] = 1,
@@ -228,8 +228,8 @@ ElvDB = {
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
 			},
-			["thinBorderColorSet"] = true,
 			["hideTutorial"] = true,
+			["thinBorderColorSet"] = true,
 			["actionbar"] = {
 				["backdropSpacingConverted"] = true,
 			},
@@ -316,9 +316,9 @@ ElvDB = {
 				["ElvAB_6"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-488,330",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-50,50",
 				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,50,995",
-				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,463,50",
 				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,200",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-230,140",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,463,50",
 				["ElvUF_PartyMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,184,773",
 				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-50",
 				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,230,140",
@@ -371,80 +371,6 @@ ElvDB = {
 						},
 						["height"] = 50,
 						["width"] = 122,
-					},
-					["assist"] = {
-						["enable"] = false,
-					},
-					["arena"] = {
-						["castbar"] = {
-							["width"] = 246,
-						},
-						["spacing"] = 26,
-					},
-					["party"] = {
-						["horizontalSpacing"] = 3,
-						["debuffs"] = {
-							["anchorPoint"] = "BOTTOM",
-							["numrows"] = 4,
-							["perrow"] = 1,
-						},
-						["power"] = {
-							["text_format"] = "",
-							["height"] = 5,
-						},
-						["enable"] = false,
-						["healPrediction"] = true,
-						["growthDirection"] = "RIGHT_DOWN",
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-						["health"] = {
-							["attachTextTo"] = "InfoPanel",
-							["orientation"] = "VERTICAL",
-							["text_format"] = "[healthcolor][health:current]",
-							["position"] = "RIGHT",
-						},
-						["name"] = {
-							["attachTextTo"] = "InfoPanel",
-							["text_format"] = "[namecolor][name:short]",
-							["position"] = "LEFT",
-						},
-						["width"] = 110,
-						["height"] = 59,
-						["verticalSpacing"] = 0,
-						["roleIcon"] = {
-							["position"] = "TOPRIGHT",
-						},
-						["rdebuffs"] = {
-							["font"] = "Expressway",
-						},
-					},
-					["raid40"] = {
-						["enable"] = false,
-						["rdebuffs"] = {
-							["font"] = "Expressway",
-						},
-					},
-					["focus"] = {
-						["infoPanel"] = {
-							["enable"] = true,
-							["height"] = 17,
-						},
-						["threatStyle"] = "NONE",
-						["castbar"] = {
-							["iconSize"] = 26,
-							["width"] = 122,
-						},
-						["height"] = 56,
-						["name"] = {
-							["attachTextTo"] = "InfoPanel",
-							["position"] = "LEFT",
-						},
-						["health"] = {
-							["attachTextTo"] = "InfoPanel",
-							["text_format"] = "[healthcolor][health:current]",
-						},
-						["width"] = 189,
 					},
 					["target"] = {
 						["debuffs"] = {
@@ -535,6 +461,80 @@ ElvDB = {
 							["height"] = 15,
 						},
 					},
+					["raid40"] = {
+						["enable"] = false,
+						["rdebuffs"] = {
+							["font"] = "Expressway",
+						},
+					},
+					["focus"] = {
+						["infoPanel"] = {
+							["enable"] = true,
+							["height"] = 17,
+						},
+						["threatStyle"] = "NONE",
+						["castbar"] = {
+							["iconSize"] = 26,
+							["width"] = 122,
+						},
+						["height"] = 56,
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["position"] = "LEFT",
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+							["text_format"] = "[healthcolor][health:current]",
+						},
+						["width"] = 189,
+					},
+					["assist"] = {
+						["enable"] = false,
+					},
+					["arena"] = {
+						["castbar"] = {
+							["width"] = 246,
+						},
+						["spacing"] = 26,
+					},
+					["party"] = {
+						["horizontalSpacing"] = 3,
+						["debuffs"] = {
+							["anchorPoint"] = "BOTTOM",
+							["numrows"] = 4,
+							["perrow"] = 1,
+						},
+						["power"] = {
+							["text_format"] = "",
+							["height"] = 5,
+						},
+						["enable"] = false,
+						["healPrediction"] = true,
+						["growthDirection"] = "RIGHT_DOWN",
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["text_format"] = "[namecolor][name:short]",
+							["position"] = "LEFT",
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+							["orientation"] = "VERTICAL",
+							["text_format"] = "[healthcolor][health:current]",
+							["position"] = "RIGHT",
+						},
+						["width"] = 110,
+						["height"] = 59,
+						["verticalSpacing"] = 0,
+						["roleIcon"] = {
+							["position"] = "TOPRIGHT",
+						},
+						["rdebuffs"] = {
+							["font"] = "Expressway",
+						},
+					},
 					["pet"] = {
 						["infoPanel"] = {
 							["height"] = 14,
@@ -614,7 +614,10 @@ ElvDB = {
 					["buttonsize"] = 38,
 				},
 			},
-			["layoutSet"] = "dpsMelee",
+			["nameplates"] = {
+				["filters"] = {
+				},
+			},
 			["bossAuraFiltersConverted"] = true,
 			["tooltip"] = {
 				["textFontSize"] = 11,
@@ -626,10 +629,7 @@ ElvDB = {
 				["fontSize"] = 11,
 				["headerFontSize"] = 11,
 			},
-			["nameplates"] = {
-				["filters"] = {
-				},
-			},
+			["layoutSet"] = "dpsMelee",
 		},
 		["Tekkita - Alleria"] = {
 			["movers"] = {
@@ -707,8 +707,8 @@ ElvDB = {
 			["actionbar"] = {
 				["backdropSpacingConverted"] = true,
 			},
-			["hideTutorial"] = true,
 			["thinBorderColorSet"] = true,
+			["hideTutorial"] = true,
 		},
 		["Aestrin - Ghostlands"] = {
 			["currentTutorial"] = 2,
@@ -726,8 +726,8 @@ ElvDB = {
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
 			},
-			["thinBorderColorSet"] = true,
 			["hideTutorial"] = true,
+			["thinBorderColorSet"] = true,
 			["actionbar"] = {
 				["backdropSpacingConverted"] = true,
 			},
@@ -763,17 +763,17 @@ ElvDB = {
 				["LootFrameMover"] = "TOP,ElvUIParent,TOP,291,-445",
 				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
-				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-17,186",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-215,460",
 				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-77,-284",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
 				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,586,90",
-				["ElvUF_PlayerMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,408,441",
+				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-17,186",
 				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,263",
 				["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-289,-360",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-19,186",
 				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,579,202",
 				["BossHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-303,362",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-215,460",
+				["ElvUF_PlayerMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,408,441",
 				["VehicleSeatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,193",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,451,157",
 				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,-281,-4",
@@ -870,12 +870,12 @@ ElvDB = {
 			},
 			["layoutSet"] = "dpsCaster",
 			["nameplates"] = {
-				["fontSize"] = 12,
 				["clampToScreen"] = true,
+				["font"] = "Expressway",
 				["classbar"] = {
 					["enable"] = false,
 				},
-				["font"] = "Expressway",
+				["fontSize"] = 12,
 			},
 		},
 		["Bagofsticks - Hydraxis"] = {
@@ -894,8 +894,8 @@ ElvDB = {
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
 			},
-			["thinBorderColorSet"] = true,
 			["hideTutorial"] = true,
+			["thinBorderColorSet"] = true,
 			["actionbar"] = {
 				["backdropSpacingConverted"] = true,
 			},
@@ -1015,21 +1015,10 @@ ElvDB = {
 			["actionbar"] = {
 				["backdropSpacingConverted"] = true,
 			},
-			["thinBorderColorSet"] = true,
 			["hideTutorial"] = true,
+			["thinBorderColorSet"] = true,
 		},
 		["Liviko - Wyrmrest Accord"] = {
-			["currentTutorial"] = 1,
-			["hideTutorial"] = true,
-			["movers"] = {
-				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
-				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
-				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
-				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
-				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
-			},
-		},
-		["Backstabi - Korgath"] = {
 			["currentTutorial"] = 1,
 			["hideTutorial"] = true,
 			["movers"] = {
@@ -1070,44 +1059,46 @@ ElvDB = {
 				["GMMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-207,-150",
 				["TargetPowerBarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-435,402",
 				["BossButton"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,543,235",
-				["LootFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-549,117",
+				["LootFrameMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-436,184",
 				["ZoneAbility"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,543,235",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
 				["ElvUF_FocusMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,504,-433",
-				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,378",
+				["ClassBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,435,386",
 				["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-223,396",
 				["VehicleSeatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,379",
+				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,4",
 				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,223,415",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,347",
 				["LossControlMover"] = "TOP,ElvUIParent,TOP,264,-282",
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,754,325",
-				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,4",
-				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,347",
+				["ElvUF_PetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-207,476",
+				["ElvUF_PartyMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,371,714",
 				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,-209,4",
 				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,209,4",
-				["ElvUF_PetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-207,476",
-				["ElvUIBankMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-436,184",
-				["TalkingHeadFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
+				["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,393",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-400,420",
+				["TalkingHeadFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
+				["SLE_FarmSeedMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,254",
 				["AltPowerBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,510,183",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,-209,41",
 				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,0,507",
-				["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,393",
+				["ElvUF_TargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-435,420",
 				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-223,415",
-				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,186",
-				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-104,-224",
-				["BNETMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,185",
-				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,488,142",
 				["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,209,41",
-				["ElvUF_TargetCastbarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-435,380",
+				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-104,-224",
+				["BNETMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,186",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,488,142",
+				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,186",
 				["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-361,-226",
+				["ElvUF_TargetCastbarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-435,380",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,185",
 				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,480,202",
-				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-361,-231",
+				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-217,-330",
 				["PlayerPowerBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,435,402",
-				["ElvUF_TargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-435,420",
-				["ElvUF_PartyMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,371,714",
+				["ElvUIBankMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-436,184",
+				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4",
 				["AlertFrameMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,134,379",
-				["DebuffsMover"] = "BOTTOM,ElvUIParent,BOTTOM,-319,340",
+				["DebuffsMover"] = "BOTTOM,ElvUIParent,BOTTOM,-319,337",
 				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,602,202",
 			},
 			["tooltip"] = {
@@ -1136,77 +1127,14 @@ ElvDB = {
 					},
 					["pet"] = {
 						["width"] = 100,
-						["castbar"] = {
-							["enable"] = false,
-						},
 						["height"] = 20,
-						["name"] = {
-							["yOffset"] = 16,
-							["position"] = "TOPRIGHT",
-						},
-					},
-					["player"] = {
-						["debuffs"] = {
-							["enable"] = false,
-						},
-						["portrait"] = {
-							["overlay"] = true,
-							["camDistanceScale"] = 4,
-						},
-						["power"] = {
-							["attachTextTo"] = "Power",
-							["xOffset"] = 53,
-							["text_format"] = "[powercolor][power:percent]",
-							["detachFromFrame"] = true,
-							["height"] = 15,
-							["detachedWidth"] = 200,
-						},
-						["classbar"] = {
-							["detachedWidth"] = 230,
-							["height"] = 12,
-							["fill"] = "spaced",
-						},
-						["aurabar"] = {
-							["enable"] = false,
-							["attachTo"] = "FRAME",
-						},
 						["castbar"] = {
-							["insideInfoPanel"] = false,
-							["width"] = 406,
-							["height"] = 28,
+							["enable"] = false,
 						},
-						["customTexts"] = {
-							["[health:current]"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "[health:current]",
-								["yOffset"] = 0,
-								["font"] = "Continuum Medium",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-						},
-						["width"] = 250,
-						["smartAuraPosition"] = "BUFFS_ON_DEBUFFS",
-						["health"] = {
-							["attachTextTo"] = "Frame",
-							["position"] = "TOPRIGHT",
-							["xOffset"] = 0,
-							["text_format"] = "[healthcolor][health:percent]",
-							["yOffset"] = 16,
-						},
-						["height"] = 45,
 						["name"] = {
-							["attachTextTo"] = "Frame",
-							["position"] = "TOPLEFT",
-							["text_format"] = "[level] [namecolor][name]",
 							["yOffset"] = 16,
+							["position"] = "TOPRIGHT",
 						},
-					},
-					["arena"] = {
-						["enable"] = false,
 					},
 					["party"] = {
 						["debuffs"] = {
@@ -1215,12 +1143,6 @@ ElvDB = {
 							["yOffset"] = 16,
 							["numrows"] = 2,
 							["onlyDispellable"] = true,
-						},
-						["portrait"] = {
-							["overlay"] = true,
-							["xOffset"] = 0.1,
-							["enable"] = true,
-							["camDistanceScale"] = 4,
 						},
 						["showPlayer"] = false,
 						["targetsGroup"] = {
@@ -1258,6 +1180,12 @@ ElvDB = {
 							["position"] = "RIGHT",
 							["text_format"] = "[health:current-percent]",
 						},
+						["portrait"] = {
+							["overlay"] = true,
+							["xOffset"] = 0.1,
+							["enable"] = true,
+							["camDistanceScale"] = 4,
+						},
 						["petsGroup"] = {
 							["anchorPoint"] = "BOTTOMLEFT",
 							["name"] = {
@@ -1270,6 +1198,100 @@ ElvDB = {
 						},
 						["verticalSpacing"] = 47,
 					},
+					["raid"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 16,
+						},
+						["healPrediction"] = true,
+						["height"] = 48,
+						["buffs"] = {
+							["sizeOverride"] = 22,
+						},
+						["visibility"] = "[@raid26,exists][nogroup] hide; show",
+						["rdebuffs"] = {
+							["fontSize"] = 12,
+							["yOffset"] = 28,
+							["font"] = "Expressway",
+							["fontOutline"] = "THICKOUTLINE",
+							["stack"] = {
+								["position"] = "BOTTOMLEFT",
+								["yOffset"] = -2,
+							},
+							["size"] = 20,
+						},
+						["groupBy"] = "ROLE",
+						["roleIcon"] = {
+							["damager"] = false,
+							["size"] = 16,
+						},
+						["width"] = 100,
+						["health"] = {
+							["yOffset"] = -1,
+						},
+					},
+					["player"] = {
+						["debuffs"] = {
+							["enable"] = false,
+						},
+						["portrait"] = {
+							["overlay"] = true,
+							["camDistanceScale"] = 4,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["xOffset"] = 53,
+							["detachFromFrame"] = true,
+							["height"] = 15,
+							["detachedWidth"] = 200,
+						},
+						["classbar"] = {
+							["additionalPowerText"] = false,
+							["strataAndLevel"] = {
+								["frameStrata"] = "TOOLTIP",
+							},
+							["height"] = 15,
+							["detachedWidth"] = 200,
+							["fill"] = "spaced",
+						},
+						["aurabar"] = {
+							["enable"] = false,
+							["attachTo"] = "FRAME",
+						},
+						["castbar"] = {
+							["insideInfoPanel"] = false,
+							["width"] = 406,
+							["height"] = 28,
+						},
+						["customTexts"] = {
+							["[health:current]"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 0,
+								["text_format"] = "[health:current]",
+								["yOffset"] = 0,
+								["font"] = "Continuum Medium",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+						},
+						["width"] = 250,
+						["health"] = {
+							["attachTextTo"] = "Frame",
+							["position"] = "TOPRIGHT",
+							["xOffset"] = 0,
+							["text_format"] = "[healthcolor][health:percent]",
+							["yOffset"] = 16,
+						},
+						["smartAuraPosition"] = "BUFFS_ON_DEBUFFS",
+						["height"] = 45,
+						["name"] = {
+							["attachTextTo"] = "Frame",
+							["position"] = "TOPLEFT",
+							["text_format"] = "[level] [namecolor][name]",
+							["yOffset"] = 16,
+						},
+					},
 					["raid40"] = {
 						["visibility"] = "[@raid26,exists] show;hide",
 					},
@@ -1278,15 +1300,17 @@ ElvDB = {
 							["enable"] = false,
 						},
 					},
+					["assist"] = {
+						["enable"] = false,
+					},
+					["arena"] = {
+						["enable"] = false,
+					},
 					["target"] = {
 						["debuffs"] = {
 							["yOffset"] = 20,
 							["attachTo"] = "HEALTH",
 							["enable"] = false,
-						},
-						["portrait"] = {
-							["overlay"] = true,
-							["camDistanceScale"] = 4,
 						},
 						["health"] = {
 							["position"] = "TOPLEFT",
@@ -1313,7 +1337,7 @@ ElvDB = {
 								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
 								["text_format"] = "[health:current]",
-								["yOffset"] = -5,
+								["yOffset"] = 0,
 								["font"] = "Continuum Medium",
 								["justifyH"] = "LEFT",
 								["fontOutline"] = "OUTLINE",
@@ -1322,6 +1346,10 @@ ElvDB = {
 							},
 						},
 						["width"] = 250,
+						["portrait"] = {
+							["overlay"] = true,
+							["camDistanceScale"] = 4,
+						},
 						["name"] = {
 							["attachTextTo"] = "Frame",
 							["position"] = "TOPRIGHT",
@@ -1329,13 +1357,13 @@ ElvDB = {
 							["yOffset"] = 16,
 						},
 						["castbar"] = {
-							["iconAttachedTo"] = "Castbar",
+							["iconAttached"] = false,
 							["iconYOffset"] = 6,
 							["width"] = 250,
 							["iconXOffset"] = -3,
-							["height"] = 20,
 							["iconSize"] = 30,
-							["iconAttached"] = false,
+							["height"] = 20,
+							["iconAttachedTo"] = "Castbar",
 						},
 						["height"] = 45,
 						["buffs"] = {
@@ -1344,55 +1372,21 @@ ElvDB = {
 							["priority"] = "",
 						},
 					},
-					["raid"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 16,
-						},
-						["rdebuffs"] = {
-							["fontSize"] = 12,
-							["yOffset"] = 28,
-							["font"] = "Expressway",
-							["fontOutline"] = "THICKOUTLINE",
-							["stack"] = {
-								["position"] = "BOTTOMLEFT",
-								["yOffset"] = -2,
-							},
-							["size"] = 20,
-						},
-						["groupBy"] = "ROLE",
-						["roleIcon"] = {
-							["damager"] = false,
-							["size"] = 16,
-						},
-						["healPrediction"] = true,
-						["width"] = 100,
-						["health"] = {
-							["yOffset"] = -1,
-						},
-						["height"] = 48,
-						["buffs"] = {
-							["sizeOverride"] = 22,
-						},
-						["visibility"] = "[@raid26,exists][nogroup] hide; show",
-					},
-					["assist"] = {
-						["enable"] = false,
-					},
 					["targettarget"] = {
-						["health"] = {
-							["xOffset"] = 0,
-						},
 						["debuffs"] = {
 							["enable"] = false,
 						},
 						["power"] = {
 							["enable"] = false,
 						},
-						["width"] = 100,
 						["name"] = {
 							["position"] = "TOPLEFT",
 							["text_format"] = "[namecolor][name:short]",
 							["yOffset"] = 16,
+						},
+						["width"] = 100,
+						["health"] = {
+							["xOffset"] = 0,
 						},
 						["height"] = 20,
 					},
@@ -1495,6 +1489,7 @@ ElvDB = {
 				["bar5"] = {
 					["enabled"] = false,
 					["buttons"] = 12,
+					["backdrop"] = true,
 					["buttonsPerRow"] = 12,
 				},
 				["fontColor"] = {
@@ -1599,6 +1594,17 @@ ElvDB = {
 				},
 			},
 		},
+		["Backstabi - Korgath"] = {
+			["currentTutorial"] = 1,
+			["hideTutorial"] = true,
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+		},
 		["Blaettne - Blackrock"] = {
 			["movers"] = {
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
@@ -1697,10 +1703,10 @@ ElvPrivateDB = {
 		["Anyachi - Terenas"] = "Anyachi - Terenas",
 		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
-		["Holishocki - Terenas"] = "Holishocki - Terenas",
+		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Backstabi - Korgath"] = "Backstabi - Korgath",
 		["Tarrengerd - Terenas"] = "Tarrengerd - Terenas",
-		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
+		["Holishocki - Terenas"] = "Holishocki - Terenas",
 		["Scrublordxo - Durotan"] = "Scrublordxo - Durotan",
 		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
 	},
@@ -1736,12 +1742,12 @@ ElvPrivateDB = {
 			["install_complete"] = "10.72",
 		},
 		["Anyatsu - Terenas"] = {
+			["install_complete"] = "10.72",
 			["unitframe"] = {
 				["disabledBlizzardFrames"] = {
 					["arena"] = false,
 				},
 			},
-			["install_complete"] = "10.72",
 		},
 		["Tekkita - Alleria"] = {
 			["install_complete"] = "10.72",
@@ -1750,6 +1756,17 @@ ElvPrivateDB = {
 			["install_complete"] = "10.72",
 		},
 		["Tekkuto - Hydraxis"] = {
+			["sle"] = {
+				["module"] = {
+					["screensaver"] = true,
+				},
+				["pvpreadydialogreset"] = true,
+				["characterGoldsSorting"] = {
+					["Hydraxis"] = {
+					},
+				},
+				["install_complete"] = "3.38",
+			},
 			["theme"] = "classic",
 			["install_complete"] = "10.44",
 		},
@@ -1817,8 +1834,7 @@ ElvPrivateDB = {
 		["Backstabi - Hydraxis"] = {
 			["install_complete"] = "10.59",
 		},
-		["Holishocki - Terenas"] = {
-			["install_complete"] = "10.44",
+		["Blaettne - Blackrock"] = {
 		},
 		["Backstabi - Korgath"] = {
 			["install_complete"] = "10.72",
@@ -1832,7 +1848,8 @@ ElvPrivateDB = {
 			},
 			["install_complete"] = "10.46",
 		},
-		["Blaettne - Blackrock"] = {
+		["Holishocki - Terenas"] = {
+			["install_complete"] = "10.44",
 		},
 		["Scrublordxo - Durotan"] = {
 			["install_complete"] = "10.44",

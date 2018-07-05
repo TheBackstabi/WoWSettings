@@ -327,9 +327,9 @@ sArenaDB = {
 									["cvarLabel"] = "STATUS_TEXT_PARTY",
 									["lockShow"] = 0,
 									["disconnected"] = true,
+									["powerType"] = 0,
 									["LeftText"] = {
 									},
-									["powerType"] = 0,
 									["refreshConfig"] = false,
 									["targetFrame"] = {
 										["isMoving"] = false,
@@ -427,11 +427,11 @@ sArenaDB = {
 						["refreshConfig"] = true,
 						["keepRelative"] = true,
 						["setupDrag"] = true,
+						["Icon"] = {
+						},
 						["Cooldown"] = {
 							["Text"] = {
 							},
-						},
-						["Icon"] = {
 						},
 					},
 					["numDebuffs"] = 0,
@@ -531,11 +531,11 @@ sArenaDB = {
 									["refreshConfig"] = true,
 									["keepRelative"] = true,
 									["setupDrag"] = true,
-									["Icon"] = {
-									},
 									["Cooldown"] = {
 										["Text"] = {
 										},
+									},
+									["Icon"] = {
 									},
 								},
 								["numDebuffs"] = 0,
@@ -787,9 +787,9 @@ sArenaDB = {
 									["cvarLabel"] = "STATUS_TEXT_PARTY",
 									["lockShow"] = 0,
 									["disconnected"] = true,
+									["powerType"] = 0,
 									["LeftText"] = {
 									},
-									["powerType"] = 0,
 									["refreshConfig"] = false,
 									["targetFrame"] = {
 										["isMoving"] = false,
@@ -1049,9 +1049,9 @@ sArenaDB = {
 						["cvarLabel"] = "STATUS_TEXT_PARTY",
 						["lockShow"] = 0,
 						["disconnected"] = true,
+						["powerType"] = 0,
 						["LeftText"] = {
 						},
-						["powerType"] = 0,
 						["refreshConfig"] = false,
 						["targetFrame"] = {
 							["isMoving"] = false,
@@ -1417,9 +1417,9 @@ sArenaDB = {
 						["cvarLabel"] = "STATUS_TEXT_PARTY",
 						["lockShow"] = 0,
 						["disconnected"] = true,
+						["powerType"] = 0,
 						["LeftText"] = {
 						},
-						["powerType"] = 0,
 						["refreshConfig"] = false,
 						["targetFrame"] = {
 							["isMoving"] = false,
@@ -1430,6 +1430,9 @@ sArenaDB = {
 						["forceHideText"] = false,
 					},
 					["specFrame"] = {
+						["keepRelative"] = true,
+						["setupDrag"] = true,
+						["refreshConfig"] = true,
 						["setting"] = {
 							nil, -- [1]
 							{
@@ -1698,9 +1701,9 @@ sArenaDB = {
 									["cvarLabel"] = "STATUS_TEXT_PARTY",
 									["lockShow"] = 0,
 									["disconnected"] = true,
+									["powerType"] = 0,
 									["LeftText"] = {
 									},
-									["powerType"] = 0,
 									["refreshConfig"] = false,
 									["targetFrame"] = {
 										["isMoving"] = false,
@@ -1795,9 +1798,6 @@ sArenaDB = {
 							57, -- [4]
 							-4, -- [5]
 						},
-						["keepRelative"] = true,
-						["refreshConfig"] = true,
-						["setupDrag"] = true,
 					},
 					["unitHPPercent"] = 1,
 					["manatextleft"] = {
@@ -1895,11 +1895,11 @@ sArenaDB = {
 							["refreshConfig"] = true,
 							["keepRelative"] = true,
 							["setupDrag"] = true,
-							["Icon"] = {
-							},
 							["Cooldown"] = {
 								["Text"] = {
 								},
+							},
+							["Icon"] = {
 							},
 						},
 						["numDebuffs"] = 0,
@@ -2158,9 +2158,9 @@ sArenaDB = {
 							["cvarLabel"] = "STATUS_TEXT_PARTY",
 							["lockShow"] = 0,
 							["disconnected"] = true,
+							["powerType"] = 0,
 							["LeftText"] = {
 							},
-							["powerType"] = 0,
 							["refreshConfig"] = false,
 							["targetFrame"] = {
 								["isMoving"] = false,
@@ -2171,6 +2171,9 @@ sArenaDB = {
 							["forceHideText"] = false,
 						},
 						["specFrame"] = {
+							["keepRelative"] = true,
+							["setupDrag"] = true,
+							["refreshConfig"] = true,
 							["setting"] = {
 								nil, -- [1]
 								{
@@ -2185,11 +2188,11 @@ sArenaDB = {
 										["refreshConfig"] = true,
 										["keepRelative"] = true,
 										["setupDrag"] = true,
+										["Icon"] = {
+										},
 										["Cooldown"] = {
 											["Text"] = {
 											},
-										},
-										["Icon"] = {
 										},
 									},
 									["numDebuffs"] = 0,
@@ -2446,9 +2449,9 @@ sArenaDB = {
 										["cvarLabel"] = "STATUS_TEXT_PARTY",
 										["lockShow"] = 0,
 										["disconnected"] = true,
+										["powerType"] = 0,
 										["LeftText"] = {
 										},
-										["powerType"] = 0,
 										["refreshConfig"] = false,
 										["targetFrame"] = {
 											["isMoving"] = false,
@@ -2543,9 +2546,6 @@ sArenaDB = {
 								57, -- [4]
 								-4, -- [5]
 							},
-							["keepRelative"] = true,
-							["refreshConfig"] = true,
-							["setupDrag"] = true,
 						},
 						["unitHPPercent"] = 1,
 						["manatextleft"] = {
@@ -2652,11 +2652,11 @@ sArenaDB = {
 						["refreshConfig"] = true,
 						["keepRelative"] = true,
 						["setupDrag"] = true,
-						["Icon"] = {
-						},
 						["Cooldown"] = {
 							["Text"] = {
 							},
+						},
+						["Icon"] = {
 						},
 					},
 					["numDebuffs"] = 0,
@@ -2908,9 +2908,9 @@ sArenaDB = {
 						["cvarLabel"] = "STATUS_TEXT_PARTY",
 						["lockShow"] = 0,
 						["disconnected"] = true,
+						["powerType"] = 0,
 						["LeftText"] = {
 						},
-						["powerType"] = 0,
 						["refreshConfig"] = false,
 						["targetFrame"] = {
 							["isMoving"] = false,
@@ -2921,6 +2921,9 @@ sArenaDB = {
 						["forceHideText"] = false,
 					},
 					["specFrame"] = {
+						["keepRelative"] = true,
+						["setupDrag"] = true,
+						["refreshConfig"] = true,
 						["setting"] = {
 							nil, -- [1]
 							{
@@ -2935,11 +2938,11 @@ sArenaDB = {
 									["refreshConfig"] = true,
 									["keepRelative"] = true,
 									["setupDrag"] = true,
+									["Icon"] = {
+									},
 									["Cooldown"] = {
 										["Text"] = {
 										},
-									},
-									["Icon"] = {
 									},
 								},
 								["numDebuffs"] = 0,
@@ -3189,9 +3192,9 @@ sArenaDB = {
 									["cvarLabel"] = "STATUS_TEXT_PARTY",
 									["lockShow"] = 0,
 									["disconnected"] = true,
+									["powerType"] = 0,
 									["LeftText"] = {
 									},
-									["powerType"] = 0,
 									["refreshConfig"] = false,
 									["targetFrame"] = {
 										["isMoving"] = false,
@@ -3286,9 +3289,6 @@ sArenaDB = {
 							57, -- [4]
 							-4, -- [5]
 						},
-						["keepRelative"] = true,
-						["refreshConfig"] = true,
-						["setupDrag"] = true,
 					},
 					["unitHPPercent"] = 1,
 					["manatextleft"] = {
@@ -3382,14 +3382,15 @@ sArenaDB = {
 		["Scrublordxo - Terenas"] = "Default",
 		["Anyachi - Terenas"] = "Default",
 		["Anyatsu - Terenas"] = "Default",
-		["Purpleslurp - Terenas"] = "Default",
 		["Edgelordxo - Hydraxis"] = "Default",
+		["Purpleslurp - Terenas"] = "Default",
+		["Backstabi - Korgath"] = "Default",
 		["Ramlethall - Tichondrius"] = "Default",
-		["Backstabi - Ghostlands"] = "Default",
+		["Backstabi - Hydraxis"] = "Default",
 		["Tekkita - Alleria"] = "Default",
 		["Anyatsu - Korgath"] = "Default",
-		["Backstabi - Korgath"] = "Default",
-		["Backstabi - Hydraxis"] = "Default",
+		["Tekkuto - Hydraxis"] = "Default",
+		["Backstabi - Ghostlands"] = "Default",
 		["Spetis - Ghostlands"] = "Default",
 		["Skivvix - Ghostlands"] = "Default",
 		["Aestrin - Ghostlands"] = "Default",

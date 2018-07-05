@@ -28,8 +28,8 @@ HandyNotesDB = {
 		["Ramlethall - Tichondrius"] = "Ramlethall - Tichondrius",
 		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
 		["Scrublordxo - Durotan"] = "Scrublordxo - Durotan",
-		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Skaal - Durotan"] = "Skaal - Durotan",
+		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Backstabi - Korgath"] = "Backstabi - Korgath",
 		["Tarrengerd - Terenas"] = "Tarrengerd - Terenas",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
@@ -91,9 +91,9 @@ HandyNotesDB = {
 		},
 		["Scrublordxo - Durotan"] = {
 		},
-		["Blaettne - Blackrock"] = {
-		},
 		["Skaal - Durotan"] = {
+		},
+		["Blaettne - Blackrock"] = {
 		},
 		["Backstabi - Korgath"] = {
 		},
@@ -136,8 +136,8 @@ HandyNotes_HandyNotesDB = {
 		["Ramlethall - Tichondrius"] = "Ramlethall - Tichondrius",
 		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
 		["Scrublordxo - Durotan"] = "Scrublordxo - Durotan",
-		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Skaal - Durotan"] = "Skaal - Durotan",
+		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Backstabi - Korgath"] = "Backstabi - Korgath",
 		["Tarrengerd - Terenas"] = "Tarrengerd - Terenas",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
@@ -199,9 +199,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Scrublordxo - Durotan"] = {
 		},
-		["Blaettne - Blackrock"] = {
-		},
 		["Skaal - Durotan"] = {
+		},
+		["Blaettne - Blackrock"] = {
 		},
 		["Backstabi - Korgath"] = {
 		},

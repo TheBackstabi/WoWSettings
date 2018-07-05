@@ -1,3 +1,19 @@
+VER 3 0100000000000004 "Growth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Wild Growth
+END
+VER 3 0100000000000005 "Iron" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Ironbark
+END
+VER 3 0100000000000003 "Reb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,dead][] Rebirth
+END
+VER 3 0100000000000006 "Root" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift,@focus][] Entangling Roots
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

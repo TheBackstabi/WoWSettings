@@ -29,10 +29,10 @@ HandyNotesDB = {
 		["Anyachi - Terenas"] = "Anyachi - Terenas",
 		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
-		["Skaal - Durotan"] = "Skaal - Durotan",
+		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Backstabi - Korgath"] = "Backstabi - Korgath",
 		["Tarrengerd - Terenas"] = "Tarrengerd - Terenas",
-		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
+		["Skaal - Durotan"] = "Skaal - Durotan",
 		["Scrublordxo - Durotan"] = "Scrublordxo - Durotan",
 		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
 	},
@@ -93,13 +93,13 @@ HandyNotesDB = {
 		},
 		["Backstabi - Hydraxis"] = {
 		},
-		["Skaal - Durotan"] = {
+		["Blaettne - Blackrock"] = {
 		},
 		["Backstabi - Korgath"] = {
 		},
 		["Tarrengerd - Terenas"] = {
 		},
-		["Blaettne - Blackrock"] = {
+		["Skaal - Durotan"] = {
 		},
 		["Scrublordxo - Durotan"] = {
 		},
@@ -137,10 +137,10 @@ HandyNotes_HandyNotesDB = {
 		["Anyachi - Terenas"] = "Anyachi - Terenas",
 		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
-		["Skaal - Durotan"] = "Skaal - Durotan",
+		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Backstabi - Korgath"] = "Backstabi - Korgath",
 		["Tarrengerd - Terenas"] = "Tarrengerd - Terenas",
-		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
+		["Skaal - Durotan"] = "Skaal - Durotan",
 		["Scrublordxo - Durotan"] = "Scrublordxo - Durotan",
 		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
 	},
@@ -201,13 +201,13 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Backstabi - Hydraxis"] = {
 		},
-		["Skaal - Durotan"] = {
+		["Blaettne - Blackrock"] = {
 		},
 		["Backstabi - Korgath"] = {
 		},
 		["Tarrengerd - Terenas"] = {
 		},
-		["Blaettne - Blackrock"] = {
+		["Skaal - Durotan"] = {
 		},
 		["Scrublordxo - Durotan"] = {
 		},

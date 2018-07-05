@@ -3,21 +3,21 @@ HandyNotes_LegionTreasuresDB = {
 	["profileKeys"] = {
 		["Calithil - Hydraxis"] = "Calithil - Hydraxis",
 		["Bagofsticks - Hydraxis"] = "Bagofsticks - Hydraxis",
-		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
+		["Haehyun - Tichondrius"] = "Haehyun - Tichondrius",
 		["Pillowaifu - Hydraxis"] = "Pillowaifu - Hydraxis",
 		["Edgelordxo - Hydraxis"] = "Edgelordxo - Hydraxis",
 		["Skivvix - Ghostlands"] = "Skivvix - Ghostlands",
 		["Ranevian - Alleria"] = "Ranevian - Alleria",
 		["Backstabi - Argent Dawn"] = "Backstabi - Argent Dawn",
-		["Moosebrew - Hydraxis"] = "Moosebrew - Hydraxis",
+		["Frostshocki - Hydraxis"] = "Frostshocki - Hydraxis",
 		["Necroticks - Hydraxis"] = "Necroticks - Hydraxis",
 		["Spetis - Ghostlands"] = "Spetis - Ghostlands",
-		["Scrublordxo - Terenas"] = "Scrublordxo - Terenas",
-		["Haehyun - Tichondrius"] = "Haehyun - Tichondrius",
+		["Akuugoromi - Tichondrius"] = "Akuugoromi - Tichondrius",
+		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
 		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Aubade - Ghostlands"] = "Aubade - Ghostlands",
-		["Akuugoromi - Tichondrius"] = "Akuugoromi - Tichondrius",
-		["Anyachi - Terenas"] = "Anyachi - Terenas",
+		["Scrublordxo - Terenas"] = "Scrublordxo - Terenas",
+		["Livika - Wyrmrest Accord"] = "Livika - Wyrmrest Accord",
 		["Anyatsu - Terenas"] = "Anyatsu - Terenas",
 		["Liviko - Wyrmrest Accord"] = "Liviko - Wyrmrest Accord",
 		["Backstabi - Proudmoore"] = "Backstabi - Proudmoore",
@@ -28,18 +28,18 @@ HandyNotes_LegionTreasuresDB = {
 		["Tekkita - Alleria"] = "Tekkita - Alleria",
 		["Anyatsu - Korgath"] = "Anyatsu - Korgath",
 		["Backstabi - Korgath"] = "Backstabi - Korgath",
-		["Livika - Wyrmrest Accord"] = "Livika - Wyrmrest Accord",
+		["Anyachi - Terenas"] = "Anyachi - Terenas",
 		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
 		["Aestrin - Ghostlands"] = "Aestrin - Ghostlands",
-		["Frostshocki - Hydraxis"] = "Frostshocki - Hydraxis",
+		["Moosebrew - Hydraxis"] = "Moosebrew - Hydraxis",
 	},
 	["profiles"] = {
 		["Calithil - Hydraxis"] = {
 		},
 		["Bagofsticks - Hydraxis"] = {
 		},
-		["Stabisign - Moon Guard"] = {
+		["Haehyun - Tichondrius"] = {
 		},
 		["Pillowaifu - Hydraxis"] = {
 		},
@@ -51,23 +51,23 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Backstabi - Argent Dawn"] = {
 		},
-		["Moosebrew - Hydraxis"] = {
+		["Frostshocki - Hydraxis"] = {
 		},
 		["Necroticks - Hydraxis"] = {
 		},
 		["Spetis - Ghostlands"] = {
 		},
-		["Scrublordxo - Terenas"] = {
+		["Akuugoromi - Tichondrius"] = {
 		},
-		["Haehyun - Tichondrius"] = {
+		["Stabisign - Moon Guard"] = {
 		},
 		["Blaettne - Blackrock"] = {
 		},
 		["Aubade - Ghostlands"] = {
 		},
-		["Akuugoromi - Tichondrius"] = {
+		["Scrublordxo - Terenas"] = {
 		},
-		["Anyachi - Terenas"] = {
+		["Livika - Wyrmrest Accord"] = {
 		},
 		["Anyatsu - Terenas"] = {
 		},
@@ -89,7 +89,7 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Backstabi - Korgath"] = {
 		},
-		["Livika - Wyrmrest Accord"] = {
+		["Anyachi - Terenas"] = {
 		},
 		["Backstabi - Ghostlands"] = {
 		},
@@ -97,7 +97,7 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Aestrin - Ghostlands"] = {
 		},
-		["Frostshocki - Hydraxis"] = {
+		["Moosebrew - Hydraxis"] = {
 		},
 	},
 }

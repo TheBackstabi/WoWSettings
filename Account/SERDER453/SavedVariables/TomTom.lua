@@ -4,19 +4,19 @@ TomTomDB = {
 		["Calithil - Hydraxis"] = "Default",
 		["Bagofsticks - Hydraxis"] = "Default",
 		["Pillowaifu - Hydraxis"] = "Default",
-		["Stabisign - Moon Guard"] = "Default",
+		["Haehyun - Tichondrius"] = "Default",
 		["Edgelordxo - Hydraxis"] = "Default",
 		["Ranevian - Alleria"] = "Default",
 		["Backstabi - Argent Dawn"] = "Default",
-		["Moosebrew - Hydraxis"] = "Default",
+		["Frostshocki - Hydraxis"] = "Default",
 		["Necroticks - Hydraxis"] = "Default",
 		["Skivvix - Ghostlands"] = "Default",
 		["Spetis - Ghostlands"] = "Default",
-		["Haehyun - Tichondrius"] = "Default",
-		["Liviko - Wyrmrest Accord"] = "Default",
+		["Stabisign - Moon Guard"] = "Default",
+		["Livika - Wyrmrest Accord"] = "Default",
 		["Aubade - Ghostlands"] = "Default",
 		["Scrublordxo - Terenas"] = "Default",
-		["Livika - Wyrmrest Accord"] = "Default",
+		["Anyachi - Terenas"] = "Default",
 		["Anyatsu - Terenas"] = "Default",
 		["Backstabi - Korgath"] = "Default",
 		["Backstabi - Proudmoore"] = "Default",
@@ -27,11 +27,11 @@ TomTomDB = {
 		["Tekkita - Alleria"] = "Default",
 		["Anyatsu - Korgath"] = "Default",
 		["Blaettne - Blackrock"] = "Default",
-		["Anyachi - Terenas"] = "Default",
+		["Liviko - Wyrmrest Accord"] = "Default",
 		["Tarrengerd - Terenas"] = "Default",
 		["Backstabi - Hydraxis"] = "Default",
 		["Aestrin - Ghostlands"] = "Default",
-		["Frostshocki - Hydraxis"] = "Default",
+		["Moosebrew - Hydraxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -44,19 +44,19 @@ TomTomWaypointsMF = {
 		["Calithil - Hydraxis"] = "Calithil - Hydraxis",
 		["Bagofsticks - Hydraxis"] = "Bagofsticks - Hydraxis",
 		["Pillowaifu - Hydraxis"] = "Pillowaifu - Hydraxis",
-		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
+		["Haehyun - Tichondrius"] = "Haehyun - Tichondrius",
 		["Edgelordxo - Hydraxis"] = "Edgelordxo - Hydraxis",
 		["Ranevian - Alleria"] = "Ranevian - Alleria",
 		["Backstabi - Argent Dawn"] = "Backstabi - Argent Dawn",
-		["Moosebrew - Hydraxis"] = "Moosebrew - Hydraxis",
+		["Frostshocki - Hydraxis"] = "Frostshocki - Hydraxis",
 		["Necroticks - Hydraxis"] = "Necroticks - Hydraxis",
 		["Skivvix - Ghostlands"] = "Skivvix - Ghostlands",
 		["Spetis - Ghostlands"] = "Spetis - Ghostlands",
-		["Haehyun - Tichondrius"] = "Haehyun - Tichondrius",
-		["Liviko - Wyrmrest Accord"] = "Liviko - Wyrmrest Accord",
+		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
+		["Livika - Wyrmrest Accord"] = "Livika - Wyrmrest Accord",
 		["Aubade - Ghostlands"] = "Aubade - Ghostlands",
 		["Scrublordxo - Terenas"] = "Scrublordxo - Terenas",
-		["Livika - Wyrmrest Accord"] = "Livika - Wyrmrest Accord",
+		["Anyachi - Terenas"] = "Anyachi - Terenas",
 		["Anyatsu - Terenas"] = "Anyatsu - Terenas",
 		["Backstabi - Korgath"] = "Backstabi - Korgath",
 		["Backstabi - Proudmoore"] = "Backstabi - Proudmoore",
@@ -67,11 +67,11 @@ TomTomWaypointsMF = {
 		["Tekkita - Alleria"] = "Tekkita - Alleria",
 		["Anyatsu - Korgath"] = "Anyatsu - Korgath",
 		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
-		["Anyachi - Terenas"] = "Anyachi - Terenas",
+		["Liviko - Wyrmrest Accord"] = "Liviko - Wyrmrest Accord",
 		["Tarrengerd - Terenas"] = "Tarrengerd - Terenas",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
 		["Aestrin - Ghostlands"] = "Aestrin - Ghostlands",
-		["Frostshocki - Hydraxis"] = "Frostshocki - Hydraxis",
+		["Moosebrew - Hydraxis"] = "Moosebrew - Hydraxis",
 	},
 	["profiles"] = {
 		["Calithil - Hydraxis"] = {
@@ -80,7 +80,7 @@ TomTomWaypointsMF = {
 		},
 		["Pillowaifu - Hydraxis"] = {
 		},
-		["Stabisign - Moon Guard"] = {
+		["Haehyun - Tichondrius"] = {
 		},
 		["Edgelordxo - Hydraxis"] = {
 		},
@@ -88,7 +88,7 @@ TomTomWaypointsMF = {
 		},
 		["Backstabi - Argent Dawn"] = {
 		},
-		["Moosebrew - Hydraxis"] = {
+		["Frostshocki - Hydraxis"] = {
 		},
 		["Necroticks - Hydraxis"] = {
 		},
@@ -96,15 +96,15 @@ TomTomWaypointsMF = {
 		},
 		["Spetis - Ghostlands"] = {
 		},
-		["Haehyun - Tichondrius"] = {
+		["Stabisign - Moon Guard"] = {
 		},
-		["Liviko - Wyrmrest Accord"] = {
+		["Livika - Wyrmrest Accord"] = {
 		},
 		["Aubade - Ghostlands"] = {
 		},
 		["Scrublordxo - Terenas"] = {
 		},
-		["Livika - Wyrmrest Accord"] = {
+		["Anyachi - Terenas"] = {
 		},
 		["Anyatsu - Terenas"] = {
 		},
@@ -126,7 +126,7 @@ TomTomWaypointsMF = {
 		},
 		["Blaettne - Blackrock"] = {
 		},
-		["Anyachi - Terenas"] = {
+		["Liviko - Wyrmrest Accord"] = {
 		},
 		["Tarrengerd - Terenas"] = {
 		},
@@ -134,7 +134,7 @@ TomTomWaypointsMF = {
 		},
 		["Aestrin - Ghostlands"] = {
 		},
-		["Frostshocki - Hydraxis"] = {
+		["Moosebrew - Hydraxis"] = {
 		},
 	},
 }

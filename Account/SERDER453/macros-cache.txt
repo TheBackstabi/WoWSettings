@@ -76,6 +76,11 @@ VER 3 0000000000000121 "DRU_Bloom" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][] Lifebloom
 END
+VER 3 0000000000000123 "DRU_Boom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Incarnation: Chosen of Elune
+/use Berserking
+END
 VER 3 00000000000000F9 "DRU_CancelForm" "134357"
 /cancelaura Cat Form
 /cancelaura Bear Form
@@ -132,6 +137,11 @@ END
 VER 3 0000000000000120 "DRU_Reg" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][] Regrowth
+END
+VER 3 0000000000000124 "DRU_Regen" "INV_MISC_QUESTIONMARK"
+#showtooltip Frenzied Regeneration
+/cast [noform:1] !Bear Form
+/use Frenzied Regeneration
 END
 VER 3 0000000000000087 "DRU_Rejuv" "INV_MISC_QUESTIONMARK"
 #showtooltip

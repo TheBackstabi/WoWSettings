@@ -1,2313 +1,2325 @@
 
 RCLootCouncilDB = {
 	["global"] = {
-		["locale"] = "enUS",
+		["oldVersion"] = "2.7.9",
 		["log"] = {
-			"18:09:58 - UpdatePlayersData()", -- [1]
-			"18:10:26 - Event: (ENCOUNTER_END) (1444) (Dark Shaman Koranthal) (1) (5) (1)", -- [2]
-			"18:10:30 - Event: (LOOT_OPENED) (1)", -- [3]
-			"18:10:30 - OnLootSlotCleared() (1) (nil)", -- [4]
-			"18:10:30 - OnLootSlotCleared() (2) (|cffffffff|Hitem:2589::::::::15:105::::::|h[Linen Cloth]|h|r)", -- [5]
-			"18:10:30 - Event: (LOOT_CLOSED)", -- [6]
-			"18:10:55 - Event: (LOOT_OPENED) (1)", -- [7]
-			"18:10:55 - OnLootSlotCleared() (1) (nil)", -- [8]
-			"18:10:56 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:818::::::::15:105::::::|h[Tigerseye]|h|r)", -- [9]
-			"18:10:56 - Event: (LOOT_CLOSED)", -- [10]
-			"18:10:57 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:818::::::::15:105::::::|h[Tigerseye]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [11]
-			"18:11:20 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:1210::::::::20:70::::::|h[Shadowgem]|h|r^t^^ (from:) (Sawketz-Stormrage) (distri:) (INSTANCE_CHAT)", -- [12]
-			"18:11:26 - Event: (ENCOUNTER_START) (1445) (Slagmaw) (1) (5)", -- [13]
-			"18:11:26 - UpdatePlayersData()", -- [14]
-			"18:12:01 - Event: (ENCOUNTER_END) (1445) (Slagmaw) (1) (5) (1)", -- [15]
-			"18:12:02 - Event: (LOOT_OPENED) (1)", -- [16]
-			"18:12:03 - OnLootSlotCleared() (1) (nil)", -- [17]
-			"18:12:03 - Event: (LOOT_CLOSED)", -- [18]
-			"18:12:50 - Event: (LOOT_OPENED) (1)", -- [19]
-			"18:12:51 - OnLootSlotCleared() (1) (nil)", -- [20]
-			"18:12:51 - Event: (LOOT_CLOSED)", -- [21]
-			"18:12:56 - Event: (ENCOUNTER_START) (1446) (Lava Guard Gordoth) (1) (5)", -- [22]
-			"18:12:56 - UpdatePlayersData()", -- [23]
-			"18:13:37 - Event: (ENCOUNTER_END) (1446) (Lava Guard Gordoth) (1) (5) (1)", -- [24]
-			"18:13:38 - Event: (LOOT_OPENED) (1)", -- [25]
-			"18:13:39 - OnLootSlotCleared() (1) (nil)", -- [26]
-			"18:13:39 - Event: (LOOT_CLOSED)", -- [27]
-			"18:13:50 - Event: (LOOT_CLOSED)", -- [28]
-			"18:14:03 - Event: (LOOT_OPENED) (1)", -- [29]
-			"18:14:04 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:10939::::::::17:105::::::|h[Greater Magic Essence]|h|r)", -- [30]
-			"18:14:04 - OnLootSlotCleared() (2) (|cffffffff|Hitem:10940::::::::17:105::::::|h[Strange Dust]|h|r)", -- [31]
-			"18:14:04 - Event: (LOOT_CLOSED)", -- [32]
-			"18:14:04 - Event: (LOOT_CLOSED)", -- [33]
-			"18:14:05 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:10939::::::::17:105::::::|h[Greater~`Magic~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [34]
-			"18:14:06 - Event: (LOOT_OPENED) (1)", -- [35]
-			"18:14:07 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:10939::::::::17:105::::::|h[Greater Magic Essence]|h|r)", -- [36]
-			"18:14:07 - Event: (LOOT_CLOSED)", -- [37]
-			"18:14:07 - Event: (LOOT_CLOSED)", -- [38]
-			"18:14:08 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:10939::::::::17:105::::::|h[Greater~`Magic~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [39]
-			"18:14:11 - Event: (PARTY_LEADER_CHANGED)", -- [40]
-			"18:14:11 - GetML()", -- [41]
-			"18:14:14 - Event: (GROUP_LEFT) (Party-3017-00002B399108)", -- [42]
-			"18:14:14 - GetML()", -- [43]
-			"18:14:14 - LootMethod =  (personalloot)", -- [44]
-			"18:14:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [45]
-			"18:14:18 - GetML()", -- [46]
-			"18:14:18 - LootMethod =  (personalloot)", -- [47]
-			"18:16:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [48]
-			"18:16:37 - GetML()", -- [49]
-			"18:16:37 - LootMethod =  (personalloot)", -- [50]
-			"18:16:46 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [51]
-			"18:16:46 - GetML()", -- [52]
-			"18:16:46 - LootMethod =  (personalloot)", -- [53]
-			"18:17:08 - Event: (PARTY_LEADER_CHANGED)", -- [54]
-			"18:17:08 - GetML()", -- [55]
-			"18:17:08 - LootMethod =  (personalloot)", -- [56]
-			"18:17:08 - Resetting council as we have a new ML!", -- [57]
-			"18:17:08 - MasterLooter =  (Anyatsu-Korgath)", -- [58]
-			"18:17:08 - GetCouncilInGroup (Anyatsu-Korgath)", -- [59]
-			"18:17:08 - ML:NewML (Anyatsu-Korgath)", -- [60]
-			"18:17:08 - UpdateMLdb", -- [61]
-			"18:17:08 - UpdateGroup (true)", -- [62]
-			"18:17:08 - ML:AddCandidate (Anyatsu-Korgath) (DRUID) (HEALER) (nil) (nil) (nil) (nil)", -- [63]
-			"18:17:08 - ML:AddCandidate (Bankrolfresh-Korgath) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [64]
-			"18:17:08 - GetCouncilInGroup (Anyatsu-Korgath)", -- [65]
-			"18:17:08 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [66]
-			"18:17:08 - GetML()", -- [67]
-			"18:17:08 - LootMethod =  (personalloot)", -- [68]
-			"18:17:09 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [69]
-			"18:17:09 - I'm an enchanter", -- [70]
-			"18:17:09 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [71]
-			"18:17:09 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [72]
-			"18:17:09 - Comm received:^1^Scandidates^T^N1^T^SBankrolfresh-Korgath^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SAnyatsu-Korgath^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [73]
-			"18:17:09 - Comm received:^1^Scouncil^T^N1^T^N1^SAnyatsu-Korgath^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [74]
-			"18:17:09 - true = (IsCouncil) (Anyatsu-Korgath)", -- [75]
-			"18:17:09 - GetLootDBStatistics()", -- [76]
-			"18:17:09 - RCVotingFrame (enabled)", -- [77]
-			"18:17:09 - Comm received:^1^SplayerInfo^T^N1^SBankrolfresh-Korgath^N2^SMAGE^N3^SDAMAGER^N4^SUnguilded^N6^N0^N7^N39.875^N8^N62^t^^ (from:) (Bankrolfresh) (distri:) (WHISPER)", -- [78]
-			"18:17:09 - ML:AddCandidate (Bankrolfresh-Korgath) (MAGE) (DAMAGER) (Unguilded) (nil) (0) (39.875)", -- [79]
-			"18:17:09 - Comm received:^1^SplayerInfo^T^N1^SAnyatsu-Korgath^N2^SDRUID^N3^SHEALER^N4^SUnguilded^N5^B^N6^N10^N7^N18^N8^N105^t^^ (from:) (Anyatsu) (distri:) (WHISPER)", -- [80]
-			"18:17:09 - ML:AddCandidate (Anyatsu-Korgath) (DRUID) (HEALER) (Unguilded) (true) (10) (18)", -- [81]
-			"18:17:14 - ML event (UI_INFO_MESSAGE) (774) (You are no longer queued.)", -- [82]
-			"18:17:15 - ML event (UI_INFO_MESSAGE) (763) (A role check has been initiated. Your group will be queued when all members have selected a role.)", -- [83]
-			"18:17:17 - ML event (UI_INFO_MESSAGE) (767) (You are now queued in the Dungeon Finder.)", -- [84]
-			"18:17:19 - Comm received:^1^Scouncil^T^N1^T^N1^SAnyatsu-Korgath^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [85]
-			"18:17:19 - true = (IsCouncil) (Anyatsu-Korgath)", -- [86]
-			"18:17:19 - Comm received:^1^Scandidates^T^N1^T^SBankrolfresh-Korgath^T^Srole^SDAMAGER^SspecID^N39.875^Senchant_lvl^N0^Sclass^SMAGE^Srank^SUnguilded^t^SAnyatsu-Korgath^T^Srole^SHEALER^SspecID^N18^Senchant_lvl^N10^Sclass^SDRUID^Senchanter^B^Srank^SUnguilded^t^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [87]
-			"18:17:23 - Timer MLdb_check passed", -- [88]
-			"18:17:52 - ML event (CHAT_MSG_LOOT) (You receive item: |cffffffff|Hitem:92788::::::::17:105::14::::|h[Ride Ticket Book]|h|r.) () () () (Anyatsu) () (0) (0) () (0) (1211) (nil) (0) (false) (false) (false) (false)", -- [89]
-			"18:17:55 - Event: (LOOT_OPENED) (1)", -- [90]
-			"18:17:55 - OnLootSlotCleared() (1) (|cffffffff|Hitem:81055::::::::17:105::::::|h[Darkmoon Ride Ticket]|h|r)", -- [91]
-			"18:17:55 - Event: (LOOT_CLOSED)", -- [92]
-			"18:17:55 - Event: (LOOT_CLOSED)", -- [93]
-			"18:17:55 - ML event (CHAT_MSG_LOOT) (You receive loot: |cffffffff|Hitem:81055::::::::17:105::::::|h[Darkmoon Ride Ticket]|h|rx5.) () () () (Anyatsu) () (0) (0) () (0) (1212) (nil) (0) (false) (false) (false) (false)", -- [94]
-			"18:26:39 - ML event (UI_INFO_MESSAGE) (760) (You have been removed from the queue because someone in your party did not accept the invitation.)", -- [95]
-			"18:42:18 - ML event (UI_INFO_MESSAGE) (763) (A role check has been initiated. Your group will be queued when all members have selected a role.)", -- [96]
-			"18:42:20 - ML event (UI_INFO_MESSAGE) (767) (You are now queued in the Dungeon Finder.)", -- [97]
-			"18:52:08 - Event: (PARTY_LEADER_CHANGED)", -- [98]
-			"18:52:08 - GetML()", -- [99]
-			"18:52:08 - ML Disabled", -- [100]
-			"18:52:08 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [101]
-			"18:52:08 - GetML()", -- [102]
-			"18:52:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [103]
-			"18:52:11 - GetML()", -- [104]
-			"18:53:36 - Event: (LOOT_OPENED) (1)", -- [105]
-			"18:53:36 - OnLootSlotCleared() (1) (nil)", -- [106]
-			"18:53:36 - Event: (LOOT_CLOSED)", -- [107]
-			"18:53:57 - Event: (LOOT_OPENED) (1)", -- [108]
-			"18:53:58 - Event: (LOOT_CLOSED)", -- [109]
-			"18:54:19 - Event: (ENCOUNTER_START) (1064) (Glubtok) (1) (5)", -- [110]
-			"18:54:19 - UpdatePlayersData()", -- [111]
-			"18:55:04 - Event: (ENCOUNTER_END) (1064) (Glubtok) (1) (5) (1)", -- [112]
-			"18:55:06 - Event: (LOOT_OPENED) (1)", -- [113]
-			"18:55:06 - OnLootSlotCleared() (1) (nil)", -- [114]
-			"18:55:07 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:5444::::::::17:105::1:1:4005:::|h[Miner's Cape]|h|r)", -- [115]
-			"18:55:07 - Event: (LOOT_CLOSED)", -- [116]
-			"18:55:48 - Event: (LOOT_OPENED) (1)", -- [117]
-			"18:55:49 - Event: (LOOT_CLOSED)", -- [118]
-			"18:56:36 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Bankrolfresh) (distri:) (WHISPER)", -- [119]
-			"18:56:36 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Bankrolfresh) (distri:) (WHISPER)", -- [120]
-			"18:56:48 - Event: (LOOT_OPENED) (1)", -- [121]
-			"18:56:48 - Event: (LOOT_CLOSED)", -- [122]
-			"18:58:16 - Event: (ENCOUNTER_START) (1065) (Helix Gearbreaker) (1) (5)", -- [123]
-			"18:58:16 - UpdatePlayersData()", -- [124]
-			"18:58:21 - Event: (LOOT_OPENED) (1)", -- [125]
-			"18:58:22 - OnLootSlotCleared() (1) (nil)", -- [126]
-			"18:58:22 - Event: (LOOT_CLOSED)", -- [127]
-			"18:59:18 - Event: (ENCOUNTER_END) (1065) (Helix Gearbreaker) (1) (5) (1)", -- [128]
-			"18:59:19 - Event: (LOOT_OPENED) (1)", -- [129]
-			"18:59:19 - OnLootSlotCleared() (1) (nil)", -- [130]
-			"18:59:19 - Event: (LOOT_CLOSED)", -- [131]
-			"18:59:46 - Event: (LOOT_OPENED) (1)", -- [132]
-			"18:59:46 - OnLootSlotCleared() (1) (nil)", -- [133]
-			"18:59:46 - Event: (LOOT_CLOSED)", -- [134]
-			"19:00:07 - Event: (LOOT_OPENED) (1)", -- [135]
-			"19:00:08 - OnLootSlotCleared() (1) (nil)", -- [136]
-			"19:00:08 - Event: (LOOT_CLOSED)", -- [137]
-			"19:02:08 - Event: (ENCOUNTER_START) (1063) (Foe Reaper 5000) (1) (5)", -- [138]
-			"19:02:08 - UpdatePlayersData()", -- [139]
-			"19:02:51 - Event: (ENCOUNTER_END) (1063) (Foe Reaper 5000) (1) (5) (1)", -- [140]
-			"19:02:57 - Event: (LOOT_OPENED) (1)", -- [141]
-			"19:02:57 - OnLootSlotCleared() (1) (nil)", -- [142]
-			"19:02:57 - Event: (LOOT_CLOSED)", -- [143]
-			"19:03:02 - Event: (LOOT_OPENED) (1)", -- [144]
-			"19:03:03 - OnLootSlotCleared() (1) (|cffffffff|Hitem:4364::::::::18:105::::::|h[Coarse Blasting Powder]|h|r)", -- [145]
-			"19:03:03 - Event: (LOOT_CLOSED)", -- [146]
-			"19:03:03 - Event: (LOOT_CLOSED)", -- [147]
-			"19:03:30 - Event: (LOOT_OPENED) (1)", -- [148]
-			"19:03:30 - Event: (LOOT_CLOSED)", -- [149]
-			"19:04:18 - Event: (LOOT_OPENED) (1)", -- [150]
-			"19:04:19 - Event: (LOOT_CLOSED)", -- [151]
-			"19:04:48 - Event: (LOOT_OPENED) (1)", -- [152]
-			"19:04:48 - Event: (LOOT_CLOSED)", -- [153]
-			"19:07:03 - Event: (LOOT_OPENED) (1)", -- [154]
-			"19:07:03 - Event: (LOOT_CLOSED)", -- [155]
-			"19:07:31 - Event: (LOOT_OPENED) (1)", -- [156]
-			"19:07:32 - Event: (LOOT_CLOSED)", -- [157]
-			"19:07:39 - Event: (LOOT_OPENED) (1)", -- [158]
-			"19:07:39 - Event: (LOOT_CLOSED)", -- [159]
-			"19:07:43 - Event: (ENCOUNTER_START) (1062) (Admiral Ripsnarl) (1) (5)", -- [160]
-			"19:07:43 - UpdatePlayersData()", -- [161]
-			"19:09:07 - Event: (ENCOUNTER_END) (1062) (Admiral Ripsnarl) (1) (5) (1)", -- [162]
-			"19:09:09 - Event: (LOOT_OPENED) (1)", -- [163]
-			"19:09:09 - OnLootSlotCleared() (1) (nil)", -- [164]
-			"19:09:09 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:1156::::::::18:105::1:1:4005:::|h[Lavishly Jeweled Ring]|h|r)", -- [165]
-			"19:09:09 - Event: (LOOT_CLOSED)", -- [166]
-			"19:09:21 - Event: (ENCOUNTER_START) (1060) (\"Captain\" Cookie) (1) (5)", -- [167]
-			"19:09:21 - UpdatePlayersData()", -- [168]
-			"19:10:01 - Event: (ENCOUNTER_END) (1060) (\"Captain\" Cookie) (1) (5) (1)", -- [169]
-			"19:10:04 - Event: (LOOT_OPENED) (1)", -- [170]
-			"19:10:04 - OnLootSlotCleared() (1) (nil)", -- [171]
-			"19:10:04 - Event: (LOOT_CLOSED)", -- [172]
-			"19:10:10 - Event: (LOOT_CLOSED)", -- [173]
-			"19:10:26 - Event: (LOOT_OPENED) (1)", -- [174]
-			"19:10:26 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:10939::::::::20:105::::::|h[Greater Magic Essence]|h|r)", -- [175]
-			"19:10:26 - Event: (LOOT_CLOSED)", -- [176]
-			"19:10:26 - Event: (LOOT_CLOSED)", -- [177]
-			"19:10:28 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:10939::::::::20:105::::::|h[Greater~`Magic~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [178]
-			"19:10:29 - Event: (LOOT_OPENED) (1)", -- [179]
-			"19:10:29 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:10939::::::::20:105::::::|h[Greater Magic Essence]|h|r)", -- [180]
-			"19:10:29 - Event: (LOOT_CLOSED)", -- [181]
-			"19:10:29 - Event: (LOOT_CLOSED)", -- [182]
-			"19:10:30 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:10939::::::::20:105::::::|h[Greater~`Magic~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [183]
-			"19:10:32 - Event: (GROUP_LEFT) (Party-3017-00002B39C4FA)", -- [184]
-			"19:10:32 - GetML()", -- [185]
-			"19:10:32 - LootMethod =  (personalloot)", -- [186]
-			"19:10:32 - Resetting council as we have a new ML!", -- [187]
-			"19:10:32 - MasterLooter =  (Anyatsu-Korgath)", -- [188]
-			"19:10:32 - GetCouncilInGroup (Anyatsu-Korgath)", -- [189]
-			"19:10:32 - ML:NewML (Anyatsu-Korgath)", -- [190]
-			"19:10:32 - UpdateMLdb", -- [191]
-			"19:10:32 - UpdateGroup (true)", -- [192]
-			"19:10:32 - ML:AddCandidate (Anyatsu-Korgath) (DRUID) (HEALER) (nil) (nil) (nil) (nil)", -- [193]
-			"19:10:32 - ML:AddCandidate (Bankrolfresh-Korgath) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [194]
-			"19:10:32 - GetCouncilInGroup (Anyatsu-Korgath)", -- [195]
-			"19:10:32 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [196]
-			"19:10:32 - I'm an enchanter", -- [197]
-			"19:10:32 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [198]
-			"19:10:32 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [199]
-			"19:10:33 - Comm received:^1^Scandidates^T^N1^T^SBankrolfresh-Korgath^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SAnyatsu-Korgath^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [200]
-			"19:10:33 - Comm received:^1^Scouncil^T^N1^T^N1^SAnyatsu-Korgath^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [201]
-			"19:10:33 - true = (IsCouncil) (Anyatsu-Korgath)", -- [202]
-			"19:10:33 - Comm received:^1^SplayerInfo^T^N1^SAnyatsu-Korgath^N2^SDRUID^N3^SHEALER^N4^SUnguilded^N5^B^N6^N13^N7^N22.5625^N8^N105^t^^ (from:) (Anyatsu) (distri:) (WHISPER)", -- [203]
-			"19:10:33 - ML:AddCandidate (Anyatsu-Korgath) (DRUID) (HEALER) (Unguilded) (true) (13) (22.5625)", -- [204]
-			"19:10:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [205]
-			"19:10:37 - GetML()", -- [206]
-			"19:10:37 - LootMethod =  (personalloot)", -- [207]
-			"19:10:42 - UpdateGroup (table: 0000016A75237A10)", -- [208]
-			"19:10:43 - Comm received:^1^Scouncil^T^N1^T^N1^SAnyatsu-Korgath^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [209]
-			"19:10:43 - true = (IsCouncil) (Anyatsu-Korgath)", -- [210]
-			"19:10:43 - Comm received:^1^Scandidates^T^N1^T^SBankrolfresh-Korgath^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SAnyatsu-Korgath^T^Srole^SHEALER^SspecID^N22.5625^Senchant_lvl^N13^Sclass^SDRUID^Senchanter^B^Srank^SUnguilded^t^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [211]
-			"19:10:47 - Timer MLdb_check passed", -- [212]
-			"04/04/18", -- [213]
-			"16:26:23 - Logged In", -- [214]
-			"16:26:23 - ML initialized!", -- [215]
-			"16:26:34 - Anyatsu-Korgath (2.7.9) (nil)", -- [216]
-			"16:26:34 - ActivateSkin (new_blue)", -- [217]
-			"16:26:42 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [218]
-			"16:26:42 - GetML()", -- [219]
-			"16:26:42 - LootMethod =  (personalloot)", -- [220]
-			"16:26:42 - UpdatePlayersData()", -- [221]
-			"16:35:27 - Event: (PARTY_LEADER_CHANGED)", -- [222]
-			"16:35:27 - GetML()", -- [223]
-			"16:35:27 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [224]
-			"16:35:27 - GetML()", -- [225]
-			"16:35:36 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [226]
-			"16:35:36 - GetML()", -- [227]
-			"16:37:35 - Event: (LOOT_OPENED) (1)", -- [228]
-			"16:37:36 - OnLootSlotCleared() (1) (nil)", -- [229]
-			"16:37:36 - Event: (LOOT_CLOSED)", -- [230]
-			"16:38:14 - Event: (ENCOUNTER_START) (1069) (Baron Ashbury) (1) (5)", -- [231]
-			"16:38:14 - UpdatePlayersData()", -- [232]
-			"16:39:18 - Event: (ENCOUNTER_END) (1069) (Baron Ashbury) (1) (5) (1)", -- [233]
-			"16:39:21 - Event: (LOOT_OPENED) (1)", -- [234]
-			"16:39:21 - OnLootSlotCleared() (1) (nil)", -- [235]
-			"16:39:21 - Event: (LOOT_CLOSED)", -- [236]
-			"16:40:53 - Event: (LOOT_OPENED) (1)", -- [237]
-			"16:40:54 - OnLootSlotCleared() (1) (nil)", -- [238]
-			"16:40:54 - Event: (LOOT_CLOSED)", -- [239]
-			"16:43:29 - Event: (LOOT_OPENED) (1)", -- [240]
-			"16:43:30 - OnLootSlotCleared() (1) (nil)", -- [241]
-			"16:43:30 - OnLootSlotCleared() (2) (|cffffffff|Hitem:2589::::::::20:105::::::|h[Linen Cloth]|h|r)", -- [242]
-			"16:43:30 - Event: (LOOT_CLOSED)", -- [243]
-			"16:43:31 - Event: (LOOT_OPENED) (1)", -- [244]
-			"16:43:31 - Event: (LOOT_CLOSED)", -- [245]
-			"16:43:36 - Event: (LOOT_OPENED) (1)", -- [246]
-			"16:43:36 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:10939::::::::20:105::::::|h[Greater Magic Essence]|h|r)", -- [247]
-			"16:43:36 - Event: (LOOT_CLOSED)", -- [248]
-			"16:43:36 - Event: (LOOT_CLOSED)", -- [249]
-			"16:43:37 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:10939::::::::20:105::::::|h[Greater~`Magic~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [250]
-			"16:44:56 - Event: (ENCOUNTER_START) (1070) (Baron Silverlaine) (1) (5)", -- [251]
-			"16:44:56 - UpdatePlayersData()", -- [252]
-			"16:45:53 - Event: (ENCOUNTER_END) (1070) (Baron Silverlaine) (1) (5) (1)", -- [253]
-			"16:45:57 - Event: (LOOT_OPENED) (1)", -- [254]
-			"16:45:57 - OnLootSlotCleared() (1) (nil)", -- [255]
-			"16:45:57 - OnLootSlotCleared() (2) (|cffffffff|Hitem:2592::::::::20:105::::::|h[Wool Cloth]|h|r)", -- [256]
-			"16:45:57 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:6319::::::::20:105::1:1:4049:::|h[Girdle of the Blindwatcher]|h|r)", -- [257]
-			"16:45:57 - Event: (LOOT_CLOSED)", -- [258]
-			"16:47:58 - Event: (LOOT_OPENED) (1)", -- [259]
-			"16:47:58 - OnLootSlotCleared() (1) (nil)", -- [260]
-			"16:47:59 - OnLootSlotCleared() (2) (|cffffffff|Hitem:2592::::::::20:105::::::|h[Wool Cloth]|h|r)", -- [261]
-			"16:47:59 - Event: (LOOT_CLOSED)", -- [262]
-			"16:48:12 - Event: (LOOT_OPENED) (1)", -- [263]
-			"16:48:13 - Event: (LOOT_CLOSED)", -- [264]
-			"16:49:57 - Event: (LOOT_OPENED) (1)", -- [265]
-			"16:49:57 - Event: (LOOT_CLOSED)", -- [266]
-			"16:50:02 - Event: (LOOT_OPENED) (1)", -- [267]
-			"16:50:03 - OnLootSlotCleared() (1) (|cffffffff|Hitem:10940::::::::20:105::::::|h[Strange Dust]|h|r)", -- [268]
-			"16:50:03 - Event: (LOOT_CLOSED)", -- [269]
-			"16:50:03 - Event: (LOOT_CLOSED)", -- [270]
-			"16:50:42 - Event: (LOOT_CLOSED)", -- [271]
-			"16:51:15 - Event: (ENCOUNTER_START) (1071) (Commander Springvale) (1) (5)", -- [272]
-			"16:51:15 - UpdatePlayersData()", -- [273]
-			"04/04/18", -- [274]
-			"16:51:45 - Logged In", -- [275]
-			"16:51:45 - ML initialized!", -- [276]
-			"16:51:49 - Anyatsu-Korgath (2.7.9) (nil)", -- [277]
-			"16:51:49 - ActivateSkin (new_blue)", -- [278]
-			"16:51:57 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [279]
-			"16:51:57 - GetML()", -- [280]
-			"16:51:57 - LootMethod =  (personalloot)", -- [281]
-			"16:51:57 - UpdatePlayersData()", -- [282]
-			"16:51:59 - Event: (PARTY_LEADER_CHANGED)", -- [283]
-			"16:51:59 - GetML()", -- [284]
-			"16:51:59 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [285]
-			"16:51:59 - GetML()", -- [286]
-			"16:52:38 - Event: (ENCOUNTER_END) (1071) (Commander Springvale) (1) (5) (1)", -- [287]
-			"16:52:54 - Event: (LOOT_CLOSED)", -- [288]
-			"16:52:56 - Event: (LOOT_OPENED) (1)", -- [289]
-			"16:52:56 - OnLootSlotCleared() (1) (nil)", -- [290]
-			"16:52:56 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:151068::::::::20:105::1:1:4049:::|h[Boots of the Predator]|h|r)", -- [291]
-			"16:52:56 - OnLootSlotCleared() (3) (|cffffffff|Hitem:2592::::::::20:105::::::|h[Wool Cloth]|h|r)", -- [292]
-			"16:52:56 - Event: (LOOT_CLOSED)", -- [293]
-			"16:54:11 - Event: (LOOT_OPENED) (1)", -- [294]
-			"16:54:11 - OnLootSlotCleared() (1) (nil)", -- [295]
-			"16:54:11 - Event: (LOOT_CLOSED)", -- [296]
-			"16:55:41 - Event: (LOOT_OPENED) (1)", -- [297]
-			"16:55:41 - OnLootSlotCleared() (1) (nil)", -- [298]
-			"16:55:41 - Event: (LOOT_CLOSED)", -- [299]
-			"16:58:41 - Event: (ENCOUNTER_START) (1073) (Lord Walden) (1) (5)", -- [300]
-			"16:58:41 - UpdatePlayersData()", -- [301]
-			"16:59:41 - Event: (ENCOUNTER_END) (1073) (Lord Walden) (1) (5) (1)", -- [302]
-			"16:59:48 - Event: (LOOT_OPENED) (1)", -- [303]
-			"16:59:48 - OnLootSlotCleared() (1) (nil)", -- [304]
-			"16:59:48 - Event: (LOOT_CLOSED)", -- [305]
-			"17:00:16 - Event: (LOOT_OPENED) (1)", -- [306]
-			"17:00:17 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:10939::::::::21:105::::::|h[Greater Magic Essence]|h|r)", -- [307]
-			"17:00:17 - Event: (LOOT_CLOSED)", -- [308]
-			"17:00:17 - Event: (LOOT_CLOSED)", -- [309]
-			"17:00:18 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:10939::::::::21:105::::::|h[Greater~`Magic~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [310]
-			"17:01:46 - Event: (LOOT_OPENED) (1)", -- [311]
-			"17:01:46 - OnLootSlotCleared() (1) (nil)", -- [312]
-			"17:01:47 - Event: (LOOT_CLOSED)", -- [313]
-			"17:02:18 - Event: (ENCOUNTER_START) (1072) (Lord Godfrey) (1) (5)", -- [314]
-			"17:02:18 - UpdatePlayersData()", -- [315]
-			"17:05:04 - Event: (ENCOUNTER_END) (1072) (Lord Godfrey) (1) (5) (1)", -- [316]
-			"17:05:06 - Event: (LOOT_OPENED) (1)", -- [317]
-			"17:05:07 - OnLootSlotCleared() (1) (nil)", -- [318]
-			"17:05:07 - Event: (LOOT_CLOSED)", -- [319]
-			"17:05:12 - Event: (LOOT_CLOSED)", -- [320]
-			"17:05:37 - Event: (LOOT_OPENED) (1)", -- [321]
-			"17:05:38 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::22:105::::::|h[Small Brilliant Shard]|h|r)", -- [322]
-			"17:05:38 - Event: (LOOT_CLOSED)", -- [323]
-			"17:05:38 - Event: (LOOT_CLOSED)", -- [324]
-			"17:05:39 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::22:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [325]
-			"17:06:21 - Event: (GROUP_LEFT) (Party-3017-00002B3D34A5)", -- [326]
-			"17:06:21 - GetML()", -- [327]
-			"17:06:21 - LootMethod =  (personalloot)", -- [328]
-			"17:06:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [329]
-			"17:06:26 - GetML()", -- [330]
-			"17:06:26 - LootMethod =  (personalloot)", -- [331]
-			"17:10:24 - Event: (PARTY_LEADER_CHANGED)", -- [332]
-			"17:10:24 - GetML()", -- [333]
-			"17:10:24 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [334]
-			"17:10:24 - GetML()", -- [335]
-			"17:10:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [336]
-			"17:10:28 - GetML()", -- [337]
-			"17:11:59 - Event: (LOOT_OPENED) (1)", -- [338]
-			"17:11:59 - OnLootSlotCleared() (1) (|cffffffff|Hitem:6443::::::::22:105::::::|h[Deviate Hide]|h|r)", -- [339]
-			"17:11:59 - Event: (LOOT_CLOSED)", -- [340]
-			"17:12:17 - Event: (LOOT_OPENED) (1)", -- [341]
-			"17:12:17 - Event: (LOOT_CLOSED)", -- [342]
-			"17:12:37 - Event: (LOOT_OPENED) (1)", -- [343]
-			"17:12:37 - Event: (LOOT_CLOSED)", -- [344]
-			"17:12:57 - Event: (ENCOUNTER_START) (585) (Lady Anacondra) (1) (5)", -- [345]
-			"17:12:57 - UpdatePlayersData()", -- [346]
-			"17:13:40 - Event: (ENCOUNTER_END) (585) (Lady Anacondra) (1) (5) (1)", -- [347]
-			"17:13:42 - Event: (LOOT_OPENED) (1)", -- [348]
-			"17:13:42 - OnLootSlotCleared() (1) (nil)", -- [349]
-			"17:13:42 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:5404::::::::22:105::1:1:4068:::|h[Serpent's Shoulders]|h|r)", -- [350]
-			"17:13:42 - Event: (LOOT_CLOSED)", -- [351]
-			"17:14:03 - Event: (LOOT_OPENED) (1)", -- [352]
-			"17:14:04 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::22:105::::::|h[Small Brilliant Shard]|h|r)", -- [353]
-			"17:14:04 - Event: (LOOT_CLOSED)", -- [354]
-			"17:14:04 - Event: (LOOT_CLOSED)", -- [355]
-			"17:14:05 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::22:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [356]
-			"17:14:07 - Event: (LOOT_OPENED) (1)", -- [357]
-			"17:14:08 - OnLootSlotCleared() (1) (|cffffffff|Hitem:6443::::::::22:105::::::|h[Deviate Hide]|h|r)", -- [358]
-			"17:14:08 - Event: (LOOT_CLOSED)", -- [359]
-			"17:14:08 - Event: (LOOT_CLOSED)", -- [360]
-			"17:14:27 - Event: (LOOT_OPENED) (1)", -- [361]
-			"17:14:28 - Event: (LOOT_CLOSED)", -- [362]
-			"17:14:34 - Event: (LOOT_OPENED) (1)", -- [363]
-			"17:14:35 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:5124::::::::22:105::::::|h[Small Raptor Tooth]|h|r)", -- [364]
-			"17:14:35 - Event: (LOOT_CLOSED)", -- [365]
-			"17:15:50 - Event: (LOOT_OPENED) (1)", -- [366]
-			"17:15:50 - OnLootSlotCleared() (1) (|cffffffff|Hitem:6443::::::::22:105::::::|h[Deviate Hide]|h|r)", -- [367]
-			"17:15:50 - Event: (LOOT_CLOSED)", -- [368]
-			"17:15:50 - Event: (LOOT_CLOSED)", -- [369]
-			"17:16:09 - Event: (ENCOUNTER_START) (587) (Kresh) (1) (5)", -- [370]
-			"17:16:09 - UpdatePlayersData()", -- [371]
-			"17:16:32 - Event: (ENCOUNTER_END) (587) (Kresh) (1) (5) (1)", -- [372]
-			"17:16:33 - Event: (LOOT_OPENED) (1)", -- [373]
-			"17:16:33 - OnLootSlotCleared() (1) (|cffffffff|Hitem:6443::::::::22:105::::::|h[Deviate Hide]|h|r)", -- [374]
-			"17:16:33 - OnLootSlotCleared() (2) (nil)", -- [375]
-			"17:16:33 - Event: (LOOT_CLOSED)", -- [376]
-			"17:16:33 - Event: (LOOT_CLOSED)", -- [377]
-			"17:17:20 - Event: (LOOT_OPENED) (1)", -- [378]
-			"17:17:21 - OnLootSlotCleared() (1) (|cffffffff|Hitem:6443::::::::22:105::::::|h[Deviate Hide]|h|r)", -- [379]
-			"17:17:21 - Event: (LOOT_CLOSED)", -- [380]
-			"17:17:21 - Event: (LOOT_CLOSED)", -- [381]
-			"17:17:38 - Event: (LOOT_OPENED) (1)", -- [382]
-			"17:17:38 - Event: (LOOT_CLOSED)", -- [383]
-			"17:17:51 - Event: (LOOT_OPENED) (1)", -- [384]
-			"17:17:51 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5339::::::::22:105::::::|h[Serpentbloom]|h|r)", -- [385]
-			"17:17:51 - Event: (LOOT_CLOSED)", -- [386]
-			"17:17:51 - Event: (LOOT_CLOSED)", -- [387]
-			"17:17:54 - Event: (LOOT_OPENED) (1)", -- [388]
-			"17:17:54 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5339::::::::22:105::::::|h[Serpentbloom]|h|r)", -- [389]
-			"17:17:54 - Event: (LOOT_CLOSED)", -- [390]
-			"17:17:54 - Event: (LOOT_CLOSED)", -- [391]
-			"17:17:57 - Event: (ENCOUNTER_START) (589) (Skum) (1) (5)", -- [392]
-			"17:17:57 - UpdatePlayersData()", -- [393]
-			"17:18:34 - Event: (ENCOUNTER_END) (589) (Skum) (1) (5) (1)", -- [394]
-			"17:18:37 - Event: (LOOT_OPENED) (1)", -- [395]
-			"17:18:37 - OnLootSlotCleared() (1) (nil)", -- [396]
-			"17:18:37 - Event: (LOOT_CLOSED)", -- [397]
-			"17:18:48 - Event: (LOOT_OPENED) (1)", -- [398]
-			"17:18:48 - Event: (LOOT_CLOSED)", -- [399]
-			"17:19:24 - Event: (LOOT_OPENED) (1)", -- [400]
-			"17:19:24 - Event: (LOOT_CLOSED)", -- [401]
-			"17:19:46 - Event: (LOOT_OPENED) (1)", -- [402]
-			"17:19:46 - Event: (LOOT_CLOSED)", -- [403]
-			"17:20:00 - Event: (LOOT_OPENED) (1)", -- [404]
-			"17:20:00 - Event: (LOOT_CLOSED)", -- [405]
-			"17:20:45 - Event: (LOOT_OPENED) (1)", -- [406]
-			"17:20:45 - Event: (LOOT_CLOSED)", -- [407]
-			"17:22:57 - Event: (ENCOUNTER_START) (590) (Lord Serpentis) (1) (5)", -- [408]
-			"17:22:57 - UpdatePlayersData()", -- [409]
-			"17:23:37 - Event: (ENCOUNTER_END) (590) (Lord Serpentis) (1) (5) (1)", -- [410]
-			"17:23:41 - Event: (LOOT_OPENED) (1)", -- [411]
-			"17:23:41 - OnLootSlotCleared() (1) (nil)", -- [412]
-			"17:23:41 - Event: (LOOT_CLOSED)", -- [413]
-			"17:23:48 - Event: (ENCOUNTER_START) (591) (Verdan the Everliving) (1) (5)", -- [414]
-			"17:23:48 - UpdatePlayersData()", -- [415]
-			"17:24:30 - Event: (ENCOUNTER_END) (591) (Verdan the Everliving) (1) (5) (1)", -- [416]
-			"17:24:33 - Event: (LOOT_OPENED) (1)", -- [417]
-			"17:24:33 - OnLootSlotCleared() (1) (nil)", -- [418]
-			"17:24:33 - Event: (LOOT_CLOSED)", -- [419]
-			"17:24:37 - Event: (LOOT_OPENED) (1)", -- [420]
-			"17:24:37 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::22:105::::::|h[Small Brilliant Shard]|h|r)", -- [421]
-			"17:24:37 - Event: (LOOT_CLOSED)", -- [422]
-			"17:24:37 - Event: (LOOT_CLOSED)", -- [423]
-			"17:24:39 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::22:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [424]
-			"17:25:02 - Event: (LOOT_OPENED) (1)", -- [425]
-			"17:25:02 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5339::::::::22:105::::::|h[Serpentbloom]|h|r)", -- [426]
-			"17:25:02 - Event: (LOOT_CLOSED)", -- [427]
-			"17:25:02 - Event: (LOOT_CLOSED)", -- [428]
-			"17:25:32 - Event: (LOOT_OPENED) (1)", -- [429]
-			"17:25:32 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5339::::::::22:105::::::|h[Serpentbloom]|h|r)", -- [430]
-			"17:25:32 - Event: (LOOT_CLOSED)", -- [431]
-			"17:25:32 - Event: (LOOT_CLOSED)", -- [432]
-			"17:26:13 - Event: (LOOT_OPENED) (1)", -- [433]
-			"17:26:14 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5339::::::::22:105::::::|h[Serpentbloom]|h|r)", -- [434]
-			"17:26:14 - Event: (LOOT_CLOSED)", -- [435]
-			"17:26:14 - Event: (LOOT_CLOSED)", -- [436]
-			"17:26:58 - Event: (LOOT_OPENED) (1)", -- [437]
-			"17:26:58 - OnLootSlotCleared() (1) (nil)", -- [438]
-			"17:26:58 - Event: (LOOT_CLOSED)", -- [439]
-			"17:27:10 - Event: (ENCOUNTER_START) (588) (Lord Pythas) (1) (5)", -- [440]
-			"17:27:10 - UpdatePlayersData()", -- [441]
-			"17:27:42 - Event: (ENCOUNTER_END) (588) (Lord Pythas) (1) (5) (1)", -- [442]
-			"17:27:45 - Event: (LOOT_OPENED) (1)", -- [443]
-			"17:27:45 - OnLootSlotCleared() (1) (nil)", -- [444]
-			"17:27:45 - OnLootSlotCleared() (2) (|cffffffff|Hitem:2589::::::::22:105::::::|h[Linen Cloth]|h|r)", -- [445]
-			"17:27:45 - Event: (LOOT_CLOSED)", -- [446]
-			"17:29:30 - Event: (LOOT_OPENED) (1)", -- [447]
-			"17:29:31 - OnLootSlotCleared() (1) (nil)", -- [448]
-			"17:29:31 - Event: (LOOT_CLOSED)", -- [449]
-			"17:30:22 - Event: (ENCOUNTER_START) (586) (Lord Cobrahn) (1) (5)", -- [450]
-			"17:30:22 - UpdatePlayersData()", -- [451]
-			"17:30:51 - Event: (ENCOUNTER_END) (586) (Lord Cobrahn) (1) (5) (1)", -- [452]
-			"17:30:54 - Event: (LOOT_OPENED) (1)", -- [453]
-			"17:30:54 - OnLootSlotCleared() (1) (nil)", -- [454]
-			"17:30:54 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:10410::::::::23:105::1:1:4068:::|h[Leggings of the Fang]|h|r)", -- [455]
-			"17:30:54 - Event: (LOOT_CLOSED)", -- [456]
-			"17:31:56 - Event: (LOOT_OPENED) (1)", -- [457]
-			"17:31:56 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::23:105::::::|h[Small Brilliant Shard]|h|r)", -- [458]
-			"17:31:56 - Event: (LOOT_CLOSED)", -- [459]
-			"17:31:56 - Event: (LOOT_CLOSED)", -- [460]
-			"17:31:57 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::23:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [461]
-			"17:31:58 - Event: (LOOT_OPENED) (1)", -- [462]
-			"17:31:59 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::23:105::::::|h[Small Brilliant Shard]|h|r)", -- [463]
-			"17:31:59 - Event: (LOOT_CLOSED)", -- [464]
-			"17:31:59 - Event: (LOOT_CLOSED)", -- [465]
-			"17:32:00 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::23:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [466]
-			"17:33:29 - Event: (LOOT_OPENED) (1)", -- [467]
-			"17:33:29 - Event: (LOOT_CLOSED)", -- [468]
-			"17:35:15 - Event: (LOOT_OPENED) (1)", -- [469]
-			"17:35:15 - Event: (LOOT_CLOSED)", -- [470]
-			"17:35:50 - Event: (ENCOUNTER_START) (592) (Mutanus the Devourer) (1) (5)", -- [471]
-			"17:35:50 - UpdatePlayersData()", -- [472]
-			"17:36:36 - Event: (ENCOUNTER_END) (592) (Mutanus the Devourer) (1) (5) (1)", -- [473]
-			"17:36:37 - Event: (LOOT_OPENED) (1)", -- [474]
-			"17:36:38 - OnLootSlotCleared() (1) (nil)", -- [475]
-			"17:36:38 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:9808::::::-9:1125680256:24:105::1::::|h[Superior Leggings of the Owl]|h|r)", -- [476]
-			"17:36:38 - OnLootSlotCleared() (3) (|cffffffff|Hitem:1468::::::::24:105::::::|h[Murloc Fin]|h|r)", -- [477]
-			"17:36:38 - Event: (LOOT_CLOSED)", -- [478]
-			"17:36:49 - Event: (PARTY_LEADER_CHANGED)", -- [479]
-			"17:36:49 - GetML()", -- [480]
-			"17:36:52 - Event: (LOOT_CLOSED)", -- [481]
-			"17:36:56 - Event: (LOOT_OPENED) (1)", -- [482]
-			"17:36:56 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::24:105::::::|h[Small Brilliant Shard]|h|r)", -- [483]
-			"17:36:56 - Event: (LOOT_CLOSED)", -- [484]
-			"17:36:56 - Event: (LOOT_CLOSED)", -- [485]
-			"17:36:58 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::24:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [486]
-			"17:36:58 - Event: (GROUP_LEFT) (Party-3017-00002B3D4D1F)", -- [487]
-			"17:36:58 - GetML()", -- [488]
-			"17:36:58 - LootMethod =  (personalloot)", -- [489]
-			"17:37:03 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [490]
-			"17:37:03 - GetML()", -- [491]
-			"17:37:03 - LootMethod =  (personalloot)", -- [492]
-			"04/04/18", -- [493]
-			"18:47:36 - Logged In", -- [494]
-			"18:47:36 - ML initialized!", -- [495]
-			"18:48:35 - Anyatsu-Terenas (2.7.9) (nil)", -- [496]
-			"18:48:35 - ActivateSkin (new_blue)", -- [497]
-			"18:48:43 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [498]
-			"18:48:43 - GetML()", -- [499]
-			"18:48:43 - LootMethod =  (personalloot)", -- [500]
-			"18:48:43 - UpdatePlayersData()", -- [501]
-			"18:48:45 - GetPlayersGuildRank()", -- [502]
-			"18:48:45 - Found Guild Rank: Initiate", -- [503]
-			"18:48:45 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [504]
-			"18:49:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [505]
-			"18:49:24 - GetML()", -- [506]
-			"18:49:24 - LootMethod =  (personalloot)", -- [507]
-			"18:50:52 - Event: (LOOT_OPENED) (1)", -- [508]
-			"18:50:53 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:147349::::::::110:252::::::|h[Spiked Armor Set]|h|r)", -- [509]
-			"18:50:53 - Event: (LOOT_CLOSED)", -- [510]
-			"18:50:53 - Event: (LOOT_CLOSED)", -- [511]
-			"18:52:24 - Event: (LOOT_CLOSED)", -- [512]
-			"18:56:04 - Event: (LOOT_OPENED) (1)", -- [513]
-			"18:56:04 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132231::::::::110:252::::::|h[Worn Hooked Claw]|h|r)", -- [514]
-			"18:56:04 - Event: (LOOT_CLOSED)", -- [515]
-			"18:56:22 - Event: (LOOT_OPENED) (1)", -- [516]
-			"18:56:22 - OnLootSlotCleared() (1) (|cffffffff|Hitem:124117::::::::110:252::::::|h[Lean Shank]|h|r)", -- [517]
-			"18:56:23 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132231::::::::110:252::::::|h[Worn Hooked Claw]|h|r)", -- [518]
-			"18:56:23 - OnLootSlotCleared() (3) (|cffffffff|Hitem:124439::::::::110:252::::::|h[Unbroken Tooth]|h|r)", -- [519]
-			"18:56:23 - Event: (LOOT_CLOSED)", -- [520]
-			"18:56:26 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Pippens-Hydraxis) (distri:) (GUILD)", -- [521]
-			"18:57:02 - Event: (LOOT_OPENED) (1)", -- [522]
-			"18:57:02 - OnLootSlotCleared() (1) (|cffffffff|Hitem:124117::::::::110:252::::::|h[Lean Shank]|h|r)", -- [523]
-			"18:57:03 - Event: (LOOT_CLOSED)", -- [524]
-			"18:58:17 - Event: (LOOT_OPENED) (1)", -- [525]
-			"18:58:18 - OnLootSlotCleared() (1) (nil)", -- [526]
-			"18:58:18 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:132898::::::::110:252:::1:1794:::|h[Sabatons of the Endless Vigil]|h|r)", -- [527]
-			"18:58:18 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [528]
-			"18:58:18 - Event: (LOOT_CLOSED)", -- [529]
-			"18:58:29 - Event: (LOOT_OPENED) (1)", -- [530]
-			"18:58:29 - Event: (LOOT_CLOSED)", -- [531]
-			"19:01:16 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [532]
-			"19:01:16 - GetML()", -- [533]
-			"19:01:16 - LootMethod =  (personalloot)", -- [534]
-			"19:09:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [535]
-			"19:09:21 - GetML()", -- [536]
-			"19:09:21 - LootMethod =  (personalloot)", -- [537]
-			"19:11:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [538]
-			"19:11:07 - GetML()", -- [539]
-			"19:11:07 - LootMethod =  (personalloot)", -- [540]
-			"19:22:07 - Event: (LOOT_CLOSED)", -- [541]
-			"04/05/18", -- [542]
-			"15:54:46 - Logged In", -- [543]
-			"15:54:46 - ML initialized!", -- [544]
-			"15:55:21 - Anyatsu-Terenas (2.7.9) (nil)", -- [545]
-			"15:55:21 - ActivateSkin (new_blue)", -- [546]
-			"15:55:30 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [547]
-			"15:55:30 - GetML()", -- [548]
-			"15:55:30 - LootMethod =  (personalloot)", -- [549]
-			"15:55:30 - UpdatePlayersData()", -- [550]
-			"15:55:31 - GetPlayersGuildRank()", -- [551]
-			"15:55:31 - Found Guild Rank: Initiate", -- [552]
-			"15:55:31 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [553]
-			"15:59:08 - Event: (LOOT_OPENED) (1)", -- [554]
-			"15:59:08 - Event: (LOOT_CLOSED)", -- [555]
-			"15:59:24 - Event: (LOOT_OPENED) (1)", -- [556]
-			"15:59:25 - Event: (LOOT_CLOSED)", -- [557]
-			"15:59:43 - Event: (LOOT_OPENED) (1)", -- [558]
-			"15:59:43 - Event: (LOOT_CLOSED)", -- [559]
-			"15:59:57 - Event: (LOOT_OPENED) (1)", -- [560]
-			"15:59:57 - Event: (LOOT_CLOSED)", -- [561]
-			"16:00:16 - Event: (LOOT_OPENED) (1)", -- [562]
-			"16:00:16 - Event: (LOOT_CLOSED)", -- [563]
-			"16:00:27 - Event: (LOOT_OPENED) (1)", -- [564]
-			"16:00:27 - Event: (LOOT_CLOSED)", -- [565]
-			"16:00:43 - Event: (LOOT_OPENED) (1)", -- [566]
-			"16:00:43 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132234::::::::110:252::::::|h[Spectral Dust]|h|r)", -- [567]
-			"16:00:43 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:141284::::::::110:252:::1:1812:::|h[Nor'danil Ampoule]|h|r)", -- [568]
-			"16:00:43 - Event: (LOOT_CLOSED)", -- [569]
-			"16:01:59 - Event: (LOOT_OPENED) (1)", -- [570]
-			"16:01:59 - Event: (LOOT_CLOSED)", -- [571]
-			"16:02:38 - Event: (LOOT_OPENED) (1)", -- [572]
-			"16:02:38 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132233::::::::110:252::::::|h[Lingering Essence]|h|r)", -- [573]
-			"16:02:38 - Event: (LOOT_CLOSED)", -- [574]
-			"16:03:36 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [575]
-			"16:03:36 - GetML()", -- [576]
-			"16:03:36 - LootMethod =  (personalloot)", -- [577]
-			"16:03:59 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [578]
-			"16:03:59 - GetML()", -- [579]
-			"16:03:59 - LootMethod =  (personalloot)", -- [580]
-			"16:06:45 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [581]
-			"16:06:45 - GetML()", -- [582]
-			"16:06:45 - LootMethod =  (personalloot)", -- [583]
-			"16:10:36 - Event: (PARTY_LEADER_CHANGED)", -- [584]
-			"16:10:36 - GetML()", -- [585]
-			"16:10:36 - LootMethod =  (personalloot)", -- [586]
-			"16:10:36 - Unknown ML", -- [587]
-			"16:10:36 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [588]
-			"16:10:36 - GetML()", -- [589]
-			"16:10:36 - LootMethod =  (personalloot)", -- [590]
-			"16:10:36 - Unknown ML", -- [591]
-			"16:10:36 - GetML()", -- [592]
-			"16:10:36 - LootMethod =  (personalloot)", -- [593]
-			"16:10:36 - Unknown ML", -- [594]
-			"16:10:36 - GetML()", -- [595]
-			"16:10:36 - LootMethod =  (personalloot)", -- [596]
-			"16:10:36 - Unknown ML", -- [597]
-			"16:10:37 - GetML()", -- [598]
-			"16:10:37 - LootMethod =  (personalloot)", -- [599]
-			"16:10:37 - Resetting council as we have a new ML!", -- [600]
-			"16:10:37 - MasterLooter =  (Maegõr-Turalyon)", -- [601]
-			"16:10:37 - GetML()", -- [602]
-			"16:10:37 - LootMethod =  (personalloot)", -- [603]
-			"16:10:39 - Event: (PARTY_LEADER_CHANGED)", -- [604]
-			"16:10:39 - GetML()", -- [605]
-			"16:10:39 - LootMethod =  (personalloot)", -- [606]
-			"16:10:39 - Resetting council as we have a new ML!", -- [607]
-			"16:10:39 - MasterLooter =  (Yoùdienow-Kil'jaeden)", -- [608]
-			"16:10:45 - Event: (GROUP_LEFT) (Party-3685-00002008E747)", -- [609]
-			"16:10:45 - GetML()", -- [610]
-			"16:10:45 - LootMethod =  (personalloot)", -- [611]
-			"16:10:52 - Timer MLdb_check passed", -- [612]
-			"16:10:54 - Timer MLdb_check passed", -- [613]
-			"16:11:34 - Event: (PARTY_LEADER_CHANGED)", -- [614]
-			"16:11:34 - GetML()", -- [615]
-			"16:11:34 - LootMethod =  (personalloot)", -- [616]
-			"16:11:34 - Unknown ML", -- [617]
-			"16:11:34 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [618]
-			"16:11:34 - GetML()", -- [619]
-			"16:11:34 - LootMethod =  (personalloot)", -- [620]
-			"16:11:34 - Unknown ML", -- [621]
-			"16:11:35 - GetML()", -- [622]
-			"16:11:35 - LootMethod =  (personalloot)", -- [623]
-			"16:11:35 - Resetting council as we have a new ML!", -- [624]
-			"16:11:35 - MasterLooter =  (Izûal-Winterhoof)", -- [625]
-			"16:11:35 - GetML()", -- [626]
-			"16:11:35 - LootMethod =  (personalloot)", -- [627]
-			"16:11:50 - Timer MLdb_check passed", -- [628]
-			"16:11:50 - Comm received:^1^Sxrealm^T^N1^SIzûal-Winterhoof^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [629]
-			"16:11:50 - Comm received:^1^Sxrealm^T^N1^SIzûal-Winterhoof^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [630]
-			"16:11:54 - Comm received:^1^Sxrealm^T^N1^SIzûal-Winterhoof^N2^SMLdb_request^t^^ (from:) (Takjin-Ragnaros) (distri:) (PARTY)", -- [631]
-			"16:11:54 - Comm received:^1^Sxrealm^T^N1^SIzûal-Winterhoof^N2^Scouncil_request^t^^ (from:) (Takjin-Ragnaros) (distri:) (PARTY)", -- [632]
-			"16:12:00 - Event: (LOOT_OPENED) (1)", -- [633]
-			"16:12:01 - OnLootSlotCleared() (1) (|cffffffff|Hitem:153014::::::::110:252::::::|h[Pristine Argunite]|h|r)", -- [634]
-			"16:12:01 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [635]
-			"16:12:01 - OnLootSlotCleared() (3) (|cff1eff00|Hitem:153164::::::::110:252::::::|h[Otherworldly Trophy]|h|r)", -- [636]
-			"16:12:01 - Event: (LOOT_CLOSED)", -- [637]
-			"16:12:03 - Event: (GROUP_LEFT) (Party-4-000024CC0DCB)", -- [638]
-			"16:12:03 - GetML()", -- [639]
-			"16:12:03 - LootMethod =  (personalloot)", -- [640]
-			"16:13:33 - Event: (LOOT_OPENED) (1)", -- [641]
-			"16:13:34 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:252::::::|h[Otherworldly Trophy]|h|r)", -- [642]
-			"16:13:34 - OnLootSlotCleared() (2) (|cffffffff|Hitem:153014::::::::110:252::::::|h[Pristine Argunite]|h|r)", -- [643]
-			"16:13:34 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [644]
-			"16:13:34 - OnLootSlotCleared() (4) (nil)", -- [645]
-			"16:13:34 - OnLootSlotCleared() (5) (|cff9d9d9d|Hitem:132231::::::::110:252::::::|h[Worn Hooked Claw]|h|r)", -- [646]
-			"16:13:34 - Event: (LOOT_CLOSED)", -- [647]
-			"16:14:27 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [648]
-			"16:14:27 - GetML()", -- [649]
-			"16:14:27 - LootMethod =  (personalloot)", -- [650]
-			"16:15:19 - Event: (LOOT_OPENED) (1)", -- [651]
-			"16:15:19 - Event: (LOOT_CLOSED)", -- [652]
-			"16:15:48 - Event: (LOOT_OPENED) (1)", -- [653]
-			"16:15:49 - Event: (LOOT_CLOSED)", -- [654]
-			"16:16:13 - Event: (LOOT_OPENED) (1)", -- [655]
-			"16:16:13 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:252::::::|h[Sticky Volatile Substance]|h|r)", -- [656]
-			"16:16:13 - Event: (LOOT_CLOSED)", -- [657]
-			"16:16:42 - Event: (LOOT_OPENED) (1)", -- [658]
-			"16:16:42 - OnLootSlotCleared() (1) (|cffffffff|Hitem:153014::::::::110:252::::::|h[Pristine Argunite]|h|r)", -- [659]
-			"16:16:42 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:153164::::::::110:252::::::|h[Otherworldly Trophy]|h|r)", -- [660]
-			"16:16:42 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [661]
-			"16:16:43 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:152860::::::::110:252::::::|h[Splintered Talbuk Bone Sickle]|h|r)", -- [662]
-			"16:16:43 - Event: (LOOT_CLOSED)", -- [663]
-			"16:17:01 - Event: (LOOT_OPENED) (1)", -- [664]
-			"16:17:01 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132199::::::::110:252::::::|h[Congealed Felblood]|h|r)", -- [665]
-			"16:17:02 - Event: (LOOT_CLOSED)", -- [666]
-			"16:17:50 - Event: (LOOT_OPENED) (1)", -- [667]
-			"16:17:50 - Event: (LOOT_CLOSED)", -- [668]
-			"16:18:07 - Event: (LOOT_OPENED) (1)", -- [669]
-			"16:18:07 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132199::::::::110:252::::::|h[Congealed Felblood]|h|r)", -- [670]
-			"16:18:07 - Event: (LOOT_CLOSED)", -- [671]
-			"04/05/18", -- [672]
-			"16:28:23 - Logged In", -- [673]
-			"16:28:23 - ML initialized!", -- [674]
-			"16:28:32 - Anyatsu-Korgath (2.7.9) (nil)", -- [675]
-			"16:28:32 - ActivateSkin (new_blue)", -- [676]
-			"16:28:41 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [677]
-			"16:28:41 - GetML()", -- [678]
-			"16:28:41 - LootMethod =  (personalloot)", -- [679]
-			"16:28:41 - UpdatePlayersData()", -- [680]
-			"16:34:49 - Event: (PARTY_LEADER_CHANGED)", -- [681]
-			"16:34:49 - GetML()", -- [682]
-			"16:34:49 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [683]
-			"16:34:49 - GetML()", -- [684]
-			"16:34:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [685]
-			"16:34:53 - GetML()", -- [686]
-			"16:37:35 - Event: (LOOT_OPENED) (1)", -- [687]
-			"16:37:36 - OnLootSlotCleared() (1) (nil)", -- [688]
-			"16:37:36 - Event: (LOOT_CLOSED)", -- [689]
-			"16:37:42 - Event: (ENCOUNTER_START) (1064) (Glubtok) (1) (5)", -- [690]
-			"16:37:42 - UpdatePlayersData()", -- [691]
-			"16:38:36 - Event: (ENCOUNTER_END) (1064) (Glubtok) (1) (5) (1)", -- [692]
-			"16:38:40 - Event: (LOOT_OPENED) (1)", -- [693]
-			"16:38:40 - Event: (LOOT_CLOSED)", -- [694]
-			"16:41:34 - Event: (LOOT_OPENED) (1)", -- [695]
-			"16:41:34 - OnLootSlotCleared() (1) (nil)", -- [696]
-			"16:41:34 - Event: (LOOT_CLOSED)", -- [697]
-			"16:41:47 - Event: (ENCOUNTER_START) (1065) (Helix Gearbreaker) (1) (5)", -- [698]
-			"16:41:47 - UpdatePlayersData()", -- [699]
-			"16:42:39 - Event: (LOOT_OPENED) (1)", -- [700]
-			"16:42:40 - OnLootSlotCleared() (1) (nil)", -- [701]
-			"16:42:40 - Event: (LOOT_CLOSED)", -- [702]
-			"16:43:43 - Event: (ENCOUNTER_END) (1065) (Helix Gearbreaker) (1) (5) (1)", -- [703]
-			"16:43:46 - Event: (LOOT_OPENED) (1)", -- [704]
-			"16:43:47 - OnLootSlotCleared() (1) (nil)", -- [705]
-			"16:43:47 - Event: (LOOT_CLOSED)", -- [706]
-			"16:44:39 - Event: (LOOT_OPENED) (1)", -- [707]
-			"16:44:40 - OnLootSlotCleared() (1) (nil)", -- [708]
-			"16:44:40 - OnLootSlotCleared() (2) (|cffffffff|Hitem:2589::::::::24:105::::::|h[Linen Cloth]|h|r)", -- [709]
-			"16:44:40 - Event: (LOOT_CLOSED)", -- [710]
-			"16:45:02 - Event: (LOOT_OPENED) (1)", -- [711]
-			"16:45:03 - Event: (LOOT_CLOSED)", -- [712]
-			"16:45:38 - Event: (LOOT_OPENED) (1)", -- [713]
-			"16:45:38 - OnLootSlotCleared() (1) (nil)", -- [714]
-			"16:45:39 - Event: (LOOT_CLOSED)", -- [715]
-			"16:47:11 - Event: (LOOT_OPENED) (1)", -- [716]
-			"16:47:11 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:10939::::::::24:105::::::|h[Greater Magic Essence]|h|r)", -- [717]
-			"16:47:11 - Event: (LOOT_CLOSED)", -- [718]
-			"16:47:11 - Event: (LOOT_CLOSED)", -- [719]
-			"16:47:13 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:10939::::::::24:105::::::|h[Greater~`Magic~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [720]
-			"16:47:14 - Event: (LOOT_OPENED) (1)", -- [721]
-			"16:47:14 - OnLootSlotCleared() (1) (|cffffffff|Hitem:16204::::::::24:105::::::|h[Light Illusion Dust]|h|r)", -- [722]
-			"16:47:14 - Event: (LOOT_CLOSED)", -- [723]
-			"16:47:14 - Event: (LOOT_CLOSED)", -- [724]
-			"16:47:36 - Event: (ENCOUNTER_START) (1063) (Foe Reaper 5000) (1) (5)", -- [725]
-			"16:47:36 - UpdatePlayersData()", -- [726]
-			"16:48:28 - Event: (ENCOUNTER_END) (1063) (Foe Reaper 5000) (1) (5) (1)", -- [727]
-			"16:48:32 - Event: (LOOT_OPENED) (1)", -- [728]
-			"16:48:32 - OnLootSlotCleared() (1) (nil)", -- [729]
-			"16:48:32 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:151064::::::::24:105::1:1:4005:::|h[Vest of the Curious Visitor]|h|r)", -- [730]
-			"16:48:32 - Event: (LOOT_CLOSED)", -- [731]
-			"16:48:45 - Event: (LOOT_OPENED) (1)", -- [732]
-			"16:48:45 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::24:105::::::|h[Small Brilliant Shard]|h|r)", -- [733]
-			"16:48:45 - Event: (LOOT_CLOSED)", -- [734]
-			"16:48:45 - Event: (LOOT_CLOSED)", -- [735]
-			"16:48:47 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::24:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [736]
-			"16:49:18 - Event: (LOOT_OPENED) (1)", -- [737]
-			"16:49:18 - OnLootSlotCleared() (1) (nil)", -- [738]
-			"16:49:18 - Event: (LOOT_CLOSED)", -- [739]
-			"16:49:45 - Event: (LOOT_OPENED) (1)", -- [740]
-			"16:49:45 - OnLootSlotCleared() (1) (nil)", -- [741]
-			"16:49:45 - Event: (LOOT_CLOSED)", -- [742]
-			"16:51:17 - Event: (LOOT_OPENED) (1)", -- [743]
-			"16:51:18 - OnLootSlotCleared() (1) (nil)", -- [744]
-			"16:51:18 - Event: (LOOT_CLOSED)", -- [745]
-			"16:52:00 - Event: (LOOT_OPENED) (1)", -- [746]
-			"16:52:00 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:5114::::::::24:105::::::|h[Severed Talon]|h|r)", -- [747]
-			"16:52:00 - Event: (LOOT_CLOSED)", -- [748]
-			"16:53:27 - Event: (LOOT_OPENED) (1)", -- [749]
-			"16:53:27 - OnLootSlotCleared() (1) (nil)", -- [750]
-			"16:53:27 - Event: (LOOT_CLOSED)", -- [751]
-			"16:54:18 - Event: (LOOT_OPENED) (1)", -- [752]
-			"16:54:18 - OnLootSlotCleared() (1) (nil)", -- [753]
-			"16:54:18 - Event: (LOOT_CLOSED)", -- [754]
-			"16:54:33 - Event: (ENCOUNTER_START) (1062) (Admiral Ripsnarl) (1) (5)", -- [755]
-			"16:54:33 - UpdatePlayersData()", -- [756]
-			"16:56:07 - Event: (ENCOUNTER_END) (1062) (Admiral Ripsnarl) (1) (5) (1)", -- [757]
-			"16:56:08 - Event: (LOOT_OPENED) (1)", -- [758]
-			"16:56:09 - OnLootSlotCleared() (1) (nil)", -- [759]
-			"16:56:09 - Event: (LOOT_CLOSED)", -- [760]
-			"16:56:17 - Event: (ENCOUNTER_START) (1060) (\"Captain\" Cookie) (1) (5)", -- [761]
-			"16:56:17 - UpdatePlayersData()", -- [762]
-			"16:56:59 - Event: (ENCOUNTER_END) (1060) (\"Captain\" Cookie) (1) (5) (1)", -- [763]
-			"16:57:00 - Event: (LOOT_OPENED) (1)", -- [764]
-			"16:57:01 - OnLootSlotCleared() (1) (nil)", -- [765]
-			"16:57:01 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:5193::::::::25:105::1:1:4005:::|h[Cape of the Brotherhood]|h|r)", -- [766]
-			"16:57:01 - Event: (LOOT_CLOSED)", -- [767]
-			"16:57:04 - Event: (LOOT_OPENED) (1)", -- [768]
-			"16:57:05 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::25:105::::::|h[Small Brilliant Shard]|h|r)", -- [769]
-			"16:57:05 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:16202::::::::25:105::::::|h[Lesser Eternal Essence]|h|r)", -- [770]
-			"16:57:05 - Event: (LOOT_CLOSED)", -- [771]
-			"16:57:05 - Event: (LOOT_CLOSED)", -- [772]
-			"16:57:06 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::25:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [773]
-			"16:57:06 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:16202::::::::25:105::::::|h[Lesser~`Eternal~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [774]
-			"16:57:07 - Event: (LOOT_CLOSED)", -- [775]
-			"16:57:11 - Event: (LOOT_OPENED) (1)", -- [776]
-			"16:57:11 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::25:105::::::|h[Small Brilliant Shard]|h|r)", -- [777]
-			"16:57:11 - Event: (LOOT_CLOSED)", -- [778]
-			"16:57:11 - Event: (LOOT_CLOSED)", -- [779]
-			"16:57:12 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::25:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [780]
-			"16:57:22 - Event: (GROUP_LEFT) (Party-3017-00002B40ECC1)", -- [781]
-			"16:57:22 - GetML()", -- [782]
-			"16:57:22 - LootMethod =  (personalloot)", -- [783]
-			"16:57:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [784]
-			"16:57:26 - GetML()", -- [785]
-			"16:57:26 - LootMethod =  (personalloot)", -- [786]
-			"17:06:10 - Event: (PARTY_LEADER_CHANGED)", -- [787]
-			"17:06:10 - GetML()", -- [788]
-			"17:06:10 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [789]
-			"17:06:10 - GetML()", -- [790]
-			"17:06:17 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [791]
-			"17:06:17 - GetML()", -- [792]
-			"17:07:32 - Event: (LOOT_OPENED) (1)", -- [793]
-			"17:07:32 - OnLootSlotCleared() (1) (nil)", -- [794]
-			"17:07:32 - Event: (LOOT_CLOSED)", -- [795]
-			"17:07:34 - Event: (ENCOUNTER_START) (1670) (Executioner Gore) (1) (5)", -- [796]
-			"17:07:34 - UpdatePlayersData()", -- [797]
-			"17:08:24 - Event: (ENCOUNTER_END) (1670) (Executioner Gore) (1) (5) (0)", -- [798]
-			"17:08:25 - Event: (ENCOUNTER_START) (1670) (Executioner Gore) (1) (5)", -- [799]
-			"17:08:25 - UpdatePlayersData()", -- [800]
-			"17:09:27 - Event: (ENCOUNTER_END) (1670) (Executioner Gore) (1) (5) (1)", -- [801]
-			"17:09:28 - Event: (LOOT_OPENED) (1)", -- [802]
-			"17:09:29 - OnLootSlotCleared() (1) (nil)", -- [803]
-			"17:09:29 - Event: (LOOT_CLOSED)", -- [804]
-			"17:11:54 - Event: (ENCOUNTER_START) (1671) (Twilight Lord Bathiel) (1) (5)", -- [805]
-			"17:11:54 - UpdatePlayersData()", -- [806]
-			"17:13:15 - Event: (ENCOUNTER_END) (1671) (Twilight Lord Bathiel) (1) (5) (1)", -- [807]
-			"17:13:17 - Event: (LOOT_OPENED) (1)", -- [808]
-			"17:13:18 - OnLootSlotCleared() (1) (nil)", -- [809]
-			"17:13:18 - Event: (LOOT_CLOSED)", -- [810]
-			"17:15:51 - Event: (ENCOUNTER_START) (1672) (Aku'mai) (1) (5)", -- [811]
-			"17:15:51 - UpdatePlayersData()", -- [812]
-			"17:17:03 - Event: (ENCOUNTER_END) (1672) (Aku'mai) (1) (5) (1)", -- [813]
-			"17:17:13 - Event: (LOOT_CLOSED)", -- [814]
-			"17:17:17 - Event: (LOOT_OPENED) (1)", -- [815]
-			"17:17:17 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::26:105::::::|h[Small Brilliant Shard]|h|r)", -- [816]
-			"17:17:17 - Event: (LOOT_CLOSED)", -- [817]
-			"17:17:17 - Event: (LOOT_CLOSED)", -- [818]
-			"17:17:19 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::26:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [819]
-			"17:17:26 - Event: (GROUP_LEFT) (Party-3017-00002B40F2BF)", -- [820]
-			"17:17:26 - GetML()", -- [821]
-			"17:17:26 - LootMethod =  (personalloot)", -- [822]
-			"17:17:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [823]
-			"17:17:31 - GetML()", -- [824]
-			"17:17:31 - LootMethod =  (personalloot)", -- [825]
-			"04/05/18", -- [826]
-			"19:52:34 - Logged In", -- [827]
-			"19:52:34 - ML initialized!", -- [828]
-			"19:52:54 - Moosebrew-Hydraxis (2.7.9) (nil)", -- [829]
-			"19:52:54 - ActivateSkin (new_blue)", -- [830]
-			"19:53:03 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [831]
-			"19:53:03 - GetML()", -- [832]
-			"19:53:03 - LootMethod =  (personalloot)", -- [833]
-			"19:53:03 - UpdatePlayersData()", -- [834]
-			"19:53:59 - Event: (LOOT_OPENED) (1)", -- [835]
-			"19:53:59 - Event: (LOOT_CLOSED)", -- [836]
-			"20:01:19 - Event: (LOOT_OPENED) (1)", -- [837]
-			"20:01:19 - Event: (LOOT_CLOSED)", -- [838]
-			"20:01:29 - Event: (LOOT_OPENED) (1)", -- [839]
-			"20:01:29 - Event: (LOOT_CLOSED)", -- [840]
-			"20:01:42 - Event: (LOOT_OPENED) (1)", -- [841]
-			"20:01:43 - Event: (LOOT_CLOSED)", -- [842]
-			"20:02:05 - Event: (LOOT_OPENED) (1)", -- [843]
-			"20:02:05 - Event: (LOOT_CLOSED)", -- [844]
-			"20:02:17 - Event: (LOOT_OPENED) (1)", -- [845]
-			"20:02:17 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5481::::::::24:269::::::|h[Satyr Horns]|h|r)", -- [846]
-			"20:02:17 - Event: (LOOT_CLOSED)", -- [847]
-			"20:02:34 - Event: (LOOT_OPENED) (1)", -- [848]
-			"20:02:34 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5481::::::::24:269::::::|h[Satyr Horns]|h|r)", -- [849]
-			"20:02:34 - Event: (LOOT_CLOSED)", -- [850]
-			"20:02:46 - Event: (LOOT_OPENED) (1)", -- [851]
-			"20:02:46 - Event: (LOOT_CLOSED)", -- [852]
-			"20:02:56 - Event: (LOOT_OPENED) (1)", -- [853]
-			"20:02:56 - Event: (LOOT_CLOSED)", -- [854]
-			"20:03:07 - Event: (LOOT_OPENED) (1)", -- [855]
-			"20:03:07 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5481::::::::24:269::::::|h[Satyr Horns]|h|r)", -- [856]
-			"20:03:07 - OnLootSlotCleared() (2) (nil)", -- [857]
-			"20:03:07 - Event: (LOOT_CLOSED)", -- [858]
-			"20:03:20 - Event: (LOOT_OPENED) (1)", -- [859]
-			"20:03:20 - Event: (LOOT_CLOSED)", -- [860]
-			"20:03:33 - Event: (LOOT_OPENED) (1)", -- [861]
-			"20:03:34 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5481::::::::24:269::::::|h[Satyr Horns]|h|r)", -- [862]
-			"20:03:34 - Event: (LOOT_CLOSED)", -- [863]
-			"20:03:43 - Event: (LOOT_OPENED) (1)", -- [864]
-			"20:03:43 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5481::::::::24:269::::::|h[Satyr Horns]|h|r)", -- [865]
-			"20:03:43 - Event: (LOOT_CLOSED)", -- [866]
-			"20:03:51 - Event: (LOOT_OPENED) (1)", -- [867]
-			"20:03:51 - OnLootSlotCleared() (1) (|cffffffff|Hitem:5481::::::::24:269::::::|h[Satyr Horns]|h|r)", -- [868]
-			"20:03:51 - Event: (LOOT_CLOSED)", -- [869]
-			"20:04:10 - Event: (LOOT_OPENED) (1)", -- [870]
-			"20:04:11 - OnLootSlotCleared() (1) (nil)", -- [871]
-			"20:04:11 - Event: (LOOT_CLOSED)", -- [872]
-			"20:04:32 - Event: (LOOT_OPENED) (1)", -- [873]
-			"20:04:32 - Event: (LOOT_CLOSED)", -- [874]
-			"20:10:24 - Event: (LOOT_OPENED) (1)", -- [875]
-			"20:10:24 - Event: (LOOT_CLOSED)", -- [876]
-			"20:10:40 - Event: (LOOT_OPENED) (1)", -- [877]
-			"20:10:40 - OnLootSlotCleared() (1) (|cffffffff|Hitem:9451::::::::25:269::::::|h[Bubbling Water]|h|r)", -- [878]
-			"20:10:40 - Event: (LOOT_CLOSED)", -- [879]
-			"04/05/18", -- [880]
-			"21:13:24 - Logged In", -- [881]
-			"21:13:24 - ML initialized!", -- [882]
-			"21:13:45 - Anyatsu-Terenas (2.7.9) (nil)", -- [883]
-			"21:13:45 - ActivateSkin (new_blue)", -- [884]
-			"21:13:56 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [885]
-			"21:13:56 - GetML()", -- [886]
-			"21:13:56 - LootMethod =  (personalloot)", -- [887]
-			"21:13:56 - UpdatePlayersData()", -- [888]
-			"21:13:58 - GetPlayersGuildRank()", -- [889]
-			"21:13:58 - Found Guild Rank: Initiate", -- [890]
-			"21:13:58 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [891]
-			"21:26:30 - Event: (PARTY_LEADER_CHANGED)", -- [892]
-			"21:26:30 - GetML()", -- [893]
-			"21:26:30 - LootMethod =  (personalloot)", -- [894]
-			"21:26:30 - Unknown ML", -- [895]
-			"21:26:30 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [896]
-			"21:26:30 - GetML()", -- [897]
-			"21:26:30 - LootMethod =  (personalloot)", -- [898]
-			"21:26:30 - Unknown ML", -- [899]
-			"21:26:30 - GetML()", -- [900]
-			"21:26:30 - LootMethod =  (personalloot)", -- [901]
-			"21:26:30 - Resetting council as we have a new ML!", -- [902]
-			"21:26:30 - MasterLooter =  (Soldoral-MoonGuard)", -- [903]
-			"21:26:30 - GetML()", -- [904]
-			"21:26:30 - LootMethod =  (personalloot)", -- [905]
-			"21:26:45 - Timer MLdb_check passed", -- [906]
-			"21:26:46 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [907]
-			"21:26:46 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [908]
-			"21:27:44 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [909]
-			"21:27:44 - GetML()", -- [910]
-			"21:27:44 - LootMethod =  (personalloot)", -- [911]
-			"21:33:02 - Event: (RAID_INSTANCE_WELCOME) (Court of Stars (Mythic)) (394017) (0) (0)", -- [912]
-			"21:33:03 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [913]
-			"21:33:03 - GetML()", -- [914]
-			"21:33:03 - LootMethod =  (personalloot)", -- [915]
-			"21:46:37 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Reík-Hydraxis) (distri:) (GUILD)", -- [916]
-			"21:47:50 - Event: (ENCOUNTER_START) (1868) (Patrol Captain Gerdo) (8) (5)", -- [917]
-			"21:47:50 - UpdatePlayersData()", -- [918]
-			"21:49:06 - Event: (ENCOUNTER_END) (1868) (Patrol Captain Gerdo) (8) (5) (1)", -- [919]
-			"22:09:22 - Event: (ENCOUNTER_START) (1869) (Talixae Flamewreath) (8) (5)", -- [920]
-			"22:09:22 - UpdatePlayersData()", -- [921]
-			"22:10:42 - Event: (ENCOUNTER_END) (1869) (Talixae Flamewreath) (8) (5) (1)", -- [922]
-			"22:14:56 - Event: (ENCOUNTER_START) (1870) (Advisor Melandrus) (8) (5)", -- [923]
-			"22:14:56 - UpdatePlayersData()", -- [924]
-			"22:16:19 - Event: (ENCOUNTER_END) (1870) (Advisor Melandrus) (8) (5) (1)", -- [925]
-			"22:16:24 - Event: (LOOT_OPENED) (1)", -- [926]
-			"22:16:24 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:147809::::::::110:252::16::::|h[Adept's Spoils]|h|r)", -- [927]
-			"22:16:24 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:147809::::::::110:252::16::::|h[Adept's Spoils]|h|r)", -- [928]
-			"22:16:25 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:147809::::::::110:252::16::::|h[Adept's Spoils]|h|r)", -- [929]
-			"22:16:25 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:147809::::::::110:252::16::::|h[Adept's Spoils]|h|r)", -- [930]
-			"22:16:25 - OnLootSlotCleared() (5) (|cff0070dd|Hitem:147405::::::::110:252::16::::|h[Champion's Symbol]|h|r)", -- [931]
-			"22:16:25 - OnLootSlotCleared() (6) (|cffa335ee|Hitem:138019::::::::110:252:4063232:::239:13:5:14:10:::|h[Mythic Keystone]|h|r)", -- [932]
-			"22:16:25 - Event: (LOOT_CLOSED)", -- [933]
-			"22:19:10 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [934]
-			"22:19:10 - GetML()", -- [935]
-			"22:19:10 - LootMethod =  (personalloot)", -- [936]
-			"22:25:30 - Event: (RAID_INSTANCE_WELCOME) (Black Rook Hold (Mythic)) (390869) (0) (0)", -- [937]
-			"22:25:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [938]
-			"22:25:31 - GetML()", -- [939]
-			"22:25:31 - LootMethod =  (personalloot)", -- [940]
-			"22:57:45 - Event: (ENCOUNTER_START) (1832) (Amalgam of Souls) (8) (5)", -- [941]
-			"22:57:45 - UpdatePlayersData()", -- [942]
-			"22:59:55 - Event: (ENCOUNTER_END) (1832) (Amalgam of Souls) (8) (5) (1)", -- [943]
-			"23:10:28 - Event: (ENCOUNTER_START) (1833) (Ilysanna Ravencrest) (8) (5)", -- [944]
-			"23:10:28 - UpdatePlayersData()", -- [945]
-			"23:12:14 - Event: (ENCOUNTER_END) (1833) (Ilysanna Ravencrest) (8) (5) (1)", -- [946]
-			"23:26:03 - Event: (ENCOUNTER_START) (1834) (Smashspite the Hateful) (8) (5)", -- [947]
-			"23:26:03 - UpdatePlayersData()", -- [948]
-			"23:27:12 - Event: (ENCOUNTER_END) (1834) (Smashspite the Hateful) (8) (5) (1)", -- [949]
-			"23:32:17 - Event: (ENCOUNTER_START) (1835) (Lord Kur'talos Ravencrest) (8) (5)", -- [950]
-			"23:32:17 - UpdatePlayersData()", -- [951]
-			"23:36:02 - Event: (ENCOUNTER_END) (1835) (Lord Kur'talos Ravencrest) (8) (5) (1)", -- [952]
-			"23:36:55 - Event: (LOOT_OPENED) (1)", -- [953]
-			"23:36:56 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:147809::::::::110:252::16::::|h[Adept's Spoils]|h|r)", -- [954]
-			"23:36:56 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:147809::::::::110:252::16::::|h[Adept's Spoils]|h|r)", -- [955]
-			"23:36:56 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:147809::::::::110:252::16::::|h[Adept's Spoils]|h|r)", -- [956]
-			"23:36:56 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:147405::::::::110:252::16::::|h[Champion's Symbol]|h|r)", -- [957]
-			"23:36:56 - OnLootSlotCleared() (5) (|cffa335ee|Hitem:134412::::::::110:252::16:3:3534:1582:3528:::|h[Cloak of Unwavering Loyalty]|h|r)", -- [958]
-			"23:36:57 - OnLootSlotCleared() (6) (|cffa335ee|Hcurrency:1275|h[Curious Coin]|h|r)", -- [959]
-			"23:36:57 - Event: (LOOT_CLOSED)", -- [960]
-			"23:36:58 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:134412::::::::110:252::16:3:3534:1582:3528:::|h[Cloak~`of~`Unwavering~`Loyalty]|h|r^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [961]
-			"23:38:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [962]
-			"23:38:51 - GetML()", -- [963]
-			"23:38:51 - LootMethod =  (personalloot)", -- [964]
-			"23:40:40 - Event: (PARTY_LEADER_CHANGED)", -- [965]
-			"23:40:40 - GetML()", -- [966]
-			"23:40:40 - LootMethod =  (personalloot)", -- [967]
-			"23:40:40 - Resetting council as we have a new ML!", -- [968]
-			"23:40:40 - MasterLooter =  (Anyatsu-Terenas)", -- [969]
-			"23:40:40 - GetCouncilInGroup (Anyatsu-Terenas)", -- [970]
-			"23:40:40 - ML:NewML (Anyatsu-Terenas)", -- [971]
-			"23:40:40 - UpdateMLdb", -- [972]
-			"23:40:40 - UpdateGroup (true)", -- [973]
-			"23:40:40 - ML:AddCandidate (Anyatsu-Terenas) (DEATHKNIGHT) (DAMAGER) (nil) (nil) (nil) (nil)", -- [974]
-			"23:40:40 - ML:AddCandidate (Myroanis-MoonGuard) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [975]
-			"23:40:40 - ML:AddCandidate (Cydael-MoonGuard) (PRIEST) (HEALER) (nil) (nil) (nil) (nil)", -- [976]
-			"23:40:40 - GetCouncilInGroup (Anyatsu-Terenas)", -- [977]
-			"23:40:40 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [978]
-			"23:40:40 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [979]
-			"23:40:40 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [980]
-			"23:40:40 - Comm received:^1^Scandidates^T^N1^T^SMyroanis-MoonGuard^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SCydael-MoonGuard^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SAnyatsu-Terenas^T^Srole^SDAMAGER^Sclass^SDEATHKNIGHT^Srank^S^t^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [981]
-			"23:40:40 - Comm received:^1^Scouncil^T^N1^T^N1^SAnyatsu-Terenas^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [982]
-			"23:40:40 - true = (IsCouncil) (Anyatsu-Terenas)", -- [983]
-			"23:40:40 - GetLootDBStatistics()", -- [984]
-			"23:40:40 - GetGuildRankNum()", -- [985]
-			"23:40:40 - RCVotingFrame (enabled)", -- [986]
-			"23:40:41 - Comm received:^1^SplayerInfo^T^N1^SAnyatsu-Terenas^N2^SDEATHKNIGHT^N3^SDAMAGER^N4^SInitiate^N6^N0^N7^N945.3125^N8^N252^t^^ (from:) (Anyatsu) (distri:) (WHISPER)", -- [987]
-			"23:40:41 - ML:AddCandidate (Anyatsu-Terenas) (DEATHKNIGHT) (DAMAGER) (Initiate) (nil) (0) (945.3125)", -- [988]
-			"23:40:41 - Event: (GROUP_LEFT) (Party-3675-00002B420943)", -- [989]
-			"23:40:41 - GetML()", -- [990]
-			"23:40:41 - LootMethod =  (personalloot)", -- [991]
-			"23:40:41 - ML Disabled", -- [992]
-			"23:40:55 - Timer MLdb_check passed", -- [993]
-			"04/06/18", -- [994]
-			"16:23:26 - Logged In", -- [995]
-			"16:23:26 - ML initialized!", -- [996]
-			"16:23:42 - Anyatsu-Korgath (2.7.9) (nil)", -- [997]
-			"16:23:42 - ActivateSkin (new_blue)", -- [998]
-			"16:23:51 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [999]
-			"16:23:51 - GetML()", -- [1000]
-			"16:23:51 - LootMethod =  (personalloot)", -- [1001]
-			"16:23:51 - UpdatePlayersData()", -- [1002]
-			"16:30:51 - Event: (PARTY_LEADER_CHANGED)", -- [1003]
-			"16:30:51 - GetML()", -- [1004]
-			"16:30:51 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1005]
-			"16:30:51 - GetML()", -- [1006]
-			"16:30:55 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1007]
-			"16:30:55 - GetML()", -- [1008]
-			"16:31:33 - Event: (LOOT_OPENED) (1)", -- [1009]
-			"16:31:33 - OnLootSlotCleared() (1) (nil)", -- [1010]
-			"16:31:33 - Event: (LOOT_CLOSED)", -- [1011]
-			"16:33:03 - Event: (LOOT_OPENED) (1)", -- [1012]
-			"16:33:03 - Event: (LOOT_CLOSED)", -- [1013]
-			"16:35:32 - Event: (LOOT_OPENED) (1)", -- [1014]
-			"16:35:32 - OnLootSlotCleared() (1) (nil)", -- [1015]
-			"16:35:32 - Event: (LOOT_CLOSED)", -- [1016]
-			"16:36:11 - Event: (ENCOUNTER_START) (382) (Mekgineer Thermaplugg) (1) (5)", -- [1017]
-			"16:36:11 - UpdatePlayersData()", -- [1018]
-			"16:37:22 - Event: (ENCOUNTER_END) (382) (Mekgineer Thermaplugg) (1) (5) (1)", -- [1019]
-			"16:37:24 - Event: (LOOT_OPENED) (1)", -- [1020]
-			"16:37:24 - OnLootSlotCleared() (1) (nil)", -- [1021]
-			"16:37:25 - OnLootSlotCleared() (3) (|cff1eff00|Hitem:9796::::::-19:366431616:27:105::1::::|h[Ivycloth Mantle of Intellect]|h|r)", -- [1022]
-			"16:37:31 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:9461::::::::27:105::1:1:4017:::|h[Charged Gear]|h|r)", -- [1023]
-			"16:37:31 - Event: (LOOT_CLOSED)", -- [1024]
-			"16:37:39 - Event: (LOOT_OPENED) (1)", -- [1025]
-			"16:37:40 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:10939::::::::27:105::::::|h[Greater Magic Essence]|h|r)", -- [1026]
-			"16:37:40 - Event: (LOOT_CLOSED)", -- [1027]
-			"16:37:40 - Event: (LOOT_CLOSED)", -- [1028]
-			"16:37:41 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:10939::::::::27:105::::::|h[Greater~`Magic~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [1029]
-			"16:37:42 - Event: (LOOT_OPENED) (1)", -- [1030]
-			"16:37:43 - OnLootSlotCleared() (1) (|cffffffff|Hitem:16204::::::::27:105::::::|h[Light Illusion Dust]|h|r)", -- [1031]
-			"16:37:43 - Event: (LOOT_CLOSED)", -- [1032]
-			"16:37:43 - Event: (LOOT_CLOSED)", -- [1033]
-			"16:37:44 - Event: (LOOT_CLOSED)", -- [1034]
-			"16:37:46 - Event: (LOOT_OPENED) (1)", -- [1035]
-			"16:37:47 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:14343::::::::27:105::::::|h[Small Brilliant Shard]|h|r)", -- [1036]
-			"16:37:47 - Event: (LOOT_CLOSED)", -- [1037]
-			"16:37:47 - Event: (LOOT_CLOSED)", -- [1038]
-			"16:37:48 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::27:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [1039]
-			"16:37:50 - Event: (GROUP_LEFT) (Party-3017-00002B44B585)", -- [1040]
-			"16:37:50 - GetML()", -- [1041]
-			"16:37:50 - LootMethod =  (personalloot)", -- [1042]
-			"16:37:55 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1043]
-			"16:37:55 - GetML()", -- [1044]
-			"16:37:55 - LootMethod =  (personalloot)", -- [1045]
-			"16:47:35 - Event: (LOOT_OPENED) (1)", -- [1046]
-			"16:47:35 - OnLootSlotCleared() (1) (|cffffffff|Hitem:124669::::::::27:105::::::|h[Darkmoon Daggermaw]|h|r)", -- [1047]
-			"16:47:35 - Event: (LOOT_CLOSED)", -- [1048]
-			"16:47:35 - Event: (LOOT_CLOSED)", -- [1049]
-			"16:47:49 - Event: (LOOT_OPENED) (1)", -- [1050]
-			"16:47:49 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45195::::::::27:105::::::|h[Empty Rum Bottle]|h|r)", -- [1051]
-			"16:47:49 - Event: (LOOT_CLOSED)", -- [1052]
-			"16:47:49 - Event: (LOOT_CLOSED)", -- [1053]
-			"16:48:17 - Event: (LOOT_OPENED) (1)", -- [1054]
-			"16:48:18 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45191::::::::27:105::::::|h[Empty Clam]|h|r)", -- [1055]
-			"16:48:18 - Event: (LOOT_CLOSED)", -- [1056]
-			"16:48:18 - Event: (LOOT_CLOSED)", -- [1057]
-			"16:48:36 - Event: (LOOT_OPENED) (1)", -- [1058]
-			"16:48:36 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45190::::::::27:105::::::|h[Driftwood]|h|r)", -- [1059]
-			"16:48:36 - Event: (LOOT_CLOSED)", -- [1060]
-			"16:48:36 - Event: (LOOT_CLOSED)", -- [1061]
-			"16:48:43 - Event: (LOOT_OPENED) (1)", -- [1062]
-			"16:48:44 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45194::::::::27:105::::::|h[Tangled Fishing Line]|h|r)", -- [1063]
-			"16:48:44 - Event: (LOOT_CLOSED)", -- [1064]
-			"16:48:44 - Event: (LOOT_CLOSED)", -- [1065]
-			"16:49:02 - Event: (LOOT_OPENED) (1)", -- [1066]
-			"16:49:02 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45188::::::::27:105::::::|h[Withered Kelp]|h|r)", -- [1067]
-			"16:49:02 - Event: (LOOT_CLOSED)", -- [1068]
-			"16:49:02 - Event: (LOOT_CLOSED)", -- [1069]
-			"16:49:11 - Event: (LOOT_OPENED) (1)", -- [1070]
-			"16:49:12 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45191::::::::27:105::::::|h[Empty Clam]|h|r)", -- [1071]
-			"16:49:12 - Event: (LOOT_CLOSED)", -- [1072]
-			"16:49:12 - Event: (LOOT_CLOSED)", -- [1073]
-			"16:49:23 - Event: (LOOT_OPENED) (1)", -- [1074]
-			"16:49:23 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45191::::::::27:105::::::|h[Empty Clam]|h|r)", -- [1075]
-			"16:49:23 - Event: (LOOT_CLOSED)", -- [1076]
-			"16:49:23 - Event: (LOOT_CLOSED)", -- [1077]
-			"16:49:35 - Event: (LOOT_OPENED) (1)", -- [1078]
-			"16:49:35 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45194::::::::27:105::::::|h[Tangled Fishing Line]|h|r)", -- [1079]
-			"16:49:35 - Event: (LOOT_CLOSED)", -- [1080]
-			"16:49:35 - Event: (LOOT_CLOSED)", -- [1081]
-			"16:49:53 - Event: (LOOT_OPENED) (1)", -- [1082]
-			"16:49:54 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45191::::::::27:105::::::|h[Empty Clam]|h|r)", -- [1083]
-			"16:49:54 - Event: (LOOT_CLOSED)", -- [1084]
-			"16:49:54 - Event: (LOOT_CLOSED)", -- [1085]
-			"16:50:09 - Event: (LOOT_OPENED) (1)", -- [1086]
-			"16:50:09 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:45195::::::::27:105::::::|h[Empty Rum Bottle]|h|r)", -- [1087]
-			"16:50:09 - Event: (LOOT_CLOSED)", -- [1088]
-			"16:50:09 - Event: (LOOT_CLOSED)", -- [1089]
-			"16:50:16 - Event: (PARTY_LEADER_CHANGED)", -- [1090]
-			"16:50:16 - GetML()", -- [1091]
-			"16:50:16 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1092]
-			"16:50:16 - GetML()", -- [1093]
-			"16:50:25 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1094]
-			"16:50:25 - GetML()", -- [1095]
-			"16:51:11 - Event: (ENCOUNTER_START) (1073) (Lord Walden) (1) (5)", -- [1096]
-			"16:51:11 - UpdatePlayersData()", -- [1097]
-			"16:51:51 - Event: (ENCOUNTER_END) (1073) (Lord Walden) (1) (5) (1)", -- [1098]
-			"16:51:58 - Event: (LOOT_OPENED) (1)", -- [1099]
-			"16:51:58 - OnLootSlotCleared() (1) (nil)", -- [1100]
-			"16:51:58 - Event: (LOOT_CLOSED)", -- [1101]
-			"16:53:32 - Event: (LOOT_OPENED) (1)", -- [1102]
-			"16:53:33 - OnLootSlotCleared() (1) (nil)", -- [1103]
-			"16:53:33 - Event: (LOOT_CLOSED)", -- [1104]
-			"16:54:00 - Event: (LOOT_OPENED) (1)", -- [1105]
-			"16:54:00 - OnLootSlotCleared() (1) (nil)", -- [1106]
-			"16:54:00 - Event: (LOOT_CLOSED)", -- [1107]
-			"16:54:01 - Event: (ENCOUNTER_START) (1072) (Lord Godfrey) (1) (5)", -- [1108]
-			"16:54:01 - UpdatePlayersData()", -- [1109]
-			"16:54:48 - Event: (ENCOUNTER_END) (1072) (Lord Godfrey) (1) (5) (1)", -- [1110]
-			"16:54:50 - Event: (LOOT_OPENED) (1)", -- [1111]
-			"16:54:50 - OnLootSlotCleared() (1) (nil)", -- [1112]
-			"16:54:50 - Event: (LOOT_CLOSED)", -- [1113]
-			"16:54:52 - Event: (LOOT_CLOSED)", -- [1114]
-			"16:54:56 - Event: (LOOT_OPENED) (1)", -- [1115]
-			"16:54:56 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:16202::::::::28:105::::::|h[Lesser Eternal Essence]|h|r)", -- [1116]
-			"16:54:56 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:14343::::::::28:105::::::|h[Small Brilliant Shard]|h|r)", -- [1117]
-			"16:54:56 - Event: (LOOT_CLOSED)", -- [1118]
-			"16:54:56 - Event: (LOOT_CLOSED)", -- [1119]
-			"16:54:57 - Comm received:^1^Stradable^T^N1^S|cff1eff00|Hitem:16202::::::::28:105::::::|h[Lesser~`Eternal~`Essence]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [1120]
-			"16:54:57 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:14343::::::::28:105::::::|h[Small~`Brilliant~`Shard]|h|r^t^^ (from:) (Anyatsu) (distri:) (INSTANCE_CHAT)", -- [1121]
-			"16:55:02 - Event: (GROUP_LEFT) (Party-3017-00002B44C30C)", -- [1122]
-			"16:55:02 - GetML()", -- [1123]
-			"16:55:02 - LootMethod =  (personalloot)", -- [1124]
-			"16:55:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1125]
-			"16:55:07 - GetML()", -- [1126]
-			"16:55:07 - LootMethod =  (personalloot)", -- [1127]
-			"04/07/18", -- [1128]
-			"17:40:23 - Logged In", -- [1129]
-			"17:40:23 - ML initialized!", -- [1130]
-			"17:41:41 - Anyatsu-Terenas (2.7.9) (nil)", -- [1131]
-			"17:41:41 - ActivateSkin (new_blue)", -- [1132]
-			"17:41:50 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1133]
-			"17:41:50 - GetML()", -- [1134]
-			"17:41:50 - LootMethod =  (personalloot)", -- [1135]
-			"17:41:50 - UpdatePlayersData()", -- [1136]
-			"17:41:52 - GetPlayersGuildRank()", -- [1137]
-			"17:41:52 - Found Guild Rank: Initiate", -- [1138]
-			"17:41:53 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1139]
-			"17:43:51 - Event: (LOOT_OPENED) (1)", -- [1140]
-			"17:43:51 - Event: (LOOT_CLOSED)", -- [1141]
-			"17:44:01 - Event: (LOOT_OPENED) (1)", -- [1142]
-			"17:44:01 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:252::::::|h[Sticky Volatile Substance]|h|r)", -- [1143]
-			"17:44:01 - Event: (LOOT_CLOSED)", -- [1144]
-			"17:44:45 - Event: (LOOT_OPENED) (1)", -- [1145]
-			"17:44:45 - Event: (LOOT_CLOSED)", -- [1146]
-			"17:47:29 - Event: (LOOT_OPENED) (1)", -- [1147]
-			"17:47:30 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1148]
-			"17:47:30 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:121008::::::::110:252:::3:1812:1808:1706:::|h[Rhut'van Vambraces of the Aurora]|h|r)", -- [1149]
-			"17:47:30 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:132182::::::::110:252::::::|h[Curved Fin Edge]|h|r)", -- [1150]
-			"17:47:30 - Event: (LOOT_CLOSED)", -- [1151]
-			"17:48:23 - Event: (LOOT_OPENED) (1)", -- [1152]
-			"17:48:23 - Event: (LOOT_CLOSED)", -- [1153]
-			"17:48:55 - Event: (LOOT_OPENED) (1)", -- [1154]
-			"17:48:55 - OnLootSlotCleared() (1) (|cffffffff|Hitem:124121::::::::110:252::::::|h[Wildfowl Egg]|h|r)", -- [1155]
-			"17:48:56 - Event: (LOOT_CLOSED)", -- [1156]
-			"17:49:17 - Event: (LOOT_OPENED) (1)", -- [1157]
-			"17:49:17 - OnLootSlotCleared() (1) (|cffffffff|Hitem:124121::::::::110:252::::::|h[Wildfowl Egg]|h|r)", -- [1158]
-			"17:49:17 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132192::::::::110:252::::::|h[Pitted Bone]|h|r)", -- [1159]
-			"17:49:18 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:132193::::::::110:252::::::|h[Tuft of Plumage]|h|r)", -- [1160]
-			"17:49:18 - Event: (LOOT_CLOSED)", -- [1161]
-			"17:49:25 - Event: (LOOT_OPENED) (1)", -- [1162]
-			"17:49:25 - OnLootSlotCleared() (1) (|cffffffff|Hitem:124121::::::::110:252::::::|h[Wildfowl Egg]|h|r)", -- [1163]
-			"17:49:25 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132193::::::::110:252::::::|h[Tuft of Plumage]|h|r)", -- [1164]
-			"17:49:25 - OnLootSlotCleared() (3) (|cffffffff|Hitem:142336::::::::110:252::::::|h[Falcosaur Egg]|h|r)", -- [1165]
-			"17:49:25 - Event: (LOOT_CLOSED)", -- [1166]
-			"17:50:10 - Event: (LOOT_OPENED) (1)", -- [1167]
-			"17:50:11 - OnLootSlotCleared() (1) (|cffffffff|Hitem:124117::::::::110:252::::::|h[Lean Shank]|h|r)", -- [1168]
-			"17:50:11 - Event: (LOOT_CLOSED)", -- [1169]
-			"17:51:24 - Event: (LOOT_OPENED) (1)", -- [1170]
-			"17:51:25 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:252::::::|h[Sticky Volatile Substance]|h|r)", -- [1171]
-			"17:51:25 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1172]
-			"17:51:25 - Event: (LOOT_CLOSED)", -- [1173]
-			"17:57:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1174]
-			"17:57:53 - GetML()", -- [1175]
-			"17:57:53 - LootMethod =  (personalloot)", -- [1176]
-			"18:01:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1177]
-			"18:01:26 - GetML()", -- [1178]
-			"18:01:26 - LootMethod =  (personalloot)", -- [1179]
-			"18:03:31 - Event: (LOOT_OPENED) (1)", -- [1180]
-			"18:03:32 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:139792::::::::110:252::::::|h[Fruitful Bauble]|h|r)", -- [1181]
-			"18:03:32 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:147348::::::::110:252::::::|h[Bulky Armor Set]|h|r)", -- [1182]
-			"18:03:32 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:139814::::::::110:252::::::|h[Carrot on a Stick]|h|r)", -- [1183]
-			"18:03:32 - OnLootSlotCleared() (4) (|cffa335ee|Hitem:147572::::::::110:252::::::|h[Sigil of Ebon Frost]|h|r)", -- [1184]
-			"18:03:32 - Event: (LOOT_CLOSED)", -- [1185]
-			"18:03:32 - Event: (LOOT_CLOSED)", -- [1186]
-			"18:07:22 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Drache-Hydraxis) (distri:) (GUILD)", -- [1187]
-			"04/07/18", -- [1188]
-			"21:02:03 - Logged In", -- [1189]
-			"21:02:03 - ML initialized!", -- [1190]
-			"21:02:09 - Anyatsu-Terenas (2.7.9) (nil)", -- [1191]
-			"21:02:09 - ActivateSkin (new_blue)", -- [1192]
-			"21:02:18 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1193]
-			"21:02:18 - GetML()", -- [1194]
-			"21:02:18 - LootMethod =  (personalloot)", -- [1195]
-			"21:02:18 - UpdatePlayersData()", -- [1196]
-			"21:02:19 - GetPlayersGuildRank()", -- [1197]
-			"21:02:19 - Found Guild Rank: Initiate", -- [1198]
-			"21:02:19 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1199]
-			"21:23:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1200]
-			"21:23:28 - GetML()", -- [1201]
-			"21:23:28 - LootMethod =  (personalloot)", -- [1202]
-			"21:24:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1203]
-			"21:24:01 - GetML()", -- [1204]
-			"21:24:01 - LootMethod =  (personalloot)", -- [1205]
-			"21:27:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1206]
-			"21:27:31 - GetML()", -- [1207]
-			"21:27:31 - LootMethod =  (personalloot)", -- [1208]
-			"21:34:24 - Event: (PARTY_LEADER_CHANGED)", -- [1209]
-			"21:34:24 - GetML()", -- [1210]
-			"21:34:24 - LootMethod =  (personalloot)", -- [1211]
-			"21:34:24 - Unknown ML", -- [1212]
-			"21:34:24 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1213]
-			"21:34:24 - GetML()", -- [1214]
-			"21:34:24 - LootMethod =  (personalloot)", -- [1215]
-			"21:34:24 - Unknown ML", -- [1216]
-			"21:34:25 - GetML()", -- [1217]
-			"21:34:25 - LootMethod =  (personalloot)", -- [1218]
-			"21:34:25 - Resetting council as we have a new ML!", -- [1219]
-			"21:34:25 - MasterLooter =  (Soldoral-MoonGuard)", -- [1220]
-			"21:34:25 - GetML()", -- [1221]
-			"21:34:25 - LootMethod =  (personalloot)", -- [1222]
-			"21:34:40 - Timer MLdb_check passed", -- [1223]
-			"21:34:40 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1224]
-			"21:34:40 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1225]
-			"21:36:55 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Normal)) (220984) (0) (0)", -- [1226]
-			"21:36:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1227]
-			"21:36:56 - GetML()", -- [1228]
-			"21:36:56 - LootMethod =  (personalloot)", -- [1229]
-			"21:43:04 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1230]
-			"21:43:04 - GetML()", -- [1231]
-			"21:43:04 - LootMethod =  (personalloot)", -- [1232]
-			"21:43:43 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Heroic)) (220576) (0) (0)", -- [1233]
-			"21:43:43 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1234]
-			"21:43:43 - GetML()", -- [1235]
-			"21:43:43 - LootMethod =  (personalloot)", -- [1236]
-			"04/07/18", -- [1237]
-			"21:48:04 - Logged In", -- [1238]
-			"21:48:04 - ML initialized!", -- [1239]
-			"21:48:07 - Anyatsu-Terenas (2.7.9) (nil)", -- [1240]
-			"21:48:07 - ActivateSkin (new_blue)", -- [1241]
-			"21:48:16 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1242]
-			"21:48:16 - GetML()", -- [1243]
-			"21:48:16 - LootMethod =  (personalloot)", -- [1244]
-			"21:48:16 - Resetting council as we have a new ML!", -- [1245]
-			"21:48:16 - MasterLooter =  (Soldoral-MoonGuard)", -- [1246]
-			"21:48:16 - Player relog...", -- [1247]
-			"21:48:16 - UpdatePlayersData()", -- [1248]
-			"21:48:17 - GetPlayersGuildRank()", -- [1249]
-			"21:48:17 - Found Guild Rank: Initiate", -- [1250]
-			"21:48:17 - Timer MLdb_check passed", -- [1251]
-			"21:48:18 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1252]
-			"21:48:18 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SplayerInfo^N3^SAnyatsu-Terenas^N4^SDEATHKNIGHT^N5^SDAMAGER^N6^SInitiate^N8^N0^N9^N945.3125^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1253]
-			"21:48:18 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Sreconnect^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1254]
-			"21:48:18 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1255]
-			"21:48:18 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1256]
-			"22:03:56 - Event: (ENCOUNTER_START) (2076) (Garothi Worldbreaker) (15) (14)", -- [1257]
-			"22:03:56 - UpdatePlayersData()", -- [1258]
-			"22:09:43 - Event: (ENCOUNTER_END) (2076) (Garothi Worldbreaker) (15) (14) (1)", -- [1259]
-			"22:09:44 - Event: (LOOT_OPENED) (1)", -- [1260]
-			"22:09:45 - OnLootSlotCleared() (1) (nil)", -- [1261]
-			"22:09:45 - Event: (LOOT_CLOSED)", -- [1262]
-			"22:12:29 - Event: (LOOT_OPENED) (1)", -- [1263]
-			"22:12:29 - Event: (LOOT_CLOSED)", -- [1264]
-			"22:14:04 - Event: (ENCOUNTER_START) (2074) (Felhounds of Sargeras) (15) (14)", -- [1265]
-			"22:14:04 - UpdatePlayersData()", -- [1266]
-			"22:19:48 - Event: (ENCOUNTER_END) (2074) (Felhounds of Sargeras) (15) (14) (1)", -- [1267]
-			"22:19:54 - Event: (LOOT_OPENED) (1)", -- [1268]
-			"22:19:55 - OnLootSlotCleared() (1) (nil)", -- [1269]
-			"22:19:55 - Event: (LOOT_CLOSED)", -- [1270]
-			"22:36:17 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (14)", -- [1271]
-			"22:36:17 - UpdatePlayersData()", -- [1272]
-			"22:43:52 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (14) (0)", -- [1273]
-			"04/07/18", -- [1274]
-			"22:45:33 - Logged In", -- [1275]
-			"22:45:33 - ML initialized!", -- [1276]
-			"22:45:37 - Anyatsu-Terenas (2.7.9) (nil)", -- [1277]
-			"22:45:37 - ActivateSkin (new_blue)", -- [1278]
-			"22:45:45 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1279]
-			"22:45:45 - GetML()", -- [1280]
-			"22:45:45 - LootMethod =  (personalloot)", -- [1281]
-			"22:45:45 - UpdatePlayersData()", -- [1282]
-			"22:45:51 - GetPlayersGuildRank()", -- [1283]
-			"22:45:51 - Found Guild Rank: Initiate", -- [1284]
-			"22:45:51 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1285]
-			"22:45:51 - Event: (PARTY_LEADER_CHANGED)", -- [1286]
-			"22:45:51 - GetML()", -- [1287]
-			"22:45:51 - LootMethod =  (personalloot)", -- [1288]
-			"22:45:51 - Unknown ML", -- [1289]
-			"22:45:51 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1290]
-			"22:45:51 - GetML()", -- [1291]
-			"22:45:51 - LootMethod =  (personalloot)", -- [1292]
-			"22:45:51 - Unknown ML", -- [1293]
-			"22:45:51 - GetML()", -- [1294]
-			"22:45:51 - LootMethod =  (personalloot)", -- [1295]
-			"22:45:51 - Unknown ML", -- [1296]
-			"22:45:51 - GetML()", -- [1297]
-			"22:45:51 - LootMethod =  (personalloot)", -- [1298]
-			"22:45:51 - Unknown ML", -- [1299]
-			"22:45:51 - GetML()", -- [1300]
-			"22:45:51 - LootMethod =  (personalloot)", -- [1301]
-			"22:45:51 - Resetting council as we have a new ML!", -- [1302]
-			"22:45:51 - MasterLooter =  (Soldoral-MoonGuard)", -- [1303]
-			"22:45:51 - GetML()", -- [1304]
-			"22:45:51 - LootMethod =  (personalloot)", -- [1305]
-			"22:46:06 - Timer MLdb_check passed", -- [1306]
-			"22:46:06 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1307]
-			"22:46:07 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1308]
-			"22:46:49 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Elyyiia-Hydraxis) (distri:) (GUILD)", -- [1309]
-			"04/07/18", -- [1310]
-			"23:02:15 - Logged In", -- [1311]
-			"23:02:15 - ML initialized!", -- [1312]
-			"23:02:20 - Ramlethall-Tichondrius (2.7.9) (nil)", -- [1313]
-			"23:02:20 - ActivateSkin (new_blue)", -- [1314]
-			"23:02:30 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1315]
-			"23:02:30 - GetML()", -- [1316]
-			"23:02:30 - LootMethod =  (personalloot)", -- [1317]
-			"23:02:30 - UpdatePlayersData()", -- [1318]
-			"23:02:32 - GetPlayersGuildRank()", -- [1319]
-			"23:02:32 - Found Guild Rank: Raiders", -- [1320]
-			"23:02:32 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Ramlethall) (distri:) (GUILD)", -- [1321]
-			"23:02:49 - Event: (PARTY_LEADER_CHANGED)", -- [1322]
-			"23:02:50 - GetML()", -- [1323]
-			"23:02:50 - LootMethod =  (personalloot)", -- [1324]
-			"23:02:50 - Unknown ML", -- [1325]
-			"23:02:50 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1326]
-			"23:02:50 - GetML()", -- [1327]
-			"23:02:50 - LootMethod =  (personalloot)", -- [1328]
-			"23:02:50 - Unknown ML", -- [1329]
-			"23:02:50 - GetML()", -- [1330]
-			"23:02:50 - LootMethod =  (personalloot)", -- [1331]
-			"23:02:50 - Resetting council as we have a new ML!", -- [1332]
-			"23:02:50 - MasterLooter =  (Soldoral-MoonGuard)", -- [1333]
-			"23:02:50 - GetML()", -- [1334]
-			"23:02:50 - LootMethod =  (personalloot)", -- [1335]
-			"23:03:05 - Timer MLdb_check passed", -- [1336]
-			"23:03:05 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Ramlethall) (distri:) (RAID)", -- [1337]
-			"23:03:05 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Ramlethall) (distri:) (RAID)", -- [1338]
-			"23:03:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1339]
-			"23:03:11 - GetML()", -- [1340]
-			"23:03:11 - LootMethod =  (personalloot)", -- [1341]
-			"23:04:31 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Heroic)) (215728) (0) (0)", -- [1342]
-			"23:04:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1343]
-			"23:04:32 - GetML()", -- [1344]
-			"23:04:32 - LootMethod =  (personalloot)", -- [1345]
-			"23:16:41 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (14)", -- [1346]
-			"23:16:41 - UpdatePlayersData()", -- [1347]
-			"23:21:30 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (14) (0)", -- [1348]
-			"23:25:28 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (14)", -- [1349]
-			"23:25:28 - UpdatePlayersData()", -- [1350]
-			"23:30:47 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (14) (0)", -- [1351]
-			"23:34:22 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (14)", -- [1352]
-			"23:34:22 - UpdatePlayersData()", -- [1353]
-			"23:43:11 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (14) (0)", -- [1354]
-			"23:56:16 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (13)", -- [1355]
-			"23:56:16 - UpdatePlayersData()", -- [1356]
-			"00:05:39 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (13) (1)", -- [1357]
-			"00:05:46 - Event: (LOOT_OPENED) (1)", -- [1358]
-			"00:05:47 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:152032::::::::110:581::5:3:3611:1487:3528:::|h[Twisted Engineer's Fel-Infuser]|h|r)", -- [1359]
-			"00:05:47 - Event: (LOOT_CLOSED)", -- [1360]
-			"00:05:48 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:152032::::::::110:581::5:3:3611:1487:3528:::|h[Twisted~`Engineer's~`Fel-Infuser]|h|r^t^^ (from:) (Ramlethall) (distri:) (RAID)", -- [1361]
-			"00:20:46 - Event: (ENCOUNTER_START) (2075) (The Defense of Eonar) (15) (13)", -- [1362]
-			"00:20:46 - UpdatePlayersData()", -- [1363]
-			"00:27:20 - Event: (ENCOUNTER_END) (2075) (The Defense of Eonar) (15) (13) (1)", -- [1364]
-			"00:27:29 - Event: (LOOT_OPENED) (1)", -- [1365]
-			"00:27:29 - OnLootSlotCleared() (1) (nil)", -- [1366]
-			"00:27:29 - Event: (LOOT_CLOSED)", -- [1367]
-			"00:30:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1368]
-			"00:30:37 - GetML()", -- [1369]
-			"00:30:37 - LootMethod =  (personalloot)", -- [1370]
-			"00:36:50 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Normal)) (210189) (0) (0)", -- [1371]
-			"00:36:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1372]
-			"00:36:51 - GetML()", -- [1373]
-			"00:36:51 - LootMethod =  (personalloot)", -- [1374]
-			"00:49:48 - Event: (ENCOUNTER_START) (2076) (Garothi Worldbreaker) (14) (14)", -- [1375]
-			"00:49:48 - UpdatePlayersData()", -- [1376]
-			"00:49:56 - Event: (ENCOUNTER_END) (2076) (Garothi Worldbreaker) (14) (14) (0)", -- [1377]
-			"00:51:12 - Event: (ENCOUNTER_START) (2076) (Garothi Worldbreaker) (14) (15)", -- [1378]
-			"00:51:12 - UpdatePlayersData()", -- [1379]
-			"00:55:13 - Event: (ENCOUNTER_END) (2076) (Garothi Worldbreaker) (14) (15) (1)", -- [1380]
-			"00:55:16 - Event: (LOOT_OPENED) (1)", -- [1381]
-			"00:55:16 - OnLootSlotCleared() (1) (nil)", -- [1382]
-			"00:55:16 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:138781::::::::110:581::3::::|h[Brief History of the Aeons]|h|r)", -- [1383]
-			"00:55:16 - Event: (LOOT_CLOSED)", -- [1384]
-			"01:05:22 - Event: (ENCOUNTER_START) (2063) (Aggramar) (14) (15)", -- [1385]
-			"01:05:22 - UpdatePlayersData()", -- [1386]
-			"01:06:48 - Event: (ENCOUNTER_END) (2063) (Aggramar) (14) (15) (0)", -- [1387]
-			"01:07:07 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Lulubug) (distri:) (GUILD)", -- [1388]
-			"01:10:06 - Event: (ENCOUNTER_START) (2063) (Aggramar) (14) (15)", -- [1389]
-			"01:10:06 - UpdatePlayersData()", -- [1390]
-			"01:17:23 - Event: (ENCOUNTER_END) (2063) (Aggramar) (14) (15) (1)", -- [1391]
-			"01:17:24 - Event: (LOOT_OPENED) (1)", -- [1392]
-			"01:17:24 - OnLootSlotCleared() (1) (nil)", -- [1393]
-			"01:17:24 - Event: (LOOT_CLOSED)", -- [1394]
-			"01:31:43 - Event: (ENCOUNTER_START) (2092) (Argus the Unmaker) (14) (15)", -- [1395]
-			"01:31:43 - UpdatePlayersData()", -- [1396]
-			"01:43:57 - Event: (ENCOUNTER_END) (2092) (Argus the Unmaker) (14) (15) (0)", -- [1397]
-			"01:45:43 - Event: (ENCOUNTER_START) (2092) (Argus the Unmaker) (14) (15)", -- [1398]
-			"01:45:43 - UpdatePlayersData()", -- [1399]
-			"01:57:11 - Event: (ENCOUNTER_END) (2092) (Argus the Unmaker) (14) (15) (1)", -- [1400]
-			"01:57:21 - Event: (LOOT_OPENED) (1)", -- [1401]
-			"01:57:21 - OnLootSlotCleared() (1) (nil)", -- [1402]
-			"01:57:21 - Event: (LOOT_CLOSED)", -- [1403]
-			"02:02:04 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1404]
-			"02:02:04 - GetML()", -- [1405]
-			"02:02:04 - LootMethod =  (personalloot)", -- [1406]
-			"02:03:52 - Event: (GROUP_LEFT) (Party-3675-00002B4A03F5)", -- [1407]
-			"02:03:52 - GetML()", -- [1408]
-			"02:03:52 - LootMethod =  (personalloot)", -- [1409]
-			"04/09/18", -- [1410]
-			"20:29:00 - Logged In", -- [1411]
-			"20:29:00 - ML initialized!", -- [1412]
-			"20:30:20 - Ramlethall-Tichondrius (2.7.9) (nil)", -- [1413]
-			"20:30:20 - ActivateSkin (new_blue)", -- [1414]
-			"20:30:31 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1415]
-			"20:30:31 - GetML()", -- [1416]
-			"20:30:31 - LootMethod =  (personalloot)", -- [1417]
-			"20:30:31 - UpdatePlayersData()", -- [1418]
-			"20:30:34 - GetPlayersGuildRank()", -- [1419]
-			"20:30:34 - Found Guild Rank: Raiders", -- [1420]
-			"20:30:34 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Ramlethall) (distri:) (GUILD)", -- [1421]
-			"20:30:37 - Event: (PARTY_LEADER_CHANGED)", -- [1422]
-			"20:30:37 - GetML()", -- [1423]
-			"20:30:37 - LootMethod =  (personalloot)", -- [1424]
-			"20:30:37 - Resetting council as we have a new ML!", -- [1425]
-			"20:30:37 - MasterLooter =  (Disscourged-Tichondrius)", -- [1426]
-			"20:30:37 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1427]
-			"20:30:37 - GetML()", -- [1428]
-			"20:30:37 - LootMethod =  (personalloot)", -- [1429]
-			"20:30:47 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Disscourged) (distri:) (WHISPER)", -- [1430]
-			"20:30:47 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1431]
-			"20:30:47 - Comm received:^1^Scandidates^T^N1^T^SRamlethall-Tichondrius^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SDisscourged-Tichondrius^T^Srole^STANK^SspecID^N966.125^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SSexy~`People^t^SReík-Tichondrius^T^Srole^SHEALER^SspecID^N959.3125^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaiders^t^SWilanera-Tichondrius^T^Srole^SHEALER^SspecID^N963.875^Senchant_lvl^N761^Sclass^SSHAMAN^Senchanter^B^Srank^SSexy~`People^t^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1432]
-			"20:30:52 - Timer MLdb_check passed", -- [1433]
-			"20:30:52 - Comm received:^1^Scouncil^T^N1^T^N1^SDisscourged-Tichondrius^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1434]
-			"20:30:52 - nil = (IsCouncil) (Ramlethall-Tichondrius)", -- [1435]
-			"20:34:04 - Comm received:^1^Sxrealm^T^N1^SAkitnaya-Area52^N2^SplayerInfoRequest^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1436]
-			"20:34:04 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1437]
-			"20:34:04 - Comm received:^1^Scandidates^T^N1^T^SReík-Tichondrius^T^Srole^SDAMAGER^SspecID^N959.3125^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaiders^t^SAkitnaya-Area52^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SDisscourged-Tichondrius^T^Srole^STANK^SspecID^N966.125^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SSexy~`People^t^SRamlethall-Tichondrius^T^Srole^SDAMAGER^SspecID^N967.8125^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaiders^t^SWilanera-Tichondrius^T^Srole^SHEALER^SspecID^N963.875^Senchant_lvl^N761^Sclass^SSHAMAN^Senchanter^B^Srank^SSexy~`People^t^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1438]
-			"20:35:42 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1439]
-			"20:35:42 - Comm received:^1^Scandidates^T^N1^T^SReík-Tichondrius^T^Srole^SDAMAGER^SspecID^N959.3125^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaiders^t^SDisscourged-Tichondrius^T^Srole^STANK^SspecID^N966.125^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SSexy~`People^t^SRamlethall-Tichondrius^T^Srole^SDAMAGER^SspecID^N967.8125^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaiders^t^SWilanera-Tichondrius^T^Srole^SHEALER^SspecID^N963.875^Senchant_lvl^N761^Sclass^SSHAMAN^Senchanter^B^Srank^SSexy~`People^t^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1440]
-			"20:36:30 - Comm received:^1^Sxrealm^T^N1^SErudrin-Quel'Thalas^N2^SplayerInfoRequest^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1441]
-			"20:36:30 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1442]
-			"20:36:30 - Comm received:^1^Scandidates^T^N1^T^SReík-Tichondrius^T^Srole^SDAMAGER^SspecID^N959.3125^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaiders^t^SErudrin-Quel'Thalas^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SDisscourged-Tichondrius^T^Srole^STANK^SspecID^N966.125^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SSexy~`People^t^SRamlethall-Tichondrius^T^Srole^SDAMAGER^SspecID^N967.8125^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaiders^t^SWilanera-Tichondrius^T^Srole^SHEALER^SspecID^N963.875^Senchant_lvl^N761^Sclass^SSHAMAN^Senchanter^B^Srank^SSexy~`People^t^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1443]
-			"20:38:11 - Event: (RAID_INSTANCE_WELCOME) (Black Rook Hold (Mythic)) (51708) (0) (0)", -- [1444]
-			"20:38:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1445]
-			"20:38:11 - GetML()", -- [1446]
-			"20:38:11 - LootMethod =  (personalloot)", -- [1447]
-			"20:41:07 - Event: (ENCOUNTER_START) (1832) (Amalgam of Souls) (8) (5)", -- [1448]
-			"20:41:07 - UpdatePlayersData()", -- [1449]
-			"20:42:21 - Event: (ENCOUNTER_END) (1832) (Amalgam of Souls) (8) (5) (1)", -- [1450]
-			"20:48:39 - Event: (ENCOUNTER_START) (1833) (Ilysanna Ravencrest) (8) (5)", -- [1451]
-			"20:48:39 - UpdatePlayersData()", -- [1452]
-			"20:49:39 - Event: (ENCOUNTER_END) (1833) (Ilysanna Ravencrest) (8) (5) (1)", -- [1453]
-			"20:56:04 - Event: (ENCOUNTER_START) (1834) (Smashspite the Hateful) (8) (5)", -- [1454]
-			"20:56:04 - UpdatePlayersData()", -- [1455]
-			"20:56:55 - Event: (ENCOUNTER_END) (1834) (Smashspite the Hateful) (8) (5) (1)", -- [1456]
-			"20:59:03 - Event: (ENCOUNTER_START) (1835) (Lord Kur'talos Ravencrest) (8) (5)", -- [1457]
-			"20:59:03 - UpdatePlayersData()", -- [1458]
-			"21:01:09 - Event: (ENCOUNTER_END) (1835) (Lord Kur'talos Ravencrest) (8) (5) (1)", -- [1459]
-			"21:01:13 - Event: (LOOT_OPENED) (1)", -- [1460]
-			"21:01:14 - OnLootSlotCleared() (1) (|cffa335ee|Hcurrency:1275|h[Curious Coin]|h|r)", -- [1461]
-			"21:01:14 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:138019::::::::110:577:4063232:::227:13:5:14:10:::|h[Mythic Keystone]|h|r)", -- [1462]
-			"21:01:14 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:147809::::::::110:577::16::::|h[Adept's Spoils]|h|r)", -- [1463]
-			"21:01:14 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:147809::::::::110:577::16::::|h[Adept's Spoils]|h|r)", -- [1464]
-			"21:01:14 - OnLootSlotCleared() (5) (|cff0070dd|Hitem:147809::::::::110:577::16::::|h[Adept's Spoils]|h|r)", -- [1465]
-			"21:01:14 - OnLootSlotCleared() (6) (|cff0070dd|Hitem:147809::::::::110:577::16::::|h[Adept's Spoils]|h|r)", -- [1466]
-			"21:01:14 - OnLootSlotCleared() (7) (|cff0070dd|Hitem:147405::::::::110:577::16::::|h[Champion's Symbol]|h|r)", -- [1467]
-			"21:01:14 - Event: (LOOT_CLOSED)", -- [1468]
-			"21:02:17 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:134390::::::::110:264::16:3:3535:1607:3336:::|h[Mardum~`Chain~`Vest]|h|r^t^^ (from:) (Wilanera) (distri:) (PARTY)", -- [1469]
-			"21:02:21 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:134507::::::::110:70::16:4:3535:1808:1587:3528:::|h[Leadfoot~`Earthshakers]|h|r^t^^ (from:) (Reík) (distri:) (PARTY)", -- [1470]
-			"21:02:30 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1471]
-			"21:02:30 - Comm received:^1^Scandidates^T^N1^T^SReík-Tichondrius^T^Srole^SDAMAGER^SspecID^N959.3125^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaiders^t^SDisscourged-Tichondrius^T^Srole^STANK^SspecID^N966.125^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SSexy~`People^t^SRamlethall-Tichondrius^T^Srole^SDAMAGER^SspecID^N967.8125^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaiders^t^SWilanera-Tichondrius^T^Srole^SHEALER^SspecID^N963.875^Senchant_lvl^N761^Sclass^SSHAMAN^Senchanter^B^Srank^SSexy~`People^t^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1472]
-			"21:04:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1473]
-			"21:04:20 - GetML()", -- [1474]
-			"21:04:20 - LootMethod =  (personalloot)", -- [1475]
-			"21:06:21 - Comm received:^1^Sxrealm^T^N1^SMieo-Illidan^N2^SplayerInfoRequest^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1476]
-			"21:06:21 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1477]
-			"21:06:21 - Comm received:^1^Scandidates^T^N1^T^SMieo-Illidan^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SReík-Tichondrius^T^Srole^SDAMAGER^SspecID^N959.3125^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaiders^t^SDisscourged-Tichondrius^T^Srole^STANK^SspecID^N966.125^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SSexy~`People^t^SRamlethall-Tichondrius^T^Srole^SDAMAGER^SspecID^N967.8125^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaiders^t^SWilanera-Tichondrius^T^Srole^SHEALER^SspecID^N963.875^Senchant_lvl^N761^Sclass^SSHAMAN^Senchanter^B^Srank^SSexy~`People^t^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1478]
-			"21:06:57 - Event: (RAID_INSTANCE_WELCOME) (Darkheart Thicket (Mythic)) (49982) (0) (0)", -- [1479]
-			"21:06:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1480]
-			"21:06:58 - GetML()", -- [1481]
-			"21:06:58 - LootMethod =  (personalloot)", -- [1482]
-			"21:13:37 - Event: (ENCOUNTER_START) (1836) (Archdruid Glaidalis) (8) (5)", -- [1483]
-			"21:13:37 - UpdatePlayersData()", -- [1484]
-			"21:14:26 - Event: (ENCOUNTER_END) (1836) (Archdruid Glaidalis) (8) (5) (1)", -- [1485]
-			"21:19:06 - Event: (ENCOUNTER_START) (1837) (Oakheart) (8) (5)", -- [1486]
-			"21:19:06 - UpdatePlayersData()", -- [1487]
-			"21:20:27 - Event: (ENCOUNTER_END) (1837) (Oakheart) (8) (5) (1)", -- [1488]
-			"21:23:09 - Event: (ENCOUNTER_START) (1838) (Dresaron) (8) (5)", -- [1489]
-			"21:23:09 - UpdatePlayersData()", -- [1490]
-			"21:24:25 - Event: (ENCOUNTER_END) (1838) (Dresaron) (8) (5) (1)", -- [1491]
-			"21:28:09 - Event: (ENCOUNTER_START) (1839) (Shade of Xavius) (8) (5)", -- [1492]
-			"21:28:09 - UpdatePlayersData()", -- [1493]
-			"21:29:25 - Event: (ENCOUNTER_END) (1839) (Shade of Xavius) (8) (5) (1)", -- [1494]
-			"21:29:28 - Event: (LOOT_OPENED) (1)", -- [1495]
-			"21:29:28 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:147809::::::::110:577::16::::|h[Adept's Spoils]|h|r)", -- [1496]
-			"21:29:28 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:121299::::::::110:577::16:3:3536:1602:3528:::|h[Dreadhide Girdle]|h|r)", -- [1497]
-			"21:29:30 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:121299::::::::110:577::16:3:3536:1602:3528:::|h[Dreadhide~`Girdle]|h|r^t^^ (from:) (Ramlethall) (distri:) (PARTY)", -- [1498]
-			"21:29:30 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:147718::::::::110:577::16::::|h[Master's Symbol]|h|r)", -- [1499]
-			"21:29:30 - Event: (LOOT_CLOSED)", -- [1500]
-			"21:29:32 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:137308::::::::110:264::16:3:3536:1592:3528:::|h[Clotted~`Sap~`of~`the~`Grove]|h|r^t^^ (from:) (Wilanera) (distri:) (PARTY)", -- [1501]
-			"21:29:33 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:121280::::::::110:250::16:3:3536:1602:3528:::|h[Wracksoul~`Legplates]|h|r^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1502]
-			"21:30:06 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1503]
-			"21:30:06 - Comm received:^1^Scandidates^T^N1^T^SReík-Tichondrius^T^Srole^SDAMAGER^SspecID^N959.3125^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaiders^t^SDisscourged-Tichondrius^T^Srole^STANK^SspecID^N966.125^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SSexy~`People^t^SRamlethall-Tichondrius^T^Srole^SDAMAGER^SspecID^N967.8125^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaiders^t^SWilanera-Tichondrius^T^Srole^SHEALER^SspecID^N963.875^Senchant_lvl^N761^Sclass^SSHAMAN^Senchanter^B^Srank^SSexy~`People^t^t^t^^ (from:) (Disscourged) (distri:) (PARTY)", -- [1504]
-			"21:31:19 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1505]
-			"21:31:19 - GetML()", -- [1506]
-			"21:31:19 - LootMethod =  (personalloot)", -- [1507]
-			"21:32:03 - Event: (LOOT_CLOSED)", -- [1508]
-			"21:42:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1509]
-			"21:42:57 - GetML()", -- [1510]
-			"21:42:57 - LootMethod =  (personalloot)", -- [1511]
-			"21:43:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1512]
-			"21:43:32 - GetML()", -- [1513]
-			"21:43:32 - LootMethod =  (personalloot)", -- [1514]
-			"04/09/18", -- [1515]
-			"21:46:10 - Logged In", -- [1516]
-			"21:46:10 - ML initialized!", -- [1517]
-			"21:46:27 - Anyatsu-Terenas (2.7.9) (nil)", -- [1518]
-			"21:46:27 - ActivateSkin (new_blue)", -- [1519]
-			"21:46:37 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1520]
-			"21:46:37 - GetML()", -- [1521]
-			"21:46:37 - LootMethod =  (personalloot)", -- [1522]
-			"21:46:37 - UpdatePlayersData()", -- [1523]
-			"21:46:42 - GetPlayersGuildRank()", -- [1524]
-			"21:46:42 - Found Guild Rank: Initiate", -- [1525]
-			"21:46:42 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1526]
-			"21:47:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1527]
-			"21:47:52 - GetML()", -- [1528]
-			"21:47:52 - LootMethod =  (personalloot)", -- [1529]
-			"21:54:45 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Pippens-Hydraxis) (distri:) (GUILD)", -- [1530]
-			"04/10/18", -- [1531]
-			"14:07:51 - Logged In", -- [1532]
-			"14:07:51 - ML initialized!", -- [1533]
-			"14:09:11 - Anyatsu-Terenas (2.7.9) (nil)", -- [1534]
-			"14:09:11 - ActivateSkin (new_blue)", -- [1535]
-			"14:09:21 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1536]
-			"14:09:21 - GetML()", -- [1537]
-			"14:09:21 - LootMethod =  (personalloot)", -- [1538]
-			"14:09:21 - UpdatePlayersData()", -- [1539]
-			"14:09:23 - GetPlayersGuildRank()", -- [1540]
-			"14:09:23 - Found Guild Rank: Initiate", -- [1541]
-			"14:09:23 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1542]
-			"14:09:46 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1543]
-			"14:09:46 - GetML()", -- [1544]
-			"14:09:46 - LootMethod =  (personalloot)", -- [1545]
-			"14:10:15 - Event: (LOOT_CLOSED)", -- [1546]
-			"14:10:50 - Event: (LOOT_OPENED) (1)", -- [1547]
-			"14:10:50 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:124124::::::::110:252::::::|h[Blood of Sargeras]|h|r)", -- [1548]
-			"14:10:50 - OnLootSlotCleared() (2) (|cffa335ee|Hcurrency:1275|h[Curious Coin]|h|r)", -- [1549]
-			"14:10:50 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1533|h[Wakening Essence]|h|r)", -- [1550]
-			"14:10:50 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:147548::::::::110:252::35::::|h[Champion's Trophy]|h|r)", -- [1551]
-			"14:10:51 - OnLootSlotCleared() (5) (|cffa335ee|Hitem:138019::::::::110:252:4063232:::198:12:6:4:9:::|h[Mythic Keystone]|h|r)", -- [1552]
-			"14:10:51 - OnLootSlotCleared() (6) (|cffa335ee|Hitem:151308::::::::110:252::35:3:3535:1627:3337:::|h[Mac'Aree Seal of Nobility]|h|r)", -- [1553]
-			"14:10:51 - OnLootSlotCleared() (7) (|cff0070dd|Hitem:147819::::::::110:252::35::::|h[Adept's Medal]|h|r)", -- [1554]
-			"14:10:51 - OnLootSlotCleared() (8) (|cff0070dd|Hitem:147819::::::::110:252::35::::|h[Adept's Medal]|h|r)", -- [1555]
-			"14:10:51 - OnLootSlotCleared() (9) (|cff0070dd|Hitem:147819::::::::110:252::35::::|h[Adept's Medal]|h|r)", -- [1556]
-			"14:10:51 - OnLootSlotCleared() (10) (|cff0070dd|Hitem:147819::::::::110:252::35::::|h[Adept's Medal]|h|r)", -- [1557]
-			"14:10:51 - Event: (LOOT_CLOSED)", -- [1558]
-			"14:10:51 - Event: (LOOT_CLOSED)", -- [1559]
-			"04/10/18", -- [1560]
-			"14:12:52 - Logged In", -- [1561]
-			"14:12:52 - ML initialized!", -- [1562]
-			"14:13:04 - Ramlethall-Tichondrius (2.7.9) (nil)", -- [1563]
-			"14:13:04 - ActivateSkin (new_blue)", -- [1564]
-			"14:13:16 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1565]
-			"14:13:16 - GetML()", -- [1566]
-			"14:13:16 - LootMethod =  (personalloot)", -- [1567]
-			"14:13:16 - UpdatePlayersData()", -- [1568]
-			"14:13:19 - GetPlayersGuildRank()", -- [1569]
-			"14:13:19 - Found Guild Rank: Raiders", -- [1570]
-			"14:13:19 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Ramlethall) (distri:) (GUILD)", -- [1571]
-			"14:13:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1572]
-			"14:13:57 - GetML()", -- [1573]
-			"14:13:57 - LootMethod =  (personalloot)", -- [1574]
-			"14:14:15 - Event: (LOOT_OPENED) (1)", -- [1575]
-			"14:14:15 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:124124::::::::110:577::::::|h[Blood of Sargeras]|h|r)", -- [1576]
-			"14:14:15 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:147819::::::::110:577::35::::|h[Adept's Medal]|h|r)", -- [1577]
-			"14:14:16 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1533|h[Wakening Essence]|h|r)", -- [1578]
-			"14:14:16 - OnLootSlotCleared() (4) (|cffa335ee|Hitem:139071::::::::110:577::35:3:3536:1622:3337:::|h[Tranquil Bough Vest]|h|r)", -- [1579]
-			"14:14:16 - OnLootSlotCleared() (5) (|cff0070dd|Hitem:147721::::::::110:577::35::::|h[Master's Trophy]|h|r)", -- [1580]
-			"14:14:16 - OnLootSlotCleared() (6) (|cffa335ee|Hitem:138019::::::::110:577:4063232:::208:15:6:4:9:::|h[Mythic Keystone]|h|r)", -- [1581]
-			"14:14:16 - Event: (LOOT_CLOSED)", -- [1582]
-			"14:14:16 - Event: (LOOT_CLOSED)", -- [1583]
-			"04/10/18", -- [1584]
-			"14:26:49 - Logged In", -- [1585]
-			"14:26:49 - ML initialized!", -- [1586]
-			"14:27:09 - Anyatsu-Terenas (2.7.9) (nil)", -- [1587]
-			"14:27:09 - ActivateSkin (new_blue)", -- [1588]
-			"14:27:19 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1589]
-			"14:27:19 - GetML()", -- [1590]
-			"14:27:19 - LootMethod =  (personalloot)", -- [1591]
-			"14:27:19 - UpdatePlayersData()", -- [1592]
-			"14:27:21 - GetPlayersGuildRank()", -- [1593]
-			"14:27:21 - Found Guild Rank: Initiate", -- [1594]
-			"14:27:21 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1595]
-			"14:31:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1596]
-			"14:31:33 - GetML()", -- [1597]
-			"14:31:33 - LootMethod =  (personalloot)", -- [1598]
-			"14:32:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1599]
-			"14:32:15 - GetML()", -- [1600]
-			"14:32:15 - LootMethod =  (personalloot)", -- [1601]
-			"14:39:44 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1602]
-			"14:39:44 - GetML()", -- [1603]
-			"14:39:44 - LootMethod =  (personalloot)", -- [1604]
-			"04/12/18", -- [1605]
-			"10:40:06 - Logged In", -- [1606]
-			"10:40:06 - ML initialized!", -- [1607]
-			"10:41:30 - Anyatsu-Terenas (2.7.9) (nil)", -- [1608]
-			"10:41:30 - ActivateSkin (new_blue)", -- [1609]
-			"10:41:40 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1610]
-			"10:41:40 - GetML()", -- [1611]
-			"10:41:40 - LootMethod =  (personalloot)", -- [1612]
-			"10:41:40 - UpdatePlayersData()", -- [1613]
-			"10:41:42 - GetPlayersGuildRank()", -- [1614]
-			"10:41:42 - Found Guild Rank: Initiate", -- [1615]
-			"10:41:42 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1616]
-			"10:42:19 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1617]
-			"10:42:19 - GetML()", -- [1618]
-			"10:42:19 - LootMethod =  (personalloot)", -- [1619]
-			"10:44:19 - Event: (LOOT_OPENED) (1)", -- [1620]
-			"10:44:20 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:140581::::::::110:252::::::|h[Sturdy Hiking Boots]|h|r)", -- [1621]
-			"10:44:20 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:139801::::::::110:252::::::|h[Lucky Doodad]|h|r)", -- [1622]
-			"10:44:20 - OnLootSlotCleared() (3) (|cff1eff00|Hitem:147348::::::::110:252::::::|h[Bulky Armor Set]|h|r)", -- [1623]
-			"10:44:20 - Event: (LOOT_CLOSED)", -- [1624]
-			"10:44:20 - Event: (LOOT_CLOSED)", -- [1625]
-			"10:44:34 - Event: (LOOT_CLOSED)", -- [1626]
-			"10:45:04 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1627]
-			"10:45:04 - GetML()", -- [1628]
-			"10:45:04 - LootMethod =  (personalloot)", -- [1629]
-			"04/13/18", -- [1630]
-			"17:19:32 - Logged In", -- [1631]
-			"17:19:32 - ML initialized!", -- [1632]
-			"17:20:55 - Anyatsu-Terenas (2.7.9) (nil)", -- [1633]
-			"17:20:55 - ActivateSkin (new_blue)", -- [1634]
-			"17:21:05 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1635]
-			"17:21:05 - GetML()", -- [1636]
-			"17:21:05 - LootMethod =  (personalloot)", -- [1637]
-			"17:21:05 - UpdatePlayersData()", -- [1638]
-			"17:21:07 - GetPlayersGuildRank()", -- [1639]
-			"17:21:07 - Found Guild Rank: Initiate", -- [1640]
-			"17:21:07 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1641]
-			"17:27:38 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1642]
-			"17:27:38 - GetML()", -- [1643]
-			"17:27:38 - LootMethod =  (personalloot)", -- [1644]
-			"17:29:30 - Event: (LOOT_OPENED) (1)", -- [1645]
-			"17:29:30 - Event: (LOOT_CLOSED)", -- [1646]
-			"04/13/18", -- [1647]
-			"20:40:37 - Logged In", -- [1648]
-			"20:40:37 - ML initialized!", -- [1649]
-			"20:41:00 - Anyatsu-Terenas (2.7.9) (nil)", -- [1650]
-			"20:41:00 - ActivateSkin (new_blue)", -- [1651]
-			"20:41:09 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1652]
-			"20:41:09 - GetML()", -- [1653]
-			"20:41:09 - LootMethod =  (personalloot)", -- [1654]
-			"20:41:09 - UpdatePlayersData()", -- [1655]
-			"20:41:11 - GetPlayersGuildRank()", -- [1656]
-			"20:41:11 - Found Guild Rank: Initiate", -- [1657]
-			"20:41:11 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1658]
-			"20:54:22 - Event: (LOOT_OPENED) (1)", -- [1659]
-			"20:54:23 - Event: (LOOT_CLOSED)", -- [1660]
-			"20:54:29 - Event: (LOOT_OPENED) (1)", -- [1661]
-			"20:54:29 - Event: (LOOT_CLOSED)", -- [1662]
-			"20:55:34 - Event: (PARTY_LEADER_CHANGED)", -- [1663]
-			"20:55:34 - GetML()", -- [1664]
-			"20:55:34 - LootMethod =  (personalloot)", -- [1665]
-			"20:55:34 - Unknown ML", -- [1666]
-			"20:55:34 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1667]
-			"20:55:34 - GetML()", -- [1668]
-			"20:55:34 - LootMethod =  (personalloot)", -- [1669]
-			"20:55:34 - Unknown ML", -- [1670]
-			"20:55:35 - GetML()", -- [1671]
-			"20:55:35 - LootMethod =  (personalloot)", -- [1672]
-			"20:55:35 - Resetting council as we have a new ML!", -- [1673]
-			"20:55:35 - MasterLooter =  (Soldoral-MoonGuard)", -- [1674]
-			"20:55:35 - GetML()", -- [1675]
-			"20:55:35 - LootMethod =  (personalloot)", -- [1676]
-			"20:55:50 - Timer MLdb_check passed", -- [1677]
-			"20:55:50 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1678]
-			"20:55:50 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1679]
-			"20:57:27 - Event: (LOOT_OPENED) (1)", -- [1680]
-			"20:57:27 - Event: (LOOT_CLOSED)", -- [1681]
-			"20:57:34 - Event: (LOOT_OPENED) (1)", -- [1682]
-			"20:57:34 - Event: (LOOT_CLOSED)", -- [1683]
-			"20:57:50 - Event: (LOOT_OPENED) (1)", -- [1684]
-			"20:57:51 - Event: (LOOT_CLOSED)", -- [1685]
-			"20:57:57 - Event: (LOOT_OPENED) (1)", -- [1686]
-			"20:57:57 - Event: (LOOT_CLOSED)", -- [1687]
-			"20:58:04 - Event: (LOOT_OPENED) (1)", -- [1688]
-			"20:58:04 - OnLootSlotCleared() (1) (nil)", -- [1689]
-			"20:58:04 - Event: (LOOT_CLOSED)", -- [1690]
-			"20:58:32 - Event: (LOOT_CLOSED)", -- [1691]
-			"20:59:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1692]
-			"20:59:15 - GetML()", -- [1693]
-			"20:59:15 - LootMethod =  (personalloot)", -- [1694]
-			"21:00:55 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1695]
-			"21:00:55 - GetML()", -- [1696]
-			"21:00:55 - LootMethod =  (personalloot)", -- [1697]
-			"21:01:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1698]
-			"21:01:28 - GetML()", -- [1699]
-			"21:01:28 - LootMethod =  (personalloot)", -- [1700]
-			"21:05:01 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Normal)) (309298) (0) (0)", -- [1701]
-			"21:05:02 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1702]
-			"21:05:02 - GetML()", -- [1703]
-			"21:05:02 - LootMethod =  (personalloot)", -- [1704]
-			"21:22:01 - Event: (ENCOUNTER_START) (2076) (Garothi Worldbreaker) (14) (13)", -- [1705]
-			"21:22:01 - UpdatePlayersData()", -- [1706]
-			"21:26:24 - Event: (ENCOUNTER_END) (2076) (Garothi Worldbreaker) (14) (13) (1)", -- [1707]
-			"21:26:25 - Event: (LOOT_OPENED) (1)", -- [1708]
-			"21:26:25 - OnLootSlotCleared() (1) (nil)", -- [1709]
-			"21:26:25 - Event: (LOOT_CLOSED)", -- [1710]
-			"21:27:55 - Event: (LOOT_OPENED) (1)", -- [1711]
-			"21:27:55 - OnLootSlotCleared() (1) (nil)", -- [1712]
-			"21:27:55 - Event: (LOOT_CLOSED)", -- [1713]
-			"21:29:57 - Event: (ENCOUNTER_START) (2074) (Felhounds of Sargeras) (14) (13)", -- [1714]
-			"21:29:57 - UpdatePlayersData()", -- [1715]
-			"21:34:30 - Event: (ENCOUNTER_END) (2074) (Felhounds of Sargeras) (14) (13) (1)", -- [1716]
-			"21:34:31 - Event: (LOOT_OPENED) (1)", -- [1717]
-			"21:34:32 - OnLootSlotCleared() (1) (nil)", -- [1718]
-			"21:34:32 - Event: (LOOT_CLOSED)", -- [1719]
-			"21:38:55 - Event: (LOOT_OPENED) (1)", -- [1720]
-			"21:38:56 - Event: (LOOT_CLOSED)", -- [1721]
-			"21:41:03 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (14) (13)", -- [1722]
-			"21:41:03 - UpdatePlayersData()", -- [1723]
-			"21:47:11 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (14) (13) (1)", -- [1724]
-			"21:47:12 - Event: (LOOT_OPENED) (1)", -- [1725]
-			"21:47:12 - OnLootSlotCleared() (1) (nil)", -- [1726]
-			"21:47:12 - Event: (LOOT_CLOSED)", -- [1727]
-			"22:01:28 - Event: (PARTY_LEADER_CHANGED)", -- [1728]
-			"22:01:28 - GetML()", -- [1729]
-			"22:01:28 - LootMethod =  (personalloot)", -- [1730]
-			"22:01:28 - Resetting council as we have a new ML!", -- [1731]
-			"22:01:28 - MasterLooter =  (Huurote-MoonGuard)", -- [1732]
-			"22:01:43 - Timer MLdb_check passed", -- [1733]
-			"22:01:44 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1734]
-			"22:01:44 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1735]
-			"22:05:56 - Event: (PARTY_LEADER_CHANGED)", -- [1736]
-			"22:05:56 - GetML()", -- [1737]
-			"22:05:56 - LootMethod =  (personalloot)", -- [1738]
-			"22:05:56 - Resetting council as we have a new ML!", -- [1739]
-			"22:05:56 - MasterLooter =  (Sulsaries-MoonGuard)", -- [1740]
-			"22:06:11 - Timer MLdb_check passed", -- [1741]
-			"22:06:11 - Comm received:^1^Sxrealm^T^N1^SSulsaries-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1742]
-			"22:06:11 - Comm received:^1^Sxrealm^T^N1^SSulsaries-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1743]
-			"22:09:37 - Event: (ENCOUNTER_START) (2075) (The Defense of Eonar) (14) (15)", -- [1744]
-			"22:09:37 - UpdatePlayersData()", -- [1745]
-			"22:14:36 - Event: (ENCOUNTER_END) (2075) (The Defense of Eonar) (14) (15) (1)", -- [1746]
-			"22:14:58 - Event: (LOOT_OPENED) (1)", -- [1747]
-			"22:14:58 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:152013::::::::110:250::3:3:3610:1472:3528:::|h[Helmet of the Hidden Sanctuary]|h|r)", -- [1748]
-			"22:14:58 - Event: (LOOT_CLOSED)", -- [1749]
-			"22:15:00 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:152013::::::::110:250::3:3:3610:1472:3528:::|h[Helmet~`of~`the~`Hidden~`Sanctuary]|h|r^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1750]
-			"22:17:58 - Event: (ENCOUNTER_START) (2064) (Portal Keeper Hasabel) (14) (14)", -- [1751]
-			"22:17:58 - UpdatePlayersData()", -- [1752]
-			"22:24:04 - Event: (ENCOUNTER_END) (2064) (Portal Keeper Hasabel) (14) (14) (1)", -- [1753]
-			"22:24:05 - Event: (LOOT_OPENED) (1)", -- [1754]
-			"22:24:06 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:152057::::::::110:250::3:3:3610:1472:3528:::|h[Crepuscular Skitterer Egg]|h|r)", -- [1755]
-			"22:24:06 - Event: (LOOT_CLOSED)", -- [1756]
-			"22:24:07 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:152057::::::::110:250::3:3:3610:1472:3528:::|h[Crepuscular~`Skitterer~`Egg]|h|r^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1757]
-			"22:27:31 - Event: (ENCOUNTER_START) (2082) (Imonar the Soulhunter) (14) (14)", -- [1758]
-			"22:27:31 - UpdatePlayersData()", -- [1759]
-			"22:33:04 - Event: (ENCOUNTER_END) (2082) (Imonar the Soulhunter) (14) (14) (1)", -- [1760]
-			"22:33:05 - Event: (LOOT_OPENED) (1)", -- [1761]
-			"22:33:06 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:152902::::::::110:250::::::|h[Rune of Passage]|h|r)", -- [1762]
-			"22:33:06 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:152116::::::::110:250::3:3:3610:1472:3528:::|h[Dreadwake Legplates]|h|r)", -- [1763]
-			"22:33:06 - Event: (LOOT_CLOSED)", -- [1764]
-			"22:33:06 - Event: (LOOT_CLOSED)", -- [1765]
-			"22:33:07 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:152116::::::::110:250::3:3:3610:1472:3528:::|h[Dreadwake~`Legplates]|h|r^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1766]
-			"22:37:05 - Event: (ENCOUNTER_START) (2088) (Kin'garoth) (14) (14)", -- [1767]
-			"22:37:05 - UpdatePlayersData()", -- [1768]
-			"22:46:40 - Event: (ENCOUNTER_END) (2088) (Kin'garoth) (14) (14) (1)", -- [1769]
-			"22:46:42 - Event: (LOOT_OPENED) (1)", -- [1770]
-			"22:46:42 - OnLootSlotCleared() (1) (nil)", -- [1771]
-			"22:46:42 - Event: (LOOT_CLOSED)", -- [1772]
-			"22:53:35 - Event: (ENCOUNTER_START) (2069) (Varimathras) (14) (13)", -- [1773]
-			"22:53:35 - UpdatePlayersData()", -- [1774]
-			"22:55:51 - Event: (ENCOUNTER_END) (2069) (Varimathras) (14) (13) (0)", -- [1775]
-			"22:56:32 - Event: (LOOT_OPENED) (1)", -- [1776]
-			"22:56:32 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:250::::::|h[Sticky Volatile Substance]|h|r)", -- [1777]
-			"22:56:32 - Event: (LOOT_CLOSED)", -- [1778]
-			"22:58:15 - Comm received:^1^Sxrealm^T^N1^SSulsaries-MoonGuard^N2^SMLdb_request^t^^ (from:) (Jassma-Tichondrius) (distri:) (RAID)", -- [1779]
-			"22:58:15 - Comm received:^1^Sxrealm^T^N1^SSulsaries-MoonGuard^N2^Scouncil_request^t^^ (from:) (Jassma-Tichondrius) (distri:) (RAID)", -- [1780]
-			"22:58:57 - Event: (PARTY_LEADER_CHANGED)", -- [1781]
-			"22:58:57 - GetML()", -- [1782]
-			"22:58:57 - LootMethod =  (personalloot)", -- [1783]
-			"22:58:57 - Resetting council as we have a new ML!", -- [1784]
-			"22:58:57 - MasterLooter =  (Huurote-MoonGuard)", -- [1785]
-			"22:59:12 - Timer MLdb_check passed", -- [1786]
-			"22:59:12 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^SMLdb_request^t^^ (from:) (Jassma-Tichondrius) (distri:) (RAID)", -- [1787]
-			"22:59:12 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^Scouncil_request^t^^ (from:) (Jassma-Tichondrius) (distri:) (RAID)", -- [1788]
-			"22:59:13 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1789]
-			"22:59:13 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1790]
-			"22:59:58 - Event: (PARTY_LEADER_CHANGED)", -- [1791]
-			"22:59:58 - GetML()", -- [1792]
-			"22:59:58 - LootMethod =  (personalloot)", -- [1793]
-			"22:59:58 - Resetting council as we have a new ML!", -- [1794]
-			"22:59:58 - MasterLooter =  (Soldoral-MoonGuard)", -- [1795]
-			"23:00:13 - Timer MLdb_check passed", -- [1796]
-			"23:00:14 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Jassma-Tichondrius) (distri:) (RAID)", -- [1797]
-			"23:00:14 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Jassma-Tichondrius) (distri:) (RAID)", -- [1798]
-			"23:00:14 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1799]
-			"23:00:14 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1800]
-			"23:03:17 - Event: (ENCOUNTER_START) (2069) (Varimathras) (14) (15)", -- [1801]
-			"23:03:17 - UpdatePlayersData()", -- [1802]
-			"23:07:40 - Event: (ENCOUNTER_END) (2069) (Varimathras) (14) (15) (1)", -- [1803]
-			"23:07:41 - Event: (LOOT_OPENED) (1)", -- [1804]
-			"23:07:41 - OnLootSlotCleared() (1) (nil)", -- [1805]
-			"23:07:41 - Event: (LOOT_CLOSED)", -- [1806]
-			"23:08:34 - Event: (ENCOUNTER_START) (2073) (The Coven of Shivarra) (14) (15)", -- [1807]
-			"23:08:34 - UpdatePlayersData()", -- [1808]
-			"23:08:40 - Event: (ENCOUNTER_END) (2073) (The Coven of Shivarra) (14) (15) (0)", -- [1809]
-			"23:08:40 - Event: (ENCOUNTER_START) (2073) (The Coven of Shivarra) (14) (15)", -- [1810]
-			"23:08:40 - UpdatePlayersData()", -- [1811]
-			"23:08:44 - Event: (ENCOUNTER_END) (2073) (The Coven of Shivarra) (14) (15) (0)", -- [1812]
-			"23:10:01 - Event: (ENCOUNTER_START) (2073) (The Coven of Shivarra) (14) (15)", -- [1813]
-			"23:10:01 - UpdatePlayersData()", -- [1814]
-			"23:18:51 - Event: (ENCOUNTER_END) (2073) (The Coven of Shivarra) (14) (15) (1)", -- [1815]
-			"23:18:56 - Event: (LOOT_OPENED) (1)", -- [1816]
-			"23:18:57 - OnLootSlotCleared() (1) (nil)", -- [1817]
-			"23:18:57 - Event: (LOOT_CLOSED)", -- [1818]
-			"23:22:22 - Event: (ENCOUNTER_START) (2063) (Aggramar) (14) (15)", -- [1819]
-			"23:22:22 - UpdatePlayersData()", -- [1820]
-			"23:29:08 - Event: (ENCOUNTER_END) (2063) (Aggramar) (14) (15) (1)", -- [1821]
-			"23:29:09 - Event: (LOOT_OPENED) (1)", -- [1822]
-			"23:29:09 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:152908::::::::110:252::::::|h[Sigil of the Dark Titan]|h|r)", -- [1823]
-			"23:29:09 - OnLootSlotCleared() (2) (nil)", -- [1824]
-			"23:29:09 - Event: (LOOT_CLOSED)", -- [1825]
-			"23:29:09 - Event: (LOOT_CLOSED)", -- [1826]
-			"23:41:07 - Event: (LOOT_CLOSED)", -- [1827]
-			"23:43:41 - Event: (ENCOUNTER_START) (2092) (Argus the Unmaker) (14) (16)", -- [1828]
-			"23:43:41 - UpdatePlayersData()", -- [1829]
-			"23:55:09 - Event: (ENCOUNTER_END) (2092) (Argus the Unmaker) (14) (16) (1)", -- [1830]
-			"23:55:15 - Event: (LOOT_OPENED) (1)", -- [1831]
-			"23:55:16 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:152016::::::::110:252::3:3:3610:1487:3337:::|h[Cosmos-Culling Legplates]|h|r)", -- [1832]
-			"23:55:16 - Event: (LOOT_CLOSED)", -- [1833]
-			"23:55:17 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:152016::::::::110:252::3:3:3610:1487:3337:::|h[Cosmos-Culling~`Legplates]|h|r^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [1834]
-			"23:56:40 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1835]
-			"23:56:40 - GetML()", -- [1836]
-			"23:56:40 - LootMethod =  (personalloot)", -- [1837]
-			"23:57:06 - Event: (GROUP_LEFT) (Party-3675-00002B618DC2)", -- [1838]
-			"23:57:06 - GetML()", -- [1839]
-			"23:57:06 - LootMethod =  (personalloot)", -- [1840]
-			"23:58:52 - Event: (LOOT_OPENED) (1)", -- [1841]
-			"23:58:52 - Event: (LOOT_CLOSED)", -- [1842]
-			"23:59:08 - Event: (LOOT_OPENED) (1)", -- [1843]
-			"23:59:09 - Event: (LOOT_CLOSED)", -- [1844]
-			"23:59:10 - Event: (LOOT_OPENED) (1)", -- [1845]
-			"23:59:10 - Event: (LOOT_CLOSED)", -- [1846]
-			"23:59:10 - Event: (LOOT_CLOSED)", -- [1847]
-			"23:59:32 - Event: (LOOT_OPENED) (1)", -- [1848]
-			"23:59:32 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:252::::::|h[Sticky Volatile Substance]|h|r)", -- [1849]
-			"23:59:33 - Event: (LOOT_CLOSED)", -- [1850]
-			"00:04:38 - Event: (LOOT_OPENED) (1)", -- [1851]
-			"00:04:38 - OnLootSlotCleared() (1) (nil)", -- [1852]
-			"00:04:38 - Event: (LOOT_CLOSED)", -- [1853]
-			"00:04:42 - Event: (LOOT_OPENED) (1)", -- [1854]
-			"00:04:43 - Event: (LOOT_CLOSED)", -- [1855]
-			"00:04:50 - Event: (LOOT_OPENED) (1)", -- [1856]
-			"00:04:51 - Event: (LOOT_CLOSED)", -- [1857]
-			"00:04:59 - Event: (LOOT_OPENED) (1)", -- [1858]
-			"00:05:00 - OnLootSlotCleared() (1) (nil)", -- [1859]
-			"00:05:00 - Event: (LOOT_CLOSED)", -- [1860]
-			"00:05:16 - Event: (LOOT_OPENED) (1)", -- [1861]
-			"00:05:16 - Event: (LOOT_CLOSED)", -- [1862]
-			"00:05:22 - Event: (LOOT_OPENED) (1)", -- [1863]
-			"00:05:22 - Event: (LOOT_CLOSED)", -- [1864]
-			"00:05:29 - Event: (LOOT_OPENED) (1)", -- [1865]
-			"00:05:29 - Event: (LOOT_CLOSED)", -- [1866]
-			"00:05:36 - Event: (LOOT_OPENED) (1)", -- [1867]
-			"00:05:36 - Event: (LOOT_CLOSED)", -- [1868]
-			"00:05:43 - Event: (LOOT_OPENED) (1)", -- [1869]
-			"00:05:43 - Event: (LOOT_CLOSED)", -- [1870]
-			"00:05:47 - Event: (LOOT_OPENED) (1)", -- [1871]
-			"00:05:48 - OnLootSlotCleared() (1) (nil)", -- [1872]
-			"00:05:48 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [1873]
-			"00:05:48 - Event: (LOOT_CLOSED)", -- [1874]
-			"00:07:22 - Event: (LOOT_OPENED) (1)", -- [1875]
-			"00:07:22 - Event: (LOOT_CLOSED)", -- [1876]
-			"00:07:27 - Event: (LOOT_OPENED) (1)", -- [1877]
-			"00:07:28 - OnLootSlotCleared() (1) (nil)", -- [1878]
-			"00:07:28 - OnLootSlotCleared() (2) (|cffffffff|Hitem:124437::::::::110:252::::::|h[Shal'dorei Silk]|h|r)", -- [1879]
-			"00:07:28 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [1880]
-			"00:07:28 - Event: (LOOT_CLOSED)", -- [1881]
-			"00:07:39 - Event: (LOOT_OPENED) (1)", -- [1882]
-			"00:07:39 - OnLootSlotCleared() (1) (nil)", -- [1883]
-			"00:07:39 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [1884]
-			"00:07:39 - Event: (LOOT_CLOSED)", -- [1885]
-			"00:07:52 - Event: (LOOT_OPENED) (1)", -- [1886]
-			"00:07:52 - OnLootSlotCleared() (1) (nil)", -- [1887]
-			"00:07:52 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:138782::::::::110:252::::::|h[Brief History of the Ages]|h|r)", -- [1888]
-			"00:07:52 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [1889]
-			"00:07:52 - Event: (LOOT_CLOSED)", -- [1890]
-			"00:08:36 - Event: (LOOT_OPENED) (1)", -- [1891]
-			"00:08:36 - Event: (LOOT_CLOSED)", -- [1892]
-			"00:08:59 - Event: (LOOT_OPENED) (1)", -- [1893]
-			"00:08:59 - Event: (LOOT_CLOSED)", -- [1894]
-			"00:09:10 - Event: (LOOT_OPENED) (1)", -- [1895]
-			"00:09:11 - Event: (LOOT_CLOSED)", -- [1896]
-			"00:09:27 - Event: (LOOT_OPENED) (1)", -- [1897]
-			"00:09:28 - OnLootSlotCleared() (1) (nil)", -- [1898]
-			"00:09:28 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [1899]
-			"00:09:28 - OnLootSlotCleared() (3) (|cffffffff|Hitem:124437::::::::110:252::::::|h[Shal'dorei Silk]|h|r)", -- [1900]
-			"00:09:28 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:121368::::::::110:252::::::|h[Sunbleached Shirt]|h|r)", -- [1901]
-			"00:09:28 - Event: (LOOT_CLOSED)", -- [1902]
-			"00:13:32 - Event: (LOOT_OPENED) (1)", -- [1903]
-			"00:13:32 - Event: (LOOT_CLOSED)", -- [1904]
-			"00:13:42 - Event: (LOOT_OPENED) (1)", -- [1905]
-			"00:13:42 - Event: (LOOT_CLOSED)", -- [1906]
-			"00:13:50 - Event: (LOOT_CLOSED)", -- [1907]
-			"00:13:52 - Event: (LOOT_OPENED) (1)", -- [1908]
-			"00:13:53 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1909]
-			"00:13:53 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:138783::::::::110:252::::::|h[Glittering Memento]|h|r)", -- [1910]
-			"00:13:53 - Event: (LOOT_CLOSED)", -- [1911]
-			"00:13:54 - Event: (LOOT_OPENED) (1)", -- [1912]
-			"00:13:55 - Event: (LOOT_CLOSED)", -- [1913]
-			"00:14:15 - Event: (LOOT_OPENED) (1)", -- [1914]
-			"00:14:16 - Event: (LOOT_CLOSED)", -- [1915]
-			"00:14:21 - Event: (LOOT_OPENED) (1)", -- [1916]
-			"00:14:21 - Event: (LOOT_CLOSED)", -- [1917]
-			"00:14:33 - Event: (LOOT_OPENED) (1)", -- [1918]
-			"00:14:33 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:252::::::|h[Sticky Volatile Substance]|h|r)", -- [1919]
-			"00:14:33 - Event: (LOOT_CLOSED)", -- [1920]
-			"00:14:41 - Event: (LOOT_OPENED) (1)", -- [1921]
-			"00:14:42 - Event: (LOOT_CLOSED)", -- [1922]
-			"00:14:56 - Event: (LOOT_OPENED) (1)", -- [1923]
-			"00:14:56 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:252::::::|h[Sticky Volatile Substance]|h|r)", -- [1924]
-			"00:14:56 - Event: (LOOT_CLOSED)", -- [1925]
-			"00:15:20 - Event: (LOOT_OPENED) (1)", -- [1926]
-			"00:15:20 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:252::::::|h[Sticky Volatile Substance]|h|r)", -- [1927]
-			"00:15:21 - Event: (LOOT_CLOSED)", -- [1928]
-			"00:16:24 - Event: (LOOT_OPENED) (1)", -- [1929]
-			"00:16:24 - Event: (LOOT_CLOSED)", -- [1930]
-			"00:16:45 - Event: (LOOT_OPENED) (1)", -- [1931]
-			"00:16:45 - Event: (LOOT_CLOSED)", -- [1932]
-			"00:16:54 - Event: (LOOT_OPENED) (1)", -- [1933]
-			"00:16:54 - Event: (LOOT_CLOSED)", -- [1934]
-			"00:17:05 - Event: (LOOT_OPENED) (1)", -- [1935]
-			"00:17:06 - OnLootSlotCleared() (1) (nil)", -- [1936]
-			"00:17:06 - Event: (LOOT_CLOSED)", -- [1937]
-			"00:18:14 - Event: (LOOT_OPENED) (1)", -- [1938]
-			"00:18:14 - OnLootSlotCleared() (1) (nil)", -- [1939]
-			"00:18:14 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:121358::::::::110:252::::::|h[Sunbleached Handwraps]|h|r)", -- [1940]
-			"00:18:14 - Event: (LOOT_CLOSED)", -- [1941]
-			"00:18:25 - Event: (LOOT_OPENED) (1)", -- [1942]
-			"00:18:25 - Event: (LOOT_CLOSED)", -- [1943]
-			"00:18:31 - Event: (LOOT_OPENED) (1)", -- [1944]
-			"00:18:31 - Event: (LOOT_CLOSED)", -- [1945]
-			"00:18:41 - Event: (LOOT_OPENED) (1)", -- [1946]
-			"00:18:42 - OnLootSlotCleared() (1) (nil)", -- [1947]
-			"00:18:42 - Event: (LOOT_CLOSED)", -- [1948]
-			"00:19:14 - Event: (LOOT_OPENED) (1)", -- [1949]
-			"00:19:15 - OnLootSlotCleared() (1) (nil)", -- [1950]
-			"00:19:15 - Event: (LOOT_CLOSED)", -- [1951]
-			"00:20:17 - Event: (LOOT_OPENED) (1)", -- [1952]
-			"00:20:17 - Event: (LOOT_CLOSED)", -- [1953]
-			"00:20:59 - Event: (LOOT_OPENED) (1)", -- [1954]
-			"00:20:59 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132184::::::::110:252::::::|h[Intact Shimmering Scale]|h|r)", -- [1955]
-			"00:20:59 - Event: (LOOT_CLOSED)", -- [1956]
-			"00:21:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1957]
-			"00:21:39 - GetML()", -- [1958]
-			"00:21:39 - LootMethod =  (personalloot)", -- [1959]
-			"00:33:14 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1960]
-			"00:33:14 - GetML()", -- [1961]
-			"00:33:14 - LootMethod =  (personalloot)", -- [1962]
-			"00:33:43 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1963]
-			"00:33:43 - GetML()", -- [1964]
-			"00:33:43 - LootMethod =  (personalloot)", -- [1965]
-			"04/14/18", -- [1966]
-			"09:29:01 - Logged In", -- [1967]
-			"09:29:01 - ML initialized!", -- [1968]
-			"09:29:19 - Anyatsu-Terenas (2.7.9) (nil)", -- [1969]
-			"09:29:19 - ActivateSkin (new_blue)", -- [1970]
-			"09:29:28 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1971]
-			"09:29:28 - GetML()", -- [1972]
-			"09:29:28 - LootMethod =  (personalloot)", -- [1973]
-			"09:29:28 - UpdatePlayersData()", -- [1974]
-			"09:29:30 - GetPlayersGuildRank()", -- [1975]
-			"09:29:30 - Found Guild Rank: Initiate", -- [1976]
-			"09:29:30 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1977]
-			"09:32:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1978]
-			"09:32:15 - GetML()", -- [1979]
-			"09:32:15 - LootMethod =  (personalloot)", -- [1980]
-			"09:34:24 - Event: (LOOT_OPENED) (1)", -- [1981]
-			"09:34:24 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:139808::::::::110:252::::::|h[Curio of Abundant Happiness]|h|r)", -- [1982]
-			"09:34:24 - Event: (LOOT_CLOSED)", -- [1983]
-			"09:34:24 - Event: (LOOT_CLOSED)", -- [1984]
-			"09:49:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1985]
-			"09:49:15 - GetML()", -- [1986]
-			"09:49:15 - LootMethod =  (personalloot)", -- [1987]
-			"04/14/18", -- [1988]
-			"20:56:23 - Logged In", -- [1989]
-			"20:56:23 - ML initialized!", -- [1990]
-			"20:57:47 - Anyatsu-Terenas (2.7.9) (nil)", -- [1991]
-			"20:57:47 - ActivateSkin (new_blue)", -- [1992]
-			"20:57:56 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1993]
-			"20:57:56 - GetML()", -- [1994]
-			"20:57:56 - LootMethod =  (personalloot)", -- [1995]
-			"20:57:56 - UpdatePlayersData()", -- [1996]
-			"20:57:59 - GetPlayersGuildRank()", -- [1997]
-			"20:57:59 - Found Guild Rank: Initiate", -- [1998]
-			"20:57:59 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [1999]
-			"20:58:41 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2000]
-			"20:58:41 - GetML()", -- [2001]
-			"20:58:41 - LootMethod =  (personalloot)", -- [2002]
-			"21:02:19 - Event: (LOOT_OPENED) (1)", -- [2003]
-			"21:02:20 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:147348::::::::110:252::::::|h[Bulky Armor Set]|h|r)", -- [2004]
-			"21:02:20 - Event: (LOOT_CLOSED)", -- [2005]
-			"21:02:20 - Event: (LOOT_CLOSED)", -- [2006]
-			"21:02:31 - Event: (PARTY_LEADER_CHANGED)", -- [2007]
-			"21:02:31 - GetML()", -- [2008]
-			"21:02:31 - LootMethod =  (personalloot)", -- [2009]
-			"21:02:31 - Unknown ML", -- [2010]
-			"21:02:31 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [2011]
-			"21:02:31 - GetML()", -- [2012]
-			"21:02:31 - LootMethod =  (personalloot)", -- [2013]
-			"21:02:31 - Unknown ML", -- [2014]
-			"21:02:31 - GetML()", -- [2015]
-			"21:02:31 - LootMethod =  (personalloot)", -- [2016]
-			"21:02:31 - Resetting council as we have a new ML!", -- [2017]
-			"21:02:31 - MasterLooter =  (Soldoral-MoonGuard)", -- [2018]
-			"21:02:31 - GetML()", -- [2019]
-			"21:02:31 - LootMethod =  (personalloot)", -- [2020]
-			"21:02:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2021]
-			"21:02:56 - GetML()", -- [2022]
-			"21:02:56 - LootMethod =  (personalloot)", -- [2023]
-			"21:02:56 - Timer MLdb_check passed", -- [2024]
-			"21:02:56 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [2025]
-			"21:02:56 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [2026]
-			"21:03:15 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Heroic)) (223004) (0) (0)", -- [2027]
-			"21:03:16 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2028]
-			"21:03:16 - GetML()", -- [2029]
-			"21:03:16 - LootMethod =  (personalloot)", -- [2030]
-			"21:29:22 - Event: (ENCOUNTER_START) (2076) (Garothi Worldbreaker) (15) (15)", -- [2031]
-			"21:29:22 - UpdatePlayersData()", -- [2032]
-			"21:34:21 - Event: (ENCOUNTER_END) (2076) (Garothi Worldbreaker) (15) (15) (1)", -- [2033]
-			"21:43:20 - Event: (ENCOUNTER_START) (2074) (Felhounds of Sargeras) (15) (15)", -- [2034]
-			"21:43:20 - UpdatePlayersData()", -- [2035]
-			"21:50:03 - Event: (ENCOUNTER_END) (2074) (Felhounds of Sargeras) (15) (15) (1)", -- [2036]
-			"21:50:34 - Event: (LOOT_OPENED) (1)", -- [2037]
-			"21:50:35 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:151937::::::::110:252::5:3:3611:1492:3336:::|h[Cloak of the Burning Vanguard]|h|r)", -- [2038]
-			"21:50:35 - Event: (LOOT_CLOSED)", -- [2039]
-			"21:50:36 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:151937::::::::110:252::5:3:3611:1492:3336:::|h[Cloak~`of~`the~`Burning~`Vanguard]|h|r^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [2040]
-			"21:51:21 - Event: (LOOT_OPENED) (1)", -- [2041]
-			"21:51:21 - OnLootSlotCleared() (1) (nil)", -- [2042]
-			"21:51:21 - Event: (LOOT_CLOSED)", -- [2043]
-			"22:06:54 - Event: (ENCOUNTER_START) (2075) (The Defense of Eonar) (15) (15)", -- [2044]
-			"22:06:54 - UpdatePlayersData()", -- [2045]
-			"22:13:34 - Event: (ENCOUNTER_END) (2075) (The Defense of Eonar) (15) (15) (0)", -- [2046]
-			"22:16:23 - Event: (ENCOUNTER_START) (2075) (The Defense of Eonar) (15) (15)", -- [2047]
-			"22:16:23 - UpdatePlayersData()", -- [2048]
-			"22:22:31 - Event: (ENCOUNTER_END) (2075) (The Defense of Eonar) (15) (15) (0)", -- [2049]
-			"22:25:11 - Event: (ENCOUNTER_START) (2075) (The Defense of Eonar) (15) (15)", -- [2050]
-			"22:25:11 - UpdatePlayersData()", -- [2051]
-			"22:32:20 - Event: (ENCOUNTER_END) (2075) (The Defense of Eonar) (15) (15) (1)", -- [2052]
-			"22:33:22 - Event: (LOOT_OPENED) (1)", -- [2053]
-			"22:33:22 - OnLootSlotCleared() (1) (nil)", -- [2054]
-			"22:33:22 - Event: (LOOT_CLOSED)", -- [2055]
-			"22:34:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2056]
-			"22:34:21 - GetML()", -- [2057]
-			"22:34:21 - LootMethod =  (personalloot)", -- [2058]
-			"22:34:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2059]
-			"22:34:58 - GetML()", -- [2060]
-			"22:34:58 - LootMethod =  (personalloot)", -- [2061]
-			"22:35:23 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2062]
-			"22:35:23 - GetML()", -- [2063]
-			"22:35:23 - LootMethod =  (personalloot)", -- [2064]
-			"22:36:34 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Heroic)) (217405) (1) (0)", -- [2065]
-			"22:36:34 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2066]
-			"22:36:34 - GetML()", -- [2067]
-			"22:36:34 - LootMethod =  (personalloot)", -- [2068]
-			"22:44:24 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (15)", -- [2069]
-			"22:44:24 - UpdatePlayersData()", -- [2070]
-			"22:55:32 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (15) (0)", -- [2071]
-			"23:02:39 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (15)", -- [2072]
-			"23:02:39 - UpdatePlayersData()", -- [2073]
-			"23:07:42 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (15) (0)", -- [2074]
-			"23:18:47 - Event: (ENCOUNTER_START) (2064) (Portal Keeper Hasabel) (15) (14)", -- [2075]
-			"23:18:47 - UpdatePlayersData()", -- [2076]
-			"23:20:25 - Event: (ENCOUNTER_END) (2064) (Portal Keeper Hasabel) (15) (14) (0)", -- [2077]
-			"23:23:07 - Event: (ENCOUNTER_START) (2064) (Portal Keeper Hasabel) (15) (14)", -- [2078]
-			"23:23:07 - UpdatePlayersData()", -- [2079]
-			"23:29:17 - Event: (ENCOUNTER_END) (2064) (Portal Keeper Hasabel) (15) (14) (0)", -- [2080]
-			"23:29:40 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2081]
-			"23:29:40 - GetML()", -- [2082]
-			"23:29:40 - LootMethod =  (personalloot)", -- [2083]
-			"23:30:23 - Event: (LOOT_CLOSED)", -- [2084]
-			"23:31:07 - Event: (GROUP_LEFT) (Party-3675-00002B65982A)", -- [2085]
-			"23:31:07 - GetML()", -- [2086]
-			"23:31:07 - LootMethod =  (personalloot)", -- [2087]
-			"23:33:01 - Event: (PARTY_LEADER_CHANGED)", -- [2088]
-			"23:33:01 - GetML()", -- [2089]
-			"23:33:01 - LootMethod =  (personalloot)", -- [2090]
-			"23:33:01 - Resetting council as we have a new ML!", -- [2091]
-			"23:33:01 - MasterLooter =  (Soldoral-MoonGuard)", -- [2092]
-			"23:33:01 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [2093]
-			"23:33:01 - GetML()", -- [2094]
-			"23:33:01 - LootMethod =  (personalloot)", -- [2095]
-			"23:33:16 - Timer MLdb_check passed", -- [2096]
-			"23:33:16 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2097]
-			"23:33:16 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2098]
-			"23:33:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2099]
-			"23:33:49 - GetML()", -- [2100]
-			"23:33:49 - LootMethod =  (personalloot)", -- [2101]
-			"23:34:08 - Event: (RAID_INSTANCE_WELCOME) (Return to Karazhan (Mythic)) (213951) (0) (0)", -- [2102]
-			"23:34:09 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2103]
-			"23:34:09 - GetML()", -- [2104]
-			"23:34:09 - LootMethod =  (personalloot)", -- [2105]
-			"00:20:18 - Event: (ENCOUNTER_START) (1964) (The Curator) (8) (5)", -- [2106]
-			"00:20:18 - UpdatePlayersData()", -- [2107]
-			"00:22:35 - Event: (ENCOUNTER_END) (1964) (The Curator) (8) (5) (0)", -- [2108]
-			"00:23:56 - Event: (ENCOUNTER_START) (1964) (The Curator) (8) (5)", -- [2109]
-			"00:23:56 - UpdatePlayersData()", -- [2110]
-			"00:25:58 - Event: (ENCOUNTER_END) (1964) (The Curator) (8) (5) (1)", -- [2111]
-			"00:27:22 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [2112]
-			"00:27:22 - UpdatePlayersData()", -- [2113]
-			"00:29:05 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (0)", -- [2114]
-			"00:30:20 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [2115]
-			"00:30:20 - UpdatePlayersData()", -- [2116]
-			"00:30:48 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (0)", -- [2117]
-			"00:31:53 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [2118]
-			"00:31:53 - UpdatePlayersData()", -- [2119]
-			"00:34:15 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (0)", -- [2120]
-			"00:36:01 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [2121]
-			"00:36:01 - UpdatePlayersData()", -- [2122]
-			"00:37:08 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (0)", -- [2123]
-			"00:38:45 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [2124]
-			"00:38:45 - UpdatePlayersData()", -- [2125]
-			"00:40:51 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (1)", -- [2126]
-			"00:42:37 - Event: (ENCOUNTER_START) (1959) (Mana Devourer) (8) (5)", -- [2127]
-			"00:42:37 - UpdatePlayersData()", -- [2128]
-			"00:44:11 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (8) (5) (0)", -- [2129]
-			"00:45:24 - Event: (ENCOUNTER_START) (1959) (Mana Devourer) (8) (5)", -- [2130]
-			"00:45:24 - UpdatePlayersData()", -- [2131]
-			"00:46:58 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (8) (5) (0)", -- [2132]
-			"00:49:07 - Event: (ENCOUNTER_START) (1959) (Mana Devourer) (8) (5)", -- [2133]
-			"00:49:07 - UpdatePlayersData()", -- [2134]
-			"00:50:56 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (8) (5) (0)", -- [2135]
-			"00:53:16 - Event: (ENCOUNTER_START) (1959) (Mana Devourer) (8) (5)", -- [2136]
-			"00:53:16 - UpdatePlayersData()", -- [2137]
-			"00:55:08 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (8) (5) (1)", -- [2138]
-			"01:00:59 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [2139]
-			"01:00:59 - UpdatePlayersData()", -- [2140]
-			"01:03:08 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [2141]
-			"01:05:12 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [2142]
-			"01:05:12 - UpdatePlayersData()", -- [2143]
-			"01:07:08 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [2144]
-			"01:09:13 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [2145]
-			"01:09:13 - UpdatePlayersData()", -- [2146]
-			"01:10:51 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [2147]
-			"01:12:57 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [2148]
-			"01:12:57 - UpdatePlayersData()", -- [2149]
-			"01:15:20 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [2150]
-			"01:17:48 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [2151]
-			"01:17:48 - UpdatePlayersData()", -- [2152]
-			"01:20:39 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [2153]
-			"01:23:00 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [2154]
-			"01:23:00 - UpdatePlayersData()", -- [2155]
-			"01:24:36 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [2156]
-			"01:26:38 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [2157]
-			"01:26:38 - UpdatePlayersData()", -- [2158]
-			"01:29:35 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (1)", -- [2159]
-			"01:29:43 - Event: (LOOT_OPENED) (1)", -- [2160]
-			"01:29:43 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:142307::::::::110:252::16:3:3536:1557:3336:::|h[Miniature Bonfire]|h|r)", -- [2161]
-			"01:29:43 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:147718::::::::110:252::16::::|h[Master's Symbol]|h|r)", -- [2162]
-			"01:29:43 - Event: (LOOT_CLOSED)", -- [2163]
-			"01:29:44 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:142307::::::::110:252::16:3:3536:1557:3336:::|h[Miniature~`Bonfire]|h|r^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2164]
-			"01:31:36 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2165]
-			"01:31:36 - GetML()", -- [2166]
-			"01:31:36 - LootMethod =  (personalloot)", -- [2167]
-			"01:32:20 - Event: (PARTY_LEADER_CHANGED)", -- [2168]
-			"01:32:20 - GetML()", -- [2169]
-			"01:32:20 - LootMethod =  (personalloot)", -- [2170]
-			"01:32:20 - Resetting council as we have a new ML!", -- [2171]
-			"01:32:20 - MasterLooter =  (Huurote-MoonGuard)", -- [2172]
-			"01:32:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2173]
-			"01:32:37 - GetML()", -- [2174]
-			"01:32:37 - LootMethod =  (personalloot)", -- [2175]
-			"01:32:39 - Timer MLdb_check passed", -- [2176]
-			"01:32:39 - Event: (PARTY_LEADER_CHANGED)", -- [2177]
-			"01:32:39 - GetML()", -- [2178]
-			"01:32:39 - LootMethod =  (personalloot)", -- [2179]
-			"01:32:39 - Resetting council as we have a new ML!", -- [2180]
-			"01:32:39 - MasterLooter =  (Anyatsu-Terenas)", -- [2181]
-			"01:32:39 - GetCouncilInGroup (Anyatsu-Terenas)", -- [2182]
-			"01:32:39 - ML:NewML (Anyatsu-Terenas)", -- [2183]
-			"01:32:39 - UpdateMLdb", -- [2184]
-			"01:32:39 - UpdateGroup (true)", -- [2185]
-			"01:32:39 - ML:AddCandidate (Anyatsu-Terenas) (DEATHKNIGHT) (DAMAGER) (nil) (nil) (nil) (nil)", -- [2186]
-			"01:32:39 - ML:AddCandidate (Wraithii-MoonGuard) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [2187]
-			"01:32:39 - ML:AddCandidate (Cydael-MoonGuard) (PRIEST) (HEALER) (nil) (nil) (nil) (nil)", -- [2188]
-			"01:32:39 - GetCouncilInGroup (Anyatsu-Terenas)", -- [2189]
-			"01:32:39 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2190]
-			"01:32:39 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2191]
-			"01:32:39 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2192]
-			"01:32:39 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2193]
-			"01:32:42 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2194]
-			"01:32:43 - Comm received:^1^SplayerInfo^T^N1^SAnyatsu-Terenas^N2^SDEATHKNIGHT^N3^SDAMAGER^N4^SInitiate^N6^N0^N7^N946.5625^N8^N252^t^^ (from:) (Anyatsu) (distri:) (WHISPER)", -- [2195]
-			"01:32:43 - ML:AddCandidate (Anyatsu-Terenas) (DEATHKNIGHT) (DAMAGER) (Initiate) (nil) (0) (946.5625)", -- [2196]
-			"01:32:43 - Comm received:^1^Scandidates^T^N1^T^SWraithii-MoonGuard^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SAnyatsu-Terenas^T^Srole^SDAMAGER^Sclass^SDEATHKNIGHT^Srank^S^t^SCydael-MoonGuard^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2197]
-			"01:32:43 - Comm received:^1^Scouncil^T^N1^T^N1^SAnyatsu-Terenas^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [2198]
-			"01:32:43 - true = (IsCouncil) (Anyatsu-Terenas)", -- [2199]
-			"01:32:43 - GetLootDBStatistics()", -- [2200]
-			"01:32:43 - GetGuildRankNum()", -- [2201]
-			"01:32:43 - RCVotingFrame (enabled)", -- [2202]
-			"01:32:47 - Event: (GROUP_LEFT) (Party-3675-00002B6641A3)", -- [2203]
-			"01:32:47 - GetML()", -- [2204]
-			"01:32:47 - LootMethod =  (personalloot)", -- [2205]
-			"01:32:47 - ML Disabled", -- [2206]
-			"01:32:54 - Timer MLdb_check passed", -- [2207]
-			"01:33:41 - Event: (LOOT_OPENED) (1)", -- [2208]
-			"01:33:41 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:139812::::::::110:252::::::|h[Potion of Triton]|h|r)", -- [2209]
-			"01:33:41 - Event: (LOOT_CLOSED)", -- [2210]
-			"01:33:41 - Event: (LOOT_CLOSED)", -- [2211]
-			"04/17/18", -- [2212]
-			"10:14:37 - Logged In", -- [2213]
-			"10:14:37 - ML initialized!", -- [2214]
-			"10:15:08 - Anyatsu-Terenas (2.7.9) (nil)", -- [2215]
-			"10:15:08 - ActivateSkin (new_blue)", -- [2216]
-			"10:15:17 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [2217]
-			"10:15:17 - GetML()", -- [2218]
-			"10:15:17 - LootMethod =  (personalloot)", -- [2219]
-			"10:15:17 - UpdatePlayersData()", -- [2220]
-			"10:15:20 - GetPlayersGuildRank()", -- [2221]
-			"10:15:20 - Found Guild Rank: Initiate", -- [2222]
-			"10:15:20 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [2223]
-			"10:17:10 - Event: (LOOT_OPENED) (1)", -- [2224]
-			"10:17:10 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:139809::::::::110:252::::::|h[Elixir of Plenty]|h|r)", -- [2225]
-			"10:17:11 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:140581::::::::110:252::::::|h[Sturdy Hiking Boots]|h|r)", -- [2226]
-			"10:17:11 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:139801::::::::110:252::::::|h[Lucky Doodad]|h|r)", -- [2227]
-			"10:17:11 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:139811::::::::110:252::::::|h[Necklace of Endless Memories]|h|r)", -- [2228]
-			"10:17:11 - Event: (LOOT_CLOSED)", -- [2229]
-			"10:17:11 - Event: (LOOT_CLOSED)", -- [2230]
-			"10:20:41 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2231]
-			"10:20:41 - GetML()", -- [2232]
-			"10:20:41 - LootMethod =  (personalloot)", -- [2233]
-			"10:21:29 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2234]
-			"10:21:29 - GetML()", -- [2235]
-			"10:21:29 - LootMethod =  (personalloot)", -- [2236]
-			"10:23:14 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2237]
-			"10:23:14 - GetML()", -- [2238]
-			"10:23:14 - LootMethod =  (personalloot)", -- [2239]
-			"04/18/18", -- [2240]
-			"18:27:42 - Logged In", -- [2241]
-			"18:27:42 - ML initialized!", -- [2242]
-			"18:28:12 - Anyatsu-Terenas (2.7.9) (nil)", -- [2243]
-			"18:28:12 - ActivateSkin (new_blue)", -- [2244]
-			"18:28:22 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [2245]
-			"18:28:22 - GetML()", -- [2246]
-			"18:28:22 - LootMethod =  (personalloot)", -- [2247]
-			"18:28:22 - UpdatePlayersData()", -- [2248]
-			"18:28:24 - GetPlayersGuildRank()", -- [2249]
-			"18:28:24 - Found Guild Rank: Initiate", -- [2250]
-			"18:28:24 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [2251]
-			"18:28:30 - Event: (LOOT_OPENED) (1)", -- [2252]
-			"18:28:33 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:124124::::::::110:252::::::|h[Blood of Sargeras]|h|r)", -- [2253]
-			"18:28:34 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:138019::::::::110:252:4063232:::233:14:7:2:10:::|h[Mythic Keystone]|h|r)", -- [2254]
-			"18:28:35 - OnLootSlotCleared() (3) (|cffa335ee|Hcurrency:1275|h[Curious Coin]|h|r)", -- [2255]
-			"18:28:35 - OnLootSlotCleared() (4) (|cffffffff|Hcurrency:1533|h[Wakening Essence]|h|r)", -- [2256]
-			"18:28:38 - OnLootSlotCleared() (6) (|cff0070dd|Hitem:147721::::::::110:252::35::::|h[Master's Trophy]|h|r)", -- [2257]
-			"18:28:40 - OnLootSlotCleared() (5) (|cffa335ee|Hitem:133642::::::::110:252::35:3:3536:1612:3337:::|h[Horn of Valor]|h|r)", -- [2258]
-			"18:28:40 - Event: (LOOT_CLOSED)", -- [2259]
-			"18:28:40 - Event: (LOOT_CLOSED)", -- [2260]
-			"18:52:34 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Keeiril-Hydraxis) (distri:) (GUILD)", -- [2261]
-			"18:53:59 - Event: (LOOT_CLOSED)", -- [2262]
-			"18:57:28 - Event: (LOOT_CLOSED)", -- [2263]
-			"18:57:42 - Event: (LOOT_OPENED) (1)", -- [2264]
-			"18:57:42 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:147348::::::::110:252::::::|h[Bulky Armor Set]|h|r)", -- [2265]
-			"18:57:42 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:139814::::::::110:252::::::|h[Carrot on a Stick]|h|r)", -- [2266]
-			"18:57:42 - Event: (LOOT_CLOSED)", -- [2267]
-			"18:57:42 - Event: (LOOT_CLOSED)", -- [2268]
+			"21:02:56 - Timer MLdb_check passed", -- [1]
+			"21:02:56 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [2]
+			"21:02:56 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [3]
+			"21:03:15 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Heroic)) (223004) (0) (0)", -- [4]
+			"21:03:16 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [5]
+			"21:03:16 - GetML()", -- [6]
+			"21:03:16 - LootMethod =  (personalloot)", -- [7]
+			"21:29:22 - Event: (ENCOUNTER_START) (2076) (Garothi Worldbreaker) (15) (15)", -- [8]
+			"21:29:22 - UpdatePlayersData()", -- [9]
+			"21:34:21 - Event: (ENCOUNTER_END) (2076) (Garothi Worldbreaker) (15) (15) (1)", -- [10]
+			"21:43:20 - Event: (ENCOUNTER_START) (2074) (Felhounds of Sargeras) (15) (15)", -- [11]
+			"21:43:20 - UpdatePlayersData()", -- [12]
+			"21:50:03 - Event: (ENCOUNTER_END) (2074) (Felhounds of Sargeras) (15) (15) (1)", -- [13]
+			"21:50:34 - Event: (LOOT_OPENED) (1)", -- [14]
+			"21:50:35 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:151937::::::::110:252::5:3:3611:1492:3336:::|h[Cloak of the Burning Vanguard]|h|r)", -- [15]
+			"21:50:35 - Event: (LOOT_CLOSED)", -- [16]
+			"21:50:36 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:151937::::::::110:252::5:3:3611:1492:3336:::|h[Cloak~`of~`the~`Burning~`Vanguard]|h|r^t^^ (from:) (Anyatsu) (distri:) (RAID)", -- [17]
+			"21:51:21 - Event: (LOOT_OPENED) (1)", -- [18]
+			"21:51:21 - OnLootSlotCleared() (1) (nil)", -- [19]
+			"21:51:21 - Event: (LOOT_CLOSED)", -- [20]
+			"22:06:54 - Event: (ENCOUNTER_START) (2075) (The Defense of Eonar) (15) (15)", -- [21]
+			"22:06:54 - UpdatePlayersData()", -- [22]
+			"22:13:34 - Event: (ENCOUNTER_END) (2075) (The Defense of Eonar) (15) (15) (0)", -- [23]
+			"22:16:23 - Event: (ENCOUNTER_START) (2075) (The Defense of Eonar) (15) (15)", -- [24]
+			"22:16:23 - UpdatePlayersData()", -- [25]
+			"22:22:31 - Event: (ENCOUNTER_END) (2075) (The Defense of Eonar) (15) (15) (0)", -- [26]
+			"22:25:11 - Event: (ENCOUNTER_START) (2075) (The Defense of Eonar) (15) (15)", -- [27]
+			"22:25:11 - UpdatePlayersData()", -- [28]
+			"22:32:20 - Event: (ENCOUNTER_END) (2075) (The Defense of Eonar) (15) (15) (1)", -- [29]
+			"22:33:22 - Event: (LOOT_OPENED) (1)", -- [30]
+			"22:33:22 - OnLootSlotCleared() (1) (nil)", -- [31]
+			"22:33:22 - Event: (LOOT_CLOSED)", -- [32]
+			"22:34:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [33]
+			"22:34:21 - GetML()", -- [34]
+			"22:34:21 - LootMethod =  (personalloot)", -- [35]
+			"22:34:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [36]
+			"22:34:58 - GetML()", -- [37]
+			"22:34:58 - LootMethod =  (personalloot)", -- [38]
+			"22:35:23 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [39]
+			"22:35:23 - GetML()", -- [40]
+			"22:35:23 - LootMethod =  (personalloot)", -- [41]
+			"22:36:34 - Event: (RAID_INSTANCE_WELCOME) (Antorus, the Burning Throne (Heroic)) (217405) (1) (0)", -- [42]
+			"22:36:34 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [43]
+			"22:36:34 - GetML()", -- [44]
+			"22:36:34 - LootMethod =  (personalloot)", -- [45]
+			"22:44:24 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (15)", -- [46]
+			"22:44:24 - UpdatePlayersData()", -- [47]
+			"22:55:32 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (15) (0)", -- [48]
+			"23:02:39 - Event: (ENCOUNTER_START) (2070) (Antoran High Command) (15) (15)", -- [49]
+			"23:02:39 - UpdatePlayersData()", -- [50]
+			"23:07:42 - Event: (ENCOUNTER_END) (2070) (Antoran High Command) (15) (15) (0)", -- [51]
+			"23:18:47 - Event: (ENCOUNTER_START) (2064) (Portal Keeper Hasabel) (15) (14)", -- [52]
+			"23:18:47 - UpdatePlayersData()", -- [53]
+			"23:20:25 - Event: (ENCOUNTER_END) (2064) (Portal Keeper Hasabel) (15) (14) (0)", -- [54]
+			"23:23:07 - Event: (ENCOUNTER_START) (2064) (Portal Keeper Hasabel) (15) (14)", -- [55]
+			"23:23:07 - UpdatePlayersData()", -- [56]
+			"23:29:17 - Event: (ENCOUNTER_END) (2064) (Portal Keeper Hasabel) (15) (14) (0)", -- [57]
+			"23:29:40 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [58]
+			"23:29:40 - GetML()", -- [59]
+			"23:29:40 - LootMethod =  (personalloot)", -- [60]
+			"23:30:23 - Event: (LOOT_CLOSED)", -- [61]
+			"23:31:07 - Event: (GROUP_LEFT) (Party-3675-00002B65982A)", -- [62]
+			"23:31:07 - GetML()", -- [63]
+			"23:31:07 - LootMethod =  (personalloot)", -- [64]
+			"23:33:01 - Event: (PARTY_LEADER_CHANGED)", -- [65]
+			"23:33:01 - GetML()", -- [66]
+			"23:33:01 - LootMethod =  (personalloot)", -- [67]
+			"23:33:01 - Resetting council as we have a new ML!", -- [68]
+			"23:33:01 - MasterLooter =  (Soldoral-MoonGuard)", -- [69]
+			"23:33:01 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [70]
+			"23:33:01 - GetML()", -- [71]
+			"23:33:01 - LootMethod =  (personalloot)", -- [72]
+			"23:33:16 - Timer MLdb_check passed", -- [73]
+			"23:33:16 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [74]
+			"23:33:16 - Comm received:^1^Sxrealm^T^N1^SSoldoral-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [75]
+			"23:33:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [76]
+			"23:33:49 - GetML()", -- [77]
+			"23:33:49 - LootMethod =  (personalloot)", -- [78]
+			"23:34:08 - Event: (RAID_INSTANCE_WELCOME) (Return to Karazhan (Mythic)) (213951) (0) (0)", -- [79]
+			"23:34:09 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [80]
+			"23:34:09 - GetML()", -- [81]
+			"23:34:09 - LootMethod =  (personalloot)", -- [82]
+			"00:20:18 - Event: (ENCOUNTER_START) (1964) (The Curator) (8) (5)", -- [83]
+			"00:20:18 - UpdatePlayersData()", -- [84]
+			"00:22:35 - Event: (ENCOUNTER_END) (1964) (The Curator) (8) (5) (0)", -- [85]
+			"00:23:56 - Event: (ENCOUNTER_START) (1964) (The Curator) (8) (5)", -- [86]
+			"00:23:56 - UpdatePlayersData()", -- [87]
+			"00:25:58 - Event: (ENCOUNTER_END) (1964) (The Curator) (8) (5) (1)", -- [88]
+			"00:27:22 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [89]
+			"00:27:22 - UpdatePlayersData()", -- [90]
+			"00:29:05 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (0)", -- [91]
+			"00:30:20 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [92]
+			"00:30:20 - UpdatePlayersData()", -- [93]
+			"00:30:48 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (0)", -- [94]
+			"00:31:53 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [95]
+			"00:31:53 - UpdatePlayersData()", -- [96]
+			"00:34:15 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (0)", -- [97]
+			"00:36:01 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [98]
+			"00:36:01 - UpdatePlayersData()", -- [99]
+			"00:37:08 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (0)", -- [100]
+			"00:38:45 - Event: (ENCOUNTER_START) (1965) (Shade of Medivh) (8) (5)", -- [101]
+			"00:38:45 - UpdatePlayersData()", -- [102]
+			"00:40:51 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (8) (5) (1)", -- [103]
+			"00:42:37 - Event: (ENCOUNTER_START) (1959) (Mana Devourer) (8) (5)", -- [104]
+			"00:42:37 - UpdatePlayersData()", -- [105]
+			"00:44:11 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (8) (5) (0)", -- [106]
+			"00:45:24 - Event: (ENCOUNTER_START) (1959) (Mana Devourer) (8) (5)", -- [107]
+			"00:45:24 - UpdatePlayersData()", -- [108]
+			"00:46:58 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (8) (5) (0)", -- [109]
+			"00:49:07 - Event: (ENCOUNTER_START) (1959) (Mana Devourer) (8) (5)", -- [110]
+			"00:49:07 - UpdatePlayersData()", -- [111]
+			"00:50:56 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (8) (5) (0)", -- [112]
+			"00:53:16 - Event: (ENCOUNTER_START) (1959) (Mana Devourer) (8) (5)", -- [113]
+			"00:53:16 - UpdatePlayersData()", -- [114]
+			"00:55:08 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (8) (5) (1)", -- [115]
+			"01:00:59 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [116]
+			"01:00:59 - UpdatePlayersData()", -- [117]
+			"01:03:08 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [118]
+			"01:05:12 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [119]
+			"01:05:12 - UpdatePlayersData()", -- [120]
+			"01:07:08 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [121]
+			"01:09:13 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [122]
+			"01:09:13 - UpdatePlayersData()", -- [123]
+			"01:10:51 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [124]
+			"01:12:57 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [125]
+			"01:12:57 - UpdatePlayersData()", -- [126]
+			"01:15:20 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [127]
+			"01:17:48 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [128]
+			"01:17:48 - UpdatePlayersData()", -- [129]
+			"01:20:39 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [130]
+			"01:23:00 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [131]
+			"01:23:00 - UpdatePlayersData()", -- [132]
+			"01:24:36 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (0)", -- [133]
+			"01:26:38 - Event: (ENCOUNTER_START) (2017) (Viz'aduum the Watcher) (8) (5)", -- [134]
+			"01:26:38 - UpdatePlayersData()", -- [135]
+			"01:29:35 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (8) (5) (1)", -- [136]
+			"01:29:43 - Event: (LOOT_OPENED) (1)", -- [137]
+			"01:29:43 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:142307::::::::110:252::16:3:3536:1557:3336:::|h[Miniature Bonfire]|h|r)", -- [138]
+			"01:29:43 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:147718::::::::110:252::16::::|h[Master's Symbol]|h|r)", -- [139]
+			"01:29:43 - Event: (LOOT_CLOSED)", -- [140]
+			"01:29:44 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:142307::::::::110:252::16:3:3536:1557:3336:::|h[Miniature~`Bonfire]|h|r^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [141]
+			"01:31:36 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [142]
+			"01:31:36 - GetML()", -- [143]
+			"01:31:36 - LootMethod =  (personalloot)", -- [144]
+			"01:32:20 - Event: (PARTY_LEADER_CHANGED)", -- [145]
+			"01:32:20 - GetML()", -- [146]
+			"01:32:20 - LootMethod =  (personalloot)", -- [147]
+			"01:32:20 - Resetting council as we have a new ML!", -- [148]
+			"01:32:20 - MasterLooter =  (Huurote-MoonGuard)", -- [149]
+			"01:32:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [150]
+			"01:32:37 - GetML()", -- [151]
+			"01:32:37 - LootMethod =  (personalloot)", -- [152]
+			"01:32:39 - Timer MLdb_check passed", -- [153]
+			"01:32:39 - Event: (PARTY_LEADER_CHANGED)", -- [154]
+			"01:32:39 - GetML()", -- [155]
+			"01:32:39 - LootMethod =  (personalloot)", -- [156]
+			"01:32:39 - Resetting council as we have a new ML!", -- [157]
+			"01:32:39 - MasterLooter =  (Anyatsu-Terenas)", -- [158]
+			"01:32:39 - GetCouncilInGroup (Anyatsu-Terenas)", -- [159]
+			"01:32:39 - ML:NewML (Anyatsu-Terenas)", -- [160]
+			"01:32:39 - UpdateMLdb", -- [161]
+			"01:32:39 - UpdateGroup (true)", -- [162]
+			"01:32:39 - ML:AddCandidate (Anyatsu-Terenas) (DEATHKNIGHT) (DAMAGER) (nil) (nil) (nil) (nil)", -- [163]
+			"01:32:39 - ML:AddCandidate (Wraithii-MoonGuard) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [164]
+			"01:32:39 - ML:AddCandidate (Cydael-MoonGuard) (PRIEST) (HEALER) (nil) (nil) (nil) (nil)", -- [165]
+			"01:32:39 - GetCouncilInGroup (Anyatsu-Terenas)", -- [166]
+			"01:32:39 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^SMLdb_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [167]
+			"01:32:39 - Comm received:^1^Sxrealm^T^N1^SHuurote-MoonGuard^N2^Scouncil_request^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [168]
+			"01:32:39 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [169]
+			"01:32:39 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [170]
+			"01:32:42 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [171]
+			"01:32:43 - Comm received:^1^SplayerInfo^T^N1^SAnyatsu-Terenas^N2^SDEATHKNIGHT^N3^SDAMAGER^N4^SInitiate^N6^N0^N7^N946.5625^N8^N252^t^^ (from:) (Anyatsu) (distri:) (WHISPER)", -- [172]
+			"01:32:43 - ML:AddCandidate (Anyatsu-Terenas) (DEATHKNIGHT) (DAMAGER) (Initiate) (nil) (0) (946.5625)", -- [173]
+			"01:32:43 - Comm received:^1^Scandidates^T^N1^T^SWraithii-MoonGuard^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SAnyatsu-Terenas^T^Srole^SDAMAGER^Sclass^SDEATHKNIGHT^Srank^S^t^SCydael-MoonGuard^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [174]
+			"01:32:43 - Comm received:^1^Scouncil^T^N1^T^N1^SAnyatsu-Terenas^t^t^^ (from:) (Anyatsu) (distri:) (PARTY)", -- [175]
+			"01:32:43 - true = (IsCouncil) (Anyatsu-Terenas)", -- [176]
+			"01:32:43 - GetLootDBStatistics()", -- [177]
+			"01:32:43 - GetGuildRankNum()", -- [178]
+			"01:32:43 - RCVotingFrame (enabled)", -- [179]
+			"01:32:47 - Event: (GROUP_LEFT) (Party-3675-00002B6641A3)", -- [180]
+			"01:32:47 - GetML()", -- [181]
+			"01:32:47 - LootMethod =  (personalloot)", -- [182]
+			"01:32:47 - ML Disabled", -- [183]
+			"01:32:54 - Timer MLdb_check passed", -- [184]
+			"01:33:41 - Event: (LOOT_OPENED) (1)", -- [185]
+			"01:33:41 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:139812::::::::110:252::::::|h[Potion of Triton]|h|r)", -- [186]
+			"01:33:41 - Event: (LOOT_CLOSED)", -- [187]
+			"01:33:41 - Event: (LOOT_CLOSED)", -- [188]
+			"04/17/18", -- [189]
+			"10:14:37 - Logged In", -- [190]
+			"10:14:37 - ML initialized!", -- [191]
+			"10:15:08 - Anyatsu-Terenas (2.7.9) (nil)", -- [192]
+			"10:15:08 - ActivateSkin (new_blue)", -- [193]
+			"10:15:17 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [194]
+			"10:15:17 - GetML()", -- [195]
+			"10:15:17 - LootMethod =  (personalloot)", -- [196]
+			"10:15:17 - UpdatePlayersData()", -- [197]
+			"10:15:20 - GetPlayersGuildRank()", -- [198]
+			"10:15:20 - Found Guild Rank: Initiate", -- [199]
+			"10:15:20 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [200]
+			"10:17:10 - Event: (LOOT_OPENED) (1)", -- [201]
+			"10:17:10 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:139809::::::::110:252::::::|h[Elixir of Plenty]|h|r)", -- [202]
+			"10:17:11 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:140581::::::::110:252::::::|h[Sturdy Hiking Boots]|h|r)", -- [203]
+			"10:17:11 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:139801::::::::110:252::::::|h[Lucky Doodad]|h|r)", -- [204]
+			"10:17:11 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:139811::::::::110:252::::::|h[Necklace of Endless Memories]|h|r)", -- [205]
+			"10:17:11 - Event: (LOOT_CLOSED)", -- [206]
+			"10:17:11 - Event: (LOOT_CLOSED)", -- [207]
+			"10:20:41 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [208]
+			"10:20:41 - GetML()", -- [209]
+			"10:20:41 - LootMethod =  (personalloot)", -- [210]
+			"10:21:29 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [211]
+			"10:21:29 - GetML()", -- [212]
+			"10:21:29 - LootMethod =  (personalloot)", -- [213]
+			"10:23:14 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [214]
+			"10:23:14 - GetML()", -- [215]
+			"10:23:14 - LootMethod =  (personalloot)", -- [216]
+			"04/18/18", -- [217]
+			"18:27:42 - Logged In", -- [218]
+			"18:27:42 - ML initialized!", -- [219]
+			"18:28:12 - Anyatsu-Terenas (2.7.9) (nil)", -- [220]
+			"18:28:12 - ActivateSkin (new_blue)", -- [221]
+			"18:28:22 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [222]
+			"18:28:22 - GetML()", -- [223]
+			"18:28:22 - LootMethod =  (personalloot)", -- [224]
+			"18:28:22 - UpdatePlayersData()", -- [225]
+			"18:28:24 - GetPlayersGuildRank()", -- [226]
+			"18:28:24 - Found Guild Rank: Initiate", -- [227]
+			"18:28:24 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Anyatsu) (distri:) (GUILD)", -- [228]
+			"18:28:30 - Event: (LOOT_OPENED) (1)", -- [229]
+			"18:28:33 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:124124::::::::110:252::::::|h[Blood of Sargeras]|h|r)", -- [230]
+			"18:28:34 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:138019::::::::110:252:4063232:::233:14:7:2:10:::|h[Mythic Keystone]|h|r)", -- [231]
+			"18:28:35 - OnLootSlotCleared() (3) (|cffa335ee|Hcurrency:1275|h[Curious Coin]|h|r)", -- [232]
+			"18:28:35 - OnLootSlotCleared() (4) (|cffffffff|Hcurrency:1533|h[Wakening Essence]|h|r)", -- [233]
+			"18:28:38 - OnLootSlotCleared() (6) (|cff0070dd|Hitem:147721::::::::110:252::35::::|h[Master's Trophy]|h|r)", -- [234]
+			"18:28:40 - OnLootSlotCleared() (5) (|cffa335ee|Hitem:133642::::::::110:252::35:3:3536:1612:3337:::|h[Horn of Valor]|h|r)", -- [235]
+			"18:28:40 - Event: (LOOT_CLOSED)", -- [236]
+			"18:28:40 - Event: (LOOT_CLOSED)", -- [237]
+			"18:52:34 - Comm received:^1^SverTest^T^N1^S2.7.9^t^^ (from:) (Keeiril-Hydraxis) (distri:) (GUILD)", -- [238]
+			"18:53:59 - Event: (LOOT_CLOSED)", -- [239]
+			"18:57:28 - Event: (LOOT_CLOSED)", -- [240]
+			"18:57:42 - Event: (LOOT_OPENED) (1)", -- [241]
+			"18:57:42 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:147348::::::::110:252::::::|h[Bulky Armor Set]|h|r)", -- [242]
+			"18:57:42 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:139814::::::::110:252::::::|h[Carrot on a Stick]|h|r)", -- [243]
+			"18:57:42 - Event: (LOOT_CLOSED)", -- [244]
+			"18:57:42 - Event: (LOOT_CLOSED)", -- [245]
+			"07/01/18", -- [246]
+			"10:21:58 - Logged In", -- [247]
+			"10:21:58 - ML initialized!", -- [248]
+			"10:22:23 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [249]
+			"10:22:23 - ActivateSkin (new_blue)", -- [250]
+			"10:22:27 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [251]
+			"10:22:27 - GetML()", -- [252]
+			"10:22:27 - LootMethod =  (personalloot)", -- [253]
+			"10:22:27 - UpdatePlayersData()", -- [254]
+			"10:22:29 - GetPlayersGuildRank()", -- [255]
+			"10:22:29 - Found Guild Rank: GrigoriRasputin", -- [256]
+			"10:22:29 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [257]
+			"10:23:27 - Event: (LOOT_OPENED) (1)", -- [258]
+			"10:23:28 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1273|h[Seal of Broken Fate]|h|r)", -- [259]
+			"10:23:28 - Event: (LOOT_CLOSED)", -- [260]
+			"10:23:28 - Event: (LOOT_CLOSED)", -- [261]
+			"10:33:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [262]
+			"10:33:49 - GetML()", -- [263]
+			"10:33:49 - LootMethod =  (personalloot)", -- [264]
+			"10:34:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [265]
+			"10:34:37 - GetML()", -- [266]
+			"10:34:37 - LootMethod =  (personalloot)", -- [267]
+			"10:36:33 - Event: (RAID_INSTANCE_WELCOME) (End Time (Heroic)) (1406) (0) (0)", -- [268]
+			"10:36:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [269]
+			"10:36:33 - GetML()", -- [270]
+			"10:36:33 - LootMethod =  (personalloot)", -- [271]
+			"10:36:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [272]
+			"10:36:56 - GetML()", -- [273]
+			"10:36:56 - LootMethod =  (personalloot)", -- [274]
+			"10:46:09 - Event: (LOOT_OPENED) (1)", -- [275]
+			"10:46:09 - OnLootSlotCleared() (1) (nil)", -- [276]
+			"10:46:09 - Event: (LOOT_CLOSED)", -- [277]
+			"10:46:37 - Event: (LOOT_OPENED) (1)", -- [278]
+			"10:46:37 - OnLootSlotCleared() (1) (nil)", -- [279]
+			"10:46:37 - Event: (LOOT_CLOSED)", -- [280]
+			"10:46:55 - Event: (LOOT_OPENED) (1)", -- [281]
+			"10:46:55 - OnLootSlotCleared() (1) (nil)", -- [282]
+			"10:46:55 - Event: (LOOT_CLOSED)", -- [283]
+			"10:47:27 - Event: (LOOT_OPENED) (1)", -- [284]
+			"10:47:27 - Event: (LOOT_CLOSED)", -- [285]
+			"10:47:49 - Event: (LOOT_OPENED) (1)", -- [286]
+			"10:47:50 - OnLootSlotCleared() (1) (nil)", -- [287]
+			"10:47:50 - Event: (LOOT_CLOSED)", -- [288]
+			"10:48:10 - Event: (LOOT_OPENED) (1)", -- [289]
+			"10:48:11 - Event: (LOOT_CLOSED)", -- [290]
+			"10:48:46 - Event: (LOOT_OPENED) (1)", -- [291]
+			"10:48:46 - Event: (LOOT_CLOSED)", -- [292]
+			"10:49:08 - Event: (LOOT_OPENED) (1)", -- [293]
+			"10:49:08 - Event: (LOOT_CLOSED)", -- [294]
+			"10:49:22 - Event: (LOOT_OPENED) (1)", -- [295]
+			"10:49:23 - Event: (LOOT_CLOSED)", -- [296]
+			"10:50:20 - Event: (LOOT_OPENED) (1)", -- [297]
+			"10:50:20 - Event: (LOOT_CLOSED)", -- [298]
+			"10:50:42 - Event: (LOOT_OPENED) (1)", -- [299]
+			"10:50:42 - Event: (LOOT_CLOSED)", -- [300]
+			"10:54:17 - Event: (LOOT_OPENED) (1)", -- [301]
+			"10:54:17 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:138839::::::::110:102::::::|h[Valiant's Glory]|h|r)", -- [302]
+			"10:54:17 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [303]
+			"10:54:18 - OnLootSlotCleared() (3) (|cffffffff|Hitem:156852::::::::110:102::::::|h[Ogmot's Dream Journal]|h|r)", -- [304]
+			"10:54:18 - Event: (LOOT_CLOSED)", -- [305]
+			"10:54:54 - Event: (LOOT_OPENED) (1)", -- [306]
+			"10:54:54 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156797::::::::110:102::::::|h[Twilight Silk]|h|r)", -- [307]
+			"10:54:54 - Event: (LOOT_CLOSED)", -- [308]
+			"10:55:13 - Event: (LOOT_OPENED) (1)", -- [309]
+			"10:55:13 - Event: (LOOT_CLOSED)", -- [310]
+			"10:55:14 - Event: (LOOT_OPENED) (1)", -- [311]
+			"10:55:14 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156796::::::::110:102::::::|h[Michiel Voidstrider's Head]|h|r)", -- [312]
+			"10:55:14 - Event: (LOOT_CLOSED)", -- [313]
+			"10:55:14 - Event: (LOOT_CLOSED)", -- [314]
+			"10:56:01 - Event: (LOOT_OPENED) (1)", -- [315]
+			"10:56:01 - OnLootSlotCleared() (1) (nil)", -- [316]
+			"10:56:01 - OnLootSlotCleared() (2) (|cffffffff|Hitem:156797::::::::110:102::::::|h[Twilight Silk]|h|r)", -- [317]
+			"10:56:01 - Event: (LOOT_CLOSED)", -- [318]
+			"10:56:30 - Event: (LOOT_OPENED) (1)", -- [319]
+			"10:56:31 - Event: (LOOT_CLOSED)", -- [320]
+			"10:57:21 - Event: (LOOT_OPENED) (1)", -- [321]
+			"10:57:21 - OnLootSlotCleared() (1) (nil)", -- [322]
+			"10:57:22 - OnLootSlotCleared() (2) (|cffffffff|Hitem:156797::::::::110:102::::::|h[Twilight Silk]|h|r)", -- [323]
+			"10:57:22 - Event: (LOOT_CLOSED)", -- [324]
+			"10:57:42 - Event: (LOOT_OPENED) (1)", -- [325]
+			"10:57:42 - Event: (LOOT_CLOSED)", -- [326]
+			"10:58:07 - Event: (LOOT_OPENED) (1)", -- [327]
+			"10:58:08 - Event: (LOOT_CLOSED)", -- [328]
+			"10:58:43 - Event: (LOOT_OPENED) (1)", -- [329]
+			"10:58:44 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156797::::::::110:102::::::|h[Twilight Silk]|h|r)", -- [330]
+			"10:58:44 - OnLootSlotCleared() (2) (nil)", -- [331]
+			"10:58:44 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:121364::::::::110:102::::::|h[Sunbleached Cowl]|h|r)", -- [332]
+			"10:58:44 - Event: (LOOT_CLOSED)", -- [333]
+			"10:59:00 - Event: (LOOT_OPENED) (1)", -- [334]
+			"10:59:00 - Event: (LOOT_CLOSED)", -- [335]
+			"10:59:21 - Event: (LOOT_OPENED) (1)", -- [336]
+			"10:59:22 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156797::::::::110:102::::::|h[Twilight Silk]|h|r)", -- [337]
+			"10:59:22 - Event: (LOOT_CLOSED)", -- [338]
+			"10:59:51 - Event: (LOOT_OPENED) (1)", -- [339]
+			"10:59:51 - Event: (LOOT_CLOSED)", -- [340]
+			"11:00:08 - Event: (LOOT_OPENED) (1)", -- [341]
+			"11:00:09 - OnLootSlotCleared() (1) (nil)", -- [342]
+			"11:00:09 - Event: (LOOT_CLOSED)", -- [343]
+			"11:00:30 - Event: (LOOT_OPENED) (1)", -- [344]
+			"11:00:30 - Event: (LOOT_CLOSED)", -- [345]
+			"11:00:50 - Event: (LOOT_OPENED) (1)", -- [346]
+			"11:00:50 - Event: (LOOT_CLOSED)", -- [347]
+			"11:02:47 - Event: (LOOT_OPENED) (1)", -- [348]
+			"11:02:47 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156794::::::::110:102::::::|h[Silithid Brain]|h|r)", -- [349]
+			"11:02:47 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132184::::::::110:102::::::|h[Intact Shimmering Scale]|h|r)", -- [350]
+			"11:02:47 - Event: (LOOT_CLOSED)", -- [351]
+			"11:02:47 - Event: (LOOT_CLOSED)", -- [352]
+			"11:03:27 - Event: (LOOT_OPENED) (1)", -- [353]
+			"11:03:27 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156794::::::::110:102::::::|h[Silithid Brain]|h|r)", -- [354]
+			"11:03:28 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132184::::::::110:102::::::|h[Intact Shimmering Scale]|h|r)", -- [355]
+			"11:03:28 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:132183::::::::110:102::::::|h[Razor Tooth]|h|r)", -- [356]
+			"11:03:28 - Event: (LOOT_CLOSED)", -- [357]
+			"11:03:28 - Event: (LOOT_CLOSED)", -- [358]
+			"11:03:59 - Event: (LOOT_OPENED) (1)", -- [359]
+			"11:04:00 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156794::::::::110:102::::::|h[Silithid Brain]|h|r)", -- [360]
+			"11:04:00 - Event: (LOOT_CLOSED)", -- [361]
+			"11:04:18 - Event: (LOOT_OPENED) (1)", -- [362]
+			"11:04:18 - Event: (LOOT_CLOSED)", -- [363]
+			"11:05:28 - Event: (LOOT_OPENED) (1)", -- [364]
+			"11:05:29 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:138839::::::::110:102::::::|h[Valiant's Glory]|h|r)", -- [365]
+			"11:05:29 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [366]
+			"11:05:29 - Event: (LOOT_CLOSED)", -- [367]
+			"11:12:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [368]
+			"11:12:07 - GetML()", -- [369]
+			"11:12:07 - LootMethod =  (personalloot)", -- [370]
+			"11:12:29 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [371]
+			"11:12:29 - GetML()", -- [372]
+			"11:12:29 - LootMethod =  (personalloot)", -- [373]
+			"11:18:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [374]
+			"11:18:21 - GetML()", -- [375]
+			"11:18:21 - LootMethod =  (personalloot)", -- [376]
+			"11:31:03 - Event: (LOOT_OPENED) (1)", -- [377]
+			"11:31:03 - OnLootSlotCleared() (1) (|cffffffff|Hitem:147430::::::::110:102::::::|h[Mysterious Runebound Scroll]|h|r)", -- [378]
+			"11:31:04 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [379]
+			"11:31:04 - OnLootSlotCleared() (3) (|cff1eff00|Hcurrency:1342|h[Legionfall War Supplies]|h|r)", -- [380]
+			"11:31:04 - OnLootSlotCleared() (4) (|cffffffff|Hcurrency:1226|h[Nethershard]|h|r)", -- [381]
+			"11:31:04 - Event: (LOOT_CLOSED)", -- [382]
+			"11:35:26 - Event: (LOOT_OPENED) (1)", -- [383]
+			"11:35:27 - OnLootSlotCleared() (1) (|cffffffff|Hitem:143494::::::::110:102::::::|h[A Mysterious Note]|h|r)", -- [384]
+			"11:35:27 - Event: (LOOT_CLOSED)", -- [385]
+			"11:35:46 - Event: (LOOT_OPENED) (1)", -- [386]
+			"11:35:47 - OnLootSlotCleared() (1) (nil)", -- [387]
+			"11:35:47 - Event: (LOOT_CLOSED)", -- [388]
+			"11:37:30 - Event: (LOOT_OPENED) (1)", -- [389]
+			"11:37:30 - OnLootSlotCleared() (1) (nil)", -- [390]
+			"11:37:30 - Event: (LOOT_CLOSED)", -- [391]
+			"11:38:21 - Event: (LOOT_OPENED) (1)", -- [392]
+			"11:38:22 - Event: (LOOT_CLOSED)", -- [393]
+			"11:40:22 - Event: (LOOT_CLOSED)", -- [394]
+			"11:41:48 - Event: (LOOT_OPENED) (1)", -- [395]
+			"11:41:48 - OnLootSlotCleared() (1) (|cffffffff|Hitem:123918::::::::110:102::::::|h[Leystone Ore]|h|r)", -- [396]
+			"11:41:48 - Event: (LOOT_CLOSED)", -- [397]
+			"11:43:16 - Event: (LOOT_OPENED) (1)", -- [398]
+			"11:43:16 - Event: (LOOT_CLOSED)", -- [399]
+			"11:47:04 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [400]
+			"11:47:04 - GetML()", -- [401]
+			"11:47:04 - LootMethod =  (personalloot)", -- [402]
+			"11:51:02 - Event: (LOOT_OPENED) (1)", -- [403]
+			"11:51:03 - OnLootSlotCleared() (1) (|cffffffff|Hitem:151564::::::::110:102::::::|h[Empyrium]|h|r)", -- [404]
+			"11:51:03 - Event: (LOOT_CLOSED)", -- [405]
+			"11:51:45 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [406]
+			"11:51:45 - GetML()", -- [407]
+			"11:51:45 - LootMethod =  (personalloot)", -- [408]
+			"11:51:52 - Event: (PARTY_LEADER_CHANGED)", -- [409]
+			"11:51:52 - GetML()", -- [410]
+			"11:51:52 - LootMethod =  (personalloot)", -- [411]
+			"11:51:52 - Unknown ML", -- [412]
+			"11:51:52 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [413]
+			"11:51:52 - GetML()", -- [414]
+			"11:51:52 - LootMethod =  (personalloot)", -- [415]
+			"11:51:52 - Unknown ML", -- [416]
+			"11:51:52 - GetML()", -- [417]
+			"11:51:52 - LootMethod =  (personalloot)", -- [418]
+			"11:51:52 - Unknown ML", -- [419]
+			"11:51:52 - GetML()", -- [420]
+			"11:51:52 - LootMethod =  (personalloot)", -- [421]
+			"11:51:52 - Unknown ML", -- [422]
+			"11:51:53 - GetML()", -- [423]
+			"11:51:53 - LootMethod =  (personalloot)", -- [424]
+			"11:51:53 - Unknown ML", -- [425]
+			"11:51:53 - GetML()", -- [426]
+			"11:51:53 - LootMethod =  (personalloot)", -- [427]
+			"11:51:53 - Unknown ML", -- [428]
+			"11:51:53 - GetML()", -- [429]
+			"11:51:53 - LootMethod =  (personalloot)", -- [430]
+			"11:51:53 - Unknown ML", -- [431]
+			"11:51:53 - GetML()", -- [432]
+			"11:51:53 - LootMethod =  (personalloot)", -- [433]
+			"11:51:53 - Unknown ML", -- [434]
+			"11:51:54 - GetML()", -- [435]
+			"11:51:54 - LootMethod =  (personalloot)", -- [436]
+			"11:51:54 - Unknown ML", -- [437]
+			"11:51:54 - GetML()", -- [438]
+			"11:51:54 - LootMethod =  (personalloot)", -- [439]
+			"11:51:54 - Unknown ML", -- [440]
+			"11:51:54 - GetML()", -- [441]
+			"11:51:54 - LootMethod =  (personalloot)", -- [442]
+			"11:51:54 - Unknown ML", -- [443]
+			"11:51:54 - GetML()", -- [444]
+			"11:51:54 - LootMethod =  (personalloot)", -- [445]
+			"11:51:54 - Unknown ML", -- [446]
+			"11:51:55 - GetML()", -- [447]
+			"11:51:55 - LootMethod =  (personalloot)", -- [448]
+			"11:51:55 - Resetting council as we have a new ML!", -- [449]
+			"11:51:55 - MasterLooter =  (Frostygigas-Stormrage)", -- [450]
+			"11:51:55 - GetML()", -- [451]
+			"11:51:55 - LootMethod =  (personalloot)", -- [452]
+			"11:52:08 - Comm received:^1^Sxrealm^T^N1^SFrostygigas-Stormrage^N2^SMLdb_request^t^^ (from:) (Anymari-Azralon) (distri:) (RAID)", -- [453]
+			"11:52:08 - Comm received:^1^Sxrealm^T^N1^SFrostygigas-Stormrage^N2^Scouncil_request^t^^ (from:) (Anymari-Azralon) (distri:) (RAID)", -- [454]
+			"11:52:10 - Timer MLdb_check passed", -- [455]
+			"11:52:10 - Comm received:^1^Sxrealm^T^N1^SFrostygigas-Stormrage^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [456]
+			"11:52:10 - Comm received:^1^Sxrealm^T^N1^SFrostygigas-Stormrage^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [457]
+			"11:54:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [458]
+			"11:54:07 - GetML()", -- [459]
+			"11:54:07 - LootMethod =  (personalloot)", -- [460]
+			"11:54:09 - Comm received:^1^Sxrealm^T^N1^SFrostygigas-Stormrage^N2^SMLdb_request^t^^ (from:) (Paiil-Zul'jin) (distri:) (RAID)", -- [461]
+			"11:54:09 - Comm received:^1^Sxrealm^T^N1^SFrostygigas-Stormrage^N2^Scouncil_request^t^^ (from:) (Paiil-Zul'jin) (distri:) (RAID)", -- [462]
+			"11:54:09 - Event: (GROUP_LEFT) (Party-60-00002BE17F73)", -- [463]
+			"11:54:09 - GetML()", -- [464]
+			"11:54:09 - LootMethod =  (personalloot)", -- [465]
+			"11:54:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [466]
+			"11:54:56 - GetML()", -- [467]
+			"11:54:56 - LootMethod =  (personalloot)", -- [468]
+			"11:55:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [469]
+			"11:55:18 - GetML()", -- [470]
+			"11:55:18 - LootMethod =  (personalloot)", -- [471]
+			"11:56:28 - Event: (LOOT_OPENED) (1)", -- [472]
+			"11:56:28 - OnLootSlotCleared() (1) (nil)", -- [473]
+			"11:56:28 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132199::::::::110:102::::::|h[Congealed Felblood]|h|r)", -- [474]
+			"11:56:28 - Event: (LOOT_CLOSED)", -- [475]
+			"11:57:06 - Event: (LOOT_OPENED) (1)", -- [476]
+			"11:57:06 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [477]
+			"11:57:06 - Event: (LOOT_CLOSED)", -- [478]
+			"11:59:14 - Event: (PARTY_LEADER_CHANGED)", -- [479]
+			"11:59:14 - GetML()", -- [480]
+			"11:59:14 - LootMethod =  (personalloot)", -- [481]
+			"11:59:14 - Unknown ML", -- [482]
+			"11:59:14 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [483]
+			"11:59:14 - GetML()", -- [484]
+			"11:59:14 - LootMethod =  (personalloot)", -- [485]
+			"11:59:14 - Unknown ML", -- [486]
+			"11:59:15 - GetML()", -- [487]
+			"11:59:15 - LootMethod =  (personalloot)", -- [488]
+			"11:59:15 - Resetting council as we have a new ML!", -- [489]
+			"11:59:15 - MasterLooter =  (Flamesoul-Quel'Thalas)", -- [490]
+			"11:59:15 - GetML()", -- [491]
+			"11:59:15 - LootMethod =  (personalloot)", -- [492]
+			"11:59:20 - Comm received:^1^Scouncil^T^N1^T^N1^SFlamesoul-Quel'Thalas^t^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [493]
+			"11:59:20 - nil = (IsCouncil) (Tekkuto-Hydraxis)", -- [494]
+			"11:59:20 - Comm received:^1^Scandidates^T^N1^T^SFlamesoul-Quel'Thalas^T^Srole^SDAMAGER^SspecID^N919.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SApóstol~`Oscuro^t^t^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [495]
+			"11:59:24 - Comm received:^1^Sxrealm^T^N1^STekkuto-Hydraxis^N2^SplayerInfoRequest^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [496]
+			"11:59:24 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (WHISPER)", -- [497]
+			"11:59:24 - Comm received:^1^Sxrealm^T^N1^SKromgosh-Ragnaros^N2^SplayerInfoRequest^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [498]
+			"11:59:24 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [499]
+			"11:59:24 - Comm received:^1^Scandidates^T^N1^T^SKromgosh-Ragnaros^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^STekkuto-Hydraxis^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFlamesoul-Quel'Thalas^T^Srole^SDAMAGER^SspecID^N919.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SApóstol~`Oscuro^t^t^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [500]
+			"11:59:25 - Comm received:^1^Sxrealm^T^N1^SFlamesoul-Quel'Thalas^N2^SplayerInfo^N3^STekkuto-Hydraxis^N4^SDRUID^N5^SDAMAGER^N6^SGrigoriRasputin^N8^N0^N9^N837.8125^N10^N102^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [501]
+			"11:59:30 - Timer MLdb_check passed", -- [502]
+			"12:00:08 - Comm received:^1^Sxrealm^T^N1^SGrezzlem-Quel'dorei^N2^SplayerInfoRequest^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [503]
+			"12:00:08 - Comm received:^1^Sxrealm^T^N1^SErolaenae-Aggramar^N2^SplayerInfoRequest^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [504]
+			"12:00:08 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [505]
+			"12:00:08 - Comm received:^1^Scandidates^T^N1^T^SFlamesoul-Quel'Thalas^T^Srole^SDAMAGER^SspecID^N919.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SApóstol~`Oscuro^t^SGrezzlem-Quel'dorei^T^Srole^STANK^Sclass^SDRUID^Srank^S^t^SKromgosh-Ragnaros^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^STekkuto-Hydraxis^T^Srole^SDAMAGER^SspecID^N837.8125^Senchant_lvl^N0^Sclass^SDRUID^Srank^SGrigoriRasputin^t^SErolaenae-Aggramar^T^Srole^SDAMAGER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Flamesoul-Quel'Thalas) (distri:) (PARTY)", -- [506]
+			"12:00:50 - Event: (LOOT_OPENED) (1)", -- [507]
+			"12:00:50 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [508]
+			"12:00:50 - OnLootSlotCleared() (2) (|cffffffff|Hitem:153014::::::::110:102::::::|h[Pristine Argunite]|h|r)", -- [509]
+			"12:00:51 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [510]
+			"12:00:51 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:153135::::::::110:102::::::|h[Unsullied Cloth Robes]|h|r)", -- [511]
+			"12:00:51 - Event: (LOOT_CLOSED)", -- [512]
+			"12:00:52 - Event: (GROUP_LEFT) (Party-1428-0000215BFCFC)", -- [513]
+			"12:00:52 - GetML()", -- [514]
+			"12:00:52 - LootMethod =  (personalloot)", -- [515]
+			"12:01:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [516]
+			"12:01:53 - GetML()", -- [517]
+			"12:01:53 - LootMethod =  (personalloot)", -- [518]
+			"12:03:44 - Event: (LOOT_OPENED) (1)", -- [519]
+			"12:03:44 - Event: (LOOT_CLOSED)", -- [520]
+			"12:04:11 - Event: (LOOT_OPENED) (1)", -- [521]
+			"12:04:11 - Event: (LOOT_CLOSED)", -- [522]
+			"12:04:43 - Event: (LOOT_OPENED) (1)", -- [523]
+			"12:04:44 - Event: (LOOT_CLOSED)", -- [524]
+			"12:04:55 - Event: (LOOT_OPENED) (1)", -- [525]
+			"12:04:55 - Event: (LOOT_CLOSED)", -- [526]
+			"12:05:59 - Event: (LOOT_OPENED) (1)", -- [527]
+			"12:05:59 - Event: (LOOT_CLOSED)", -- [528]
+			"12:07:08 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [529]
+			"12:07:08 - GetML()", -- [530]
+			"12:07:08 - LootMethod =  (personalloot)", -- [531]
+			"12:13:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [532]
+			"12:13:12 - GetML()", -- [533]
+			"12:13:12 - LootMethod =  (personalloot)", -- [534]
+			"12:13:36 - Event: (LOOT_OPENED) (0)", -- [535]
+			"12:13:36 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [536]
+			"12:13:37 - OnLootSlotCleared() (2) (nil)", -- [537]
+			"12:13:37 - Event: (LOOT_CLOSED)", -- [538]
+			"12:19:19 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [539]
+			"12:19:19 - GetML()", -- [540]
+			"12:19:19 - LootMethod =  (personalloot)", -- [541]
+			"12:19:40 - Event: (LOOT_OPENED) (1)", -- [542]
+			"12:19:40 - OnLootSlotCleared() (1) (|cffffffff|Hitem:151564::::::::110:102::::::|h[Empyrium]|h|r)", -- [543]
+			"12:19:40 - Event: (LOOT_CLOSED)", -- [544]
+			"12:20:03 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [545]
+			"12:20:03 - GetML()", -- [546]
+			"12:20:03 - LootMethod =  (personalloot)", -- [547]
+			"12:20:10 - Event: (PARTY_LEADER_CHANGED)", -- [548]
+			"12:20:10 - GetML()", -- [549]
+			"12:20:10 - LootMethod =  (personalloot)", -- [550]
+			"12:20:10 - Unknown ML", -- [551]
+			"12:20:10 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [552]
+			"12:20:10 - GetML()", -- [553]
+			"12:20:10 - LootMethod =  (personalloot)", -- [554]
+			"12:20:10 - Unknown ML", -- [555]
+			"12:20:11 - GetML()", -- [556]
+			"12:20:11 - LootMethod =  (personalloot)", -- [557]
+			"12:20:11 - Resetting council as we have a new ML!", -- [558]
+			"12:20:11 - MasterLooter =  (Kimbozor-Mal'Ganis)", -- [559]
+			"12:20:11 - GetML()", -- [560]
+			"12:20:11 - LootMethod =  (personalloot)", -- [561]
+			"12:20:26 - Timer MLdb_check passed", -- [562]
+			"12:20:26 - Comm received:^1^Sxrealm^T^N1^SKimbozor-Mal'Ganis^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [563]
+			"12:20:26 - Comm received:^1^Sxrealm^T^N1^SKimbozor-Mal'Ganis^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [564]
+			"12:20:40 - Comm received:^1^Sxrealm^T^N1^SKimbozor-Mal'Ganis^N2^SMLdb_request^t^^ (from:) (Nohonor-Ner'zhul) (distri:) (RAID)", -- [565]
+			"12:20:40 - Comm received:^1^Sxrealm^T^N1^SKimbozor-Mal'Ganis^N2^Scouncil_request^t^^ (from:) (Nohonor-Ner'zhul) (distri:) (RAID)", -- [566]
+			"12:21:32 - Comm received:^1^Sxrealm^T^N1^SKimbozor-Mal'Ganis^N2^SMLdb_request^t^^ (from:) (Tonghu-Drakkari) (distri:) (RAID)", -- [567]
+			"12:21:32 - Comm received:^1^Sxrealm^T^N1^SKimbozor-Mal'Ganis^N2^Scouncil_request^t^^ (from:) (Tonghu-Drakkari) (distri:) (RAID)", -- [568]
+			"12:22:36 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [569]
+			"12:22:36 - GetML()", -- [570]
+			"12:22:36 - LootMethod =  (personalloot)", -- [571]
+			"12:22:37 - Event: (PARTY_LEADER_CHANGED)", -- [572]
+			"12:22:37 - GetML()", -- [573]
+			"12:22:37 - LootMethod =  (personalloot)", -- [574]
+			"12:22:37 - Resetting council as we have a new ML!", -- [575]
+			"12:22:37 - MasterLooter =  (Ruari-Mug'thol)", -- [576]
+			"12:22:39 - Event: (GROUP_LEFT) (Party-3684-0000215C0E8B)", -- [577]
+			"12:22:39 - GetML()", -- [578]
+			"12:22:39 - LootMethod =  (personalloot)", -- [579]
+			"12:22:52 - Timer MLdb_check passed", -- [580]
+			"12:23:30 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [581]
+			"12:23:30 - GetML()", -- [582]
+			"12:23:30 - LootMethod =  (personalloot)", -- [583]
+			"12:24:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [584]
+			"12:24:33 - GetML()", -- [585]
+			"12:24:33 - LootMethod =  (personalloot)", -- [586]
+			"12:26:05 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [587]
+			"12:26:05 - GetML()", -- [588]
+			"12:26:05 - LootMethod =  (personalloot)", -- [589]
+			"12:26:15 - Event: (PARTY_LEADER_CHANGED)", -- [590]
+			"12:26:15 - GetML()", -- [591]
+			"12:26:15 - LootMethod =  (personalloot)", -- [592]
+			"12:26:15 - Unknown ML", -- [593]
+			"12:26:15 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [594]
+			"12:26:15 - GetML()", -- [595]
+			"12:26:15 - LootMethod =  (personalloot)", -- [596]
+			"12:26:15 - Unknown ML", -- [597]
+			"12:26:15 - GetML()", -- [598]
+			"12:26:15 - LootMethod =  (personalloot)", -- [599]
+			"12:26:15 - Resetting council as we have a new ML!", -- [600]
+			"12:26:15 - MasterLooter =  (Ellidari-Kil'jaeden)", -- [601]
+			"12:26:15 - GetML()", -- [602]
+			"12:26:15 - LootMethod =  (personalloot)", -- [603]
+			"12:26:30 - Timer MLdb_check passed", -- [604]
+			"12:26:30 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [605]
+			"12:26:30 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [606]
+			"12:26:54 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^SMLdb_request^t^^ (from:) (Chavo-Azralon) (distri:) (RAID)", -- [607]
+			"12:26:54 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^Scouncil_request^t^^ (from:) (Chavo-Azralon) (distri:) (RAID)", -- [608]
+			"12:28:09 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^SMLdb_request^t^^ (from:) (Vorus-Ragnaros) (distri:) (RAID)", -- [609]
+			"12:28:09 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^Scouncil_request^t^^ (from:) (Vorus-Ragnaros) (distri:) (RAID)", -- [610]
+			"12:28:28 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^SMLdb_request^t^^ (from:) (Brenarda-Illidan) (distri:) (RAID)", -- [611]
+			"12:28:28 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^Scouncil_request^t^^ (from:) (Brenarda-Illidan) (distri:) (RAID)", -- [612]
+			"12:28:33 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^SMLdb_request^t^^ (from:) (Princéss-Turalyon) (distri:) (RAID)", -- [613]
+			"12:28:33 - Comm received:^1^Sxrealm^T^N1^SEllidari-Kil'jaeden^N2^Scouncil_request^t^^ (from:) (Princéss-Turalyon) (distri:) (RAID)", -- [614]
+			"12:29:07 - Comm received:^1^SEUBonusRoll^T^N1^SWords-Saurfang^N2^Sartifact_power^N3^S|cff0070dd|Hitem:147581::::::::110:263:8388608:::56:::|h[Depleted~`Azsharan~`Seal]|h|r^t^^ (from:) (Words-Saurfang) (distri:) (RAID)", -- [615]
+			"12:29:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [616]
+			"12:29:31 - GetML()", -- [617]
+			"12:29:31 - LootMethod =  (personalloot)", -- [618]
+			"12:29:37 - Event: (GROUP_LEFT) (Party-9-0000259BEB0F)", -- [619]
+			"12:29:37 - GetML()", -- [620]
+			"12:29:37 - LootMethod =  (personalloot)", -- [621]
+			"12:32:43 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [622]
+			"12:32:43 - GetML()", -- [623]
+			"12:32:43 - LootMethod =  (personalloot)", -- [624]
+			"07/01/18", -- [625]
+			"14:31:01 - Logged In", -- [626]
+			"14:31:01 - ML initialized!", -- [627]
+			"14:31:09 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [628]
+			"14:31:09 - ActivateSkin (new_blue)", -- [629]
+			"14:31:12 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [630]
+			"14:31:12 - GetML()", -- [631]
+			"14:31:12 - LootMethod =  (personalloot)", -- [632]
+			"14:31:12 - UpdatePlayersData()", -- [633]
+			"14:31:13 - GetPlayersGuildRank()", -- [634]
+			"14:31:13 - Found Guild Rank: GrigoriRasputin", -- [635]
+			"14:31:13 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [636]
+			"14:32:16 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [637]
+			"14:32:16 - GetML()", -- [638]
+			"14:32:16 - LootMethod =  (personalloot)", -- [639]
+			"14:32:43 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [640]
+			"14:32:43 - GetML()", -- [641]
+			"14:32:43 - LootMethod =  (personalloot)", -- [642]
+			"14:38:58 - Event: (PARTY_LEADER_CHANGED)", -- [643]
+			"14:38:58 - GetML()", -- [644]
+			"14:38:58 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [645]
+			"14:38:58 - GetML()", -- [646]
+			"14:39:05 - Event: (RAID_INSTANCE_WELCOME) (Eye of Azshara (Heroic)) (73254) (0) (0)", -- [647]
+			"14:39:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [648]
+			"14:39:06 - GetML()", -- [649]
+			"14:40:17 - Event: (LOOT_OPENED) (1)", -- [650]
+			"14:40:18 - OnLootSlotCleared() (1) (nil)", -- [651]
+			"14:40:18 - Event: (LOOT_CLOSED)", -- [652]
+			"14:40:20 - Event: (ENCOUNTER_START) (1810) (Warlord Parjesh) (2) (5)", -- [653]
+			"14:40:20 - UpdatePlayersData()", -- [654]
+			"14:40:58 - Event: (ENCOUNTER_END) (1810) (Warlord Parjesh) (2) (5) (1)", -- [655]
+			"14:41:10 - Event: (LOOT_OPENED) (1)", -- [656]
+			"14:41:10 - OnLootSlotCleared() (1) (|cffffffff|Hitem:138993::::::::110:102::::::|h[Rarefied Water]|h|r)", -- [657]
+			"14:41:10 - OnLootSlotCleared() (2) (nil)", -- [658]
+			"14:41:10 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:124124::::::::110:102::::::|h[Blood of Sargeras]|h|r)", -- [659]
+			"14:41:11 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:141689::::::::110:102::2::::|h[Jewel of Victory]|h|r)", -- [660]
+			"14:41:11 - Event: (LOOT_CLOSED)", -- [661]
+			"14:41:11 - Event: (LOOT_CLOSED)", -- [662]
+			"14:42:37 - Event: (ENCOUNTER_START) (1811) (Lady Hatecoil) (2) (5)", -- [663]
+			"14:42:37 - UpdatePlayersData()", -- [664]
+			"14:43:23 - Event: (ENCOUNTER_END) (1811) (Lady Hatecoil) (2) (5) (1)", -- [665]
+			"14:43:26 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:134238::::::::110:581::2:4:1726:1808:1527:3528:::|h[Brinewashed~`Leather~`Pants]|h|r^t^^ (from:) (Yooky-Kil'jaeden) (distri:) (INSTANCE_CHAT)", -- [666]
+			"14:43:28 - Event: (LOOT_OPENED) (1)", -- [667]
+			"14:43:29 - OnLootSlotCleared() (1) (|cffffffff|Hitem:138993::::::::110:102::::::|h[Rarefied Water]|h|r)", -- [668]
+			"14:43:29 - OnLootSlotCleared() (2) (nil)", -- [669]
+			"14:43:29 - Event: (LOOT_CLOSED)", -- [670]
+			"14:43:29 - Event: (LOOT_CLOSED)", -- [671]
+			"14:43:49 - Event: (LOOT_OPENED) (1)", -- [672]
+			"14:43:50 - Event: (LOOT_CLOSED)", -- [673]
+			"14:44:25 - Event: (ENCOUNTER_START) (1813) (Serpentrix) (2) (5)", -- [674]
+			"14:44:25 - UpdatePlayersData()", -- [675]
+			"14:44:57 - Event: (ENCOUNTER_END) (1813) (Serpentrix) (2) (5) (1)", -- [676]
+			"14:45:05 - Event: (LOOT_OPENED) (1)", -- [677]
+			"14:45:06 - OnLootSlotCleared() (1) (|cffffffff|Hitem:138993::::::::110:102::::::|h[Rarefied Water]|h|r)", -- [678]
+			"14:45:06 - OnLootSlotCleared() (2) (nil)", -- [679]
+			"14:45:06 - Event: (LOOT_CLOSED)", -- [680]
+			"14:45:06 - Event: (LOOT_CLOSED)", -- [681]
+			"14:46:00 - Event: (LOOT_OPENED) (1)", -- [682]
+			"14:46:00 - OnLootSlotCleared() (1) (nil)", -- [683]
+			"14:46:00 - Event: (LOOT_CLOSED)", -- [684]
+			"14:46:46 - Event: (ENCOUNTER_START) (1812) (King Deepbeard) (2) (5)", -- [685]
+			"14:46:46 - UpdatePlayersData()", -- [686]
+			"14:47:18 - Event: (ENCOUNTER_END) (1812) (King Deepbeard) (2) (5) (1)", -- [687]
+			"14:47:20 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:134539::::::::110:581::2:3:1726:1517:3528:::|h[Braided~`Silver~`Ring]|h|r^t^^ (from:) (Yooky-Kil'jaeden) (distri:) (INSTANCE_CHAT)", -- [688]
+			"14:47:21 - Event: (LOOT_OPENED) (1)", -- [689]
+			"14:47:21 - OnLootSlotCleared() (1) (|cffffffff|Hitem:138993::::::::110:102::::::|h[Rarefied Water]|h|r)", -- [690]
+			"14:47:21 - OnLootSlotCleared() (2) (nil)", -- [691]
+			"14:47:22 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:124124::::::::110:102::::::|h[Blood of Sargeras]|h|r)", -- [692]
+			"14:47:22 - Event: (LOOT_CLOSED)", -- [693]
+			"14:47:22 - Event: (LOOT_CLOSED)", -- [694]
+			"14:48:19 - Event: (LOOT_OPENED) (1)", -- [695]
+			"14:48:19 - Event: (LOOT_CLOSED)", -- [696]
+			"14:48:38 - Event: (ENCOUNTER_START) (1814) (Wrath of Azshara) (2) (5)", -- [697]
+			"14:48:38 - UpdatePlayersData()", -- [698]
+			"14:48:57 - Event: (ENCOUNTER_END) (1814) (Wrath of Azshara) (2) (5) (1)", -- [699]
+			"14:49:00 - Event: (LOOT_OPENED) (1)", -- [700]
+			"14:49:00 - OnLootSlotCleared() (1) (|cffffffff|Hitem:140312::::::::110:102::::::|h[Essence of Balance]|h|r)", -- [701]
+			"14:49:00 - OnLootSlotCleared() (2) (|cffffffff|Hitem:138993::::::::110:102::::::|h[Rarefied Water]|h|r)", -- [702]
+			"14:49:01 - OnLootSlotCleared() (3) (nil)", -- [703]
+			"14:49:01 - OnLootSlotCleared() (4) (|cff0070dd|Hitem:124124::::::::110:102::::::|h[Blood of Sargeras]|h|r)", -- [704]
+			"14:49:01 - OnLootSlotCleared() (5) (|cff0070dd|Hitem:141689::::::::110:102::2::::|h[Jewel of Victory]|h|r)", -- [705]
+			"14:49:01 - OnLootSlotCleared() (6) (|cffa335ee|Hitem:134497::::::::110:102::2:3:1726:1517:3528:::|h[Stormcharged Choker]|h|r)", -- [706]
+			"14:49:01 - Event: (LOOT_CLOSED)", -- [707]
+			"14:49:01 - Event: (LOOT_CLOSED)", -- [708]
+			"14:49:14 - Event: (GROUP_LEFT) (Party-3017-00002C7AE7D8)", -- [709]
+			"14:49:14 - GetML()", -- [710]
+			"14:49:14 - LootMethod =  (personalloot)", -- [711]
+			"14:49:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [712]
+			"14:49:21 - GetML()", -- [713]
+			"14:49:21 - LootMethod =  (personalloot)", -- [714]
+			"14:57:11 - Event: (PARTY_LEADER_CHANGED)", -- [715]
+			"14:57:11 - GetML()", -- [716]
+			"14:57:11 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [717]
+			"14:57:11 - GetML()", -- [718]
+			"14:57:20 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Looking For Raid)) (158559) (0) (0)", -- [719]
+			"14:57:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [720]
+			"14:57:21 - GetML()", -- [721]
+			"15:00:11 - Event: (LOOT_OPENED) (1)", -- [722]
+			"15:00:11 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132234::::::::110:102::::::|h[Spectral Dust]|h|r)", -- [723]
+			"15:00:11 - Event: (LOOT_CLOSED)", -- [724]
+			"15:00:28 - Event: (LOOT_OPENED) (1)", -- [725]
+			"15:00:29 - Event: (LOOT_CLOSED)", -- [726]
+			"15:01:24 - Event: (LOOT_OPENED) (1)", -- [727]
+			"15:01:25 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132234::::::::110:102::::::|h[Spectral Dust]|h|r)", -- [728]
+			"15:01:25 - Event: (LOOT_CLOSED)", -- [729]
+			"15:02:50 - Event: (LOOT_OPENED) (1)", -- [730]
+			"15:02:50 - Event: (LOOT_CLOSED)", -- [731]
+			"15:02:57 - Event: (ENCOUNTER_START) (2050) (Sisters of the Moon) (17) (25)", -- [732]
+			"15:02:57 - UpdatePlayersData()", -- [733]
+			"15:08:42 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (17) (25) (1)", -- [734]
+			"15:08:45 - Event: (LOOT_OPENED) (1)", -- [735]
+			"15:08:45 - OnLootSlotCleared() (1) (nil)", -- [736]
+			"15:08:46 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled Augment Rune]|h|r)", -- [737]
+			"15:08:46 - Event: (LOOT_CLOSED)", -- [738]
+			"15:08:47 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Tekkuto) (distri:) (INSTANCE_CHAT)", -- [739]
+			"15:09:51 - Event: (LOOT_OPENED) (1)", -- [740]
+			"15:09:51 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132232::::::::110:102::::::|h[Coalesced Extoplasm]|h|r)", -- [741]
+			"15:09:51 - Event: (LOOT_CLOSED)", -- [742]
+			"15:11:39 - Event: (LOOT_OPENED) (1)", -- [743]
+			"15:11:39 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132233::::::::110:102::::::|h[Lingering Essence]|h|r)", -- [744]
+			"15:11:39 - Event: (LOOT_CLOSED)", -- [745]
+			"15:14:05 - Event: (ENCOUNTER_START) (2054) (The Desolate Host) (17) (25)", -- [746]
+			"15:14:05 - UpdatePlayersData()", -- [747]
+			"15:19:26 - Event: (ENCOUNTER_END) (2054) (The Desolate Host) (17) (25) (0)", -- [748]
+			"15:22:27 - Event: (ENCOUNTER_START) (2054) (The Desolate Host) (17) (25)", -- [749]
+			"15:22:27 - UpdatePlayersData()", -- [750]
+			"15:28:06 - Event: (ENCOUNTER_END) (2054) (The Desolate Host) (17) (25) (1)", -- [751]
+			"15:28:12 - Event: (LOOT_OPENED) (1)", -- [752]
+			"15:28:13 - OnLootSlotCleared() (1) (nil)", -- [753]
+			"15:28:13 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled Augment Rune]|h|r)", -- [754]
+			"15:28:13 - Event: (LOOT_CLOSED)", -- [755]
+			"15:28:14 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Tekkuto) (distri:) (INSTANCE_CHAT)", -- [756]
+			"15:28:16 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Xurpt-Illidan) (distri:) (INSTANCE_CHAT)", -- [757]
+			"15:28:48 - Event: (PARTY_LEADER_CHANGED)", -- [758]
+			"15:28:48 - GetML()", -- [759]
+			"15:28:50 - Event: (PARTY_LEADER_CHANGED)", -- [760]
+			"15:28:50 - GetML()", -- [761]
+			"15:28:58 - Event: (PARTY_LEADER_CHANGED)", -- [762]
+			"15:28:58 - GetML()", -- [763]
+			"15:29:19 - Event: (PARTY_LEADER_CHANGED)", -- [764]
+			"15:29:19 - GetML()", -- [765]
+			"15:29:22 - Event: (GROUP_LEFT) (Party-3017-00002C7AEF99)", -- [766]
+			"15:29:22 - GetML()", -- [767]
+			"15:29:22 - LootMethod =  (personalloot)", -- [768]
+			"15:29:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [769]
+			"15:29:28 - GetML()", -- [770]
+			"15:29:28 - LootMethod =  (personalloot)", -- [771]
+			"15:29:58 - Event: (PARTY_LEADER_CHANGED)", -- [772]
+			"15:29:58 - GetML()", -- [773]
+			"15:29:58 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [774]
+			"15:29:58 - GetML()", -- [775]
+			"15:30:05 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Looking For Raid)) (156594) (1) (0)", -- [776]
+			"15:30:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [777]
+			"15:30:06 - GetML()", -- [778]
+			"15:32:14 - Event: (ENCOUNTER_START) (2052) (Maiden of Vigilance) (17) (25)", -- [779]
+			"15:32:14 - UpdatePlayersData()", -- [780]
+			"15:39:19 - Event: (ENCOUNTER_END) (2052) (Maiden of Vigilance) (17) (25) (1)", -- [781]
+			"15:39:25 - Event: (LOOT_OPENED) (1)", -- [782]
+			"15:39:25 - OnLootSlotCleared() (1) (nil)", -- [783]
+			"15:39:29 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:257::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Kaneki-Barthilas) (distri:) (INSTANCE_CHAT)", -- [784]
+			"15:39:31 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled Augment Rune]|h|r)", -- [785]
+			"15:39:31 - Event: (LOOT_CLOSED)", -- [786]
+			"15:39:32 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Tekkuto) (distri:) (INSTANCE_CHAT)", -- [787]
+			"15:39:43 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:254::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Toosquared-Kil'jaeden) (distri:) (INSTANCE_CHAT)", -- [788]
+			"15:42:25 - Event: (ENCOUNTER_START) (2038) (Fallen Avatar) (17) (25)", -- [789]
+			"15:42:25 - UpdatePlayersData()", -- [790]
+			"15:48:54 - Event: (ENCOUNTER_END) (2038) (Fallen Avatar) (17) (25) (1)", -- [791]
+			"15:48:58 - Event: (LOOT_OPENED) (1)", -- [792]
+			"15:48:59 - OnLootSlotCleared() (1) (nil)", -- [793]
+			"15:49:00 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled Augment Rune]|h|r)", -- [794]
+			"15:49:00 - Event: (LOOT_CLOSED)", -- [795]
+			"15:49:01 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Tekkuto) (distri:) (INSTANCE_CHAT)", -- [796]
+			"15:49:01 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:147006::::::::110:257::4:3:3564:1467:3528:::|h[Archive~`of~`Faith]|h|r^t^^ (from:) (Kaneki-Barthilas) (distri:) (INSTANCE_CHAT)", -- [797]
+			"15:49:03 - Event: (PARTY_LEADER_CHANGED)", -- [798]
+			"15:49:03 - GetML()", -- [799]
+			"15:49:37 - Event: (PARTY_LEADER_CHANGED)", -- [800]
+			"15:49:37 - GetML()", -- [801]
+			"15:49:38 - Event: (PARTY_LEADER_CHANGED)", -- [802]
+			"15:49:38 - GetML()", -- [803]
+			"15:49:42 - Event: (GROUP_LEFT) (Party-3017-00002C7B1CAA)", -- [804]
+			"15:49:42 - GetML()", -- [805]
+			"15:49:42 - LootMethod =  (personalloot)", -- [806]
+			"15:49:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [807]
+			"15:49:51 - GetML()", -- [808]
+			"15:49:51 - LootMethod =  (personalloot)", -- [809]
+			"15:52:03 - Event: (PARTY_LEADER_CHANGED)", -- [810]
+			"15:52:03 - GetML()", -- [811]
+			"15:52:03 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [812]
+			"15:52:03 - GetML()", -- [813]
+			"15:52:07 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Looking For Raid)) (155272) (1) (0)", -- [814]
+			"15:52:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [815]
+			"15:52:07 - GetML()", -- [816]
+			"15:52:08 - Event: (PARTY_LEADER_CHANGED)", -- [817]
+			"15:52:08 - GetML()", -- [818]
+			"15:53:40 - Event: (ENCOUNTER_START) (2032) (Goroth) (17) (25)", -- [819]
+			"15:53:40 - UpdatePlayersData()", -- [820]
+			"15:56:01 - Event: (ENCOUNTER_END) (2032) (Goroth) (17) (25) (1)", -- [821]
+			"15:56:02 - Event: (LOOT_OPENED) (1)", -- [822]
+			"15:56:03 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:147076::::::::110:102::4:3:3564:1467:3528:::|h[Charred Hymnal of the Moon]|h|r)", -- [823]
+			"15:56:03 - Event: (LOOT_CLOSED)", -- [824]
+			"15:56:04 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:147076::::::::110:102::4:3:3564:1467:3528:::|h[Charred~`Hymnal~`of~`the~`Moon]|h|r^t^^ (from:) (Tekkuto) (distri:) (INSTANCE_CHAT)", -- [825]
+			"15:56:06 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:263::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Hauñches-Tichondrius) (distri:) (INSTANCE_CHAT)", -- [826]
+			"15:56:08 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:146984::::::::110:62::4:3:3564:1467:3528:::|h[Cloak~`of~`Stifling~`Brimstone]|h|r^t^^ (from:) (Zeemag-Mal'Ganis) (distri:) (INSTANCE_CHAT)", -- [827]
+			"15:57:15 - Event: (ENCOUNTER_START) (2036) (Harjatan) (17) (25)", -- [828]
+			"15:57:15 - UpdatePlayersData()", -- [829]
+			"16:00:05 - Event: (ENCOUNTER_END) (2036) (Harjatan) (17) (25) (1)", -- [830]
+			"16:00:06 - Event: (LOOT_OPENED) (1)", -- [831]
+			"16:00:06 - OnLootSlotCleared() (1) (nil)", -- [832]
+			"16:00:07 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled Augment Rune]|h|r)", -- [833]
+			"16:00:07 - Event: (LOOT_CLOSED)", -- [834]
+			"16:00:07 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:147000::::::::110:62::4:3:3564:1467:3528:::|h[Ravenous~`Devotee's~`Bracelets]|h|r^t^^ (from:) (Zeemag-Mal'Ganis) (distri:) (INSTANCE_CHAT)", -- [835]
+			"16:00:08 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:104::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Azmodaus-Area52) (distri:) (INSTANCE_CHAT)", -- [836]
+			"16:00:08 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Tekkuto) (distri:) (INSTANCE_CHAT)", -- [837]
+			"16:00:08 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:147177::::::::110:263::4:3:3564:1467:3528:::|h[Grips~`of~`the~`Skybreaker]|h|r^t^^ (from:) (Hauñches-Tichondrius) (distri:) (INSTANCE_CHAT)", -- [838]
+			"16:01:27 - Event: (LOOT_OPENED) (1)", -- [839]
+			"16:01:27 - OnLootSlotCleared() (1) (nil)", -- [840]
+			"16:01:27 - Event: (LOOT_CLOSED)", -- [841]
+			"16:02:23 - Event: (ENCOUNTER_START) (2037) (Mistress Sassz'ine) (17) (25)", -- [842]
+			"16:02:23 - UpdatePlayersData()", -- [843]
+			"16:05:51 - Event: (ENCOUNTER_END) (2037) (Mistress Sassz'ine) (17) (25) (1)", -- [844]
+			"16:05:52 - Event: (LOOT_OPENED) (1)", -- [845]
+			"16:05:53 - OnLootSlotCleared() (1) (nil)", -- [846]
+			"16:05:53 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled Augment Rune]|h|r)", -- [847]
+			"16:05:53 - Event: (LOOT_CLOSED)", -- [848]
+			"16:05:53 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:104::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Azmodaus-Area52) (distri:) (INSTANCE_CHAT)", -- [849]
+			"16:05:54 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:102::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Tekkuto) (distri:) (INSTANCE_CHAT)", -- [850]
+			"16:05:56 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:140587::::::::110:263::::::|h[Defiled~`Augment~`Rune]|h|r^t^^ (from:) (Hauñches-Tichondrius) (distri:) (INSTANCE_CHAT)", -- [851]
+			"16:06:05 - Event: (PARTY_LEADER_CHANGED)", -- [852]
+			"16:06:05 - GetML()", -- [853]
+			"16:06:27 - Event: (GROUP_LEFT) (Party-3017-00002C7B34F6)", -- [854]
+			"16:06:27 - GetML()", -- [855]
+			"16:06:27 - LootMethod =  (personalloot)", -- [856]
+			"16:06:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [857]
+			"16:06:33 - GetML()", -- [858]
+			"16:06:33 - LootMethod =  (personalloot)", -- [859]
+			"16:07:30 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [860]
+			"16:07:30 - GetML()", -- [861]
+			"16:07:30 - LootMethod =  (personalloot)", -- [862]
+			"07/01/18", -- [863]
+			"20:17:14 - Logged In", -- [864]
+			"20:17:14 - ML initialized!", -- [865]
+			"20:17:27 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [866]
+			"20:17:27 - ActivateSkin (new_blue)", -- [867]
+			"20:17:32 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [868]
+			"20:17:32 - GetML()", -- [869]
+			"20:17:32 - LootMethod =  (personalloot)", -- [870]
+			"20:17:32 - UpdatePlayersData()", -- [871]
+			"20:17:33 - GetPlayersGuildRank()", -- [872]
+			"20:17:33 - Found Guild Rank: GrigoriRasputin", -- [873]
+			"20:17:33 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [874]
+			"20:31:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [875]
+			"20:31:18 - GetML()", -- [876]
+			"20:31:18 - LootMethod =  (personalloot)", -- [877]
+			"20:32:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [878]
+			"20:32:15 - GetML()", -- [879]
+			"20:32:15 - LootMethod =  (personalloot)", -- [880]
+			"20:33:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [881]
+			"20:33:18 - GetML()", -- [882]
+			"20:33:18 - LootMethod =  (personalloot)", -- [883]
+			"20:33:50 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [884]
+			"20:33:50 - GetML()", -- [885]
+			"20:33:50 - LootMethod =  (personalloot)", -- [886]
+			"20:43:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [887]
+			"20:43:01 - GetML()", -- [888]
+			"20:43:01 - LootMethod =  (personalloot)", -- [889]
+			"20:44:07 - Event: (LOOT_OPENED) (1)", -- [890]
+			"20:44:08 - OnLootSlotCleared() (1) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [891]
+			"20:44:08 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [892]
+			"20:44:08 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [893]
+			"20:44:08 - Event: (LOOT_CLOSED)", -- [894]
+			"07/01/18", -- [895]
+			"20:46:56 - Logged In", -- [896]
+			"20:46:56 - ML initialized!", -- [897]
+			"20:47:02 - Bagofsticks-Hydraxis (2.7.11) (nil)", -- [898]
+			"20:47:02 - ActivateSkin (new_blue)", -- [899]
+			"20:47:06 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [900]
+			"20:47:06 - GetML()", -- [901]
+			"20:47:06 - LootMethod =  (personalloot)", -- [902]
+			"20:47:06 - UpdatePlayersData()", -- [903]
+			"20:47:08 - GetPlayersGuildRank()", -- [904]
+			"20:47:08 - Found Guild Rank: GrigoriRasputin", -- [905]
+			"20:47:08 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Bagofsticks) (distri:) (GUILD)", -- [906]
+			"20:49:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [907]
+			"20:49:15 - GetML()", -- [908]
+			"20:49:15 - LootMethod =  (personalloot)", -- [909]
+			"07/01/18", -- [910]
+			"20:50:45 - Logged In", -- [911]
+			"20:50:45 - ML initialized!", -- [912]
+			"20:50:52 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [913]
+			"20:50:52 - ActivateSkin (new_blue)", -- [914]
+			"20:50:56 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [915]
+			"20:50:56 - GetML()", -- [916]
+			"20:50:56 - LootMethod =  (personalloot)", -- [917]
+			"20:50:56 - UpdatePlayersData()", -- [918]
+			"20:50:57 - GetPlayersGuildRank()", -- [919]
+			"20:50:57 - Found Guild Rank: GrigoriRasputin", -- [920]
+			"20:50:57 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [921]
+			"07/01/18", -- [922]
+			"20:57:49 - Logged In", -- [923]
+			"20:57:49 - ML initialized!", -- [924]
+			"20:57:56 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [925]
+			"20:57:56 - ActivateSkin (new_blue)", -- [926]
+			"20:58:00 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [927]
+			"20:58:00 - GetML()", -- [928]
+			"20:58:00 - LootMethod =  (personalloot)", -- [929]
+			"20:58:00 - UpdatePlayersData()", -- [930]
+			"20:58:01 - GetPlayersGuildRank()", -- [931]
+			"20:58:01 - Found Guild Rank: GrigoriRasputin", -- [932]
+			"20:58:01 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [933]
+			"07/01/18", -- [934]
+			"20:58:50 - Logged In", -- [935]
+			"20:58:50 - ML initialized!", -- [936]
+			"20:58:51 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [937]
+			"20:58:51 - ActivateSkin (new_blue)", -- [938]
+			"20:58:55 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [939]
+			"20:58:55 - GetML()", -- [940]
+			"20:58:55 - LootMethod =  (personalloot)", -- [941]
+			"20:58:55 - UpdatePlayersData()", -- [942]
+			"20:58:56 - GetPlayersGuildRank()", -- [943]
+			"20:58:56 - Found Guild Rank: GrigoriRasputin", -- [944]
+			"20:58:56 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [945]
+			"20:58:58 - Event: (PARTY_LEADER_CHANGED)", -- [946]
+			"20:58:58 - GetML()", -- [947]
+			"20:58:58 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [948]
+			"20:58:58 - GetML()", -- [949]
+			"20:59:01 - Event: (RAID_INSTANCE_WELCOME) (Assault on Violet Hold (Heroic)) (50458) (0) (0)", -- [950]
+			"20:59:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [951]
+			"20:59:01 - GetML()", -- [952]
+			"21:01:52 - Event: (ENCOUNTER_START) (1848) (Festerface) (2) (5)", -- [953]
+			"21:01:52 - UpdatePlayersData()", -- [954]
+			"21:02:11 - Event: (ENCOUNTER_END) (1848) (Festerface) (2) (5) (1)", -- [955]
+			"21:02:14 - Event: (LOOT_OPENED) (1)", -- [956]
+			"21:02:14 - OnLootSlotCleared() (1) (nil)", -- [957]
+			"21:02:15 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:141689::::::::110:102::2::::|h[Jewel of Victory]|h|r)", -- [958]
+			"21:02:15 - Event: (LOOT_CLOSED)", -- [959]
+			"21:05:41 - Event: (ENCOUNTER_START) (1846) (Mindflayer Kaahrj) (2) (5)", -- [960]
+			"21:05:41 - UpdatePlayersData()", -- [961]
+			"21:05:57 - Event: (ENCOUNTER_END) (1846) (Mindflayer Kaahrj) (2) (5) (1)", -- [962]
+			"21:06:01 - Event: (LOOT_OPENED) (1)", -- [963]
+			"21:06:01 - OnLootSlotCleared() (1) (nil)", -- [964]
+			"21:06:01 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:124124::::::::110:102::::::|h[Blood of Sargeras]|h|r)", -- [965]
+			"21:06:01 - Event: (LOOT_CLOSED)", -- [966]
+			"21:08:39 - Event: (ENCOUNTER_START) (1856) (Fel Lord Betrug) (2) (5)", -- [967]
+			"21:08:39 - UpdatePlayersData()", -- [968]
+			"21:08:56 - Event: (ENCOUNTER_END) (1856) (Fel Lord Betrug) (2) (5) (1)", -- [969]
+			"21:08:58 - Event: (LOOT_OPENED) (1)", -- [970]
+			"21:08:59 - OnLootSlotCleared() (1) (nil)", -- [971]
+			"21:08:59 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:124124::::::::110:102::::::|h[Blood of Sargeras]|h|r)", -- [972]
+			"21:08:59 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:141689::::::::110:102::2::::|h[Jewel of Victory]|h|r)", -- [973]
+			"21:08:59 - Event: (LOOT_CLOSED)", -- [974]
+			"21:09:14 - Event: (GROUP_LEFT) (Party-3017-00002C7C9361)", -- [975]
+			"21:09:14 - GetML()", -- [976]
+			"21:09:14 - LootMethod =  (personalloot)", -- [977]
+			"21:09:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [978]
+			"21:09:20 - GetML()", -- [979]
+			"21:09:20 - LootMethod =  (personalloot)", -- [980]
+			"07/01/18", -- [981]
+			"21:10:14 - Logged In", -- [982]
+			"21:10:14 - ML initialized!", -- [983]
+			"21:10:15 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [984]
+			"21:10:15 - ActivateSkin (new_blue)", -- [985]
+			"21:10:19 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [986]
+			"21:10:19 - GetML()", -- [987]
+			"21:10:19 - LootMethod =  (personalloot)", -- [988]
+			"21:10:19 - UpdatePlayersData()", -- [989]
+			"21:10:19 - GetPlayersGuildRank()", -- [990]
+			"21:10:19 - Found Guild Rank: GrigoriRasputin", -- [991]
+			"21:10:20 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [992]
+			"07/01/18", -- [993]
+			"21:22:11 - Logged In", -- [994]
+			"21:22:11 - ML initialized!", -- [995]
+			"21:22:12 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [996]
+			"21:22:12 - ActivateSkin (new_blue)", -- [997]
+			"21:22:16 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [998]
+			"21:22:16 - GetML()", -- [999]
+			"21:22:16 - LootMethod =  (personalloot)", -- [1000]
+			"21:22:16 - UpdatePlayersData()", -- [1001]
+			"21:22:16 - GetPlayersGuildRank()", -- [1002]
+			"21:22:16 - Found Guild Rank: GrigoriRasputin", -- [1003]
+			"21:22:17 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [1004]
+			"07/01/18", -- [1005]
+			"21:40:29 - Logged In", -- [1006]
+			"21:40:29 - ML initialized!", -- [1007]
+			"21:40:37 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [1008]
+			"21:40:37 - ActivateSkin (new_blue)", -- [1009]
+			"21:40:41 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1010]
+			"21:40:41 - GetML()", -- [1011]
+			"21:40:41 - LootMethod =  (personalloot)", -- [1012]
+			"21:40:41 - UpdatePlayersData()", -- [1013]
+			"21:40:43 - GetPlayersGuildRank()", -- [1014]
+			"21:40:43 - Found Guild Rank: GrigoriRasputin", -- [1015]
+			"21:40:43 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [1016]
+			"07/01/18", -- [1017]
+			"22:03:32 - Logged In", -- [1018]
+			"22:03:32 - ML initialized!", -- [1019]
+			"22:03:38 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [1020]
+			"22:03:38 - ActivateSkin (new_blue)", -- [1021]
+			"22:03:42 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1022]
+			"22:03:42 - GetML()", -- [1023]
+			"22:03:42 - LootMethod =  (personalloot)", -- [1024]
+			"22:03:42 - UpdatePlayersData()", -- [1025]
+			"22:03:43 - GetPlayersGuildRank()", -- [1026]
+			"22:03:43 - Found Guild Rank: GrigoriRasputin", -- [1027]
+			"22:03:43 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [1028]
+			"22:07:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1029]
+			"22:07:37 - GetML()", -- [1030]
+			"22:07:37 - LootMethod =  (personalloot)", -- [1031]
+			"22:08:08 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1032]
+			"22:08:08 - GetML()", -- [1033]
+			"22:08:08 - LootMethod =  (personalloot)", -- [1034]
+			"22:09:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1035]
+			"22:09:12 - GetML()", -- [1036]
+			"22:09:12 - LootMethod =  (personalloot)", -- [1037]
+			"22:11:34 - Event: (LOOT_OPENED) (1)", -- [1038]
+			"22:11:35 - Event: (LOOT_CLOSED)", -- [1039]
+			"22:12:03 - Event: (LOOT_OPENED) (1)", -- [1040]
+			"22:12:03 - Event: (LOOT_CLOSED)", -- [1041]
+			"22:12:26 - Event: (LOOT_OPENED) (1)", -- [1042]
+			"22:12:26 - Event: (LOOT_CLOSED)", -- [1043]
+			"22:12:52 - Event: (LOOT_OPENED) (1)", -- [1044]
+			"22:12:52 - OnLootSlotCleared() (1) (nil)", -- [1045]
+			"22:12:52 - Event: (LOOT_CLOSED)", -- [1046]
+			"22:12:59 - Event: (LOOT_OPENED) (1)", -- [1047]
+			"22:12:59 - Event: (LOOT_CLOSED)", -- [1048]
+			"22:14:05 - Event: (LOOT_OPENED) (1)", -- [1049]
+			"22:14:05 - Event: (LOOT_CLOSED)", -- [1050]
+			"22:15:23 - Event: (LOOT_OPENED) (1)", -- [1051]
+			"22:15:23 - OnLootSlotCleared() (1) (nil)", -- [1052]
+			"22:15:23 - Event: (LOOT_CLOSED)", -- [1053]
+			"22:16:15 - Event: (LOOT_OPENED) (1)", -- [1054]
+			"22:16:15 - OnLootSlotCleared() (1) (|cffffffff|Hitem:124119::::::::110:102::::::|h[Big Gamy Ribs]|h|r)", -- [1055]
+			"22:16:16 - OnLootSlotCleared() (2) (nil)", -- [1056]
+			"22:16:16 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1057]
+			"22:16:16 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:132237::::::::110:102::::::|h[Large Leg Bone]|h|r)", -- [1058]
+			"22:16:16 - OnLootSlotCleared() (5) (|cff0070dd|Hitem:138417::::::::110:102:::1:1794:::|h[The Butcher's Apron]|h|r)", -- [1059]
+			"22:16:16 - Event: (LOOT_CLOSED)", -- [1060]
+			"22:17:40 - Event: (LOOT_OPENED) (1)", -- [1061]
+			"22:17:41 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:132895::::::::110:102:::2:1794:1735:::|h[The Watcher's Divine Inspiration]|h|r)", -- [1062]
+			"22:17:41 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1063]
+			"22:17:41 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:132233::::::::110:102::::::|h[Lingering Essence]|h|r)", -- [1064]
+			"22:17:41 - Event: (LOOT_CLOSED)", -- [1065]
+			"22:25:31 - Event: (LOOT_OPENED) (1)", -- [1066]
+			"22:25:31 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1067]
+			"22:25:31 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:140310::::::::110:102::::::|h[Crude Statuette]|h|r)", -- [1068]
+			"22:25:31 - Event: (LOOT_CLOSED)", -- [1069]
+			"22:25:48 - Event: (LOOT_OPENED) (1)", -- [1070]
+			"22:25:48 - OnLootSlotCleared() (1) (nil)", -- [1071]
+			"22:25:48 - Event: (LOOT_CLOSED)", -- [1072]
+			"22:26:26 - Event: (LOOT_OPENED) (1)", -- [1073]
+			"22:26:26 - OnLootSlotCleared() (1) (nil)", -- [1074]
+			"22:26:27 - OnLootSlotCleared() (2) (|cffffffff|Hitem:124437::::::::110:102::::::|h[Shal'dorei Silk]|h|r)", -- [1075]
+			"22:26:27 - OnLootSlotCleared() (3) (|cff1eff00|Hitem:121133::::::::110:102:::2:1812:1688:::|h[Haustvelt Shoulders of the Peerless]|h|r)", -- [1076]
+			"22:26:27 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [1077]
+			"22:26:27 - Event: (LOOT_CLOSED)", -- [1078]
+			"22:26:44 - Event: (LOOT_OPENED) (1)", -- [1079]
+			"22:26:44 - Event: (LOOT_CLOSED)", -- [1080]
+			"22:26:54 - Event: (LOOT_OPENED) (1)", -- [1081]
+			"22:26:54 - Event: (LOOT_CLOSED)", -- [1082]
+			"07/03/18", -- [1083]
+			"11:31:13 - Logged In", -- [1084]
+			"11:31:13 - ML initialized!", -- [1085]
+			"11:31:49 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [1086]
+			"11:31:49 - ActivateSkin (new_blue)", -- [1087]
+			"11:31:54 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1088]
+			"11:31:54 - GetML()", -- [1089]
+			"11:31:54 - LootMethod =  (personalloot)", -- [1090]
+			"11:31:54 - UpdatePlayersData()", -- [1091]
+			"11:31:55 - GetPlayersGuildRank()", -- [1092]
+			"11:31:55 - Found Guild Rank: GrigoriRasputin", -- [1093]
+			"11:31:55 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [1094]
+			"11:32:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1095]
+			"11:32:20 - GetML()", -- [1096]
+			"11:32:20 - LootMethod =  (personalloot)", -- [1097]
+			"11:32:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1098]
+			"11:32:53 - GetML()", -- [1099]
+			"11:32:53 - LootMethod =  (personalloot)", -- [1100]
+			"11:33:41 - Event: (LOOT_OPENED) (1)", -- [1101]
+			"11:33:42 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1273|h[Seal of Broken Fate]|h|r)", -- [1102]
+			"11:33:42 - Event: (LOOT_CLOSED)", -- [1103]
+			"11:33:42 - Event: (LOOT_CLOSED)", -- [1104]
+			"11:34:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1105]
+			"11:34:31 - GetML()", -- [1106]
+			"11:34:31 - LootMethod =  (personalloot)", -- [1107]
+			"11:40:18 - Event: (LOOT_OPENED) (1)", -- [1108]
+			"11:40:18 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132199::::::::110:102::::::|h[Congealed Felblood]|h|r)", -- [1109]
+			"11:40:18 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1110]
+			"11:40:18 - Event: (LOOT_CLOSED)", -- [1111]
+			"11:42:11 - Event: (LOOT_OPENED) (1)", -- [1112]
+			"11:42:12 - Event: (LOOT_CLOSED)", -- [1113]
+			"11:42:22 - Event: (LOOT_OPENED) (1)", -- [1114]
+			"11:42:22 - Event: (LOOT_CLOSED)", -- [1115]
+			"11:42:43 - Event: (LOOT_OPENED) (1)", -- [1116]
+			"11:42:43 - Event: (LOOT_CLOSED)", -- [1117]
+			"11:42:55 - Event: (LOOT_OPENED) (1)", -- [1118]
+			"11:42:55 - Event: (LOOT_CLOSED)", -- [1119]
+			"11:43:10 - Event: (LOOT_OPENED) (1)", -- [1120]
+			"11:43:10 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136859::::::::110:102::::::|h[Fat Bear Liver]|h|r)", -- [1121]
+			"11:43:10 - Event: (LOOT_CLOSED)", -- [1122]
+			"11:43:41 - Event: (LOOT_OPENED) (1)", -- [1123]
+			"11:43:42 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [1124]
+			"11:43:42 - OnLootSlotCleared() (2) (|cffffffff|Hitem:124438::::::::110:102::::::|h[Unbroken Claw]|h|r)", -- [1125]
+			"11:43:42 - OnLootSlotCleared() (3) (|cffffffff|Hitem:124118::::::::110:102::::::|h[Fatty Bearsteak]|h|r)", -- [1126]
+			"11:43:42 - Event: (LOOT_CLOSED)", -- [1127]
+			"11:43:59 - Event: (LOOT_OPENED) (1)", -- [1128]
+			"11:43:59 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136859::::::::110:102::::::|h[Fat Bear Liver]|h|r)", -- [1129]
+			"11:43:59 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [1130]
+			"11:43:59 - OnLootSlotCleared() (3) (|cffffffff|Hitem:124118::::::::110:102::::::|h[Fatty Bearsteak]|h|r)", -- [1131]
+			"11:43:59 - Event: (LOOT_CLOSED)", -- [1132]
+			"11:44:12 - Event: (LOOT_OPENED) (1)", -- [1133]
+			"11:44:13 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [1134]
+			"11:44:13 - OnLootSlotCleared() (2) (|cffffffff|Hitem:124118::::::::110:102::::::|h[Fatty Bearsteak]|h|r)", -- [1135]
+			"11:44:13 - Event: (LOOT_CLOSED)", -- [1136]
+			"11:44:25 - Event: (LOOT_OPENED) (1)", -- [1137]
+			"11:44:26 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136859::::::::110:102::::::|h[Fat Bear Liver]|h|r)", -- [1138]
+			"11:44:26 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [1139]
+			"11:44:26 - OnLootSlotCleared() (3) (|cffffffff|Hitem:124118::::::::110:102::::::|h[Fatty Bearsteak]|h|r)", -- [1140]
+			"11:44:26 - Event: (LOOT_CLOSED)", -- [1141]
+			"11:44:26 - Event: (LOOT_CLOSED)", -- [1142]
+			"11:44:37 - Event: (LOOT_OPENED) (1)", -- [1143]
+			"11:44:37 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136860::::::::110:102::::::|h[Cliffwing Hippogryph Egg]|h|r)", -- [1144]
+			"11:44:37 - Event: (LOOT_CLOSED)", -- [1145]
+			"11:44:39 - Event: (LOOT_OPENED) (1)", -- [1146]
+			"11:44:39 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136860::::::::110:102::::::|h[Cliffwing Hippogryph Egg]|h|r)", -- [1147]
+			"11:44:39 - Event: (LOOT_CLOSED)", -- [1148]
+			"11:44:41 - Event: (LOOT_OPENED) (1)", -- [1149]
+			"11:44:42 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136860::::::::110:102::::::|h[Cliffwing Hippogryph Egg]|h|r)", -- [1150]
+			"11:44:42 - Event: (LOOT_CLOSED)", -- [1151]
+			"11:44:45 - Event: (LOOT_OPENED) (1)", -- [1152]
+			"11:44:45 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136860::::::::110:102::::::|h[Cliffwing Hippogryph Egg]|h|r)", -- [1153]
+			"11:44:45 - Event: (LOOT_CLOSED)", -- [1154]
+			"11:44:47 - Event: (LOOT_OPENED) (1)", -- [1155]
+			"11:44:47 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136860::::::::110:102::::::|h[Cliffwing Hippogryph Egg]|h|r)", -- [1156]
+			"11:44:47 - Event: (LOOT_CLOSED)", -- [1157]
+			"11:44:56 - Event: (LOOT_OPENED) (1)", -- [1158]
+			"11:44:57 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136860::::::::110:102::::::|h[Cliffwing Hippogryph Egg]|h|r)", -- [1159]
+			"11:44:57 - Event: (LOOT_CLOSED)", -- [1160]
+			"11:44:58 - Event: (LOOT_OPENED) (1)", -- [1161]
+			"11:44:59 - OnLootSlotCleared() (1) (|cffffffff|Hitem:136860::::::::110:102::::::|h[Cliffwing Hippogryph Egg]|h|r)", -- [1162]
+			"11:44:59 - Event: (LOOT_CLOSED)", -- [1163]
+			"11:46:00 - Event: (LOOT_OPENED) (1)", -- [1164]
+			"11:46:01 - Event: (LOOT_CLOSED)", -- [1165]
+			"11:46:48 - Event: (LOOT_OPENED) (1)", -- [1166]
+			"11:46:48 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132217::::::::110:102::::::|h[Elemental Pebbles]|h|r)", -- [1167]
+			"11:46:49 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132212::::::::110:102::::::|h[Frothing Essence]|h|r)", -- [1168]
+			"11:46:49 - Event: (LOOT_CLOSED)", -- [1169]
+			"11:47:02 - Event: (LOOT_OPENED) (1)", -- [1170]
+			"11:47:02 - Event: (LOOT_CLOSED)", -- [1171]
+			"11:48:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1172]
+			"11:48:58 - GetML()", -- [1173]
+			"11:48:58 - LootMethod =  (personalloot)", -- [1174]
+			"11:56:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1175]
+			"11:56:21 - GetML()", -- [1176]
+			"11:56:21 - LootMethod =  (personalloot)", -- [1177]
+			"11:58:52 - Event: (LOOT_OPENED) (1)", -- [1178]
+			"11:58:52 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1179]
+			"11:58:52 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [1180]
+			"11:58:52 - Event: (LOOT_CLOSED)", -- [1181]
+			"11:59:59 - Event: (LOOT_OPENED) (1)", -- [1182]
+			"11:59:59 - OnLootSlotCleared() (1) (nil)", -- [1183]
+			"11:59:59 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1184]
+			"11:59:59 - OnLootSlotCleared() (3) (|cff1eff00|Hitem:138839::::::::110:102::::::|h[Valiant's Glory]|h|r)", -- [1185]
+			"11:59:59 - Event: (LOOT_CLOSED)", -- [1186]
+			"12:01:01 - Event: (LOOT_OPENED) (1)", -- [1187]
+			"12:01:02 - OnLootSlotCleared() (1) (nil)", -- [1188]
+			"12:01:02 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1189]
+			"12:01:02 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:121341::::::::110:102::::::|h[Robble's Staff of Discourse]|h|r)", -- [1190]
+			"12:01:02 - Event: (LOOT_CLOSED)", -- [1191]
+			"12:02:47 - Event: (LOOT_OPENED) (1)", -- [1192]
+			"12:02:47 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [1193]
+			"12:02:48 - OnLootSlotCleared() (2) (|cffffffff|Hitem:124117::::::::110:102::::::|h[Lean Shank]|h|r)", -- [1194]
+			"12:02:48 - OnLootSlotCleared() (3) (|cffffffff|Hitem:124439::::::::110:102::::::|h[Unbroken Tooth]|h|r)", -- [1195]
+			"12:02:48 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [1196]
+			"12:02:48 - Event: (LOOT_CLOSED)", -- [1197]
+			"12:03:12 - Event: (PARTY_LEADER_CHANGED)", -- [1198]
+			"12:03:12 - GetML()", -- [1199]
+			"12:03:12 - LootMethod =  (personalloot)", -- [1200]
+			"12:03:12 - Resetting council as we have a new ML!", -- [1201]
+			"12:03:12 - MasterLooter =  (Tekkuto-Hydraxis)", -- [1202]
+			"12:03:12 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1203]
+			"12:03:12 - ML:NewML (Tekkuto-Hydraxis)", -- [1204]
+			"12:03:12 - UpdateMLdb", -- [1205]
+			"12:03:12 - UpdateGroup (true)", -- [1206]
+			"12:03:12 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1207]
+			"12:03:12 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1208]
+			"12:03:12 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1209]
+			"12:03:12 - GetML()", -- [1210]
+			"12:03:12 - LootMethod =  (personalloot)", -- [1211]
+			"12:03:12 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1212]
+			"12:03:12 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1213]
+			"12:03:12 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1214]
+			"12:03:12 - Comm received:^1^Scandidates^T^N1^T^STekkuto-Hydraxis^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1215]
+			"12:03:12 - Comm received:^1^Scouncil^T^N1^T^N1^STekkuto-Hydraxis^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1216]
+			"12:03:12 - true = (IsCouncil) (Tekkuto-Hydraxis)", -- [1217]
+			"12:03:12 - GetLootDBStatistics()", -- [1218]
+			"12:03:12 - GetGuildRankNum()", -- [1219]
+			"12:03:12 - RCVotingFrame (enabled)", -- [1220]
+			"12:03:12 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (GrigoriRasputin) (nil) (0) (899.625)", -- [1221]
+			"12:03:12 - Comm received:^1^SplayerInfo^T^N1^STekkuto-Hydraxis^N2^SDRUID^N3^SDAMAGER^N4^SGrigoriRasputin^N6^N0^N7^N899.625^N8^N102^t^^ (from:) (Tekkuto) (distri:) (WHISPER)", -- [1222]
+			"12:03:22 - Comm received:^1^Scouncil^T^N1^T^N1^STekkuto-Hydraxis^t^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1223]
+			"12:03:22 - true = (IsCouncil) (Tekkuto-Hydraxis)", -- [1224]
+			"12:03:22 - Comm received:^1^Scandidates^T^N1^T^STekkuto-Hydraxis^T^Srole^SDAMAGER^SspecID^N899.625^Senchant_lvl^N0^Sclass^SDRUID^Srank^SGrigoriRasputin^t^t^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1225]
+			"12:03:24 - UpdateGroup (table: 00000201B9702A90)", -- [1226]
+			"12:03:27 - Timer MLdb_check passed", -- [1227]
+			"12:04:05 - Event: (GROUP_LEFT) (Party-90-00002C82D7DA)", -- [1228]
+			"12:04:05 - GetML()", -- [1229]
+			"12:04:05 - LootMethod =  (personalloot)", -- [1230]
+			"12:04:05 - ML Disabled", -- [1231]
+			"12:06:23 - Event: (PARTY_LEADER_CHANGED)", -- [1232]
+			"12:06:23 - GetML()", -- [1233]
+			"12:06:23 - LootMethod =  (personalloot)", -- [1234]
+			"12:06:23 - Resetting council as we have a new ML!", -- [1235]
+			"12:06:23 - MasterLooter =  (Tekkuto-Hydraxis)", -- [1236]
+			"12:06:23 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1237]
+			"12:06:23 - ML:NewML (Tekkuto-Hydraxis)", -- [1238]
+			"12:06:23 - UpdateMLdb", -- [1239]
+			"12:06:23 - UpdateGroup (true)", -- [1240]
+			"12:06:23 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1241]
+			"12:06:23 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1242]
+			"12:06:23 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1243]
+			"12:06:23 - GetML()", -- [1244]
+			"12:06:23 - LootMethod =  (personalloot)", -- [1245]
+			"12:06:24 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1246]
+			"12:06:24 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1247]
+			"12:06:24 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1248]
+			"12:06:24 - Comm received:^1^Scandidates^T^N1^T^STekkuto-Hydraxis^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1249]
+			"12:06:24 - Comm received:^1^Scouncil^T^N1^T^N1^STekkuto-Hydraxis^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1250]
+			"12:06:24 - true = (IsCouncil) (Tekkuto-Hydraxis)", -- [1251]
+			"12:06:24 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (GrigoriRasputin) (nil) (0) (899.625)", -- [1252]
+			"12:06:24 - Comm received:^1^SplayerInfo^T^N1^STekkuto-Hydraxis^N2^SDRUID^N3^SDAMAGER^N4^SGrigoriRasputin^N6^N0^N7^N899.625^N8^N102^t^^ (from:) (Tekkuto) (distri:) (WHISPER)", -- [1253]
+			"12:06:29 - Event: (GROUP_LEFT) (Party-90-00002C82DD2D)", -- [1254]
+			"12:06:29 - GetML()", -- [1255]
+			"12:06:29 - LootMethod =  (personalloot)", -- [1256]
+			"12:06:29 - ML Disabled", -- [1257]
+			"12:06:38 - Timer MLdb_check passed", -- [1258]
+			"12:06:38 - Event: (PARTY_LEADER_CHANGED)", -- [1259]
+			"12:06:38 - GetML()", -- [1260]
+			"12:06:38 - LootMethod =  (personalloot)", -- [1261]
+			"12:06:38 - Unknown ML", -- [1262]
+			"12:06:38 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1263]
+			"12:06:38 - GetML()", -- [1264]
+			"12:06:38 - LootMethod =  (personalloot)", -- [1265]
+			"12:06:38 - Unknown ML", -- [1266]
+			"12:06:39 - GetML()", -- [1267]
+			"12:06:39 - LootMethod =  (personalloot)", -- [1268]
+			"12:06:39 - Resetting council as we have a new ML!", -- [1269]
+			"12:06:39 - MasterLooter =  (Warhoon-Thrall)", -- [1270]
+			"12:06:39 - GetML()", -- [1271]
+			"12:06:39 - LootMethod =  (personalloot)", -- [1272]
+			"12:06:40 - VotingFrame:Update() without lootTable!!", -- [1273]
+			"12:06:43 - VotingFrame:Update() without lootTable!!", -- [1274]
+			"12:06:54 - Timer MLdb_check passed", -- [1275]
+			"12:06:54 - Comm received:^1^Sxrealm^T^N1^SWarhoon-Thrall^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1276]
+			"12:06:54 - Comm received:^1^Sxrealm^T^N1^SWarhoon-Thrall^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1277]
+			"12:07:09 - VotingFrame:Update() without lootTable!!", -- [1278]
+			"12:07:15 - VotingFrame:Update() without lootTable!!", -- [1279]
+			"12:07:16 - VotingFrame:Update() without lootTable!!", -- [1280]
+			"12:07:20 - VotingFrame:Update() without lootTable!!", -- [1281]
+			"12:07:21 - VotingFrame:Update() without lootTable!!", -- [1282]
+			"12:07:22 - VotingFrame:Update() without lootTable!!", -- [1283]
+			"12:07:23 - Comm received:^1^Sxrealm^T^N1^SWarhoon-Thrall^N2^SMLdb_request^t^^ (from:) (Sumerâgi-Barthilas) (distri:) (RAID)", -- [1284]
+			"12:07:24 - Comm received:^1^Sxrealm^T^N1^SWarhoon-Thrall^N2^Scouncil_request^t^^ (from:) (Sumerâgi-Barthilas) (distri:) (RAID)", -- [1285]
+			"12:07:37 - VotingFrame:Update() without lootTable!!", -- [1286]
+			"12:07:41 - VotingFrame:Update() without lootTable!!", -- [1287]
+			"12:07:46 - VotingFrame:Update() without lootTable!!", -- [1288]
+			"12:07:49 - VotingFrame:Update() without lootTable!!", -- [1289]
+			"12:07:55 - VotingFrame:Update() without lootTable!!", -- [1290]
+			"12:07:58 - VotingFrame:Update() without lootTable!!", -- [1291]
+			"12:08:01 - VotingFrame:Update() without lootTable!!", -- [1292]
+			"12:08:16 - VotingFrame:Update() without lootTable!!", -- [1293]
+			"12:08:19 - VotingFrame:Update() without lootTable!!", -- [1294]
+			"12:08:23 - VotingFrame:Update() without lootTable!!", -- [1295]
+			"12:08:24 - VotingFrame:Update() without lootTable!!", -- [1296]
+			"12:08:26 - VotingFrame:Update() without lootTable!!", -- [1297]
+			"12:08:31 - Comm received:^1^Sxrealm^T^N1^SWarhoon-Thrall^N2^SMLdb_request^t^^ (from:) (Hedgy-Hyjal) (distri:) (RAID)", -- [1298]
+			"12:08:31 - Comm received:^1^Sxrealm^T^N1^SWarhoon-Thrall^N2^Scouncil_request^t^^ (from:) (Hedgy-Hyjal) (distri:) (RAID)", -- [1299]
+			"12:08:35 - VotingFrame:Update() without lootTable!!", -- [1300]
+			"12:08:37 - Event: (GROUP_LEFT) (Party-3678-00001E1BEA25)", -- [1301]
+			"12:08:37 - GetML()", -- [1302]
+			"12:08:37 - LootMethod =  (personalloot)", -- [1303]
+			"12:09:19 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1304]
+			"12:09:19 - GetML()", -- [1305]
+			"12:09:19 - LootMethod =  (personalloot)", -- [1306]
+			"12:09:20 - VotingFrame:Update() without lootTable!!", -- [1307]
+			"12:09:28 - Event: (LOOT_CLOSED)", -- [1308]
+			"12:10:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1309]
+			"12:10:11 - GetML()", -- [1310]
+			"12:10:11 - LootMethod =  (personalloot)", -- [1311]
+			"12:10:12 - VotingFrame:Update() without lootTable!!", -- [1312]
+			"12:11:48 - Event: (PARTY_LEADER_CHANGED)", -- [1313]
+			"12:11:48 - GetML()", -- [1314]
+			"12:11:48 - LootMethod =  (personalloot)", -- [1315]
+			"12:11:48 - Unknown ML", -- [1316]
+			"12:11:48 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1317]
+			"12:11:48 - GetML()", -- [1318]
+			"12:11:48 - LootMethod =  (personalloot)", -- [1319]
+			"12:11:48 - Unknown ML", -- [1320]
+			"12:11:48 - GetML()", -- [1321]
+			"12:11:48 - LootMethod =  (personalloot)", -- [1322]
+			"12:11:48 - Unknown ML", -- [1323]
+			"12:11:48 - GetML()", -- [1324]
+			"12:11:48 - LootMethod =  (personalloot)", -- [1325]
+			"12:11:48 - Unknown ML", -- [1326]
+			"12:11:49 - GetML()", -- [1327]
+			"12:11:49 - LootMethod =  (personalloot)", -- [1328]
+			"12:11:49 - Unknown ML", -- [1329]
+			"12:11:49 - GetML()", -- [1330]
+			"12:11:49 - LootMethod =  (personalloot)", -- [1331]
+			"12:11:49 - Unknown ML", -- [1332]
+			"12:11:49 - VotingFrame:Update() without lootTable!!", -- [1333]
+			"12:11:49 - GetML()", -- [1334]
+			"12:11:49 - LootMethod =  (personalloot)", -- [1335]
+			"12:11:49 - Resetting council as we have a new ML!", -- [1336]
+			"12:11:49 - MasterLooter =  (Januite-Area52)", -- [1337]
+			"12:11:49 - GetML()", -- [1338]
+			"12:11:49 - LootMethod =  (personalloot)", -- [1339]
+			"12:11:51 - Event: (PARTY_LEADER_CHANGED)", -- [1340]
+			"12:11:51 - GetML()", -- [1341]
+			"12:11:51 - LootMethod =  (personalloot)", -- [1342]
+			"12:11:51 - Resetting council as we have a new ML!", -- [1343]
+			"12:11:51 - MasterLooter =  (Etmonk-Nagrand)", -- [1344]
+			"12:11:53 - VotingFrame:Update() without lootTable!!", -- [1345]
+			"12:11:54 - VotingFrame:Update() without lootTable!!", -- [1346]
+			"12:11:55 - VotingFrame:Update() without lootTable!!", -- [1347]
+			"12:12:04 - Timer MLdb_check passed", -- [1348]
+			"12:12:04 - Comm received:^1^Sxrealm^T^N1^SEtmonk-Nagrand^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1349]
+			"12:12:04 - Comm received:^1^Sxrealm^T^N1^SEtmonk-Nagrand^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1350]
+			"12:12:06 - Timer MLdb_check passed", -- [1351]
+			"12:12:06 - Comm received:^1^Sxrealm^T^N1^SEtmonk-Nagrand^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1352]
+			"12:12:06 - Comm received:^1^Sxrealm^T^N1^SEtmonk-Nagrand^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1353]
+			"12:12:09 - VotingFrame:Update() without lootTable!!", -- [1354]
+			"12:12:11 - Event: (LOOT_OPENED) (1)", -- [1355]
+			"12:12:12 - OnLootSlotCleared() (1) (|cffffffff|Hitem:153014::::::::110:102::::::|h[Pristine Argunite]|h|r)", -- [1356]
+			"12:12:12 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [1357]
+			"12:12:12 - OnLootSlotCleared() (3) (|cff1eff00|Hitem:153162::::::::110:102::::::|h[Unattuned Portal Stones]|h|r)", -- [1358]
+			"12:12:13 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:152861::::::::110:102::::::|h[Rusted Cragscaler Horseshoe]|h|r)", -- [1359]
+			"12:12:13 - Event: (LOOT_CLOSED)", -- [1360]
+			"12:12:18 - VotingFrame:Update() without lootTable!!", -- [1361]
+			"12:12:25 - VotingFrame:Update() without lootTable!!", -- [1362]
+			"12:12:35 - VotingFrame:Update() without lootTable!!", -- [1363]
+			"12:12:38 - VotingFrame:Update() without lootTable!!", -- [1364]
+			"12:13:15 - Event: (LOOT_OPENED) (1)", -- [1365]
+			"12:13:15 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [1366]
+			"12:13:16 - OnLootSlotCleared() (2) (|cffffffff|Hitem:153014::::::::110:102::::::|h[Pristine Argunite]|h|r)", -- [1367]
+			"12:13:16 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [1368]
+			"12:13:16 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [1369]
+			"12:13:16 - OnLootSlotCleared() (5) (nil)", -- [1370]
+			"12:13:16 - Event: (LOOT_CLOSED)", -- [1371]
+			"12:13:17 - Event: (PARTY_LEADER_CHANGED)", -- [1372]
+			"12:13:17 - GetML()", -- [1373]
+			"12:13:17 - LootMethod =  (personalloot)", -- [1374]
+			"12:13:17 - Resetting council as we have a new ML!", -- [1375]
+			"12:13:17 - MasterLooter =  (Meker-Illidan)", -- [1376]
+			"12:13:19 - VotingFrame:Update() without lootTable!!", -- [1377]
+			"12:13:21 - VotingFrame:Update() without lootTable!!", -- [1378]
+			"12:13:22 - Event: (PARTY_LEADER_CHANGED)", -- [1379]
+			"12:13:22 - GetML()", -- [1380]
+			"12:13:22 - LootMethod =  (personalloot)", -- [1381]
+			"12:13:22 - Resetting council as we have a new ML!", -- [1382]
+			"12:13:22 - MasterLooter =  (Tekkuto-Hydraxis)", -- [1383]
+			"12:13:22 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1384]
+			"12:13:22 - ML:NewML (Tekkuto-Hydraxis)", -- [1385]
+			"12:13:22 - UpdateMLdb", -- [1386]
+			"12:13:22 - UpdateGroup (true)", -- [1387]
+			"12:13:22 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1388]
+			"12:13:22 - ML:AddCandidate (Zafurry-Ragnaros) (DEATHKNIGHT) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1389]
+			"12:13:22 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1390]
+			"12:13:22 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1391]
+			"12:13:22 - VotingFrame:Update() without lootTable!!", -- [1392]
+			"12:13:22 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1393]
+			"12:13:22 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (GrigoriRasputin) (nil) (0) (899.625)", -- [1394]
+			"12:13:22 - Comm received:^1^SplayerInfo^T^N1^STekkuto-Hydraxis^N2^SDRUID^N3^SDAMAGER^N4^SGrigoriRasputin^N6^N0^N7^N899.625^N8^N102^t^^ (from:) (Tekkuto) (distri:) (WHISPER)", -- [1395]
+			"12:13:22 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1396]
+			"12:13:22 - Comm received:^1^Scandidates^T^N1^T^STekkuto-Hydraxis^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SZafurry-Ragnaros^T^Srole^SDAMAGER^Sclass^SDEATHKNIGHT^Srank^S^t^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1397]
+			"12:13:22 - Comm received:^1^Scouncil^T^N1^T^N1^STekkuto-Hydraxis^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1398]
+			"12:13:22 - true = (IsCouncil) (Tekkuto-Hydraxis)", -- [1399]
+			"12:13:26 - Event: (GROUP_LEFT) (Party-3676-0000216696F2)", -- [1400]
+			"12:13:26 - GetML()", -- [1401]
+			"12:13:26 - LootMethod =  (personalloot)", -- [1402]
+			"12:13:26 - ML Disabled", -- [1403]
+			"12:13:32 - Timer MLdb_check passed", -- [1404]
+			"12:13:37 - Timer MLdb_check passed", -- [1405]
+			"12:14:13 - Event: (LOOT_OPENED) (1)", -- [1406]
+			"12:14:14 - Event: (LOOT_CLOSED)", -- [1407]
+			"12:14:32 - Event: (LOOT_OPENED) (1)", -- [1408]
+			"12:14:32 - OnLootSlotCleared() (1) (nil)", -- [1409]
+			"12:14:32 - Event: (LOOT_CLOSED)", -- [1410]
+			"12:14:50 - Event: (LOOT_OPENED) (1)", -- [1411]
+			"12:14:50 - Event: (LOOT_CLOSED)", -- [1412]
+			"12:15:13 - Event: (LOOT_OPENED) (1)", -- [1413]
+			"12:15:14 - Event: (LOOT_CLOSED)", -- [1414]
+			"12:15:26 - Event: (LOOT_OPENED) (1)", -- [1415]
+			"12:15:26 - OnLootSlotCleared() (1) (nil)", -- [1416]
+			"12:15:26 - Event: (LOOT_CLOSED)", -- [1417]
+			"12:15:30 - Event: (PARTY_LEADER_CHANGED)", -- [1418]
+			"12:15:30 - GetML()", -- [1419]
+			"12:15:30 - LootMethod =  (personalloot)", -- [1420]
+			"12:15:30 - Resetting council as we have a new ML!", -- [1421]
+			"12:15:30 - MasterLooter =  (Wobbert-ShadowCouncil)", -- [1422]
+			"12:15:30 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1423]
+			"12:15:30 - GetML()", -- [1424]
+			"12:15:30 - LootMethod =  (personalloot)", -- [1425]
+			"12:15:32 - VotingFrame:Update() without lootTable!!", -- [1426]
+			"12:15:35 - VotingFrame:Update() without lootTable!!", -- [1427]
+			"12:15:44 - VotingFrame:Update() without lootTable!!", -- [1428]
+			"12:15:45 - Timer MLdb_check passed", -- [1429]
+			"12:15:45 - Comm received:^1^Sxrealm^T^N1^SWobbert-ShadowCouncil^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1430]
+			"12:15:45 - Comm received:^1^Sxrealm^T^N1^SWobbert-ShadowCouncil^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1431]
+			"12:15:46 - VotingFrame:Update() without lootTable!!", -- [1432]
+			"12:15:48 - VotingFrame:Update() without lootTable!!", -- [1433]
+			"12:15:51 - VotingFrame:Update() without lootTable!!", -- [1434]
+			"12:16:12 - VotingFrame:Update() without lootTable!!", -- [1435]
+			"12:16:16 - Event: (LOOT_OPENED) (1)", -- [1436]
+			"12:16:17 - OnLootSlotCleared() (2) (|cffffffff|Hitem:153014::::::::110:102::::::|h[Pristine Argunite]|h|r)", -- [1437]
+			"12:16:17 - OnLootSlotCleared() (4) (nil)", -- [1438]
+			"12:16:18 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [1439]
+			"12:16:18 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [1440]
+			"12:16:18 - Event: (LOOT_CLOSED)", -- [1441]
+			"12:16:20 - Event: (GROUP_LEFT) (Party-125-00002C82DB82)", -- [1442]
+			"12:16:20 - GetML()", -- [1443]
+			"12:16:20 - LootMethod =  (personalloot)", -- [1444]
+			"12:17:18 - Event: (LOOT_OPENED) (1)", -- [1445]
+			"12:17:18 - OnLootSlotCleared() (1) (nil)", -- [1446]
+			"12:17:18 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132231::::::::110:102::::::|h[Worn Hooked Claw]|h|r)", -- [1447]
+			"12:17:18 - Event: (LOOT_CLOSED)", -- [1448]
+			"12:17:34 - Event: (LOOT_OPENED) (1)", -- [1449]
+			"12:17:34 - OnLootSlotCleared() (1) (|cffffffff|Hitem:151564::::::::110:102::::::|h[Empyrium]|h|r)", -- [1450]
+			"12:17:34 - Event: (LOOT_CLOSED)", -- [1451]
+			"12:18:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1452]
+			"12:18:12 - GetML()", -- [1453]
+			"12:18:12 - LootMethod =  (personalloot)", -- [1454]
+			"12:18:13 - VotingFrame:Update() without lootTable!!", -- [1455]
+			"12:18:46 - Event: (PARTY_LEADER_CHANGED)", -- [1456]
+			"12:18:46 - GetML()", -- [1457]
+			"12:18:46 - LootMethod =  (personalloot)", -- [1458]
+			"12:18:46 - Resetting council as we have a new ML!", -- [1459]
+			"12:18:46 - MasterLooter =  (Skatte-EmeraldDream)", -- [1460]
+			"12:18:46 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1461]
+			"12:18:46 - GetML()", -- [1462]
+			"12:18:46 - LootMethod =  (personalloot)", -- [1463]
+			"12:18:47 - VotingFrame:Update() without lootTable!!", -- [1464]
+			"12:18:52 - VotingFrame:Update() without lootTable!!", -- [1465]
+			"12:18:56 - VotingFrame:Update() without lootTable!!", -- [1466]
+			"12:18:59 - VotingFrame:Update() without lootTable!!", -- [1467]
+			"12:19:01 - Timer MLdb_check passed", -- [1468]
+			"12:19:01 - Comm received:^1^Sxrealm^T^N1^SSkatte-EmeraldDream^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1469]
+			"12:19:01 - Comm received:^1^Sxrealm^T^N1^SSkatte-EmeraldDream^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1470]
+			"12:20:04 - Event: (LOOT_OPENED) (1)", -- [1471]
+			"12:20:04 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [1472]
+			"12:20:04 - OnLootSlotCleared() (2) (|cffffffff|Hitem:153014::::::::110:102::::::|h[Pristine Argunite]|h|r)", -- [1473]
+			"12:20:04 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [1474]
+			"12:20:05 - OnLootSlotCleared() (4) (nil)", -- [1475]
+			"12:20:05 - Event: (LOOT_CLOSED)", -- [1476]
+			"12:20:09 - Event: (GROUP_LEFT) (Party-1184-000025A20BAF)", -- [1477]
+			"12:20:09 - GetML()", -- [1478]
+			"12:20:09 - LootMethod =  (personalloot)", -- [1479]
+			"12:21:34 - Event: (LOOT_OPENED) (1)", -- [1480]
+			"12:21:34 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [1481]
+			"12:21:34 - OnLootSlotCleared() (2) (|cffffffff|Hitem:153014::::::::110:102::::::|h[Pristine Argunite]|h|r)", -- [1482]
+			"12:21:34 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [1483]
+			"12:21:34 - Event: (LOOT_CLOSED)", -- [1484]
+			"12:28:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1485]
+			"12:28:24 - GetML()", -- [1486]
+			"12:28:24 - LootMethod =  (personalloot)", -- [1487]
+			"12:28:25 - VotingFrame:Update() without lootTable!!", -- [1488]
+			"12:28:46 - Event: (LOOT_OPENED) (1)", -- [1489]
+			"12:28:47 - OnLootSlotCleared() (1) (|cffffffff|Hitem:151564::::::::110:102::::::|h[Empyrium]|h|r)", -- [1490]
+			"12:28:47 - OnLootSlotCleared() (2) (|cffffffff|Hitem:151860::::::::110:102::::::|h[Empyrium Deposit Chunk]|h|r)", -- [1491]
+			"12:28:47 - Event: (LOOT_CLOSED)", -- [1492]
+			"12:29:03 - Event: (LOOT_OPENED) (1)", -- [1493]
+			"12:29:03 - OnLootSlotCleared() (1) (|cffffffff|Hitem:151564::::::::110:102::::::|h[Empyrium]|h|r)", -- [1494]
+			"12:29:03 - Event: (LOOT_CLOSED)", -- [1495]
+			"12:29:20 - Event: (LOOT_OPENED) (1)", -- [1496]
+			"12:29:21 - Event: (LOOT_CLOSED)", -- [1497]
+			"12:29:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1498]
+			"12:29:33 - GetML()", -- [1499]
+			"12:29:33 - LootMethod =  (personalloot)", -- [1500]
+			"12:29:34 - VotingFrame:Update() without lootTable!!", -- [1501]
+			"12:29:39 - Event: (PARTY_LEADER_CHANGED)", -- [1502]
+			"12:29:39 - GetML()", -- [1503]
+			"12:29:39 - LootMethod =  (personalloot)", -- [1504]
+			"12:29:39 - Unknown ML", -- [1505]
+			"12:29:39 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1506]
+			"12:29:39 - GetML()", -- [1507]
+			"12:29:39 - LootMethod =  (personalloot)", -- [1508]
+			"12:29:39 - Unknown ML", -- [1509]
+			"12:29:40 - GetML()", -- [1510]
+			"12:29:40 - LootMethod =  (personalloot)", -- [1511]
+			"12:29:40 - Resetting council as we have a new ML!", -- [1512]
+			"12:29:40 - MasterLooter =  (Kirá-Trollbane)", -- [1513]
+			"12:29:40 - GetML()", -- [1514]
+			"12:29:40 - LootMethod =  (personalloot)", -- [1515]
+			"12:29:40 - VotingFrame:Update() without lootTable!!", -- [1516]
+			"12:29:41 - VotingFrame:Update() without lootTable!!", -- [1517]
+			"12:29:43 - VotingFrame:Update() without lootTable!!", -- [1518]
+			"12:29:44 - VotingFrame:Update() without lootTable!!", -- [1519]
+			"12:29:45 - VotingFrame:Update() without lootTable!!", -- [1520]
+			"12:29:46 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^SMLdb_request^t^^ (from:) (Deathjester-Malfurion) (distri:) (RAID)", -- [1521]
+			"12:29:46 - VotingFrame:Update() without lootTable!!", -- [1522]
+			"12:29:47 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^Scouncil_request^t^^ (from:) (Deathjester-Malfurion) (distri:) (RAID)", -- [1523]
+			"12:29:47 - VotingFrame:Update() without lootTable!!", -- [1524]
+			"12:29:48 - VotingFrame:Update() without lootTable!!", -- [1525]
+			"12:29:49 - VotingFrame:Update() without lootTable!!", -- [1526]
+			"12:29:50 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^SMLdb_request^t^^ (from:) (Patilana-Quel'Thalas) (distri:) (RAID)", -- [1527]
+			"12:29:50 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^Scouncil_request^t^^ (from:) (Patilana-Quel'Thalas) (distri:) (RAID)", -- [1528]
+			"12:29:50 - VotingFrame:Update() without lootTable!!", -- [1529]
+			"12:29:51 - VotingFrame:Update() without lootTable!!", -- [1530]
+			"12:29:54 - VotingFrame:Update() without lootTable!!", -- [1531]
+			"12:29:55 - Timer MLdb_check passed", -- [1532]
+			"12:29:55 - VotingFrame:Update() without lootTable!!", -- [1533]
+			"12:29:55 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1534]
+			"12:29:55 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1535]
+			"12:29:56 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^SMLdb_request^t^^ (from:) (Shinrin-Azralon) (distri:) (RAID)", -- [1536]
+			"12:29:56 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^Scouncil_request^t^^ (from:) (Shinrin-Azralon) (distri:) (RAID)", -- [1537]
+			"12:29:58 - VotingFrame:Update() without lootTable!!", -- [1538]
+			"12:29:59 - VotingFrame:Update() without lootTable!!", -- [1539]
+			"12:30:05 - VotingFrame:Update() without lootTable!!", -- [1540]
+			"12:30:08 - VotingFrame:Update() without lootTable!!", -- [1541]
+			"12:30:09 - VotingFrame:Update() without lootTable!!", -- [1542]
+			"12:30:15 - VotingFrame:Update() without lootTable!!", -- [1543]
+			"12:30:16 - VotingFrame:Update() without lootTable!!", -- [1544]
+			"12:30:17 - VotingFrame:Update() without lootTable!!", -- [1545]
+			"12:30:18 - VotingFrame:Update() without lootTable!!", -- [1546]
+			"12:30:19 - VotingFrame:Update() without lootTable!!", -- [1547]
+			"12:30:20 - VotingFrame:Update() without lootTable!!", -- [1548]
+			"12:30:22 - VotingFrame:Update() without lootTable!!", -- [1549]
+			"12:30:23 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^SMLdb_request^t^^ (from:) (Raydbool-BurningLegion) (distri:) (RAID)", -- [1550]
+			"12:30:23 - VotingFrame:Update() without lootTable!!", -- [1551]
+			"12:30:24 - Comm received:^1^Sxrealm^T^N1^SKirá-Trollbane^N2^Scouncil_request^t^^ (from:) (Raydbool-BurningLegion) (distri:) (RAID)", -- [1552]
+			"12:30:27 - VotingFrame:Update() without lootTable!!", -- [1553]
+			"12:30:30 - VotingFrame:Update() without lootTable!!", -- [1554]
+			"12:30:31 - VotingFrame:Update() without lootTable!!", -- [1555]
+			"12:30:48 - VotingFrame:Update() without lootTable!!", -- [1556]
+			"12:31:01 - VotingFrame:Update() without lootTable!!", -- [1557]
+			"12:31:17 - VotingFrame:Update() without lootTable!!", -- [1558]
+			"12:31:44 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1559]
+			"12:31:44 - GetML()", -- [1560]
+			"12:31:44 - LootMethod =  (personalloot)", -- [1561]
+			"12:31:44 - VotingFrame:Update() without lootTable!!", -- [1562]
+			"12:31:44 - VotingFrame:Update() without lootTable!!", -- [1563]
+			"12:31:45 - VotingFrame:Update() without lootTable!!", -- [1564]
+			"12:31:46 - VotingFrame:Update() without lootTable!!", -- [1565]
+			"12:31:48 - Event: (PARTY_LEADER_CHANGED)", -- [1566]
+			"12:31:48 - GetML()", -- [1567]
+			"12:31:48 - LootMethod =  (personalloot)", -- [1568]
+			"12:31:48 - Resetting council as we have a new ML!", -- [1569]
+			"12:31:48 - MasterLooter =  (Hahaloon-EmeraldDream)", -- [1570]
+			"12:31:49 - VotingFrame:Update() without lootTable!!", -- [1571]
+			"12:31:49 - Event: (GROUP_LEFT) (Party-1175-00002BE9F4CF)", -- [1572]
+			"12:31:49 - GetML()", -- [1573]
+			"12:31:49 - LootMethod =  (personalloot)", -- [1574]
+			"12:32:03 - Timer MLdb_check passed", -- [1575]
+			"12:32:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1576]
+			"12:32:11 - GetML()", -- [1577]
+			"12:32:11 - LootMethod =  (personalloot)", -- [1578]
+			"12:32:12 - VotingFrame:Update() without lootTable!!", -- [1579]
+			"12:33:13 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1580]
+			"12:33:13 - GetML()", -- [1581]
+			"12:33:13 - LootMethod =  (personalloot)", -- [1582]
+			"12:33:14 - VotingFrame:Update() without lootTable!!", -- [1583]
+			"12:33:19 - Event: (PARTY_LEADER_CHANGED)", -- [1584]
+			"12:33:19 - GetML()", -- [1585]
+			"12:33:19 - LootMethod =  (personalloot)", -- [1586]
+			"12:33:19 - Unknown ML", -- [1587]
+			"12:33:19 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1588]
+			"12:33:19 - GetML()", -- [1589]
+			"12:33:19 - LootMethod =  (personalloot)", -- [1590]
+			"12:33:19 - Unknown ML", -- [1591]
+			"12:33:20 - GetML()", -- [1592]
+			"12:33:20 - LootMethod =  (personalloot)", -- [1593]
+			"12:33:20 - Resetting council as we have a new ML!", -- [1594]
+			"12:33:20 - MasterLooter =  (Telanlor-Area52)", -- [1595]
+			"12:33:20 - GetML()", -- [1596]
+			"12:33:20 - LootMethod =  (personalloot)", -- [1597]
+			"12:33:20 - VotingFrame:Update() without lootTable!!", -- [1598]
+			"12:33:23 - VotingFrame:Update() without lootTable!!", -- [1599]
+			"12:33:24 - VotingFrame:Update() without lootTable!!", -- [1600]
+			"12:33:25 - VotingFrame:Update() without lootTable!!", -- [1601]
+			"12:33:26 - VotingFrame:Update() without lootTable!!", -- [1602]
+			"12:33:31 - VotingFrame:Update() without lootTable!!", -- [1603]
+			"12:33:32 - VotingFrame:Update() without lootTable!!", -- [1604]
+			"12:33:32 - Comm received:^1^Sxrealm^T^N1^STelanlor-Area52^N2^SMLdb_request^t^^ (from:) (Hellarrøw-Ragnaros) (distri:) (RAID)", -- [1605]
+			"12:33:32 - Comm received:^1^Sxrealm^T^N1^STelanlor-Area52^N2^Scouncil_request^t^^ (from:) (Hellarrøw-Ragnaros) (distri:) (RAID)", -- [1606]
+			"12:33:33 - VotingFrame:Update() without lootTable!!", -- [1607]
+			"12:33:34 - VotingFrame:Update() without lootTable!!", -- [1608]
+			"12:33:35 - Timer MLdb_check passed", -- [1609]
+			"12:33:35 - Comm received:^1^Sxrealm^T^N1^STelanlor-Area52^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1610]
+			"12:33:35 - Comm received:^1^Sxrealm^T^N1^STelanlor-Area52^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1611]
+			"12:33:36 - VotingFrame:Update() without lootTable!!", -- [1612]
+			"12:33:45 - VotingFrame:Update() without lootTable!!", -- [1613]
+			"12:33:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1614]
+			"12:33:56 - GetML()", -- [1615]
+			"12:33:56 - LootMethod =  (personalloot)", -- [1616]
+			"12:33:57 - VotingFrame:Update() without lootTable!!", -- [1617]
+			"12:33:58 - VotingFrame:Update() without lootTable!!", -- [1618]
+			"12:33:59 - Event: (GROUP_LEFT) (Party-3676-00002166A6B6)", -- [1619]
+			"12:33:59 - GetML()", -- [1620]
+			"12:33:59 - LootMethod =  (personalloot)", -- [1621]
+			"12:33:59 - VotingFrame:Update() without lootTable!!", -- [1622]
+			"12:34:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1623]
+			"12:34:53 - GetML()", -- [1624]
+			"12:34:53 - LootMethod =  (personalloot)", -- [1625]
+			"12:34:54 - VotingFrame:Update() without lootTable!!", -- [1626]
+			"12:35:30 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1627]
+			"12:35:30 - GetML()", -- [1628]
+			"12:35:30 - LootMethod =  (personalloot)", -- [1629]
+			"12:35:31 - VotingFrame:Update() without lootTable!!", -- [1630]
+			"12:35:33 - Event: (PARTY_LEADER_CHANGED)", -- [1631]
+			"12:35:33 - GetML()", -- [1632]
+			"12:35:33 - LootMethod =  (personalloot)", -- [1633]
+			"12:35:33 - Resetting council as we have a new ML!", -- [1634]
+			"12:35:33 - MasterLooter =  (Tekkuto-Hydraxis)", -- [1635]
+			"12:35:33 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1636]
+			"12:35:33 - ML:NewML (Tekkuto-Hydraxis)", -- [1637]
+			"12:35:33 - UpdateMLdb", -- [1638]
+			"12:35:33 - UpdateGroup (true)", -- [1639]
+			"12:35:33 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1640]
+			"12:35:33 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1641]
+			"12:35:33 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1642]
+			"12:35:33 - GetML()", -- [1643]
+			"12:35:33 - LootMethod =  (personalloot)", -- [1644]
+			"12:35:34 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1645]
+			"12:35:34 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1646]
+			"12:35:35 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1647]
+			"12:35:35 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (GrigoriRasputin) (nil) (0) (901.8125)", -- [1648]
+			"12:35:35 - Comm received:^1^SplayerInfo^T^N1^STekkuto-Hydraxis^N2^SDRUID^N3^SDAMAGER^N4^SGrigoriRasputin^N6^N0^N7^N901.8125^N8^N102^t^^ (from:) (Tekkuto) (distri:) (WHISPER)", -- [1649]
+			"12:35:35 - Comm received:^1^Scandidates^T^N1^T^STekkuto-Hydraxis^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1650]
+			"12:35:36 - Comm received:^1^Scouncil^T^N1^T^N1^STekkuto-Hydraxis^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1651]
+			"12:35:36 - true = (IsCouncil) (Tekkuto-Hydraxis)", -- [1652]
+			"12:35:38 - Event: (GROUP_LEFT) (Party-90-00002C82EE7C)", -- [1653]
+			"12:35:38 - GetML()", -- [1654]
+			"12:35:38 - LootMethod =  (personalloot)", -- [1655]
+			"12:35:38 - ML Disabled", -- [1656]
+			"12:35:44 - Event: (PARTY_LEADER_CHANGED)", -- [1657]
+			"12:35:44 - GetML()", -- [1658]
+			"12:35:44 - LootMethod =  (personalloot)", -- [1659]
+			"12:35:44 - Unknown ML", -- [1660]
+			"12:35:44 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1661]
+			"12:35:44 - GetML()", -- [1662]
+			"12:35:44 - LootMethod =  (personalloot)", -- [1663]
+			"12:35:44 - Unknown ML", -- [1664]
+			"12:35:45 - GetML()", -- [1665]
+			"12:35:45 - LootMethod =  (personalloot)", -- [1666]
+			"12:35:45 - Resetting council as we have a new ML!", -- [1667]
+			"12:35:45 - MasterLooter =  (Reasha-WyrmrestAccord)", -- [1668]
+			"12:35:45 - GetML()", -- [1669]
+			"12:35:45 - LootMethod =  (personalloot)", -- [1670]
+			"12:35:46 - VotingFrame:Update() without lootTable!!", -- [1671]
+			"12:35:46 - Comm received:^1^Sxrealm^T^N1^SReasha-WyrmrestAccord^N2^SMLdb_request^t^^ (from:) (Apøx-Area52) (distri:) (RAID)", -- [1672]
+			"12:35:46 - Comm received:^1^Sxrealm^T^N1^SReasha-WyrmrestAccord^N2^Scouncil_request^t^^ (from:) (Apøx-Area52) (distri:) (RAID)", -- [1673]
+			"12:35:48 - Timer MLdb_check passed", -- [1674]
+			"12:35:49 - VotingFrame:Update() without lootTable!!", -- [1675]
+			"12:35:49 - Comm received:^1^Sxrealm^T^N1^SReasha-WyrmrestAccord^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1676]
+			"12:35:49 - Comm received:^1^Sxrealm^T^N1^SReasha-WyrmrestAccord^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1677]
+			"12:35:50 - VotingFrame:Update() without lootTable!!", -- [1678]
+			"12:35:51 - VotingFrame:Update() without lootTable!!", -- [1679]
+			"12:35:52 - VotingFrame:Update() without lootTable!!", -- [1680]
+			"12:35:53 - VotingFrame:Update() without lootTable!!", -- [1681]
+			"12:35:54 - VotingFrame:Update() without lootTable!!", -- [1682]
+			"12:35:55 - VotingFrame:Update() without lootTable!!", -- [1683]
+			"12:35:56 - VotingFrame:Update() without lootTable!!", -- [1684]
+			"12:35:57 - VotingFrame:Update() without lootTable!!", -- [1685]
+			"12:35:58 - VotingFrame:Update() without lootTable!!", -- [1686]
+			"12:35:59 - VotingFrame:Update() without lootTable!!", -- [1687]
+			"12:36:00 - Timer MLdb_check passed", -- [1688]
+			"12:36:00 - Comm received:^1^Sxrealm^T^N1^SReasha-WyrmrestAccord^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1689]
+			"12:36:00 - Comm received:^1^Sxrealm^T^N1^SReasha-WyrmrestAccord^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1690]
+			"12:36:02 - VotingFrame:Update() without lootTable!!", -- [1691]
+			"12:36:05 - VotingFrame:Update() without lootTable!!", -- [1692]
+			"12:36:06 - VotingFrame:Update() without lootTable!!", -- [1693]
+			"12:36:10 - VotingFrame:Update() without lootTable!!", -- [1694]
+			"12:36:11 - VotingFrame:Update() without lootTable!!", -- [1695]
+			"12:36:13 - VotingFrame:Update() without lootTable!!", -- [1696]
+			"12:36:14 - VotingFrame:Update() without lootTable!!", -- [1697]
+			"12:36:15 - VotingFrame:Update() without lootTable!!", -- [1698]
+			"12:36:16 - VotingFrame:Update() without lootTable!!", -- [1699]
+			"12:36:17 - VotingFrame:Update() without lootTable!!", -- [1700]
+			"12:36:18 - VotingFrame:Update() without lootTable!!", -- [1701]
+			"12:36:19 - VotingFrame:Update() without lootTable!!", -- [1702]
+			"12:36:20 - VotingFrame:Update() without lootTable!!", -- [1703]
+			"12:36:21 - VotingFrame:Update() without lootTable!!", -- [1704]
+			"12:36:22 - VotingFrame:Update() without lootTable!!", -- [1705]
+			"12:36:23 - VotingFrame:Update() without lootTable!!", -- [1706]
+			"12:36:24 - VotingFrame:Update() without lootTable!!", -- [1707]
+			"12:36:25 - VotingFrame:Update() without lootTable!!", -- [1708]
+			"12:36:26 - VotingFrame:Update() without lootTable!!", -- [1709]
+			"12:36:27 - Event: (PARTY_LEADER_CHANGED)", -- [1710]
+			"12:36:27 - GetML()", -- [1711]
+			"12:36:27 - LootMethod =  (personalloot)", -- [1712]
+			"12:36:27 - Unknown ML", -- [1713]
+			"12:36:27 - GetML()", -- [1714]
+			"12:36:27 - LootMethod =  (personalloot)", -- [1715]
+			"12:36:27 - Unknown ML", -- [1716]
+			"12:36:28 - GetML()", -- [1717]
+			"12:36:28 - LootMethod =  (personalloot)", -- [1718]
+			"12:36:28 - Unknown ML", -- [1719]
+			"12:36:28 - GetML()", -- [1720]
+			"12:36:28 - LootMethod =  (personalloot)", -- [1721]
+			"12:36:28 - Unknown ML", -- [1722]
+			"12:36:29 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^SMLdb_request^t^^ (from:) (Intricate-Coilfang) (distri:) (RAID)", -- [1723]
+			"12:36:29 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^Scouncil_request^t^^ (from:) (Intricate-Coilfang) (distri:) (RAID)", -- [1724]
+			"12:36:29 - GetML()", -- [1725]
+			"12:36:29 - LootMethod =  (personalloot)", -- [1726]
+			"12:36:29 - Unknown ML", -- [1727]
+			"12:36:29 - GetML()", -- [1728]
+			"12:36:29 - LootMethod =  (personalloot)", -- [1729]
+			"12:36:29 - Resetting council as we have a new ML!", -- [1730]
+			"12:36:29 - MasterLooter =  (Pyroshavoc-Tichondrius)", -- [1731]
+			"12:36:30 - VotingFrame:Update() without lootTable!!", -- [1732]
+			"12:36:31 - VotingFrame:Update() without lootTable!!", -- [1733]
+			"12:36:32 - VotingFrame:Update() without lootTable!!", -- [1734]
+			"12:36:33 - VotingFrame:Update() without lootTable!!", -- [1735]
+			"12:36:34 - VotingFrame:Update() without lootTable!!", -- [1736]
+			"12:36:36 - VotingFrame:Update() without lootTable!!", -- [1737]
+			"12:36:37 - VotingFrame:Update() without lootTable!!", -- [1738]
+			"12:36:38 - VotingFrame:Update() without lootTable!!", -- [1739]
+			"12:36:39 - VotingFrame:Update() without lootTable!!", -- [1740]
+			"12:36:40 - VotingFrame:Update() without lootTable!!", -- [1741]
+			"12:36:41 - VotingFrame:Update() without lootTable!!", -- [1742]
+			"12:36:42 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^SMLdb_request^t^^ (from:) (Intricate-Coilfang) (distri:) (RAID)", -- [1743]
+			"12:36:42 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^Scouncil_request^t^^ (from:) (Intricate-Coilfang) (distri:) (RAID)", -- [1744]
+			"12:36:42 - VotingFrame:Update() without lootTable!!", -- [1745]
+			"12:36:43 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^SMLdb_request^t^^ (from:) (Lyricaa-Draka) (distri:) (RAID)", -- [1746]
+			"12:36:43 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^Scouncil_request^t^^ (from:) (Lyricaa-Draka) (distri:) (RAID)", -- [1747]
+			"12:36:43 - VotingFrame:Update() without lootTable!!", -- [1748]
+			"12:36:44 - Timer MLdb_check passed", -- [1749]
+			"12:36:45 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^SMLdb_request^t^^ (from:) (Apøx-Area52) (distri:) (RAID)", -- [1750]
+			"12:36:45 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1751]
+			"12:36:45 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1752]
+			"12:36:45 - Comm received:^1^Sxrealm^T^N1^SPyroshavoc-Tichondrius^N2^Scouncil_request^t^^ (from:) (Apøx-Area52) (distri:) (RAID)", -- [1753]
+			"12:36:46 - VotingFrame:Update() without lootTable!!", -- [1754]
+			"12:36:49 - VotingFrame:Update() without lootTable!!", -- [1755]
+			"12:36:50 - VotingFrame:Update() without lootTable!!", -- [1756]
+			"12:36:51 - VotingFrame:Update() without lootTable!!", -- [1757]
+			"12:36:52 - VotingFrame:Update() without lootTable!!", -- [1758]
+			"12:36:56 - VotingFrame:Update() without lootTable!!", -- [1759]
+			"12:37:00 - VotingFrame:Update() without lootTable!!", -- [1760]
+			"12:37:01 - VotingFrame:Update() without lootTable!!", -- [1761]
+			"12:37:02 - VotingFrame:Update() without lootTable!!", -- [1762]
+			"12:37:03 - VotingFrame:Update() without lootTable!!", -- [1763]
+			"12:37:04 - VotingFrame:Update() without lootTable!!", -- [1764]
+			"12:37:12 - VotingFrame:Update() without lootTable!!", -- [1765]
+			"12:37:25 - VotingFrame:Update() without lootTable!!", -- [1766]
+			"12:37:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1767]
+			"12:37:32 - GetML()", -- [1768]
+			"12:37:32 - LootMethod =  (personalloot)", -- [1769]
+			"12:37:32 - VotingFrame:Update() without lootTable!!", -- [1770]
+			"12:37:33 - VotingFrame:Update() without lootTable!!", -- [1771]
+			"12:37:34 - VotingFrame:Update() without lootTable!!", -- [1772]
+			"12:37:35 - VotingFrame:Update() without lootTable!!", -- [1773]
+			"12:37:36 - VotingFrame:Update() without lootTable!!", -- [1774]
+			"12:37:36 - Event: (GROUP_LEFT) (Party-1171-000016EB5613)", -- [1775]
+			"12:37:36 - GetML()", -- [1776]
+			"12:37:36 - LootMethod =  (personalloot)", -- [1777]
+			"12:37:37 - VotingFrame:Update() without lootTable!!", -- [1778]
+			"12:40:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1779]
+			"12:40:52 - GetML()", -- [1780]
+			"12:40:52 - LootMethod =  (personalloot)", -- [1781]
+			"12:40:54 - VotingFrame:Update() without lootTable!!", -- [1782]
+			"12:41:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1783]
+			"12:41:51 - GetML()", -- [1784]
+			"12:41:51 - LootMethod =  (personalloot)", -- [1785]
+			"12:41:51 - VotingFrame:Update() without lootTable!!", -- [1786]
+			"12:42:01 - Event: (PARTY_LEADER_CHANGED)", -- [1787]
+			"12:42:01 - GetML()", -- [1788]
+			"12:42:01 - LootMethod =  (personalloot)", -- [1789]
+			"12:42:01 - Unknown ML", -- [1790]
+			"12:42:01 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1791]
+			"12:42:01 - GetML()", -- [1792]
+			"12:42:01 - LootMethod =  (personalloot)", -- [1793]
+			"12:42:01 - Unknown ML", -- [1794]
+			"12:42:01 - GetML()", -- [1795]
+			"12:42:01 - LootMethod =  (personalloot)", -- [1796]
+			"12:42:01 - Resetting council as we have a new ML!", -- [1797]
+			"12:42:01 - MasterLooter =  (Earaldor-Mal'Ganis)", -- [1798]
+			"12:42:01 - GetML()", -- [1799]
+			"12:42:01 - LootMethod =  (personalloot)", -- [1800]
+			"12:42:02 - VotingFrame:Update() without lootTable!!", -- [1801]
+			"12:42:04 - VotingFrame:Update() without lootTable!!", -- [1802]
+			"12:42:06 - VotingFrame:Update() without lootTable!!", -- [1803]
+			"12:42:16 - Timer MLdb_check passed", -- [1804]
+			"12:42:17 - Comm received:^1^Sxrealm^T^N1^SEaraldor-Mal'Ganis^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1805]
+			"12:42:17 - Comm received:^1^Sxrealm^T^N1^SEaraldor-Mal'Ganis^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (RAID)", -- [1806]
+			"12:42:39 - VotingFrame:Update() without lootTable!!", -- [1807]
+			"12:43:32 - VotingFrame:Update() without lootTable!!", -- [1808]
+			"12:44:01 - VotingFrame:Update() without lootTable!!", -- [1809]
+			"12:44:31 - VotingFrame:Update() without lootTable!!", -- [1810]
+			"12:44:32 - Event: (GROUP_LEFT) (Party-3684-00002166ACF7)", -- [1811]
+			"12:44:32 - GetML()", -- [1812]
+			"12:44:32 - LootMethod =  (personalloot)", -- [1813]
+			"12:44:41 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1814]
+			"12:44:41 - GetML()", -- [1815]
+			"12:44:41 - LootMethod =  (personalloot)", -- [1816]
+			"12:44:43 - VotingFrame:Update() without lootTable!!", -- [1817]
+			"12:45:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1818]
+			"12:45:31 - GetML()", -- [1819]
+			"12:45:31 - LootMethod =  (personalloot)", -- [1820]
+			"12:45:32 - VotingFrame:Update() without lootTable!!", -- [1821]
+			"13:01:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1822]
+			"13:01:11 - GetML()", -- [1823]
+			"13:01:11 - LootMethod =  (personalloot)", -- [1824]
+			"13:01:13 - VotingFrame:Update() without lootTable!!", -- [1825]
+			"13:03:37 - Event: (PARTY_LEADER_CHANGED)", -- [1826]
+			"13:03:37 - GetML()", -- [1827]
+			"13:03:37 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1828]
+			"13:03:37 - GetML()", -- [1829]
+			"13:03:45 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1830]
+			"13:03:45 - GetML()", -- [1831]
+			"13:03:45 - VotingFrame:Update() without lootTable!!", -- [1832]
+			"13:03:46 - VotingFrame:Update() without lootTable!!", -- [1833]
+			"13:03:53 - VotingFrame:Update() without lootTable!!", -- [1834]
+			"13:06:58 - Event: (LOOT_OPENED) (1)", -- [1835]
+			"13:06:59 - OnLootSlotCleared() (1) (|cffffffff|Hitem:23247::::::::110:102::::::|h[Burning Blossom]|h|r)", -- [1836]
+			"13:06:59 - Event: (LOOT_CLOSED)", -- [1837]
+			"13:06:59 - Event: (LOOT_CLOSED)", -- [1838]
+			"13:07:00 - Event: (LOOT_OPENED) (1)", -- [1839]
+			"13:07:01 - OnLootSlotCleared() (1) (nil)", -- [1840]
+			"13:07:01 - OnLootSlotCleared() (2) (|cffffffff|Hitem:35557::::::::110:102::::::|h[Huge Snowball]|h|r)", -- [1841]
+			"13:07:01 - Event: (LOOT_CLOSED)", -- [1842]
+			"13:07:11 - Event: (PARTY_LEADER_CHANGED)", -- [1843]
+			"13:07:11 - GetML()", -- [1844]
+			"13:07:13 - Event: (GROUP_LEFT) (Party-3017-00002C82FEEF)", -- [1845]
+			"13:07:13 - GetML()", -- [1846]
+			"13:07:13 - LootMethod =  (personalloot)", -- [1847]
+			"13:07:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1848]
+			"13:07:21 - GetML()", -- [1849]
+			"13:07:21 - LootMethod =  (personalloot)", -- [1850]
+			"13:07:22 - VotingFrame:Update() without lootTable!!", -- [1851]
+			"07/03/18", -- [1852]
+			"17:51:42 - Logged In", -- [1853]
+			"17:51:42 - ML initialized!", -- [1854]
+			"17:51:53 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [1855]
+			"17:51:53 - ActivateSkin (new_blue)", -- [1856]
+			"17:51:57 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1857]
+			"17:51:57 - GetML()", -- [1858]
+			"17:51:57 - LootMethod =  (personalloot)", -- [1859]
+			"17:51:57 - UpdatePlayersData()", -- [1860]
+			"17:51:58 - GetPlayersGuildRank()", -- [1861]
+			"17:51:58 - Found Guild Rank: GrigoriRasputin", -- [1862]
+			"17:51:58 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [1863]
+			"17:52:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1864]
+			"17:52:22 - GetML()", -- [1865]
+			"17:52:22 - LootMethod =  (personalloot)", -- [1866]
+			"17:52:55 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1867]
+			"17:52:55 - GetML()", -- [1868]
+			"17:52:55 - LootMethod =  (personalloot)", -- [1869]
+			"17:54:45 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1870]
+			"17:54:45 - GetML()", -- [1871]
+			"17:54:45 - LootMethod =  (personalloot)", -- [1872]
+			"18:06:23 - Event: (LOOT_OPENED) (1)", -- [1873]
+			"18:06:23 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [1874]
+			"18:06:24 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [1875]
+			"18:06:24 - Event: (LOOT_CLOSED)", -- [1876]
+			"18:09:13 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1877]
+			"18:09:13 - GetML()", -- [1878]
+			"18:09:13 - LootMethod =  (personalloot)", -- [1879]
+			"18:09:13 - Event: (PARTY_LEADER_CHANGED)", -- [1880]
+			"18:09:13 - GetML()", -- [1881]
+			"18:09:13 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1882]
+			"18:09:13 - GetML()", -- [1883]
+			"18:12:44 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1884]
+			"18:12:44 - GetML()", -- [1885]
+			"18:12:45 - Event: (GROUP_LEFT) (Party-90-00002C83F197)", -- [1886]
+			"18:12:45 - GetML()", -- [1887]
+			"18:12:45 - LootMethod =  (personalloot)", -- [1888]
+			"18:12:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1889]
+			"18:12:58 - GetML()", -- [1890]
+			"18:12:58 - LootMethod =  (personalloot)", -- [1891]
+			"18:12:58 - Event: (PARTY_LEADER_CHANGED)", -- [1892]
+			"18:12:58 - GetML()", -- [1893]
+			"18:12:58 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1894]
+			"18:12:58 - GetML()", -- [1895]
+			"18:16:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1896]
+			"18:16:56 - GetML()", -- [1897]
+			"18:16:57 - Event: (GROUP_LEFT) (Party-90-00002C83F3C5)", -- [1898]
+			"18:16:57 - GetML()", -- [1899]
+			"18:16:57 - LootMethod =  (personalloot)", -- [1900]
+			"18:20:13 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1901]
+			"18:20:13 - GetML()", -- [1902]
+			"18:20:13 - LootMethod =  (personalloot)", -- [1903]
+			"18:20:13 - Event: (PARTY_LEADER_CHANGED)", -- [1904]
+			"18:20:13 - GetML()", -- [1905]
+			"18:20:13 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1906]
+			"18:20:13 - GetML()", -- [1907]
+			"18:23:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1908]
+			"18:23:15 - GetML()", -- [1909]
+			"18:23:16 - Event: (GROUP_LEFT) (Party-90-00002C83FC29)", -- [1910]
+			"18:23:16 - GetML()", -- [1911]
+			"18:23:16 - LootMethod =  (personalloot)", -- [1912]
+			"18:24:43 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1913]
+			"18:24:43 - GetML()", -- [1914]
+			"18:24:43 - LootMethod =  (personalloot)", -- [1915]
+			"18:24:43 - Event: (PARTY_LEADER_CHANGED)", -- [1916]
+			"18:24:43 - GetML()", -- [1917]
+			"18:24:43 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1918]
+			"18:24:43 - GetML()", -- [1919]
+			"18:27:48 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1920]
+			"18:27:48 - GetML()", -- [1921]
+			"18:27:48 - Event: (GROUP_LEFT) (Party-90-00002C83FEFB)", -- [1922]
+			"18:27:48 - GetML()", -- [1923]
+			"18:27:48 - LootMethod =  (personalloot)", -- [1924]
+			"18:42:45 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Curandera) (distri:) (GUILD)", -- [1925]
+			"18:50:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1926]
+			"18:50:28 - GetML()", -- [1927]
+			"18:50:28 - LootMethod =  (personalloot)", -- [1928]
+			"18:56:16 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1929]
+			"18:56:16 - GetML()", -- [1930]
+			"18:56:16 - LootMethod =  (personalloot)", -- [1931]
+			"19:44:42 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Reík) (distri:) (GUILD)", -- [1932]
+			"20:15:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1933]
+			"20:15:56 - GetML()", -- [1934]
+			"20:15:56 - LootMethod =  (personalloot)", -- [1935]
+			"20:16:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1936]
+			"20:16:31 - GetML()", -- [1937]
+			"20:16:31 - LootMethod =  (personalloot)", -- [1938]
+			"20:17:10 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1939]
+			"20:17:10 - GetML()", -- [1940]
+			"20:17:10 - LootMethod =  (personalloot)", -- [1941]
+			"20:18:39 - Event: (LOOT_CLOSED)", -- [1942]
+			"20:19:30 - Event: (PARTY_LEADER_CHANGED)", -- [1943]
+			"20:19:30 - GetML()", -- [1944]
+			"20:19:30 - LootMethod =  (personalloot)", -- [1945]
+			"20:19:30 - Resetting council as we have a new ML!", -- [1946]
+			"20:19:30 - MasterLooter =  (Tekkuto-Hydraxis)", -- [1947]
+			"20:19:30 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1948]
+			"20:19:30 - ML:NewML (Tekkuto-Hydraxis)", -- [1949]
+			"20:19:30 - UpdateMLdb", -- [1950]
+			"20:19:30 - UpdateGroup (true)", -- [1951]
+			"20:19:30 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1952]
+			"20:19:30 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1953]
+			"20:19:30 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1954]
+			"20:19:30 - GetML()", -- [1955]
+			"20:19:30 - LootMethod =  (personalloot)", -- [1956]
+			"20:19:30 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1957]
+			"20:19:30 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1958]
+			"20:19:30 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1959]
+			"20:19:30 - Comm received:^1^Scandidates^T^N1^T^STekkuto-Hydraxis^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1960]
+			"20:19:30 - Comm received:^1^Scouncil^T^N1^T^N1^STekkuto-Hydraxis^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1961]
+			"20:19:30 - true = (IsCouncil) (Tekkuto-Hydraxis)", -- [1962]
+			"20:19:30 - GetLootDBStatistics()", -- [1963]
+			"20:19:30 - GetGuildRankNum()", -- [1964]
+			"20:19:30 - RCVotingFrame (enabled)", -- [1965]
+			"20:19:30 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (GrigoriRasputin) (nil) (0) (904.625)", -- [1966]
+			"20:19:30 - Comm received:^1^SplayerInfo^T^N1^STekkuto-Hydraxis^N2^SDRUID^N3^SDAMAGER^N4^SGrigoriRasputin^N6^N0^N7^N904.625^N8^N102^t^^ (from:) (Tekkuto) (distri:) (WHISPER)", -- [1967]
+			"20:19:32 - Event: (GROUP_LEFT) (Party-90-00002C8470AD)", -- [1968]
+			"20:19:32 - GetML()", -- [1969]
+			"20:19:32 - LootMethod =  (personalloot)", -- [1970]
+			"20:19:32 - ML Disabled", -- [1971]
+			"20:19:45 - Timer MLdb_check passed", -- [1972]
+			"20:20:07 - Event: (LOOT_OPENED) (1)", -- [1973]
+			"20:20:07 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [1974]
+			"20:20:07 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [1975]
+			"20:20:07 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [1976]
+			"20:20:07 - Event: (LOOT_CLOSED)", -- [1977]
+			"20:20:43 - Event: (PARTY_LEADER_CHANGED)", -- [1978]
+			"20:20:43 - GetML()", -- [1979]
+			"20:20:43 - LootMethod =  (personalloot)", -- [1980]
+			"20:20:43 - Resetting council as we have a new ML!", -- [1981]
+			"20:20:43 - MasterLooter =  (Tekkuto-Hydraxis)", -- [1982]
+			"20:20:43 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1983]
+			"20:20:43 - ML:NewML (Tekkuto-Hydraxis)", -- [1984]
+			"20:20:43 - UpdateMLdb", -- [1985]
+			"20:20:43 - UpdateGroup (true)", -- [1986]
+			"20:20:43 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1987]
+			"20:20:43 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [1988]
+			"20:20:43 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1989]
+			"20:20:43 - GetML()", -- [1990]
+			"20:20:43 - LootMethod =  (personalloot)", -- [1991]
+			"20:20:44 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1992]
+			"20:20:44 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1993]
+			"20:20:44 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1994]
+			"20:20:44 - Comm received:^1^Scandidates^T^N1^T^STekkuto-Hydraxis^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1995]
+			"20:20:44 - Comm received:^1^Scouncil^T^N1^T^N1^STekkuto-Hydraxis^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [1996]
+			"20:20:44 - true = (IsCouncil) (Tekkuto-Hydraxis)", -- [1997]
+			"20:20:44 - ML:AddCandidate (Tekkuto-Hydraxis) (DRUID) (DAMAGER) (GrigoriRasputin) (nil) (0) (904.625)", -- [1998]
+			"20:20:44 - Comm received:^1^SplayerInfo^T^N1^STekkuto-Hydraxis^N2^SDRUID^N3^SDAMAGER^N4^SGrigoriRasputin^N6^N0^N7^N904.625^N8^N102^t^^ (from:) (Tekkuto) (distri:) (WHISPER)", -- [1999]
+			"20:20:53 - VotingFrame:Update() without lootTable!!", -- [2000]
+			"20:20:54 - Comm received:^1^Scouncil^T^N1^T^N1^STekkuto-Hydraxis^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2001]
+			"20:20:54 - true = (IsCouncil) (Tekkuto-Hydraxis)", -- [2002]
+			"20:20:54 - Comm received:^1^Scandidates^T^N1^T^STekkuto-Hydraxis^T^Srole^SDAMAGER^SspecID^N904.625^Senchant_lvl^N0^Sclass^SDRUID^Srank^SGrigoriRasputin^t^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2003]
+			"20:20:57 - VotingFrame:Update() without lootTable!!", -- [2004]
+			"20:20:58 - Timer MLdb_check passed", -- [2005]
+			"20:21:02 - UpdateGroup (table: 00000221916C1BE0)", -- [2006]
+			"20:21:02 - ML:AddCandidate (Setia-Zul'jin) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [2007]
+			"20:21:02 - ML:AddCandidate (Kníghtwíng-Garona) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [2008]
+			"20:21:02 - GetCouncilInGroup (Tekkuto-Hydraxis)", -- [2009]
+			"20:21:02 - Comm received:^1^Sxrealm^T^N1^SSetia-Zul'jin^N2^SplayerInfoRequest^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2010]
+			"20:21:02 - Comm received:^1^Sxrealm^T^N1^SKníghtwíng-Garona^N2^SplayerInfoRequest^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2011]
+			"20:21:02 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2012]
+			"20:21:02 - Comm received:^1^Scandidates^T^N1^T^SSetia-Zul'jin^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^STekkuto-Hydraxis^T^Srole^SDAMAGER^SspecID^N904.625^Senchant_lvl^N0^Sclass^SDRUID^Srank^SGrigoriRasputin^t^SKníghtwíng-Garona^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2013]
+			"20:21:03 - ML:AddCandidate (Setia-Zul'jin) (MAGE) (DAMAGER) (Social) (true) (800) (965.5)", -- [2014]
+			"20:21:03 - Comm received:^1^Sxrealm^T^N1^STekkuto-Hydraxis^N2^SplayerInfo^N3^SSetia-Zul'jin^N4^SMAGE^N5^SDAMAGER^N6^SSocial^N7^B^N8^N800^N9^N965.5^N10^N62^t^^ (from:) (Setia-Zul'jin) (distri:) (PARTY)", -- [2015]
+			"20:21:03 - Comm received:^1^SplayerInfo^T^N1^SSetia-Zul'jin^N2^SMAGE^N3^SDAMAGER^N4^SSocial^N5^B^N6^N800^N7^N965.5^N8^N62^t^^ (from:) (Setia-Zul'jin) (distri:) (WHISPER)", -- [2016]
+			"20:21:33 - ML event (UI_INFO_MESSAGE) (284) (Void Warden Valsuran slain: 1/1)", -- [2017]
+			"20:21:33 - ML event (CHAT_MSG_LOOT) (You receive item: |cff0070dd|Hitem:151245::::::::110:102:8388608:30::56:::|h[Novitiate's Tarnished Arcanoscope]|h|r.) () () () (Tekkuto) () (0) (0) () (0) (318) (nil) (0) (false) (false) (false) (false)", -- [2018]
+			"20:21:33 - ML event (PLAYER_REGEN_ENABLED)", -- [2019]
+			"20:21:35 - ML event (CHAT_MSG_LOOT) (Kníghtwíng-Garona receives loot: |cff1eff00|Hitem:153164::::::::110:102:8388608:::56:::|h[Otherworldly Trophy]|h|r.) () () () (Kníghtwíng-Garona) () (0) (0) () (0) (320) (nil) (0) (false) (false) (false) (false)", -- [2020]
+			"20:21:36 - Event: (LOOT_OPENED) (1)", -- [2021]
+			"20:21:36 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [2022]
+			"20:21:37 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff1eff00|Hitem:153164::::::::110:102:8388608:::56:::|h[Otherworldly Trophy]|h|r.) () () () (Tekkuto) () (0) (0) () (0) (321) (nil) (0) (false) (false) (false) (false)", -- [2023]
+			"20:21:37 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [2024]
+			"20:21:37 - OnLootSlotCleared() (3) (|cff0070dd|Hitem:153148::::::::110:102::::::|h[Unsullied Leather Belt]|h|r)", -- [2025]
+			"20:21:37 - Event: (LOOT_CLOSED)", -- [2026]
+			"20:21:37 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff0070dd|Hitem:153148::::::::110:102::::::|h[Unsullied Leather Belt]|h|r.) () () () (Tekkuto) () (0) (0) () (0) (322) (nil) (0) (false) (false) (false) (false)", -- [2027]
+			"20:21:37 - ML event (CHAT_MSG_LOOT) (Setia-Zul'jin receives loot: |cff1eff00|Hitem:153164::::::::110:102:8388608:::56:::|h[Otherworldly Trophy]|h|r.) () () () (Setia-Zul'jin) () (0) (0) () (0) (323) (nil) (0) (false) (false) (false) (false)", -- [2028]
+			"20:21:37 - ML event (CHAT_MSG_LOOT) (Setia-Zul'jin receives loot: |cffffffff|Hitem:153014::::::::110:102::::::|h[Pristine Argunite]|h|rx8.) () () () (Setia-Zul'jin) () (0) (0) () (0) (324) (nil) (0) (false) (false) (false) (false)", -- [2029]
+			"20:21:39 - Event: (GROUP_LEFT) (Party-90-00002C847193)", -- [2030]
+			"20:21:39 - GetML()", -- [2031]
+			"20:21:39 - LootMethod =  (personalloot)", -- [2032]
+			"20:21:39 - ML Disabled", -- [2033]
+			"20:21:41 - Event: (LOOT_OPENED) (1)", -- [2034]
+			"20:21:41 - Event: (LOOT_CLOSED)", -- [2035]
+			"20:21:56 - Event: (PARTY_LEADER_CHANGED)", -- [2036]
+			"20:21:56 - GetML()", -- [2037]
+			"20:21:56 - LootMethod =  (personalloot)", -- [2038]
+			"20:21:56 - Unknown ML", -- [2039]
+			"20:21:56 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [2040]
+			"20:21:56 - GetML()", -- [2041]
+			"20:21:56 - LootMethod =  (personalloot)", -- [2042]
+			"20:21:56 - Unknown ML", -- [2043]
+			"20:21:56 - GetML()", -- [2044]
+			"20:21:56 - LootMethod =  (personalloot)", -- [2045]
+			"20:21:56 - Resetting council as we have a new ML!", -- [2046]
+			"20:21:56 - MasterLooter =  (Majøra-Mal'Ganis)", -- [2047]
+			"20:21:56 - GetML()", -- [2048]
+			"20:21:56 - LootMethod =  (personalloot)", -- [2049]
+			"20:21:57 - VotingFrame:Update() without lootTable!!", -- [2050]
+			"20:22:00 - VotingFrame:Update() without lootTable!!", -- [2051]
+			"20:22:08 - VotingFrame:Update() without lootTable!!", -- [2052]
+			"20:22:11 - VotingFrame:Update() without lootTable!!", -- [2053]
+			"20:22:11 - Timer MLdb_check passed", -- [2054]
+			"20:22:12 - Comm received:^1^Sxrealm^T^N1^SMajøra-Mal'Ganis^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2055]
+			"20:22:12 - Comm received:^1^Sxrealm^T^N1^SMajøra-Mal'Ganis^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2056]
+			"20:22:15 - Event: (PARTY_LEADER_CHANGED)", -- [2057]
+			"20:22:15 - GetML()", -- [2058]
+			"20:22:15 - LootMethod =  (personalloot)", -- [2059]
+			"20:22:15 - Resetting council as we have a new ML!", -- [2060]
+			"20:22:15 - MasterLooter =  (Katalushi-Ragnaros)", -- [2061]
+			"20:22:16 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Katalushi-Ragnaros) (distri:) (PARTY)", -- [2062]
+			"20:22:16 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Katalushi-Ragnaros) (distri:) (PARTY)", -- [2063]
+			"20:22:16 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtonsEnabled^B^StierButtons^T^t^SmultiVote^B^Sbuttons^T^t^SnumButtons^N3^t^t^^ (from:) (Katalushi-Ragnaros) (distri:) (PARTY)", -- [2064]
+			"20:22:16 - Comm received:^1^Scandidates^T^N1^T^SKatalushi-Ragnaros^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^STempii-Galakrond^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^STekkuto-Hydraxis^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SChaoslock-Mal'Ganis^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^t^t^^ (from:) (Katalushi-Ragnaros) (distri:) (PARTY)", -- [2065]
+			"20:22:16 - Comm received:^1^Scouncil^T^N1^T^N1^SKatalushi-Ragnaros^t^t^^ (from:) (Katalushi-Ragnaros) (distri:) (PARTY)", -- [2066]
+			"20:22:16 - nil = (IsCouncil) (Tekkuto-Hydraxis)", -- [2067]
+			"20:22:16 - Hide VotingFrame", -- [2068]
+			"20:22:16 - Comm received:^1^Sxrealm^T^N1^SKatalushi-Ragnaros^N2^SplayerInfo^N3^STekkuto-Hydraxis^N4^SDRUID^N5^SDAMAGER^N6^SGrigoriRasputin^N8^N0^N9^N904.625^N10^N102^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2069]
+			"20:22:18 - Event: (PARTY_LEADER_CHANGED)", -- [2070]
+			"20:22:18 - GetML()", -- [2071]
+			"20:22:18 - LootMethod =  (personalloot)", -- [2072]
+			"20:22:18 - Resetting council as we have a new ML!", -- [2073]
+			"20:22:18 - MasterLooter =  (Chaoslock-Mal'Ganis)", -- [2074]
+			"20:22:30 - Timer MLdb_check passed", -- [2075]
+			"20:22:31 - Comm received:^1^Sxrealm^T^N1^SChaoslock-Mal'Ganis^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2076]
+			"20:22:31 - Comm received:^1^Sxrealm^T^N1^SChaoslock-Mal'Ganis^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2077]
+			"20:22:33 - Timer MLdb_check passed", -- [2078]
+			"20:22:34 - Comm received:^1^Sxrealm^T^N1^SChaoslock-Mal'Ganis^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2079]
+			"20:22:34 - Comm received:^1^Sxrealm^T^N1^SChaoslock-Mal'Ganis^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2080]
+			"20:22:59 - Event: (LOOT_OPENED) (1)", -- [2081]
+			"20:23:00 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [2082]
+			"20:23:00 - OnLootSlotCleared() (3) (nil)", -- [2083]
+			"20:23:00 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:132199::::::::110:102::::::|h[Congealed Felblood]|h|r)", -- [2084]
+			"20:23:01 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [2085]
+			"20:23:01 - Event: (LOOT_CLOSED)", -- [2086]
+			"20:23:04 - Event: (GROUP_LEFT) (Party-1174-00002BEB84D9)", -- [2087]
+			"20:23:04 - GetML()", -- [2088]
+			"20:23:04 - LootMethod =  (personalloot)", -- [2089]
+			"20:23:08 - Event: (LOOT_OPENED) (1)", -- [2090]
+			"20:23:08 - Event: (LOOT_CLOSED)", -- [2091]
+			"20:23:47 - Event: (LOOT_OPENED) (1)", -- [2092]
+			"20:23:48 - OnLootSlotCleared() (1) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [2093]
+			"20:23:48 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:153162::::::::110:102::::::|h[Unattuned Portal Stones]|h|r)", -- [2094]
+			"20:23:48 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:152855::::::::110:102::::::|h[Exhausted Soulcore]|h|r)", -- [2095]
+			"20:23:48 - Event: (LOOT_CLOSED)", -- [2096]
+			"20:23:57 - Event: (PARTY_LEADER_CHANGED)", -- [2097]
+			"20:23:57 - GetML()", -- [2098]
+			"20:23:57 - LootMethod =  (personalloot)", -- [2099]
+			"20:23:57 - Unknown ML", -- [2100]
+			"20:23:57 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [2101]
+			"20:23:57 - GetML()", -- [2102]
+			"20:23:57 - LootMethod =  (personalloot)", -- [2103]
+			"20:23:57 - Unknown ML", -- [2104]
+			"20:23:57 - GetML()", -- [2105]
+			"20:23:57 - LootMethod =  (personalloot)", -- [2106]
+			"20:23:57 - Resetting council as we have a new ML!", -- [2107]
+			"20:23:57 - MasterLooter =  (Mazerrackham-Area52)", -- [2108]
+			"20:23:57 - GetML()", -- [2109]
+			"20:23:57 - LootMethod =  (personalloot)", -- [2110]
+			"20:24:11 - Event: (PARTY_LEADER_CHANGED)", -- [2111]
+			"20:24:11 - GetML()", -- [2112]
+			"20:24:11 - LootMethod =  (personalloot)", -- [2113]
+			"20:24:11 - Resetting council as we have a new ML!", -- [2114]
+			"20:24:11 - MasterLooter =  (Pipaya-Hyjal)", -- [2115]
+			"20:24:12 - Timer MLdb_check passed", -- [2116]
+			"20:24:12 - Comm received:^1^Sxrealm^T^N1^SPipaya-Hyjal^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2117]
+			"20:24:13 - Comm received:^1^Sxrealm^T^N1^SPipaya-Hyjal^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2118]
+			"20:24:26 - Timer MLdb_check passed", -- [2119]
+			"20:24:27 - Comm received:^1^Sxrealm^T^N1^SPipaya-Hyjal^N2^SMLdb_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2120]
+			"20:24:27 - Comm received:^1^Sxrealm^T^N1^SPipaya-Hyjal^N2^Scouncil_request^t^^ (from:) (Tekkuto) (distri:) (PARTY)", -- [2121]
+			"20:25:22 - Event: (LOOT_OPENED) (1)", -- [2122]
+			"20:25:23 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:153164::::::::110:102::::::|h[Otherworldly Trophy]|h|r)", -- [2123]
+			"20:25:23 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1508|h[Veiled Argunite]|h|r)", -- [2124]
+			"20:25:23 - Event: (LOOT_CLOSED)", -- [2125]
+			"20:25:24 - Event: (GROUP_LEFT) (Party-3676-00002168881C)", -- [2126]
+			"20:25:24 - GetML()", -- [2127]
+			"20:25:24 - LootMethod =  (personalloot)", -- [2128]
+			"20:26:13 - Event: (LOOT_OPENED) (1)", -- [2129]
+			"20:26:14 - Event: (LOOT_CLOSED)", -- [2130]
+			"20:26:37 - Event: (LOOT_OPENED) (1)", -- [2131]
+			"20:26:38 - OnLootSlotCleared() (1) (nil)", -- [2132]
+			"20:26:38 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [2133]
+			"20:26:38 - OnLootSlotCleared() (3) (|cffffffff|Hitem:151567::::::::110:102::::::|h[Lightweave Cloth]|h|r)", -- [2134]
+			"20:26:38 - Event: (LOOT_CLOSED)", -- [2135]
+			"20:47:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2136]
+			"20:47:18 - GetML()", -- [2137]
+			"20:47:18 - LootMethod =  (personalloot)", -- [2138]
+			"20:47:47 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2139]
+			"20:47:47 - GetML()", -- [2140]
+			"20:47:47 - LootMethod =  (personalloot)", -- [2141]
+			"20:48:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2142]
+			"20:48:06 - GetML()", -- [2143]
+			"20:48:06 - LootMethod =  (personalloot)", -- [2144]
+			"20:55:23 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2145]
+			"20:55:23 - GetML()", -- [2146]
+			"20:55:23 - LootMethod =  (personalloot)", -- [2147]
+			"20:57:58 - Event: (LOOT_OPENED) (1)", -- [2148]
+			"20:57:58 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [2149]
+			"20:57:58 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132199::::::::110:102::::::|h[Congealed Felblood]|h|r)", -- [2150]
+			"20:57:59 - OnLootSlotCleared() (3) (|cffffffff|Hitem:124437::::::::110:102::::::|h[Shal'dorei Silk]|h|r)", -- [2151]
+			"20:57:59 - Event: (LOOT_CLOSED)", -- [2152]
+			"20:58:00 - Event: (LOOT_OPENED) (1)", -- [2153]
+			"20:58:01 - OnLootSlotCleared() (1) (|cffffffff|Hitem:144240::::::::110:102::::::|h[Ravaged Supplies]|h|r)", -- [2154]
+			"20:58:01 - Event: (LOOT_CLOSED)", -- [2155]
+			"20:58:06 - Event: (LOOT_OPENED) (1)", -- [2156]
+			"20:58:06 - Event: (LOOT_CLOSED)", -- [2157]
+			"20:58:08 - Event: (LOOT_OPENED) (1)", -- [2158]
+			"20:58:09 - OnLootSlotCleared() (1) (|cffffffff|Hitem:144240::::::::110:102::::::|h[Ravaged Supplies]|h|r)", -- [2159]
+			"20:58:09 - Event: (LOOT_CLOSED)", -- [2160]
+			"20:58:15 - Event: (LOOT_OPENED) (1)", -- [2161]
+			"20:58:15 - OnLootSlotCleared() (1) (|cffffffff|Hitem:144240::::::::110:102::::::|h[Ravaged Supplies]|h|r)", -- [2162]
+			"20:58:15 - Event: (LOOT_CLOSED)", -- [2163]
+			"20:58:23 - Event: (LOOT_OPENED) (1)", -- [2164]
+			"20:58:24 - OnLootSlotCleared() (1) (|cffffffff|Hitem:144240::::::::110:102::::::|h[Ravaged Supplies]|h|r)", -- [2165]
+			"20:58:24 - Event: (LOOT_CLOSED)", -- [2166]
+			"20:58:41 - Event: (LOOT_OPENED) (1)", -- [2167]
+			"20:58:41 - Event: (LOOT_CLOSED)", -- [2168]
+			"20:58:43 - Event: (LOOT_OPENED) (1)", -- [2169]
+			"20:58:43 - Event: (LOOT_CLOSED)", -- [2170]
+			"20:58:55 - Event: (LOOT_OPENED) (1)", -- [2171]
+			"20:58:55 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [2172]
+			"20:58:55 - Event: (LOOT_CLOSED)", -- [2173]
+			"20:59:03 - Event: (LOOT_OPENED) (1)", -- [2174]
+			"20:59:03 - Event: (LOOT_CLOSED)", -- [2175]
+			"20:59:17 - Event: (LOOT_OPENED) (1)", -- [2176]
+			"20:59:18 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132204::::::::110:102::::::|h[Sticky Volatile Substance]|h|r)", -- [2177]
+			"20:59:18 - OnLootSlotCleared() (2) (|cffffffff|Hitem:124437::::::::110:102::::::|h[Shal'dorei Silk]|h|r)", -- [2178]
+			"20:59:18 - Event: (LOOT_CLOSED)", -- [2179]
+			"21:00:08 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2180]
+			"21:00:08 - GetML()", -- [2181]
+			"21:00:08 - LootMethod =  (personalloot)", -- [2182]
+			"21:00:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2183]
+			"21:00:28 - GetML()", -- [2184]
+			"21:00:28 - LootMethod =  (personalloot)", -- [2185]
+			"07/04/18", -- [2186]
+			"12:14:58 - Logged In", -- [2187]
+			"12:14:58 - ML initialized!", -- [2188]
+			"12:15:25 - Tekkuto-Hydraxis (2.7.11) (nil)", -- [2189]
+			"12:15:25 - ActivateSkin (new_blue)", -- [2190]
+			"12:15:31 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [2191]
+			"12:15:31 - GetML()", -- [2192]
+			"12:15:31 - LootMethod =  (personalloot)", -- [2193]
+			"12:15:31 - UpdatePlayersData()", -- [2194]
+			"12:15:32 - GetPlayersGuildRank()", -- [2195]
+			"12:15:32 - Found Guild Rank: GrigoriRasputin", -- [2196]
+			"12:15:32 - Comm received:^1^SverTest^T^N1^S2.7.11^t^^ (from:) (Tekkuto) (distri:) (GUILD)", -- [2197]
+			"12:16:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2198]
+			"12:16:01 - GetML()", -- [2199]
+			"12:16:01 - LootMethod =  (personalloot)", -- [2200]
+			"12:16:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2201]
+			"12:16:37 - GetML()", -- [2202]
+			"12:16:37 - LootMethod =  (personalloot)", -- [2203]
+			"12:18:40 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2204]
+			"12:18:40 - GetML()", -- [2205]
+			"12:18:40 - LootMethod =  (personalloot)", -- [2206]
+			"12:24:25 - Event: (LOOT_OPENED) (1)", -- [2207]
+			"12:24:25 - Event: (LOOT_CLOSED)", -- [2208]
+			"12:26:10 - Event: (LOOT_OPENED) (1)", -- [2209]
+			"12:26:10 - OnLootSlotCleared() (1) (nil)", -- [2210]
+			"12:26:10 - OnLootSlotCleared() (2) (|cffffffff|Hitem:124437::::::::110:102::::::|h[Shal'dorei Silk]|h|r)", -- [2211]
+			"12:26:11 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [2212]
+			"12:26:11 - Event: (LOOT_CLOSED)", -- [2213]
+			"12:29:42 - Event: (LOOT_OPENED) (1)", -- [2214]
+			"12:29:42 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [2215]
+			"12:29:43 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [2216]
+			"12:29:43 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:138249::::::::110:102::::::|h[Ruined Spellbook]|h|r)", -- [2217]
+			"12:29:43 - OnLootSlotCleared() (4) (|cff1eff00|Hitem:140310::::::::110:102::::::|h[Crude Statuette]|h|r)", -- [2218]
+			"12:29:43 - OnLootSlotCleared() (5) (|cff9d9d9d|Hitem:121407::::::::110:102::::::|h[Empty Rocket-Propelled Legplates]|h|r)", -- [2219]
+			"12:29:43 - Event: (LOOT_CLOSED)", -- [2220]
+			"12:30:01 - Event: (LOOT_OPENED) (1)", -- [2221]
+			"12:30:01 - Event: (LOOT_CLOSED)", -- [2222]
+			"12:32:41 - Event: (LOOT_OPENED) (1)", -- [2223]
+			"12:32:42 - OnLootSlotCleared() (1) (nil)", -- [2224]
+			"12:32:42 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [2225]
+			"12:32:42 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [2226]
+			"12:32:42 - Event: (LOOT_CLOSED)", -- [2227]
+			"12:36:17 - Event: (LOOT_OPENED) (1)", -- [2228]
+			"12:36:17 - Event: (LOOT_CLOSED)", -- [2229]
+			"12:36:48 - Event: (LOOT_OPENED) (1)", -- [2230]
+			"12:36:48 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132184::::::::110:102::::::|h[Intact Shimmering Scale]|h|r)", -- [2231]
+			"12:36:49 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:132212::::::::110:102::::::|h[Frothing Essence]|h|r)", -- [2232]
+			"12:36:49 - OnLootSlotCleared() (3) (nil)", -- [2233]
+			"12:36:49 - OnLootSlotCleared() (4) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [2234]
+			"12:36:49 - OnLootSlotCleared() (5) (|cff9d9d9d|Hitem:132217::::::::110:102::::::|h[Elemental Pebbles]|h|r)", -- [2235]
+			"12:36:49 - OnLootSlotCleared() (6) (|cff9d9d9d|Hitem:132190::::::::110:102::::::|h[Pointed Tail Tip]|h|r)", -- [2236]
+			"12:36:49 - Event: (LOOT_CLOSED)", -- [2237]
+			"12:36:55 - Event: (LOOT_OPENED) (1)", -- [2238]
+			"12:36:55 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132184::::::::110:102::::::|h[Intact Shimmering Scale]|h|r)", -- [2239]
+			"12:36:55 - Event: (LOOT_CLOSED)", -- [2240]
+			"12:37:04 - Event: (LOOT_OPENED) (1)", -- [2241]
+			"12:37:04 - OnLootSlotCleared() (1) (|cff1eff00|Hitem:140310::::::::110:102::::::|h[Crude Statuette]|h|r)", -- [2242]
+			"12:37:04 - OnLootSlotCleared() (2) (|cffffffff|Hcurrency:1220|h[Order Resources]|h|r)", -- [2243]
+			"12:37:05 - OnLootSlotCleared() (3) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [2244]
+			"12:37:05 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:138307::::::::110:102::::::|h[Expired Stinky Cheese]|h|r)", -- [2245]
+			"12:37:05 - OnLootSlotCleared() (5) (|cff9d9d9d|Hitem:138242::::::::110:102::::::|h[Waterstained Tarot Deck]|h|r)", -- [2246]
+			"12:37:05 - Event: (LOOT_CLOSED)", -- [2247]
+			"12:39:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2248]
+			"12:39:24 - GetML()", -- [2249]
+			"12:39:24 - LootMethod =  (personalloot)", -- [2250]
+			"12:39:32 - Event: (LOOT_CLOSED)", -- [2251]
+			"12:40:17 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2252]
+			"12:40:17 - GetML()", -- [2253]
+			"12:40:17 - LootMethod =  (personalloot)", -- [2254]
+			"12:40:26 - Event: (LOOT_OPENED) (1)", -- [2255]
+			"12:40:26 - Event: (LOOT_CLOSED)", -- [2256]
+			"12:40:51 - Event: (LOOT_OPENED) (1)", -- [2257]
+			"12:40:51 - Event: (LOOT_CLOSED)", -- [2258]
+			"12:41:21 - Event: (LOOT_OPENED) (1)", -- [2259]
+			"12:41:22 - Event: (LOOT_CLOSED)", -- [2260]
+			"12:42:26 - Event: (LOOT_OPENED) (1)", -- [2261]
+			"12:42:26 - Event: (LOOT_CLOSED)", -- [2262]
+			"12:42:41 - Event: (LOOT_OPENED) (1)", -- [2263]
+			"12:42:42 - Event: (LOOT_CLOSED)", -- [2264]
+			"12:43:15 - Event: (LOOT_OPENED) (1)", -- [2265]
+			"12:43:15 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:132212::::::::110:102::::::|h[Frothing Essence]|h|r)", -- [2266]
+			"12:43:16 - OnLootSlotCleared() (2) (|cffffffff|Hitem:124437::::::::110:102::::::|h[Shal'dorei Silk]|h|r)", -- [2267]
+			"12:43:16 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:132217::::::::110:102::::::|h[Elemental Pebbles]|h|r)", -- [2268]
+			"12:43:16 - OnLootSlotCleared() (4) (|cffffffff|Hcurrency:1155|h[Ancient Mana]|h|r)", -- [2269]
+			"12:43:16 - Event: (LOOT_CLOSED)", -- [2270]
+			"12:44:27 - Event: (LOOT_OPENED) (1)", -- [2271]
+			"12:44:27 - Event: (LOOT_CLOSED)", -- [2272]
+			"12:44:29 - Event: (LOOT_OPENED) (1)", -- [2273]
+			"12:44:29 - Event: (LOOT_CLOSED)", -- [2274]
+			"12:44:32 - Event: (LOOT_OPENED) (1)", -- [2275]
+			"12:44:32 - Event: (LOOT_CLOSED)", -- [2276]
+			"12:44:38 - Event: (LOOT_OPENED) (1)", -- [2277]
+			"12:44:38 - Event: (LOOT_CLOSED)", -- [2278]
+			"12:44:40 - Event: (LOOT_OPENED) (1)", -- [2279]
+			"12:44:41 - Event: (LOOT_CLOSED)", -- [2280]
+			"12:44:43 - Event: (LOOT_OPENED) (1)", -- [2281]
+			"12:44:43 - Event: (LOOT_CLOSED)", -- [2282]
 		},
-		["version"] = "2.7.9",
-		["verTestCandidates"] = {
-			["Anyatsu-Terenas"] = "2.7.9-nil: - Anyatsu-Terenas",
-		},
-		["oldVersion"] = "2.7.8",
+		["version"] = "2.7.11",
+		["locale"] = "enUS",
 	},
 	["profileKeys"] = {
 		["Calithil - Hydraxis"] = "Default",
 		["Bagofsticks - Hydraxis"] = "Default",
 		["Pillowaifu - Hydraxis"] = "Default",
+		["Frostshocki - Hydraxis"] = "Default",
 		["Ranevian - Alleria"] = "Default",
 		["Backstabi - Argent Dawn"] = "Default",
 		["Moosebrew - Hydraxis"] = "Default",
 		["Necroticks - Hydraxis"] = "Default",
-		["Frostshocki - Hydraxis"] = "Default",
 		["Livika - Wyrmrest Accord"] = "Default",
-		["Stabisign - Moon Guard"] = "Default",
 		["Backstabi - Hydraxis"] = "Default",
-		["Edgelordxo - Hydraxis"] = "Default",
+		["Stabisign - Moon Guard"] = "Default",
+		["Backstabi - Ghostlands"] = "Default",
+		["Aubade - Ghostlands"] = "Default",
 		["Scrublordxo - Terenas"] = "Default",
 		["Anyachi - Terenas"] = "Default",
 		["Anyatsu - Terenas"] = "Default",
-		["Backstabi - Ghostlands"] = "Default",
+		["Spetis - Ghostlands"] = "Default",
 		["Backstabi - Proudmoore"] = "Default",
 		["Purpleslurp - Terenas"] = "Default",
-		["Spetis - Ghostlands"] = "Default",
-		["Ramlethall - Tichondrius"] = "Default",
 		["Backstabi - Korgath"] = "Default",
+		["Ramlethall - Tichondrius"] = "Default",
+		["Blaettne - Blackrock"] = "Default",
 		["Tekkita - Alleria"] = "Default",
 		["Anyatsu - Korgath"] = "Default",
-		["Blaettne - Blackrock"] = "Default",
+		["Tekkuto - Hydraxis"] = "Default",
 		["Liviko - Wyrmrest Accord"] = "Default",
 		["Tarrengerd - Terenas"] = "Default",
 		["Skivvix - Ghostlands"] = "Default",
 		["Aestrin - Ghostlands"] = "Default",
-		["Aubade - Ghostlands"] = "Default",
+		["Edgelordxo - Hydraxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -2327,58 +2339,59 @@ RCLootCouncilLootDB = {
 		["Calithil - Hydraxis"] = "Calithil - Hydraxis",
 		["Bagofsticks - Hydraxis"] = "Bagofsticks - Hydraxis",
 		["Pillowaifu - Hydraxis"] = "Pillowaifu - Hydraxis",
+		["Frostshocki - Hydraxis"] = "Frostshocki - Hydraxis",
 		["Ranevian - Alleria"] = "Ranevian - Alleria",
 		["Backstabi - Argent Dawn"] = "Backstabi - Argent Dawn",
 		["Moosebrew - Hydraxis"] = "Moosebrew - Hydraxis",
 		["Necroticks - Hydraxis"] = "Necroticks - Hydraxis",
-		["Frostshocki - Hydraxis"] = "Frostshocki - Hydraxis",
 		["Livika - Wyrmrest Accord"] = "Livika - Wyrmrest Accord",
-		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
 		["Backstabi - Hydraxis"] = "Backstabi - Hydraxis",
-		["Edgelordxo - Hydraxis"] = "Edgelordxo - Hydraxis",
+		["Stabisign - Moon Guard"] = "Stabisign - Moon Guard",
+		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
+		["Aubade - Ghostlands"] = "Aubade - Ghostlands",
 		["Scrublordxo - Terenas"] = "Scrublordxo - Terenas",
 		["Anyachi - Terenas"] = "Anyachi - Terenas",
 		["Anyatsu - Terenas"] = "Anyatsu - Terenas",
-		["Backstabi - Ghostlands"] = "Backstabi - Ghostlands",
+		["Spetis - Ghostlands"] = "Spetis - Ghostlands",
 		["Backstabi - Proudmoore"] = "Backstabi - Proudmoore",
 		["Purpleslurp - Terenas"] = "Purpleslurp - Terenas",
-		["Spetis - Ghostlands"] = "Spetis - Ghostlands",
-		["Ramlethall - Tichondrius"] = "Ramlethall - Tichondrius",
 		["Backstabi - Korgath"] = "Backstabi - Korgath",
+		["Ramlethall - Tichondrius"] = "Ramlethall - Tichondrius",
+		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
 		["Tekkita - Alleria"] = "Tekkita - Alleria",
 		["Anyatsu - Korgath"] = "Anyatsu - Korgath",
-		["Blaettne - Blackrock"] = "Blaettne - Blackrock",
+		["Tekkuto - Hydraxis"] = "Tekkuto - Hydraxis",
 		["Liviko - Wyrmrest Accord"] = "Liviko - Wyrmrest Accord",
 		["Tarrengerd - Terenas"] = "Tarrengerd - Terenas",
 		["Skivvix - Ghostlands"] = "Skivvix - Ghostlands",
 		["Aestrin - Ghostlands"] = "Aestrin - Ghostlands",
-		["Aubade - Ghostlands"] = "Aubade - Ghostlands",
+		["Edgelordxo - Hydraxis"] = "Edgelordxo - Hydraxis",
 	},
 	["factionrealm"] = {
 		["Horde - Tichondrius"] = {
 			["Cozmedic-Tichondrius"] = {
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147167::::::::110:102::5:3:3562:1497:3528:::|h[Robes of Blind Absolution]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147167::::::::110:102::5:3:3562:1497:3528:::|h[Robes of Blind Absolution]|h|r",
+					["id"] = "1516183916-16",
 					["response"] = "Offspec/Greed",
+					["date"] = "16/01/18",
+					["class"] = "PRIEST",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["lootWon"] = "|cffa335ee|Hitem:151948::::::::110:102::5:3:3611:1492:3336:::|h[Magma-Spattered Smock]|h|r",
+					["boss"] = "Kin'garoth",
+					["time"] = "22:11:56",
+					["difficultyID"] = 15,
+					["votes"] = 1,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PRIEST",
-					["boss"] = "Kin'garoth",
-					["groupSize"] = 20,
-					["time"] = "22:11:56",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:151948::::::::110:102::5:3:3611:1492:3336:::|h[Magma-Spattered Smock]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["id"] = "1516183916-16",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -2406,52 +2419,52 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [2]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147000::::::::110:102::5:3:3562:1502:3336:::|h[Ravenous Devotee's Bracelets]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147000::::::::110:102::5:3:3562:1502:3336:::|h[Ravenous Devotee's Bracelets]|h|r",
+					["id"] = "1516184632-21",
 					["response"] = "Offspec/Greed",
+					["date"] = "16/01/18",
+					["class"] = "PRIEST",
+					["isAwardReason"] = false,
+					["groupSize"] = 19,
+					["lootWon"] = "|cffa335ee|Hitem:151954::::::::110:102::5:3:3611:1487:3528:::|h[Blood-Drenched Bindings]|h|r",
+					["boss"] = "Varimathras",
+					["time"] = "22:23:52",
+					["difficultyID"] = 15,
+					["votes"] = 1,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PRIEST",
-					["boss"] = "Varimathras",
-					["groupSize"] = 19,
-					["time"] = "22:23:52",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:151954::::::::110:102::5:3:3611:1487:3528:::|h[Blood-Drenched Bindings]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["id"] = "1516184632-21",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [3]
 			},
 			["Gannicûs-Tichondrius"] = {
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:134458::130219::::::110:102::16:4:3418:1808:1577:3336:::|h[Wristbands of Rousing Violence]|h|r",
-					["id"] = "1513156407-15",
-					["response"] = "Mainspec/Need",
-					["date"] = "12/12/17",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:151992::::::::110:102::5:3:3611:1487:3528:::|h[Fiendish Logistician's Wristwraps]|h|r",
-					["boss"] = "Antoran High Command",
-					["time"] = "21:13:27",
-					["difficultyID"] = 15,
-					["votes"] = 1,
-					["responseID"] = 1,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Mainspec/Need",
+					["id"] = "1513156407-15",
+					["class"] = "DRUID",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "21:13:27",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151992::::::::110:102::5:3:3611:1487:3528:::|h[Fiendish Logistician's Wristwraps]|h|r",
+					["votes"] = 1,
+					["boss"] = "Antoran High Command",
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -2479,43 +2492,29 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [2]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152124::::::::110:102::5:3:3611:1487:3528:::|h[Bearmantle Harness]|h|r",
-					["id"] = "1513160135-28",
-					["response"] = "Minor Upgrade",
-					["date"] = "12/12/17",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["groupSize"] = 19,
-					["lootWon"] = "|cffa335ee|Hitem:151979::::::::110:102::5:3:3611:1487:3528:::|h[Vest of Unfathomable Anguish]|h|r",
-					["boss"] = "Varimathras",
-					["time"] = "22:15:35",
-					["difficultyID"] = 15,
-					["votes"] = 1,
-					["responseID"] = 3,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Minor Upgrade",
+					["id"] = "1513160135-28",
+					["class"] = "DRUID",
+					["difficultyID"] = 15,
+					["groupSize"] = 19,
+					["time"] = "22:15:35",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151979::::::::110:102::5:3:3611:1487:3528:::|h[Vest of Unfathomable Anguish]|h|r",
+					["votes"] = 1,
+					["boss"] = "Varimathras",
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [3]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffff8000|Hitem:137072:5442:::::::110:102:::2:3459:3630:::|h[Aman'Thul's Wisdom]|h|r",
-					["id"] = "1515578794-5",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "DRUID",
-					["difficultyID"] = 15,
-					["response"] = "Offspec/Greed",
-					["isAwardReason"] = false,
-					["boss"] = "Imonar the Soulhunter",
-					["time"] = "22:06:34",
-					["lootWon"] = "|cffa335ee|Hitem:151989::::::::110:102::5:3:3611:1487:3528:::|h[Spaulders of the Relentless Tracker]|h|r",
-					["votes"] = 0,
-					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
@@ -2523,6 +2522,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515578794-5",
+					["class"] = "DRUID",
+					["votes"] = 0,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151989::::::::110:102::5:3:3611:1487:3528:::|h[Spaulders of the Relentless Tracker]|h|r",
+					["time"] = "22:06:34",
+					["boss"] = "Imonar the Soulhunter",
+					["responseID"] = 2,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffff8000|Hitem:137072:5442:::::::110:102:::2:3459:3630:::|h[Aman'Thul's Wisdom]|h|r",
 				}, -- [4]
 				{
 					["mapID"] = 1712,
@@ -2550,68 +2563,54 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [5]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152128::::::::110:102::5:3:3611:1487:3528:::|h[Bearmantle Legguards]|h|r",
 					["id"] = "1516352926-2",
-					["mapID"] = 1712,
-					["date"] = "18/01/18",
 					["groupSize"] = 16,
+					["date"] = "18/01/18",
+					["class"] = "DRUID",
+					["difficultyID"] = 15,
+					["response"] = "Minor Upgrade",
+					["isAwardReason"] = false,
+					["boss"] = "Aggramar",
+					["time"] = "21:08:46",
+					["lootWon"] = "|cffa335ee|Hitem:152282::::::::110:102::5:3:3611:1492:3336:::|h[Caustic Titanspite Legguards]|h|r",
+					["votes"] = 0,
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["response"] = "Minor Upgrade",
-					["boss"] = "Aggramar",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:152282::::::::110:102::5:3:3611:1492:3336:::|h[Caustic Titanspite Legguards]|h|r",
-					["time"] = "21:08:46",
-					["difficultyID"] = 15,
-					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152128::::::::110:102::5:3:3611:1487:3528:::|h[Bearmantle Legguards]|h|r",
+					["mapID"] = 1712,
 				}, -- [6]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 19,
-					["id"] = "1516786674-21",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DRUID",
-					["votes"] = 2,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152412::::::::110:102::5:4:3611:43:1497:3336:::|h[Depraved Machinist's Footpads]|h|r",
-					["time"] = "21:37:54",
 					["boss"] = "Kin'garoth",
+					["response"] = "Mainspec/Need",
+					["votes"] = 2,
+					["difficultyID"] = 15,
+					["time"] = "21:37:54",
+					["lootWon"] = "|cffa335ee|Hitem:152412::::::::110:102::5:4:3611:43:1497:3336:::|h[Depraved Machinist's Footpads]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
+					["id"] = "1516786674-21",
+					["mapID"] = 1712,
 				}, -- [7]
 			},
 			["Pamos-Tichondrius"] = {
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151008::::::::110:266::43:3:3573:3204:3337:::|h[Vilefiend Fang]|h|r",
-					["id"] = "1511951445-10",
-					["groupSize"] = 20,
-					["date"] = "28/11/17",
-					["class"] = "WARLOCK",
-					["difficultyID"] = 15,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Antoran High Command",
-					["time"] = "22:30:45",
-					["lootWon"] = "|cffa335ee|Hitem:152032::::::::110:102::5:3:3611:1487:3528:::|h[Twisted Engineer's Fel-Infuser]|h|r",
-					["votes"] = 2,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -2619,6 +2618,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 20,
+					["id"] = "1511951445-10",
+					["class"] = "WARLOCK",
+					["votes"] = 2,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152032::::::::110:102::5:3:3611:1487:3528:::|h[Twisted Engineer's Fel-Infuser]|h|r",
+					["time"] = "22:30:45",
+					["boss"] = "Antoran High Command",
+					["responseID"] = 1,
+					["date"] = "28/11/17",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151008::::::::110:266::43:3:3573:3204:3337:::|h[Vilefiend Fang]|h|r",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -2628,8 +2641,8 @@ RCLootCouncilLootDB = {
 					["votes"] = 1,
 					["time"] = "23:46:03",
 					["relicRoll"] = false,
-					["id"] = "1511955963-19",
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["id"] = "1511955963-19",
 					["note"] = "BiS",
 					["tokenRoll"] = true,
 					["response"] = "2nd Tier Piece",
@@ -2699,27 +2712,27 @@ RCLootCouncilLootDB = {
 					["note"] = "BiS!",
 				}, -- [4]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:151942::::::::110:102::5:3:3611:1487:3528:::|h[Cord of Surging Hysteria]|h|r",
-					["id"] = "1513152850-1",
-					["response"] = "Offspec/Greed",
-					["date"] = "12/12/17",
-					["class"] = "WARLOCK",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:151951::::::::110:102::5:4:3611:1808:1487:3528:::|h[Enhanced Worldscorcher Cinch]|h|r",
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:14:10",
-					["difficultyID"] = 15,
-					["votes"] = 1,
-					["responseID"] = 2,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Offspec/Greed",
+					["id"] = "1513152850-1",
+					["class"] = "WARLOCK",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "20:14:10",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151951::::::::110:102::5:4:3611:1808:1487:3528:::|h[Enhanced Worldscorcher Cinch]|h|r",
+					["votes"] = 1,
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [5]
 				{
 					["mapID"] = 1712,
@@ -2747,6 +2760,7 @@ RCLootCouncilLootDB = {
 				}, -- [6]
 				{
 					["mapID"] = 1712,
+					["date"] = "19/12/17",
 					["id"] = "1513760454-11",
 					["color"] = {
 						0, -- [1]
@@ -2754,18 +2768,17 @@ RCLootCouncilLootDB = {
 						0, -- [3]
 						1, -- [4]
 					},
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
 					["boss"] = "Portal Keeper Hasabel",
-					["response"] = "Mainspec/Need",
-					["votes"] = 1,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152057::::::::110:102::5:3:3611:1487:3528:::|h[Crepuscular Skitterer Egg]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:00:54",
-					["responseID"] = 1,
 					["groupSize"] = 15,
-					["date"] = "19/12/17",
+					["isAwardReason"] = false,
+					["votes"] = 1,
+					["time"] = "21:00:54",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152057::::::::110:102::5:3:3611:1487:3528:::|h[Crepuscular Skitterer Egg]|h|r",
+					["responseID"] = 1,
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [7]
 				{
 					["mapID"] = 1712,
@@ -2794,29 +2807,20 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [8]
 				{
-					["id"] = "1513764859-22",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
-					["groupSize"] = 15,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "WARLOCK",
-					["isAwardReason"] = false,
-					["response"] = "Offspec/Greed",
-					["boss"] = "Varimathras",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152037::::::::110:102::5:3:3611:1487:3528:::|h[Tormentor's Brand]|h|r",
-					["time"] = "22:14:19",
-					["difficultyID"] = 15,
-					["responseID"] = 2,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["itemReplaced1"] = "|cffa335ee|Hitem:147091::::::::110:102::5:3:3562:1512:3337:::|h[Cleansing Ignition Catalyst]|h|r",
-				}, -- [9]
-				{
+					["id"] = "1513764859-22",
+					["groupSize"] = 15,
+					["date"] = "19/12/17",
+					["class"] = "WARLOCK",
+					["difficultyID"] = 15,
+					["response"] = "Offspec/Greed",
+					["isAwardReason"] = false,
+					["boss"] = "Varimathras",
+					["time"] = "22:14:19",
+					["lootWon"] = "|cffa335ee|Hitem:152037::::::::110:102::5:3:3611:1487:3528:::|h[Tormentor's Brand]|h|r",
+					["votes"] = 1,
+					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
@@ -2824,43 +2828,52 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 16,
-					["id"] = "1514968651-4",
-					["class"] = "WARLOCK",
-					["votes"] = 1,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:102::5:3:3611:1487:3528:::|h[Vestments of Enflamed Blight]|h|r",
-					["time"] = "20:37:31",
-					["boss"] = "Felhounds of Sargeras",
-					["responseID"] = 2,
+				}, -- [9]
+				{
 					["date"] = "02/01/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:152176::::::::110:102::5:3:3611:1487:3528:::|h[Grim Inquisitor's Robes]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 16,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "WARLOCK",
+					["boss"] = "Felhounds of Sargeras",
+					["response"] = "Offspec/Greed",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "20:37:31",
+					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:102::5:3:3611:1487:3528:::|h[Vestments of Enflamed Blight]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 2,
+					["id"] = "1514968651-4",
+					["mapID"] = 1712,
 				}, -- [10]
 				{
+					["date"] = "02/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152173::::::::110:102::5:3:3611:1487:3528:::|h[Grim Inquisitor's Gloves]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514971537-10",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
-					["votes"] = 1,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151941::::::::110:102::5:4:3611:1808:1487:3528:::|h[Aranasi Shadow-Weaver's Gloves]|h|r",
-					["time"] = "21:25:37",
 					["boss"] = "Portal Keeper Hasabel",
+					["response"] = "Mainspec/Need",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "21:25:37",
+					["lootWon"] = "|cffa335ee|Hitem:151941::::::::110:102::5:4:3611:1808:1487:3528:::|h[Aranasi Shadow-Weaver's Gloves]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "02/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152173::::::::110:102::5:3:3611:1487:3528:::|h[Grim Inquisitor's Gloves]|h|r",
+					["id"] = "1514971537-10",
+					["mapID"] = 1712,
 				}, -- [11]
 				{
 					["mapID"] = 1712,
@@ -2937,27 +2950,27 @@ RCLootCouncilLootDB = {
 					["id"] = "1516179540-2",
 				}, -- [14]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152177:5442:::::::110:102::5:3:3611:1487:3528:::|h[Grim Inquisitor's Shoulderguards]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 19,
-					["id"] = "1516782650-2",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
-					["votes"] = 0,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:102::5:3:3611:1487:3528:::|h[Soul-Siphon Mantle]|h|r",
-					["time"] = "20:30:50",
 					["boss"] = "Felhounds of Sargeras",
+					["response"] = "Offspec/Greed",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "20:30:50",
+					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:102::5:3:3611:1487:3528:::|h[Soul-Siphon Mantle]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152177:5442:::::::110:102::5:3:3611:1487:3528:::|h[Grim Inquisitor's Shoulderguards]|h|r",
+					["id"] = "1516782650-2",
+					["mapID"] = 1712,
 				}, -- [15]
 				{
 					["mapID"] = 1712,
@@ -3008,27 +3021,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 2,
 				}, -- [17]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152177:5442:::::::110:102::5:3:3611:1487:3528:::|h[Grim Inquisitor's Shoulderguards]|h|r",
+					["mapID"] = 1712,
+					["date"] = "01/02/18",
+					["response"] = "Offspec/Greed",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Offspec/Greed",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
-					["votes"] = 1,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:102::5:4:3611:1808:1487:3528:::|h[Soul-Siphon Mantle]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "20:31:44",
 					["boss"] = "Felhounds of Sargeras",
+					["groupSize"] = 16,
+					["time"] = "20:31:44",
+					["votes"] = 1,
+					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:102::5:4:3611:1808:1487:3528:::|h[Soul-Siphon Mantle]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 2,
-					["date"] = "01/02/18",
 					["id"] = "1517560304-2",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [18]
 				{
 					["mapID"] = 1712,
@@ -3083,27 +3096,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [20]
 				{
+					["date"] = "13/02/18",
+					["itemReplaced1"] = "|cffff8000|Hitem:132457::::::::110:102:::2:3459:3630:::|h[Power Cord of Lethtendris]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 11,
-					["id"] = "1518602354-16",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
-					["votes"] = 1,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:102::5:3:3611:1497:3336:::|h[Cord of Surging Hysteria]|h|r",
-					["time"] = "21:59:14",
 					["boss"] = "The Coven of Shivarra",
+					["response"] = "Mainspec/Need",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "21:59:14",
+					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:102::5:3:3611:1497:3336:::|h[Cord of Surging Hysteria]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "13/02/18",
-					["itemReplaced1"] = "|cffff8000|Hitem:132457::::::::110:102:::2:3459:3630:::|h[Power Cord of Lethtendris]|h|r",
+					["id"] = "1518602354-16",
+					["mapID"] = 1712,
 				}, -- [21]
 			},
 			["Nyros-Tichondrius"] = {
@@ -3184,27 +3197,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [3]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
-					["id"] = "1513153521-7",
-					["response"] = "Pass",
-					["date"] = "12/12/17",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:151983::::::::110:102::5:3:3611:1487:3528:::|h[Vicious Flamepaws]|h|r",
-					["boss"] = "Felhounds of Sargeras",
-					["time"] = "20:25:21",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = "PASS",
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Pass",
+					["id"] = "1513153521-7",
+					["class"] = "DRUID",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "20:25:21",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151983::::::::110:102::5:3:3611:1487:3528:::|h[Vicious Flamepaws]|h|r",
+					["votes"] = 0,
+					["boss"] = "Felhounds of Sargeras",
+					["responseID"] = "PASS",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [4]
 				{
 					["mapID"] = 1712,
@@ -3307,20 +3320,6 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [8]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
-					["id"] = "1515579927-8",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "DRUID",
-					["difficultyID"] = 15,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Kin'garoth",
-					["time"] = "22:25:27",
-					["lootWon"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1512:3337:::|h[Depraved Machinist's Footpads]|h|r",
-					["votes"] = 2,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -3328,6 +3327,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515579927-8",
+					["class"] = "DRUID",
+					["votes"] = 2,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1512:3337:::|h[Depraved Machinist's Footpads]|h|r",
+					["time"] = "22:25:27",
+					["boss"] = "Kin'garoth",
+					["responseID"] = 1,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
 				}, -- [9]
 				{
 					["mapID"] = 1712,
@@ -3381,27 +3394,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [11]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152124::151584::::::110:102::5:4:3611:1808:1487:3528:::|h[Bearmantle Harness]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 18,
-					["id"] = "1516787720-24",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DRUID",
-					["votes"] = 1,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151979::::::::110:102::5:3:3611:1487:3528:::|h[Vest of Unfathomable Anguish]|h|r",
-					["time"] = "21:55:20",
 					["boss"] = "Varimathras",
+					["response"] = "Offspec/Greed",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "21:55:20",
+					["lootWon"] = "|cffa335ee|Hitem:151979::::::::110:102::5:3:3611:1487:3528:::|h[Vest of Unfathomable Anguish]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152124::151584::::::110:102::5:4:3611:1808:1487:3528:::|h[Bearmantle Harness]|h|r",
+					["id"] = "1516787720-24",
+					["mapID"] = 1712,
 				}, -- [12]
 				{
 					["mapID"] = 1712,
@@ -3430,25 +3443,25 @@ RCLootCouncilLootDB = {
 				}, -- [13]
 				{
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Offspec/Greed",
-					["date"] = "06/02/18",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["groupSize"] = 17,
-					["lootWon"] = "|cffa335ee|Hitem:152041::::::::110:105::5:3:3611:1487:3528:::|h[Sublimating Portal Frost]|h|r",
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "21:24:03",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 17,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "DRUID",
+					["votes"] = 0,
+					["response"] = "Offspec/Greed",
+					["time"] = "21:24:03",
+					["boss"] = "Portal Keeper Hasabel",
+					["lootWon"] = "|cffa335ee|Hitem:152041::::::::110:105::5:3:3611:1487:3528:::|h[Sublimating Portal Frost]|h|r",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["responseID"] = 2,
 					["id"] = "1517995443-12",
+					["date"] = "06/02/18",
 				}, -- [14]
 				{
 					["mapID"] = 1712,
@@ -3524,45 +3537,31 @@ RCLootCouncilLootDB = {
 					["votes"] = 1,
 				}, -- [17]
 				{
+					["date"] = "13/02/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147137::::::::110:102::5:3:3562:1507:3336:::|h[Stormheart Legguards]|h|r",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 12,
-					["id"] = "1518604477-21",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DRUID",
-					["votes"] = 0,
-					["response"] = "Pass",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152282::::::::110:102::5:3:3611:1487:3528:::|h[Caustic Titanspite Legguards]|h|r",
-					["time"] = "22:34:37",
 					["boss"] = "Aggramar",
+					["response"] = "Pass",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "22:34:37",
+					["lootWon"] = "|cffa335ee|Hitem:152282::::::::110:102::5:3:3611:1487:3528:::|h[Caustic Titanspite Legguards]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = "PASS",
-					["date"] = "13/02/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147137::::::::110:102::5:3:3562:1507:3336:::|h[Stormheart Legguards]|h|r",
+					["id"] = "1518604477-21",
+					["mapID"] = 1712,
 				}, -- [18]
 			},
 			["Oribelle-Tichondrius"] = {
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:139256::::::::110:70::43:3:3573:1547:3337:::|h[Sloshing Core of Hatred]|h|r",
-					["id"] = "1511944836-2",
-					["groupSize"] = 19,
-					["date"] = "28/11/17",
-					["class"] = "PALADIN",
-					["difficultyID"] = 15,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:40:36",
-					["lootWon"] = "|cffa335ee|Hitem:152036::::::::110:102::5:3:3611:1497:3336:::|h[Hellfire Ignition Switch]|h|r",
-					["votes"] = 1,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -3570,22 +3569,22 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
-				}, -- [1]
-				{
-					["id"] = "1512117218-2",
-					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 18,
-					["date"] = "30/11/17",
+					["groupSize"] = 19,
+					["id"] = "1511944836-2",
 					["class"] = "PALADIN",
-					["boss"] = "Imonar the Soulhunter",
-					["response"] = "Offline or RCLootCouncil not installed",
+					["votes"] = 1,
+					["response"] = "Mainspec/Need",
 					["difficultyID"] = 15,
 					["isAwardReason"] = false,
-					["time"] = "20:33:38",
-					["lootWon"] = "|cffa335ee|Hitem:152528::::::::110:102::5:1:570:::|h[Leggings of the Antoran Conqueror]|h|r",
-					["votes"] = 2,
-					["responseID"] = "NOTHING",
+					["lootWon"] = "|cffa335ee|Hitem:152036::::::::110:102::5:3:3611:1497:3336:::|h[Hellfire Ignition Switch]|h|r",
+					["time"] = "20:40:36",
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = 1,
+					["date"] = "28/11/17",
+					["itemReplaced1"] = "|cffa335ee|Hitem:139256::::::::110:70::43:3:3573:1547:3337:::|h[Sloshing Core of Hatred]|h|r",
+				}, -- [1]
+				{
 					["color"] = {
 						0.5, -- [1]
 						0.5, -- [2]
@@ -3593,6 +3592,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["tierToken"] = "LegsSlot",
+					["id"] = "1512117218-2",
+					["groupSize"] = 18,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "PALADIN",
+					["votes"] = 2,
+					["response"] = "Offline or RCLootCouncil not installed",
+					["boss"] = "Imonar the Soulhunter",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152528::::::::110:102::5:1:570:::|h[Leggings of the Antoran Conqueror]|h|r",
+					["time"] = "20:33:38",
+					["isAwardReason"] = false,
+					["responseID"] = "NOTHING",
+					["date"] = "30/11/17",
+					["mapID"] = 1712,
 				}, -- [2]
 				{
 					["mapID"] = 1712,
@@ -3645,27 +3658,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [4]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152020::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Battle Girdle]|h|r",
-					["id"] = "1513153495-4",
-					["response"] = "Minor Upgrade",
-					["date"] = "12/12/17",
-					["class"] = "PALADIN",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1487:3528:::|h[Flamelicked Girdle]|h|r",
-					["boss"] = "Felhounds of Sargeras",
-					["time"] = "20:24:55",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = 3,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Minor Upgrade",
+					["id"] = "1513153495-4",
+					["class"] = "PALADIN",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "20:24:55",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1487:3528:::|h[Flamelicked Girdle]|h|r",
+					["votes"] = 0,
+					["boss"] = "Felhounds of Sargeras",
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [5]
 				{
 					["mapID"] = 1712,
@@ -3718,27 +3731,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [7]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152150::::::::110:102::5:3:3611:1492:3336:::|h[Light's Vanguard Gauntlets]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Minor Upgrade",
-					["id"] = "1513330919-3",
-					["class"] = "PALADIN",
-					["difficultyID"] = 15,
-					["groupSize"] = 18,
-					["time"] = "21:41:59",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152686::::::::110:102::5:3:3611:1487:3528:::|h[Nascent Deathbringer's Clutches]|h|r",
-					["votes"] = 2,
-					["boss"] = "Argus the Unmaker",
-					["responseID"] = 3,
+					["itemReplaced1"] = "|cffa335ee|Hitem:152150::::::::110:102::5:3:3611:1492:3336:::|h[Light's Vanguard Gauntlets]|h|r",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Minor Upgrade",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "PALADIN",
+					["votes"] = 2,
+					["groupSize"] = 18,
+					["lootWon"] = "|cffa335ee|Hitem:152686::::::::110:102::5:3:3611:1487:3528:::|h[Nascent Deathbringer's Clutches]|h|r",
+					["difficultyID"] = 15,
+					["time"] = "21:41:59",
+					["boss"] = "Argus the Unmaker",
+					["isAwardReason"] = false,
+					["responseID"] = 3,
 					["date"] = "14/12/17",
+					["id"] = "1513330919-3",
 				}, -- [8]
 				{
 					["mapID"] = 1712,
@@ -3765,27 +3778,27 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [9]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1487:3528:::|h[Flamelicked Girdle]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["response"] = "Offspec/Greed",
-					["id"] = "1513337731-18",
-					["class"] = "PALADIN",
-					["difficultyID"] = 14,
-					["groupSize"] = 12,
-					["time"] = "23:35:31",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152022::::::::110:102::3:3:3610:1472:3528:::|h[Grond-Father Girdle]|h|r",
-					["votes"] = 0,
-					["boss"] = "Aggramar",
-					["responseID"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1487:3528:::|h[Flamelicked Girdle]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "PALADIN",
+					["votes"] = 0,
+					["groupSize"] = 12,
+					["lootWon"] = "|cffa335ee|Hitem:152022::::::::110:102::3:3:3610:1472:3528:::|h[Grond-Father Girdle]|h|r",
+					["difficultyID"] = 14,
+					["time"] = "23:35:31",
+					["boss"] = "Aggramar",
+					["isAwardReason"] = false,
+					["responseID"] = 2,
 					["date"] = "14/12/17",
+					["id"] = "1513337731-18",
 				}, -- [10]
 				{
 					["mapID"] = 1712,
@@ -3863,50 +3876,50 @@ RCLootCouncilLootDB = {
 			},
 			["Kirlor-Tichondrius"] = {
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:151981::::::::110:102::5:3:3611:1487:3528:::|h[Life-Bearing Footpads]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151981::::::::110:102::5:3:3611:1487:3528:::|h[Life-Bearing Footpads]|h|r",
+					["id"] = "1516184001-18",
 					["response"] = "Offspec/Greed",
+					["date"] = "16/01/18",
+					["class"] = "DEMONHUNTER",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["lootWon"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
+					["boss"] = "Kin'garoth",
+					["time"] = "22:13:21",
+					["difficultyID"] = 15,
+					["votes"] = 1,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEMONHUNTER",
-					["boss"] = "Kin'garoth",
-					["groupSize"] = 20,
-					["time"] = "22:13:21",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["id"] = "1516184001-18",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [1]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:151992::::::::110:102::5:3:3611:1487:3528:::|h[Fiendish Logistician's Wristwraps]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151992::::::::110:102::5:3:3611:1487:3528:::|h[Fiendish Logistician's Wristwraps]|h|r",
+					["id"] = "1516188469-25",
 					["response"] = "Offspec/Greed",
+					["date"] = "16/01/18",
+					["class"] = "DEMONHUNTER",
+					["isAwardReason"] = false,
+					["groupSize"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152414::::::::110:102::5:3:3611:1487:3528:::|h[Bracers of Wanton Morality]|h|r",
+					["boss"] = "The Coven of Shivarra",
+					["time"] = "23:27:49",
+					["difficultyID"] = 15,
+					["votes"] = 0,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEMONHUNTER",
-					["boss"] = "The Coven of Shivarra",
-					["groupSize"] = 16,
-					["time"] = "23:27:49",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:152414::::::::110:102::5:3:3611:1487:3528:::|h[Bracers of Wanton Morality]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["id"] = "1516188469-25",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [2]
 			},
 			["Nomazla-Tichondrius"] = {
@@ -3963,27 +3976,27 @@ RCLootCouncilLootDB = {
 			},
 			["Lulubug-Tichondrius"] = {
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152159::::::::110:102::5:3:3611:1487:3528:::|h[Gilded Seraph's Amice]|h|r",
 					["id"] = "1513758545-3",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 15,
+					["date"] = "19/12/17",
+					["class"] = "PRIEST",
+					["difficultyID"] = 15,
+					["response"] = "Pass",
+					["isAwardReason"] = false,
+					["boss"] = "Felhounds of Sargeras",
+					["time"] = "20:29:05",
+					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:102::5:3:3611:1487:3528:::|h[Soul-Siphon Mantle]|h|r",
+					["votes"] = 1,
+					["responseID"] = "PASS",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PRIEST",
-					["isAwardReason"] = false,
-					["response"] = "Pass",
-					["boss"] = "Felhounds of Sargeras",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:102::5:3:3611:1487:3528:::|h[Soul-Siphon Mantle]|h|r",
-					["time"] = "20:29:05",
-					["difficultyID"] = 15,
-					["responseID"] = "PASS",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152159::::::::110:102::5:3:3611:1487:3528:::|h[Gilded Seraph's Amice]|h|r",
+					["mapID"] = 1712,
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -4010,50 +4023,50 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [2]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:137307::::::::110:102::16:3:3535:1587:3528:::|h[Corrupted Knot]|h|r",
 					["id"] = "1513769636-28",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 12,
+					["date"] = "19/12/17",
+					["class"] = "PRIEST",
+					["difficultyID"] = 15,
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["boss"] = "Aggramar",
+					["time"] = "23:33:56",
+					["lootWon"] = "|cffa335ee|Hitem:152052::::::::110:102::5:3:3611:1502:3337:::|h[Sporemound Seedling]|h|r",
+					["votes"] = 2,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PRIEST",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["boss"] = "Aggramar",
-					["votes"] = 2,
-					["lootWon"] = "|cffa335ee|Hitem:152052::::::::110:102::5:3:3611:1502:3337:::|h[Sporemound Seedling]|h|r",
-					["time"] = "23:33:56",
-					["difficultyID"] = 15,
-					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137307::::::::110:102::16:3:3535:1587:3528:::|h[Corrupted Knot]|h|r",
+					["mapID"] = 1712,
 				}, -- [3]
 				{
+					["date"] = "02/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152159::::::::110:102::5:3:3611:1487:3528:::|h[Gilded Seraph's Amice]|h|r",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514967635-0",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PRIEST",
-					["votes"] = 1,
-					["response"] = "Disenchant",
-					["difficultyID"] = 15,
-					["isAwardReason"] = true,
-					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:102::5:3:3611:1487:3528:::|h[Shoulderpads of the Demonic Blitz]|h|r",
-					["time"] = "20:20:35",
 					["boss"] = "Garothi Worldbreaker",
+					["response"] = "Disenchant",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "20:20:35",
+					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:102::5:3:3611:1487:3528:::|h[Shoulderpads of the Demonic Blitz]|h|r",
+					["isAwardReason"] = true,
 					["responseID"] = "AUTOPASS",
-					["date"] = "02/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152159::::::::110:102::5:3:3611:1487:3528:::|h[Gilded Seraph's Amice]|h|r",
+					["id"] = "1514967635-0",
+					["mapID"] = 1712,
 				}, -- [4]
 				{
 					["mapID"] = 1712,
@@ -4080,50 +4093,50 @@ RCLootCouncilLootDB = {
 					["votes"] = 1,
 				}, -- [5]
 				{
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 16,
-					["id"] = "1514969656-8",
-					["class"] = "PRIEST",
-					["votes"] = 0,
-					["response"] = "Disenchant",
-					["difficultyID"] = 15,
-					["isAwardReason"] = true,
-					["lootWon"] = "|cffa335ee|Hitem:152006::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Tactician's Waistguard]|h|r",
-					["time"] = "20:54:16",
-					["boss"] = "Antoran High Command",
-					["responseID"] = "AUTOPASS",
 					["date"] = "02/01/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:137488::151580::::::110:102::16:4:3535:1808:1602:3337:::|h[Cord of Wicked Pyromania]|h|r",
-				}, -- [6]
-				{
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514971549-11",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PRIEST",
-					["votes"] = 0,
+					["boss"] = "Antoran High Command",
 					["response"] = "Disenchant",
+					["votes"] = 0,
 					["difficultyID"] = 15,
+					["time"] = "20:54:16",
+					["lootWon"] = "|cffa335ee|Hitem:152006::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Tactician's Waistguard]|h|r",
 					["isAwardReason"] = true,
-					["lootWon"] = "|cffa335ee|Hitem:152008::::::::110:102::5:3:3611:1487:3528:::|h[Reality-Splitting Wristguards]|h|r",
-					["time"] = "21:25:49",
-					["boss"] = "Portal Keeper Hasabel",
 					["responseID"] = "AUTOPASS",
+					["id"] = "1514969656-8",
+					["mapID"] = 1712,
+				}, -- [6]
+				{
 					["date"] = "02/01/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:137372::::::::110:102::16:4:3536:41:1607:3337:::|h[Wristbands of the Swirling Deeps]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 16,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "PRIEST",
+					["boss"] = "Portal Keeper Hasabel",
+					["response"] = "Disenchant",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "21:25:49",
+					["lootWon"] = "|cffa335ee|Hitem:152008::::::::110:102::5:3:3611:1487:3528:::|h[Reality-Splitting Wristguards]|h|r",
+					["isAwardReason"] = true,
+					["responseID"] = "AUTOPASS",
+					["id"] = "1514971549-11",
+					["mapID"] = 1712,
 				}, -- [7]
 				{
 					["mapID"] = 1712,
@@ -4150,20 +4163,6 @@ RCLootCouncilLootDB = {
 					["votes"] = 2,
 				}, -- [8]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137488::151580::::::110:102::16:4:3535:1808:1602:3337:::|h[Cord of Wicked Pyromania]|h|r",
-					["id"] = "1515580714-14",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "PRIEST",
-					["difficultyID"] = 15,
-					["response"] = "Minor Upgrade",
-					["isAwardReason"] = false,
-					["boss"] = "Varimathras",
-					["time"] = "22:38:34",
-					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:102::5:4:3611:41:1487:3528:::|h[Cord of Surging Hysteria]|h|r",
-					["votes"] = 2,
-					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
@@ -4171,22 +4170,22 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515580714-14",
+					["class"] = "PRIEST",
+					["votes"] = 2,
+					["response"] = "Minor Upgrade",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:102::5:4:3611:41:1487:3528:::|h[Cord of Surging Hysteria]|h|r",
+					["time"] = "22:38:34",
+					["boss"] = "Varimathras",
+					["responseID"] = 3,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:137488::151580::::::110:102::16:4:3535:1808:1602:3337:::|h[Cord of Wicked Pyromania]|h|r",
 				}, -- [9]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152157::::::::110:102::3:3:3610:1472:3528:::|h[Gilded Seraph's Leggings]|h|r",
-					["id"] = "1515581295-15",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "PRIEST",
-					["difficultyID"] = 15,
-					["response"] = "Offspec/Greed",
-					["isAwardReason"] = false,
-					["boss"] = "The Coven of Shivarra",
-					["time"] = "22:48:15",
-					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:102::5:3:3611:1487:3528:::|h[Fervent Twilight Legwraps]|h|r",
-					["votes"] = 0,
-					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
@@ -4194,6 +4193,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515581295-15",
+					["class"] = "PRIEST",
+					["votes"] = 0,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:102::5:3:3611:1487:3528:::|h[Fervent Twilight Legwraps]|h|r",
+					["time"] = "22:48:15",
+					["boss"] = "The Coven of Shivarra",
+					["responseID"] = 2,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152157::::::::110:102::3:3:3610:1472:3528:::|h[Gilded Seraph's Leggings]|h|r",
 				}, -- [10]
 				{
 					["mapID"] = 1712,
@@ -4245,231 +4258,231 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [12]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151939::151580::::::110:102::5:5:3611:1808:41:1487:3528:::|h[Whisperstep Runners]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 19,
-					["id"] = "1516791520-32",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PRIEST",
-					["votes"] = 2,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151940::::::::110:102::5:3:3611:1497:3336:::|h[Sandals of the Reborn Colossus]|h|r",
-					["time"] = "22:58:40",
 					["boss"] = "Aggramar",
+					["response"] = "Mainspec/Need",
+					["votes"] = 2,
+					["difficultyID"] = 15,
+					["time"] = "22:58:40",
+					["lootWon"] = "|cffa335ee|Hitem:151940::::::::110:102::5:3:3611:1497:3336:::|h[Sandals of the Reborn Colossus]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151939::151580::::::110:102::5:5:3611:1808:41:1487:3528:::|h[Whisperstep Runners]|h|r",
+					["id"] = "1516791520-32",
+					["mapID"] = 1712,
 				}, -- [13]
 				{
-					["id"] = "1517391306-2",
-					["mapID"] = 1712,
-					["date"] = "30/01/18",
-					["groupSize"] = 16,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PRIEST",
-					["isAwardReason"] = true,
-					["response"] = "Disenchant",
-					["boss"] = "Garothi Worldbreaker",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:102::5:3:3611:1487:3528:::|h[Shoulderpads of the Demonic Blitz]|h|r",
-					["time"] = "21:35:06",
-					["difficultyID"] = 15,
-					["responseID"] = "AUTOPASS",
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["itemReplaced1"] = "|cffa335ee|Hitem:152159::::::::110:102::5:3:3611:1487:3528:::|h[Gilded Seraph's Amice]|h|r",
+					["id"] = "1517391306-2",
+					["groupSize"] = 16,
+					["date"] = "30/01/18",
+					["class"] = "PRIEST",
+					["difficultyID"] = 15,
+					["response"] = "Disenchant",
+					["isAwardReason"] = true,
+					["boss"] = "Garothi Worldbreaker",
+					["time"] = "21:35:06",
+					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:102::5:3:3611:1487:3528:::|h[Shoulderpads of the Demonic Blitz]|h|r",
+					["votes"] = 0,
+					["responseID"] = "AUTOPASS",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["mapID"] = 1712,
 				}, -- [14]
 				{
-					["id"] = "1517391317-3",
-					["mapID"] = 1712,
-					["date"] = "30/01/18",
-					["groupSize"] = 16,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PRIEST",
-					["isAwardReason"] = true,
-					["response"] = "Disenchant",
-					["boss"] = "Garothi Worldbreaker",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:152002::::::::110:102::5:3:3611:1487:3528:::|h[Battalion-Shattering Leggings]|h|r",
-					["time"] = "21:35:17",
-					["difficultyID"] = 15,
-					["responseID"] = "AUTOPASS",
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["itemReplaced1"] = "|cffa335ee|Hitem:152157::::::::110:102::5:3:3611:1487:3528:::|h[Gilded Seraph's Leggings]|h|r",
-				}, -- [15]
-				{
-					["mapID"] = 1712,
-					["itemReplaced1"] = "|cffa335ee|Hitem:151942::::::::110:102::5:4:3611:41:1487:3528:::|h[Cord of Surging Hysteria]|h|r",
+					["id"] = "1517391317-3",
+					["groupSize"] = 16,
+					["date"] = "30/01/18",
+					["class"] = "PRIEST",
+					["difficultyID"] = 15,
+					["response"] = "Disenchant",
+					["isAwardReason"] = true,
+					["boss"] = "Garothi Worldbreaker",
+					["time"] = "21:35:17",
+					["lootWon"] = "|cffa335ee|Hitem:152002::::::::110:102::5:3:3611:1487:3528:::|h[Battalion-Shattering Leggings]|h|r",
+					["votes"] = 0,
+					["responseID"] = "AUTOPASS",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Disenchant",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["class"] = "PRIEST",
-					["votes"] = 0,
-					["groupSize"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1487:3528:::|h[Flamelicked Girdle]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "20:48:24",
-					["boss"] = "Felhounds of Sargeras",
-					["isAwardReason"] = true,
-					["responseID"] = "AUTOPASS",
+					["mapID"] = 1712,
+				}, -- [15]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:151942::::::::110:102::5:4:3611:41:1487:3528:::|h[Cord of Surging Hysteria]|h|r",
+					["mapID"] = 1712,
 					["date"] = "06/02/18",
+					["response"] = "Disenchant",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["boss"] = "Felhounds of Sargeras",
+					["groupSize"] = 15,
+					["time"] = "20:48:24",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1487:3528:::|h[Flamelicked Girdle]|h|r",
+					["isAwardReason"] = true,
+					["difficultyID"] = 15,
+					["responseID"] = "AUTOPASS",
 					["id"] = "1517993304-3",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [16]
 				{
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Disenchant",
-					["date"] = "06/02/18",
-					["class"] = "PRIEST",
-					["isAwardReason"] = true,
-					["groupSize"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152027::::::::110:102::5:3:3611:1487:3528:::|h[Gravitational Condensate]|h|r",
-					["boss"] = "Felhounds of Sargeras",
-					["time"] = "20:48:26",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = "AUTOPASS",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 15,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "PRIEST",
+					["votes"] = 0,
+					["response"] = "Disenchant",
+					["time"] = "20:48:26",
+					["boss"] = "Felhounds of Sargeras",
+					["lootWon"] = "|cffa335ee|Hitem:152027::::::::110:102::5:3:3611:1487:3528:::|h[Gravitational Condensate]|h|r",
+					["difficultyID"] = 15,
+					["isAwardReason"] = true,
+					["responseID"] = "AUTOPASS",
 					["id"] = "1517993306-4",
+					["date"] = "06/02/18",
 				}, -- [17]
 				{
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Disenchant",
-					["date"] = "06/02/18",
-					["class"] = "PRIEST",
-					["isAwardReason"] = true,
-					["groupSize"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152027::::::::110:102::5:3:3611:1487:3528:::|h[Gravitational Condensate]|h|r",
-					["boss"] = "Felhounds of Sargeras",
-					["time"] = "20:48:29",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = "AWARDED",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 15,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "PRIEST",
+					["votes"] = 0,
+					["response"] = "Disenchant",
+					["time"] = "20:48:29",
+					["boss"] = "Felhounds of Sargeras",
+					["lootWon"] = "|cffa335ee|Hitem:152027::::::::110:102::5:3:3611:1487:3528:::|h[Gravitational Condensate]|h|r",
+					["difficultyID"] = 15,
+					["isAwardReason"] = true,
+					["responseID"] = "AWARDED",
 					["id"] = "1517993309-5",
+					["date"] = "06/02/18",
 				}, -- [18]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:151940::::::::110:102::5:3:3611:1497:3336:::|h[Sandals of the Reborn Colossus]|h|r",
+					["mapID"] = 1712,
+					["date"] = "06/02/18",
+					["response"] = "Disenchant",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Disenchant",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PRIEST",
-					["votes"] = 0,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151997::::::::110:102::5:3:3611:1492:3336:::|h[Nathrezim Shade-Walkers]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "22:37:20",
 					["boss"] = "Unknown",
+					["groupSize"] = 16,
+					["time"] = "22:37:20",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:151997::::::::110:102::5:3:3611:1492:3336:::|h[Nathrezim Shade-Walkers]|h|r",
 					["isAwardReason"] = true,
+					["difficultyID"] = 15,
 					["responseID"] = "AUTOPASS",
-					["date"] = "06/02/18",
 					["id"] = "1517999840-1",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [19]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:151942::::::::110:102::5:4:3611:41:1487:3528:::|h[Cord of Surging Hysteria]|h|r",
+					["mapID"] = 1712,
+					["date"] = "06/02/18",
+					["response"] = "Mainspec/Need",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PRIEST",
-					["votes"] = 1,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:102::5:3:3611:1492:3336:::|h[Cord of Surging Hysteria]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "22:37:30",
 					["boss"] = "Unknown",
+					["groupSize"] = 16,
+					["time"] = "22:37:30",
+					["votes"] = 1,
+					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:102::5:3:3611:1492:3336:::|h[Cord of Surging Hysteria]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 1,
-					["date"] = "06/02/18",
 					["id"] = "1517999850-2",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [20]
 				{
+					["date"] = "13/02/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152159::::::::110:104::5:3:3611:1487:3528:::|h[Gilded Seraph's Amice]|h|r",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 12,
-					["id"] = "1518596874-1",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PRIEST",
-					["votes"] = 0,
-					["response"] = "Disenchant",
-					["difficultyID"] = 15,
-					["isAwardReason"] = true,
-					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:104::5:3:3611:1487:3528:::|h[Shoulderpads of the Demonic Blitz]|h|r",
-					["time"] = "20:27:54",
 					["boss"] = "Garothi Worldbreaker",
+					["response"] = "Disenchant",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "20:27:54",
+					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:104::5:3:3611:1487:3528:::|h[Shoulderpads of the Demonic Blitz]|h|r",
+					["isAwardReason"] = true,
 					["responseID"] = "AUTOPASS",
-					["date"] = "13/02/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152159::::::::110:104::5:3:3611:1487:3528:::|h[Gilded Seraph's Amice]|h|r",
+					["id"] = "1518596874-1",
+					["mapID"] = 1712,
 				}, -- [21]
 				{
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["date"] = "13/02/18",
-					["id"] = "1518599176-9",
-					["class"] = "PRIEST",
-					["boss"] = "Portal Keeper Hasabel",
-					["response"] = "Offspec/Greed",
-					["votes"] = 1,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152057::::::::110:102::5:3:3611:1487:3528:::|h[Crepuscular Skitterer Egg]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:06:16",
-					["responseID"] = 2,
-					["groupSize"] = 12,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["date"] = "13/02/18",
+					["class"] = "PRIEST",
+					["boss"] = "Portal Keeper Hasabel",
+					["groupSize"] = 12,
+					["isAwardReason"] = false,
+					["votes"] = 1,
+					["time"] = "21:06:16",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152057::::::::110:102::5:3:3611:1487:3528:::|h[Crepuscular Skitterer Egg]|h|r",
+					["responseID"] = 2,
+					["response"] = "Offspec/Greed",
+					["id"] = "1518599176-9",
 				}, -- [22]
 			},
 			["Ramlethall-Tichondrius"] = {
@@ -4597,27 +4610,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [5]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147101::::::::110:581::5:3:3562:1507:3336:::|h[Chiseled Starlight]|h|r",
-					["id"] = "1512551585-12",
-					["response"] = "Mainspec/Need",
-					["date"] = "05/12/17",
-					["class"] = "DEMONHUNTER",
-					["isAwardReason"] = false,
-					["groupSize"] = 19,
-					["lootWon"] = "|cffa335ee|Hitem:152049::::::::110:102::5:3:3611:1487:3528:::|h[Fel-Engraved Handbell]|h|r",
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "21:13:05",
-					["difficultyID"] = 15,
-					["votes"] = 2,
-					["responseID"] = 1,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Mainspec/Need",
+					["id"] = "1512551585-12",
+					["class"] = "DEMONHUNTER",
+					["difficultyID"] = 15,
+					["groupSize"] = 19,
+					["time"] = "21:13:05",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152049::::::::110:102::5:3:3611:1487:3528:::|h[Fel-Engraved Handbell]|h|r",
+					["votes"] = 2,
+					["boss"] = "Portal Keeper Hasabel",
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "05/12/17",
 				}, -- [6]
 				{
 					["mapID"] = 1712,
@@ -4720,27 +4733,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 2,
 				}, -- [10]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:137536:5439:::::::110:102::35:3:3418:1592:3337:::|h[Pendant of the Watchful Eye]|h|r",
 					["id"] = "1513758646-5",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 15,
+					["date"] = "19/12/17",
+					["class"] = "DEMONHUNTER",
+					["difficultyID"] = 15,
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["boss"] = "Felhounds of Sargeras",
+					["time"] = "20:30:46",
+					["lootWon"] = "|cffa335ee|Hitem:151973::::::::110:102::5:3:3611:1507:3337:::|h[Collar of Null-Flame]|h|r",
+					["votes"] = 1,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEMONHUNTER",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["boss"] = "Felhounds of Sargeras",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:151973::::::::110:102::5:3:3611:1507:3337:::|h[Collar of Null-Flame]|h|r",
-					["time"] = "20:30:46",
-					["difficultyID"] = 15,
-					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137536:5439:::::::110:102::35:3:3418:1592:3337:::|h[Pendant of the Watchful Eye]|h|r",
+					["mapID"] = 1712,
 				}, -- [11]
 				{
 					["mapID"] = 1712,
@@ -4792,20 +4805,6 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [13]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152031::::::::110:102::5:3:3611:1487:3528:::|h[Doomfire Dynamo]|h|r",
-					["id"] = "1515572565-2",
-					["groupSize"] = 17,
-					["date"] = "09/01/18",
-					["class"] = "DEMONHUNTER",
-					["difficultyID"] = 15,
-					["response"] = "Offspec/Greed",
-					["isAwardReason"] = false,
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:22:45",
-					["lootWon"] = "|cffa335ee|Hitem:152031::::::::110:102::5:3:3611:1487:3528:::|h[Doomfire Dynamo]|h|r",
-					["votes"] = 1,
-					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
@@ -4813,6 +4812,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 17,
+					["id"] = "1515572565-2",
+					["class"] = "DEMONHUNTER",
+					["votes"] = 1,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152031::::::::110:102::5:3:3611:1487:3528:::|h[Doomfire Dynamo]|h|r",
+					["time"] = "20:22:45",
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = 2,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152031::::::::110:102::5:3:3611:1487:3528:::|h[Doomfire Dynamo]|h|r",
 				}, -- [14]
 				{
 					["mapID"] = 1712,
@@ -4967,20 +4980,6 @@ RCLootCouncilLootDB = {
 					["votes"] = 2,
 				}, -- [2]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147109::::::::110:261::6:3:3563:1512:3528:::|h[Harjatan's Leering Eye]|h|r",
-					["id"] = "1511955877-17",
-					["groupSize"] = 18,
-					["date"] = "28/11/17",
-					["class"] = "ROGUE",
-					["difficultyID"] = 15,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "The Defense of Eonar",
-					["time"] = "23:44:37",
-					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:102::5:3:3611:1487:3528:::|h[Unwavering Soul Essence]|h|r",
-					["votes"] = 1,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -4988,6 +4987,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1511955877-17",
+					["class"] = "ROGUE",
+					["votes"] = 1,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:102::5:3:3611:1487:3528:::|h[Unwavering Soul Essence]|h|r",
+					["time"] = "23:44:37",
+					["boss"] = "The Defense of Eonar",
+					["responseID"] = 1,
+					["date"] = "28/11/17",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147109::::::::110:261::6:3:3563:1512:3528:::|h[Harjatan's Leering Eye]|h|r",
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -5064,27 +5077,27 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [6]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147172::::::::110:102::5:3:3562:1497:3528:::|h[Fanged Slayer's Helm]|h|r",
-					["id"] = "1513155359-13",
-					["response"] = "Offspec/Greed",
-					["date"] = "12/12/17",
-					["class"] = "ROGUE",
-					["isAwardReason"] = false,
-					["groupSize"] = 17,
-					["lootWon"] = "|cffa335ee|Hitem:152681::::::::110:102::5:4:3611:1808:1487:3528:::|h[Headdress of Living Brambles]|h|r",
-					["boss"] = "The Defense of Eonar",
-					["time"] = "20:55:59",
-					["difficultyID"] = 15,
-					["votes"] = 1,
-					["responseID"] = 2,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Offspec/Greed",
+					["id"] = "1513155359-13",
+					["class"] = "ROGUE",
+					["difficultyID"] = 15,
+					["groupSize"] = 17,
+					["time"] = "20:55:59",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152681::::::::110:102::5:4:3611:1808:1487:3528:::|h[Headdress of Living Brambles]|h|r",
+					["votes"] = 1,
+					["boss"] = "The Defense of Eonar",
+					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [7]
 				{
 					["mapID"] = 1712,
@@ -5112,50 +5125,50 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [8]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:151990::::::::110:102::5:3:3611:1487:3528:::|h[Portal Keeper's Cincture]|h|r",
-					["id"] = "1513160144-29",
-					["response"] = "Minor Upgrade",
-					["date"] = "12/12/17",
-					["class"] = "ROGUE",
-					["isAwardReason"] = false,
-					["groupSize"] = 19,
-					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:102::5:3:3611:1487:3528:::|h[Belt of Fractured Sanity]|h|r",
-					["boss"] = "Varimathras",
-					["time"] = "22:15:44",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = 3,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Minor Upgrade",
+					["id"] = "1513160144-29",
+					["class"] = "ROGUE",
+					["difficultyID"] = 15,
+					["groupSize"] = 19,
+					["time"] = "22:15:44",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:102::5:3:3611:1487:3528:::|h[Belt of Fractured Sanity]|h|r",
+					["votes"] = 0,
+					["boss"] = "Varimathras",
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [9]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147170:5435:::::::110:102::6:3:3563:1512:3528:::|h[Fanged Slayer's Shroud]|h|r",
 					["id"] = "1513757942-2",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 14,
+					["date"] = "19/12/17",
+					["class"] = "ROGUE",
+					["difficultyID"] = 15,
+					["response"] = "Minor Upgrade",
+					["isAwardReason"] = false,
+					["boss"] = "Garothi Worldbreaker",
+					["time"] = "20:19:02",
+					["lootWon"] = "|cffa335ee|Hitem:151937::::::::110:102::5:3:3611:1487:3528:::|h[Cloak of the Burning Vanguard]|h|r",
+					["votes"] = 1,
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["class"] = "ROGUE",
-					["isAwardReason"] = false,
-					["response"] = "Minor Upgrade",
-					["boss"] = "Garothi Worldbreaker",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:151937::::::::110:102::5:3:3611:1487:3528:::|h[Cloak of the Burning Vanguard]|h|r",
-					["time"] = "20:19:02",
-					["difficultyID"] = 15,
-					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147170:5435:::::::110:102::6:3:3563:1512:3528:::|h[Fanged Slayer's Shroud]|h|r",
+					["mapID"] = 1712,
 				}, -- [10]
 				{
 					["mapID"] = 1712,
@@ -5185,27 +5198,27 @@ RCLootCouncilLootDB = {
 			},
 			["Sogÿpancake-Tichondrius"] = {
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152144::::::::110:102::3:3:3610:1477:3336:::|h[Grips of Chi'Ji]|h|r",
+					["mapID"] = 1712,
+					["date"] = "06/02/18",
+					["response"] = "Offspec/Greed",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Offspec/Greed",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MONK",
-					["votes"] = 0,
-					["groupSize"] = 17,
-					["lootWon"] = "|cffa335ee|Hitem:152086::::::::110:102::5:3:3611:1487:3528:::|h[Grips of Hungering Shadows]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:21:48",
 					["boss"] = "Portal Keeper Hasabel",
+					["groupSize"] = 17,
+					["time"] = "21:21:48",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:152086::::::::110:102::5:3:3611:1487:3528:::|h[Grips of Hungering Shadows]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 2,
-					["date"] = "06/02/18",
 					["id"] = "1517995308-9",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -5308,50 +5321,50 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [3]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:151943::::::::110:102::3:4:3610:1808:1472:3528:::|h[Crown of Relentless Annihilation]|h|r",
+					["mapID"] = 1712,
+					["date"] = "01/02/18",
+					["response"] = "Minor Upgrade",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Minor Upgrade",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
-					["votes"] = 0,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151944::::::::110:102::5:3:3611:1487:3528:::|h[Soulhunter's Cowl]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:29:11",
 					["boss"] = "Imonar the Soulhunter",
+					["groupSize"] = 16,
+					["time"] = "21:29:11",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:151944::::::::110:102::5:3:3611:1487:3528:::|h[Soulhunter's Cowl]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 3,
-					["date"] = "01/02/18",
 					["id"] = "1517563751-13",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [4]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152349::::::::110:102::3:3:3614:1472:3528:::|h[Nefarious Light-Step Slippers]|h|r",
+					["mapID"] = 1712,
+					["date"] = "06/02/18",
+					["response"] = "Mainspec/Need",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
-					["votes"] = 0,
-					["groupSize"] = 17,
-					["lootWon"] = "|cffa335ee|Hitem:151945::::::::110:102::5:3:3611:1487:3528:::|h[Lady Dacidion's Silk Slippers]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:21:54",
 					["boss"] = "Portal Keeper Hasabel",
+					["groupSize"] = 17,
+					["time"] = "21:21:54",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:151945::::::::110:102::5:3:3611:1487:3528:::|h[Lady Dacidion's Silk Slippers]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 1,
-					["date"] = "06/02/18",
 					["id"] = "1517995314-10",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [5]
 				{
 					["mapID"] = 1712,
@@ -5379,45 +5392,31 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [6]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:137372::::::::110:102::16:4:3414:1808:1552:3528:::|h[Wristbands of the Swirling Deeps]|h|r",
+					["mapID"] = 1712,
+					["date"] = "06/02/18",
+					["response"] = "Mainspec/Need",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
-					["votes"] = 0,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151954::::::::110:102::5:4:3611:43:1487:3528:::|h[Blood-Drenched Bindings]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "22:36:54",
 					["boss"] = "Unknown",
+					["groupSize"] = 16,
+					["time"] = "22:36:54",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:151954::::::::110:102::5:4:3611:43:1487:3528:::|h[Blood-Drenched Bindings]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 1,
-					["date"] = "06/02/18",
 					["id"] = "1517999814-0",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [7]
 			},
 			["Nomally-Tichondrius"] = {
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147106::::::::110:270::5:3:3562:1502:3336:::|h[Glowing Prayer Candle]|h|r",
-					["id"] = "1511946910-6",
-					["groupSize"] = 17,
-					["date"] = "28/11/17",
-					["class"] = "MONK",
-					["difficultyID"] = 15,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Felhounds of Sargeras",
-					["time"] = "21:15:10",
-					["lootWon"] = "|cffa335ee|Hitem:152291::::::::110:102::5:3:3611:1492:3336:::|h[Fraternal Fervor]|h|r",
-					["votes"] = 2,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -5425,6 +5424,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 17,
+					["id"] = "1511946910-6",
+					["class"] = "MONK",
+					["votes"] = 2,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152291::::::::110:102::5:3:3611:1492:3336:::|h[Fraternal Fervor]|h|r",
+					["time"] = "21:15:10",
+					["boss"] = "Felhounds of Sargeras",
+					["responseID"] = 1,
+					["date"] = "28/11/17",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147106::::::::110:270::5:3:3562:1502:3336:::|h[Glowing Prayer Candle]|h|r",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -5452,27 +5465,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 2,
 				}, -- [2]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147114::::::::110:270::6:3:3563:1512:3528:::|h[Preserved Starlight Incense]|h|r",
 					["id"] = "1512127180-9",
-					["mapID"] = 1712,
-					["date"] = "30/11/17",
 					["groupSize"] = 17,
+					["date"] = "30/11/17",
+					["class"] = "MONK",
+					["difficultyID"] = 15,
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["boss"] = "Varimathras",
+					["time"] = "23:19:40",
+					["lootWon"] = "|cffa335ee|Hitem:152060::::::::110:102::5:3:3611:1502:3337:::|h[Neuroshock Electrode]|h|r",
+					["votes"] = 1,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "MONK",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["boss"] = "Varimathras",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152060::::::::110:102::5:3:3611:1502:3337:::|h[Neuroshock Electrode]|h|r",
-					["time"] = "23:19:40",
-					["difficultyID"] = 15,
-					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147114::::::::110:270::6:3:3563:1512:3528:::|h[Preserved Starlight Incense]|h|r",
+					["mapID"] = 1712,
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -5602,27 +5615,27 @@ RCLootCouncilLootDB = {
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [8]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147156::::::::110:102::5:3:3562:1507:3336:::|h[Xuen's Shoulderguards]|h|r",
 					["id"] = "1513757916-0",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 14,
+					["date"] = "19/12/17",
+					["class"] = "MONK",
+					["difficultyID"] = 15,
+					["response"] = "Pass",
+					["isAwardReason"] = false,
+					["boss"] = "Garothi Worldbreaker",
+					["time"] = "20:18:36",
+					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:102::5:3:3611:1487:3528:::|h[Shoulderpads of the Demonic Blitz]|h|r",
+					["votes"] = 1,
+					["responseID"] = "PASS",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["class"] = "MONK",
-					["isAwardReason"] = false,
-					["response"] = "Pass",
-					["boss"] = "Garothi Worldbreaker",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:102::5:3:3611:1487:3528:::|h[Shoulderpads of the Demonic Blitz]|h|r",
-					["time"] = "20:18:36",
-					["difficultyID"] = 15,
-					["responseID"] = "PASS",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147156::::::::110:102::5:3:3562:1507:3336:::|h[Xuen's Shoulderguards]|h|r",
+					["mapID"] = 1712,
 				}, -- [9]
 				{
 					["mapID"] = 1712,
@@ -5650,27 +5663,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [10]
 				{
+					["id"] = "1515143115-0",
+					["mapID"] = 1712,
 					["date"] = "04/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151980::::::::110:102::5:3:3611:1487:3528:::|h[Harness of Oppressing Dark]|h|r",
+					["groupSize"] = 19,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 19,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MONK",
-					["boss"] = "Argus the Unmaker",
-					["response"] = "Mainspec/Need",
-					["votes"] = 0,
-					["difficultyID"] = 15,
-					["time"] = "21:05:15",
-					["lootWon"] = "|cffa335ee|Hitem:151982::::::::110:102::5:3:3611:1487:3528:::|h[Vest of Waning Life]|h|r",
 					["isAwardReason"] = false,
+					["response"] = "Mainspec/Need",
+					["boss"] = "Argus the Unmaker",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:151982::::::::110:102::5:3:3611:1487:3528:::|h[Vest of Waning Life]|h|r",
+					["time"] = "21:05:15",
+					["difficultyID"] = 15,
 					["responseID"] = 1,
-					["id"] = "1515143115-0",
-					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151980::::::::110:102::5:3:3611:1487:3528:::|h[Harness of Oppressing Dark]|h|r",
 				}, -- [11]
 				{
 					["mapID"] = 1712,
@@ -5724,25 +5737,25 @@ RCLootCouncilLootDB = {
 				}, -- [13]
 				{
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Offspec/Greed",
-					["date"] = "01/02/18",
-					["class"] = "MONK",
-					["isAwardReason"] = false,
-					["groupSize"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152048::::::::110:102::5:3:3611:1487:3528:::|h[Decimator Crankshaft]|h|r",
-					["boss"] = "Kin'garoth",
-					["time"] = "21:44:15",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 15,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "MONK",
+					["votes"] = 0,
+					["response"] = "Offspec/Greed",
+					["time"] = "21:44:15",
+					["boss"] = "Kin'garoth",
+					["lootWon"] = "|cffa335ee|Hitem:152048::::::::110:102::5:3:3611:1487:3528:::|h[Decimator Crankshaft]|h|r",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["responseID"] = 2,
 					["id"] = "1517564655-17",
+					["date"] = "01/02/18",
 				}, -- [14]
 			},
 			["Wilanera-Tichondrius"] = {
@@ -5795,27 +5808,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 1,
 				}, -- [2]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:137325::::::::110:102::16:3:3536:1592:3528:::|h[Afterlife Manacles]|h|r",
-					["id"] = "1513154695-11",
-					["response"] = "Offspec/Greed",
-					["date"] = "12/12/17",
-					["class"] = "SHAMAN",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:152008::::::::110:102::5:3:3611:1492:3336:::|h[Reality-Splitting Wristguards]|h|r",
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "20:44:55",
-					["difficultyID"] = 15,
-					["votes"] = 1,
-					["responseID"] = 2,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Offspec/Greed",
+					["id"] = "1513154695-11",
+					["class"] = "SHAMAN",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "20:44:55",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152008::::::::110:102::5:3:3611:1492:3336:::|h[Reality-Splitting Wristguards]|h|r",
+					["votes"] = 1,
+					["boss"] = "Portal Keeper Hasabel",
+					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -5868,50 +5881,50 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [5]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:134383::::::::110:102::43:3:3573:1587:3337:::|h[Mardum Chain Waistguard]|h|r",
-					["id"] = "1513156481-17",
-					["response"] = "Minor Upgrade",
-					["date"] = "12/12/17",
-					["class"] = "SHAMAN",
-					["isAwardReason"] = false,
-					["groupSize"] = 17,
-					["lootWon"] = "|cffa335ee|Hitem:152006::::::::110:102::5:4:3611:43:1487:3528:::|h[Depraved Tactician's Waistguard]|h|r",
-					["boss"] = "Antoran High Command",
-					["time"] = "21:14:41",
-					["difficultyID"] = 15,
-					["votes"] = 2,
-					["responseID"] = 3,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Minor Upgrade",
+					["id"] = "1513156481-17",
+					["class"] = "SHAMAN",
+					["difficultyID"] = 15,
+					["groupSize"] = 17,
+					["time"] = "21:14:41",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152006::::::::110:102::5:4:3611:43:1487:3528:::|h[Depraved Tactician's Waistguard]|h|r",
+					["votes"] = 2,
+					["boss"] = "Antoran High Command",
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [6]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:134467::::::::110:102::35:3:3418:1597:3337:::|h[Nether Mindsnappers]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["response"] = "Offspec/Greed",
-					["id"] = "1513335558-13",
-					["class"] = "SHAMAN",
-					["difficultyID"] = 14,
-					["groupSize"] = 13,
-					["time"] = "22:59:18",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151999::::::::110:102::3:4:3610:40:1472:3528:::|h[Preysnare Vicegrips]|h|r",
-					["votes"] = 1,
-					["boss"] = "Imonar the Soulhunter",
-					["responseID"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134467::::::::110:102::35:3:3418:1597:3337:::|h[Nether Mindsnappers]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "SHAMAN",
+					["votes"] = 1,
+					["groupSize"] = 13,
+					["lootWon"] = "|cffa335ee|Hitem:151999::::::::110:102::3:4:3610:40:1472:3528:::|h[Preysnare Vicegrips]|h|r",
+					["difficultyID"] = 14,
+					["time"] = "22:59:18",
+					["boss"] = "Imonar the Soulhunter",
+					["isAwardReason"] = false,
+					["responseID"] = 2,
 					["date"] = "14/12/17",
+					["id"] = "1513335558-13",
 				}, -- [7]
 				{
 					["mapID"] = 1712,
@@ -5940,25 +5953,25 @@ RCLootCouncilLootDB = {
 				}, -- [8]
 				{
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["date"] = "02/01/18",
-					["id"] = "1514968662-5",
-					["class"] = "SHAMAN",
-					["boss"] = "Felhounds of Sargeras",
-					["response"] = "Offspec/Greed",
-					["votes"] = 1,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152059::::::::110:102::5:3:3611:1487:3528:::|h[Whistling Ulna]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "20:37:42",
-					["responseID"] = 2,
-					["groupSize"] = 16,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["date"] = "02/01/18",
+					["class"] = "SHAMAN",
+					["boss"] = "Felhounds of Sargeras",
+					["groupSize"] = 16,
+					["isAwardReason"] = false,
+					["votes"] = 1,
+					["time"] = "20:37:42",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152059::::::::110:102::5:3:3611:1487:3528:::|h[Whistling Ulna]|h|r",
+					["responseID"] = 2,
+					["response"] = "Offspec/Greed",
+					["id"] = "1514968662-5",
 				}, -- [9]
 				{
 					["mapID"] = 1712,
@@ -5985,20 +5998,6 @@ RCLootCouncilLootDB = {
 					["votes"] = 2,
 				}, -- [10]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:144494::::::::110:102::35:3:3536:1637:3337:::|h[Imposing Dreadsoul Headgear]|h|r",
-					["id"] = "1515577173-0",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "SHAMAN",
-					["difficultyID"] = 15,
-					["response"] = "Disenchant",
-					["isAwardReason"] = true,
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "21:39:33",
-					["lootWon"] = "|cffa335ee|Hitem:152001::::::::110:102::5:3:3611:1497:3336:::|h[Nexus Conductor's Headgear]|h|r",
-					["votes"] = 0,
-					["responseID"] = "PASS",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -6006,22 +6005,22 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515577173-0",
+					["class"] = "SHAMAN",
+					["votes"] = 0,
+					["response"] = "Disenchant",
+					["difficultyID"] = 15,
+					["isAwardReason"] = true,
+					["lootWon"] = "|cffa335ee|Hitem:152001::::::::110:102::5:3:3611:1497:3336:::|h[Nexus Conductor's Headgear]|h|r",
+					["time"] = "21:39:33",
+					["boss"] = "Portal Keeper Hasabel",
+					["responseID"] = "PASS",
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:144494::::::::110:102::35:3:3536:1637:3337:::|h[Imposing Dreadsoul Headgear]|h|r",
 				}, -- [11]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151997::::::::110:102::5:4:3611:41:1492:3336:::|h[Nathrezim Shade-Walkers]|h|r",
-					["id"] = "1515579935-9",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "SHAMAN",
-					["difficultyID"] = 15,
-					["response"] = "Disenchant",
-					["isAwardReason"] = true,
-					["boss"] = "Kin'garoth",
-					["time"] = "22:25:35",
-					["lootWon"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
-					["votes"] = 0,
-					["responseID"] = "AUTOPASS",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -6029,22 +6028,22 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515579935-9",
+					["class"] = "SHAMAN",
+					["votes"] = 0,
+					["response"] = "Disenchant",
+					["difficultyID"] = 15,
+					["isAwardReason"] = true,
+					["lootWon"] = "|cffa335ee|Hitem:152412::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Machinist's Footpads]|h|r",
+					["time"] = "22:25:35",
+					["boss"] = "Kin'garoth",
+					["responseID"] = "AUTOPASS",
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151997::::::::110:102::5:4:3611:41:1492:3336:::|h[Nathrezim Shade-Walkers]|h|r",
 				}, -- [12]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151997::::::::110:102::5:4:3611:41:1492:3336:::|h[Nathrezim Shade-Walkers]|h|r",
-					["id"] = "1515580673-11",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "SHAMAN",
-					["difficultyID"] = 15,
-					["response"] = "Disenchant",
-					["isAwardReason"] = true,
-					["boss"] = "Varimathras",
-					["time"] = "22:37:53",
-					["lootWon"] = "|cffa335ee|Hitem:151997::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Shade-Walkers]|h|r",
-					["votes"] = 0,
-					["responseID"] = "PASS",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -6052,215 +6051,229 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515580673-11",
+					["class"] = "SHAMAN",
+					["votes"] = 0,
+					["response"] = "Disenchant",
+					["difficultyID"] = 15,
+					["isAwardReason"] = true,
+					["lootWon"] = "|cffa335ee|Hitem:151997::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Shade-Walkers]|h|r",
+					["time"] = "22:37:53",
+					["boss"] = "Varimathras",
+					["responseID"] = "PASS",
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151997::::::::110:102::5:4:3611:41:1492:3336:::|h[Nathrezim Shade-Walkers]|h|r",
 				}, -- [13]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152168::::::::110:102::5:3:3611:1502:3337:::|h[Gloves of Venerated Spirits]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152168::::::::110:102::5:3:3611:1502:3337:::|h[Gloves of Venerated Spirits]|h|r",
+					["id"] = "1516180917-7",
 					["response"] = "Disenchant",
+					["date"] = "16/01/18",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = true,
+					["groupSize"] = 19,
+					["lootWon"] = "|cffa335ee|Hitem:152086::::::::110:102::5:4:3611:1808:1487:3528:::|h[Grips of Hungering Shadows]|h|r",
+					["boss"] = "Portal Keeper Hasabel",
+					["time"] = "21:21:57",
+					["difficultyID"] = 15,
+					["votes"] = 0,
+					["responseID"] = "AUTOPASS",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["class"] = "SHAMAN",
-					["boss"] = "Portal Keeper Hasabel",
-					["groupSize"] = 19,
-					["time"] = "21:21:57",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:152086::::::::110:102::5:4:3611:1808:1487:3528:::|h[Grips of Hungering Shadows]|h|r",
-					["isAwardReason"] = true,
-					["difficultyID"] = 15,
-					["responseID"] = "AUTOPASS",
-					["id"] = "1516180917-7",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [14]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152168::::::::110:102::5:3:3611:1502:3337:::|h[Gloves of Venerated Spirits]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152168::::::::110:102::5:3:3611:1502:3337:::|h[Gloves of Venerated Spirits]|h|r",
+					["id"] = "1516182399-13",
 					["response"] = "Disenchant",
+					["date"] = "16/01/18",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = true,
+					["groupSize"] = 19,
+					["lootWon"] = "|cffa335ee|Hitem:152687::::::::110:102::5:3:3611:1487:3528:::|h[Imonar's Demi-Gauntlets]|h|r",
+					["boss"] = "Imonar the Soulhunter",
+					["time"] = "21:46:39",
+					["difficultyID"] = 15,
+					["votes"] = 0,
+					["responseID"] = "AUTOPASS",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["class"] = "SHAMAN",
-					["boss"] = "Imonar the Soulhunter",
-					["groupSize"] = 19,
-					["time"] = "21:46:39",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:152687::::::::110:102::5:3:3611:1487:3528:::|h[Imonar's Demi-Gauntlets]|h|r",
-					["isAwardReason"] = true,
-					["difficultyID"] = 15,
-					["responseID"] = "AUTOPASS",
-					["id"] = "1516182399-13",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [15]
 				{
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 19,
-					["id"] = "1516782624-0",
-					["class"] = "SHAMAN",
-					["votes"] = 0,
-					["response"] = "Disenchant",
-					["difficultyID"] = 15,
-					["isAwardReason"] = true,
-					["lootWon"] = "|cffa335ee|Hitem:152004::::::::110:102::5:3:3611:1487:3528:::|h[Pauldrons of the Soulburner]|h|r",
-					["time"] = "20:30:24",
-					["boss"] = "Felhounds of Sargeras",
-					["responseID"] = "PASS",
 					["date"] = "23/01/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:152171:5442:::::::110:102::5:3:3611:1497:3336:::|h[Pauldrons of Venerated Spirits]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 19,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "SHAMAN",
+					["boss"] = "Felhounds of Sargeras",
+					["response"] = "Disenchant",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "20:30:24",
+					["lootWon"] = "|cffa335ee|Hitem:152004::::::::110:102::5:3:3611:1487:3528:::|h[Pauldrons of the Soulburner]|h|r",
+					["isAwardReason"] = true,
+					["responseID"] = "PASS",
+					["id"] = "1516782624-0",
+					["mapID"] = 1712,
 				}, -- [16]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152006::::::::110:102::5:4:3611:43:1487:3528:::|h[Depraved Tactician's Waistguard]|h|r",
+					["mapID"] = 1712,
+					["date"] = "01/02/18",
+					["response"] = "Disenchant",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Disenchant",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "SHAMAN",
-					["votes"] = 0,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152020::::::::110:102::5:3:3611:1497:3336:::|h[Nathrezim Battle Girdle]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:06:58",
 					["boss"] = "Portal Keeper Hasabel",
+					["groupSize"] = 16,
+					["time"] = "21:06:58",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:152020::::::::110:102::5:3:3611:1497:3336:::|h[Nathrezim Battle Girdle]|h|r",
 					["isAwardReason"] = true,
+					["difficultyID"] = 15,
 					["responseID"] = "AUTOPASS",
-					["date"] = "01/02/18",
 					["id"] = "1517562418-7",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [17]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152170::::::::110:104::5:4:3611:40:1492:3336:::|h[Leggings of Venerated Spirits]|h|r",
+					["mapID"] = 1712,
+					["date"] = "01/02/18",
+					["response"] = "Disenchant",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Disenchant",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "SHAMAN",
-					["votes"] = 1,
-					["groupSize"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:104::5:3:3611:1492:3336:::|h[Greaves of Mercurial Allegiance]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "22:00:22",
 					["boss"] = "The Coven of Shivarra",
+					["groupSize"] = 15,
+					["time"] = "22:00:22",
+					["votes"] = 1,
+					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:104::5:3:3611:1492:3336:::|h[Greaves of Mercurial Allegiance]|h|r",
 					["isAwardReason"] = true,
+					["difficultyID"] = 15,
 					["responseID"] = "AUTOPASS",
-					["date"] = "01/02/18",
 					["id"] = "1517565622-19",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [18]
 				{
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 13,
-					["id"] = "1518597396-3",
-					["class"] = "SHAMAN",
-					["votes"] = 0,
-					["response"] = "Disenchant",
-					["difficultyID"] = 15,
-					["isAwardReason"] = true,
-					["lootWon"] = "|cffa335ee|Hitem:151980::::::::110:102::5:3:3611:1487:3528:::|h[Harness of Oppressing Dark]|h|r",
-					["time"] = "20:36:36",
-					["boss"] = "Felhounds of Sargeras",
-					["responseID"] = "AUTOPASS",
 					["date"] = "13/02/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:152166::::::::110:102::5:3:3611:1487:3528:::|h[Robes of Venerated Spirits]|h|r",
-				}, -- [19]
-				{
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
+					["groupSize"] = 13,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 12,
-					["id"] = "1518600858-12",
 					["class"] = "SHAMAN",
-					["votes"] = 0,
+					["boss"] = "Felhounds of Sargeras",
 					["response"] = "Disenchant",
+					["votes"] = 0,
 					["difficultyID"] = 15,
+					["time"] = "20:36:36",
+					["lootWon"] = "|cffa335ee|Hitem:151980::::::::110:102::5:3:3611:1487:3528:::|h[Harness of Oppressing Dark]|h|r",
 					["isAwardReason"] = true,
-					["lootWon"] = "|cffa335ee|Hitem:151999::::::::110:102::5:3:3611:1487:3528:::|h[Preysnare Vicegrips]|h|r",
-					["time"] = "21:34:18",
-					["boss"] = "Imonar the Soulhunter",
-					["responseID"] = "PASS",
+					["responseID"] = "AUTOPASS",
+					["id"] = "1518597396-3",
+					["mapID"] = 1712,
+				}, -- [19]
+				{
 					["date"] = "13/02/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:152168::::::::110:102::5:3:3611:1502:3337:::|h[Gloves of Venerated Spirits]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 12,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "SHAMAN",
+					["boss"] = "Imonar the Soulhunter",
+					["response"] = "Disenchant",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "21:34:18",
+					["lootWon"] = "|cffa335ee|Hitem:151999::::::::110:102::5:3:3611:1487:3528:::|h[Preysnare Vicegrips]|h|r",
+					["isAwardReason"] = true,
+					["responseID"] = "PASS",
+					["id"] = "1518600858-12",
+					["mapID"] = 1712,
 				}, -- [20]
 			},
 			["Tinderapp-Tichondrius"] = {
 				{
+					["date"] = "02/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152140::::::::110:102::3:3:3610:1472:3528:::|h[Runebound Tunic]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514968646-3",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
-					["votes"] = 1,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:102::5:3:3611:1487:3528:::|h[Vestments of Enflamed Blight]|h|r",
-					["time"] = "20:37:26",
 					["boss"] = "Felhounds of Sargeras",
+					["response"] = "Offspec/Greed",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "20:37:26",
+					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:102::5:3:3611:1487:3528:::|h[Vestments of Enflamed Blight]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "02/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152140::::::::110:102::3:3:3610:1472:3528:::|h[Runebound Tunic]|h|r",
+					["id"] = "1514968646-3",
+					["mapID"] = 1712,
 				}, -- [1]
 				{
+					["date"] = "02/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151965:5437:::::::110:102::3:3:3610:1482:3336:::|h[Vulcanarcore Pendant]|h|r",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514971571-12",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
-					["votes"] = 1,
-					["response"] = "Minor Upgrade",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151965::::::::110:102::5:3:3611:1487:3528:::|h[Vulcanarcore Pendant]|h|r",
-					["time"] = "21:26:11",
 					["boss"] = "Portal Keeper Hasabel",
+					["response"] = "Minor Upgrade",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "21:26:11",
+					["lootWon"] = "|cffa335ee|Hitem:151965::::::::110:102::5:3:3611:1487:3528:::|h[Vulcanarcore Pendant]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["date"] = "02/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151965:5437:::::::110:102::3:3:3610:1482:3336:::|h[Vulcanarcore Pendant]|h|r",
+					["id"] = "1514971571-12",
+					["mapID"] = 1712,
 				}, -- [2]
 				{
 					["mapID"] = 1712,
@@ -6287,89 +6300,75 @@ RCLootCouncilLootDB = {
 					["votes"] = 1,
 				}, -- [3]
 				{
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 16,
-					["id"] = "1514972952-17",
-					["class"] = "MAGE",
-					["votes"] = 1,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151939::::::::110:102::5:4:3611:1808:1487:3528:::|h[Whisperstep Runners]|h|r",
-					["time"] = "21:49:12",
-					["boss"] = "Imonar the Soulhunter",
-					["responseID"] = 1,
 					["date"] = "02/01/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:133608::::::::110:102::16:3:3415:1577:3337:::|h[Mistbound Helarjar Footwraps]|h|r",
-				}, -- [4]
-				{
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514977027-1",
-					["class"] = "MAGE",
-					["votes"] = 0,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:102::5:3:3611:1487:3528:::|h[Fervent Twilight Legwraps]|h|r",
-					["time"] = "22:57:07",
-					["boss"] = "The Coven of Shivarra",
-					["responseID"] = 1,
-					["date"] = "02/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152424::::::::110:102::3:3:3610:1477:3336:::|h[Legwraps of the Seasoned Exterminator]|h|r",
-				}, -- [5]
-				{
-					["date"] = "04/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152137::151580::::::110:102::3:4:3610:1808:1472:3528:::|h[Runebound Gloves]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 17,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
-					["boss"] = "Argus the Unmaker",
-					["response"] = "Offspec/Greed",
+					["boss"] = "Imonar the Soulhunter",
+					["response"] = "Mainspec/Need",
 					["votes"] = 1,
 					["difficultyID"] = 15,
-					["time"] = "21:06:18",
-					["lootWon"] = "|cffa335ee|Hitem:152680::::::::110:102::5:3:3611:1487:3528:::|h[Handwraps of Inevitable Doom]|h|r",
+					["time"] = "21:49:12",
+					["lootWon"] = "|cffa335ee|Hitem:151939::::::::110:102::5:4:3611:1808:1487:3528:::|h[Whisperstep Runners]|h|r",
 					["isAwardReason"] = false,
-					["responseID"] = 2,
+					["responseID"] = 1,
+					["id"] = "1514972952-17",
+					["mapID"] = 1712,
+				}, -- [4]
+				{
+					["date"] = "02/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152424::::::::110:102::3:3:3610:1477:3336:::|h[Legwraps of the Seasoned Exterminator]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 16,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "MAGE",
+					["boss"] = "The Coven of Shivarra",
+					["response"] = "Mainspec/Need",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "22:57:07",
+					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:102::5:3:3611:1487:3528:::|h[Fervent Twilight Legwraps]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1514977027-1",
+					["mapID"] = 1712,
+				}, -- [5]
+				{
 					["id"] = "1515143178-1",
 					["mapID"] = 1712,
+					["date"] = "04/01/18",
+					["groupSize"] = 17,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["isAwardReason"] = false,
+					["response"] = "Offspec/Greed",
+					["boss"] = "Argus the Unmaker",
+					["votes"] = 1,
+					["lootWon"] = "|cffa335ee|Hitem:152680::::::::110:102::5:3:3611:1487:3528:::|h[Handwraps of Inevitable Doom]|h|r",
+					["time"] = "21:06:18",
+					["difficultyID"] = 15,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152137::151580::::::110:102::3:4:3610:1808:1472:3528:::|h[Runebound Gloves]|h|r",
 				}, -- [6]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146998::::::::110:102::5:3:3562:1522:3337:::|h[Braided Torture Lash]|h|r",
-					["id"] = "1515572551-1",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "MAGE",
-					["difficultyID"] = 15,
-					["response"] = "Offspec/Greed",
-					["isAwardReason"] = false,
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:22:31",
-					["lootWon"] = "|cffa335ee|Hitem:151951::::::::110:102::5:3:3611:1487:3528:::|h[Enhanced Worldscorcher Cinch]|h|r",
-					["votes"] = 0,
-					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
@@ -6377,22 +6376,22 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515572551-1",
+					["class"] = "MAGE",
+					["votes"] = 0,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151951::::::::110:102::5:3:3611:1487:3528:::|h[Enhanced Worldscorcher Cinch]|h|r",
+					["time"] = "20:22:31",
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = 2,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:146998::::::::110:102::5:3:3562:1522:3337:::|h[Braided Torture Lash]|h|r",
 				}, -- [7]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151965:5437:::::::110:102::5:3:3611:1487:3528:::|h[Vulcanarcore Pendant]|h|r",
-					["id"] = "1515577220-2",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "MAGE",
-					["difficultyID"] = 15,
-					["response"] = "Offspec/Greed",
-					["isAwardReason"] = false,
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "21:40:20",
-					["lootWon"] = "|cffa335ee|Hitem:151965::::::::110:102::5:4:3611:1808:1487:3528:::|h[Vulcanarcore Pendant]|h|r",
-					["votes"] = 0,
-					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
@@ -6400,6 +6399,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515577220-2",
+					["class"] = "MAGE",
+					["votes"] = 0,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151965::::::::110:102::5:4:3611:1808:1487:3528:::|h[Vulcanarcore Pendant]|h|r",
+					["time"] = "21:40:20",
+					["boss"] = "Portal Keeper Hasabel",
+					["responseID"] = 2,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151965:5437:::::::110:102::5:3:3611:1487:3528:::|h[Vulcanarcore Pendant]|h|r",
 				}, -- [8]
 				{
 					["mapID"] = 1712,
@@ -6453,27 +6466,27 @@ RCLootCouncilLootDB = {
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [10]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152139::::::::110:102::3:3:3610:1472:3528:::|h[Runebound Leggings]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152139::::::::110:102::3:3:3610:1472:3528:::|h[Runebound Leggings]|h|r",
+					["id"] = "1516188442-24",
 					["response"] = "Offspec/Greed",
+					["date"] = "16/01/18",
+					["class"] = "MAGE",
+					["isAwardReason"] = false,
+					["groupSize"] = 17,
+					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:102::5:4:3611:41:1487:3528:::|h[Fervent Twilight Legwraps]|h|r",
+					["boss"] = "The Coven of Shivarra",
+					["time"] = "23:27:22",
+					["difficultyID"] = 15,
+					["votes"] = 1,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "MAGE",
-					["boss"] = "The Coven of Shivarra",
-					["groupSize"] = 17,
-					["time"] = "23:27:22",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:102::5:4:3611:41:1487:3528:::|h[Fervent Twilight Legwraps]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["id"] = "1516188442-24",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [11]
 				{
 					["mapID"] = 1712,
@@ -6526,27 +6539,27 @@ RCLootCouncilLootDB = {
 					["boss"] = "Varimathras",
 				}, -- [13]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152139::::::::110:102::5:3:3611:1497:3336:::|h[Runebound Leggings]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 18,
-					["id"] = "1516788905-27",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
-					["votes"] = 1,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:102::5:4:3611:1808:1492:3336:::|h[Fervent Twilight Legwraps]|h|r",
-					["time"] = "22:15:05",
 					["boss"] = "The Coven of Shivarra",
+					["response"] = "Offspec/Greed",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "22:15:05",
+					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:102::5:4:3611:1808:1492:3336:::|h[Fervent Twilight Legwraps]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152139::::::::110:102::5:3:3611:1497:3336:::|h[Runebound Leggings]|h|r",
+					["id"] = "1516788905-27",
+					["mapID"] = 1712,
 				}, -- [14]
 				{
 					["mapID"] = 1712,
@@ -6627,20 +6640,6 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [1]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147159::::::::110:102::5:3:3562:1502:3336:::|h[Radiant Lightbringer Gauntlets]|h|r",
-					["id"] = "1515584227-23",
-					["groupSize"] = 16,
-					["date"] = "09/01/18",
-					["class"] = "PALADIN",
-					["difficultyID"] = 15,
-					["response"] = "Offspec/Greed",
-					["isAwardReason"] = false,
-					["boss"] = "Argus the Unmaker",
-					["time"] = "23:37:07",
-					["lootWon"] = "|cffa335ee|Hitem:152686::::::::110:102::5:4:3611:1808:1487:3528:::|h[Nascent Deathbringer's Clutches]|h|r",
-					["votes"] = 2,
-					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
@@ -6648,29 +6647,43 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 16,
+					["id"] = "1515584227-23",
+					["class"] = "PALADIN",
+					["votes"] = 2,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152686::::::::110:102::5:4:3611:1808:1487:3528:::|h[Nascent Deathbringer's Clutches]|h|r",
+					["time"] = "23:37:07",
+					["boss"] = "Argus the Unmaker",
+					["responseID"] = 2,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147159::::::::110:102::5:3:3562:1502:3336:::|h[Radiant Lightbringer Gauntlets]|h|r",
 				}, -- [2]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:134268::151583::::::110:102::35:4:3536:1808:1622:3337:::|h[Arcane Defender's Gauntlets]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 19,
-					["id"] = "1516785839-17",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PALADIN",
-					["votes"] = 0,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152687::::::::110:102::5:4:3611:41:1487:3528:::|h[Imonar's Demi-Gauntlets]|h|r",
-					["time"] = "21:23:59",
 					["boss"] = "Imonar the Soulhunter",
+					["response"] = "Offspec/Greed",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "21:23:59",
+					["lootWon"] = "|cffa335ee|Hitem:152687::::::::110:102::5:4:3611:41:1487:3528:::|h[Imonar's Demi-Gauntlets]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:134268::151583::::::110:102::35:4:3536:1808:1622:3337:::|h[Arcane Defender's Gauntlets]|h|r",
+					["id"] = "1516785839-17",
+					["mapID"] = 1712,
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -6747,67 +6760,53 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [6]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152152::::::::110:102::4:3:3613:1482:3337:::|h[Light's Vanguard Legplates]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 18,
-					["id"] = "1516792333-35",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PALADIN",
-					["votes"] = 1,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152016::::::::110:102::5:3:3611:1487:3528:::|h[Cosmos-Culling Legplates]|h|r",
-					["time"] = "23:12:13",
 					["boss"] = "Argus the Unmaker",
+					["response"] = "Mainspec/Need",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "23:12:13",
+					["lootWon"] = "|cffa335ee|Hitem:152016::::::::110:102::5:3:3611:1487:3528:::|h[Cosmos-Culling Legplates]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152152::::::::110:102::4:3:3613:1482:3337:::|h[Light's Vanguard Legplates]|h|r",
+					["id"] = "1516792333-35",
+					["mapID"] = 1712,
 				}, -- [7]
 				{
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Mainspec/Need",
-					["date"] = "06/02/18",
-					["class"] = "PALADIN",
-					["isAwardReason"] = false,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152050::::::::110:102::5:3:3611:1487:3528:::|h[Mysterious Petrified Egg]|h|r",
-					["boss"] = "Imonar the Soulhunter",
-					["time"] = "21:56:26",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 16,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "PALADIN",
+					["votes"] = 0,
+					["response"] = "Mainspec/Need",
+					["time"] = "21:56:26",
+					["boss"] = "Imonar the Soulhunter",
+					["lootWon"] = "|cffa335ee|Hitem:152050::::::::110:102::5:3:3611:1487:3528:::|h[Mysterious Petrified Egg]|h|r",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["responseID"] = 1,
 					["id"] = "1517997386-5",
+					["date"] = "06/02/18",
 				}, -- [8]
 			},
 			["Disscourged-Tichondrius"] = {
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147082::::::::110:250::5:3:3562:1507:3528:::|h[Man'ari Blood Pact]|h|r",
-					["id"] = "1511944772-1",
-					["groupSize"] = 19,
-					["date"] = "28/11/17",
-					["class"] = "DEATHKNIGHT",
-					["difficultyID"] = 15,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:39:32",
-					["lootWon"] = "|cffa335ee|Hitem:152028::::::::110:102::5:3:3611:1487:3528:::|h[Spurting Reaver Heart]|h|r",
-					["votes"] = 3,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -6815,29 +6814,43 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 19,
+					["id"] = "1511944772-1",
+					["class"] = "DEATHKNIGHT",
+					["votes"] = 3,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152028::::::::110:102::5:3:3611:1487:3528:::|h[Spurting Reaver Heart]|h|r",
+					["time"] = "20:39:32",
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = 1,
+					["date"] = "28/11/17",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147082::::::::110:250::5:3:3562:1507:3528:::|h[Man'ari Blood Pact]|h|r",
 				}, -- [1]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147110::::::::110:250::6:3:3563:1512:3528:::|h[Grimacing Highborne Skull]|h|r",
-					["id"] = "1512552513-13",
-					["response"] = "Mainspec/Need",
-					["date"] = "05/12/17",
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["groupSize"] = 20,
-					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:102::5:3:3611:1487:3528:::|h[Unwavering Soul Essence]|h|r",
-					["boss"] = "The Defense of Eonar",
-					["time"] = "21:28:33",
-					["difficultyID"] = 15,
-					["votes"] = 2,
-					["responseID"] = 1,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Mainspec/Need",
+					["id"] = "1512552513-13",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["groupSize"] = 20,
+					["time"] = "21:28:33",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:102::5:3:3611:1487:3528:::|h[Unwavering Soul Essence]|h|r",
+					["votes"] = 2,
+					["boss"] = "The Defense of Eonar",
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "05/12/17",
 				}, -- [2]
 				{
 					["mapID"] = 1712,
@@ -6940,20 +6953,6 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [6]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152115::::::::110:102::5:3:3611:1492:3336:::|h[Dreadwake Helm]|h|r",
-					["id"] = "1515580030-10",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "DEATHKNIGHT",
-					["difficultyID"] = 15,
-					["response"] = "Minor Upgrade",
-					["isAwardReason"] = false,
-					["boss"] = "Kin'garoth",
-					["time"] = "22:27:10",
-					["lootWon"] = "|cffa335ee|Hitem:152014::::::::110:102::5:3:3611:1492:3336:::|h[Titan-Subjugator's Visage]|h|r",
-					["votes"] = 1,
-					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
@@ -6961,6 +6960,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515580030-10",
+					["class"] = "DEATHKNIGHT",
+					["votes"] = 1,
+					["response"] = "Minor Upgrade",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152014::::::::110:102::5:3:3611:1492:3336:::|h[Titan-Subjugator's Visage]|h|r",
+					["time"] = "22:27:10",
+					["boss"] = "Kin'garoth",
+					["responseID"] = 3,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152115::::::::110:102::5:3:3611:1492:3336:::|h[Dreadwake Helm]|h|r",
 				}, -- [7]
 				{
 					["mapID"] = 1712,
@@ -6988,50 +7001,50 @@ RCLootCouncilLootDB = {
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [8]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147072::151583::::::110:102::6:4:3563:1808:1522:3528:::|h[Soul-Render's Greatbelt]|h|r",
 					["id"] = "1516352878-1",
-					["mapID"] = 1712,
-					["date"] = "18/01/18",
 					["groupSize"] = 16,
+					["date"] = "18/01/18",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["response"] = "Offspec/Greed",
+					["isAwardReason"] = false,
+					["boss"] = "Aggramar",
+					["time"] = "21:07:58",
+					["lootWon"] = "|cffa335ee|Hitem:152022::::::::110:102::5:4:3611:1808:1487:3528:::|h[Grond-Father Girdle]|h|r",
+					["votes"] = 1,
+					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["response"] = "Offspec/Greed",
-					["boss"] = "Aggramar",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152022::::::::110:102::5:4:3611:1808:1487:3528:::|h[Grond-Father Girdle]|h|r",
-					["time"] = "21:07:58",
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147072::151583::::::110:102::6:4:3563:1808:1522:3528:::|h[Soul-Render's Greatbelt]|h|r",
+					["mapID"] = 1712,
 				}, -- [9]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147072::151583::::::110:102::6:4:3563:1808:1522:3528:::|h[Soul-Render's Greatbelt]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 19,
-					["id"] = "1516782632-1",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
-					["votes"] = 2,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1492:3336:::|h[Flamelicked Girdle]|h|r",
-					["time"] = "20:30:32",
 					["boss"] = "Felhounds of Sargeras",
+					["response"] = "Mainspec/Need",
+					["votes"] = 2,
+					["difficultyID"] = 15,
+					["time"] = "20:30:32",
+					["lootWon"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1492:3336:::|h[Flamelicked Girdle]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147072::151583::::::110:102::6:4:3563:1808:1522:3528:::|h[Soul-Render's Greatbelt]|h|r",
+					["id"] = "1516782632-1",
+					["mapID"] = 1712,
 				}, -- [10]
 				{
 					["mapID"] = 1712,
@@ -7062,20 +7075,6 @@ RCLootCouncilLootDB = {
 			},
 			["Munstuh-Tichondrius"] = {
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffff8000|Hitem:133976::::::::110:102:::2:3459:3630:::|h[Cinidaria, the Symbiote]|h|r",
-					["id"] = "1515580695-12",
-					["groupSize"] = 18,
-					["date"] = "09/01/18",
-					["class"] = "DRUID",
-					["difficultyID"] = 15,
-					["response"] = "Minor Upgrade",
-					["isAwardReason"] = false,
-					["boss"] = "Varimathras",
-					["time"] = "22:38:15",
-					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:102::5:4:3611:42:1487:3528:::|h[Belt of Fractured Sanity]|h|r",
-					["votes"] = 0,
-					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
@@ -7083,31 +7082,45 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 18,
+					["id"] = "1515580695-12",
+					["class"] = "DRUID",
+					["votes"] = 0,
+					["response"] = "Minor Upgrade",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:102::5:4:3611:42:1487:3528:::|h[Belt of Fractured Sanity]|h|r",
+					["time"] = "22:38:15",
+					["boss"] = "Varimathras",
+					["responseID"] = 3,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffff8000|Hitem:133976::::::::110:102:::2:3459:3630:::|h[Cinidaria, the Symbiote]|h|r",
 				}, -- [1]
 			},
 			["Mantæquilla-Tichondrius"] = {
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147141::::::::110:102::6:3:3563:1512:3528:::|h[Wildstalker Gauntlets]|h|r",
-					["id"] = "1513158009-21",
-					["response"] = "Minor Upgrade",
-					["date"] = "12/12/17",
-					["class"] = "HUNTER",
-					["isAwardReason"] = false,
-					["groupSize"] = 19,
-					["lootWon"] = "|cffa335ee|Hitem:151999::::::::110:102::5:3:3611:1492:3336:::|h[Preysnare Vicegrips]|h|r",
-					["boss"] = "Imonar the Soulhunter",
-					["time"] = "21:40:09",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = 3,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Minor Upgrade",
+					["id"] = "1513158009-21",
+					["class"] = "HUNTER",
+					["difficultyID"] = 15,
+					["groupSize"] = 19,
+					["time"] = "21:40:09",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151999::::::::110:102::5:3:3611:1492:3336:::|h[Preysnare Vicegrips]|h|r",
+					["votes"] = 0,
+					["boss"] = "Imonar the Soulhunter",
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -7134,27 +7147,27 @@ RCLootCouncilLootDB = {
 					["id"] = "1513160106-27",
 				}, -- [2]
 				{
+					["id"] = "1513327378-2",
+					["mapID"] = 1712,
 					["date"] = "14/12/17",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147055::::::::110:102::6:3:3563:1512:3528:::|h[Belt of Screaming Slag]|h|r",
+					["groupSize"] = 17,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 17,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "HUNTER",
-					["boss"] = "Aggramar",
-					["response"] = "Minor Upgrade",
-					["votes"] = 2,
-					["difficultyID"] = 15,
-					["time"] = "20:42:58",
-					["lootWon"] = "|cffa335ee|Hitem:152683::::::::110:102::5:3:3611:1487:3528:::|h[World-Ravager Waistguard]|h|r",
 					["isAwardReason"] = false,
+					["response"] = "Minor Upgrade",
+					["boss"] = "Aggramar",
+					["votes"] = 2,
+					["lootWon"] = "|cffa335ee|Hitem:152683::::::::110:102::5:3:3611:1487:3528:::|h[World-Ravager Waistguard]|h|r",
+					["time"] = "20:42:58",
+					["difficultyID"] = 15,
 					["responseID"] = 3,
-					["id"] = "1513327378-2",
-					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147055::::::::110:102::6:3:3563:1512:3528:::|h[Belt of Screaming Slag]|h|r",
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -7182,27 +7195,27 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [4]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147141::::::::110:102::6:3:3563:1512:3528:::|h[Wildstalker Gauntlets]|h|r",
 					["id"] = "1513757928-1",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 14,
+					["date"] = "19/12/17",
+					["class"] = "HUNTER",
+					["difficultyID"] = 15,
+					["response"] = "Pass",
+					["isAwardReason"] = false,
+					["boss"] = "Garothi Worldbreaker",
+					["time"] = "20:18:48",
+					["lootWon"] = "|cffa335ee|Hitem:151998::::::::110:102::5:3:3611:1487:3528:::|h[Heedless Eradication Gauntlets]|h|r",
+					["votes"] = 0,
+					["responseID"] = "PASS",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["class"] = "HUNTER",
-					["isAwardReason"] = false,
-					["response"] = "Pass",
-					["boss"] = "Garothi Worldbreaker",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:151998::::::::110:102::5:3:3611:1487:3528:::|h[Heedless Eradication Gauntlets]|h|r",
-					["time"] = "20:18:48",
-					["difficultyID"] = 15,
-					["responseID"] = "PASS",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147141::::::::110:102::6:3:3563:1512:3528:::|h[Wildstalker Gauntlets]|h|r",
+					["mapID"] = 1712,
 				}, -- [5]
 				{
 					["mapID"] = 1712,
@@ -7280,50 +7293,50 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [8]
 				{
+					["date"] = "02/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:121316::130222::::::110:102::35:5:3418:1808:43:1607:3337:::|h[Vilescale Bracers]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514974027-19",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "HUNTER",
-					["votes"] = 1,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152280::::::::110:102::5:4:3611:42:1487:3528:::|h[Scalding Shatterguards]|h|r",
-					["time"] = "22:07:07",
 					["boss"] = "Kin'garoth",
+					["response"] = "Offspec/Greed",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "22:07:07",
+					["lootWon"] = "|cffa335ee|Hitem:152280::::::::110:102::5:4:3611:42:1487:3528:::|h[Scalding Shatterguards]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "02/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:121316::130222::::::110:102::35:5:3418:1808:43:1607:3337:::|h[Vilescale Bracers]|h|r",
+					["id"] = "1514974027-19",
+					["mapID"] = 1712,
 				}, -- [9]
 				{
+					["date"] = "02/01/18",
+					["itemReplaced1"] = "|cffff8000|Hitem:137033::::::::110:102:::2:3459:3630:::|h[Ullr's Feather Snowshoes]|h|r",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514978714-4",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "HUNTER",
-					["votes"] = 2,
-					["response"] = "Minor Upgrade",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152684::::::::110:102::5:4:3611:1808:1492:3336:::|h[Greatboots of the Searing Tempest]|h|r",
-					["time"] = "23:25:14",
 					["boss"] = "Aggramar",
+					["response"] = "Minor Upgrade",
+					["votes"] = 2,
+					["difficultyID"] = 15,
+					["time"] = "23:25:14",
+					["lootWon"] = "|cffa335ee|Hitem:152684::::::::110:102::5:4:3611:1808:1492:3336:::|h[Greatboots of the Searing Tempest]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["date"] = "02/01/18",
-					["itemReplaced1"] = "|cffff8000|Hitem:137033::::::::110:102:::2:3459:3630:::|h[Ullr's Feather Snowshoes]|h|r",
+					["id"] = "1514978714-4",
+					["mapID"] = 1712,
 				}, -- [10]
 				{
 					["mapID"] = 1712,
@@ -7478,27 +7491,27 @@ RCLootCouncilLootDB = {
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [16]
 				{
+					["date"] = "13/02/18",
+					["itemReplaced1"] = "|cffff8000|Hitem:137081::::::::110:102:::2:1811:3630:::|h[War Belt of the Sentinel Army]|h|r",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 13,
-					["id"] = "1518598387-7",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "HUNTER",
-					["votes"] = 1,
-					["response"] = "Minor Upgrade",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152006::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Tactician's Waistguard]|h|r",
-					["time"] = "20:53:07",
 					["boss"] = "Antoran High Command",
+					["response"] = "Minor Upgrade",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "20:53:07",
+					["lootWon"] = "|cffa335ee|Hitem:152006::::::::110:102::5:3:3611:1487:3528:::|h[Depraved Tactician's Waistguard]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["date"] = "13/02/18",
-					["itemReplaced1"] = "|cffff8000|Hitem:137081::::::::110:102:::2:1811:3630:::|h[War Belt of the Sentinel Army]|h|r",
+					["id"] = "1518598387-7",
+					["mapID"] = 1712,
 				}, -- [17]
 				{
 					["mapID"] = 1712,
@@ -7771,27 +7784,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 2,
 				}, -- [2]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:144460::::::::110:252::35:3:3417:1592:3337:::|h[Fury of the Scorned]|h|r",
 					["id"] = "1512127233-10",
-					["mapID"] = 1712,
-					["date"] = "30/11/17",
 					["groupSize"] = 16,
+					["date"] = "30/11/17",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["response"] = "Minor Upgrade",
+					["isAwardReason"] = false,
+					["boss"] = "Varimathras",
+					["time"] = "23:20:33",
+					["lootWon"] = "|cffa335ee|Hitem:152037::::::::110:102::5:3:3611:1487:3528:::|h[Tormentor's Brand]|h|r",
+					["votes"] = 1,
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["response"] = "Minor Upgrade",
-					["boss"] = "Varimathras",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152037::::::::110:102::5:3:3611:1487:3528:::|h[Tormentor's Brand]|h|r",
-					["time"] = "23:20:33",
-					["difficultyID"] = 15,
-					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:144460::::::::110:252::35:3:3417:1592:3337:::|h[Fury of the Scorned]|h|r",
+					["mapID"] = 1712,
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -7818,96 +7831,96 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [4]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147082::::::::110:102::6:3:3563:1527:3336:::|h[Man'ari Blood Pact]|h|r",
-					["id"] = "1513152869-2",
-					["response"] = "Minor Upgrade",
-					["date"] = "12/12/17",
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:152028::::::::110:102::5:3:3611:1492:3336:::|h[Spurting Reaver Heart]|h|r",
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:14:29",
-					["difficultyID"] = 15,
-					["votes"] = 2,
-					["responseID"] = 3,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Minor Upgrade",
+					["id"] = "1513152869-2",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "20:14:29",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152028::::::::110:102::5:3:3611:1492:3336:::|h[Spurting Reaver Heart]|h|r",
+					["votes"] = 2,
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [5]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147123:5445:::::::110:102::6:3:3563:1512:3528:::|h[Gravewarden Handguards]|h|r",
-					["id"] = "1513153500-5",
-					["response"] = "Pass",
-					["date"] = "12/12/17",
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:152012::::::::110:102::5:3:3611:1487:3528:::|h[Molten Bite Handguards]|h|r",
-					["boss"] = "Felhounds of Sargeras",
-					["time"] = "20:25:00",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = "PASS",
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Pass",
+					["id"] = "1513153500-5",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "20:25:00",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152012::::::::110:102::5:3:3611:1487:3528:::|h[Molten Bite Handguards]|h|r",
+					["votes"] = 0,
+					["boss"] = "Felhounds of Sargeras",
+					["responseID"] = "PASS",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [6]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152021::::::::110:102::5:3:3611:1492:3336:::|h[Flamelicked Girdle]|h|r",
-					["id"] = "1513154662-9",
-					["response"] = "Minor Upgrade",
-					["date"] = "12/12/17",
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:152020::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Battle Girdle]|h|r",
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "20:44:22",
-					["difficultyID"] = 15,
-					["votes"] = 1,
-					["responseID"] = 3,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Minor Upgrade",
+					["id"] = "1513154662-9",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "20:44:22",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152020::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Battle Girdle]|h|r",
+					["votes"] = 1,
+					["boss"] = "Portal Keeper Hasabel",
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [7]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147124::::::::110:102::6:3:3563:1512:3528:::|h[Gravewarden Visage]|h|r",
-					["id"] = "1513159094-23",
-					["response"] = "Offspec/Greed",
-					["date"] = "12/12/17",
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:152014::::::::110:102::5:3:3611:1487:3528:::|h[Titan-Subjugator's Visage]|h|r",
-					["boss"] = "Kin'garoth",
-					["time"] = "21:58:14",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = 2,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Offspec/Greed",
+					["id"] = "1513159094-23",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "21:58:14",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152014::::::::110:102::5:3:3611:1487:3528:::|h[Titan-Subjugator's Visage]|h|r",
+					["votes"] = 0,
+					["boss"] = "Kin'garoth",
+					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [8]
 				{
 					["mapID"] = 1712,
@@ -8036,48 +8049,48 @@ RCLootCouncilLootDB = {
 				}, -- [13]
 				{
 					["mapID"] = 1712,
+					["id"] = "1516181816-11",
+					["response"] = "Offspec/Greed",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 18,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
-					["votes"] = 2,
-					["response"] = "Offspec/Greed",
-					["time"] = "21:36:56",
-					["boss"] = "The Defense of Eonar",
-					["lootWon"] = "|cffa335ee|Hitem:152047::::::::110:102::5:3:3611:1487:3528:::|h[Ironvine Thorn]|h|r",
-					["difficultyID"] = 15,
 					["isAwardReason"] = false,
+					["groupSize"] = 18,
+					["lootWon"] = "|cffa335ee|Hitem:152047::::::::110:102::5:3:3611:1487:3528:::|h[Ironvine Thorn]|h|r",
+					["boss"] = "The Defense of Eonar",
+					["time"] = "21:36:56",
+					["difficultyID"] = 15,
+					["votes"] = 2,
 					["responseID"] = 2,
-					["id"] = "1516181816-11",
 					["date"] = "16/01/18",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [14]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152116::::::::110:102::5:3:3611:1487:3528:::|h[Dreadwake Legplates]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152116::::::::110:102::5:3:3611:1487:3528:::|h[Dreadwake Legplates]|h|r",
+					["id"] = "1516184637-22",
 					["response"] = "Offspec/Greed",
+					["date"] = "16/01/18",
+					["class"] = "DEATHKNIGHT",
+					["isAwardReason"] = false,
+					["groupSize"] = 19,
+					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:102::5:3:3611:1502:3337:::|h[Greaves of Mercurial Allegiance]|h|r",
+					["boss"] = "Varimathras",
+					["time"] = "22:23:57",
+					["difficultyID"] = 15,
+					["votes"] = 0,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEATHKNIGHT",
-					["boss"] = "Varimathras",
-					["groupSize"] = 19,
-					["time"] = "22:23:57",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:102::5:3:3611:1502:3337:::|h[Greaves of Mercurial Allegiance]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["id"] = "1516184637-22",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [15]
 				{
 					["mapID"] = 1712,
@@ -8132,27 +8145,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [17]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152115::::::::110:102::5:3:3611:1487:3528:::|h[Dreadwake Helm]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 18,
-					["id"] = "1516785136-13",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
-					["votes"] = 1,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152013::::::::110:102::5:3:3611:1492:3336:::|h[Helmet of the Hidden Sanctuary]|h|r",
-					["time"] = "21:12:16",
 					["boss"] = "The Defense of Eonar",
+					["response"] = "Offspec/Greed",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "21:12:16",
+					["lootWon"] = "|cffa335ee|Hitem:152013::::::::110:102::5:3:3611:1492:3336:::|h[Helmet of the Hidden Sanctuary]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152115::::::::110:102::5:3:3611:1487:3528:::|h[Dreadwake Helm]|h|r",
+					["id"] = "1516785136-13",
+					["mapID"] = 1712,
 				}, -- [18]
 				{
 					["mapID"] = 1712,
@@ -8203,27 +8216,27 @@ RCLootCouncilLootDB = {
 					["id"] = "1517560229-1",
 				}, -- [20]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152011::151584::::::110:104::3:4:3610:1808:1497:3337:::|h[Eredar Warcouncil Sabatons]|h|r",
+					["mapID"] = 1712,
+					["date"] = "06/02/18",
+					["response"] = "Offspec/Greed",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Offspec/Greed",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
-					["votes"] = 0,
-					["groupSize"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152009::::::::110:104::5:4:3611:1808:1492:3336:::|h[Doomwalker Warboots]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "20:27:03",
 					["boss"] = "Garothi Worldbreaker",
+					["groupSize"] = 15,
+					["time"] = "20:27:03",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:152009::::::::110:104::5:4:3611:1808:1492:3336:::|h[Doomwalker Warboots]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 2,
-					["date"] = "06/02/18",
 					["id"] = "1517992023-0",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [21]
 				{
 					["mapID"] = 1712,
@@ -8250,27 +8263,27 @@ RCLootCouncilLootDB = {
 					["id"] = "1517999871-3",
 				}, -- [22]
 				{
+					["date"] = "13/02/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152281::151584::::::110:102::5:4:3611:1808:1487:3528:::|h[Varimathras' Shattered Manacles]|h|r",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 13,
-					["id"] = "1518599767-10",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
-					["votes"] = 0,
-					["response"] = "Minor Upgrade",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152023::::::::110:102::5:3:3611:1487:3528:::|h[Vambraces of Life's Assurance]|h|r",
-					["time"] = "21:16:07",
 					["boss"] = "The Defense of Eonar",
+					["response"] = "Minor Upgrade",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "21:16:07",
+					["lootWon"] = "|cffa335ee|Hitem:152023::::::::110:102::5:3:3611:1487:3528:::|h[Vambraces of Life's Assurance]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["date"] = "13/02/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152281::151584::::::110:102::5:4:3611:1808:1487:3528:::|h[Varimathras' Shattered Manacles]|h|r",
+					["id"] = "1518599767-10",
+					["mapID"] = 1712,
 				}, -- [23]
 				{
 					["mapID"] = 1712,
@@ -8300,48 +8313,48 @@ RCLootCouncilLootDB = {
 				}, -- [24]
 				{
 					["mapID"] = 1712,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["date"] = "13/02/18",
-					["id"] = "1518603283-20",
 					["class"] = "DEATHKNIGHT",
 					["boss"] = "The Coven of Shivarra",
-					["response"] = "Offspec/Greed",
-					["votes"] = 0,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152040::::::::110:105::5:3:3611:1487:3528:::|h[Frigid Gloomstone]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "22:14:43",
-					["responseID"] = 2,
 					["groupSize"] = 11,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:14:43",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152040::::::::110:105::5:3:3611:1487:3528:::|h[Frigid Gloomstone]|h|r",
+					["responseID"] = 2,
+					["response"] = "Offspec/Greed",
+					["id"] = "1518603283-20",
 				}, -- [25]
 				{
+					["date"] = "13/02/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152114::::::::110:102::5:3:3611:1492:3336:::|h[Dreadwake Gauntlets]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 10,
-					["id"] = "1518605253-24",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
-					["votes"] = 0,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152686::::::::110:102::5:3:3611:1492:3336:::|h[Nascent Deathbringer's Clutches]|h|r",
-					["time"] = "22:47:33",
 					["boss"] = "Argus the Unmaker",
+					["response"] = "Offspec/Greed",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "22:47:33",
+					["lootWon"] = "|cffa335ee|Hitem:152686::::::::110:102::5:3:3611:1492:3336:::|h[Nascent Deathbringer's Clutches]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "13/02/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152114::::::::110:102::5:3:3611:1492:3336:::|h[Dreadwake Gauntlets]|h|r",
+					["id"] = "1518605253-24",
+					["mapID"] = 1712,
 				}, -- [26]
 			},
 			["Joshone-Tichondrius"] = {
@@ -8423,73 +8436,73 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [3]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147057::151580::::::110:102::6:4:3563:1808:1512:3528:::|h[Pain-Singed Armguards]|h|r",
-					["id"] = "1513154678-10",
-					["response"] = "Mainspec/Need",
-					["date"] = "12/12/17",
-					["class"] = "HUNTER",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:152008::::::::110:102::5:3:3611:1497:3336:::|h[Reality-Splitting Wristguards]|h|r",
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "20:44:38",
-					["difficultyID"] = 15,
-					["votes"] = 1,
-					["responseID"] = 1,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Mainspec/Need",
+					["id"] = "1513154678-10",
+					["class"] = "HUNTER",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "20:44:38",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152008::::::::110:102::5:3:3611:1497:3336:::|h[Reality-Splitting Wristguards]|h|r",
+					["votes"] = 1,
+					["boss"] = "Portal Keeper Hasabel",
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [4]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:151011::::::::110:102::43:3:3573:3204:3337:::|h[Stygian Munition Casing]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["response"] = "Mainspec/Need",
-					["id"] = "1513333916-6",
-					["class"] = "HUNTER",
-					["difficultyID"] = 14,
-					["groupSize"] = 13,
-					["time"] = "22:31:56",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:102::3:3:3610:1472:3528:::|h[Fasces of the Endless Legions]|h|r",
-					["votes"] = 2,
-					["boss"] = "Antoran High Command",
-					["responseID"] = 1,
+					["itemReplaced1"] = "|cffa335ee|Hitem:151011::::::::110:102::43:3:3573:3204:3337:::|h[Stygian Munition Casing]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "HUNTER",
+					["votes"] = 2,
+					["groupSize"] = 13,
+					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:102::3:3:3610:1472:3528:::|h[Fasces of the Endless Legions]|h|r",
+					["difficultyID"] = 14,
+					["time"] = "22:31:56",
+					["boss"] = "Antoran High Command",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
 					["date"] = "14/12/17",
+					["id"] = "1513333916-6",
 				}, -- [5]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:137456::::::::110:102::35:3:3418:1592:3337:::|h[Belt of Mighty Links]|h|r",
 					["id"] = "1513759429-7",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 15,
+					["date"] = "19/12/17",
+					["class"] = "HUNTER",
+					["difficultyID"] = 15,
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["boss"] = "Antoran High Command",
+					["time"] = "20:43:49",
+					["lootWon"] = "|cffa335ee|Hitem:152006::::::::110:102::5:3:3611:1492:3336:::|h[Depraved Tactician's Waistguard]|h|r",
+					["votes"] = 1,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "HUNTER",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["boss"] = "Antoran High Command",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152006::::::::110:102::5:3:3611:1492:3336:::|h[Depraved Tactician's Waistguard]|h|r",
-					["time"] = "20:43:49",
-					["difficultyID"] = 15,
-					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137456::::::::110:102::35:3:3418:1592:3337:::|h[Belt of Mighty Links]|h|r",
+					["mapID"] = 1712,
 				}, -- [6]
 				{
 					["mapID"] = 1712,
@@ -8517,66 +8530,52 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [7]
 				{
-					["id"] = "1513764901-24",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
-					["groupSize"] = 15,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "HUNTER",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["boss"] = "Varimathras",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:152025::::::::110:102::5:3:3611:1492:3336:::|h[Thu'rayan Lash]|h|r",
-					["time"] = "22:15:01",
-					["difficultyID"] = 15,
-					["responseID"] = 1,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["itemReplaced1"] = "|cffa335ee|Hitem:147076::::::::110:102::6:3:3563:1522:3336:::|h[Charred Hymnal of the Moon]|h|r",
+					["id"] = "1513764901-24",
+					["groupSize"] = 15,
+					["date"] = "19/12/17",
+					["class"] = "HUNTER",
+					["difficultyID"] = 15,
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["boss"] = "Varimathras",
+					["time"] = "22:15:01",
+					["lootWon"] = "|cffa335ee|Hitem:152025::::::::110:102::5:3:3611:1492:3336:::|h[Thu'rayan Lash]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["mapID"] = 1712,
 				}, -- [8]
 				{
-					["date"] = "04/01/18",
-					["itemReplaced1"] = "|cffff8000|Hitem:132444:5437:151580::::::110:102:::2:3459:3630:::|h[Prydaz, Xavaric's Magnum Opus]|h|r",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 15,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["class"] = "HUNTER",
-					["boss"] = "Argus the Unmaker",
-					["response"] = "Mainspec/Need",
-					["votes"] = 1,
-					["difficultyID"] = 15,
-					["time"] = "21:07:39",
-					["lootWon"] = "|cffa335ee|Hitem:152283::::::::110:102::5:3:3611:1487:3528:::|h[Chain of the Unmaker]|h|r",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
 					["id"] = "1515143259-3",
 					["mapID"] = 1712,
+					["date"] = "04/01/18",
+					["groupSize"] = 15,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["isAwardReason"] = false,
+					["response"] = "Mainspec/Need",
+					["boss"] = "Argus the Unmaker",
+					["votes"] = 1,
+					["lootWon"] = "|cffa335ee|Hitem:152283::::::::110:102::5:3:3611:1487:3528:::|h[Chain of the Unmaker]|h|r",
+					["time"] = "21:07:39",
+					["difficultyID"] = 15,
+					["responseID"] = 1,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffff8000|Hitem:132444:5437:151580::::::110:102:::2:3459:3630:::|h[Prydaz, Xavaric's Magnum Opus]|h|r",
 				}, -- [9]
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152048::::::::110:102::5:3:3611:1487:3528:::|h[Decimator Crankshaft]|h|r",
-					["id"] = "1515575376-1",
-					["groupSize"] = 19,
-					["date"] = "09/01/18",
-					["class"] = "HUNTER",
-					["difficultyID"] = 15,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Antoran High Command",
-					["time"] = "21:09:36",
-					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:102::5:3:3611:1507:3337:::|h[Fasces of the Endless Legions]|h|r",
-					["votes"] = 1,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -8584,6 +8583,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 19,
+					["id"] = "1515575376-1",
+					["class"] = "HUNTER",
+					["votes"] = 1,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:102::5:3:3611:1507:3337:::|h[Fasces of the Endless Legions]|h|r",
+					["time"] = "21:09:36",
+					["boss"] = "Antoran High Command",
+					["responseID"] = 1,
+					["date"] = "09/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152048::::::::110:102::5:3:3611:1487:3528:::|h[Decimator Crankshaft]|h|r",
 				}, -- [10]
 				{
 					["mapID"] = 1712,
@@ -8665,27 +8678,27 @@ RCLootCouncilLootDB = {
 			},
 			["Vankrina-Tichondrius"] = {
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152049::::::::110:102::5:3:3611:1487:3528:::|h[Fel-Engraved Handbell]|h|r",
+					["mapID"] = 1712,
+					["date"] = "06/02/18",
+					["response"] = "Mainspec/Need",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARRIOR",
-					["votes"] = 0,
-					["groupSize"] = 17,
-					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:102::5:3:3611:1497:3336:::|h[Fasces of the Endless Legions]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:06:48",
 					["boss"] = "Antoran High Command",
+					["groupSize"] = 17,
+					["time"] = "21:06:48",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:102::5:3:3611:1497:3336:::|h[Fasces of the Endless Legions]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 1,
-					["date"] = "06/02/18",
 					["id"] = "1517994408-8",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -8748,8 +8761,8 @@ RCLootCouncilLootDB = {
 					["votes"] = 1,
 					["time"] = "21:09:04",
 					["relicRoll"] = false,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["id"] = "1516352944-3",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["note"] = "better than my normal tier helm",
 					["tokenRoll"] = true,
 					["response"] = "Upgrade to existing tier/random upgrade",
@@ -8826,8 +8839,8 @@ RCLootCouncilLootDB = {
 					["votes"] = 1,
 					["time"] = "22:16:47",
 					["relicRoll"] = false,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["id"] = "1516789007-30",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["note"] = "Need shoulder tier to replace my legs ",
 					["tokenRoll"] = true,
 					["response"] = "Tier Piece that doesn't complete a set",
@@ -8980,7 +8993,7 @@ RCLootCouncilLootDB = {
 						1, -- [3]
 						1, -- [4]
 					},
-					["id"] = "1517563175-9",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["boss"] = "The Defense of Eonar",
 					["tokenRoll"] = true,
 					["response"] = "Tier Piece that doesn't complete a set",
@@ -8991,30 +9004,30 @@ RCLootCouncilLootDB = {
 					["itemReplaced1"] = "|cffa335ee|Hitem:137368::::::::110:102::35:4:3534:42:1607:3337:::|h[Breastplate of Ten Lashes]|h|r",
 					["responseID"] = 3,
 					["note"] = "tier chest will give me better stats and upgrade ",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["id"] = "1517563175-9",
 				}, -- [10]
 				{
-					["mapID"] = 1712,
 					["note"] = "upgrade for enh ",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Offspec/Greed",
-					["date"] = "06/02/18",
-					["class"] = "SHAMAN",
-					["boss"] = "Garothi Worldbreaker",
-					["groupSize"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152036::::::::110:104::5:3:3611:1487:3528:::|h[Hellfire Ignition Switch]|h|r",
-					["isAwardReason"] = false,
-					["time"] = "20:28:46",
-					["votes"] = 0,
-					["difficultyID"] = 15,
-					["responseID"] = 2,
+					["mapID"] = 1712,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "SHAMAN",
+					["votes"] = 0,
+					["groupSize"] = 15,
+					["time"] = "20:28:46",
+					["boss"] = "Garothi Worldbreaker",
+					["lootWon"] = "|cffa335ee|Hitem:152036::::::::110:104::5:3:3611:1487:3528:::|h[Hellfire Ignition Switch]|h|r",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["responseID"] = 2,
 					["id"] = "1517992126-2",
+					["date"] = "06/02/18",
 				}, -- [11]
 				{
 					["mapID"] = 1712,
@@ -9269,27 +9282,27 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [5]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:137482::::::::110:102::35:3:3418:1592:3337:::|h[Duskwatch Guard's Boots]|h|r",
 					["id"] = "1513759419-6",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 15,
+					["date"] = "19/12/17",
+					["class"] = "PALADIN",
+					["difficultyID"] = 15,
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["boss"] = "Antoran High Command",
+					["time"] = "20:43:39",
+					["lootWon"] = "|cffa335ee|Hitem:152011::::::::110:102::5:4:3611:42:1492:3336:::|h[Eredar Warcouncil Sabatons]|h|r",
+					["votes"] = 2,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PALADIN",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["boss"] = "Antoran High Command",
-					["votes"] = 2,
-					["lootWon"] = "|cffa335ee|Hitem:152011::::::::110:102::5:4:3611:42:1492:3336:::|h[Eredar Warcouncil Sabatons]|h|r",
-					["time"] = "20:43:39",
-					["difficultyID"] = 15,
-					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137482::::::::110:102::35:3:3418:1592:3337:::|h[Duskwatch Guard's Boots]|h|r",
+					["mapID"] = 1712,
 				}, -- [6]
 				{
 					["mapID"] = 1712,
@@ -9316,27 +9329,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [7]
 				{
-					["itemReplaced1"] = "|cffff8000|Hitem:137086::::::::110:102:::2:1811:3630:::|h[Chain of Thrayn]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffff8000|Hitem:137086::::::::110:102:::2:1811:3630:::|h[Chain of Thrayn]|h|r",
+					["id"] = "1516180893-4",
 					["response"] = "Offspec/Greed",
+					["date"] = "16/01/18",
+					["class"] = "PALADIN",
+					["isAwardReason"] = false,
+					["groupSize"] = 19,
+					["lootWon"] = "|cffa335ee|Hitem:152020::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Battle Girdle]|h|r",
+					["boss"] = "Portal Keeper Hasabel",
+					["time"] = "21:21:33",
+					["difficultyID"] = 15,
+					["votes"] = 1,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "PALADIN",
-					["boss"] = "Portal Keeper Hasabel",
-					["groupSize"] = 19,
-					["time"] = "21:21:33",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152020::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Battle Girdle]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["id"] = "1516180893-4",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [8]
 				{
 					["mapID"] = 1712,
@@ -9388,27 +9401,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [10]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152152::::::::110:102::5:3:3611:1487:3528:::|h[Light's Vanguard Legplates]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 18,
-					["id"] = "1516787795-26",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PALADIN",
-					["votes"] = 2,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:102::5:3:3611:1517:3337:::|h[Greaves of Mercurial Allegiance]|h|r",
-					["time"] = "21:56:35",
 					["boss"] = "The Coven of Shivarra",
+					["response"] = "Offspec/Greed",
+					["votes"] = 2,
+					["difficultyID"] = 15,
+					["time"] = "21:56:35",
+					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:102::5:3:3611:1517:3337:::|h[Greaves of Mercurial Allegiance]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152152::::::::110:102::5:3:3611:1487:3528:::|h[Light's Vanguard Legplates]|h|r",
+					["id"] = "1516787795-26",
+					["mapID"] = 1712,
 				}, -- [11]
 				{
 					["mapID"] = 1712,
@@ -9638,96 +9651,96 @@ RCLootCouncilLootDB = {
 			},
 			["Drezzic-Tichondrius"] = {
 				{
+					["date"] = "02/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152178::::::::110:102::3:3:3610:1477:3336:::|h[Juggernaut Breastplate]|h|r",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514967646-1",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARRIOR",
-					["votes"] = 1,
-					["response"] = "Minor Upgrade",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152017::::::::110:102::5:3:3611:1487:3528:::|h[Soul-Tempered Chestplate]|h|r",
-					["time"] = "20:20:46",
 					["boss"] = "Garothi Worldbreaker",
+					["response"] = "Minor Upgrade",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "20:20:46",
+					["lootWon"] = "|cffa335ee|Hitem:152017::::::::110:102::5:3:3611:1487:3528:::|h[Soul-Tempered Chestplate]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["date"] = "02/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152178::::::::110:102::3:3:3610:1477:3336:::|h[Juggernaut Breastplate]|h|r",
+					["id"] = "1514967646-1",
+					["mapID"] = 1712,
 				}, -- [1]
 				{
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 16,
-					["id"] = "1514969648-6",
-					["class"] = "WARRIOR",
-					["votes"] = 1,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152011::::::::110:102::5:3:3611:1502:3337:::|h[Eredar Warcouncil Sabatons]|h|r",
-					["time"] = "20:54:08",
-					["boss"] = "Antoran High Command",
-					["responseID"] = 1,
 					["date"] = "02/01/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:152011::::::::110:102::4:3:3613:1467:3336:::|h[Eredar Warcouncil Sabatons]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 16,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "WARRIOR",
+					["boss"] = "Antoran High Command",
+					["response"] = "Mainspec/Need",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "20:54:08",
+					["lootWon"] = "|cffa335ee|Hitem:152011::::::::110:102::5:3:3611:1502:3337:::|h[Eredar Warcouncil Sabatons]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1514969648-6",
+					["mapID"] = 1712,
 				}, -- [2]
 				{
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["groupSize"] = 16,
-					["id"] = "1514971519-9",
-					["class"] = "WARRIOR",
-					["votes"] = 1,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152049::::::::110:102::5:3:3611:1487:3528:::|h[Fel-Engraved Handbell]|h|r",
-					["time"] = "21:25:19",
-					["boss"] = "Portal Keeper Hasabel",
-					["responseID"] = 1,
 					["date"] = "02/01/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:133763::::::::110:102::2:3:1726:1517:3528:::|h[Key to the Halls]|h|r",
-				}, -- [3]
-				{
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 16,
-					["id"] = "1514972934-16",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARRIOR",
-					["votes"] = 2,
+					["boss"] = "Portal Keeper Hasabel",
 					["response"] = "Mainspec/Need",
+					["votes"] = 1,
 					["difficultyID"] = 15,
+					["time"] = "21:25:19",
+					["lootWon"] = "|cffa335ee|Hitem:152049::::::::110:102::5:3:3611:1487:3528:::|h[Fel-Engraved Handbell]|h|r",
 					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152416::::::::110:102::5:3:3611:1492:3336:::|h[Shoulderguards of Indomitable Purpose]|h|r",
-					["time"] = "21:48:54",
-					["boss"] = "Imonar the Soulhunter",
 					["responseID"] = 1,
+					["id"] = "1514971519-9",
+					["mapID"] = 1712,
+				}, -- [3]
+				{
 					["date"] = "02/01/18",
 					["itemReplaced1"] = "|cffa335ee|Hitem:152183::::::::110:102::3:3:3610:1472:3528:::|h[Juggernaut Pauldrons]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 16,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "WARRIOR",
+					["boss"] = "Imonar the Soulhunter",
+					["response"] = "Mainspec/Need",
+					["votes"] = 2,
+					["difficultyID"] = 15,
+					["time"] = "21:48:54",
+					["lootWon"] = "|cffa335ee|Hitem:152416::::::::110:102::5:3:3611:1492:3336:::|h[Shoulderguards of Indomitable Purpose]|h|r",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1514972934-16",
+					["mapID"] = 1712,
 				}, -- [4]
 				{
 					["mapID"] = 1712,
@@ -9805,50 +9818,50 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [7]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152049::::::::110:102::5:3:3611:1487:3528:::|h[Fel-Engraved Handbell]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152049::::::::110:102::5:3:3611:1487:3528:::|h[Fel-Engraved Handbell]|h|r",
+					["id"] = "1516179548-3",
 					["response"] = "Mainspec/Need",
+					["date"] = "16/01/18",
+					["class"] = "WARRIOR",
+					["isAwardReason"] = false,
+					["groupSize"] = 19,
+					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:102::5:3:3611:1487:3528:::|h[Fasces of the Endless Legions]|h|r",
+					["boss"] = "Antoran High Command",
+					["time"] = "20:59:08",
+					["difficultyID"] = 15,
+					["votes"] = 1,
+					["responseID"] = 1,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "WARRIOR",
-					["boss"] = "Antoran High Command",
-					["groupSize"] = 19,
-					["time"] = "20:59:08",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:102::5:3:3611:1487:3528:::|h[Fasces of the Endless Legions]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 1,
-					["id"] = "1516179548-3",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [8]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152179::::::::110:102::3:4:3610:1808:1477:3336:::|h[Juggernaut Cloak]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 19,
-					["id"] = "1516785849-18",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARRIOR",
-					["votes"] = 1,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151938::::::::110:102::5:3:3611:1497:3336:::|h[Drape of the Spirited Hunt]|h|r",
-					["time"] = "21:24:09",
 					["boss"] = "Imonar the Soulhunter",
+					["response"] = "Mainspec/Need",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "21:24:09",
+					["lootWon"] = "|cffa335ee|Hitem:151938::::::::110:102::5:3:3611:1497:3336:::|h[Drape of the Spirited Hunt]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152179::::::::110:102::3:4:3610:1808:1477:3336:::|h[Juggernaut Cloak]|h|r",
+					["id"] = "1516785849-18",
+					["mapID"] = 1712,
 				}, -- [9]
 				{
 					["mapID"] = 1712,
@@ -9902,27 +9915,27 @@ RCLootCouncilLootDB = {
 			},
 			["Forthepunx-Tichondrius"] = {
 				{
-					["itemReplaced1"] = "|cffff8000|Hitem:133976::::::::110:102:::2:3459:3630:::|h[Cinidaria, the Symbiote]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffff8000|Hitem:133976::::::::110:102:::2:3459:3630:::|h[Cinidaria, the Symbiote]|h|r",
+					["id"] = "1516184627-20",
 					["response"] = "Minor Upgrade",
+					["date"] = "16/01/18",
+					["class"] = "MONK",
+					["isAwardReason"] = false,
+					["groupSize"] = 19,
+					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:102::5:3:3611:1487:3528:::|h[Belt of Fractured Sanity]|h|r",
+					["boss"] = "Varimathras",
+					["time"] = "22:23:47",
+					["difficultyID"] = 15,
+					["votes"] = 1,
+					["responseID"] = 3,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["class"] = "MONK",
-					["boss"] = "Varimathras",
-					["groupSize"] = 19,
-					["time"] = "22:23:47",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:102::5:3:3611:1487:3528:::|h[Belt of Fractured Sanity]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 3,
-					["id"] = "1516184627-20",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -9998,50 +10011,50 @@ RCLootCouncilLootDB = {
 					["votes"] = 2,
 				}, -- [4]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152144::::::::110:102::3:3:3610:1477:3336:::|h[Grips of Chi'Ji]|h|r",
+					["mapID"] = 1712,
+					["date"] = "01/02/18",
+					["response"] = "Minor Upgrade",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Minor Upgrade",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MONK",
-					["votes"] = 0,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152086::::::::110:102::5:3:3611:1492:3336:::|h[Grips of Hungering Shadows]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:06:49",
 					["boss"] = "Portal Keeper Hasabel",
+					["groupSize"] = 16,
+					["time"] = "21:06:49",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:152086::::::::110:102::5:3:3611:1492:3336:::|h[Grips of Hungering Shadows]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 3,
-					["date"] = "01/02/18",
 					["id"] = "1517562409-6",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [5]
 				{
-					["itemReplaced1"] = "|cffff8000|Hitem:133976::::::::110:104:::2:3459:3630:::|h[Cinidaria, the Symbiote]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Minor Upgrade",
-					["date"] = "01/02/18",
-					["class"] = "MONK",
-					["boss"] = "The Coven of Shivarra",
-					["groupSize"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:104::5:4:3611:43:1497:3336:::|h[Belt of Fractured Sanity]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "22:00:16",
-					["isAwardReason"] = false,
-					["votes"] = 1,
-					["responseID"] = 3,
+					["itemReplaced1"] = "|cffff8000|Hitem:133976::::::::110:104:::2:3459:3630:::|h[Cinidaria, the Symbiote]|h|r",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Minor Upgrade",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "MONK",
+					["isAwardReason"] = false,
+					["groupSize"] = 15,
+					["time"] = "22:00:16",
+					["boss"] = "The Coven of Shivarra",
+					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:104::5:4:3611:43:1497:3336:::|h[Belt of Fractured Sanity]|h|r",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["responseID"] = 3,
 					["id"] = "1517565616-18",
+					["date"] = "01/02/18",
 				}, -- [6]
 				{
 					["mapID"] = 1712,
@@ -10245,96 +10258,96 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [5]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:146986::::::::110:102::5:3:3562:1512:3337:::|h[Emberscatter Treads]|h|r",
-					["id"] = "1513157876-19",
-					["response"] = "Mainspec/Need",
-					["date"] = "12/12/17",
-					["class"] = "PRIEST",
-					["isAwardReason"] = false,
-					["groupSize"] = 18,
-					["lootWon"] = "|cffa335ee|Hitem:151939::::::::110:102::5:5:3611:1808:41:1487:3528:::|h[Whisperstep Runners]|h|r",
-					["boss"] = "Imonar the Soulhunter",
-					["time"] = "21:37:56",
-					["difficultyID"] = 15,
-					["votes"] = 2,
-					["responseID"] = 1,
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Mainspec/Need",
+					["id"] = "1513157876-19",
+					["class"] = "PRIEST",
+					["difficultyID"] = 15,
+					["groupSize"] = 18,
+					["time"] = "21:37:56",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151939::::::::110:102::5:5:3611:1808:41:1487:3528:::|h[Whisperstep Runners]|h|r",
+					["votes"] = 2,
+					["boss"] = "Imonar the Soulhunter",
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "12/12/17",
 				}, -- [6]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147104::::::::110:102::6:3:3563:1512:3528:::|h[Icon of Perverse Animation]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Mainspec/Need",
-					["id"] = "1513331099-5",
-					["class"] = "PRIEST",
-					["difficultyID"] = 15,
-					["groupSize"] = 12,
-					["time"] = "21:44:59",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:155854::::::::110:102::5:3:3611:1502:3336:::|h[Root of the Lifebinder]|h|r",
-					["votes"] = 1,
-					["boss"] = "Argus the Unmaker",
-					["responseID"] = 1,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147104::::::::110:102::6:3:3563:1512:3528:::|h[Icon of Perverse Animation]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "PRIEST",
+					["votes"] = 1,
+					["groupSize"] = 12,
+					["lootWon"] = "|cffa335ee|Hitem:155854::::::::110:102::5:3:3611:1502:3336:::|h[Root of the Lifebinder]|h|r",
+					["difficultyID"] = 15,
+					["time"] = "21:44:59",
+					["boss"] = "Argus the Unmaker",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
 					["date"] = "14/12/17",
+					["id"] = "1513331099-5",
 				}, -- [7]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:137372::::::::110:102::16:4:3536:41:1607:3337:::|h[Wristbands of the Swirling Deeps]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["response"] = "Mainspec/Need",
-					["id"] = "1513333921-7",
-					["class"] = "PRIEST",
-					["difficultyID"] = 14,
-					["groupSize"] = 13,
-					["time"] = "22:32:01",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151953::::::::110:102::3:3:3610:1472:3528:::|h[Man'ari Pyromancer Cuffs]|h|r",
-					["votes"] = 1,
-					["boss"] = "Antoran High Command",
-					["responseID"] = 1,
+					["itemReplaced1"] = "|cffa335ee|Hitem:137372::::::::110:102::16:4:3536:41:1607:3337:::|h[Wristbands of the Swirling Deeps]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "PRIEST",
+					["votes"] = 1,
+					["groupSize"] = 13,
+					["lootWon"] = "|cffa335ee|Hitem:151953::::::::110:102::3:3:3610:1472:3528:::|h[Man'ari Pyromancer Cuffs]|h|r",
+					["difficultyID"] = 14,
+					["time"] = "22:32:01",
+					["boss"] = "Antoran High Command",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
 					["date"] = "14/12/17",
+					["id"] = "1513333921-7",
 				}, -- [8]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147165::::::::110:102::6:4:3563:42:1532:3337:::|h[Hood of Blind Absolution]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["response"] = "Disenchant",
-					["id"] = "1513335077-9",
-					["class"] = "PRIEST",
-					["difficultyID"] = 14,
-					["groupSize"] = 13,
-					["time"] = "22:51:17",
-					["isAwardReason"] = true,
-					["lootWon"] = "|cffa335ee|Hitem:152013::::::::110:102::3:4:3610:1808:1477:3336:::|h[Helmet of the Hidden Sanctuary]|h|r",
-					["votes"] = 0,
-					["boss"] = "The Defense of Eonar",
-					["responseID"] = "AUTOPASS",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147165::::::::110:102::6:4:3563:42:1532:3337:::|h[Hood of Blind Absolution]|h|r",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Disenchant",
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "PRIEST",
+					["votes"] = 0,
+					["groupSize"] = 13,
+					["lootWon"] = "|cffa335ee|Hitem:152013::::::::110:102::3:4:3610:1808:1477:3336:::|h[Helmet of the Hidden Sanctuary]|h|r",
+					["difficultyID"] = 14,
+					["time"] = "22:51:17",
+					["boss"] = "The Defense of Eonar",
+					["isAwardReason"] = true,
+					["responseID"] = "AUTOPASS",
 					["date"] = "14/12/17",
+					["id"] = "1513335077-9",
 				}, -- [9]
 				{
 					["mapID"] = 1712,
@@ -10364,50 +10377,50 @@ RCLootCouncilLootDB = {
 			},
 			["Zinara-Tichondrius"] = {
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:137518::::::::110:262::16:3:3416:1562:3528:::|h[Leggings of Biting Links]|h|r",
-					["id"] = "1512548619-1",
-					["response"] = "Candidate is selecting response, please wait",
-					["date"] = "05/12/17",
-					["class"] = "SHAMAN",
-					["isAwardReason"] = false,
-					["groupSize"] = 19,
-					["lootWon"] = "|cffa335ee|Hitem:152002::::::::110:102::5:3:3611:1507:3337:::|h[Battalion-Shattering Leggings]|h|r",
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:23:39",
-					["difficultyID"] = 15,
-					["votes"] = 2,
-					["responseID"] = "WAIT",
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Candidate is selecting response, please wait",
+					["id"] = "1512548619-1",
+					["class"] = "SHAMAN",
+					["difficultyID"] = 15,
+					["groupSize"] = 19,
+					["time"] = "20:23:39",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152002::::::::110:102::5:3:3611:1507:3337:::|h[Battalion-Shattering Leggings]|h|r",
+					["votes"] = 2,
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = "WAIT",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "05/12/17",
 				}, -- [1]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147177::::::::110:262::3:3:3561:1492:3336:::|h[Grips of the Skybreaker]|h|r",
-					["id"] = "1512548649-2",
-					["response"] = "Candidate is selecting response, please wait",
-					["date"] = "05/12/17",
-					["class"] = "SHAMAN",
-					["isAwardReason"] = false,
-					["groupSize"] = 19,
-					["lootWon"] = "|cffa335ee|Hitem:151998::::::::110:102::5:3:3611:1487:3528:::|h[Heedless Eradication Gauntlets]|h|r",
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:24:09",
-					["difficultyID"] = 15,
-					["votes"] = 2,
-					["responseID"] = "WAIT",
+					["mapID"] = 1712,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Candidate is selecting response, please wait",
+					["id"] = "1512548649-2",
+					["class"] = "SHAMAN",
+					["difficultyID"] = 15,
+					["groupSize"] = 19,
+					["time"] = "20:24:09",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151998::::::::110:102::5:3:3611:1487:3528:::|h[Heedless Eradication Gauntlets]|h|r",
+					["votes"] = 2,
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = "WAIT",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "05/12/17",
 				}, -- [2]
 				{
 					["mapID"] = 1712,
@@ -10532,53 +10545,54 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [7]
 				{
-					["date"] = "14/12/17",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152367::::::::110:102::3:3:3614:1472:3528:::|h[Sabatons of Ceaseless Assault]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 17,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["class"] = "SHAMAN",
-					["boss"] = "Aggramar",
-					["response"] = "Offspec/Greed",
-					["votes"] = 1,
-					["difficultyID"] = 15,
-					["time"] = "20:41:52",
-					["lootWon"] = "|cffa335ee|Hitem:152684::::::::110:102::5:3:3611:1487:3528:::|h[Greatboots of the Searing Tempest]|h|r",
-					["isAwardReason"] = false,
-					["responseID"] = 2,
 					["id"] = "1513327312-0",
 					["mapID"] = 1712,
-				}, -- [8]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147095::::::::110:102::5:3:3562:1517:3336:::|h[Sphere of Entropy]|h|r",
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["response"] = "Offspec/Greed",
-					["id"] = "1513335599-14",
-					["class"] = "SHAMAN",
-					["difficultyID"] = 14,
-					["groupSize"] = 13,
-					["time"] = "22:59:59",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152042::::::::110:102::3:3:3610:1482:3336:::|h[Hoarfrost-Beast Talon]|h|r",
-					["votes"] = 0,
-					["boss"] = "Imonar the Soulhunter",
-					["responseID"] = 2,
+					["date"] = "14/12/17",
+					["groupSize"] = 17,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["response"] = "Offspec/Greed",
+					["boss"] = "Aggramar",
+					["votes"] = 1,
+					["lootWon"] = "|cffa335ee|Hitem:152684::::::::110:102::5:3:3611:1487:3528:::|h[Greatboots of the Searing Tempest]|h|r",
+					["time"] = "20:41:52",
+					["difficultyID"] = 15,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152367::::::::110:102::3:3:3614:1472:3528:::|h[Sabatons of Ceaseless Assault]|h|r",
+				}, -- [8]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147095::::::::110:102::5:3:3562:1517:3336:::|h[Sphere of Entropy]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "SHAMAN",
+					["votes"] = 0,
+					["groupSize"] = 13,
+					["lootWon"] = "|cffa335ee|Hitem:152042::::::::110:102::3:3:3610:1482:3336:::|h[Hoarfrost-Beast Talon]|h|r",
+					["difficultyID"] = 14,
+					["time"] = "22:59:59",
+					["boss"] = "Imonar the Soulhunter",
+					["isAwardReason"] = false,
+					["responseID"] = 2,
 					["date"] = "14/12/17",
+					["id"] = "1513335599-14",
 				}, -- [9]
 				{
 					["mapID"] = 1712,
+					["date"] = "19/12/17",
 					["id"] = "1513761660-15",
 					["color"] = {
 						1, -- [1]
@@ -10586,18 +10600,17 @@ RCLootCouncilLootDB = {
 						0, -- [3]
 						1, -- [4]
 					},
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "SHAMAN",
 					["boss"] = "The Defense of Eonar",
-					["response"] = "Offspec/Greed",
-					["votes"] = 1,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152061::::::::110:102::5:3:3611:1487:3528:::|h[Droplets of the Cleansing Storm]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:21:00",
-					["responseID"] = 2,
 					["groupSize"] = 15,
-					["date"] = "19/12/17",
+					["isAwardReason"] = false,
+					["votes"] = 1,
+					["time"] = "21:21:00",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152061::::::::110:102::5:3:3611:1487:3528:::|h[Droplets of the Cleansing Storm]|h|r",
+					["responseID"] = 2,
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [10]
 				{
 					["mapID"] = 1712,
@@ -10625,6 +10638,7 @@ RCLootCouncilLootDB = {
 				}, -- [11]
 				{
 					["mapID"] = 1712,
+					["date"] = "19/12/17",
 					["id"] = "1513764874-23",
 					["color"] = {
 						0.7, -- [1]
@@ -10632,43 +10646,42 @@ RCLootCouncilLootDB = {
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "SHAMAN",
 					["boss"] = "Varimathras",
-					["response"] = "Pass",
-					["votes"] = 1,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:152060::::::::110:102::5:3:3611:1487:3528:::|h[Neuroshock Electrode]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "22:14:34",
-					["responseID"] = "PASS",
 					["groupSize"] = 15,
-					["date"] = "19/12/17",
+					["isAwardReason"] = false,
+					["votes"] = 1,
+					["time"] = "22:14:34",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152060::::::::110:102::5:3:3611:1487:3528:::|h[Neuroshock Electrode]|h|r",
+					["responseID"] = "PASS",
+					["response"] = "Pass",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [12]
 			},
 			["Shamams-Stormrage"] = {
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147094::::::::110:102::5:3:3562:1497:3528:::|h[Virus of Lethargy]|h|r",
 					["mapID"] = 1712,
-					["date"] = "16/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147094::::::::110:102::5:3:3562:1497:3528:::|h[Virus of Lethargy]|h|r",
+					["id"] = "1516180904-6",
 					["response"] = "Mainspec/Need",
+					["date"] = "16/01/18",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["groupSize"] = 19,
+					["lootWon"] = "|cffa335ee|Hitem:152041::::::::110:102::5:3:3611:1487:3528:::|h[Sublimating Portal Frost]|h|r",
+					["boss"] = "Portal Keeper Hasabel",
+					["time"] = "21:21:44",
+					["difficultyID"] = 15,
+					["votes"] = 1,
+					["responseID"] = 1,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "SHAMAN",
-					["boss"] = "Portal Keeper Hasabel",
-					["groupSize"] = 19,
-					["time"] = "21:21:44",
-					["votes"] = 1,
-					["lootWon"] = "|cffa335ee|Hitem:152041::::::::110:102::5:3:3611:1487:3528:::|h[Sublimating Portal Frost]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 15,
-					["responseID"] = 1,
-					["id"] = "1516180904-6",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -10758,7 +10771,7 @@ RCLootCouncilLootDB = {
 						0.5, -- [3]
 						1, -- [4]
 					},
-					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["id"] = "1516184015-19",
 					["boss"] = "Kin'garoth",
 					["tokenRoll"] = true,
 					["response"] = "2nd Tier Piece",
@@ -10769,7 +10782,7 @@ RCLootCouncilLootDB = {
 					["itemReplaced1"] = "|cffa335ee|Hitem:151999::::::::110:102::5:3:3611:1487:3528:::|h[Preysnare Vicegrips]|h|r",
 					["responseID"] = 2,
 					["note"] = "2 set tier bonus ",
-					["id"] = "1516184015-19",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [5]
 			},
 			["Sogypancakes-Tichondrius"] = {
@@ -10875,27 +10888,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 3,
 				}, -- [4]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:102::5:3:3562:1507:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["response"] = "Offspec/Greed",
-					["id"] = "1513336125-17",
-					["class"] = "MAGE",
-					["difficultyID"] = 14,
-					["groupSize"] = 12,
-					["time"] = "23:08:45",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151948::::::::110:102::3:4:3610:42:1472:3528:::|h[Magma-Spattered Smock]|h|r",
-					["votes"] = 1,
-					["boss"] = "Kin'garoth",
-					["responseID"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:102::5:3:3562:1507:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "MAGE",
+					["votes"] = 1,
+					["groupSize"] = 12,
+					["lootWon"] = "|cffa335ee|Hitem:151948::::::::110:102::3:4:3610:42:1472:3528:::|h[Magma-Spattered Smock]|h|r",
+					["difficultyID"] = 14,
+					["time"] = "23:08:45",
+					["boss"] = "Kin'garoth",
+					["isAwardReason"] = false,
+					["responseID"] = 2,
 					["date"] = "14/12/17",
+					["id"] = "1513336125-17",
 				}, -- [5]
 				{
 					["mapID"] = 1712,
@@ -10923,50 +10936,50 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [6]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147422::::::::110:102::6:3:3563:1517:3336:::|h[Acolyte's Abandoned Footwraps]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 19,
-					["id"] = "1516784414-8",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
-					["votes"] = 1,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151945::::::::110:102::5:3:3611:1492:3336:::|h[Lady Dacidion's Silk Slippers]|h|r",
-					["time"] = "21:00:14",
 					["boss"] = "Portal Keeper Hasabel",
+					["response"] = "Mainspec/Need",
+					["votes"] = 1,
+					["difficultyID"] = 15,
+					["time"] = "21:00:14",
+					["lootWon"] = "|cffa335ee|Hitem:151945::::::::110:102::5:3:3611:1492:3336:::|h[Lady Dacidion's Silk Slippers]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147422::::::::110:102::6:3:3563:1517:3336:::|h[Acolyte's Abandoned Footwraps]|h|r",
+					["id"] = "1516784414-8",
+					["mapID"] = 1712,
 				}, -- [7]
 				{
+					["date"] = "23/01/18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152137::::::::110:102::5:3:3611:1497:3336:::|h[Runebound Gloves]|h|r",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["groupSize"] = 19,
-					["id"] = "1516784447-10",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
-					["votes"] = 0,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 15,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151941::::::::110:102::5:3:3611:1487:3528:::|h[Aranasi Shadow-Weaver's Gloves]|h|r",
-					["time"] = "21:00:47",
 					["boss"] = "Portal Keeper Hasabel",
+					["response"] = "Offspec/Greed",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["time"] = "21:00:47",
+					["lootWon"] = "|cffa335ee|Hitem:151941::::::::110:102::5:3:3611:1487:3528:::|h[Aranasi Shadow-Weaver's Gloves]|h|r",
+					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "23/01/18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152137::::::::110:102::5:3:3611:1497:3336:::|h[Runebound Gloves]|h|r",
+					["id"] = "1516784447-10",
+					["mapID"] = 1712,
 				}, -- [8]
 				{
 					["mapID"] = 1712,
@@ -11045,20 +11058,6 @@ RCLootCouncilLootDB = {
 			},
 			["Seainthesky-Tichondrius"] = {
 				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147091::::::::110:252::5:3:3562:1512:3337:::|h[Cleansing Ignition Catalyst]|h|r",
-					["id"] = "1511944840-3",
-					["groupSize"] = 19,
-					["date"] = "28/11/17",
-					["class"] = "DEATHKNIGHT",
-					["difficultyID"] = 15,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:40:40",
-					["lootWon"] = "|cffa335ee|Hitem:152036::::::::110:102::5:3:3611:1492:3336:::|h[Hellfire Ignition Switch]|h|r",
-					["votes"] = 1,
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -11066,6 +11065,20 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["groupSize"] = 19,
+					["id"] = "1511944840-3",
+					["class"] = "DEATHKNIGHT",
+					["votes"] = 1,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:152036::::::::110:102::5:3:3611:1492:3336:::|h[Hellfire Ignition Switch]|h|r",
+					["time"] = "20:40:40",
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = 1,
+					["date"] = "28/11/17",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147091::::::::110:252::5:3:3562:1512:3337:::|h[Cleansing Ignition Catalyst]|h|r",
 				}, -- [1]
 				{
 					["mapID"] = 1712,
@@ -11093,27 +11106,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [2]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:143691::::::::110:252::43:3:3573:1587:3337:::|h[Bloody Kvaldir Pennant]|h|r",
 					["id"] = "1512127138-8",
-					["mapID"] = 1712,
-					["date"] = "30/11/17",
 					["groupSize"] = 17,
+					["date"] = "30/11/17",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["boss"] = "Varimathras",
+					["time"] = "23:18:58",
+					["lootWon"] = "|cffa335ee|Hitem:152092::::::::110:102::5:3:3611:1492:3336:::|h[Nathrezim Incisor]|h|r",
+					["votes"] = 2,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["boss"] = "Varimathras",
-					["votes"] = 2,
-					["lootWon"] = "|cffa335ee|Hitem:152092::::::::110:102::5:3:3611:1492:3336:::|h[Nathrezim Incisor]|h|r",
-					["time"] = "23:18:58",
-					["difficultyID"] = 15,
-					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:143691::::::::110:252::43:3:3573:1587:3337:::|h[Bloody Kvaldir Pennant]|h|r",
+					["mapID"] = 1712,
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -11192,27 +11205,27 @@ RCLootCouncilLootDB = {
 					["votes"] = 1,
 				}, -- [2]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:155852::::::::110:102::3:3:3610:1482:3528:::|h[Volatile Soul Fragment]|h|r",
+					["mapID"] = 1712,
+					["date"] = "06/02/18",
+					["response"] = "Mainspec/Need",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "ROGUE",
-					["votes"] = 1,
-					["groupSize"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:102::5:3:3611:1492:3336:::|h[Unwavering Soul Essence]|h|r",
-					["difficultyID"] = 15,
-					["time"] = "21:36:14",
 					["boss"] = "Unknown",
+					["groupSize"] = 16,
+					["time"] = "21:36:14",
+					["votes"] = 1,
+					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:102::5:3:3611:1492:3336:::|h[Unwavering Soul Essence]|h|r",
 					["isAwardReason"] = false,
+					["difficultyID"] = 15,
 					["responseID"] = 1,
-					["date"] = "06/02/18",
 					["id"] = "1517996174-0",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [3]
 			},
 			["Varscona-Tichondrius"] = {
@@ -11270,25 +11283,25 @@ RCLootCouncilLootDB = {
 				}, -- [2]
 				{
 					["mapID"] = 1712,
+					["date"] = "12/12/17",
+					["groupSize"] = 19,
 					["id"] = "1513160176-30",
+					["class"] = "DEATHKNIGHT",
+					["votes"] = 0,
 					["response"] = "Offspec/Greed",
+					["time"] = "22:16:16",
+					["boss"] = "Varimathras",
+					["lootWon"] = "|cffa335ee|Hitem:152092::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Incisor]|h|r",
+					["difficultyID"] = 15,
+					["isAwardReason"] = false,
+					["responseID"] = 2,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["groupSize"] = 19,
-					["lootWon"] = "|cffa335ee|Hitem:152092::::::::110:102::5:3:3611:1487:3528:::|h[Nathrezim Incisor]|h|r",
-					["boss"] = "Varimathras",
-					["time"] = "22:16:16",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["responseID"] = 2,
-					["date"] = "12/12/17",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -11340,27 +11353,27 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [5]
 				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152113:5434:::::::110:102::5:3:3611:1492:3336:::|h[Dreadwake Greatcloak]|h|r",
 					["id"] = "1513769675-30",
-					["mapID"] = 1712,
-					["date"] = "19/12/17",
 					["groupSize"] = 10,
+					["date"] = "19/12/17",
+					["class"] = "DEATHKNIGHT",
+					["difficultyID"] = 15,
+					["response"] = "Offspec/Greed",
+					["isAwardReason"] = false,
+					["boss"] = "Aggramar",
+					["time"] = "23:34:35",
+					["lootWon"] = "|cffa335ee|Hitem:152062::::::::110:102::5:3:3611:1487:3528:::|h[Greatcloak of the Dark Pantheon]|h|r",
+					["votes"] = 0,
+					["responseID"] = 2,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEATHKNIGHT",
-					["isAwardReason"] = false,
-					["response"] = "Offspec/Greed",
-					["boss"] = "Aggramar",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:152062::::::::110:102::5:3:3611:1487:3528:::|h[Greatcloak of the Dark Pantheon]|h|r",
-					["time"] = "23:34:35",
-					["difficultyID"] = 15,
-					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152113:5434:::::::110:102::5:3:3611:1492:3336:::|h[Dreadwake Greatcloak]|h|r",
+					["mapID"] = 1712,
 				}, -- [6]
 			},
 		},
