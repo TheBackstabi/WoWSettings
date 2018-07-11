@@ -8,7 +8,7 @@ AucAdvancedFilterBasic_IgnoreList = {
 		["List"] = {
 		},
 	},
-	["Terenas"] = {
+	["Wyrmrest Accord"] = {
 		["List"] = {
 		},
 	},
@@ -20,7 +20,7 @@ AucAdvancedFilterBasic_IgnoreList = {
 		["List"] = {
 		},
 	},
-	["Alleria"] = {
+	["Proudmoore"] = {
 		["List"] = {
 		},
 	},
@@ -32,11 +32,11 @@ AucAdvancedFilterBasic_IgnoreList = {
 		["List"] = {
 		},
 	},
-	["Proudmoore"] = {
+	["Alleria"] = {
 		["List"] = {
 		},
 	},
-	["Wyrmrest Accord"] = {
+	["Terenas"] = {
 		["List"] = {
 		},
 	},

@@ -21,9 +21,9 @@ sArenaDB = {
 		["X"] = 46.4000015258789,
 		["Point"] = "CENTER",
 		["Scale"] = 1.25,
-		["Enabled"] = true,
-		["CooldownFontSize"] = 7,
 		["Y"] = -4.80000019073486,
+		["CooldownFontSize"] = 7,
+		["Enabled"] = true,
 	},
 	["SpecIconScale"] = 0.8,
 	["DRTracker"] = {
@@ -49,9 +49,769 @@ sArenaDB = {
 		-224.667266845703, -- [3]
 		-175.999908447266, -- [4]
 	},
+	["SpecIcons"] = {
+		50, -- [1]
+		-26.25, -- [2]
+	},
+	["profileKeys"] = {
+		["Calithil - Hydraxis"] = "Default",
+		["Bagofsticks - Hydraxis"] = "Default",
+		["Pillowaifu - Hydraxis"] = "Default",
+		["Frostshocki - Hydraxis"] = "Default",
+		["Necroticks - Hydraxis"] = "Default",
+		["Aubade - Ghostlands"] = "Default",
+		["Scrublordxo - Terenas"] = "Default",
+		["Anyachi - Terenas"] = "Default",
+		["Anyatsu - Terenas"] = "Default",
+		["Moosebrew - Hydraxis"] = "Default",
+		["Purpleslurp - Terenas"] = "Default",
+		["Tekkuto - Hydraxis"] = "Default",
+		["Ramlethall - Tichondrius"] = "Default",
+		["Skivvix - Ghostlands"] = "Default",
+		["Tekkita - Alleria"] = "Default",
+		["Anyatsu - Korgath"] = "Default",
+		["Backstabi - Korgath"] = "Default",
+		["Spetis - Ghostlands"] = "Default",
+		["Backstabi - Ghostlands"] = "Default",
+		["Backstabi - Hydraxis"] = "Default",
+		["Aestrin - Ghostlands"] = "Default",
+		["Edgelordxo - Hydraxis"] = "Default",
+	},
 	["profiles"] = {
 		["Default"] = {
-			["scale"] = 1.5,
+			["castBarPosition"] = {
+				"CENTER", -- [1]
+				{
+					["CC"] = {
+						["isMoving"] = false,
+						["setting"] = {
+							"CENTER", -- [1]
+							nil, -- [2]
+							"CENTER", -- [3]
+							-70, -- [4]
+							-17, -- [5]
+						},
+						["refreshConfig"] = true,
+						["Cooldown"] = {
+							["Text"] = {
+							},
+						},
+						["setupDrag"] = true,
+						["Icon"] = {
+						},
+						["keepRelative"] = true,
+					},
+					["numDebuffs"] = 0,
+					["healAbsorbBarRightShadow"] = {
+					},
+					["healAbsorbBarLeftShadow"] = {
+					},
+					["healthtextright"] = {
+					},
+					["totalAbsorbBarOverlay"] = {
+						["tileSize"] = 32,
+					},
+					["debuffCountdown"] = 0,
+					["overAbsorbGlow"] = {
+					},
+					["healthtext"] = {
+					},
+					["myHealPredictionBar"] = {
+					},
+					["name"] = {
+					},
+					["specPortrait"] = {
+					},
+					["overHealAbsorbGlow"] = {
+					},
+					["specBorder"] = {
+					},
+					["setting"] = {
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						743.332580566406, -- [4]
+						532.3330078125, -- [5]
+					},
+					["CastingBar"] = {
+						["fadeOut"] = true,
+						["showTradeSkills"] = false,
+						["holdTime"] = 0,
+						["Flash"] = {
+						},
+						["isMoving"] = false,
+						["showCastbar"] = true,
+						["Icon"] = {
+						},
+						["startChannelColor"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["finishedCastColor"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["nonInterruptibleColor"] = {
+							["r"] = 0.7,
+							["g"] = 0.7,
+							["b"] = 0.7,
+						},
+						["Text"] = {
+						},
+						["flash"] = true,
+						["unit"] = "arena3",
+						["BorderShield"] = {
+						},
+						["failedCastColor"] = {
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["showShield"] = true,
+						["startCastColor"] = {
+							["r"] = 1,
+							["g"] = 0.7,
+							["b"] = 0,
+						},
+						["flashColorSameAsStart"] = true,
+						["Spark"] = {
+							["offsetY"] = 0,
+						},
+						["finishedColorSameAsStart"] = true,
+					},
+					["healAbsorbBar"] = {
+					},
+					["castFrame"] = {
+						["keepRelative"] = true,
+						["refreshConfig"] = true,
+						["setupDrag"] = true,
+						["Icon"] = {
+						},
+						["targetFrame"] = {
+							["fadeOut"] = true,
+							["showTradeSkills"] = false,
+							["holdTime"] = 0,
+							["Flash"] = {
+							},
+							["isMoving"] = false,
+							["showCastbar"] = true,
+							["Icon"] = {
+							},
+							["startChannelColor"] = {
+								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
+							},
+							["finishedCastColor"] = {
+								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
+							},
+							["nonInterruptibleColor"] = {
+								["r"] = 0.7,
+								["g"] = 0.7,
+								["b"] = 0.7,
+							},
+							["Text"] = {
+							},
+							["flash"] = true,
+							["unit"] = "arena3",
+							["BorderShield"] = {
+							},
+							["failedCastColor"] = {
+								["r"] = 1,
+								["g"] = 0,
+								["b"] = 0,
+							},
+							["showShield"] = true,
+							["startCastColor"] = {
+								["r"] = 1,
+								["g"] = 0.7,
+								["b"] = 0,
+							},
+							["flashColorSameAsStart"] = true,
+							["Spark"] = {
+								["offsetY"] = 0,
+							},
+							["finishedColorSameAsStart"] = true,
+						},
+					},
+					["statusSign"] = -1,
+					["unit"] = "arena3",
+					["manatextright"] = {
+					},
+					["healthtextleft"] = {
+					},
+					["totalAbsorbBar"] = {
+						["overlay"] = {
+							["tileSize"] = 32,
+						},
+					},
+					["noTextPrefix"] = 1,
+					["refreshConfig"] = false,
+					["texture"] = {
+					},
+					["keepRelative"] = false,
+					["statusCounter"] = 0,
+					["targetFrame"] = {
+						["isMoving"] = false,
+					},
+					["petFrame"] = {
+						["healthbar"] = {
+							["capNumericDisplay"] = true,
+							["frequentUpdates"] = true,
+							["disconnected"] = true,
+							["currValue"] = 1,
+							["forceHideText"] = true,
+							["lockShow"] = 0,
+							["unit"] = "arenapet3",
+						},
+						["DropDown"] = {
+							["selectedLootMethod"] = "Loot: Personal",
+							["displayMode"] = "MENU",
+							["which"] = "ARENAENEMY",
+							["selectedLootThreshold"] = "Uncommon",
+							["Button"] = {
+							},
+							["Text"] = {
+							},
+							["Icon"] = {
+							},
+							["unit"] = "arenapet3",
+						},
+						["manabar"] = {
+							["texture"] = {
+							},
+							["currValue"] = 0,
+							["frequentUpdates"] = false,
+							["capNumericDisplay"] = true,
+							["powerType"] = 0,
+							["disconnected"] = true,
+							["lockShow"] = 0,
+							["unit"] = "arenapet3",
+						},
+						["portrait"] = {
+						},
+						["name"] = {
+						},
+						["unit"] = "arenapet3",
+					},
+					["manabar"] = {
+						["setting"] = {
+							"CENTER", -- [1]
+							"UIParent", -- [2]
+							"BOTTOMLEFT", -- [3]
+							743.332580566406, -- [4]
+							532.3330078125, -- [5]
+						},
+						["frequentUpdates"] = false,
+						["textLockable"] = true,
+						["unit"] = "arena3",
+						["RightText"] = {
+						},
+						["capNumericDisplay"] = true,
+						["TextString"] = {
+						},
+						["cvar"] = "statusText",
+						["texture"] = {
+						},
+						["cvarLabel"] = "STATUS_TEXT_PARTY",
+						["forceHideText"] = false,
+						["disconnected"] = true,
+						["currValue"] = 0,
+						["LeftText"] = {
+						},
+						["refreshConfig"] = false,
+						["keepRelative"] = false,
+						["targetFrame"] = {
+							["isMoving"] = false,
+						},
+						["setupDrag"] = true,
+						["powerType"] = 0,
+						["lockShow"] = 0,
+					},
+					["specFrame"] = {
+						["setting"] = {
+							nil, -- [1]
+							{
+								["CC"] = {
+									["setting"] = {
+										"CENTER", -- [1]
+										nil, -- [2]
+										"CENTER", -- [3]
+										-70, -- [4]
+										-17, -- [5]
+									},
+									["refreshConfig"] = true,
+									["Icon"] = {
+									},
+									["setupDrag"] = true,
+									["Cooldown"] = {
+										["Text"] = {
+										},
+									},
+									["keepRelative"] = true,
+								},
+								["numDebuffs"] = 0,
+								["healAbsorbBarRightShadow"] = {
+								},
+								["healAbsorbBarLeftShadow"] = {
+								},
+								["healthtextright"] = {
+								},
+								["totalAbsorbBarOverlay"] = {
+									["tileSize"] = 32,
+								},
+								["debuffCountdown"] = 0,
+								["overAbsorbGlow"] = {
+								},
+								["healthtext"] = {
+								},
+								["myHealPredictionBar"] = {
+								},
+								["name"] = {
+								},
+								["specPortrait"] = {
+								},
+								["overHealAbsorbGlow"] = {
+								},
+								["specBorder"] = {
+								},
+								["setting"] = {
+									"CENTER", -- [1]
+									"UIParent", -- [2]
+									"BOTTOMLEFT", -- [3]
+									743.332580566406, -- [4]
+									532.3330078125, -- [5]
+								},
+								["CastingBar"] = {
+									["fadeOut"] = true,
+									["showTradeSkills"] = false,
+									["holdTime"] = 0,
+									["Flash"] = {
+									},
+									["showCastbar"] = true,
+									["Icon"] = {
+									},
+									["startChannelColor"] = {
+										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
+									},
+									["finishedCastColor"] = {
+										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
+									},
+									["nonInterruptibleColor"] = {
+										["r"] = 0.7,
+										["g"] = 0.7,
+										["b"] = 0.7,
+									},
+									["Text"] = {
+									},
+									["flash"] = true,
+									["unit"] = "arena1",
+									["BorderShield"] = {
+									},
+									["failedCastColor"] = {
+										["r"] = 1,
+										["g"] = 0,
+										["b"] = 0,
+									},
+									["showShield"] = true,
+									["startCastColor"] = {
+										["r"] = 1,
+										["g"] = 0.7,
+										["b"] = 0,
+									},
+									["flashColorSameAsStart"] = true,
+									["Spark"] = {
+										["offsetY"] = 0,
+									},
+									["finishedColorSameAsStart"] = true,
+								},
+								["healAbsorbBar"] = {
+								},
+								["castFrame"] = {
+									["keepRelative"] = true,
+									["refreshConfig"] = true,
+									["setupDrag"] = true,
+									["Icon"] = {
+									},
+									["targetFrame"] = {
+										["fadeOut"] = true,
+										["showTradeSkills"] = false,
+										["holdTime"] = 0,
+										["Flash"] = {
+										},
+										["showCastbar"] = true,
+										["Icon"] = {
+										},
+										["startChannelColor"] = {
+											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
+										},
+										["finishedCastColor"] = {
+											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
+										},
+										["nonInterruptibleColor"] = {
+											["r"] = 0.7,
+											["g"] = 0.7,
+											["b"] = 0.7,
+										},
+										["Text"] = {
+										},
+										["flash"] = true,
+										["unit"] = "arena1",
+										["BorderShield"] = {
+										},
+										["failedCastColor"] = {
+											["r"] = 1,
+											["g"] = 0,
+											["b"] = 0,
+										},
+										["showShield"] = true,
+										["startCastColor"] = {
+											["r"] = 1,
+											["g"] = 0.7,
+											["b"] = 0,
+										},
+										["flashColorSameAsStart"] = true,
+										["Spark"] = {
+											["offsetY"] = 0,
+										},
+										["finishedColorSameAsStart"] = true,
+									},
+								},
+								["statusSign"] = -1,
+								["unit"] = "arena1",
+								["manatextright"] = {
+								},
+								["healthtextleft"] = {
+								},
+								["totalAbsorbBar"] = {
+									["overlay"] = {
+										["tileSize"] = 32,
+									},
+								},
+								["noTextPrefix"] = 1,
+								["refreshConfig"] = false,
+								["texture"] = {
+								},
+								["keepRelative"] = false,
+								["statusCounter"] = 0,
+								["targetFrame"] = {
+									["isMoving"] = false,
+								},
+								["petFrame"] = {
+									["healthbar"] = {
+										["capNumericDisplay"] = true,
+										["frequentUpdates"] = true,
+										["disconnected"] = true,
+										["currValue"] = 1,
+										["forceHideText"] = true,
+										["lockShow"] = 0,
+										["unit"] = "arenapet1",
+									},
+									["DropDown"] = {
+										["selectedLootMethod"] = "Loot: Personal",
+										["displayMode"] = "MENU",
+										["which"] = "ARENAENEMY",
+										["selectedLootThreshold"] = "Uncommon",
+										["Button"] = {
+										},
+										["Text"] = {
+										},
+										["Icon"] = {
+										},
+										["unit"] = "arenapet1",
+									},
+									["manabar"] = {
+										["texture"] = {
+										},
+										["currValue"] = 0,
+										["frequentUpdates"] = false,
+										["capNumericDisplay"] = true,
+										["powerType"] = 0,
+										["disconnected"] = true,
+										["lockShow"] = 0,
+										["unit"] = "arenapet1",
+									},
+									["portrait"] = {
+									},
+									["name"] = {
+									},
+									["unit"] = "arenapet1",
+								},
+								["manabar"] = {
+									["setting"] = {
+										"CENTER", -- [1]
+										"UIParent", -- [2]
+										"BOTTOMLEFT", -- [3]
+										743.332580566406, -- [4]
+										532.3330078125, -- [5]
+									},
+									["frequentUpdates"] = false,
+									["textLockable"] = true,
+									["unit"] = "arena1",
+									["RightText"] = {
+									},
+									["capNumericDisplay"] = true,
+									["TextString"] = {
+									},
+									["cvar"] = "statusText",
+									["texture"] = {
+									},
+									["cvarLabel"] = "STATUS_TEXT_PARTY",
+									["forceHideText"] = false,
+									["disconnected"] = true,
+									["currValue"] = 0,
+									["LeftText"] = {
+									},
+									["refreshConfig"] = false,
+									["keepRelative"] = false,
+									["targetFrame"] = {
+										["isMoving"] = false,
+									},
+									["setupDrag"] = true,
+									["powerType"] = 0,
+									["lockShow"] = 0,
+								},
+								["specFrame"] = {
+									["isMoving"] = false,
+									["keepRelative"] = true,
+									["refreshConfig"] = true,
+									["setupDrag"] = true,
+								},
+								["unitHPPercent"] = 1,
+								["manatext"] = {
+								},
+								["background"] = {
+								},
+								["castBar"] = {
+									["fadeOut"] = true,
+									["showTradeSkills"] = false,
+									["holdTime"] = 0,
+									["Flash"] = {
+									},
+									["showCastbar"] = true,
+									["Icon"] = {
+									},
+									["startChannelColor"] = {
+										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
+									},
+									["finishedCastColor"] = {
+										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
+									},
+									["nonInterruptibleColor"] = {
+										["r"] = 0.7,
+										["g"] = 0.7,
+										["b"] = 0.7,
+									},
+									["Text"] = {
+									},
+									["flash"] = true,
+									["unit"] = "arena1",
+									["BorderShield"] = {
+									},
+									["failedCastColor"] = {
+										["r"] = 1,
+										["g"] = 0,
+										["b"] = 0,
+									},
+									["showShield"] = true,
+									["startCastColor"] = {
+										["r"] = 1,
+										["g"] = 0.7,
+										["b"] = 0,
+									},
+									["flashColorSameAsStart"] = true,
+									["Spark"] = {
+										["offsetY"] = 0,
+									},
+									["finishedColorSameAsStart"] = true,
+								},
+								["manatextleft"] = {
+								},
+								["DropDown"] = {
+									["selectedLootMethod"] = "Loot: Personal",
+									["displayMode"] = "MENU",
+									["which"] = "ARENAENEMY",
+									["selectedLootThreshold"] = "Uncommon",
+									["Button"] = {
+									},
+									["Text"] = {
+									},
+									["Icon"] = {
+									},
+									["unit"] = "arena1",
+								},
+								["healthbar"] = {
+									["setting"] = {
+										"CENTER", -- [1]
+										"UIParent", -- [2]
+										"BOTTOMLEFT", -- [3]
+										743.332580566406, -- [4]
+										532.3330078125, -- [5]
+									},
+									["frequentUpdates"] = true,
+									["textLockable"] = true,
+									["forceHideText"] = false,
+									["RightText"] = {
+									},
+									["capNumericDisplay"] = true,
+									["TextString"] = {
+									},
+									["lockShow"] = 0,
+									["cvarLabel"] = "STATUS_TEXT_PARTY",
+									["zeroText"] = "Dead",
+									["disconnected"] = true,
+									["refreshConfig"] = false,
+									["LeftText"] = {
+									},
+									["keepRelative"] = false,
+									["targetFrame"] = {
+										["isMoving"] = false,
+									},
+									["currValue"] = 1,
+									["setupDrag"] = true,
+									["unit"] = "arena1",
+									["cvar"] = "statusText",
+								},
+								["setupDrag"] = true,
+								["otherHealPredictionBar"] = {
+								},
+								["classPortrait"] = {
+								},
+							}, -- [2]
+							nil, -- [3]
+							57, -- [4]
+							-4, -- [5]
+						},
+						["keepRelative"] = true,
+						["refreshConfig"] = true,
+						["setupDrag"] = true,
+					},
+					["unitHPPercent"] = 1,
+					["manatext"] = {
+					},
+					["background"] = {
+					},
+					["castBar"] = {
+						["fadeOut"] = true,
+						["showTradeSkills"] = false,
+						["holdTime"] = 0,
+						["Flash"] = {
+						},
+						["isMoving"] = false,
+						["showCastbar"] = true,
+						["Icon"] = {
+						},
+						["startChannelColor"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["finishedCastColor"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["nonInterruptibleColor"] = {
+							["r"] = 0.7,
+							["g"] = 0.7,
+							["b"] = 0.7,
+						},
+						["Text"] = {
+						},
+						["flash"] = true,
+						["unit"] = "arena3",
+						["BorderShield"] = {
+						},
+						["failedCastColor"] = {
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["showShield"] = true,
+						["startCastColor"] = {
+							["r"] = 1,
+							["g"] = 0.7,
+							["b"] = 0,
+						},
+						["flashColorSameAsStart"] = true,
+						["Spark"] = {
+							["offsetY"] = 0,
+						},
+						["finishedColorSameAsStart"] = true,
+					},
+					["manatextleft"] = {
+					},
+					["DropDown"] = {
+						["selectedLootMethod"] = "Loot: Personal",
+						["displayMode"] = "MENU",
+						["which"] = "ARENAENEMY",
+						["selectedLootThreshold"] = "Uncommon",
+						["Button"] = {
+						},
+						["Text"] = {
+						},
+						["Icon"] = {
+						},
+						["unit"] = "arena3",
+					},
+					["healthbar"] = {
+						["setting"] = {
+							"CENTER", -- [1]
+							"UIParent", -- [2]
+							"BOTTOMLEFT", -- [3]
+							743.332580566406, -- [4]
+							532.3330078125, -- [5]
+						},
+						["frequentUpdates"] = true,
+						["textLockable"] = true,
+						["forceHideText"] = false,
+						["RightText"] = {
+						},
+						["capNumericDisplay"] = true,
+						["TextString"] = {
+						},
+						["lockShow"] = 0,
+						["cvarLabel"] = "STATUS_TEXT_PARTY",
+						["zeroText"] = "Dead",
+						["disconnected"] = true,
+						["refreshConfig"] = false,
+						["LeftText"] = {
+						},
+						["keepRelative"] = false,
+						["targetFrame"] = {
+							["isMoving"] = false,
+						},
+						["currValue"] = 1,
+						["setupDrag"] = true,
+						["unit"] = "arena3",
+						["cvar"] = "statusText",
+					},
+					["setupDrag"] = true,
+					["otherHealPredictionBar"] = {
+					},
+					["classPortrait"] = {
+					},
+				}, -- [2]
+				"CENTER", -- [3]
+				-125, -- [4]
+				-14, -- [5]
+			},
 			["specPosition"] = {
 				nil, -- [1]
 				{
@@ -114,42 +874,42 @@ sArenaDB = {
 									["Icon"] = {
 									},
 									["startChannelColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["finishedCastColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["nonInterruptibleColor"] = {
-										["b"] = 0.7,
-										["g"] = 0.7,
 										["r"] = 0.7,
+										["g"] = 0.7,
+										["b"] = 0.7,
 									},
 									["Text"] = {
 									},
-									["finishedColorSameAsStart"] = true,
+									["flash"] = true,
+									["unit"] = "arena3",
+									["BorderShield"] = {
+									},
+									["failedCastColor"] = {
+										["r"] = 1,
+										["g"] = 0,
+										["b"] = 0,
+									},
+									["showShield"] = true,
+									["startCastColor"] = {
+										["r"] = 1,
+										["g"] = 0.7,
+										["b"] = 0,
+									},
+									["flashColorSameAsStart"] = true,
 									["Spark"] = {
 										["offsetY"] = 0,
 									},
-									["failedCastColor"] = {
-										["b"] = 0,
-										["g"] = 0,
-										["r"] = 1,
-									},
-									["BorderShield"] = {
-									},
-									["startCastColor"] = {
-										["b"] = 0,
-										["g"] = 0.7,
-										["r"] = 1,
-									},
-									["showShield"] = true,
-									["flashColorSameAsStart"] = true,
-									["unit"] = "arena3",
-									["flash"] = true,
+									["finishedColorSameAsStart"] = true,
 								},
 								["healAbsorbBar"] = {
 								},
@@ -177,42 +937,42 @@ sArenaDB = {
 										["Icon"] = {
 										},
 										["startChannelColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["finishedCastColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["nonInterruptibleColor"] = {
-											["b"] = 0.7,
-											["g"] = 0.7,
 											["r"] = 0.7,
+											["g"] = 0.7,
+											["b"] = 0.7,
 										},
 										["Text"] = {
 										},
-										["finishedColorSameAsStart"] = true,
+										["flash"] = true,
+										["unit"] = "arena3",
+										["BorderShield"] = {
+										},
+										["failedCastColor"] = {
+											["r"] = 1,
+											["g"] = 0,
+											["b"] = 0,
+										},
+										["showShield"] = true,
+										["startCastColor"] = {
+											["r"] = 1,
+											["g"] = 0.7,
+											["b"] = 0,
+										},
+										["flashColorSameAsStart"] = true,
 										["Spark"] = {
 											["offsetY"] = 0,
 										},
-										["failedCastColor"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["BorderShield"] = {
-										},
-										["startCastColor"] = {
-											["b"] = 0,
-											["g"] = 0.7,
-											["r"] = 1,
-										},
-										["showShield"] = true,
-										["flashColorSameAsStart"] = true,
-										["unit"] = "arena3",
-										["flash"] = true,
+										["finishedColorSameAsStart"] = true,
 									},
 								},
 								["statusSign"] = -1,
@@ -226,78 +986,48 @@ sArenaDB = {
 										["tileSize"] = 32,
 									},
 								},
-								["classPortrait"] = {
-								},
+								["noTextPrefix"] = 1,
 								["refreshConfig"] = false,
 								["texture"] = {
 								},
 								["keepRelative"] = false,
 								["statusCounter"] = 0,
-								["healthbar"] = {
-									["setting"] = {
-										"CENTER", -- [1]
-										"UIParent", -- [2]
-										"BOTTOMLEFT", -- [3]
-										743.332580566406, -- [4]
-										532.3330078125, -- [5]
-									},
-									["frequentUpdates"] = true,
-									["textLockable"] = true,
-									["forceHideText"] = false,
-									["RightText"] = {
-									},
-									["capNumericDisplay"] = true,
-									["TextString"] = {
-									},
-									["lockShow"] = 0,
-									["cvarLabel"] = "STATUS_TEXT_PARTY",
-									["cvar"] = "statusText",
-									["disconnected"] = true,
-									["unit"] = "arena3",
-									["LeftText"] = {
-									},
-									["keepRelative"] = false,
-									["currValue"] = 1,
-									["targetFrame"] = {
-										["isMoving"] = false,
-									},
-									["setupDrag"] = true,
-									["refreshConfig"] = false,
-									["zeroText"] = "Dead",
+								["targetFrame"] = {
+									["isMoving"] = false,
 								},
 								["petFrame"] = {
 									["healthbar"] = {
 										["capNumericDisplay"] = true,
 										["frequentUpdates"] = true,
-										["unit"] = "arenapet3",
+										["disconnected"] = true,
 										["currValue"] = 1,
 										["forceHideText"] = true,
 										["lockShow"] = 0,
-										["disconnected"] = true,
+										["unit"] = "arenapet3",
 									},
 									["DropDown"] = {
 										["selectedLootMethod"] = "Loot: Personal",
 										["displayMode"] = "MENU",
-										["unit"] = "arenapet3",
-										["Icon"] = {
-										},
+										["which"] = "ARENAENEMY",
+										["selectedLootThreshold"] = "Uncommon",
 										["Button"] = {
 										},
 										["Text"] = {
 										},
-										["selectedLootThreshold"] = "Uncommon",
-										["which"] = "ARENAENEMY",
+										["Icon"] = {
+										},
+										["unit"] = "arenapet3",
 									},
 									["manabar"] = {
-										["unit"] = "arenapet3",
+										["texture"] = {
+										},
 										["currValue"] = 0,
 										["frequentUpdates"] = false,
 										["capNumericDisplay"] = true,
-										["disconnected"] = true,
 										["powerType"] = 0,
+										["disconnected"] = true,
 										["lockShow"] = 0,
-										["texture"] = {
-										},
+										["unit"] = "arenapet3",
 									},
 									["portrait"] = {
 									},
@@ -325,19 +1055,19 @@ sArenaDB = {
 									["texture"] = {
 									},
 									["cvarLabel"] = "STATUS_TEXT_PARTY",
-									["lockShow"] = 0,
+									["forceHideText"] = false,
 									["disconnected"] = true,
-									["powerType"] = 0,
+									["currValue"] = 0,
 									["LeftText"] = {
 									},
 									["refreshConfig"] = false,
+									["keepRelative"] = false,
 									["targetFrame"] = {
 										["isMoving"] = false,
 									},
-									["keepRelative"] = false,
 									["setupDrag"] = true,
-									["currValue"] = 0,
-									["forceHideText"] = false,
+									["powerType"] = 0,
+									["lockShow"] = 0,
 								},
 								["specFrame"] = {
 									["keepRelative"] = true,
@@ -345,7 +1075,9 @@ sArenaDB = {
 									["setupDrag"] = true,
 								},
 								["unitHPPercent"] = 1,
-								["manatextleft"] = {
+								["manatext"] = {
+								},
+								["background"] = {
 								},
 								["castBar"] = {
 									["fadeOut"] = true,
@@ -358,81 +1090,109 @@ sArenaDB = {
 									["Icon"] = {
 									},
 									["startChannelColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["finishedCastColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["nonInterruptibleColor"] = {
-										["b"] = 0.7,
-										["g"] = 0.7,
 										["r"] = 0.7,
+										["g"] = 0.7,
+										["b"] = 0.7,
 									},
 									["Text"] = {
 									},
-									["finishedColorSameAsStart"] = true,
+									["flash"] = true,
+									["unit"] = "arena3",
+									["BorderShield"] = {
+									},
+									["failedCastColor"] = {
+										["r"] = 1,
+										["g"] = 0,
+										["b"] = 0,
+									},
+									["showShield"] = true,
+									["startCastColor"] = {
+										["r"] = 1,
+										["g"] = 0.7,
+										["b"] = 0,
+									},
+									["flashColorSameAsStart"] = true,
 									["Spark"] = {
 										["offsetY"] = 0,
 									},
-									["failedCastColor"] = {
-										["b"] = 0,
-										["g"] = 0,
-										["r"] = 1,
-									},
-									["BorderShield"] = {
-									},
-									["startCastColor"] = {
-										["b"] = 0,
-										["g"] = 0.7,
-										["r"] = 1,
-									},
-									["showShield"] = true,
-									["flashColorSameAsStart"] = true,
-									["unit"] = "arena3",
-									["flash"] = true,
+									["finishedColorSameAsStart"] = true,
 								},
-								["background"] = {
-								},
-								["manatext"] = {
+								["manatextleft"] = {
 								},
 								["DropDown"] = {
 									["selectedLootMethod"] = "Loot: Personal",
 									["displayMode"] = "MENU",
-									["unit"] = "arena3",
-									["Icon"] = {
-									},
+									["which"] = "ARENAENEMY",
+									["selectedLootThreshold"] = "Uncommon",
 									["Button"] = {
 									},
 									["Text"] = {
 									},
-									["selectedLootThreshold"] = "Uncommon",
-									["which"] = "ARENAENEMY",
+									["Icon"] = {
+									},
+									["unit"] = "arena3",
 								},
-								["targetFrame"] = {
-									["isMoving"] = false,
+								["healthbar"] = {
+									["setting"] = {
+										"CENTER", -- [1]
+										"UIParent", -- [2]
+										"BOTTOMLEFT", -- [3]
+										743.332580566406, -- [4]
+										532.3330078125, -- [5]
+									},
+									["frequentUpdates"] = true,
+									["textLockable"] = true,
+									["forceHideText"] = false,
+									["RightText"] = {
+									},
+									["capNumericDisplay"] = true,
+									["TextString"] = {
+									},
+									["lockShow"] = 0,
+									["cvarLabel"] = "STATUS_TEXT_PARTY",
+									["zeroText"] = "Dead",
+									["disconnected"] = true,
+									["refreshConfig"] = false,
+									["LeftText"] = {
+									},
+									["keepRelative"] = false,
+									["targetFrame"] = {
+										["isMoving"] = false,
+									},
+									["currValue"] = 1,
+									["setupDrag"] = true,
+									["unit"] = "arena3",
+									["cvar"] = "statusText",
 								},
 								["setupDrag"] = true,
 								["otherHealPredictionBar"] = {
 								},
-								["noTextPrefix"] = 1,
+								["classPortrait"] = {
+								},
 							}, -- [2]
 							"CENTER", -- [3]
 							-70, -- [4]
 							-17, -- [5]
 						},
 						["refreshConfig"] = true,
-						["keepRelative"] = true,
-						["setupDrag"] = true,
 						["Icon"] = {
 						},
+						["setupDrag"] = true,
 						["Cooldown"] = {
 							["Text"] = {
 							},
 						},
+						["keepRelative"] = true,
 					},
 					["numDebuffs"] = 0,
 					["healAbsorbBarRightShadow"] = {
@@ -476,42 +1236,42 @@ sArenaDB = {
 						["Icon"] = {
 						},
 						["startChannelColor"] = {
-							["b"] = 0,
-							["g"] = 1,
 							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
 						},
 						["finishedCastColor"] = {
-							["b"] = 0,
-							["g"] = 1,
 							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
 						},
 						["nonInterruptibleColor"] = {
-							["b"] = 0.7,
-							["g"] = 0.7,
 							["r"] = 0.7,
+							["g"] = 0.7,
+							["b"] = 0.7,
 						},
 						["Text"] = {
 						},
-						["finishedColorSameAsStart"] = true,
+						["flash"] = true,
+						["unit"] = "arena1",
+						["BorderShield"] = {
+						},
+						["failedCastColor"] = {
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["showShield"] = true,
+						["startCastColor"] = {
+							["r"] = 1,
+							["g"] = 0.7,
+							["b"] = 0,
+						},
+						["flashColorSameAsStart"] = true,
 						["Spark"] = {
 							["offsetY"] = 0,
 						},
-						["failedCastColor"] = {
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 1,
-						},
-						["BorderShield"] = {
-						},
-						["startCastColor"] = {
-							["b"] = 0,
-							["g"] = 0.7,
-							["r"] = 1,
-						},
-						["showShield"] = true,
-						["flashColorSameAsStart"] = true,
-						["unit"] = "arena1",
-						["flash"] = true,
+						["finishedColorSameAsStart"] = true,
 					},
 					["healAbsorbBar"] = {
 					},
@@ -529,14 +1289,14 @@ sArenaDB = {
 										-17, -- [5]
 									},
 									["refreshConfig"] = true,
-									["keepRelative"] = true,
-									["setupDrag"] = true,
 									["Cooldown"] = {
 										["Text"] = {
 										},
 									},
+									["setupDrag"] = true,
 									["Icon"] = {
 									},
+									["keepRelative"] = true,
 								},
 								["numDebuffs"] = 0,
 								["healAbsorbBarRightShadow"] = {
@@ -581,42 +1341,42 @@ sArenaDB = {
 									["Icon"] = {
 									},
 									["startChannelColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["finishedCastColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["nonInterruptibleColor"] = {
-										["b"] = 0.7,
-										["g"] = 0.7,
 										["r"] = 0.7,
+										["g"] = 0.7,
+										["b"] = 0.7,
 									},
 									["Text"] = {
 									},
-									["finishedColorSameAsStart"] = true,
+									["flash"] = true,
+									["unit"] = "arena3",
+									["BorderShield"] = {
+									},
+									["failedCastColor"] = {
+										["r"] = 1,
+										["g"] = 0,
+										["b"] = 0,
+									},
+									["showShield"] = true,
+									["startCastColor"] = {
+										["r"] = 1,
+										["g"] = 0.7,
+										["b"] = 0,
+									},
+									["flashColorSameAsStart"] = true,
 									["Spark"] = {
 										["offsetY"] = 0,
 									},
-									["failedCastColor"] = {
-										["b"] = 0,
-										["g"] = 0,
-										["r"] = 1,
-									},
-									["BorderShield"] = {
-									},
-									["startCastColor"] = {
-										["b"] = 0,
-										["g"] = 0.7,
-										["r"] = 1,
-									},
-									["showShield"] = true,
-									["flashColorSameAsStart"] = true,
-									["unit"] = "arena3",
-									["flash"] = true,
+									["finishedColorSameAsStart"] = true,
 								},
 								["healAbsorbBar"] = {
 								},
@@ -637,42 +1397,42 @@ sArenaDB = {
 										["Icon"] = {
 										},
 										["startChannelColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["finishedCastColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["nonInterruptibleColor"] = {
-											["b"] = 0.7,
-											["g"] = 0.7,
 											["r"] = 0.7,
+											["g"] = 0.7,
+											["b"] = 0.7,
 										},
 										["Text"] = {
 										},
-										["finishedColorSameAsStart"] = true,
+										["flash"] = true,
+										["unit"] = "arena3",
+										["BorderShield"] = {
+										},
+										["failedCastColor"] = {
+											["r"] = 1,
+											["g"] = 0,
+											["b"] = 0,
+										},
+										["showShield"] = true,
+										["startCastColor"] = {
+											["r"] = 1,
+											["g"] = 0.7,
+											["b"] = 0,
+										},
+										["flashColorSameAsStart"] = true,
 										["Spark"] = {
 											["offsetY"] = 0,
 										},
-										["failedCastColor"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["BorderShield"] = {
-										},
-										["startCastColor"] = {
-											["b"] = 0,
-											["g"] = 0.7,
-											["r"] = 1,
-										},
-										["showShield"] = true,
-										["flashColorSameAsStart"] = true,
-										["unit"] = "arena3",
-										["flash"] = true,
+										["finishedColorSameAsStart"] = true,
 									},
 								},
 								["statusSign"] = -1,
@@ -686,78 +1446,48 @@ sArenaDB = {
 										["tileSize"] = 32,
 									},
 								},
-								["classPortrait"] = {
-								},
+								["noTextPrefix"] = 1,
 								["refreshConfig"] = false,
 								["texture"] = {
 								},
 								["keepRelative"] = false,
 								["statusCounter"] = 0,
-								["healthbar"] = {
-									["setting"] = {
-										"CENTER", -- [1]
-										"UIParent", -- [2]
-										"BOTTOMLEFT", -- [3]
-										743.332580566406, -- [4]
-										532.3330078125, -- [5]
-									},
-									["frequentUpdates"] = true,
-									["textLockable"] = true,
-									["forceHideText"] = false,
-									["RightText"] = {
-									},
-									["capNumericDisplay"] = true,
-									["TextString"] = {
-									},
-									["lockShow"] = 0,
-									["cvarLabel"] = "STATUS_TEXT_PARTY",
-									["cvar"] = "statusText",
-									["disconnected"] = true,
-									["unit"] = "arena3",
-									["LeftText"] = {
-									},
-									["keepRelative"] = false,
-									["currValue"] = 1,
-									["targetFrame"] = {
-										["isMoving"] = false,
-									},
-									["setupDrag"] = true,
-									["refreshConfig"] = false,
-									["zeroText"] = "Dead",
+								["targetFrame"] = {
+									["isMoving"] = false,
 								},
 								["petFrame"] = {
 									["healthbar"] = {
 										["capNumericDisplay"] = true,
 										["frequentUpdates"] = true,
-										["unit"] = "arenapet3",
+										["disconnected"] = true,
 										["currValue"] = 1,
 										["forceHideText"] = true,
 										["lockShow"] = 0,
-										["disconnected"] = true,
+										["unit"] = "arenapet3",
 									},
 									["DropDown"] = {
 										["selectedLootMethod"] = "Loot: Personal",
 										["displayMode"] = "MENU",
-										["unit"] = "arenapet3",
-										["Icon"] = {
-										},
+										["which"] = "ARENAENEMY",
+										["selectedLootThreshold"] = "Uncommon",
 										["Button"] = {
 										},
 										["Text"] = {
 										},
-										["selectedLootThreshold"] = "Uncommon",
-										["which"] = "ARENAENEMY",
+										["Icon"] = {
+										},
+										["unit"] = "arenapet3",
 									},
 									["manabar"] = {
-										["unit"] = "arenapet3",
+										["texture"] = {
+										},
 										["currValue"] = 0,
 										["frequentUpdates"] = false,
 										["capNumericDisplay"] = true,
-										["disconnected"] = true,
 										["powerType"] = 0,
+										["disconnected"] = true,
 										["lockShow"] = 0,
-										["texture"] = {
-										},
+										["unit"] = "arenapet3",
 									},
 									["portrait"] = {
 									},
@@ -785,19 +1515,19 @@ sArenaDB = {
 									["texture"] = {
 									},
 									["cvarLabel"] = "STATUS_TEXT_PARTY",
-									["lockShow"] = 0,
+									["forceHideText"] = false,
 									["disconnected"] = true,
-									["powerType"] = 0,
+									["currValue"] = 0,
 									["LeftText"] = {
 									},
 									["refreshConfig"] = false,
+									["keepRelative"] = false,
 									["targetFrame"] = {
 										["isMoving"] = false,
 									},
-									["keepRelative"] = false,
 									["setupDrag"] = true,
-									["currValue"] = 0,
-									["forceHideText"] = false,
+									["powerType"] = 0,
+									["lockShow"] = 0,
 								},
 								["specFrame"] = {
 									["keepRelative"] = true,
@@ -805,7 +1535,9 @@ sArenaDB = {
 									["setupDrag"] = true,
 								},
 								["unitHPPercent"] = 1,
-								["manatextleft"] = {
+								["manatext"] = {
+								},
+								["background"] = {
 								},
 								["castBar"] = {
 									["fadeOut"] = true,
@@ -818,67 +1550,95 @@ sArenaDB = {
 									["Icon"] = {
 									},
 									["startChannelColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["finishedCastColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["nonInterruptibleColor"] = {
-										["b"] = 0.7,
-										["g"] = 0.7,
 										["r"] = 0.7,
+										["g"] = 0.7,
+										["b"] = 0.7,
 									},
 									["Text"] = {
 									},
-									["finishedColorSameAsStart"] = true,
+									["flash"] = true,
+									["unit"] = "arena3",
+									["BorderShield"] = {
+									},
+									["failedCastColor"] = {
+										["r"] = 1,
+										["g"] = 0,
+										["b"] = 0,
+									},
+									["showShield"] = true,
+									["startCastColor"] = {
+										["r"] = 1,
+										["g"] = 0.7,
+										["b"] = 0,
+									},
+									["flashColorSameAsStart"] = true,
 									["Spark"] = {
 										["offsetY"] = 0,
 									},
-									["failedCastColor"] = {
-										["b"] = 0,
-										["g"] = 0,
-										["r"] = 1,
-									},
-									["BorderShield"] = {
-									},
-									["startCastColor"] = {
-										["b"] = 0,
-										["g"] = 0.7,
-										["r"] = 1,
-									},
-									["showShield"] = true,
-									["flashColorSameAsStart"] = true,
-									["unit"] = "arena3",
-									["flash"] = true,
+									["finishedColorSameAsStart"] = true,
 								},
-								["background"] = {
-								},
-								["manatext"] = {
+								["manatextleft"] = {
 								},
 								["DropDown"] = {
 									["selectedLootMethod"] = "Loot: Personal",
 									["displayMode"] = "MENU",
-									["unit"] = "arena3",
-									["Icon"] = {
-									},
+									["which"] = "ARENAENEMY",
+									["selectedLootThreshold"] = "Uncommon",
 									["Button"] = {
 									},
 									["Text"] = {
 									},
-									["selectedLootThreshold"] = "Uncommon",
-									["which"] = "ARENAENEMY",
+									["Icon"] = {
+									},
+									["unit"] = "arena3",
 								},
-								["targetFrame"] = {
-									["isMoving"] = false,
+								["healthbar"] = {
+									["setting"] = {
+										"CENTER", -- [1]
+										"UIParent", -- [2]
+										"BOTTOMLEFT", -- [3]
+										743.332580566406, -- [4]
+										532.3330078125, -- [5]
+									},
+									["frequentUpdates"] = true,
+									["textLockable"] = true,
+									["forceHideText"] = false,
+									["RightText"] = {
+									},
+									["capNumericDisplay"] = true,
+									["TextString"] = {
+									},
+									["lockShow"] = 0,
+									["cvarLabel"] = "STATUS_TEXT_PARTY",
+									["zeroText"] = "Dead",
+									["disconnected"] = true,
+									["refreshConfig"] = false,
+									["LeftText"] = {
+									},
+									["keepRelative"] = false,
+									["targetFrame"] = {
+										["isMoving"] = false,
+									},
+									["currValue"] = 1,
+									["setupDrag"] = true,
+									["unit"] = "arena3",
+									["cvar"] = "statusText",
 								},
 								["setupDrag"] = true,
 								["otherHealPredictionBar"] = {
 								},
-								["noTextPrefix"] = 1,
+								["classPortrait"] = {
+								},
 							}, -- [2]
 							"CENTER", -- [3]
 							-125, -- [4]
@@ -899,42 +1659,42 @@ sArenaDB = {
 							["Icon"] = {
 							},
 							["startChannelColor"] = {
-								["b"] = 0,
-								["g"] = 1,
 								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
 							},
 							["finishedCastColor"] = {
-								["b"] = 0,
-								["g"] = 1,
 								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
 							},
 							["nonInterruptibleColor"] = {
-								["b"] = 0.7,
-								["g"] = 0.7,
 								["r"] = 0.7,
+								["g"] = 0.7,
+								["b"] = 0.7,
 							},
 							["Text"] = {
 							},
-							["finishedColorSameAsStart"] = true,
+							["flash"] = true,
+							["unit"] = "arena1",
+							["BorderShield"] = {
+							},
+							["failedCastColor"] = {
+								["r"] = 1,
+								["g"] = 0,
+								["b"] = 0,
+							},
+							["showShield"] = true,
+							["startCastColor"] = {
+								["r"] = 1,
+								["g"] = 0.7,
+								["b"] = 0,
+							},
+							["flashColorSameAsStart"] = true,
 							["Spark"] = {
 								["offsetY"] = 0,
 							},
-							["failedCastColor"] = {
-								["b"] = 0,
-								["g"] = 0,
-								["r"] = 1,
-							},
-							["BorderShield"] = {
-							},
-							["startCastColor"] = {
-								["b"] = 0,
-								["g"] = 0.7,
-								["r"] = 1,
-							},
-							["showShield"] = true,
-							["flashColorSameAsStart"] = true,
-							["unit"] = "arena1",
-							["flash"] = true,
+							["finishedColorSameAsStart"] = true,
 						},
 					},
 					["statusSign"] = -1,
@@ -948,78 +1708,48 @@ sArenaDB = {
 							["tileSize"] = 32,
 						},
 					},
-					["classPortrait"] = {
-					},
+					["noTextPrefix"] = 1,
 					["refreshConfig"] = false,
 					["texture"] = {
 					},
 					["keepRelative"] = false,
 					["statusCounter"] = 0,
-					["healthbar"] = {
-						["setting"] = {
-							"CENTER", -- [1]
-							"UIParent", -- [2]
-							"BOTTOMLEFT", -- [3]
-							743.332580566406, -- [4]
-							532.3330078125, -- [5]
-						},
-						["frequentUpdates"] = true,
-						["textLockable"] = true,
-						["forceHideText"] = false,
-						["RightText"] = {
-						},
-						["capNumericDisplay"] = true,
-						["TextString"] = {
-						},
-						["lockShow"] = 0,
-						["cvarLabel"] = "STATUS_TEXT_PARTY",
-						["cvar"] = "statusText",
-						["disconnected"] = true,
-						["unit"] = "arena1",
-						["LeftText"] = {
-						},
-						["keepRelative"] = false,
-						["currValue"] = 1,
-						["targetFrame"] = {
-							["isMoving"] = false,
-						},
-						["setupDrag"] = true,
-						["refreshConfig"] = false,
-						["zeroText"] = "Dead",
+					["targetFrame"] = {
+						["isMoving"] = false,
 					},
 					["petFrame"] = {
 						["healthbar"] = {
 							["capNumericDisplay"] = true,
 							["frequentUpdates"] = true,
-							["unit"] = "arenapet1",
+							["disconnected"] = true,
 							["currValue"] = 1,
 							["forceHideText"] = true,
 							["lockShow"] = 0,
-							["disconnected"] = true,
+							["unit"] = "arenapet1",
 						},
 						["DropDown"] = {
 							["selectedLootMethod"] = "Loot: Personal",
 							["displayMode"] = "MENU",
-							["unit"] = "arenapet1",
-							["Icon"] = {
-							},
+							["which"] = "ARENAENEMY",
+							["selectedLootThreshold"] = "Uncommon",
 							["Button"] = {
 							},
 							["Text"] = {
 							},
-							["selectedLootThreshold"] = "Uncommon",
-							["which"] = "ARENAENEMY",
+							["Icon"] = {
+							},
+							["unit"] = "arenapet1",
 						},
 						["manabar"] = {
-							["unit"] = "arenapet1",
+							["texture"] = {
+							},
 							["currValue"] = 0,
 							["frequentUpdates"] = false,
 							["capNumericDisplay"] = true,
-							["disconnected"] = true,
 							["powerType"] = 0,
+							["disconnected"] = true,
 							["lockShow"] = 0,
-							["texture"] = {
-							},
+							["unit"] = "arenapet1",
 						},
 						["portrait"] = {
 						},
@@ -1047,19 +1777,19 @@ sArenaDB = {
 						["texture"] = {
 						},
 						["cvarLabel"] = "STATUS_TEXT_PARTY",
-						["lockShow"] = 0,
+						["forceHideText"] = false,
 						["disconnected"] = true,
-						["powerType"] = 0,
+						["currValue"] = 0,
 						["LeftText"] = {
 						},
 						["refreshConfig"] = false,
+						["keepRelative"] = false,
 						["targetFrame"] = {
 							["isMoving"] = false,
 						},
-						["keepRelative"] = false,
 						["setupDrag"] = true,
-						["currValue"] = 0,
-						["forceHideText"] = false,
+						["powerType"] = 0,
+						["lockShow"] = 0,
 					},
 					["specFrame"] = {
 						["isMoving"] = false,
@@ -1068,7 +1798,9 @@ sArenaDB = {
 						["setupDrag"] = true,
 					},
 					["unitHPPercent"] = 1,
-					["manatextleft"] = {
+					["manatext"] = {
+					},
+					["background"] = {
 					},
 					["castBar"] = {
 						["fadeOut"] = true,
@@ -1080,67 +1812,95 @@ sArenaDB = {
 						["Icon"] = {
 						},
 						["startChannelColor"] = {
-							["b"] = 0,
-							["g"] = 1,
 							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
 						},
 						["finishedCastColor"] = {
-							["b"] = 0,
-							["g"] = 1,
 							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
 						},
 						["nonInterruptibleColor"] = {
-							["b"] = 0.7,
-							["g"] = 0.7,
 							["r"] = 0.7,
+							["g"] = 0.7,
+							["b"] = 0.7,
 						},
 						["Text"] = {
 						},
-						["finishedColorSameAsStart"] = true,
+						["flash"] = true,
+						["unit"] = "arena1",
+						["BorderShield"] = {
+						},
+						["failedCastColor"] = {
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["showShield"] = true,
+						["startCastColor"] = {
+							["r"] = 1,
+							["g"] = 0.7,
+							["b"] = 0,
+						},
+						["flashColorSameAsStart"] = true,
 						["Spark"] = {
 							["offsetY"] = 0,
 						},
-						["failedCastColor"] = {
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 1,
-						},
-						["BorderShield"] = {
-						},
-						["startCastColor"] = {
-							["b"] = 0,
-							["g"] = 0.7,
-							["r"] = 1,
-						},
-						["showShield"] = true,
-						["flashColorSameAsStart"] = true,
-						["unit"] = "arena1",
-						["flash"] = true,
+						["finishedColorSameAsStart"] = true,
 					},
-					["background"] = {
-					},
-					["manatext"] = {
+					["manatextleft"] = {
 					},
 					["DropDown"] = {
 						["selectedLootMethod"] = "Loot: Personal",
 						["displayMode"] = "MENU",
-						["unit"] = "arena1",
-						["Icon"] = {
-						},
+						["which"] = "ARENAENEMY",
+						["selectedLootThreshold"] = "Uncommon",
 						["Button"] = {
 						},
 						["Text"] = {
 						},
-						["selectedLootThreshold"] = "Uncommon",
-						["which"] = "ARENAENEMY",
+						["Icon"] = {
+						},
+						["unit"] = "arena1",
 					},
-					["targetFrame"] = {
-						["isMoving"] = false,
+					["healthbar"] = {
+						["setting"] = {
+							"CENTER", -- [1]
+							"UIParent", -- [2]
+							"BOTTOMLEFT", -- [3]
+							743.332580566406, -- [4]
+							532.3330078125, -- [5]
+						},
+						["frequentUpdates"] = true,
+						["textLockable"] = true,
+						["forceHideText"] = false,
+						["RightText"] = {
+						},
+						["capNumericDisplay"] = true,
+						["TextString"] = {
+						},
+						["lockShow"] = 0,
+						["cvarLabel"] = "STATUS_TEXT_PARTY",
+						["zeroText"] = "Dead",
+						["disconnected"] = true,
+						["refreshConfig"] = false,
+						["LeftText"] = {
+						},
+						["keepRelative"] = false,
+						["targetFrame"] = {
+							["isMoving"] = false,
+						},
+						["currValue"] = 1,
+						["setupDrag"] = true,
+						["unit"] = "arena1",
+						["cvar"] = "statusText",
 					},
 					["setupDrag"] = true,
 					["otherHealPredictionBar"] = {
 					},
-					["noTextPrefix"] = 1,
+					["classPortrait"] = {
+					},
 				}, -- [2]
 				nil, -- [3]
 				57, -- [4]
@@ -1204,42 +1964,42 @@ sArenaDB = {
 						["Icon"] = {
 						},
 						["startChannelColor"] = {
-							["b"] = 0,
-							["g"] = 1,
 							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
 						},
 						["finishedCastColor"] = {
-							["b"] = 0,
-							["g"] = 1,
 							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
 						},
 						["nonInterruptibleColor"] = {
-							["b"] = 0.7,
-							["g"] = 0.7,
 							["r"] = 0.7,
+							["g"] = 0.7,
+							["b"] = 0.7,
 						},
 						["Text"] = {
 						},
-						["finishedColorSameAsStart"] = true,
+						["flash"] = true,
+						["unit"] = "arena3",
+						["BorderShield"] = {
+						},
+						["failedCastColor"] = {
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["showShield"] = true,
+						["startCastColor"] = {
+							["r"] = 1,
+							["g"] = 0.7,
+							["b"] = 0,
+						},
+						["flashColorSameAsStart"] = true,
 						["Spark"] = {
 							["offsetY"] = 0,
 						},
-						["failedCastColor"] = {
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 1,
-						},
-						["BorderShield"] = {
-						},
-						["startCastColor"] = {
-							["b"] = 0,
-							["g"] = 0.7,
-							["r"] = 1,
-						},
-						["showShield"] = true,
-						["flashColorSameAsStart"] = true,
-						["unit"] = "arena3",
-						["flash"] = true,
+						["finishedColorSameAsStart"] = true,
 					},
 					["healAbsorbBar"] = {
 					},
@@ -1267,42 +2027,42 @@ sArenaDB = {
 							["Icon"] = {
 							},
 							["startChannelColor"] = {
-								["b"] = 0,
-								["g"] = 1,
 								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
 							},
 							["finishedCastColor"] = {
-								["b"] = 0,
-								["g"] = 1,
 								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
 							},
 							["nonInterruptibleColor"] = {
-								["b"] = 0.7,
-								["g"] = 0.7,
 								["r"] = 0.7,
+								["g"] = 0.7,
+								["b"] = 0.7,
 							},
 							["Text"] = {
 							},
-							["finishedColorSameAsStart"] = true,
+							["flash"] = true,
+							["unit"] = "arena3",
+							["BorderShield"] = {
+							},
+							["failedCastColor"] = {
+								["r"] = 1,
+								["g"] = 0,
+								["b"] = 0,
+							},
+							["showShield"] = true,
+							["startCastColor"] = {
+								["r"] = 1,
+								["g"] = 0.7,
+								["b"] = 0,
+							},
+							["flashColorSameAsStart"] = true,
 							["Spark"] = {
 								["offsetY"] = 0,
 							},
-							["failedCastColor"] = {
-								["b"] = 0,
-								["g"] = 0,
-								["r"] = 1,
-							},
-							["BorderShield"] = {
-							},
-							["startCastColor"] = {
-								["b"] = 0,
-								["g"] = 0.7,
-								["r"] = 1,
-							},
-							["showShield"] = true,
-							["flashColorSameAsStart"] = true,
-							["unit"] = "arena3",
-							["flash"] = true,
+							["finishedColorSameAsStart"] = true,
 						},
 					},
 					["statusSign"] = -1,
@@ -1316,78 +2076,48 @@ sArenaDB = {
 							["tileSize"] = 32,
 						},
 					},
-					["classPortrait"] = {
-					},
+					["noTextPrefix"] = 1,
 					["refreshConfig"] = false,
 					["texture"] = {
 					},
 					["keepRelative"] = false,
 					["statusCounter"] = 0,
-					["healthbar"] = {
-						["setting"] = {
-							"CENTER", -- [1]
-							"UIParent", -- [2]
-							"BOTTOMLEFT", -- [3]
-							743.332580566406, -- [4]
-							532.3330078125, -- [5]
-						},
-						["frequentUpdates"] = true,
-						["textLockable"] = true,
-						["forceHideText"] = false,
-						["RightText"] = {
-						},
-						["capNumericDisplay"] = true,
-						["TextString"] = {
-						},
-						["lockShow"] = 0,
-						["cvarLabel"] = "STATUS_TEXT_PARTY",
-						["cvar"] = "statusText",
-						["disconnected"] = true,
-						["unit"] = "arena3",
-						["LeftText"] = {
-						},
-						["keepRelative"] = false,
-						["currValue"] = 1,
-						["targetFrame"] = {
-							["isMoving"] = false,
-						},
-						["setupDrag"] = true,
-						["refreshConfig"] = false,
-						["zeroText"] = "Dead",
+					["targetFrame"] = {
+						["isMoving"] = false,
 					},
 					["petFrame"] = {
 						["healthbar"] = {
 							["capNumericDisplay"] = true,
 							["frequentUpdates"] = true,
-							["unit"] = "arenapet3",
+							["disconnected"] = true,
 							["currValue"] = 1,
 							["forceHideText"] = true,
 							["lockShow"] = 0,
-							["disconnected"] = true,
+							["unit"] = "arenapet3",
 						},
 						["DropDown"] = {
 							["selectedLootMethod"] = "Loot: Personal",
 							["displayMode"] = "MENU",
-							["unit"] = "arenapet3",
-							["Icon"] = {
-							},
+							["which"] = "ARENAENEMY",
+							["selectedLootThreshold"] = "Uncommon",
 							["Button"] = {
 							},
 							["Text"] = {
 							},
-							["selectedLootThreshold"] = "Uncommon",
-							["which"] = "ARENAENEMY",
+							["Icon"] = {
+							},
+							["unit"] = "arenapet3",
 						},
 						["manabar"] = {
-							["unit"] = "arenapet3",
+							["texture"] = {
+							},
 							["currValue"] = 0,
 							["frequentUpdates"] = false,
 							["capNumericDisplay"] = true,
-							["disconnected"] = true,
 							["powerType"] = 0,
+							["disconnected"] = true,
 							["lockShow"] = 0,
-							["texture"] = {
-							},
+							["unit"] = "arenapet3",
 						},
 						["portrait"] = {
 						},
@@ -1415,24 +2145,21 @@ sArenaDB = {
 						["texture"] = {
 						},
 						["cvarLabel"] = "STATUS_TEXT_PARTY",
-						["lockShow"] = 0,
+						["forceHideText"] = false,
 						["disconnected"] = true,
-						["powerType"] = 0,
+						["currValue"] = 0,
 						["LeftText"] = {
 						},
 						["refreshConfig"] = false,
+						["keepRelative"] = false,
 						["targetFrame"] = {
 							["isMoving"] = false,
 						},
-						["keepRelative"] = false,
 						["setupDrag"] = true,
-						["currValue"] = 0,
-						["forceHideText"] = false,
+						["powerType"] = 0,
+						["lockShow"] = 0,
 					},
 					["specFrame"] = {
-						["keepRelative"] = true,
-						["setupDrag"] = true,
-						["refreshConfig"] = true,
 						["setting"] = {
 							nil, -- [1]
 							{
@@ -1489,42 +2216,42 @@ sArenaDB = {
 									["Icon"] = {
 									},
 									["startChannelColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["finishedCastColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["nonInterruptibleColor"] = {
-										["b"] = 0.7,
-										["g"] = 0.7,
 										["r"] = 0.7,
+										["g"] = 0.7,
+										["b"] = 0.7,
 									},
 									["Text"] = {
 									},
-									["finishedColorSameAsStart"] = true,
+									["flash"] = true,
+									["unit"] = "arena1",
+									["BorderShield"] = {
+									},
+									["failedCastColor"] = {
+										["r"] = 1,
+										["g"] = 0,
+										["b"] = 0,
+									},
+									["showShield"] = true,
+									["startCastColor"] = {
+										["r"] = 1,
+										["g"] = 0.7,
+										["b"] = 0,
+									},
+									["flashColorSameAsStart"] = true,
 									["Spark"] = {
 										["offsetY"] = 0,
 									},
-									["failedCastColor"] = {
-										["b"] = 0,
-										["g"] = 0,
-										["r"] = 1,
-									},
-									["BorderShield"] = {
-									},
-									["startCastColor"] = {
-										["b"] = 0,
-										["g"] = 0.7,
-										["r"] = 1,
-									},
-									["showShield"] = true,
-									["flashColorSameAsStart"] = true,
-									["unit"] = "arena1",
-									["flash"] = true,
+									["finishedColorSameAsStart"] = true,
 								},
 								["healAbsorbBar"] = {
 								},
@@ -1551,42 +2278,42 @@ sArenaDB = {
 										["Icon"] = {
 										},
 										["startChannelColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["finishedCastColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["nonInterruptibleColor"] = {
-											["b"] = 0.7,
-											["g"] = 0.7,
 											["r"] = 0.7,
+											["g"] = 0.7,
+											["b"] = 0.7,
 										},
 										["Text"] = {
 										},
-										["finishedColorSameAsStart"] = true,
+										["flash"] = true,
+										["unit"] = "arena1",
+										["BorderShield"] = {
+										},
+										["failedCastColor"] = {
+											["r"] = 1,
+											["g"] = 0,
+											["b"] = 0,
+										},
+										["showShield"] = true,
+										["startCastColor"] = {
+											["r"] = 1,
+											["g"] = 0.7,
+											["b"] = 0,
+										},
+										["flashColorSameAsStart"] = true,
 										["Spark"] = {
 											["offsetY"] = 0,
 										},
-										["failedCastColor"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["BorderShield"] = {
-										},
-										["startCastColor"] = {
-											["b"] = 0,
-											["g"] = 0.7,
-											["r"] = 1,
-										},
-										["showShield"] = true,
-										["flashColorSameAsStart"] = true,
-										["unit"] = "arena1",
-										["flash"] = true,
+										["finishedColorSameAsStart"] = true,
 									},
 								},
 								["statusSign"] = -1,
@@ -1600,78 +2327,48 @@ sArenaDB = {
 										["tileSize"] = 32,
 									},
 								},
-								["classPortrait"] = {
-								},
+								["noTextPrefix"] = 1,
 								["refreshConfig"] = false,
 								["texture"] = {
 								},
 								["keepRelative"] = false,
 								["statusCounter"] = 0,
-								["healthbar"] = {
-									["setting"] = {
-										"CENTER", -- [1]
-										"UIParent", -- [2]
-										"BOTTOMLEFT", -- [3]
-										743.332580566406, -- [4]
-										532.3330078125, -- [5]
-									},
-									["frequentUpdates"] = true,
-									["textLockable"] = true,
-									["forceHideText"] = false,
-									["RightText"] = {
-									},
-									["capNumericDisplay"] = true,
-									["TextString"] = {
-									},
-									["lockShow"] = 0,
-									["cvarLabel"] = "STATUS_TEXT_PARTY",
-									["cvar"] = "statusText",
-									["disconnected"] = true,
-									["unit"] = "arena1",
-									["LeftText"] = {
-									},
-									["keepRelative"] = false,
-									["currValue"] = 1,
-									["targetFrame"] = {
-										["isMoving"] = false,
-									},
-									["setupDrag"] = true,
-									["refreshConfig"] = false,
-									["zeroText"] = "Dead",
+								["targetFrame"] = {
+									["isMoving"] = false,
 								},
 								["petFrame"] = {
 									["healthbar"] = {
 										["capNumericDisplay"] = true,
 										["frequentUpdates"] = true,
-										["unit"] = "arenapet1",
+										["disconnected"] = true,
 										["currValue"] = 1,
 										["forceHideText"] = true,
 										["lockShow"] = 0,
-										["disconnected"] = true,
+										["unit"] = "arenapet1",
 									},
 									["DropDown"] = {
 										["selectedLootMethod"] = "Loot: Personal",
 										["displayMode"] = "MENU",
-										["unit"] = "arenapet1",
-										["Icon"] = {
-										},
+										["which"] = "ARENAENEMY",
+										["selectedLootThreshold"] = "Uncommon",
 										["Button"] = {
 										},
 										["Text"] = {
 										},
-										["selectedLootThreshold"] = "Uncommon",
-										["which"] = "ARENAENEMY",
+										["Icon"] = {
+										},
+										["unit"] = "arenapet1",
 									},
 									["manabar"] = {
-										["unit"] = "arenapet1",
+										["texture"] = {
+										},
 										["currValue"] = 0,
 										["frequentUpdates"] = false,
 										["capNumericDisplay"] = true,
-										["disconnected"] = true,
 										["powerType"] = 0,
+										["disconnected"] = true,
 										["lockShow"] = 0,
-										["texture"] = {
-										},
+										["unit"] = "arenapet1",
 									},
 									["portrait"] = {
 									},
@@ -1699,19 +2396,19 @@ sArenaDB = {
 									["texture"] = {
 									},
 									["cvarLabel"] = "STATUS_TEXT_PARTY",
-									["lockShow"] = 0,
+									["forceHideText"] = false,
 									["disconnected"] = true,
-									["powerType"] = 0,
+									["currValue"] = 0,
 									["LeftText"] = {
 									},
 									["refreshConfig"] = false,
+									["keepRelative"] = false,
 									["targetFrame"] = {
 										["isMoving"] = false,
 									},
-									["keepRelative"] = false,
 									["setupDrag"] = true,
-									["currValue"] = 0,
-									["forceHideText"] = false,
+									["powerType"] = 0,
+									["lockShow"] = 0,
 								},
 								["specFrame"] = {
 									["isMoving"] = false,
@@ -1720,7 +2417,9 @@ sArenaDB = {
 									["setupDrag"] = true,
 								},
 								["unitHPPercent"] = 1,
-								["manatextleft"] = {
+								["manatext"] = {
+								},
+								["background"] = {
 								},
 								["castBar"] = {
 									["fadeOut"] = true,
@@ -1732,75 +2431,108 @@ sArenaDB = {
 									["Icon"] = {
 									},
 									["startChannelColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["finishedCastColor"] = {
-										["b"] = 0,
-										["g"] = 1,
 										["r"] = 0,
+										["g"] = 1,
+										["b"] = 0,
 									},
 									["nonInterruptibleColor"] = {
-										["b"] = 0.7,
-										["g"] = 0.7,
 										["r"] = 0.7,
+										["g"] = 0.7,
+										["b"] = 0.7,
 									},
 									["Text"] = {
 									},
-									["finishedColorSameAsStart"] = true,
+									["flash"] = true,
+									["unit"] = "arena1",
+									["BorderShield"] = {
+									},
+									["failedCastColor"] = {
+										["r"] = 1,
+										["g"] = 0,
+										["b"] = 0,
+									},
+									["showShield"] = true,
+									["startCastColor"] = {
+										["r"] = 1,
+										["g"] = 0.7,
+										["b"] = 0,
+									},
+									["flashColorSameAsStart"] = true,
 									["Spark"] = {
 										["offsetY"] = 0,
 									},
-									["failedCastColor"] = {
-										["b"] = 0,
-										["g"] = 0,
-										["r"] = 1,
-									},
-									["BorderShield"] = {
-									},
-									["startCastColor"] = {
-										["b"] = 0,
-										["g"] = 0.7,
-										["r"] = 1,
-									},
-									["showShield"] = true,
-									["flashColorSameAsStart"] = true,
-									["unit"] = "arena1",
-									["flash"] = true,
+									["finishedColorSameAsStart"] = true,
 								},
-								["background"] = {
-								},
-								["manatext"] = {
+								["manatextleft"] = {
 								},
 								["DropDown"] = {
 									["selectedLootMethod"] = "Loot: Personal",
 									["displayMode"] = "MENU",
-									["unit"] = "arena1",
-									["Icon"] = {
-									},
+									["which"] = "ARENAENEMY",
+									["selectedLootThreshold"] = "Uncommon",
 									["Button"] = {
 									},
 									["Text"] = {
 									},
-									["selectedLootThreshold"] = "Uncommon",
-									["which"] = "ARENAENEMY",
+									["Icon"] = {
+									},
+									["unit"] = "arena1",
 								},
-								["targetFrame"] = {
-									["isMoving"] = false,
+								["healthbar"] = {
+									["setting"] = {
+										"CENTER", -- [1]
+										"UIParent", -- [2]
+										"BOTTOMLEFT", -- [3]
+										743.332580566406, -- [4]
+										532.3330078125, -- [5]
+									},
+									["frequentUpdates"] = true,
+									["textLockable"] = true,
+									["forceHideText"] = false,
+									["RightText"] = {
+									},
+									["capNumericDisplay"] = true,
+									["TextString"] = {
+									},
+									["lockShow"] = 0,
+									["cvarLabel"] = "STATUS_TEXT_PARTY",
+									["zeroText"] = "Dead",
+									["disconnected"] = true,
+									["refreshConfig"] = false,
+									["LeftText"] = {
+									},
+									["keepRelative"] = false,
+									["targetFrame"] = {
+										["isMoving"] = false,
+									},
+									["currValue"] = 1,
+									["setupDrag"] = true,
+									["unit"] = "arena1",
+									["cvar"] = "statusText",
 								},
 								["setupDrag"] = true,
 								["otherHealPredictionBar"] = {
 								},
-								["noTextPrefix"] = 1,
+								["classPortrait"] = {
+								},
 							}, -- [2]
 							nil, -- [3]
 							57, -- [4]
 							-4, -- [5]
 						},
+						["keepRelative"] = true,
+						["refreshConfig"] = true,
+						["setupDrag"] = true,
 					},
 					["unitHPPercent"] = 1,
-					["manatextleft"] = {
+					["manatext"] = {
+					},
+					["background"] = {
 					},
 					["castBar"] = {
 						["fadeOut"] = true,
@@ -1813,67 +2545,95 @@ sArenaDB = {
 						["Icon"] = {
 						},
 						["startChannelColor"] = {
-							["b"] = 0,
-							["g"] = 1,
 							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
 						},
 						["finishedCastColor"] = {
-							["b"] = 0,
-							["g"] = 1,
 							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
 						},
 						["nonInterruptibleColor"] = {
-							["b"] = 0.7,
-							["g"] = 0.7,
 							["r"] = 0.7,
+							["g"] = 0.7,
+							["b"] = 0.7,
 						},
 						["Text"] = {
 						},
-						["finishedColorSameAsStart"] = true,
+						["flash"] = true,
+						["unit"] = "arena3",
+						["BorderShield"] = {
+						},
+						["failedCastColor"] = {
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["showShield"] = true,
+						["startCastColor"] = {
+							["r"] = 1,
+							["g"] = 0.7,
+							["b"] = 0,
+						},
+						["flashColorSameAsStart"] = true,
 						["Spark"] = {
 							["offsetY"] = 0,
 						},
-						["failedCastColor"] = {
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 1,
-						},
-						["BorderShield"] = {
-						},
-						["startCastColor"] = {
-							["b"] = 0,
-							["g"] = 0.7,
-							["r"] = 1,
-						},
-						["showShield"] = true,
-						["flashColorSameAsStart"] = true,
-						["unit"] = "arena3",
-						["flash"] = true,
+						["finishedColorSameAsStart"] = true,
 					},
-					["background"] = {
-					},
-					["manatext"] = {
+					["manatextleft"] = {
 					},
 					["DropDown"] = {
 						["selectedLootMethod"] = "Loot: Personal",
 						["displayMode"] = "MENU",
-						["unit"] = "arena3",
-						["Icon"] = {
-						},
+						["which"] = "ARENAENEMY",
+						["selectedLootThreshold"] = "Uncommon",
 						["Button"] = {
 						},
 						["Text"] = {
 						},
-						["selectedLootThreshold"] = "Uncommon",
-						["which"] = "ARENAENEMY",
+						["Icon"] = {
+						},
+						["unit"] = "arena3",
 					},
-					["targetFrame"] = {
-						["isMoving"] = false,
+					["healthbar"] = {
+						["setting"] = {
+							"CENTER", -- [1]
+							"UIParent", -- [2]
+							"BOTTOMLEFT", -- [3]
+							743.332580566406, -- [4]
+							532.3330078125, -- [5]
+						},
+						["frequentUpdates"] = true,
+						["textLockable"] = true,
+						["forceHideText"] = false,
+						["RightText"] = {
+						},
+						["capNumericDisplay"] = true,
+						["TextString"] = {
+						},
+						["lockShow"] = 0,
+						["cvarLabel"] = "STATUS_TEXT_PARTY",
+						["zeroText"] = "Dead",
+						["disconnected"] = true,
+						["refreshConfig"] = false,
+						["LeftText"] = {
+						},
+						["keepRelative"] = false,
+						["targetFrame"] = {
+							["isMoving"] = false,
+						},
+						["currValue"] = 1,
+						["setupDrag"] = true,
+						["unit"] = "arena3",
+						["cvar"] = "statusText",
 					},
 					["setupDrag"] = true,
 					["otherHealPredictionBar"] = {
 					},
-					["noTextPrefix"] = 1,
+					["classPortrait"] = {
+					},
 				}, -- [2]
 				"CENTER", -- [3]
 				-70, -- [4]
@@ -1893,14 +2653,14 @@ sArenaDB = {
 								-17, -- [5]
 							},
 							["refreshConfig"] = true,
-							["keepRelative"] = true,
-							["setupDrag"] = true,
 							["Cooldown"] = {
 								["Text"] = {
 								},
 							},
+							["setupDrag"] = true,
 							["Icon"] = {
 							},
+							["keepRelative"] = true,
 						},
 						["numDebuffs"] = 0,
 						["healAbsorbBarRightShadow"] = {
@@ -1945,42 +2705,42 @@ sArenaDB = {
 							["Icon"] = {
 							},
 							["startChannelColor"] = {
-								["b"] = 0,
-								["g"] = 1,
 								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
 							},
 							["finishedCastColor"] = {
-								["b"] = 0,
-								["g"] = 1,
 								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
 							},
 							["nonInterruptibleColor"] = {
-								["b"] = 0.7,
-								["g"] = 0.7,
 								["r"] = 0.7,
+								["g"] = 0.7,
+								["b"] = 0.7,
 							},
 							["Text"] = {
 							},
-							["finishedColorSameAsStart"] = true,
+							["flash"] = true,
+							["unit"] = "arena3",
+							["BorderShield"] = {
+							},
+							["failedCastColor"] = {
+								["r"] = 1,
+								["g"] = 0,
+								["b"] = 0,
+							},
+							["showShield"] = true,
+							["startCastColor"] = {
+								["r"] = 1,
+								["g"] = 0.7,
+								["b"] = 0,
+							},
+							["flashColorSameAsStart"] = true,
 							["Spark"] = {
 								["offsetY"] = 0,
 							},
-							["failedCastColor"] = {
-								["b"] = 0,
-								["g"] = 0,
-								["r"] = 1,
-							},
-							["BorderShield"] = {
-							},
-							["startCastColor"] = {
-								["b"] = 0,
-								["g"] = 0.7,
-								["r"] = 1,
-							},
-							["showShield"] = true,
-							["flashColorSameAsStart"] = true,
-							["unit"] = "arena3",
-							["flash"] = true,
+							["finishedColorSameAsStart"] = true,
 						},
 						["healAbsorbBar"] = {
 						},
@@ -2008,42 +2768,42 @@ sArenaDB = {
 								["Icon"] = {
 								},
 								["startChannelColor"] = {
-									["b"] = 0,
-									["g"] = 1,
 									["r"] = 0,
+									["g"] = 1,
+									["b"] = 0,
 								},
 								["finishedCastColor"] = {
-									["b"] = 0,
-									["g"] = 1,
 									["r"] = 0,
+									["g"] = 1,
+									["b"] = 0,
 								},
 								["nonInterruptibleColor"] = {
-									["b"] = 0.7,
-									["g"] = 0.7,
 									["r"] = 0.7,
+									["g"] = 0.7,
+									["b"] = 0.7,
 								},
 								["Text"] = {
 								},
-								["finishedColorSameAsStart"] = true,
+								["flash"] = true,
+								["unit"] = "arena3",
+								["BorderShield"] = {
+								},
+								["failedCastColor"] = {
+									["r"] = 1,
+									["g"] = 0,
+									["b"] = 0,
+								},
+								["showShield"] = true,
+								["startCastColor"] = {
+									["r"] = 1,
+									["g"] = 0.7,
+									["b"] = 0,
+								},
+								["flashColorSameAsStart"] = true,
 								["Spark"] = {
 									["offsetY"] = 0,
 								},
-								["failedCastColor"] = {
-									["b"] = 0,
-									["g"] = 0,
-									["r"] = 1,
-								},
-								["BorderShield"] = {
-								},
-								["startCastColor"] = {
-									["b"] = 0,
-									["g"] = 0.7,
-									["r"] = 1,
-								},
-								["showShield"] = true,
-								["flashColorSameAsStart"] = true,
-								["unit"] = "arena3",
-								["flash"] = true,
+								["finishedColorSameAsStart"] = true,
 							},
 						},
 						["statusSign"] = -1,
@@ -2057,78 +2817,48 @@ sArenaDB = {
 								["tileSize"] = 32,
 							},
 						},
-						["classPortrait"] = {
-						},
+						["noTextPrefix"] = 1,
 						["refreshConfig"] = false,
 						["texture"] = {
 						},
 						["keepRelative"] = false,
 						["statusCounter"] = 0,
-						["healthbar"] = {
-							["setting"] = {
-								"CENTER", -- [1]
-								"UIParent", -- [2]
-								"BOTTOMLEFT", -- [3]
-								743.332580566406, -- [4]
-								532.3330078125, -- [5]
-							},
-							["frequentUpdates"] = true,
-							["textLockable"] = true,
-							["forceHideText"] = false,
-							["RightText"] = {
-							},
-							["capNumericDisplay"] = true,
-							["TextString"] = {
-							},
-							["lockShow"] = 0,
-							["cvarLabel"] = "STATUS_TEXT_PARTY",
-							["cvar"] = "statusText",
-							["disconnected"] = true,
-							["unit"] = "arena3",
-							["LeftText"] = {
-							},
-							["keepRelative"] = false,
-							["currValue"] = 1,
-							["targetFrame"] = {
-								["isMoving"] = false,
-							},
-							["setupDrag"] = true,
-							["refreshConfig"] = false,
-							["zeroText"] = "Dead",
+						["targetFrame"] = {
+							["isMoving"] = false,
 						},
 						["petFrame"] = {
 							["healthbar"] = {
 								["capNumericDisplay"] = true,
 								["frequentUpdates"] = true,
-								["unit"] = "arenapet3",
+								["disconnected"] = true,
 								["currValue"] = 1,
 								["forceHideText"] = true,
 								["lockShow"] = 0,
-								["disconnected"] = true,
+								["unit"] = "arenapet3",
 							},
 							["DropDown"] = {
 								["selectedLootMethod"] = "Loot: Personal",
 								["displayMode"] = "MENU",
-								["unit"] = "arenapet3",
-								["Icon"] = {
-								},
+								["which"] = "ARENAENEMY",
+								["selectedLootThreshold"] = "Uncommon",
 								["Button"] = {
 								},
 								["Text"] = {
 								},
-								["selectedLootThreshold"] = "Uncommon",
-								["which"] = "ARENAENEMY",
+								["Icon"] = {
+								},
+								["unit"] = "arenapet3",
 							},
 							["manabar"] = {
-								["unit"] = "arenapet3",
+								["texture"] = {
+								},
 								["currValue"] = 0,
 								["frequentUpdates"] = false,
 								["capNumericDisplay"] = true,
-								["disconnected"] = true,
 								["powerType"] = 0,
+								["disconnected"] = true,
 								["lockShow"] = 0,
-								["texture"] = {
-								},
+								["unit"] = "arenapet3",
 							},
 							["portrait"] = {
 							},
@@ -2156,24 +2886,21 @@ sArenaDB = {
 							["texture"] = {
 							},
 							["cvarLabel"] = "STATUS_TEXT_PARTY",
-							["lockShow"] = 0,
+							["forceHideText"] = false,
 							["disconnected"] = true,
-							["powerType"] = 0,
+							["currValue"] = 0,
 							["LeftText"] = {
 							},
 							["refreshConfig"] = false,
+							["keepRelative"] = false,
 							["targetFrame"] = {
 								["isMoving"] = false,
 							},
-							["keepRelative"] = false,
 							["setupDrag"] = true,
-							["currValue"] = 0,
-							["forceHideText"] = false,
+							["powerType"] = 0,
+							["lockShow"] = 0,
 						},
 						["specFrame"] = {
-							["keepRelative"] = true,
-							["setupDrag"] = true,
-							["refreshConfig"] = true,
 							["setting"] = {
 								nil, -- [1]
 								{
@@ -2186,14 +2913,14 @@ sArenaDB = {
 											-17, -- [5]
 										},
 										["refreshConfig"] = true,
-										["keepRelative"] = true,
-										["setupDrag"] = true,
 										["Icon"] = {
 										},
+										["setupDrag"] = true,
 										["Cooldown"] = {
 											["Text"] = {
 											},
 										},
+										["keepRelative"] = true,
 									},
 									["numDebuffs"] = 0,
 									["healAbsorbBarRightShadow"] = {
@@ -2237,42 +2964,42 @@ sArenaDB = {
 										["Icon"] = {
 										},
 										["startChannelColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["finishedCastColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["nonInterruptibleColor"] = {
-											["b"] = 0.7,
-											["g"] = 0.7,
 											["r"] = 0.7,
+											["g"] = 0.7,
+											["b"] = 0.7,
 										},
 										["Text"] = {
 										},
-										["finishedColorSameAsStart"] = true,
+										["flash"] = true,
+										["unit"] = "arena1",
+										["BorderShield"] = {
+										},
+										["failedCastColor"] = {
+											["r"] = 1,
+											["g"] = 0,
+											["b"] = 0,
+										},
+										["showShield"] = true,
+										["startCastColor"] = {
+											["r"] = 1,
+											["g"] = 0.7,
+											["b"] = 0,
+										},
+										["flashColorSameAsStart"] = true,
 										["Spark"] = {
 											["offsetY"] = 0,
 										},
-										["failedCastColor"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["BorderShield"] = {
-										},
-										["startCastColor"] = {
-											["b"] = 0,
-											["g"] = 0.7,
-											["r"] = 1,
-										},
-										["showShield"] = true,
-										["flashColorSameAsStart"] = true,
-										["unit"] = "arena1",
-										["flash"] = true,
+										["finishedColorSameAsStart"] = true,
 									},
 									["healAbsorbBar"] = {
 									},
@@ -2299,42 +3026,42 @@ sArenaDB = {
 											["Icon"] = {
 											},
 											["startChannelColor"] = {
-												["b"] = 0,
-												["g"] = 1,
 												["r"] = 0,
+												["g"] = 1,
+												["b"] = 0,
 											},
 											["finishedCastColor"] = {
-												["b"] = 0,
-												["g"] = 1,
 												["r"] = 0,
+												["g"] = 1,
+												["b"] = 0,
 											},
 											["nonInterruptibleColor"] = {
-												["b"] = 0.7,
-												["g"] = 0.7,
 												["r"] = 0.7,
+												["g"] = 0.7,
+												["b"] = 0.7,
 											},
 											["Text"] = {
 											},
-											["finishedColorSameAsStart"] = true,
+											["flash"] = true,
+											["unit"] = "arena1",
+											["BorderShield"] = {
+											},
+											["failedCastColor"] = {
+												["r"] = 1,
+												["g"] = 0,
+												["b"] = 0,
+											},
+											["showShield"] = true,
+											["startCastColor"] = {
+												["r"] = 1,
+												["g"] = 0.7,
+												["b"] = 0,
+											},
+											["flashColorSameAsStart"] = true,
 											["Spark"] = {
 												["offsetY"] = 0,
 											},
-											["failedCastColor"] = {
-												["b"] = 0,
-												["g"] = 0,
-												["r"] = 1,
-											},
-											["BorderShield"] = {
-											},
-											["startCastColor"] = {
-												["b"] = 0,
-												["g"] = 0.7,
-												["r"] = 1,
-											},
-											["showShield"] = true,
-											["flashColorSameAsStart"] = true,
-											["unit"] = "arena1",
-											["flash"] = true,
+											["finishedColorSameAsStart"] = true,
 										},
 									},
 									["statusSign"] = -1,
@@ -2348,78 +3075,48 @@ sArenaDB = {
 											["tileSize"] = 32,
 										},
 									},
-									["classPortrait"] = {
-									},
+									["noTextPrefix"] = 1,
 									["refreshConfig"] = false,
 									["texture"] = {
 									},
 									["keepRelative"] = false,
 									["statusCounter"] = 0,
-									["healthbar"] = {
-										["setting"] = {
-											"CENTER", -- [1]
-											"UIParent", -- [2]
-											"BOTTOMLEFT", -- [3]
-											743.332580566406, -- [4]
-											532.3330078125, -- [5]
-										},
-										["frequentUpdates"] = true,
-										["textLockable"] = true,
-										["forceHideText"] = false,
-										["RightText"] = {
-										},
-										["capNumericDisplay"] = true,
-										["TextString"] = {
-										},
-										["lockShow"] = 0,
-										["cvarLabel"] = "STATUS_TEXT_PARTY",
-										["cvar"] = "statusText",
-										["disconnected"] = true,
-										["unit"] = "arena1",
-										["LeftText"] = {
-										},
-										["keepRelative"] = false,
-										["currValue"] = 1,
-										["targetFrame"] = {
-											["isMoving"] = false,
-										},
-										["setupDrag"] = true,
-										["refreshConfig"] = false,
-										["zeroText"] = "Dead",
+									["targetFrame"] = {
+										["isMoving"] = false,
 									},
 									["petFrame"] = {
 										["healthbar"] = {
 											["capNumericDisplay"] = true,
 											["frequentUpdates"] = true,
-											["unit"] = "arenapet1",
+											["disconnected"] = true,
 											["currValue"] = 1,
 											["forceHideText"] = true,
 											["lockShow"] = 0,
-											["disconnected"] = true,
+											["unit"] = "arenapet1",
 										},
 										["DropDown"] = {
 											["selectedLootMethod"] = "Loot: Personal",
 											["displayMode"] = "MENU",
-											["unit"] = "arenapet1",
-											["Icon"] = {
-											},
+											["which"] = "ARENAENEMY",
+											["selectedLootThreshold"] = "Uncommon",
 											["Button"] = {
 											},
 											["Text"] = {
 											},
-											["selectedLootThreshold"] = "Uncommon",
-											["which"] = "ARENAENEMY",
+											["Icon"] = {
+											},
+											["unit"] = "arenapet1",
 										},
 										["manabar"] = {
-											["unit"] = "arenapet1",
+											["texture"] = {
+											},
 											["currValue"] = 0,
 											["frequentUpdates"] = false,
 											["capNumericDisplay"] = true,
-											["disconnected"] = true,
 											["powerType"] = 0,
+											["disconnected"] = true,
 											["lockShow"] = 0,
-											["texture"] = {
-											},
+											["unit"] = "arenapet1",
 										},
 										["portrait"] = {
 										},
@@ -2447,19 +3144,19 @@ sArenaDB = {
 										["texture"] = {
 										},
 										["cvarLabel"] = "STATUS_TEXT_PARTY",
-										["lockShow"] = 0,
+										["forceHideText"] = false,
 										["disconnected"] = true,
-										["powerType"] = 0,
+										["currValue"] = 0,
 										["LeftText"] = {
 										},
 										["refreshConfig"] = false,
+										["keepRelative"] = false,
 										["targetFrame"] = {
 											["isMoving"] = false,
 										},
-										["keepRelative"] = false,
 										["setupDrag"] = true,
-										["currValue"] = 0,
-										["forceHideText"] = false,
+										["powerType"] = 0,
+										["lockShow"] = 0,
 									},
 									["specFrame"] = {
 										["isMoving"] = false,
@@ -2468,7 +3165,9 @@ sArenaDB = {
 										["setupDrag"] = true,
 									},
 									["unitHPPercent"] = 1,
-									["manatextleft"] = {
+									["manatext"] = {
+									},
+									["background"] = {
 									},
 									["castBar"] = {
 										["fadeOut"] = true,
@@ -2480,75 +3179,108 @@ sArenaDB = {
 										["Icon"] = {
 										},
 										["startChannelColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["finishedCastColor"] = {
-											["b"] = 0,
-											["g"] = 1,
 											["r"] = 0,
+											["g"] = 1,
+											["b"] = 0,
 										},
 										["nonInterruptibleColor"] = {
-											["b"] = 0.7,
-											["g"] = 0.7,
 											["r"] = 0.7,
+											["g"] = 0.7,
+											["b"] = 0.7,
 										},
 										["Text"] = {
 										},
-										["finishedColorSameAsStart"] = true,
+										["flash"] = true,
+										["unit"] = "arena1",
+										["BorderShield"] = {
+										},
+										["failedCastColor"] = {
+											["r"] = 1,
+											["g"] = 0,
+											["b"] = 0,
+										},
+										["showShield"] = true,
+										["startCastColor"] = {
+											["r"] = 1,
+											["g"] = 0.7,
+											["b"] = 0,
+										},
+										["flashColorSameAsStart"] = true,
 										["Spark"] = {
 											["offsetY"] = 0,
 										},
-										["failedCastColor"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["BorderShield"] = {
-										},
-										["startCastColor"] = {
-											["b"] = 0,
-											["g"] = 0.7,
-											["r"] = 1,
-										},
-										["showShield"] = true,
-										["flashColorSameAsStart"] = true,
-										["unit"] = "arena1",
-										["flash"] = true,
+										["finishedColorSameAsStart"] = true,
 									},
-									["background"] = {
-									},
-									["manatext"] = {
+									["manatextleft"] = {
 									},
 									["DropDown"] = {
 										["selectedLootMethod"] = "Loot: Personal",
 										["displayMode"] = "MENU",
-										["unit"] = "arena1",
-										["Icon"] = {
-										},
+										["which"] = "ARENAENEMY",
+										["selectedLootThreshold"] = "Uncommon",
 										["Button"] = {
 										},
 										["Text"] = {
 										},
-										["selectedLootThreshold"] = "Uncommon",
-										["which"] = "ARENAENEMY",
+										["Icon"] = {
+										},
+										["unit"] = "arena1",
 									},
-									["targetFrame"] = {
-										["isMoving"] = false,
+									["healthbar"] = {
+										["setting"] = {
+											"CENTER", -- [1]
+											"UIParent", -- [2]
+											"BOTTOMLEFT", -- [3]
+											743.332580566406, -- [4]
+											532.3330078125, -- [5]
+										},
+										["frequentUpdates"] = true,
+										["textLockable"] = true,
+										["forceHideText"] = false,
+										["RightText"] = {
+										},
+										["capNumericDisplay"] = true,
+										["TextString"] = {
+										},
+										["lockShow"] = 0,
+										["cvarLabel"] = "STATUS_TEXT_PARTY",
+										["zeroText"] = "Dead",
+										["disconnected"] = true,
+										["refreshConfig"] = false,
+										["LeftText"] = {
+										},
+										["keepRelative"] = false,
+										["targetFrame"] = {
+											["isMoving"] = false,
+										},
+										["currValue"] = 1,
+										["setupDrag"] = true,
+										["unit"] = "arena1",
+										["cvar"] = "statusText",
 									},
 									["setupDrag"] = true,
 									["otherHealPredictionBar"] = {
 									},
-									["noTextPrefix"] = 1,
+									["classPortrait"] = {
+									},
 								}, -- [2]
 								nil, -- [3]
 								57, -- [4]
 								-4, -- [5]
 							},
+							["keepRelative"] = true,
+							["refreshConfig"] = true,
+							["setupDrag"] = true,
 						},
 						["unitHPPercent"] = 1,
-						["manatextleft"] = {
+						["manatext"] = {
+						},
+						["background"] = {
 						},
 						["castBar"] = {
 							["fadeOut"] = true,
@@ -2561,67 +3293,95 @@ sArenaDB = {
 							["Icon"] = {
 							},
 							["startChannelColor"] = {
-								["b"] = 0,
-								["g"] = 1,
 								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
 							},
 							["finishedCastColor"] = {
-								["b"] = 0,
-								["g"] = 1,
 								["r"] = 0,
+								["g"] = 1,
+								["b"] = 0,
 							},
 							["nonInterruptibleColor"] = {
-								["b"] = 0.7,
-								["g"] = 0.7,
 								["r"] = 0.7,
+								["g"] = 0.7,
+								["b"] = 0.7,
 							},
 							["Text"] = {
 							},
-							["finishedColorSameAsStart"] = true,
+							["flash"] = true,
+							["unit"] = "arena3",
+							["BorderShield"] = {
+							},
+							["failedCastColor"] = {
+								["r"] = 1,
+								["g"] = 0,
+								["b"] = 0,
+							},
+							["showShield"] = true,
+							["startCastColor"] = {
+								["r"] = 1,
+								["g"] = 0.7,
+								["b"] = 0,
+							},
+							["flashColorSameAsStart"] = true,
 							["Spark"] = {
 								["offsetY"] = 0,
 							},
-							["failedCastColor"] = {
-								["b"] = 0,
-								["g"] = 0,
-								["r"] = 1,
-							},
-							["BorderShield"] = {
-							},
-							["startCastColor"] = {
-								["b"] = 0,
-								["g"] = 0.7,
-								["r"] = 1,
-							},
-							["showShield"] = true,
-							["flashColorSameAsStart"] = true,
-							["unit"] = "arena3",
-							["flash"] = true,
+							["finishedColorSameAsStart"] = true,
 						},
-						["background"] = {
-						},
-						["manatext"] = {
+						["manatextleft"] = {
 						},
 						["DropDown"] = {
 							["selectedLootMethod"] = "Loot: Personal",
 							["displayMode"] = "MENU",
-							["unit"] = "arena3",
-							["Icon"] = {
-							},
+							["which"] = "ARENAENEMY",
+							["selectedLootThreshold"] = "Uncommon",
 							["Button"] = {
 							},
 							["Text"] = {
 							},
-							["selectedLootThreshold"] = "Uncommon",
-							["which"] = "ARENAENEMY",
+							["Icon"] = {
+							},
+							["unit"] = "arena3",
 						},
-						["targetFrame"] = {
-							["isMoving"] = false,
+						["healthbar"] = {
+							["setting"] = {
+								"CENTER", -- [1]
+								"UIParent", -- [2]
+								"BOTTOMLEFT", -- [3]
+								743.332580566406, -- [4]
+								532.3330078125, -- [5]
+							},
+							["frequentUpdates"] = true,
+							["textLockable"] = true,
+							["forceHideText"] = false,
+							["RightText"] = {
+							},
+							["capNumericDisplay"] = true,
+							["TextString"] = {
+							},
+							["lockShow"] = 0,
+							["cvarLabel"] = "STATUS_TEXT_PARTY",
+							["zeroText"] = "Dead",
+							["disconnected"] = true,
+							["refreshConfig"] = false,
+							["LeftText"] = {
+							},
+							["keepRelative"] = false,
+							["targetFrame"] = {
+								["isMoving"] = false,
+							},
+							["currValue"] = 1,
+							["setupDrag"] = true,
+							["unit"] = "arena3",
+							["cvar"] = "statusText",
 						},
 						["setupDrag"] = true,
 						["otherHealPredictionBar"] = {
 						},
-						["noTextPrefix"] = 1,
+						["classPortrait"] = {
+						},
 					}, -- [2]
 					[5] = 8,
 				},
@@ -2637,767 +3397,7 @@ sArenaDB = {
 			},
 			["mirroredFrames"] = true,
 			["simpleFrames"] = true,
-			["castBarPosition"] = {
-				"CENTER", -- [1]
-				{
-					["CC"] = {
-						["isMoving"] = false,
-						["setting"] = {
-							"CENTER", -- [1]
-							nil, -- [2]
-							"CENTER", -- [3]
-							-70, -- [4]
-							-17, -- [5]
-						},
-						["refreshConfig"] = true,
-						["keepRelative"] = true,
-						["setupDrag"] = true,
-						["Cooldown"] = {
-							["Text"] = {
-							},
-						},
-						["Icon"] = {
-						},
-					},
-					["numDebuffs"] = 0,
-					["healAbsorbBarRightShadow"] = {
-					},
-					["healAbsorbBarLeftShadow"] = {
-					},
-					["healthtextright"] = {
-					},
-					["totalAbsorbBarOverlay"] = {
-						["tileSize"] = 32,
-					},
-					["debuffCountdown"] = 0,
-					["overAbsorbGlow"] = {
-					},
-					["healthtext"] = {
-					},
-					["myHealPredictionBar"] = {
-					},
-					["name"] = {
-					},
-					["specPortrait"] = {
-					},
-					["overHealAbsorbGlow"] = {
-					},
-					["specBorder"] = {
-					},
-					["setting"] = {
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						743.332580566406, -- [4]
-						532.3330078125, -- [5]
-					},
-					["CastingBar"] = {
-						["fadeOut"] = true,
-						["showTradeSkills"] = false,
-						["holdTime"] = 0,
-						["Flash"] = {
-						},
-						["isMoving"] = false,
-						["showCastbar"] = true,
-						["Icon"] = {
-						},
-						["startChannelColor"] = {
-							["b"] = 0,
-							["g"] = 1,
-							["r"] = 0,
-						},
-						["finishedCastColor"] = {
-							["b"] = 0,
-							["g"] = 1,
-							["r"] = 0,
-						},
-						["nonInterruptibleColor"] = {
-							["b"] = 0.7,
-							["g"] = 0.7,
-							["r"] = 0.7,
-						},
-						["Text"] = {
-						},
-						["finishedColorSameAsStart"] = true,
-						["Spark"] = {
-							["offsetY"] = 0,
-						},
-						["failedCastColor"] = {
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 1,
-						},
-						["BorderShield"] = {
-						},
-						["startCastColor"] = {
-							["b"] = 0,
-							["g"] = 0.7,
-							["r"] = 1,
-						},
-						["showShield"] = true,
-						["flashColorSameAsStart"] = true,
-						["unit"] = "arena3",
-						["flash"] = true,
-					},
-					["healAbsorbBar"] = {
-					},
-					["castFrame"] = {
-						["keepRelative"] = true,
-						["refreshConfig"] = true,
-						["setupDrag"] = true,
-						["Icon"] = {
-						},
-						["targetFrame"] = {
-							["fadeOut"] = true,
-							["showTradeSkills"] = false,
-							["holdTime"] = 0,
-							["Flash"] = {
-							},
-							["isMoving"] = false,
-							["showCastbar"] = true,
-							["Icon"] = {
-							},
-							["startChannelColor"] = {
-								["b"] = 0,
-								["g"] = 1,
-								["r"] = 0,
-							},
-							["finishedCastColor"] = {
-								["b"] = 0,
-								["g"] = 1,
-								["r"] = 0,
-							},
-							["nonInterruptibleColor"] = {
-								["b"] = 0.7,
-								["g"] = 0.7,
-								["r"] = 0.7,
-							},
-							["Text"] = {
-							},
-							["finishedColorSameAsStart"] = true,
-							["Spark"] = {
-								["offsetY"] = 0,
-							},
-							["failedCastColor"] = {
-								["b"] = 0,
-								["g"] = 0,
-								["r"] = 1,
-							},
-							["BorderShield"] = {
-							},
-							["startCastColor"] = {
-								["b"] = 0,
-								["g"] = 0.7,
-								["r"] = 1,
-							},
-							["showShield"] = true,
-							["flashColorSameAsStart"] = true,
-							["unit"] = "arena3",
-							["flash"] = true,
-						},
-					},
-					["statusSign"] = -1,
-					["unit"] = "arena3",
-					["manatextright"] = {
-					},
-					["healthtextleft"] = {
-					},
-					["totalAbsorbBar"] = {
-						["overlay"] = {
-							["tileSize"] = 32,
-						},
-					},
-					["classPortrait"] = {
-					},
-					["refreshConfig"] = false,
-					["texture"] = {
-					},
-					["keepRelative"] = false,
-					["statusCounter"] = 0,
-					["healthbar"] = {
-						["setting"] = {
-							"CENTER", -- [1]
-							"UIParent", -- [2]
-							"BOTTOMLEFT", -- [3]
-							743.332580566406, -- [4]
-							532.3330078125, -- [5]
-						},
-						["frequentUpdates"] = true,
-						["textLockable"] = true,
-						["forceHideText"] = false,
-						["RightText"] = {
-						},
-						["capNumericDisplay"] = true,
-						["TextString"] = {
-						},
-						["lockShow"] = 0,
-						["cvarLabel"] = "STATUS_TEXT_PARTY",
-						["cvar"] = "statusText",
-						["disconnected"] = true,
-						["unit"] = "arena3",
-						["LeftText"] = {
-						},
-						["keepRelative"] = false,
-						["currValue"] = 1,
-						["targetFrame"] = {
-							["isMoving"] = false,
-						},
-						["setupDrag"] = true,
-						["refreshConfig"] = false,
-						["zeroText"] = "Dead",
-					},
-					["petFrame"] = {
-						["healthbar"] = {
-							["capNumericDisplay"] = true,
-							["frequentUpdates"] = true,
-							["unit"] = "arenapet3",
-							["currValue"] = 1,
-							["forceHideText"] = true,
-							["lockShow"] = 0,
-							["disconnected"] = true,
-						},
-						["DropDown"] = {
-							["selectedLootMethod"] = "Loot: Personal",
-							["displayMode"] = "MENU",
-							["unit"] = "arenapet3",
-							["Icon"] = {
-							},
-							["Button"] = {
-							},
-							["Text"] = {
-							},
-							["selectedLootThreshold"] = "Uncommon",
-							["which"] = "ARENAENEMY",
-						},
-						["manabar"] = {
-							["unit"] = "arenapet3",
-							["currValue"] = 0,
-							["frequentUpdates"] = false,
-							["capNumericDisplay"] = true,
-							["disconnected"] = true,
-							["powerType"] = 0,
-							["lockShow"] = 0,
-							["texture"] = {
-							},
-						},
-						["portrait"] = {
-						},
-						["name"] = {
-						},
-						["unit"] = "arenapet3",
-					},
-					["manabar"] = {
-						["setting"] = {
-							"CENTER", -- [1]
-							"UIParent", -- [2]
-							"BOTTOMLEFT", -- [3]
-							743.332580566406, -- [4]
-							532.3330078125, -- [5]
-						},
-						["frequentUpdates"] = false,
-						["textLockable"] = true,
-						["unit"] = "arena3",
-						["RightText"] = {
-						},
-						["capNumericDisplay"] = true,
-						["TextString"] = {
-						},
-						["cvar"] = "statusText",
-						["texture"] = {
-						},
-						["cvarLabel"] = "STATUS_TEXT_PARTY",
-						["lockShow"] = 0,
-						["disconnected"] = true,
-						["powerType"] = 0,
-						["LeftText"] = {
-						},
-						["refreshConfig"] = false,
-						["targetFrame"] = {
-							["isMoving"] = false,
-						},
-						["keepRelative"] = false,
-						["setupDrag"] = true,
-						["currValue"] = 0,
-						["forceHideText"] = false,
-					},
-					["specFrame"] = {
-						["keepRelative"] = true,
-						["setupDrag"] = true,
-						["refreshConfig"] = true,
-						["setting"] = {
-							nil, -- [1]
-							{
-								["CC"] = {
-									["setting"] = {
-										"CENTER", -- [1]
-										nil, -- [2]
-										"CENTER", -- [3]
-										-70, -- [4]
-										-17, -- [5]
-									},
-									["refreshConfig"] = true,
-									["keepRelative"] = true,
-									["setupDrag"] = true,
-									["Icon"] = {
-									},
-									["Cooldown"] = {
-										["Text"] = {
-										},
-									},
-								},
-								["numDebuffs"] = 0,
-								["healAbsorbBarRightShadow"] = {
-								},
-								["healAbsorbBarLeftShadow"] = {
-								},
-								["healthtextright"] = {
-								},
-								["totalAbsorbBarOverlay"] = {
-									["tileSize"] = 32,
-								},
-								["debuffCountdown"] = 0,
-								["overAbsorbGlow"] = {
-								},
-								["healthtext"] = {
-								},
-								["myHealPredictionBar"] = {
-								},
-								["name"] = {
-								},
-								["specPortrait"] = {
-								},
-								["overHealAbsorbGlow"] = {
-								},
-								["specBorder"] = {
-								},
-								["setting"] = {
-									"CENTER", -- [1]
-									"UIParent", -- [2]
-									"BOTTOMLEFT", -- [3]
-									743.332580566406, -- [4]
-									532.3330078125, -- [5]
-								},
-								["CastingBar"] = {
-									["fadeOut"] = true,
-									["showTradeSkills"] = false,
-									["holdTime"] = 0,
-									["Flash"] = {
-									},
-									["showCastbar"] = true,
-									["Icon"] = {
-									},
-									["startChannelColor"] = {
-										["b"] = 0,
-										["g"] = 1,
-										["r"] = 0,
-									},
-									["finishedCastColor"] = {
-										["b"] = 0,
-										["g"] = 1,
-										["r"] = 0,
-									},
-									["nonInterruptibleColor"] = {
-										["b"] = 0.7,
-										["g"] = 0.7,
-										["r"] = 0.7,
-									},
-									["Text"] = {
-									},
-									["finishedColorSameAsStart"] = true,
-									["Spark"] = {
-										["offsetY"] = 0,
-									},
-									["failedCastColor"] = {
-										["b"] = 0,
-										["g"] = 0,
-										["r"] = 1,
-									},
-									["BorderShield"] = {
-									},
-									["startCastColor"] = {
-										["b"] = 0,
-										["g"] = 0.7,
-										["r"] = 1,
-									},
-									["showShield"] = true,
-									["flashColorSameAsStart"] = true,
-									["unit"] = "arena1",
-									["flash"] = true,
-								},
-								["healAbsorbBar"] = {
-								},
-								["castFrame"] = {
-									["keepRelative"] = true,
-									["refreshConfig"] = true,
-									["setupDrag"] = true,
-									["Icon"] = {
-									},
-									["targetFrame"] = {
-										["fadeOut"] = true,
-										["showTradeSkills"] = false,
-										["holdTime"] = 0,
-										["Flash"] = {
-										},
-										["showCastbar"] = true,
-										["Icon"] = {
-										},
-										["startChannelColor"] = {
-											["b"] = 0,
-											["g"] = 1,
-											["r"] = 0,
-										},
-										["finishedCastColor"] = {
-											["b"] = 0,
-											["g"] = 1,
-											["r"] = 0,
-										},
-										["nonInterruptibleColor"] = {
-											["b"] = 0.7,
-											["g"] = 0.7,
-											["r"] = 0.7,
-										},
-										["Text"] = {
-										},
-										["finishedColorSameAsStart"] = true,
-										["Spark"] = {
-											["offsetY"] = 0,
-										},
-										["failedCastColor"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["BorderShield"] = {
-										},
-										["startCastColor"] = {
-											["b"] = 0,
-											["g"] = 0.7,
-											["r"] = 1,
-										},
-										["showShield"] = true,
-										["flashColorSameAsStart"] = true,
-										["unit"] = "arena1",
-										["flash"] = true,
-									},
-								},
-								["statusSign"] = -1,
-								["unit"] = "arena1",
-								["manatextright"] = {
-								},
-								["healthtextleft"] = {
-								},
-								["totalAbsorbBar"] = {
-									["overlay"] = {
-										["tileSize"] = 32,
-									},
-								},
-								["classPortrait"] = {
-								},
-								["refreshConfig"] = false,
-								["texture"] = {
-								},
-								["keepRelative"] = false,
-								["statusCounter"] = 0,
-								["healthbar"] = {
-									["setting"] = {
-										"CENTER", -- [1]
-										"UIParent", -- [2]
-										"BOTTOMLEFT", -- [3]
-										743.332580566406, -- [4]
-										532.3330078125, -- [5]
-									},
-									["frequentUpdates"] = true,
-									["textLockable"] = true,
-									["forceHideText"] = false,
-									["RightText"] = {
-									},
-									["capNumericDisplay"] = true,
-									["TextString"] = {
-									},
-									["lockShow"] = 0,
-									["cvarLabel"] = "STATUS_TEXT_PARTY",
-									["cvar"] = "statusText",
-									["disconnected"] = true,
-									["unit"] = "arena1",
-									["LeftText"] = {
-									},
-									["keepRelative"] = false,
-									["currValue"] = 1,
-									["targetFrame"] = {
-										["isMoving"] = false,
-									},
-									["setupDrag"] = true,
-									["refreshConfig"] = false,
-									["zeroText"] = "Dead",
-								},
-								["petFrame"] = {
-									["healthbar"] = {
-										["capNumericDisplay"] = true,
-										["frequentUpdates"] = true,
-										["unit"] = "arenapet1",
-										["currValue"] = 1,
-										["forceHideText"] = true,
-										["lockShow"] = 0,
-										["disconnected"] = true,
-									},
-									["DropDown"] = {
-										["selectedLootMethod"] = "Loot: Personal",
-										["displayMode"] = "MENU",
-										["unit"] = "arenapet1",
-										["Icon"] = {
-										},
-										["Button"] = {
-										},
-										["Text"] = {
-										},
-										["selectedLootThreshold"] = "Uncommon",
-										["which"] = "ARENAENEMY",
-									},
-									["manabar"] = {
-										["unit"] = "arenapet1",
-										["currValue"] = 0,
-										["frequentUpdates"] = false,
-										["capNumericDisplay"] = true,
-										["disconnected"] = true,
-										["powerType"] = 0,
-										["lockShow"] = 0,
-										["texture"] = {
-										},
-									},
-									["portrait"] = {
-									},
-									["name"] = {
-									},
-									["unit"] = "arenapet1",
-								},
-								["manabar"] = {
-									["setting"] = {
-										"CENTER", -- [1]
-										"UIParent", -- [2]
-										"BOTTOMLEFT", -- [3]
-										743.332580566406, -- [4]
-										532.3330078125, -- [5]
-									},
-									["frequentUpdates"] = false,
-									["textLockable"] = true,
-									["unit"] = "arena1",
-									["RightText"] = {
-									},
-									["capNumericDisplay"] = true,
-									["TextString"] = {
-									},
-									["cvar"] = "statusText",
-									["texture"] = {
-									},
-									["cvarLabel"] = "STATUS_TEXT_PARTY",
-									["lockShow"] = 0,
-									["disconnected"] = true,
-									["powerType"] = 0,
-									["LeftText"] = {
-									},
-									["refreshConfig"] = false,
-									["targetFrame"] = {
-										["isMoving"] = false,
-									},
-									["keepRelative"] = false,
-									["setupDrag"] = true,
-									["currValue"] = 0,
-									["forceHideText"] = false,
-								},
-								["specFrame"] = {
-									["isMoving"] = false,
-									["keepRelative"] = true,
-									["refreshConfig"] = true,
-									["setupDrag"] = true,
-								},
-								["unitHPPercent"] = 1,
-								["manatextleft"] = {
-								},
-								["castBar"] = {
-									["fadeOut"] = true,
-									["showTradeSkills"] = false,
-									["holdTime"] = 0,
-									["Flash"] = {
-									},
-									["showCastbar"] = true,
-									["Icon"] = {
-									},
-									["startChannelColor"] = {
-										["b"] = 0,
-										["g"] = 1,
-										["r"] = 0,
-									},
-									["finishedCastColor"] = {
-										["b"] = 0,
-										["g"] = 1,
-										["r"] = 0,
-									},
-									["nonInterruptibleColor"] = {
-										["b"] = 0.7,
-										["g"] = 0.7,
-										["r"] = 0.7,
-									},
-									["Text"] = {
-									},
-									["finishedColorSameAsStart"] = true,
-									["Spark"] = {
-										["offsetY"] = 0,
-									},
-									["failedCastColor"] = {
-										["b"] = 0,
-										["g"] = 0,
-										["r"] = 1,
-									},
-									["BorderShield"] = {
-									},
-									["startCastColor"] = {
-										["b"] = 0,
-										["g"] = 0.7,
-										["r"] = 1,
-									},
-									["showShield"] = true,
-									["flashColorSameAsStart"] = true,
-									["unit"] = "arena1",
-									["flash"] = true,
-								},
-								["background"] = {
-								},
-								["manatext"] = {
-								},
-								["DropDown"] = {
-									["selectedLootMethod"] = "Loot: Personal",
-									["displayMode"] = "MENU",
-									["unit"] = "arena1",
-									["Icon"] = {
-									},
-									["Button"] = {
-									},
-									["Text"] = {
-									},
-									["selectedLootThreshold"] = "Uncommon",
-									["which"] = "ARENAENEMY",
-								},
-								["targetFrame"] = {
-									["isMoving"] = false,
-								},
-								["setupDrag"] = true,
-								["otherHealPredictionBar"] = {
-								},
-								["noTextPrefix"] = 1,
-							}, -- [2]
-							nil, -- [3]
-							57, -- [4]
-							-4, -- [5]
-						},
-					},
-					["unitHPPercent"] = 1,
-					["manatextleft"] = {
-					},
-					["castBar"] = {
-						["fadeOut"] = true,
-						["showTradeSkills"] = false,
-						["holdTime"] = 0,
-						["Flash"] = {
-						},
-						["isMoving"] = false,
-						["showCastbar"] = true,
-						["Icon"] = {
-						},
-						["startChannelColor"] = {
-							["b"] = 0,
-							["g"] = 1,
-							["r"] = 0,
-						},
-						["finishedCastColor"] = {
-							["b"] = 0,
-							["g"] = 1,
-							["r"] = 0,
-						},
-						["nonInterruptibleColor"] = {
-							["b"] = 0.7,
-							["g"] = 0.7,
-							["r"] = 0.7,
-						},
-						["Text"] = {
-						},
-						["finishedColorSameAsStart"] = true,
-						["Spark"] = {
-							["offsetY"] = 0,
-						},
-						["failedCastColor"] = {
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 1,
-						},
-						["BorderShield"] = {
-						},
-						["startCastColor"] = {
-							["b"] = 0,
-							["g"] = 0.7,
-							["r"] = 1,
-						},
-						["showShield"] = true,
-						["flashColorSameAsStart"] = true,
-						["unit"] = "arena3",
-						["flash"] = true,
-					},
-					["background"] = {
-					},
-					["manatext"] = {
-					},
-					["DropDown"] = {
-						["selectedLootMethod"] = "Loot: Personal",
-						["displayMode"] = "MENU",
-						["unit"] = "arena3",
-						["Icon"] = {
-						},
-						["Button"] = {
-						},
-						["Text"] = {
-						},
-						["selectedLootThreshold"] = "Uncommon",
-						["which"] = "ARENAENEMY",
-					},
-					["targetFrame"] = {
-						["isMoving"] = false,
-					},
-					["setupDrag"] = true,
-					["otherHealPredictionBar"] = {
-					},
-					["noTextPrefix"] = 1,
-				}, -- [2]
-				"CENTER", -- [3]
-				-125, -- [4]
-				-14, -- [5]
-			},
+			["scale"] = 1.5,
 		},
-	},
-	["profileKeys"] = {
-		["Calithil - Hydraxis"] = "Default",
-		["Bagofsticks - Hydraxis"] = "Default",
-		["Pillowaifu - Hydraxis"] = "Default",
-		["Frostshocki - Hydraxis"] = "Default",
-		["Necroticks - Hydraxis"] = "Default",
-		["Aubade - Ghostlands"] = "Default",
-		["Scrublordxo - Terenas"] = "Default",
-		["Anyachi - Terenas"] = "Default",
-		["Anyatsu - Terenas"] = "Default",
-		["Edgelordxo - Hydraxis"] = "Default",
-		["Purpleslurp - Terenas"] = "Default",
-		["Backstabi - Korgath"] = "Default",
-		["Ramlethall - Tichondrius"] = "Default",
-		["Backstabi - Hydraxis"] = "Default",
-		["Tekkita - Alleria"] = "Default",
-		["Anyatsu - Korgath"] = "Default",
-		["Tekkuto - Hydraxis"] = "Default",
-		["Backstabi - Ghostlands"] = "Default",
-		["Spetis - Ghostlands"] = "Default",
-		["Skivvix - Ghostlands"] = "Default",
-		["Aestrin - Ghostlands"] = "Default",
-		["Moosebrew - Hydraxis"] = "Default",
-	},
-	["SpecIcons"] = {
-		50, -- [1]
-		-26.25, -- [2]
 	},
 }

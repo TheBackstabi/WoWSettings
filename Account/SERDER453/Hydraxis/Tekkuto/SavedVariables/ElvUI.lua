@@ -1,1046 +1,1066 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/pawn", -- [1]
-		"/ec", -- [2]
-		"/i ty4p", -- [3]
-		"/reload", -- [4]
-		" Hey", -- [5]
-		" What do you want from me", -- [6]
-		" A 110 to run you, or another 80 twink?", -- [7]
-		" Well", -- [8]
-		" All my AI shit was on dead account", -- [9]
-		" Ad Initio", -- [10]
-		" And even then, I never properly \"twinked\"", -- [11]
-		" Same shit", -- [12]
-		" Still on a dead account atm", -- [13]
-		" lol", -- [14]
-		" /c", -- [15]
-		" wtf", -- [16]
-		" e key didn't work lol", -- [17]
-		" Oh yeah let me try that", -- [18]
-		"/wa", -- [19]
-		"/m", -- [20]
+		" lol", -- [1]
+		" /c", -- [2]
+		" wtf", -- [3]
+		" e key didn't work lol", -- [4]
+		" Oh yeah let me try that", -- [5]
+		"/wa", -- [6]
+		"/m", -- [7]
+		" I'll be honest, I didn't even pay attention when I did it", -- [8]
+		" I one shot it at like 920", -- [9]
+		" I just did DPS rotation, got knocked back once by I think an eye, just glided back", -- [10]
+		" So, uh, recommendation", -- [11]
+		" Do damage", -- [12]
+		" That's all I've got lol", -- [13]
+		" Aye", -- [14]
+		" Just let spirit bomb handle aggro on everything else", -- [15]
+		"/i ty4p", -- [16]
+		"/roll", -- [17]
+		"/ec", -- [18]
+		"/pawn", -- [19]
+		"/simc", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Fatality: Hughro > 129k Shadow |cff71d5ff|Hspell:236507:0|h[Quietus]|h|r (O: 435k) [Soul Queen Dejahna]", -- [1]
-			"Daerachas-WyrmrestAccord", -- [2]
+			"5. Hofbrau-Stormscale  251,889,040 (1168262.3, 5.9%)", -- [1]
+			"Seraph-Ghostlands", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Daerachas-WyrmrestAccord", -- [5]
+			"Seraph-Ghostlands", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			283, -- [11]
-			"Player-1171-07F913AE", -- [12]
+			1173, -- [11]
+			"Player-1069-074F1DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edDaerachas-WyrmrestAccord|r",
-			[51] = 1530472730,
+			[52] = "|cffffffffSeraph-Ghostlands|r",
+			[51] = 1530814323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [1]
 		{
-			"Fatality: Nohime > 51.8k Shadow |cff71d5ff|Hspell:236011:0|h[Tormented Cries]|h|r (O: 44.0k) [Unknown]", -- [1]
-			"Daerachas-WyrmrestAccord", -- [2]
+			"6. Kahshra-MoonGuard  228,243,372 (1072874.7, 5.3%)", -- [1]
+			"Seraph-Ghostlands", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Daerachas-WyrmrestAccord", -- [5]
+			"Seraph-Ghostlands", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			284, -- [11]
-			"Player-1171-07F913AE", -- [12]
+			1174, -- [11]
+			"Player-1069-074F1DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edDaerachas-WyrmrestAccord|r",
-			[51] = 1530472730,
+			[52] = "|cffffffffSeraph-Ghostlands|r",
+			[51] = 1530814323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [2]
 		{
-			"Fatality: Flòw > 281k Shadow |cff71d5ff|Hspell:236507:0|h[Quietus]|h|r (O: 414k) [Soul Queen Dejahna]", -- [1]
-			"Daerachas-WyrmrestAccord", -- [2]
+			"7. Tekkuto-Hydraxis  209,656,467 (973832.8, 4.9%)", -- [1]
+			"Seraph-Ghostlands", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Daerachas-WyrmrestAccord", -- [5]
+			"Seraph-Ghostlands", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			287, -- [11]
-			"Player-1171-07F913AE", -- [12]
+			1175, -- [11]
+			"Player-1069-074F1DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edDaerachas-WyrmrestAccord|r",
-			[51] = 1530472732,
+			[52] = "|cffffffffSeraph-Ghostlands|r",
+			[51] = 1530814323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [3]
 		{
-			"Fatality: Zneakyy > 633k Shadow |cff71d5ff|Hspell:236507:0|h[Quietus]|h|r (O: 83.3k) [Soul Queen Dejahna]", -- [1]
-			"Daerachas-WyrmrestAccord", -- [2]
+			"8. Applepies-Thrall  208,118,669 (970114.5, 4.9%)", -- [1]
+			"Seraph-Ghostlands", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Daerachas-WyrmrestAccord", -- [5]
+			"Seraph-Ghostlands", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			288, -- [11]
-			"Player-1171-07F913AE", -- [12]
+			1176, -- [11]
+			"Player-1069-074F1DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edDaerachas-WyrmrestAccord|r",
-			[51] = 1530472732,
+			[52] = "|cffffffffSeraph-Ghostlands|r",
+			[51] = 1530814323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [4]
 		{
-			"Fatality: Keirilinaria > 459k Shadow |cff71d5ff|Hspell:236507:0|h[Quietus]|h|r (O: 117k) [Soul Queen Dejahna]", -- [1]
-			"Daerachas-WyrmrestAccord", -- [2]
+			"9. Tesserei-Mal'Ganis  205,773,471 (959540.6, 4.8%)", -- [1]
+			"Seraph-Ghostlands", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Daerachas-WyrmrestAccord", -- [5]
+			"Seraph-Ghostlands", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			289, -- [11]
-			"Player-1171-07F913AE", -- [12]
+			1177, -- [11]
+			"Player-1069-074F1DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edDaerachas-WyrmrestAccord|r",
-			[51] = 1530472732,
+			[52] = "|cffffffffSeraph-Ghostlands|r",
+			[51] = 1530814323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [5]
 		{
-			"tank", -- [1]
-			"Nohime-Gallywix", -- [2]
+			"10. Kilerdayday-Windrunner  168,138,506 (779176.5, 3.9%)", -- [1]
+			"Seraph-Ghostlands", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nohime-Gallywix", -- [5]
+			"Seraph-Ghostlands", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			298, -- [11]
-			"Player-3234-0B30B1B9", -- [12]
+			1178, -- [11]
+			"Player-1069-074F1DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Nohime-Gallywix|r",
-			[51] = 1530472752,
+			[52] = "|cffffffffSeraph-Ghostlands|r",
+			[51] = 1530814323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [6]
 		{
-			"spirit plz", -- [1]
-			"Nohime-Gallywix", -- [2]
+			"yeah", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nohime-Gallywix", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			304, -- [11]
-			"Player-3234-0B30B1B9", -- [12]
+			1179, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Nohime-Gallywix|r",
-			[51] = 1530472770,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814333,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [7]
 		{
-			"lets split", -- [1]
-			"Xieng-Illidan", -- [2]
+			"recount", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xieng-Illidan", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			308, -- [11]
-			"Player-57-0AECCE2C", -- [12]
+			1180, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Xieng-Illidan|r",
-			[51] = 1530472881,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814334,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [8]
 		{
-			"we need a tank in sport", -- [1]
-			"Banslock-Tichondrius", -- [2]
+			"WotLK wants you back", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Banslock-Tichondrius", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			309, -- [11]
-			"Player-11-0A424C20", -- [12]
+			1181, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edBanslock-Tichondrius|r",
-			[51] = 1530472894,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814341,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [9]
 		{
-			"get some folks in here", -- [1]
-			"Flòw-Stormreaver", -- [2]
+			"hey!", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Flòw-Stormreaver", -- [5]
+			"Hillarie-Lightninghoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			311, -- [11]
-			"Player-58-07841CA2", -- [12]
+			1182, -- [11]
+			"Player-163-0947521F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Flòw-Stormreaver|r",
-			[51] = 1530472897,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814346,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [10]
 		{
-			"START THE DAMN EXPANSION BEFORE I PISS MYSELF", -- [1]
-			"Night-Aegwynn", -- [2]
+			"lol", -- [1]
+			"Seraph-Ghostlands", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Night-Aegwynn", -- [5]
+			"Seraph-Ghostlands", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			312, -- [11]
-			"Player-1136-05C9DBAE", -- [12]
+			1183, -- [11]
+			"Player-1069-074F1DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffff468Night-Aegwynn|r",
-			[51] = 1530472905,
+			[52] = "|cffffffffSeraph-Ghostlands|r",
+			[51] = 1530814347,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [11]
 		{
-			"Fatality: Xieng > 500k Shadow |cff71d5ff|Hspell:236464:0|h[Soulbind]|h|r (O: 20.0k) [Unknown]", -- [1]
-			"Daerachas-WyrmrestAccord", -- [2]
+			"make hole at square when spectral army comes out", -- [1]
+			"Nokarr-ShatteredHalls", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Daerachas-WyrmrestAccord", -- [5]
+			"Nokarr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			328, -- [11]
-			"Player-1171-07F913AE", -- [12]
+			1184, -- [11]
+			"Player-155-09909BF4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edDaerachas-WyrmrestAccord|r",
-			[51] = 1530473131,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cfff48cbaNokarr-ShatteredHalls|r",
+			[51] = 1530814347,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [12]
 		{
-			"Fatality: Banslock > 383k Shadow |cff71d5ff|Hspell:236464:0|h[Soulbind]|h|r (O: 34.1k) [Unknown]", -- [1]
-			"Daerachas-WyrmrestAccord", -- [2]
+			"I didn't make top ten :(", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Daerachas-WyrmrestAccord", -- [5]
+			"Hillarie-Lightninghoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			329, -- [11]
-			"Player-1171-07F913AE", -- [12]
+			1185, -- [11]
+			"Player-163-0947521F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edDaerachas-WyrmrestAccord|r",
-			[51] = 1530473147,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814352,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [13]
 		{
-			"anybody know how orange items drop? from any raid boss or what?", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"Details!: Damage Done for Varimathras [3:35 EF]", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			397, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1186, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530473472,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [14]
 		{
-			"random", -- [1]
-			"Norays-Thunderhorn", -- [2]
+			"1. Towerblelf .... 397.04M (1.85m, 9.4%)", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Norays-Thunderhorn", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			401, -- [11]
-			"Player-105-09CD51B3", -- [12]
+			1187, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaNorays-Thunderhorn|r",
-			[51] = 1530473494,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [15]
 		{
-			"yeah basically its small but bosses, M+, heroic and mythic, etc all have chance", -- [1]
-			"Ginrath-Thrall", -- [2]
+			"2. Madness ........ 389.05M (1.81m, 9.2%)", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ginrath-Thrall", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			402, -- [11]
-			"Player-3678-0ACD9792", -- [12]
+			1188, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaGinrath-Thrall|r",
-			[51] = 1530473499,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [16]
 		{
-			"WTF", -- [1]
-			"Tqur-Azralon", -- [2]
+			"3. Gankiskhan .. 314.02M (1.46m, 7.4%)", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tqur-Azralon", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			404, -- [11]
-			"Player-3209-09CA04EA", -- [12]
+			1189, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Tqur-Azralon|r",
-			[51] = 1530473518,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [17]
 		{
-			"good deal lol, felt like ive been wasting my time xD", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"4. Xaz ................ 278.15M (1.29m, 6.6%)", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			406, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1190, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530473527,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [18]
 		{
-			"noob", -- [1]
-			"Lxtz-Kil'jaeden", -- [2]
+			"5. Hofbrau ........ 251.89M (1.17m, 6.0%)", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lxtz-Kil'jaeden", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			407, -- [11]
-			"Player-9-0B192F08", -- [12]
+			1191, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLxtz-Kil'jaeden|r",
-			[51] = 1530473529,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [19]
 		{
-			"kick", -- [1]
-			"Lxtz-Kil'jaeden", -- [2]
+			"6. Kahshra ........ 228.24M (1.06m, 5.4%)", -- [1]
+			"Bookz-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lxtz-Kil'jaeden", -- [5]
+			"Bookz-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			408, -- [11]
-			"Player-9-0B192F08", -- [12]
+			1192, -- [11]
+			"Player-3678-0AC157C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLxtz-Kil'jaeden|r",
-			[51] = 1530473529,
+			[52] = "|cfff48cbaBookz-Thrall|r",
+			[51] = 1530814354,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [20]
 		{
-			"woohooooooaw", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"i'm leaving if we wipe twice cuz i did this already", -- [1]
+			"Nokarr-ShatteredHalls", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Nokarr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			416, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1193, -- [11]
+			"Player-155-09909BF4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530473608,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cfff48cbaNokarr-ShatteredHalls|r",
+			[51] = 1530814356,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [21]
 		{
-			"Details! Terminator's Death: |cff71d5ff|Hspell:235125:0|h[Unstable Soul]|h|r: 147K ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"you know we dont need you right ?", -- [1]
+			"Towerblelf-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Towerblelf-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			417, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1194, -- [11]
+			"Player-115-083054D8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530473614,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffa330c9Towerblelf-Draenor|r",
+			[51] = 1530814357,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [22]
 		{
-			"Details! Blueluck's Death: ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"Lets fuck this pig.", -- [1]
+			"Kahshra-MoonGuard", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Kahshra-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			419, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1195, -- [11]
+			"Player-3675-06C40DF1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530473619,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffc69b6dKahshra-MoonGuard|r",
+			[51] = 1530814372,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [23]
 		{
-			"Details! Norays's Death: |cff71d5ff|Hspell:240170:0|h[Unstable Soul]|h|r: 392K ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"yeetus!", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Hillarie-Lightninghoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			421, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1196, -- [11]
+			"Player-163-0947521F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530473620,
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814377,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [24]
 		{
-			"gotta pay the troll toll", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"womp womp", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Hillarie-Lightninghoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			422, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1204, -- [11]
+			"Player-163-0947521F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530473634,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814492,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [25]
 		{
-			"hate this fudging boss ", -- [1]
-			"Norays-Thunderhorn", -- [2]
+			"got knockedback ><", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Norays-Thunderhorn", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			423, -- [11]
-			"Player-105-09CD51B3", -- [12]
+			1206, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaNorays-Thunderhorn|r",
-			[51] = 1530473660,
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814501,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [26]
 		{
-			"squishy mage", -- [1]
-			"Norays-Thunderhorn", -- [2]
+			"golganeth next spread out", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Norays-Thunderhorn", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			427, -- [11]
-			"Player-105-09CD51B3", -- [12]
+			1208, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaNorays-Thunderhorn|r",
-			[51] = 1530473667,
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814541,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [27]
 		{
-			"Details! Croneos's Death: ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"SPREAD OUT", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			445, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1209, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530473950,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814553,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [28]
 		{
-			"woohoooo", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"STOP RUNNING INTO EACHOTHER", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			448, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1217, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530473963,
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814613,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [29]
 		{
-			"can oranges drop from reroll bonus loot?", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"BUT", -- [1]
+			"Kahshra-MoonGuard", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Kahshra-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			463, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1218, -- [11]
+			"Player-3675-06C40DF1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530474010,
+			[52] = "|cffc69b6dKahshra-MoonGuard|r",
+			[51] = 1530814621,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [30]
 		{
-			"sorry lot o questions lol", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"IM", -- [1]
+			"Kahshra-MoonGuard", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Kahshra-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			464, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1219, -- [11]
+			"Player-3675-06C40DF1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530474017,
+			[52] = "|cffc69b6dKahshra-MoonGuard|r",
+			[51] = 1530814622,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [31]
 		{
-			"dont think so", -- [1]
-			"Lxtz-Kil'jaeden", -- [2]
+			"MELEE", -- [1]
+			"Kahshra-MoonGuard", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lxtz-Kil'jaeden", -- [5]
+			"Kahshra-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			467, -- [11]
-			"Player-9-0B192F08", -- [12]
+			1220, -- [11]
+			"Player-3675-06C40DF1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLxtz-Kil'jaeden|r",
-			[51] = 1530474034,
+			[52] = "|cffc69b6dKahshra-MoonGuard|r",
+			[51] = 1530814623,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [32]
 		{
-			"i got legendary from chest in broken shore", -- [1]
-			"Doingitbig-Tichondrius", -- [2]
+			"I WANT TO SEE YOUR LIMBS ROASTIN", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Doingitbig-Tichondrius", -- [5]
+			"Hillarie", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			471, -- [11]
-			"Player-11-0A4ECC44", -- [12]
+			1221, -- [11]
+			"Player-163-0947521F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddDoingitbig-Tichondrius|r",
-			[51] = 1530474055,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814631,
+			[50] = "CHAT_MSG_RAID_WARNING",
 		}, -- [33]
 		{
-			"think it can really come from anything", -- [1]
-			"Doingitbig-Tichondrius", -- [2]
+			"get out ouf middle", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Doingitbig-Tichondrius", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			474, -- [11]
-			"Player-11-0A4ECC44", -- [12]
+			1223, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddDoingitbig-Tichondrius|r",
-			[51] = 1530474086,
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814649,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [34]
 		{
-			"nice! grats dawg", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"OUT OF MIDDLE", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			475, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1224, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530474094,
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814654,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [35]
 		{
-			"yeah lego can drop from emissary cache or even those random chests sometimes", -- [1]
-			"Ginrath-Thrall", -- [2]
+			"OUT OF MID", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ginrath-Thrall", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			480, -- [11]
-			"Player-3678-0ACD9792", -- [12]
+			1227, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaGinrath-Thrall|r",
-			[51] = 1530474122,
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814660,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [36]
 		{
-			"are u going druid this expac?", -- [1]
-			"|Kf47|k0000000000|k", -- [2]
+			"OUT OF MID", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			481, -- [11]
-			false, -- [12]
-			47, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc79c6eErilinissa|r",
-			[51] = 1530474123,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Erilinissa",
-		}, -- [37]
-		{
-			"Maybe", -- [1]
-			"|Kf47|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			482, -- [11]
-			false, -- [12]
-			47, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc79c6eErilinissa|r",
-			[51] = 1530474129,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Erilinissa",
-		}, -- [38]
-		{
-			"it was a random chest lol", -- [1]
-			"Doingitbig-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Doingitbig-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			483, -- [11]
-			"Player-11-0A4ECC44", -- [12]
+			1229, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddDoingitbig-Tichondrius|r",
-			[51] = 1530474135,
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814666,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [37]
+		{
+			"BLOODLURST", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hillarie", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1232, -- [11]
+			"Player-163-0947521F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814685,
+			[50] = "CHAT_MSG_RAID_WARNING",
+		}, -- [38]
+		{
+			"BLOODURST!!!", -- [1]
+			"Lilrogue-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lilrogue-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1234, -- [11]
+			"Player-115-07C23307", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814729,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [39]
 		{
-			"blinktron best place to get em", -- [1]
-			"Hughro-Zul'jin", -- [2]
+			"BLOODLURST!", -- [1]
+			"Lilrogue-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hughro-Zul'jin", -- [5]
+			"Lilrogue-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			484, -- [11]
-			"Player-61-0B96AF1B", -- [12]
+			1236, -- [11]
+			"Player-115-07C23307", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aHughro-Zul'jin|r",
-			[51] = 1530474139,
+			[52] = "|cfffff468Lilrogue-Draenor|r",
+			[51] = 1530814738,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [40]
 		{
-			"Details! Zhanta's Death: |cff71d5ff|Hspell:234062:0|h[Unbound Chaos]|h|r: 726K ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:11990:Player-90-05F51702:1:7:5:18:4294967295:4294967295:4294967295:4294967295|h[Hope's End]|h|r!", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			487, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1239, -- [11]
+			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530474158,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530814757,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [41]
 		{
-			"wohoooooooo", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
+			"cool", -- [1]
+			"Nokarr-ShatteredHalls", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
+			"Nokarr-ShatteredHalls", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			517, -- [11]
-			"Player-91-09D4FAB6", -- [12]
+			1245, -- [11]
+			"Player-155-09909BF4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530474337,
+			[52] = "|cfff48cbaNokarr-ShatteredHalls|r",
+			[51] = 1530814759,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [42]
 		{
-			"Details! Toosquared's Death: |cff71d5ff|Hspell:239742:0|h[Dark Mark]|h|r: 6.27M ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"dps readback plz", -- [1]
+			"Kahshra-MoonGuard", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Kahshra-MoonGuard", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			525, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1253, -- [11]
+			"Player-3675-06C40DF1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530474361,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffc69b6dKahshra-MoonGuard|r",
+			[51] = 1530814764,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [43]
 		{
-			"Details! Terminator's Death: |cff71d5ff|Hspell:239742:0|h[Dark Mark]|h|r: 6.00M ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"YES!!!!!!!!!!!!!!!", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Hillarie-Lightninghoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			526, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1254, -- [11]
+			"Player-163-0947521F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530474361,
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814765,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [44]
 		{
-			"Details! Doingitbig's Death: |cff71d5ff|Hspell:240249:0|h[Molten Fel]|h|r: 320K ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"rez's inc", -- [1]
+			"Seraph-Ghostlands", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Seraph-Ghostlands", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			530, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1258, -- [11]
+			"Player-1069-074F1DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530474400,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffffffffSeraph-Ghostlands|r",
+			[51] = 1530814770,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [45]
 		{
-			"Details! Onlyhalfdead's Death: |cff71d5ff|Hspell:240249:0|h[Molten Fel]|h|r: 508K ", -- [1]
-			"Kaneki-Barthilas", -- [2]
+			"thanks for staying nokarr", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kaneki-Barthilas", -- [5]
+			"Hillarie-Lightninghoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			538, -- [11]
-			"Player-3723-06ED655D", -- [12]
+			1265, -- [11]
+			"Player-163-0947521F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKaneki-Barthilas|r",
-			[51] = 1530474435,
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814779,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [46]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11789:Player-90-05F51702:1:7:1:18:4294967295:4294967295:4294967295:4294967295|h[Chamber of the Avatar]|h|r!", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
+			"DAMN HE LEFT", -- [1]
+			"Hillarie-Lightninghoof", -- [2]
 			"", -- [3]
+			"", -- [4]
+			"Hillarie-Lightninghoof", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1269, -- [11]
+			"Player-163-0947521F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Hillarie-Lightninghoof|r",
+			[51] = 1530814784,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [47]
+		{
+			"Decimation", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"Tekkuto", -- [5]
 			"", -- [6]
@@ -1048,7 +1068,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			548, -- [11]
+			1311, -- [11]
 			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1056,165 +1076,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530474534,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
-		{
-			"phew!", -- [1]
-			"Rshackleford-BurningBlade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rshackleford-BurningBlade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			577, -- [11]
-			"Player-91-09D4FAB6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dRshackleford-BurningBlade|r",
-			[51] = 1530474550,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[51] = 1530815043,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [48]
 		{
-			"Shattering Star fading in 6", -- [1]
-			"Suzzannah-Thrall", -- [2]
+			"3", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
-			"Suzzannah-Thrall", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			639, -- [11]
-			"Player-3678-09710A5F", -- [12]
+			1318, -- [11]
+			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aSuzzannah-Thrall|r",
-			[51] = 1530474905,
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815045,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [49]
 		{
-			"Shattering Star fading in 3", -- [1]
-			"Suzzannah-Thrall", -- [2]
+			"2", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
-			"Suzzannah-Thrall", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			640, -- [11]
-			"Player-3678-09710A5F", -- [12]
+			1320, -- [11]
+			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aSuzzannah-Thrall|r",
-			[51] = 1530474908,
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815046,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [50]
 		{
-			"Shattering Star fading in 2", -- [1]
-			"Suzzannah-Thrall", -- [2]
+			"1", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
-			"Suzzannah-Thrall", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			641, -- [11]
-			"Player-3678-09710A5F", -- [12]
+			1322, -- [11]
+			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aSuzzannah-Thrall|r",
-			[51] = 1530474909,
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815047,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [51]
 		{
-			"Goroth: |cffa335ee|Hitem:147027::::::::110:104::4:3:3564:1472:3336:::|h[Spirebreaker Harness]|h|r", -- [1]
-			"Azmodaus-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Azmodaus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			648, -- [11]
-			"Player-3676-07922962", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAzmodaus-Area52|r",
-			[51] = 1530474962,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [52]
-		{
-			"[FIS] Interrupted Razorjaw Wavemender's |cff71d5ff|Hspell:240066:0|h[Watery Splash]|h|r", -- [1]
-			"Suzzannah-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Suzzannah-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			674, -- [11]
-			"Player-3678-09710A5F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aSuzzannah-Thrall|r",
-			[51] = 1530475097,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
-		{
-			"rushing like that you're gonna have a heart attack by the time you're 13", -- [1]
-			"Blueluck-AzjolNerub", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Blueluck-AzjolNerub", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			675, -- [11]
-			"Player-121-045A3D5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edBlueluck-AzjolNerub|r",
-			[51] = 1530475100,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
-		{
-			"Aqueous Burst", -- [1]
+			"Decimation", -- [1]
 			"Tekkuto-Hydraxis", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
@@ -1224,7 +1156,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			681, -- [11]
+			1330, -- [11]
 			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1232,256 +1164,321 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530475134,
+			[51] = 1530815075,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [52]
+		{
+			"3", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1336, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815077,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [53]
+		{
+			"2", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1337, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815078,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [54]
+		{
+			"1", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1338, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815079,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [55]
 		{
-			"lol", -- [1]
-			"Amren-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amren-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			682, -- [11]
-			"Player-84-082A1F1E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAmren-Mug'thol|r",
-			[51] = 1530475150,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
-		{
-			"this is fun standing out here", -- [1]
-			"Entourage-Deathwing", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Entourage-Deathwing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			686, -- [11]
-			"Player-155-0788C08D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aEntourage-Deathwing|r",
-			[51] = 1530475171,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
-		{
-			"well u get to be lazy for free loot, so i would agree", -- [1]
-			"Amren-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amren-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			700, -- [11]
-			"Player-84-082A1F1E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAmren-Mug'thol|r",
-			[51] = 1530475215,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
-		{
-			"|cff71d5ff|Hspell:51533:0|h[Feral Spirit]|h|r! Who let the dogs out?", -- [1]
-			"Harnzbek-Kilrogg", -- [2]
+			"Decimation", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
-			"Harnzbek-Kilrogg", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			704, -- [11]
-			"Player-4-0714B77E", -- [12]
+			1347, -- [11]
+			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddHarnzbek-Kilrogg|r",
-			[51] = 1530475283,
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815140,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [56]
+		{
+			"3", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1356, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815142,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [57]
+		{
+			"2", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1357, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815143,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"1", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1358, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815144,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [59]
 		{
-			"|cff71d5ff|Hspell:51533:0|h[Feral Spirit]|h|r! Who let the dogs out?", -- [1]
-			"Harnzbek-Kilrogg", -- [2]
+			"Decimation", -- [1]
+			"Siinz-Cairne", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
-			"Harnzbek-Kilrogg", -- [5]
+			"Siinz-Cairne", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			711, -- [11]
-			"Player-4-0714B77E", -- [12]
+			1362, -- [11]
+			"Player-122-05A5EA2C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddHarnzbek-Kilrogg|r",
-			[51] = 1530475404,
+			[52] = "|cff8787edSiinz-Cairne|r",
+			[51] = 1530815156,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [60]
 		{
-			"|cff71d5ff|Hspell:51533:0|h[Feral Spirit]|h|r! Who let the dogs out?", -- [1]
-			"Harnzbek-Kilrogg", -- [2]
+			"3", -- [1]
+			"Siinz-Cairne", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
-			"Harnzbek-Kilrogg", -- [5]
+			"Siinz-Cairne", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			722, -- [11]
-			"Player-4-0714B77E", -- [12]
+			1372, -- [11]
+			"Player-122-05A5EA2C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddHarnzbek-Kilrogg|r",
-			[51] = 1530475529,
+			[52] = "|cff8787edSiinz-Cairne|r",
+			[51] = 1530815158,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [61]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11787:Player-90-05F51702:1:7:1:18:4294967295:4294967295:4294967295:4294967295|h[The Gates of Hell]|h|r!", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
-			"", -- [3]
+			"2", -- [1]
+			"Siinz-Cairne", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Tekkuto", -- [5]
+			"Siinz-Cairne", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			724, -- [11]
-			"Player-90-05F51702", -- [12]
+			1375, -- [11]
+			"Player-122-05A5EA2C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530475551,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8787edSiinz-Cairne|r",
+			[51] = 1530815159,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [62]
 		{
-			"ANYONE WANT |cffa335ee|Hitem:147016::::::::110:63::4:3:3564:1482:3337:::|h[Terror From Below]|h|r", -- [1]
-			"Ginrath-Thrall", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Siinz-Cairne", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Ginrath-Thrall", -- [5]
+			"Siinz-Cairne", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			757, -- [11]
-			"Player-3678-0ACD9792", -- [12]
+			1377, -- [11]
+			"Player-122-05A5EA2C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaGinrath-Thrall|r",
-			[51] = 1530475563,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff8787edSiinz-Cairne|r",
+			[51] = 1530815160,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [63]
 		{
-			"YES PLS", -- [1]
-			"Fïona-Korgath", -- [2]
-			"", -- [3]
+			"Decimation", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Fïona-Korgath", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			768, -- [11]
-			"Player-1146-0461101F", -- [12]
+			1396, -- [11]
+			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Fïona-Korgath|r",
-			[51] = 1530475579,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815188,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [64]
 		{
-			"i can show u the world", -- [1]
-			"|Kf77|k0000000000|k", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			147, -- [11]
-			false, -- [12]
-			81, -- [13]
+			1406, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530491531,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815190,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [65]
 		{
-			"You! You killed daddy! Now me kill you!", -- [1]
-			"", -- [2]
-			"", -- [3]
+			"2", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Festerface", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			23, -- [11]
-			false, -- [12]
+			1409, -- [11]
+			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "",
-			[51] = 1530493313,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530815191,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [66]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10798:Player-90-05F51702:1:7:1:18:4294967295:4294967295:4294967295:4294967295|h[Assault on Violet Hold]|h|r!", -- [1]
+			"1", -- [1]
 			"Tekkuto-Hydraxis", -- [2]
-			"", -- [3]
+			"Orcish", -- [3]
 			"", -- [4]
 			"Tekkuto", -- [5]
 			"", -- [6]
@@ -1489,7 +1486,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			68, -- [11]
+			1411, -- [11]
 			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1497,373 +1494,989 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530493736,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1530815192,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [67]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10799:Player-90-05F51702:1:7:1:18:4294967295:4294967295:4294967295:4294967295|h[Heroic: Assault on Violet Hold]|h|r!", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
-			"", -- [3]
+			"Decimation", -- [1]
+			"Durpycup-Area52", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Tekkuto", -- [5]
+			"Durpycup-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			69, -- [11]
-			"Player-90-05F51702", -- [12]
+			1414, -- [11]
+			"Player-3676-09C0B6C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530493736,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffffffffDurpycup-Area52|r",
+			[51] = 1530815203,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [68]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:4476:Player-90-05F51702:1:7:1:18:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Durpycup-Area52", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Tekkuto", -- [5]
+			"Durpycup-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			79, -- [11]
-			"Player-90-05F51702", -- [12]
+			1425, -- [11]
+			"Player-3676-09C0B6C8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530493736,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffffffffDurpycup-Area52|r",
+			[51] = 1530815206,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [69]
 		{
-			"gg ty guys", -- [1]
-			"Virualent-Turalyon", -- [2]
+			"battle rez if poss plz", -- [1]
+			"Tenscalps-Uldum", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Virualent-Turalyon", -- [5]
+			"Tenscalps-Uldum", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			89, -- [11]
-			"Player-3685-08701CC1", -- [12]
+			1431, -- [11]
+			"Player-116-0409DAE8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aVirualent-Turalyon|r",
-			[51] = 1530493742,
+			[52] = "|cff3fc6eaTenscalps-Uldum|r",
+			[51] = 1530815220,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [70]
 		{
-			"ty4p", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
+			"Interrupted Flameweaver's |cff71d5ff|Hspell:252614:0|h[Fel Fireball]|h|r!", -- [1]
+			"Madness-Zul'jin", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tekkuto", -- [5]
+			"Madness-Zul'jin", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			90, -- [11]
-			"Player-90-05F51702", -- [12]
+			1449, -- [11]
+			"Player-61-0B7B520E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530493747,
+			[52] = "|cffaad372Madness-Zul'jin|r",
+			[51] = 1530815324,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [71]
 		{
-			"thanks", -- [1]
-			"Zeyous-Area52", -- [2]
-			"", -- [3]
+			"Desolate Gaze on Tenscalps", -- [1]
+			"Tenscalps-Uldum", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Zeyous-Area52", -- [5]
+			"Tenscalps-Uldum", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			91, -- [11]
-			"Player-3676-09D7E381", -- [12]
+			1473, -- [11]
+			"Player-116-0409DAE8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddZeyous-Area52|r",
-			[51] = 1530493748,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3fc6eaTenscalps-Uldum|r",
+			[51] = 1530815722,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [72]
 		{
-			"GG", -- [1]
-			"Phoenixdusk-Dalaran", -- [2]
+			"Interrupted Flameweaver's |cff71d5ff|Hspell:252614:0|h[Fel Fireball]|h|r!", -- [1]
+			"Madness-Zul'jin", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Phoenixdusk-Dalaran", -- [5]
+			"Madness-Zul'jin", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			92, -- [11]
-			"Player-3683-07C827F6", -- [12]
+			1486, -- [11]
+			"Player-61-0B7B520E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaPhoenixdusk-Dalaran|r",
-			[51] = 1530493749,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffaad372Madness-Zul'jin|r",
+			[51] = 1530815831,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [73]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"Interrupted Clobex's |cff71d5ff|Hspell:257802:0|h[Fel Fireball]|h|r!", -- [1]
+			"Madness-Zul'jin", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Madness-Zul'jin", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			19, -- [11]
-			false, -- [12]
+			1504, -- [11]
+			"Player-61-0B7B520E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530497482,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffaad372Madness-Zul'jin|r",
+			[51] = 1530815991,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [74]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"still makes my day every time", -- [1]
+			"Lunielle-Thrall", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Lunielle-Thrall", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			22, -- [11]
-			false, -- [12]
+			1510, -- [11]
+			"Player-3678-086EDD82", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530497543,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc69b6dLunielle-Thrall|r",
+			[51] = 1530816043,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [75]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"whats boss", -- [1]
+			"Mogs-Mug'thol", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			30, -- [11]
-			false, -- [12]
+			1512, -- [11]
+			"Player-84-07B8CE37", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530497622,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816079,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [76]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"?", -- [1]
+			"Mogs-Mug'thol", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			36, -- [11]
-			false, -- [12]
+			1513, -- [11]
+			"Player-84-07B8CE37", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530497689,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816084,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [77]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"high command", -- [1]
+			"Siinz-Cairne", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Siinz-Cairne", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			50, -- [11]
-			false, -- [12]
+			1520, -- [11]
+			"Player-122-05A5EA2C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530497779,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edSiinz-Cairne|r",
+			[51] = 1530816100,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [78]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"yeah we are at that boss now", -- [1]
+			"Mogs-Mug'thol", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			54, -- [11]
-			false, -- [12]
+			1521, -- [11]
+			"Player-84-07B8CE37", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530497841,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816110,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [79]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"idk dont mind me i must be confused lol", -- [1]
+			"Mogs-Mug'thol", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			59, -- [11]
-			false, -- [12]
+			1523, -- [11]
+			"Player-84-07B8CE37", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530497901,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816122,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [80]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"seems we are missing 3 ppl tho", -- [1]
+			"Mogs-Mug'thol", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			83, -- [11]
-			false, -- [12]
+			1524, -- [11]
+			"Player-84-07B8CE37", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530498357,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816139,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [81]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"here they come", -- [1]
+			"Mogs-Mug'thol", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			104, -- [11]
-			false, -- [12]
+			1525, -- [11]
+			"Player-84-07B8CE37", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530498437,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816143,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [82]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
-			"", -- [2]
+			"sorry i got ported back the start?? I dunno why", -- [1]
+			"Alaquin-Cenarius", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Alaquin-Cenarius", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			105, -- [11]
-			false, -- [12]
+			1526, -- [11]
+			"Player-1168-0698DD89", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530498500,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8787edAlaquin-Cenarius|r",
+			[51] = 1530816161,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [83]
 		{
-			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
+			"says youre here with us", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1527, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816178,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [84]
+		{
+			"no worries", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1528, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816179,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [85]
+		{
+			"omw", -- [1]
+			"Tylerin-Skullcrusher", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tylerin-Skullcrusher", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1529, -- [11]
+			"Player-74-0B46D544", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Tylerin-Skullcrusher|r",
+			[51] = 1530816179,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [86]
+		{
+			"missing a DH", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1530, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816182,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"locl can summon ?", -- [1]
+			"Tenscalps-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tenscalps-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1531, -- [11]
+			"Player-116-0409DAE8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaTenscalps-Uldum|r",
+			[51] = 1530816185,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [88]
+		{
+			"i am now :)", -- [1]
+			"Alaquin-Cenarius", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alaquin-Cenarius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1533, -- [11]
+			"Player-1168-0698DD89", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAlaquin-Cenarius|r",
+			[51] = 1530816186,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [89]
+		{
+			"ah hehe ok", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1534, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816192,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"hes on elevator now", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1535, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816212,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"just missed ele", -- [1]
+			"Tylerin-Skullcrusher", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tylerin-Skullcrusher", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1536, -- [11]
+			"Player-74-0B46D544", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Tylerin-Skullcrusher|r",
+			[51] = 1530816215,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [92]
+		{
+			"boo lol", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1537, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816219,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [93]
+		{
+			"lol ididnt miss it it crushed me ", -- [1]
+			"Tenscalps-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tenscalps-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1538, -- [11]
+			"Player-116-0409DAE8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaTenscalps-Uldum|r",
+			[51] = 1530816231,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [94]
+		{
+			"turns her |Hitem:118427|h|cFFFFFFFF[Autographed Hearthstone Card]|r|h card over, revealing a |cFF0070dd[Rare Hearthstone Card]|r!", -- [1]
+			"Gabbygirl-MoonGuard", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gabbygirl-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1539, -- [11]
+			"Player-3675-07103958", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edGabbygirl-MoonGuard|r",
+			[51] = 1530816234,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [95]
+		{
+			"XD", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1540, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816236,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"on now", -- [1]
+			"Tylerin-Skullcrusher", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tylerin-Skullcrusher", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1541, -- [11]
+			"Player-74-0B46D544", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Tylerin-Skullcrusher|r",
+			[51] = 1530816240,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [97]
+		{
+			"happened to me a couple times too", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1542, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816242,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [98]
+		{
+			"i forgot abot it lol", -- [1]
+			"Tenscalps-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tenscalps-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1543, -- [11]
+			"Player-116-0409DAE8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaTenscalps-Uldum|r",
+			[51] = 1530816253,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [99]
+		{
+			"lol", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1544, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816258,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [100]
+		{
+			"theyre here", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1545, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816260,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [101]
+		{
+			"go go go?", -- [1]
+			"Mogs-Mug'thol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mogs-Mug'thol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1546, -- [11]
+			"Player-84-07B8CE37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMogs-Mug'thol|r",
+			[51] = 1530816281,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [102]
+		{
+			"casually flips his |Hitem:44430|h|cff0070dd[Titanium Seal of Dalaran]|r|h.", -- [1]
+			"Twëlfth-Khaz'goroth", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Twëlfth-Khaz'goroth", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1548, -- [11]
+			"Player-3726-09E95745", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddTwëlfth-Khaz'goroth|r",
+			[51] = 1530816288,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [103]
+		{
+			"catches the coin heads up!", -- [1]
+			"Twëlfth-Khaz'goroth", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Twëlfth-Khaz'goroth", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1549, -- [11]
+			"Player-3726-09E95745", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddTwëlfth-Khaz'goroth|r",
+			[51] = 1530816290,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [104]
+		{
+			"Demonic Charge on Tekkuto", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1559, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530816347,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [105]
+		{
+			"kill adds", -- [1]
+			"Gabbygirl-MoonGuard", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gabbygirl-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1560, -- [11]
+			"Player-3675-07103958", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edGabbygirl-MoonGuard|r",
+			[51] = 1530816349,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [106]
+		{
+			"kill adds", -- [1]
+			"Gabbygirl-MoonGuard", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Gabbygirl-MoonGuard", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1577, -- [11]
+			"Player-3675-07103958", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edGabbygirl-MoonGuard|r",
+			[51] = 1530816448,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [107]
+		{
+			"Demonic Charge on Durpycup", -- [1]
+			"Durpycup-Area52", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Durpycup-Area52", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1594, -- [11]
+			"Player-3676-09C0B6C8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffDurpycup-Area52|r",
+			[51] = 1530816588,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [108]
+		{
+			"¡Carga demoníaca en Melisiti!", -- [1]
+			"Melisiti-Quel'Thalas", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Melisiti-Quel'Thalas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1598, -- [11]
+			"Player-1428-09D26A6B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddMelisiti-Quel'Thalas|r",
+			[51] = 1530816625,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [109]
+		{
+			"Demonic Charge on Alaquin", -- [1]
+			"Alaquin-Cenarius", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Alaquin-Cenarius", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1599, -- [11]
+			"Player-1168-0698DD89", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAlaquin-Cenarius|r",
+			[51] = 1530816626,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [110]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11988:Player-90-05F51702:1:7:5:18:4294967295:4294967295:4294967295:4294967295|h[Light's Breach]|h|r!", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1602, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530816663,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [111]
+		{
+			"|cffffff00Valley of Honor is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Stormheim", -- [4]
+			"3. LocalDefense - Orgrimmar", -- [4]
 			"", -- [5]
 			"", -- [6]
 			22, -- [7]
 			3, -- [8]
-			"LocalDefense - Stormheim", -- [9]
+			"LocalDefense - Orgrimmar", -- [9]
 			0, -- [10]
-			106, -- [11]
+			1804, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1871,97 +2484,121 @@ ElvCharacterDB = {
 			false, -- [16]
 			true, -- [17]
 			[52] = "",
-			[51] = 1530498573,
+			[51] = 1530820203,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [112]
 		{
-			"Incite Panic on Tekkuto", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Tekkuto", -- [5]
+			"|cffffff00Valley of Honor is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Orgrimmar", -- [4]
+			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Orgrimmar", -- [9]
 			0, -- [10]
-			114, -- [11]
-			"Player-90-05F51702", -- [12]
+			1806, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530633075,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+			true, -- [17]
+			[52] = "",
+			[51] = 1530820457,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
 		{
-			"Incite Panic on Tekkuto", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
-			"Orcish", -- [3]
+			"ty", -- [1]
+			"Mujack-Onyxia", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Tekkuto", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			117, -- [11]
-			"Player-90-05F51702", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530633154,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
-		{
-			"Incite Panic on Snugglés", -- [1]
-			"Snugglés-Hyjal", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Snugglés-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			118, -- [11]
-			"Player-3661-07957DF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Snugglés-Hyjal|r",
-			[51] = 1530633154,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
-		{
-			"Aziris Tiras va Dana", -- [1]
-			"Zyli-Terenas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zyli-Terenas", -- [5]
+			"Mujack-Onyxia", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			120, -- [11]
-			"Player-90-00519A3D", -- [12]
+			"Player-91-061C5610", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edZyli-Terenas|r",
-			[51] = 1530633214,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+			[52] = "|cffff7c0aMujack-Onyxia|r",
+			[51] = 1530975616,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [114]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10669:Player-90-05F51702:1:7:7:18:4294967295:4294967295:4294967295:4294967295|h[Explore Suramar]|h|r!", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			144, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530975831,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [115]
+		{
+			"do naxx teir gloves just not drop from nax", -- [1]
+			"|Kf81|k0000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			152, -- [11]
+			false, -- [12]
+			81, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebMattCurtis|r",
+			[51] = 1530977606,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "MattCurtis",
+		}, -- [116]
+		{
+			"im only seeing them from voa, and no set glove drops from any bosses from what i saw", -- [1]
+			"|Kf81|k0000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			153, -- [11]
+			false, -- [12]
+			81, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebMattCurtis|r",
+			[51] = 1530977627,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "MattCurtis",
+		}, -- [117]
 		{
 			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
 			"", -- [2]
@@ -1973,7 +2610,7 @@ ElvCharacterDB = {
 			3, -- [8]
 			"LocalDefense - Highmountain", -- [9]
 			0, -- [10]
-			155, -- [11]
+			158, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1981,121 +2618,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			true, -- [17]
 			[52] = "",
-			[51] = 1530633514,
+			[51] = 1530978740,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [118]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:9708:Player-90-05F51702:1:7:3:18:4294967295:4294967295:4294967295:4294967295|h[Savagely Epic]|h|r!", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tekkuto", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			163, -- [11]
-			"Player-90-05F51702", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530633546,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10764:Player-90-05F51702:1:7:3:18:4294967295:4294967295:4294967295:4294967295|h[Brokenly Superior]|h|r!", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tekkuto", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			164, -- [11]
-			"Player-90-05F51702", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530633546,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10765:Player-90-05F51702:1:7:3:18:4294967295:4294967295:4294967295:4294967295|h[Brokenly Epic]|h|r!", -- [1]
-			"Tekkuto-Hydraxis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tekkuto", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			165, -- [11]
-			"Player-90-05F51702", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTekkuto|r",
-			[51] = 1530633546,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
-		{
-			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Highmountain", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Highmountain", -- [9]
-			0, -- [10]
-			169, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530633583,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
-		{
-			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Highmountain", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Highmountain", -- [9]
-			0, -- [10]
-			185, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530633664,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
-		{
-			"|cffffff00Ranger's Foothold is under attack!|r", -- [1]
+			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
 			"3. LocalDefense - Stormheim", -- [4]
@@ -2105,7 +2632,7 @@ ElvCharacterDB = {
 			3, -- [8]
 			"LocalDefense - Stormheim", -- [9]
 			0, -- [10]
-			206, -- [11]
+			161, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2113,617 +2640,21 @@ ElvCharacterDB = {
 			false, -- [16]
 			true, -- [17]
 			[52] = "",
-			[51] = 1530633839,
+			[51] = 1530978783,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
-		{
-			"[WQGF] Осадный мастер Вораан: Локальное задание выполнено! :)", -- [1]
-			"Meker-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Meker-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			281, -- [11]
-			"Player-57-0AEBC8CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddMeker-Illidan|r",
-			[51] = 1530634383,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
-		{
-			"[WQGF] Провидец Ксанариан: Локальное задание выполнено! :)", -- [1]
-			"Meker-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Meker-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			356, -- [11]
-			"Player-57-0AEBC8CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddMeker-Illidan|r",
-			[51] = 1530634803,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [97]
-		{
-			"hi frand", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			952, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530636843,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [98]
-		{
-			"Hey", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			953, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530636867,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [99]
-		{
-			"u r so handsome u know that", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			954, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530636874,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [100]
-		{
-			"What do you want from me", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			955, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530636882,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [101]
-		{
-			"i need a 80 twink to run dungeons w/ ", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			956, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530636918,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [102]
-		{
-			"me", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			957, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530636921,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [103]
-		{
-			"A 110 to run you, or another 80 twink?", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			958, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530636985,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [104]
-		{
-			"i need a 80 twink because they can like solo the dungeons", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			959, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637006,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [105]
-		{
-			"Well", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			960, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637013,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [106]
-		{
-			"All my AI shit was on dead account", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			961, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637022,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [107]
-		{
-			"Al?", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			962, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637045,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [108]
-		{
-			"Ad Initio", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			963, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637050,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [109]
-		{
-			"And even then, I never properly \"twinked\"", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			964, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637058,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [110]
-		{
-			"we didnt do 80 on ad initio", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			965, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637069,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [111]
-		{
-			"it was ytyd", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			966, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637073,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [112]
-		{
-			"Same shit", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			967, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637077,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [113]
-		{
-			"Still on a dead account atm", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			968, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637082,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [114]
-		{
-			"feelsdeadman.", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			969, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637087,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [115]
-		{
-			"lol", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			970, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637090,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [116]
-		{
-			"/c", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			993, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637337,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [117]
-		{
-			"wtf", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			995, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637341,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [118]
-		{
-			"e key didn't work lol", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1004, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637352,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
 		}, -- [119]
 		{
-			"try alt + f4", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1007, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637383,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "MattCurtis",
-		}, -- [120]
-		{
-			"Oh yeah let me try that", -- [1]
-			"|Kf81|k0000000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1009, -- [11]
-			false, -- [12]
-			81, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMattCurtis|r",
-			[51] = 1530637393,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "MattCurtis",
-		}, -- [121]
-		{
-			"|cffffff00Valley of Wisdom is under attack!|r", -- [1]
+			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Orgrimmar", -- [4]
+			"3. LocalDefense - Stormheim", -- [4]
 			"", -- [5]
 			"", -- [6]
 			22, -- [7]
 			3, -- [8]
-			"LocalDefense - Orgrimmar", -- [9]
+			"LocalDefense - Stormheim", -- [9]
 			0, -- [10]
-			1050, -- [11]
+			163, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2731,118 +2662,162 @@ ElvCharacterDB = {
 			false, -- [16]
 			true, -- [17]
 			[52] = "",
-			[51] = 1530637914,
+			[51] = 1530978851,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormheim", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormheim", -- [9]
+			0, -- [10]
+			164, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1530978940,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormheim", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormheim", -- [9]
+			0, -- [10]
+			173, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1530979010,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [122]
 		{
-			"|cffffff00Orgrimmar is under attack!|r", -- [1]
+			"|cffffff00Blackhawk's Bulwark is under attack!|r", -- [1]
 			"", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Orgrimmar", -- [4]
+			"LocalDefense - Stormheim", -- [4]
 			"", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Orgrimmar", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1063, -- [11]
+			182, -- [11]
 			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
+			false, -- [17]
 			[52] = "",
-			[51] = 1530638225,
+			[51] = 1530979089,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [123]
 		{
-			"|cffffff00Orgrimmar is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Orgrimmar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Orgrimmar", -- [9]
-			0, -- [10]
-			1106, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1530638923,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12071:Player-90-05F7862B:1:7:3:18:4294967295:4294967295:4294967295:4294967295|h[Crucible's Promise]|h|r!", -- [1]
-			"Curandera-Hydraxis", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10994:Player-90-05F51702:1:7:7:18:4294967295:4294967295:4294967295:4294967295|h[A Glorious Campaign]|h|r!", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Curandera", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			216, -- [11]
-			"Player-90-05F7862B", -- [12]
+			346, -- [11]
+			"Player-90-05F51702", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddCurandera|r",
-			[51] = 1530659293,
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530980735,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [124]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10746:Player-90-05F51702:1:7:7:18:4294967295:4294967295:4294967295:4294967295|h[Forged for Battle]|h|r!", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tekkuto", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530980816,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [125]
 		{
-			"heroic/mythic raids drop more legendaries/", -- [1]
-			"|Kf6|k00000000000000|k", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:11220:Player-90-05F51702:1:7:7:18:4294967295:4294967295:4294967295:4294967295|h[Roster of Champions]|h|r!", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			532, -- [11]
-			false, -- [12]
-			6, -- [13]
+			514, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebCloaked|r",
-			[51] = 1530666231,
-			[50] = "CHAT_MSG_BN_INLINE_TOAST_BROADCAST",
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530982126,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [126]
 		{
-			"heroic/mythic raids drop more legendaries?", -- [1]
-			"|Kf6|k00000000000000|k", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:11846:Player-90-05F51702:1:7:7:18:4294967295:4294967295:4294967295:4294967295|h[Champions of Legionfall]|h|r!", -- [1]
+			"Tekkuto-Hydraxis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Tekkuto", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			534, -- [11]
-			false, -- [12]
-			6, -- [13]
+			525, -- [11]
+			"Player-90-05F51702", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebCloaked|r",
-			[51] = 1530666234,
-			[50] = "CHAT_MSG_BN_INLINE_TOAST_BROADCAST",
+			[52] = "|cffff7c0aTekkuto|r",
+			[51] = 1530982258,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},
 }

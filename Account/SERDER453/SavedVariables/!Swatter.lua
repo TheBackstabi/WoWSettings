@@ -5,7 +5,7 @@ SwatterData = {
 	["combat"] = false,
 	["errors"] = {
 		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton2:Hide()) during combat lockdown.",
+			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton11:Hide()) during combat lockdown.",
 			["count"] = 4,
 			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
 			["timestamp"] = "2018-04-03 18:07:49",
@@ -13,7 +13,7 @@ SwatterData = {
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
 		}, -- [1]
 		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton3:Hide()) during combat lockdown.",
+			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton12:Hide()) during combat lockdown.",
 			["count"] = 4,
 			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
 			["timestamp"] = "2018-04-03 18:07:49",
@@ -21,85 +21,13 @@ SwatterData = {
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
 		}, -- [2]
 		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton4:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [3]
-		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton5:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [4]
-		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton6:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [5]
-		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton7:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [6]
-		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton8:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [7]
-		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton9:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [8]
-		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton10:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [9]
-		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton11:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [10]
-		{
-			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton12:Hide()) during combat lockdown.",
-			["count"] = 4,
-			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
-			["timestamp"] = "2018-04-03 18:07:49",
-			["context"] = "AddOn: Auc-Advanced",
-			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [11]
-		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiBarBottomLeft:Hide()) during combat lockdown.",
 			["count"] = 4,
 			["addons"] = "  Swatter, v7.3.1 (<%codename%>)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.11\n  AtlasLootBurningCrusade, vv8.07.11\n  AtlasLootCataclysm, vv8.07.11\n  AtlasLootClassic, vv8.07.11\n  AtlasLootLegion, vv8.07.11\n  AtlasLootMistsofPandaria, vv8.07.11\n  AtlasLootWarlordsofDraenor, vv8.07.11\n  AtlasLootWrathoftheLichKing, vv8.07.11\n  AucAdvanced, v7.5.5724 (TasmanianThylacine)\n  AucFilterBasic, v7.5.5724 (TasmanianThylacine)\n  AucFilterOutlier, v7.5.5724.5459(7.5/embedded)\n  AucMatchUndercut, v7.5.5724.5585(7.5/embedded)\n  AucScanData, v7.5.5724 (TasmanianThylacine)\n  AucStatHistogram, v7.5.5724 (TasmanianThylacine)\n  AucStatiLevel, v7.5.5724 (TasmanianThylacine)\n  AucStatPurchased, v7.5.5724 (TasmanianThylacine)\n  AucStatSales, v7.5.5724.5598(7.5/embedded)\n  AucStatSimple, v7.5.5724 (TasmanianThylacine)\n  AucStatStdDev, v7.5.5724 (TasmanianThylacine)\n  AucStatWOWEcon, v7.5.5724.5613(7.5/embedded)\n  AucUtilAHWindowControl, v7.5.5724.5575(7.5/embedded)\n  AucUtilAppraiser, v7.5.5724.5719(7.5/embedded)\n  AucUtilAskPrice, v7.5.5724.5599(7.5/embedded)\n  AucUtilAutoMagic, v7.5.5724.5686(7.5/embedded)\n  AucUtilCompactUI, v7.5.5724.5715(7.5/embedded)\n  AucUtilEasyBuyout, v7.5.5724.5576(7.5/embedded)\n  AucUtilFixAH, v7.5.5724 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.5.5724.5651(7.5/embedded)\n  AucUtilPriceLevel, v7.5.5724.5633(7.5/embedded)\n  AucUtilScanButton, v7.5.5724.5631(7.5/embedded)\n  AucUtilScanFinish, v7.5.5724.5720(7.5/embedded)\n  AucUtilScanProgress, v7.5.5724.4979(7.5/embedded)\n  AucUtilScanStart, v7.5.5724.5347(7.5/embedded)\n  AucUtilSearchUI, v7.5.5724.5721(7.5/embedded)\n  AucUtilSimpleAuction, v7.5.5724.5705(7.5/embedded)\n  AucUtilVendMarkup, v7.5.5724.4828(7.5/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.5.5724 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.431(/embedded)\n  DBMCore, v7.3.25\n  DBMDefaultSkin, v\n  DBMDMF, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.72\n  ElvUIConfig, v1.05\n  Enchantrix, v7.5.5724 (TasmanianThylacine)\n  EnchantrixBarker, v7.5.5724 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.5.5724 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.430(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.9\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.3.1 (<%codename%>)\n  Stubby, v7.5.5724 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.41\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.18\n  WeakAuras, v2.5.7\n  WorldQuestTracker, v\n  WoWGatheringNodes, v10.14.17.A\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c47)\n",
 			["timestamp"] = "2018-04-03 18:07:49",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:41: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:177: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:145: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [12]
+		}, -- [3]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiBarBottomRight:Hide()) during combat lockdown.",
 			["count"] = 4,
@@ -107,7 +35,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-03 18:07:49",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:49: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:177: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:145: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [13]
+		}, -- [4]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiBarRight:Hide()) during combat lockdown.",
 			["count"] = 4,
@@ -115,7 +43,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-03 18:07:49",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:56: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:177: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:145: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [14]
+		}, -- [5]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiBarLeft:Hide()) during combat lockdown.",
 			["count"] = 4,
@@ -123,7 +51,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-03 18:07:49",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:63: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:177: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:145: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [15]
+		}, -- [6]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -132,7 +60,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 16:26:43",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [16]
+		}, -- [7]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -141,7 +69,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 16:51:58",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [17]
+		}, -- [8]
 		{
 			["message"] = "Interface\\FrameXML\\LevelUpDisplay.lua:1329: attempt to index local 'rarityColor' (a nil value)",
 			["count"] = 1,
@@ -150,7 +78,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 16:52:42",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\FrameXML\\LevelUpDisplay.lua:1329: in function `BossBanner_ConfigureLootFrame'\nInterface\\FrameXML\\LevelUpDisplay.lua:1309: in function `onStartFunc'\nInterface\\FrameXML\\LevelUpDisplay.lua:1384: in function `BossBanner_SetAnimState'\nInterface\\FrameXML\\LevelUpDisplay.lua:1408: in function <Interface\\FrameXML\\LevelUpDisplay.lua:1395>\n",
-		}, -- [18]
+		}, -- [9]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton1:Show()) during combat lockdown.",
 			["count"] = 24,
@@ -158,7 +86,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\StanceBar.lua:93: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [19]
+		}, -- [10]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton2:Show()) during combat lockdown.",
 			["count"] = 24,
@@ -166,7 +94,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\StanceBar.lua:93: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [20]
+		}, -- [11]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton3:Show()) during combat lockdown.",
 			["count"] = 24,
@@ -174,7 +102,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\StanceBar.lua:93: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [21]
+		}, -- [12]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton4:Hide()) during combat lockdown.",
 			["count"] = 24,
@@ -182,7 +110,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\StanceBar.lua:95: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [22]
+		}, -- [13]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton5:Hide()) during combat lockdown.",
 			["count"] = 24,
@@ -190,7 +118,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\StanceBar.lua:95: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [23]
+		}, -- [14]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton6:Hide()) during combat lockdown.",
 			["count"] = 24,
@@ -198,7 +126,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\StanceBar.lua:95: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [24]
+		}, -- [15]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton7:Hide()) during combat lockdown.",
 			["count"] = 24,
@@ -206,7 +134,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\StanceBar.lua:95: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [25]
+		}, -- [16]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton8:Hide()) during combat lockdown.",
 			["count"] = 24,
@@ -214,7 +142,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\StanceBar.lua:95: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [26]
+		}, -- [17]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton9:Hide()) during combat lockdown.",
 			["count"] = 24,
@@ -222,7 +150,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\StanceBar.lua:95: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [27]
+		}, -- [18]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (StanceButton10:Hide()) during combat lockdown.",
 			["count"] = 24,
@@ -230,7 +158,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\StanceBar.lua:95: in function `StanceBar_UpdateState'\nInterface\\FrameXML\\StanceBar.lua:46: in function `StanceBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:109: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [28]
+		}, -- [19]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MainMenuBarArtFrame:SetAttribute()) during combat lockdown.",
 			["count"] = 24,
@@ -238,7 +166,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `SetAttribute'\nInterface\\FrameXML\\ActionBarController.lua:151: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [29]
+		}, -- [20]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (ActionButton5:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -246,7 +174,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [30]
+		}, -- [21]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (ActionButton7:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -254,7 +182,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [31]
+		}, -- [22]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (ActionButton9:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -262,7 +190,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [32]
+		}, -- [23]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (ActionButton10:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -270,7 +198,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [33]
+		}, -- [24]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (ActionButton11:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -278,7 +206,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [34]
+		}, -- [25]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (ActionButton12:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -286,7 +214,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [35]
+		}, -- [26]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (OverrideActionBarButton5:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -294,7 +222,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [36]
+		}, -- [27]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (ExtraActionButton1:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -302,7 +230,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [37]
+		}, -- [28]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton1:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -310,7 +238,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [38]
+		}, -- [29]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton2:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -318,7 +246,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [39]
+		}, -- [30]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton3:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -326,7 +254,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [40]
+		}, -- [31]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton4:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -334,7 +262,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [41]
+		}, -- [32]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton5:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -342,7 +270,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [42]
+		}, -- [33]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton6:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -350,7 +278,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [43]
+		}, -- [34]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton7:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -358,7 +286,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [44]
+		}, -- [35]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton8:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -366,7 +294,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [45]
+		}, -- [36]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton9:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -374,7 +302,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [46]
+		}, -- [37]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton10:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -382,7 +310,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [47]
+		}, -- [38]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton11:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -390,7 +318,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [48]
+		}, -- [39]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiCastActionButton12:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -398,7 +326,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\ActionButton.lua:379: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:334: in function `ActionButton_UpdateAction'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ActionBarController_ResetToDefault'\nInterface\\FrameXML\\ActionBarController.lua:142: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [49]
+		}, -- [40]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiBarBottomLeft:Show()) during combat lockdown.",
 			["count"] = 26,
@@ -406,7 +334,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\MultiActionBars.lua:37: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:177: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:145: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [50]
+		}, -- [41]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiBarBottomRight:Show()) during combat lockdown.",
 			["count"] = 26,
@@ -414,7 +342,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\MultiActionBars.lua:46: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:177: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:145: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [51]
+		}, -- [42]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiBarRight:Show()) during combat lockdown.",
 			["count"] = 26,
@@ -422,7 +350,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\MultiActionBars.lua:53: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:177: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:145: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [52]
+		}, -- [43]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (MultiBarLeft:Hide()) during combat lockdown.",
 			["count"] = 26,
@@ -430,7 +358,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 17:29:40",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:63: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:177: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:145: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\SpellBookFrame.lua:507: in function `SpellButton_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n[C]: ?\n",
-		}, -- [53]
+		}, -- [44]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -439,7 +367,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-04 18:48:44",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [54]
+		}, -- [45]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -448,7 +376,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-05 15:55:31",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [55]
+		}, -- [46]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -457,7 +385,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-05 16:28:42",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [56]
+		}, -- [47]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -466,7 +394,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-05 19:53:03",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [57]
+		}, -- [48]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -475,7 +403,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-05 21:13:58",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [58]
+		}, -- [49]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -484,7 +412,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-06 16:23:52",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [59]
+		}, -- [50]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -493,7 +421,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-07 17:41:52",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [60]
+		}, -- [51]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -502,7 +430,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-07 21:02:19",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3449: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3445>\n",
-		}, -- [61]
+		}, -- [52]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 2,
@@ -511,7 +439,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-07 21:48:17",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [62]
+		}, -- [53]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -520,7 +448,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-07 22:45:47",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [63]
+		}, -- [54]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -529,7 +457,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-07 23:02:32",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [64]
+		}, -- [55]
 		{
 			["message"] = "Note: AddOn Auc-Advanced attempted to call a protected function (ExtraActionButton1:Show()) during combat lockdown.",
 			["count"] = 40,
@@ -537,7 +465,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-08 00:20:46",
 			["context"] = "AddOn: Auc-Advanced",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:364: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:720: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:207: in function <Interface\\FrameXML\\ActionButton.lua:204>\n",
-		}, -- [65]
+		}, -- [56]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -546,7 +474,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-09 20:30:33",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [66]
+		}, -- [57]
 		{
 			["message"] = "Interface\\AddOns\\Details\\functions\\dungeon.lua:722: attempt to index field '?' (a nil value)",
 			["count"] = 20,
@@ -555,7 +483,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-09 21:30:05",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\Details\\functions\\dungeon.lua:722: in function <Interface\\AddOns\\Details\\functions\\dungeon.lua:705>\n",
-		}, -- [67]
+		}, -- [58]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -564,7 +492,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-09 21:46:41",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [68]
+		}, -- [59]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -573,7 +501,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-10 14:09:23",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [69]
+		}, -- [60]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -582,7 +510,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-10 14:13:18",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [70]
+		}, -- [61]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -591,7 +519,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-10 14:27:20",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [71]
+		}, -- [62]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -600,7 +528,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-12 10:41:41",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [72]
+		}, -- [63]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -609,7 +537,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-13 17:21:06",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [73]
+		}, -- [64]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -618,7 +546,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-13 20:41:11",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [74]
+		}, -- [65]
 		{
 			["message"] = "integer overflow attempting to store 336644536100",
 			["count"] = 1,
@@ -627,7 +555,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-13 22:23:04",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[C]: in function `SetFormattedText'\nInterface\\AddOns\\Omen\\Omen.lua:1930: in function `UpdateBarsReal'\nInterface\\AddOns\\Omen\\Omen.lua:1729: in function <Interface\\AddOns\\Omen\\Omen.lua:1727>\n",
-		}, -- [75]
+		}, -- [66]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -636,7 +564,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-14 09:29:30",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [76]
+		}, -- [67]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -645,7 +573,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-14 20:57:58",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [77]
+		}, -- [68]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -654,7 +582,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-17 10:15:19",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [78]
+		}, -- [69]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -663,7 +591,7 @@ SwatterData = {
 			["timestamp"] = "2018-04-18 18:28:24",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: in function <[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:1>\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:170: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3481: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3477>\n",
-		}, -- [79]
+		}, -- [70]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -671,7 +599,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 10:22:28",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [80]
+		}, -- [71]
 		{
 			["message"] = "Note: AddOn Classic Quest Log attempted to call a protected function (<unnamed>:Hide()) during combat lockdown.",
 			["count"] = 52,
@@ -679,7 +607,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 11:57:37",
 			["context"] = "AddOn: Classic Quest Log",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\WorldMapActionButton.lua:58: in function `Clear'\nInterface\\FrameXML\\WorldMapActionButton.lua:67: in function `Refresh'\nInterface\\FrameXML\\WorldMapActionButton.lua:19: in function `SetMapAreaID'\nInterface\\FrameXML\\WorldMapFrame.lua:1380: in function `WorldMapFrame_Update'\nInterface\\FrameXML\\WorldMapFrame.lua:2970: in function `WorldMapFrame_UpdateMap'\nInterface\\FrameXML\\WorldMapFrame.lua:469: in function <Interface\\FrameXML\\WorldMapFrame.lua:445>\n[C]: ?\n[C]: in function `SetMapToCurrentZone'\nInterface\\FrameXML\\WorldMapFrame.lua:390: in function <Interface\\FrameXML\\WorldMapFrame.lua:369>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2493: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:2295: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2203: in function <Interface\\FrameXML\\UIParent.lua:2199>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2987: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2971: in function `ToggleFrame'\nInterface\\FrameXML\\WorldMapFrame.lua:267: in function <Interface\\FrameXML\\WorldMapFrame.lua:239>\n[C]: in function `ToggleWorldMap'\n[string \"TOGGLEWORLDMAP\"]:1: in function <[string \"TOGGLEWORLDMAP\"]:1>\n",
-		}, -- [81]
+		}, -- [72]
 		{
 			["message"] = "Note: AddOn Classic Quest Log attempted to call a protected function (<unnamed>:ClearAllPoints()) during combat lockdown.",
 			["count"] = 38,
@@ -687,7 +615,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 11:57:37",
 			["context"] = "AddOn: Classic Quest Log",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\WorldMapFrame.lua:1576: in function `WorldMapFrame_SetOverlayLocation'\nInterface\\FrameXML\\WorldMapFrame.lua:1599: in function `WorldMapFrame_UpdateOverlayLocations'\nInterface\\FrameXML\\WorldMapFrame.lua:1381: in function `WorldMapFrame_Update'\nInterface\\FrameXML\\WorldMapFrame.lua:2970: in function `WorldMapFrame_UpdateMap'\nInterface\\FrameXML\\WorldMapFrame.lua:469: in function <Interface\\FrameXML\\WorldMapFrame.lua:445>\n[C]: ?\n[C]: in function `SetMapToCurrentZone'\nInterface\\FrameXML\\WorldMapFrame.lua:390: in function <Interface\\FrameXML\\WorldMapFrame.lua:369>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2493: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:2295: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2203: in function <Interface\\FrameXML\\UIParent.lua:2199>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2987: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2971: in function `ToggleFrame'\nInterface\\FrameXML\\WorldMapFrame.lua:267: in function <Interface\\FrameXML\\WorldMapFrame.lua:239>\n[C]: in function `ToggleWorldMap'\n[string \"TOGGLEWORLDMAP\"]:1: in function <[string \"TOGGLEWORLDMAP\"]:1>\n",
-		}, -- [82]
+		}, -- [73]
 		{
 			["message"] = "Note: AddOn Classic Quest Log attempted to call a protected function (<unnamed>:SetPoint()) during combat lockdown.",
 			["count"] = 38,
@@ -695,7 +623,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 11:57:37",
 			["context"] = "AddOn: Classic Quest Log",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\WorldMapFrame.lua:1582: in function `WorldMapFrame_SetOverlayLocation'\nInterface\\FrameXML\\WorldMapFrame.lua:1599: in function `WorldMapFrame_UpdateOverlayLocations'\nInterface\\FrameXML\\WorldMapFrame.lua:1381: in function `WorldMapFrame_Update'\nInterface\\FrameXML\\WorldMapFrame.lua:2970: in function `WorldMapFrame_UpdateMap'\nInterface\\FrameXML\\WorldMapFrame.lua:469: in function <Interface\\FrameXML\\WorldMapFrame.lua:445>\n[C]: ?\n[C]: in function `SetMapToCurrentZone'\nInterface\\FrameXML\\WorldMapFrame.lua:390: in function <Interface\\FrameXML\\WorldMapFrame.lua:369>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2493: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:2295: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2203: in function <Interface\\FrameXML\\UIParent.lua:2199>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2987: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2971: in function `ToggleFrame'\nInterface\\FrameXML\\WorldMapFrame.lua:267: in function <Interface\\FrameXML\\WorldMapFrame.lua:239>\n[C]: in function `ToggleWorldMap'\n[string \"TOGGLEWORLDMAP\"]:1: in function <[string \"TOGGLEWORLDMAP\"]:1>\n",
-		}, -- [83]
+		}, -- [74]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -703,7 +631,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 14:31:13",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [84]
+		}, -- [75]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -711,7 +639,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 20:17:32",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [85]
+		}, -- [76]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -719,7 +647,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 20:47:08",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [86]
+		}, -- [77]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -727,7 +655,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 20:50:56",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [87]
+		}, -- [78]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -735,7 +663,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 20:58:01",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [88]
+		}, -- [79]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI_SLE\\modules\\blizzard.lua:103: attempt to index field 'blizzmove' (a boolean value)",
 			["count"] = 2,
@@ -744,7 +672,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 20:58:34",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\ElvUI_SLE\\modules\\blizzard.lua:103: in function <Interface\\AddOns\\ElvUI_SLE\\modules\\blizzard.lua:100>\n[C]: in function `Show'\nInterface\\FrameXML\\StaticPopup.lua:4754: in function `StaticPopupSpecial_Show'\nInterface\\FrameXML\\LFGFrame.lua:210: in function <Interface\\FrameXML\\LFGFrame.lua:116>\n",
-		}, -- [89]
+		}, -- [80]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI_SLE\\modules\\blizzard.lua:118: attempt to index field 'blizzmove' (a boolean value)",
 			["count"] = 1,
@@ -753,7 +681,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 20:58:36",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\ElvUI_SLE\\modules\\blizzard.lua:118: in function <Interface\\AddOns\\ElvUI_SLE\\modules\\blizzard.lua:114>\n[C]: in function `Hide'\nInterface\\FrameXML\\StaticPopup.lua:4758: in function `StaticPopupSpecial_Hide'\nInterface\\FrameXML\\LFGFrame.lua:657: in function `LFGDungeonReadyPopup_OnFail'\nInterface\\FrameXML\\LFGFrame.lua:217: in function <Interface\\FrameXML\\LFGFrame.lua:116>\n",
-		}, -- [90]
+		}, -- [81]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 2,
@@ -761,7 +689,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 20:58:56",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [91]
+		}, -- [82]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 2,
@@ -769,7 +697,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 21:10:19",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [92]
+		}, -- [83]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 2,
@@ -777,7 +705,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 21:22:16",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [93]
+		}, -- [84]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -785,7 +713,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 21:40:43",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [94]
+		}, -- [85]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -793,7 +721,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-01 22:03:43",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [95]
+		}, -- [86]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -801,7 +729,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-03 11:31:55",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [96]
+		}, -- [87]
 		{
 			["message"] = "Note: AddOn WorldQuestTracker attempted to call a protected function (<unnamed>:Hide()) during combat lockdown.",
 			["count"] = 16,
@@ -809,7 +737,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-03 12:21:49",
 			["context"] = "AddOn: WorldQuestTracker",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\WorldMapActionButton.lua:58: in function `Clear'\nInterface\\FrameXML\\WorldMapActionButton.lua:67: in function `Refresh'\nInterface\\FrameXML\\WorldMapActionButton.lua:19: in function `SetMapAreaID'\nInterface\\FrameXML\\WorldMapFrame.lua:1380: in function `WorldMapFrame_Update'\nInterface\\FrameXML\\WorldMapFrame.lua:2970: in function `WorldMapFrame_UpdateMap'\nInterface\\FrameXML\\WorldMapFrame.lua:469: in function <Interface\\FrameXML\\WorldMapFrame.lua:445>\n[C]: ?\n[C]: in function `SetMapToCurrentZone'\nInterface\\FrameXML\\WorldMapFrame.lua:390: in function <Interface\\FrameXML\\WorldMapFrame.lua:369>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2493: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:2295: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2203: in function <Interface\\FrameXML\\UIParent.lua:2199>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2987: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2971: in function `ToggleFrame'\nInterface\\FrameXML\\WorldMapFrame.lua:267: in function <Interface\\FrameXML\\WorldMapFrame.lua:239>\n[C]: in function `ToggleWorldMap'\n[string \"TOGGLEWORLDMAP\"]:1: in function <[string \"TOGGLEWORLDMAP\"]:1>\n",
-		}, -- [97]
+		}, -- [88]
 		{
 			["message"] = "Note: AddOn WorldQuestTracker attempted to call a protected function (<unnamed>:ClearAllPoints()) during combat lockdown.",
 			["count"] = 14,
@@ -817,7 +745,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-03 12:21:49",
 			["context"] = "AddOn: WorldQuestTracker",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\WorldMapFrame.lua:1576: in function `WorldMapFrame_SetOverlayLocation'\nInterface\\FrameXML\\WorldMapFrame.lua:1599: in function `WorldMapFrame_UpdateOverlayLocations'\nInterface\\FrameXML\\WorldMapFrame.lua:1381: in function `WorldMapFrame_Update'\nInterface\\FrameXML\\WorldMapFrame.lua:2970: in function `WorldMapFrame_UpdateMap'\nInterface\\FrameXML\\WorldMapFrame.lua:469: in function <Interface\\FrameXML\\WorldMapFrame.lua:445>\n[C]: ?\n[C]: in function `SetMapToCurrentZone'\nInterface\\FrameXML\\WorldMapFrame.lua:390: in function <Interface\\FrameXML\\WorldMapFrame.lua:369>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2493: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:2295: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2203: in function <Interface\\FrameXML\\UIParent.lua:2199>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2987: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2971: in function `ToggleFrame'\nInterface\\FrameXML\\WorldMapFrame.lua:267: in function <Interface\\FrameXML\\WorldMapFrame.lua:239>\n[C]: in function `ToggleWorldMap'\n[string \"TOGGLEWORLDMAP\"]:1: in function <[string \"TOGGLEWORLDMAP\"]:1>\n",
-		}, -- [98]
+		}, -- [89]
 		{
 			["message"] = "Note: AddOn WorldQuestTracker attempted to call a protected function (<unnamed>:SetPoint()) during combat lockdown.",
 			["count"] = 14,
@@ -825,7 +753,7 @@ SwatterData = {
 			["timestamp"] = "2018-07-03 12:21:49",
 			["context"] = "AddOn: WorldQuestTracker",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\WorldMapFrame.lua:1582: in function `WorldMapFrame_SetOverlayLocation'\nInterface\\FrameXML\\WorldMapFrame.lua:1599: in function `WorldMapFrame_UpdateOverlayLocations'\nInterface\\FrameXML\\WorldMapFrame.lua:1381: in function `WorldMapFrame_Update'\nInterface\\FrameXML\\WorldMapFrame.lua:2970: in function `WorldMapFrame_UpdateMap'\nInterface\\FrameXML\\WorldMapFrame.lua:469: in function <Interface\\FrameXML\\WorldMapFrame.lua:445>\n[C]: ?\n[C]: in function `SetMapToCurrentZone'\nInterface\\FrameXML\\WorldMapFrame.lua:390: in function <Interface\\FrameXML\\WorldMapFrame.lua:369>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2493: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:2295: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2203: in function <Interface\\FrameXML\\UIParent.lua:2199>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2987: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2971: in function `ToggleFrame'\nInterface\\FrameXML\\WorldMapFrame.lua:267: in function <Interface\\FrameXML\\WorldMapFrame.lua:239>\n[C]: in function `ToggleWorldMap'\n[string \"TOGGLEWORLDMAP\"]:1: in function <[string \"TOGGLEWORLDMAP\"]:1>\n",
-		}, -- [99]
+		}, -- [90]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
@@ -833,12 +761,86 @@ SwatterData = {
 			["timestamp"] = "2018-07-03 17:51:58",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
-		}, -- [100]
+		}, -- [91]
 		{
 			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
 			["count"] = 1,
 			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=bde)\n",
 			["timestamp"] = "2018-07-04 12:15:32",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
+		}, -- [92]
+		{
+			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=bde)\n",
+			["timestamp"] = "2018-07-04 21:29:53",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
+		}, -- [93]
+		{
+			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=bde)\n",
+			["timestamp"] = "2018-07-05 12:09:25",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
+		}, -- [94]
+		{
+			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=bde)\n",
+			["timestamp"] = "2018-07-05 12:14:35",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
+		}, -- [95]
+		{
+			["message"] = "integer overflow attempting to store 90544360000",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucScanData, v7.6.5736 (TasmanianThylacine)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMAntorusBurningThrone, v\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMPartyLegion, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDataStorage, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c55)\n",
+			["locals"] = "",
+			["timestamp"] = "2018-07-05 13:40:04",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\n[C]: in function `SetFormattedText'\nInterface\\AddOns\\Omen\\Omen.lua:1930: in function `UpdateBarsReal'\nInterface\\AddOns\\Omen\\Omen.lua:1729: in function <Interface\\AddOns\\Omen\\Omen.lua:1727>\n",
+		}, -- [96]
+		{
+			["message"] = "integer overflow attempting to store 16131147277.778",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucScanData, v7.6.5736 (TasmanianThylacine)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMAntorusBurningThrone, v\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMPartyLegion, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDataStorage, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=c55)\n",
+			["locals"] = "",
+			["timestamp"] = "2018-07-05 13:41:57",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\n[C]: in function `SetFormattedText'\nInterface\\AddOns\\Omen\\Omen.lua:1930: in function `UpdateBarsReal'\nInterface\\AddOns\\Omen\\Omen.lua:1729: in function <Interface\\AddOns\\Omen\\Omen.lua:1727>\n",
+		}, -- [97]
+		{
+			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=bde)\n",
+			["timestamp"] = "2018-07-05 15:29:05",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
+		}, -- [98]
+		{
+			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=bde)\n",
+			["timestamp"] = "2018-07-07 10:38:03",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
+		}, -- [99]
+		{
+			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=bde)\n",
+			["timestamp"] = "2018-07-07 11:50:17",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
+		}, -- [100]
+		{
+			["message"] = "[string \"--[[ Error in ' Shield Val' ]]return functi...\"]:3: attempt to compare number with nil",
+			["count"] = 1,
+			["addons"] = "  Swatter, v7.6.5736 (TasmanianThylacine)\n  AngryKeystones, v\n  AtlasLoot, vv8.07.13\n  AtlasLootBurningCrusade, vv8.07.13\n  AtlasLootCataclysm, vv8.07.13\n  AtlasLootClassic, vv8.07.13\n  AtlasLootLegion, vv8.07.13\n  AtlasLootMistsofPandaria, vv8.07.13\n  AtlasLootWarlordsofDraenor, vv8.07.13\n  AtlasLootWrathoftheLichKing, vv8.07.13\n  AucAdvanced, v7.6.5736 (TasmanianThylacine)\n  AucFilterBasic, v7.6.5736 (TasmanianThylacine)\n  AucFilterOutlier, v7.6.5736.5459(/embedded)\n  AucMatchUndercut, v7.6.5736.5585(/embedded)\n  AucStatHistogram, v7.6.5736 (TasmanianThylacine)\n  AucStatiLevel, v7.6.5736 (TasmanianThylacine)\n  AucStatPurchased, v7.6.5736 (TasmanianThylacine)\n  AucStatSales, v7.6.5736.5598(/embedded)\n  AucStatSimple, v7.6.5736 (TasmanianThylacine)\n  AucStatStdDev, v7.6.5736 (TasmanianThylacine)\n  AucStatWOWEcon, v7.6.5736.5613(/embedded)\n  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)\n  AucUtilAppraiser, v7.6.5736.5727(/embedded)\n  AucUtilAskPrice, v7.6.5736.5599(/embedded)\n  AucUtilAutoMagic, v7.6.5736.5732(/embedded)\n  AucUtilCompactUI, v7.6.5736.5715(/embedded)\n  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)\n  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)\n  AucUtilItemSuggest, v7.6.5736.5651(/embedded)\n  AucUtilPriceLevel, v7.6.5736.5633(/embedded)\n  AucUtilScanButton, v7.6.5736.5631(/embedded)\n  AucUtilScanFinish, v7.6.5736.5725(/embedded)\n  AucUtilScanProgress, v7.6.5736.4979(/embedded)\n  AucUtilScanStart, v7.6.5736.5725(/embedded)\n  AucUtilSearchUI, v7.6.5736.5731(/embedded)\n  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)\n  AucUtilVendMarkup, v7.6.5736.4828(/embedded)\n  Babylonian, v5.1.DEV.332(/embedded)\n  BeanCounter, v7.6.5736 (TasmanianThylacine)\n  ClassicQuestLog, v1.3.4\n  Configator, v5.1.DEV.434(/embedded)\n  DBMCore, v7.3.31\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  DejaCharacterStats, v730rc108\n  Details, v\n  DetailsDmgRank, v\n  DetailsDpsTuning, v\n  DetailsEncounterDetails, v\n  DetailsRaidCheck, v\n  DetailsRaidInfoEmeraldNightmare, v\n  DetailsRaidInfoNighthold, v\n  DetailsRaidInfoTombOfSargeras, v\n  DetailsRaidInfoTrialOfValor, v\n  DetailsStreamer, v\n  DetailsTimeAttack, v\n  DetailsTinyThreat, v\n  DetailsVanguard, v\n  ElvUI, v10.74\n  Enchantrix, v7.6.5736 (TasmanianThylacine)\n  EnchantrixBarker, v7.6.5736 (TasmanianThylacine)\n  Gatherer, v7.3.1\n  HandyNotes, vv1.4.15\n  HandyNotesDraenorTreasures, v1.20a\n  HandyNotesLegionTreasures, v1\n  HandyNotesPandariaTreasures, v1.06\n  Informant, v7.6.5736 (TasmanianThylacine)\n  LibExtraTip, v5.12.DEV.435(/embedded)\n  Omen, v3.1.12\n  Pawn, v2.2.18\n  RCLootCouncil, v2.7.11\n  sArena, v2.0.7\n  Simulationcraft, v1.9.1\n  SlideBar, v7.6.5736 (TasmanianThylacine)\n  Stubby, v7.6.5736 (TasmanianThylacine)\n  TipHelper, v5.12.DEV.405(/embedded)\n  TomTom, vv70300-1.0.0\n  TradeSkillMaster, vv3.6.43\n  TradeSkillMasterAppHelper, vv3.0.4\n  TradeSkillMasterAuctionDB, vv3.1.19\n  WeakAuras, v2.5.12\n  WorldQuestTracker, v\n  WoWGatheringNodes, vUpdate-04152018124046\n  BlizRuntimeLib_enUS v7.3.5.70300 <none>\n  (ck=bde)\n",
+			["timestamp"] = "2018-07-08 10:40:22",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\WeakAuras\\WeakAuras.lua:4781: in function `ReportError'\nInterface\\AddOns\\WeakAuras\\RegionTypes\\Text.lua:173: in function `UpdateCustomText'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3556: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3550>\n",
 		}, -- [101]
